@@ -1,0 +1,32 @@
+# ── Videos ───────────────────────────────────────────────────────────
+# Source clips are large and re-downloadable via clips/archive.txt (yt-dlp).
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.m4a
+clips/
+
+# ── Generated / regenerable ──────────────────────────────────────────
+# (frames, overlays, composited bg, web cache, per-beat clips; finished reels)
+work/
+output/
+
+# ── Images ───────────────────────────────────────────────────────────
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+# …but keep small tracked figures and the bundled scene library:
+!docs/
+!docs/**
+!backgrounds/
+!backgrounds/**
+# (drop the two !backgrounds lines if you'd rather not commit backgrounds/ —
+#  they can be re-fetched from the AICatMeme repo.)
+
+# ── Cruft ────────────────────────────────────────────────────────────
+.DS_Store
+__pycache__/
+*.pyc

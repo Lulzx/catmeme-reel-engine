@@ -1,0 +1,62 @@
+{
+  "title": "Asking My Boss For A Raise",
+  "output": "final.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you finally asked your boss for a raise",
+  "outro": "FOLLOW FOR PART 2",
+  "outro_cast": [ { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 } ],
+  "beats": [
+    {
+      "action": "*rehearsing my speech in the mirror*",
+      "bg": { "img": "cozy bathroom mirror sink interior", "palette": "mirror" },
+      "cast": [ { "name": "ME", "want": ["rehearsing", "explaining", "talking", "confident"], "size": 0.5 } ]
+    },
+    {
+      "action": "*walking in like I own the place*",
+      "bg": { "img": "corporate office room interior desks", "palette": "office" },
+      "cast": [ { "name": "ME", "want": ["smug", "rizz", "confident", "cool"], "size": 0.5 } ]
+    },
+    {
+      "action": "\"...and why do YOU deserve a raise?\"",
+      "bg": { "img": "manager sitting office desk", "palette": "boss" },
+      "cast": [
+        { "name": "BOSS", "want": ["angry", "menacing", "glaring", "stern"], "pos": 0.67, "size": 0.46 },
+        { "name": "ME", "want": ["startled", "shocked", "nervous", "spooked"], "pos": 0.30, "size": 0.40, "flip": true }
+      ]
+    },
+    {
+      "action": "*my mind goes completely blank*",
+      "bg": { "img": "dark starry night sky space", "palette": "void" },
+      "cast": [ { "name": "ME", "want": ["zoning-out", "dissociating", "blank", "spaced-out"], "size": 0.46 } ]
+    },
+    {
+      "action": "*frantically inventing achievements*",
+      "bg": { "img": "person at computer desk office", "palette": "brain" },
+      "cast": [ { "name": "ME", "want": ["typing", "busy", "panic-work", "working"], "size": 0.48 } ]
+    },
+    {
+      "action": "*what actually came out of my mouth:*",
+      "bg": { "img": "corporate office room interior desks", "palette": "office" },
+      "dur": 5.0,
+      "cast": [ { "name": "ME", "want": ["screaming", "outburst", "yelling", "meowing"], "size": 0.5 } ]
+    },
+    {
+      "action": "*the boss, deeply unimpressed*",
+      "bg": { "img": "manager sitting office desk", "palette": "boss" },
+      "cast": [ { "name": "BOSS", "want": ["deadpan", "unimpressed", "skeptical", "huh"], "size": 0.5 } ]
+    },
+    {
+      "action": "*walking out with the exact same salary*",
+      "bg": { "img": "empty office corridor hallway", "palette": "hallway" },
+      "cast": [ { "name": "ME", "want": ["sad", "defeated", "crying", "pleading"], "size": 0.5 } ]
+    },
+    {
+      "action": "*then I remembered... it's Friday*",
+      "bg": { "img": "city skyline sunset golden hour", "palette": "friday" },
+      "dur": 6.0,
+      "cast": [ { "name": "ME", "want": ["dancing", "hype", "celebrate", "party"], "size": 0.5 } ]
+    }
+  ]
+}
