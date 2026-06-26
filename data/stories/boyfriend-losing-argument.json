@@ -1,0 +1,56 @@
+{
+  "title": "My Boyfriend Is Losing But Won't Stop Talking",
+  "output": "boyfriend-losing-argument.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: your boyfriend is losing the argument but keeps talking",
+  "outro": "FOLLOW FOR PART 2",
+  "outro_cast": [ { "name": "", "want": ["dancing", "hype", "happy", "playful"], "size": 0.44 } ],
+  "beats": [
+    {
+      "action": "*he makes a bold claim with full confidence*",
+      "bg": { "img": "cozy living room couch evening interior", "palette": "neutral" },
+      "cast": [ { "name": "HIM", "want": ["smug", "confident", "rizz", "cool"], "size": 0.5 } ]
+    },
+    {
+      "action": "*I calmly hit him with one fact*",
+      "bg": { "img": "cozy living room couch evening interior", "palette": "neutral" },
+      "cast": [ { "name": "ME", "want": ["deadpan", "unimpressed", "skeptical"], "size": 0.5 } ]
+    },
+    {
+      "action": "*you can SEE the moment he realizes he's wrong*",
+      "bg": { "img": "cozy living room couch evening interior", "palette": "mirror" },
+      "cast": [ { "name": "HIM", "want": ["shocked", "betrayed", "dramatic", "disbelief"], "size": 0.5 } ]
+    },
+    {
+      "action": "*but instead of stopping... he keeps going*",
+      "bg": { "img": "dim living room evening tense interior", "palette": "brain" },
+      "cast": [ { "name": "HIM", "want": ["ranting", "yapping", "explaining", "complaining"], "size": 0.5 } ]
+    },
+    {
+      "action": "*me, just watching him dig the hole deeper*",
+      "bg": { "img": "cozy living room couch evening interior", "palette": "neutral" },
+      "cast": [ { "name": "ME", "want": ["unbothered", "dismissive", "indifferent", "bored"], "size": 0.5 } ]
+    },
+    {
+      "action": "*he doubles down. somehow louder now.*",
+      "bg": { "img": "dim living room evening tense interior", "palette": "rage" },
+      "cast": [ { "name": "HIM", "want": ["screaming", "yelling", "outburst", "furious"], "size": 0.5 } ]
+    },
+    {
+      "action": "*the full standoff: him still arguing, me done*",
+      "bg": { "img": "living room couch evening interior", "palette": "rage" },
+      "cast": [
+        { "name": "HIM", "want": ["yapping", "ranting", "arguing", "complaining"], "pos": 0.30, "size": 0.42 },
+        { "name": "ME", "want": ["unimpressed", "deadpan", "huh"], "pos": 0.70, "size": 0.42, "flip": true }
+      ]
+    },
+    {
+      "action": "*\"...so anyway I was right\"*",
+      "bg": { "img": "dark quiet living room night interior", "palette": "void" },
+      "dur": 5.0,
+      "cast": [ { "name": "ME", "want": ["resigned", "dead-inside", "exhausted", "done"], "size": 0.5 } ]
+    }
+  ]
+}
