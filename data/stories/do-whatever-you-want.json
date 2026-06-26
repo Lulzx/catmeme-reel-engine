@@ -1,0 +1,56 @@
+{
+  "title": "Do Whatever You Want",
+  "output": "do-whatever-you-want.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: She says \"Do whatever you want.\"",
+  "outro": "FOLLOW FOR PART 2",
+  "outro_cast": [ { "name": "", "want": ["resigned", "done", "tired", "deadpan"], "size": 0.44 } ],
+  "beats": [
+    {
+      "action": "*HER: \"Do whatever you want.\"*",
+      "bg": { "img": "cozy living room couch evening interior", "palette": "room" },
+      "cast": [ { "name": "HER", "want": ["unbothered", "side-eye", "smug", "dismissive"], "size": 0.5 } ]
+    },
+    {
+      "action": "*me, an idiot: \"sweet, video games it is\"*",
+      "bg": { "img": "cozy living room couch evening interior", "palette": "room" },
+      "cast": [ { "name": "ME", "want": ["excited", "happy", "playful", "content"], "size": 0.5 } ]
+    },
+    {
+      "action": "*wait... is this a trap?*",
+      "bg": { "img": "dim living room dramatic shadow interior", "palette": "brain" },
+      "cast": [ { "name": "ME", "want": ["suspicious", "nervous", "wary", "skeptical"], "size": 0.5 } ]
+    },
+    {
+      "action": "*running every possible scenario in my head*",
+      "bg": { "img": "person overthinking dark room dramatic", "palette": "brain" },
+      "cast": [ { "name": "ME", "want": ["panic-work", "busy", "working", "frantic"], "size": 0.48 } ]
+    },
+    {
+      "action": "*I picked the wrong thing. I always pick the wrong thing.*",
+      "bg": { "img": "dim living room tense interior night", "palette": "void" },
+      "cast": [ { "name": "ME", "want": ["nervous", "guilty", "alarmed", "scared"], "size": 0.5 } ]
+    },
+    {
+      "action": "*HER: \"so you ACTUALLY did whatever you wanted.\"*",
+      "bg": { "img": "tense living room confrontation night interior", "palette": "rage" },
+      "dur": 5.0,
+      "cast": [
+        { "name": "HER", "want": ["furious", "glaring", "angry", "rage"], "size": 0.5, "pos": 0.30 },
+        { "name": "ME", "want": ["terrified", "scared", "wide-eyed", "alarmed"], "size": 0.5, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*the silent treatment begins*",
+      "bg": { "img": "lonely dark bedroom night interior cold", "palette": "void" },
+      "cast": [ { "name": "ME", "want": ["dead-inside", "heartbroken", "sad", "exhausted"], "size": 0.5 } ]
+    },
+    {
+      "action": "*now I do whatever SHE wants*",
+      "bg": { "img": "bright kitchen chores cleaning interior", "palette": "dawn" },
+      "cast": [ { "name": "ME", "want": ["resigned", "tired", "done", "working"], "size": 0.5 } ]
+    }
+  ]
+}
