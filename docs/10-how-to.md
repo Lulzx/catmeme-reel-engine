@@ -38,6 +38,26 @@ it's self-contained. To add a new clip: drop the file in `clips/` (named `NN - T
 [id].ext`), add an emotion entry for `NN` in the `EMO` dict in `engine/build_catalog.py`
 (and optional taxonomy tags in `TAX_ADD`), then rerun the build.
 
+**Adding a whole pack.** For bulk additions (e.g. a purchased green-screen bundle),
+don't inline dozens of entries — drop a `data/descriptors-<pack>.json` file instead.
+`build_catalog.py` auto-loads every `data/descriptors-*.json`, merging each entry into
+`EMO`/`TAX_ADD` by id. Each object is keyed by clip id and carries the same authored
+fields plus a `tax` list (controlled-taxonomy tags), e.g.:
+
+```jsonc
+{ "043": { "primary": "...", "emotions": [...], "action": "...", "sound": "...",
+           "use_for": "...", "quality": "good", "note": "", "tax": ["happy","playful"] } }
+```
+
+The current library was grown this way: the original 36-clip YouTube set plus the
+139-clip Etsy "Animals" cat pack (ids `043`–`181`, `[etsy-<n>]` provenance) described in
+`data/descriptors-animals.json`. `.mov` sources are supported alongside `.webm/.mkv/.mp4`.
+
+> Provenance: the Etsy clips are a **purchased** pack
+> (etsy.com/uk/listing/1777124547) — unlike the YouTube set they are **not**
+> re-downloadable, and `clips/` is gitignored, so keep the original zip backed up. The
+> `[etsy-<n>]` tag in each filename maps back to the pack's original numbering.
+
 ## Download the source playlist (already done once)
 
 ```bash

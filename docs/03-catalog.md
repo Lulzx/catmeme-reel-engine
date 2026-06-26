@@ -27,6 +27,8 @@ For each clip in `clips/` (`NN - Title [id].ext`):
    cols whose count exceeds 12 % of the peak (this filters edge noise / JPEG fringing).
    Used by the renderer to **ground** the cat and place its **label** and **shadow**.
 5. **Emotion descriptors** — hand-authored once (see taxonomy below), merged in by id.
+   These live either inline in `EMO`/`TAX_ADD` (the original set) or in external
+   `data/descriptors-*.json` packs that the builder auto-loads (bulk additions).
 
 ## Schema (one entry)
 
@@ -82,8 +84,12 @@ So `avoid`/`low` clips are effectively suppressed unless nothing else matches.
 
 ## The current library
 
-36 clips survived the playlist download (6 were deleted/private). They span a wide
-emotional range — screaming, smug/rizz, sad, zoning-out, disgust, dancing, typing,
-driving, sleeping, startled, furious, laughing, "huh?" deadpan, etc. A couple are dogs
-or cartoons (flagged in `note`). Run `python3 engine/build_catalog.py` to print the
-full list with key-colors and primaries.
+**175 clips total** — the original 36 from the YouTube playlist (6 of 42 were
+deleted/private) plus a 139-clip cat pack from an Etsy green-screen bundle (ids
+`043`–`181`, authored in `data/descriptors-animals.json`). The pack was filtered to
+cats only with a small vision model (LFM2-VL) and per-clip visual authoring; non-cats
+(dogs, rabbits, etc.) were excluded. They span a wide emotional range — screaming,
+smug/rizz, sad, zoning-out, disgust, dancing, typing, driving, sleeping, startled,
+furious, laughing, "huh?" deadpan, begging, hissing, doomscrolling, costumed bits, and
+more. A few are cartoons (flagged in `note`). Run `python3 engine/build_catalog.py` to
+print the full list with key-colors and primaries.

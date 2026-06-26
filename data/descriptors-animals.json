@@ -1,0 +1,3052 @@
+{
+  "043": {
+    "primary": "wide-eyed shock",
+    "emotions": [
+      "startled",
+      "wide-eyed",
+      "alarmed",
+      "alert",
+      "caught-off-guard",
+      "spooked"
+    ],
+    "action": "cat snaps its head up with eyes blown wide",
+    "sound": "sharp gasp",
+    "use_for": "sudden realization, getting caught, shocked double-take",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "surprised",
+      "scared",
+      "curious"
+    ]
+  },
+  "044": {
+    "primary": "reluctant protest",
+    "emotions": [
+      "protesting",
+      "reluctant",
+      "trapped",
+      "squished",
+      "handled",
+      "indignant"
+    ],
+    "action": "gloved hand stuffs a white cat into a carrier as it meows",
+    "sound": "muffled meow",
+    "use_for": "being forced into something, reluctant compliance, getting manhandled",
+    "quality": "ok",
+    "note": "carrier prop",
+    "tax": [
+      "annoyed",
+      "resigned",
+      "nervous"
+    ]
+  },
+  "045": {
+    "primary": "surprised squeak",
+    "emotions": [
+      "squeaking",
+      "wide-eyed",
+      "tiny-meow",
+      "innocent",
+      "startled",
+      "peeping"
+    ],
+    "action": "kitten opens its mouth in a small squeaky meow",
+    "sound": "tiny squeak meow",
+    "use_for": "cute little outburst, surprised peep, innocent reaction",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "surprised",
+      "curious",
+      "scared"
+    ]
+  },
+  "046": {
+    "primary": "snobby judgment",
+    "emotions": [
+      "snobby",
+      "bougie",
+      "judgmental",
+      "fancy",
+      "posh",
+      "looking-down"
+    ],
+    "action": "glam white cat in pearls stares down before cutting to a sitting cat",
+    "sound": "ambient",
+    "use_for": "looking down on someone, rich-snob energy, unimpressed judgment",
+    "quality": "avoid",
+    "note": "compilation, subject changes",
+    "tax": [
+      "unimpressed",
+      "proud",
+      "indifferent"
+    ]
+  },
+  "047": {
+    "primary": "smug squint",
+    "emotions": [
+      "smug",
+      "squinting",
+      "unbothered",
+      "cocky",
+      "dead-inside",
+      "self-satisfied"
+    ],
+    "action": "camera pushes in as the cat squints smugly down its nose",
+    "sound": "ambient",
+    "use_for": "smug satisfaction, unbothered flex, knowing you are right",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "proud",
+      "content",
+      "unimpressed"
+    ]
+  },
+  "048": {
+    "primary": "cozy affection",
+    "emotions": [
+      "cuddling",
+      "cozy",
+      "grooming",
+      "snuggly",
+      "nuzzling",
+      "warm"
+    ],
+    "action": "two cats nestle together and one nuzzles the other",
+    "sound": "soft purr",
+    "use_for": "wholesome love, snuggling up, affectionate friendship",
+    "quality": "low",
+    "note": "low-res, blurry",
+    "tax": [
+      "affectionate",
+      "loving",
+      "content"
+    ]
+  },
+  "049": {
+    "primary": "confident strut",
+    "emotions": [
+      "strutting",
+      "approaching",
+      "confident",
+      "walking",
+      "determined",
+      "bold"
+    ],
+    "action": "gray kitten walks straight at the camera growing larger",
+    "sound": "soft padding steps",
+    "use_for": "making an entrance, walking up confidently, approaching menacingly",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "curious",
+      "playful",
+      "proud"
+    ]
+  },
+  "050": {
+    "primary": "jazzy sax solo",
+    "emotions": [
+      "jazzy",
+      "musical",
+      "performing",
+      "groovy",
+      "silly",
+      "showy"
+    ],
+    "action": "costumed white cat appears to play a toy saxophone",
+    "sound": "smooth saxophone",
+    "use_for": "smooth jazz moment, silly performance, vibing musically",
+    "quality": "good",
+    "note": "costume",
+    "tax": [
+      "playful",
+      "content",
+      "proud"
+    ]
+  },
+  "051": {
+    "primary": "deadpan stare",
+    "emotions": [
+      "deadpan",
+      "blank",
+      "staring",
+      "done",
+      "flat",
+      "unmoved"
+    ],
+    "action": "chunky tabby sits dead-still staring straight ahead",
+    "sound": "ambient",
+    "use_for": "unimpressed reaction, blank stare, deadpan punchline",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "unimpressed",
+      "indifferent",
+      "bored"
+    ]
+  },
+  "052": {
+    "primary": "sneaky plotting",
+    "emotions": [
+      "plotting",
+      "sneaky",
+      "side-eye",
+      "scheming",
+      "sly",
+      "menacing"
+    ],
+    "action": "black cat glances sideways with a small utensil by its paws",
+    "sound": "ambient",
+    "use_for": "plotting something, suspicious side-eye, mischievous scheming",
+    "quality": "ok",
+    "note": "dark subject",
+    "tax": [
+      "mischievous",
+      "curious",
+      "annoyed"
+    ]
+  },
+  "053": {
+    "primary": "chill lounging",
+    "emotions": [
+      "chill",
+      "lounging",
+      "mellow",
+      "half-lidded",
+      "lazy",
+      "laid-back"
+    ],
+    "action": "tabby reclines and gazes down with droopy half-lidded eyes",
+    "sound": "quiet purr",
+    "use_for": "kicking back, lazy relaxation, unbothered chilling",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "relaxed",
+      "content",
+      "sleepy"
+    ]
+  },
+  "054": {
+    "primary": "unbothered side-eye",
+    "emotions": [
+      "side-eye",
+      "turning",
+      "squint",
+      "skeptical",
+      "judging",
+      "unbothered"
+    ],
+    "action": "cat turns from looking away to squinting at the camera",
+    "sound": "ambient",
+    "use_for": "slow judgmental turn, skeptical glance, unimpressed reaction",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "unimpressed",
+      "annoyed",
+      "confused"
+    ]
+  },
+  "055": {
+    "primary": "wary fixation",
+    "emotions": [
+      "watching",
+      "fixated",
+      "wary",
+      "stalking",
+      "side-eye",
+      "intrigued",
+      "tense"
+    ],
+    "action": "dark cat watches a small white parrot bob beside it",
+    "sound": "ambient",
+    "use_for": "side-eyeing something suspicious, locking onto a target, quiet stalking",
+    "quality": "partial",
+    "note": "cat cropped at frame edge, second subject (bird)",
+    "tax": [
+      "curious",
+      "nervous",
+      "indifferent"
+    ]
+  },
+  "056": {
+    "primary": "deadpan approach",
+    "emotions": [
+      "approaching",
+      "walking",
+      "deadpan",
+      "unbothered",
+      "coming-over",
+      "stone-faced"
+    ],
+    "action": "brown collared cat strides slowly toward the camera",
+    "sound": "ambient",
+    "use_for": "walking up to confront someone, slow menacing approach, coming over deadpan",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "indifferent",
+      "unimpressed",
+      "curious"
+    ]
+  },
+  "057": {
+    "primary": "blissful relaxation",
+    "emotions": [
+      "blissful",
+      "melting",
+      "cozy",
+      "content",
+      "pampered",
+      "relaxed",
+      "dreamy"
+    ],
+    "action": "scottish fold sprawls on its back paws up in pure bliss",
+    "sound": "quiet purr",
+    "use_for": "total relaxation, being pampered, blissful contentment, melting into comfort",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "relaxed",
+      "content",
+      "happy",
+      "sleepy"
+    ]
+  },
+  "058": {
+    "primary": "unimpressed puppet",
+    "emotions": [
+      "unimpressed",
+      "done",
+      "puppeteered",
+      "deadpan",
+      "humiliated",
+      "stiff",
+      "judgy"
+    ],
+    "action": "cat in a green tutu is held upright and made to dance by human hands",
+    "sound": "ambient",
+    "use_for": "being dragged into something, dead-eyed compliance, forced fun, pure done-ness",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "unimpressed",
+      "annoyed",
+      "resigned"
+    ]
+  },
+  "059": {
+    "primary": "deadpan sprawl",
+    "emotions": [
+      "draped",
+      "limp",
+      "deadpan",
+      "unbothered",
+      "lounging",
+      "blank",
+      "zoning-out"
+    ],
+    "action": "orange cat hangs limply over a ledge with legs dangling, staring ahead",
+    "sound": "ambient",
+    "use_for": "low-energy mood, hanging around blankly, total lack of motivation",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "bored",
+      "indifferent",
+      "relaxed"
+    ]
+  },
+  "060": {
+    "primary": "eager begging",
+    "emotions": [
+      "begging",
+      "reaching",
+      "pleading",
+      "eager",
+      "standing-up",
+      "wanting",
+      "grabby"
+    ],
+    "action": "tuxedo cat sits up on hind legs and reaches both paws upward",
+    "sound": "ambient",
+    "use_for": "begging for something, reaching out desperately, gimme gimme energy",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "hungry",
+      "excited",
+      "playful"
+    ]
+  },
+  "061": {
+    "primary": "startled hiss",
+    "emotions": [
+      "hissing",
+      "startled",
+      "spooked",
+      "defensive",
+      "yelling",
+      "flustered",
+      "reactive"
+    ],
+    "action": "white cat whips around and hisses at a calm golden cat nearby",
+    "sound": "cat hiss",
+    "use_for": "overreacting to someone, sudden outburst at a calm rival, dramatic offense",
+    "quality": "ok",
+    "note": "two cats",
+    "tax": [
+      "surprised",
+      "annoyed",
+      "scared"
+    ]
+  },
+  "062": {
+    "primary": "cautious greeting",
+    "emotions": [
+      "sniffing",
+      "meeting",
+      "cautious",
+      "leaning-in",
+      "inspecting",
+      "shy",
+      "tentative"
+    ],
+    "action": "a grey and white cat leans in to sniff noses with a tabby cat",
+    "sound": "ambient",
+    "use_for": "awkward first meeting, cautious greeting, sniffing out a stranger",
+    "quality": "ok",
+    "note": "two cats",
+    "tax": [
+      "curious",
+      "nervous",
+      "pensive"
+    ]
+  },
+  "063": {
+    "primary": "chorus of meows",
+    "emotions": [
+      "screaming",
+      "meowing",
+      "yelling",
+      "loud",
+      "demanding",
+      "noisy",
+      "outburst"
+    ],
+    "action": "three different cats each yowl with open mouths in quick succession",
+    "sound": "loud cat meows",
+    "use_for": "loud complaining, everyone shouting at once, demanding chaos",
+    "quality": "avoid",
+    "note": "compilation of different cats",
+    "tax": [
+      "angry",
+      "surprised",
+      "annoyed"
+    ]
+  },
+  "064": {
+    "primary": "hopeful gaze",
+    "emotions": [
+      "hopeful",
+      "looking-up",
+      "longing",
+      "pleading",
+      "soft",
+      "expectant",
+      "wistful"
+    ],
+    "action": "orange cat gazes upward longingly then lowers its head away",
+    "sound": "ambient",
+    "use_for": "pleading look, hoping for a yes, soft longing then disappointment",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "sad",
+      "curious",
+      "pensive"
+    ]
+  },
+  "065": {
+    "primary": "cursed deadpan",
+    "emotions": [
+      "cursed",
+      "surreal",
+      "weird",
+      "deadpan",
+      "uncanny",
+      "floating",
+      "wtf"
+    ],
+    "action": "a cat head sits atop an edited fish body floating in place",
+    "sound": "ambient",
+    "use_for": "cursed surreal humor, something deeply wrong, uncanny wtf moments",
+    "quality": "ok",
+    "note": "edited catfish meme",
+    "tax": [
+      "confused",
+      "indifferent",
+      "disgusted"
+    ]
+  },
+  "066": {
+    "primary": "joyful dance",
+    "emotions": [
+      "dancing",
+      "joyful",
+      "bouncy",
+      "celebrating",
+      "twirling",
+      "happy",
+      "energetic"
+    ],
+    "action": "tuxedo cat dances upright swinging its paws side to side",
+    "sound": "ambient",
+    "use_for": "celebration, happy dance, vibing to music, pure joy",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "happy",
+      "playful",
+      "excited"
+    ]
+  },
+  "067": {
+    "primary": "goofy joy",
+    "emotions": [
+      "dancing",
+      "wiggly",
+      "goofy",
+      "hyper",
+      "celebrating",
+      "silly",
+      "bouncy"
+    ],
+    "action": "small cat twists and flails its paws mid-dance",
+    "sound": "upbeat music",
+    "use_for": "celebrating a win, goofy happy energy, dancing it out",
+    "quality": "low",
+    "note": "tiny subject",
+    "tax": [
+      "happy",
+      "playful",
+      "excited"
+    ]
+  },
+  "068": {
+    "primary": "groovy swagger",
+    "emotions": [
+      "dancing",
+      "grooving",
+      "swagger",
+      "vibing",
+      "confident",
+      "bobbing",
+      "cool"
+    ],
+    "action": "tabby stands upright and bobs side to side wearing a green cap",
+    "sound": "dance beat",
+    "use_for": "vibing to a song, strutting in, smooth dance moves",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "playful",
+      "proud",
+      "content"
+    ]
+  },
+  "069": {
+    "primary": "deadpan judgment",
+    "emotions": [
+      "side-eye",
+      "judging",
+      "deadpan",
+      "unbothered",
+      "skeptical",
+      "staring",
+      "done"
+    ],
+    "action": "cat in a driver seat turns its head to stare flatly at the camera",
+    "sound": "engine hum",
+    "use_for": "judging someone silently, unimpressed reaction, slow turn of disapproval",
+    "quality": "partial",
+    "note": "real car interior visible",
+    "tax": [
+      "unimpressed",
+      "annoyed",
+      "indifferent"
+    ]
+  },
+  "070": {
+    "primary": "menacing approach",
+    "emotions": [
+      "menacing",
+      "creeping",
+      "looming",
+      "intense",
+      "ominous",
+      "glaring",
+      "dramatic"
+    ],
+    "action": "dim grey cat leans in and grows larger toward the camera",
+    "sound": "dramatic sting",
+    "use_for": "ominous buildup, slow threatening zoom, plotting something",
+    "quality": "ok",
+    "note": "dark lighting",
+    "tax": [
+      "angry",
+      "mischievous",
+      "pensive"
+    ]
+  },
+  "071": {
+    "primary": "sneaky curiosity",
+    "emotions": [
+      "peeking",
+      "curious",
+      "sneaky",
+      "watching",
+      "reaching",
+      "nosy",
+      "cautious"
+    ],
+    "action": "tabby pokes its head and paw out from behind a wooden board",
+    "sound": "ambient",
+    "use_for": "spying around a corner, nosy curiosity, sneaking a look",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "curious",
+      "mischievous",
+      "nervous"
+    ]
+  },
+  "072": {
+    "primary": "demanding meow",
+    "emotions": [
+      "meowing",
+      "begging",
+      "asking",
+      "vocal",
+      "expectant",
+      "hungry",
+      "pleading"
+    ],
+    "action": "black and white cat sits and looks up while meowing",
+    "sound": "single meow",
+    "use_for": "asking for food, begging for attention, calling out a line",
+    "quality": "ok",
+    "note": "",
+    "tax": [
+      "hungry",
+      "curious",
+      "content"
+    ]
+  },
+  "073": {
+    "primary": "cool swagger",
+    "emotions": [
+      "cool",
+      "confident",
+      "swagger",
+      "boss",
+      "stylish",
+      "cruising",
+      "smug"
+    ],
+    "action": "tabby in sunglasses and an orange vest grips the wheel and looks around",
+    "sound": "smooth music",
+    "use_for": "rolling up cool, boss energy, cruising with confidence",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "proud",
+      "content",
+      "indifferent"
+    ]
+  },
+  "074": {
+    "primary": "curious duo",
+    "emotions": [
+      "curious",
+      "watching",
+      "paired",
+      "alert",
+      "wide-eyed",
+      "calm",
+      "together"
+    ],
+    "action": "a calico and a dark kitten sit side by side looking around",
+    "sound": "ambient",
+    "use_for": "two friends reacting, watching together, paired curiosity",
+    "quality": "ok",
+    "note": "two cats",
+    "tax": [
+      "curious",
+      "content",
+      "playful"
+    ]
+  },
+  "075": {
+    "primary": "starstruck stare",
+    "emotions": [
+      "wide-eyed",
+      "staring",
+      "innocent",
+      "curious",
+      "hopeful",
+      "starstruck",
+      "alert"
+    ],
+    "action": "tuxedo cat in a McDonald's cap gazes up with huge eyes",
+    "sound": "ambient",
+    "use_for": "wanting fast food, innocent wide-eyed reaction, hopeful staring",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "curious",
+      "surprised",
+      "hungry"
+    ]
+  },
+  "076": {
+    "primary": "about to cry",
+    "emotions": [
+      "sad",
+      "teary",
+      "heartbroken",
+      "downcast",
+      "gloomy",
+      "sorrowful",
+      "pleading"
+    ],
+    "action": "tabby looks down with glassy welling eyes",
+    "sound": "ambient",
+    "use_for": "feeling heartbroken, holding back tears, somber reaction",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "sad",
+      "resigned",
+      "pensive"
+    ]
+  },
+  "077": {
+    "primary": "smug contentment",
+    "emotions": [
+      "content",
+      "loafing",
+      "relaxed",
+      "smug",
+      "cozy",
+      "lounging",
+      "satisfied"
+    ],
+    "action": "white and tabby cat sits in a loaf gazing calmly ahead",
+    "sound": "quiet purr",
+    "use_for": "chilling and content, smug relaxation, settled and unbothered",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "content",
+      "relaxed",
+      "proud"
+    ]
+  },
+  "078": {
+    "primary": "unimpressed grump",
+    "emotions": [
+      "grumpy",
+      "unimpressed",
+      "annoyed",
+      "tolerating",
+      "stern",
+      "deadpan",
+      "bothered"
+    ],
+    "action": "another cat's paw paws at a grumpy scottish fold who scowls",
+    "sound": "ambient",
+    "use_for": "being pestered, unimpressed reaction, tolerating annoyance",
+    "quality": "good",
+    "note": "two cats",
+    "tax": [
+      "annoyed",
+      "unimpressed",
+      "bored"
+    ]
+  },
+  "079": {
+    "primary": "slap attack",
+    "emotions": [
+      "slapping",
+      "fighting",
+      "swatting",
+      "scuffle",
+      "feisty",
+      "playful",
+      "smacking"
+    ],
+    "action": "an orange cat reaches over and smacks a smaller cat in the face",
+    "sound": "scuffle",
+    "use_for": "play fighting, sudden slap, picking a fight",
+    "quality": "good",
+    "note": "two cats",
+    "tax": [
+      "playful",
+      "angry",
+      "mischievous"
+    ]
+  },
+  "080": {
+    "primary": "grumpy disdain",
+    "emotions": [
+      "grumpy",
+      "unimpressed",
+      "scowling",
+      "judging",
+      "irritated",
+      "sour",
+      "side-eye"
+    ],
+    "action": "white fluffy cat glares downward with a sour frown",
+    "sound": "ambient",
+    "use_for": "judging someone, silent disapproval, grumpy mood, hating a take",
+    "quality": "partial",
+    "note": "jagged key edge",
+    "tax": [
+      "unimpressed",
+      "annoyed",
+      "disgusted"
+    ]
+  },
+  "081": {
+    "primary": "goofy dance",
+    "emotions": [
+      "dancing",
+      "spinning",
+      "silly",
+      "wiggling",
+      "hyper",
+      "meme-dance",
+      "grooving"
+    ],
+    "action": "small black and white cat spins and dances on hind legs",
+    "sound": "upbeat music",
+    "use_for": "celebrating, dancing to a beat, silly victory wiggle",
+    "quality": "low",
+    "note": "tiny subject, low-res",
+    "tax": [
+      "playful",
+      "excited",
+      "happy"
+    ]
+  },
+  "082": {
+    "primary": "cheery presenting",
+    "emotions": [
+      "dancing",
+      "presenting",
+      "waving",
+      "upbeat",
+      "cute",
+      "showing-off",
+      "peppy"
+    ],
+    "action": "orange and white kitten stands and swings one arm up like a dance move",
+    "sound": "upbeat music",
+    "use_for": "introducing something, ta-da reveal, happy little dance",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "happy",
+      "playful",
+      "excited"
+    ]
+  },
+  "083": {
+    "primary": "curious glance back",
+    "emotions": [
+      "turning",
+      "looking-back",
+      "curious",
+      "alert",
+      "watching",
+      "glancing",
+      "wary"
+    ],
+    "action": "grey tabby cat sits then turns to look over its shoulder",
+    "sound": "ambient",
+    "use_for": "hearing your name, checking who's there, slow turn reaction",
+    "quality": "ok",
+    "note": "",
+    "tax": [
+      "curious",
+      "surprised",
+      "indifferent"
+    ]
+  },
+  "084": {
+    "primary": "hopeful begging",
+    "emotions": [
+      "upright",
+      "looking-up",
+      "begging",
+      "pleading",
+      "cute",
+      "reaching",
+      "wide-eyed"
+    ],
+    "action": "black and white kitten stands tall on hind legs gazing upward",
+    "sound": "soft mew",
+    "use_for": "begging for treats, praying for good news, hopeful waiting",
+    "quality": "ok",
+    "note": "hands hold kitten",
+    "tax": [
+      "curious",
+      "loving",
+      "nervous"
+    ]
+  },
+  "085": {
+    "primary": "sad puppy eyes",
+    "emotions": [
+      "watery-eyes",
+      "pleading",
+      "tearful",
+      "soft",
+      "melancholy",
+      "longing",
+      "vulnerable"
+    ],
+    "action": "fluffy tabby cat looks up with big sorrowful eyes",
+    "sound": "ambient",
+    "use_for": "emotional moment, pleading sad face, holding back tears",
+    "quality": "partial",
+    "note": "slight blur, jagged edge",
+    "tax": [
+      "sad",
+      "pensive",
+      "loving"
+    ]
+  },
+  "086": {
+    "primary": "smug sipping",
+    "emotions": [
+      "sipping",
+      "tea",
+      "smug",
+      "gossip",
+      "relaxed",
+      "satisfied",
+      "calm"
+    ],
+    "action": "cartoon Tom cat pours from a kettle and sips from a cup",
+    "sound": "gentle pour",
+    "use_for": "spilling tea, smug commentary, calmly watching drama unfold",
+    "quality": "good",
+    "note": "cartoon",
+    "tax": [
+      "content",
+      "relaxed",
+      "mischievous"
+    ]
+  },
+  "087": {
+    "primary": "wide eyed yapping",
+    "emotions": [
+      "talking",
+      "yapping",
+      "wide-eyed",
+      "alert",
+      "mouthy",
+      "chatty",
+      "intense"
+    ],
+    "action": "dark Cornish Rex cat opens its mouth as if mid-sentence",
+    "sound": "cat meow",
+    "use_for": "delivering a line, yapping back, dramatic monologue",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "surprised",
+      "curious",
+      "excited"
+    ]
+  },
+  "088": {
+    "primary": "armed menace",
+    "emotions": [
+      "armed",
+      "aiming",
+      "threatening",
+      "dancing",
+      "tough",
+      "badass",
+      "menacing"
+    ],
+    "action": "tabby cat stands holding and swinging an AK-47 rifle",
+    "sound": "ambient",
+    "use_for": "threatening jokingly, locked and loaded, going to war over nothing",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "angry",
+      "playful",
+      "proud"
+    ]
+  },
+  "089": {
+    "primary": "stunned gasp",
+    "emotions": [
+      "shocked",
+      "gasping",
+      "stunned",
+      "mouth-open",
+      "disbelief",
+      "amazed",
+      "startled"
+    ],
+    "action": "grey tabby cat drops its jaw in a shocked gasp",
+    "sound": "ambient",
+    "use_for": "plot twist reaction, jaw-drop shock, cannot believe it",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "surprised",
+      "scared",
+      "excited"
+    ]
+  },
+  "090": {
+    "primary": "cozy group petting",
+    "emotions": [
+      "petting",
+      "group",
+      "cuddly",
+      "content",
+      "huddled",
+      "soothed",
+      "calm"
+    ],
+    "action": "a hand reaches in to pet a cluster of Scottish fold cats",
+    "sound": "ambient",
+    "use_for": "group comfort, getting attention, cozy pile of friends",
+    "quality": "partial",
+    "note": "human hand, multiple cats",
+    "tax": [
+      "content",
+      "affectionate",
+      "relaxed"
+    ]
+  },
+  "091": {
+    "primary": "money focus",
+    "emotions": [
+      "counting",
+      "money",
+      "cash",
+      "focused",
+      "head-down",
+      "greedy",
+      "busy"
+    ],
+    "action": "brown cat hunches its head down over a stack of bills",
+    "sound": "ambient",
+    "use_for": "counting money, getting paid, focused on the bag",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "content",
+      "proud",
+      "pensive"
+    ]
+  },
+  "092": {
+    "primary": "handy worker",
+    "emotions": [
+      "wrench",
+      "fixing",
+      "working",
+      "handy",
+      "tool",
+      "mechanic",
+      "busy"
+    ],
+    "action": "tabby cat stands gripping a wrench like a tool",
+    "sound": "ambient",
+    "use_for": "fixing things, getting to work, handyman energy",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "playful",
+      "content",
+      "curious"
+    ]
+  },
+  "093": {
+    "primary": "sullen displeasure",
+    "emotions": [
+      "grumpy",
+      "looking-down",
+      "displeased",
+      "sulking",
+      "moody",
+      "judgy",
+      "unamused"
+    ],
+    "action": "fluffy white cat sits and turns head down with a sour look",
+    "sound": "ambient",
+    "use_for": "being unimpressed, sulking, looking down on someone, quiet disapproval",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "unimpressed",
+      "annoyed",
+      "pensive"
+    ]
+  },
+  "094": {
+    "primary": "sobbing despair",
+    "emotions": [
+      "crying",
+      "sobbing",
+      "tears",
+      "banana-cat",
+      "wailing",
+      "heartbroken",
+      "weeping"
+    ],
+    "action": "banana-costumed cat bawls with arcing water tears shooting out",
+    "sound": "loud cat wail",
+    "use_for": "dramatic sobbing, fake crying, exaggerated heartbreak, meltdown",
+    "quality": "good",
+    "note": "cartoon",
+    "tax": [
+      "sad",
+      "scared"
+    ]
+  },
+  "095": {
+    "primary": "snack craving",
+    "emotions": [
+      "hungry",
+      "reaching",
+      "snacking",
+      "wanting",
+      "grabby",
+      "curious",
+      "tempted"
+    ],
+    "action": "tabby cat stands beside a Cheetos bag and paws at it",
+    "sound": "crinkling bag",
+    "use_for": "wanting a snack, grabbing food, craving junk, reaching for what you want",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "hungry",
+      "curious",
+      "playful"
+    ]
+  },
+  "096": {
+    "primary": "deadpan stare",
+    "emotions": [
+      "deadpan",
+      "staring",
+      "unbothered",
+      "blank",
+      "dead-inside",
+      "flat",
+      "judging"
+    ],
+    "action": "white and brown cat lies with paws crossed staring blankly at camera",
+    "sound": "ambient",
+    "use_for": "blank unimpressed stare, deadpan reaction, not amused, judging silently",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "unimpressed",
+      "indifferent",
+      "bored"
+    ]
+  },
+  "097": {
+    "primary": "teary sadness",
+    "emotions": [
+      "crying",
+      "teary",
+      "sad",
+      "watery-eyes",
+      "heartbroken",
+      "pleading",
+      "emotional"
+    ],
+    "action": "white cat with welling teary eyes looks up sadly in closeup",
+    "sound": "ambient",
+    "use_for": "feeling hurt, holding back tears, sad pleading, emotional moment",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "sad",
+      "resigned",
+      "nervous"
+    ]
+  },
+  "098": {
+    "primary": "side-eye dismissal",
+    "emotions": [
+      "side-eye",
+      "turning-away",
+      "dismissive",
+      "wary",
+      "skeptical",
+      "loafing",
+      "unimpressed"
+    ],
+    "action": "tuxedo cat loafs then turns its body away from the camera",
+    "sound": "ambient",
+    "use_for": "dismissing someone, turning your back, skeptical side-eye, walking off",
+    "quality": "ok",
+    "note": "",
+    "tax": [
+      "unimpressed",
+      "annoyed",
+      "indifferent"
+    ]
+  },
+  "099": {
+    "primary": "timid distance",
+    "emotions": [
+      "small",
+      "distant",
+      "timid",
+      "watching",
+      "alone",
+      "quiet",
+      "shy"
+    ],
+    "action": "orange cat sits far off to the side and looks around quietly",
+    "sound": "ambient",
+    "use_for": "feeling small, lurking at a distance, shy observing, awkward corner",
+    "quality": "low",
+    "note": "tiny subject",
+    "tax": [
+      "nervous",
+      "curious",
+      "bored"
+    ]
+  },
+  "100": {
+    "primary": "blissed-out drift",
+    "emotions": [
+      "floating",
+      "belly-up",
+      "relaxed",
+      "drifting",
+      "limp",
+      "carefree",
+      "blissful"
+    ],
+    "action": "point cat lies belly-up and drifts as if floating through space",
+    "sound": "whoosh",
+    "use_for": "total relaxation, drifting away, carefree vibes, letting go",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "relaxed",
+      "content",
+      "sleepy"
+    ]
+  },
+  "101": {
+    "primary": "joyful singing",
+    "emotions": [
+      "singing",
+      "humming",
+      "blissful",
+      "eyes-closed",
+      "vibing",
+      "crooning",
+      "happy"
+    ],
+    "action": "orange cat tilts head back with eyes closed mouthing a song",
+    "sound": "cat meow-song",
+    "use_for": "singing a line, vibing to music, blissful crooning, feeling the song",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "happy",
+      "content",
+      "relaxed"
+    ]
+  },
+  "102": {
+    "primary": "smug squint",
+    "emotions": [
+      "smug",
+      "squinting",
+      "knowing",
+      "side-glance",
+      "sly",
+      "confident",
+      "judgy"
+    ],
+    "action": "tabby cat fills the corner squinting slyly toward camera",
+    "sound": "ambient",
+    "use_for": "smug knowing look, sly confidence, calling someone out, being cocky",
+    "quality": "partial",
+    "note": "subject off to side",
+    "tax": [
+      "mischievous",
+      "proud",
+      "unimpressed"
+    ]
+  },
+  "103": {
+    "primary": "soapy chaos",
+    "emotions": [
+      "bathing",
+      "splashing",
+      "soaked",
+      "struggling",
+      "wet",
+      "scrambling",
+      "frantic"
+    ],
+    "action": "soapy kitten thrashes and splashes inside a black bowl of water",
+    "sound": "water splashing",
+    "use_for": "bath-time chaos, getting soaked, frantic struggle, messy situation",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "scared",
+      "nervous",
+      "annoyed"
+    ]
+  },
+  "104": {
+    "primary": "goofy dance",
+    "emotions": [
+      "dancing",
+      "standing",
+      "wiggling",
+      "goofy",
+      "grooving",
+      "paws-up",
+      "silly"
+    ],
+    "action": "chubby cat stands upright and waves its paws like dancing",
+    "sound": "upbeat music",
+    "use_for": "dancing celebration, goofy victory wiggle, vibing, silly groove",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "playful",
+      "excited",
+      "happy"
+    ]
+  },
+  "105": {
+    "primary": "praising reach",
+    "emotions": [
+      "reaching",
+      "paws-up",
+      "praising",
+      "stretching",
+      "yearning",
+      "begging",
+      "uplifted"
+    ],
+    "action": "dark cat raises both paws upward and reaches toward the sky",
+    "sound": "ambient",
+    "use_for": "praising hands up, reaching for something, hallelujah moment, begging",
+    "quality": "ok",
+    "note": "dark backlit",
+    "tax": [
+      "excited",
+      "playful",
+      "loving"
+    ]
+  },
+  "106": {
+    "primary": "goofy upside-down derp",
+    "emotions": [
+      "upside-down",
+      "derpy",
+      "silly",
+      "tongue-out",
+      "playful",
+      "goofy",
+      "blep"
+    ],
+    "action": "white kitten lies on its back with head tilted and tongue poking out",
+    "sound": "soft mew",
+    "use_for": "being a silly goofball, derp moments, harmless chaos, blep energy",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "playful",
+      "happy",
+      "content"
+    ]
+  },
+  "107": {
+    "primary": "petty slap",
+    "emotions": [
+      "slapping",
+      "poking",
+      "provoking",
+      "annoying",
+      "reaching",
+      "bullying",
+      "sassy"
+    ],
+    "action": "white cat reaches out a paw to poke and bat at a grumpy grey tabby",
+    "sound": "soft thwap",
+    "use_for": "poking someone for fun, starting drama, petty annoyance, asking for attention",
+    "quality": "good",
+    "note": "two cats",
+    "tax": [
+      "mischievous",
+      "annoyed",
+      "playful"
+    ]
+  },
+  "108": {
+    "primary": "wide-eyed pounce focus",
+    "emotions": [
+      "creeping",
+      "stalking",
+      "focused",
+      "wide-eyed",
+      "approaching",
+      "curious",
+      "intense"
+    ],
+    "action": "grey kitten crouches low and creeps steadily closer until it fills the frame",
+    "sound": "ambient",
+    "use_for": "locking onto a target, slow approach, about to pounce, intense focus",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "curious",
+      "excited",
+      "playful"
+    ]
+  },
+  "109": {
+    "primary": "blissful slob lounge",
+    "emotions": [
+      "lounging",
+      "chilling",
+      "relaxed",
+      "content",
+      "lazy",
+      "reclining",
+      "blissful"
+    ],
+    "action": "chubby tabby sits propped back on its haunches with eyes blissfully closed",
+    "sound": "ambient",
+    "use_for": "kicking back, total relaxation, doing absolutely nothing, lazy contentment",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "relaxed",
+      "content",
+      "sleepy"
+    ]
+  },
+  "110": {
+    "primary": "rolling play mood",
+    "emotions": [
+      "rolling",
+      "playful",
+      "wiggling",
+      "belly-up",
+      "squirming",
+      "happy",
+      "loose"
+    ],
+    "action": "orange cat lies on its back and rolls around with mouth open",
+    "sound": "playful chirp",
+    "use_for": "goofing around, rolling with laughter, carefree silliness, play time",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "playful",
+      "happy",
+      "excited"
+    ]
+  },
+  "111": {
+    "primary": "puzzled head tilt",
+    "emotions": [
+      "head-tilt",
+      "wondering",
+      "questioning",
+      "puzzled",
+      "looking-up",
+      "curious",
+      "attentive"
+    ],
+    "action": "tabby cat tilts its head sideways and looks up inquisitively",
+    "sound": "soft trill",
+    "use_for": "asking a question, confused wondering, tilting at something odd, curiosity",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "curious",
+      "confused",
+      "pensive"
+    ]
+  },
+  "112": {
+    "primary": "startled peek",
+    "emotions": [
+      "peeking",
+      "startled",
+      "wide-eyed",
+      "surprised",
+      "leaning-in",
+      "alert",
+      "staring"
+    ],
+    "action": "wide-eyed kitten peeks in from the side and pushes closer to the lens",
+    "sound": "ambient",
+    "use_for": "sudden appearance, peeking in, caught-off-guard surprise, butting in",
+    "quality": "partial",
+    "note": "subject cropped at edge",
+    "tax": [
+      "surprised",
+      "curious",
+      "scared"
+    ]
+  },
+  "113": {
+    "primary": "vacant deadpan stare",
+    "emotions": [
+      "staring",
+      "blank",
+      "deadpan",
+      "vacant",
+      "unbothered",
+      "wide-eyed",
+      "dazed"
+    ],
+    "action": "orange and white cat stares blankly then settles down lying flat",
+    "sound": "ambient",
+    "use_for": "blank reaction, processing nonsense, dead-inside stare, no thoughts",
+    "quality": "ok",
+    "note": "framing shifts between frames",
+    "tax": [
+      "indifferent",
+      "bored",
+      "resigned"
+    ]
+  },
+  "114": {
+    "primary": "approving thumbs up",
+    "emotions": [
+      "standing",
+      "thumbs-up",
+      "approving",
+      "cute",
+      "bipedal",
+      "endorsing",
+      "supportive"
+    ],
+    "action": "silver cat stands upright on hind legs and gives a paw thumbs-up gesture",
+    "sound": "ambient",
+    "use_for": "giving approval, nice job, endorsing a take, wholesome thumbs up",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "happy",
+      "proud",
+      "content"
+    ]
+  },
+  "115": {
+    "primary": "demanding bowl shove",
+    "emotions": [
+      "shoving",
+      "pushing",
+      "demanding",
+      "hungry",
+      "impatient",
+      "nudging",
+      "insistent"
+    ],
+    "action": "ginger cat sits and shoves an empty metal food bowl forward",
+    "sound": "metal bowl scrape",
+    "use_for": "demanding food, pushing for what you want, impatient request, feed me now",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "hungry",
+      "annoyed",
+      "resigned"
+    ]
+  },
+  "116": {
+    "primary": "unimpressed paw raise",
+    "emotions": [
+      "unimpressed",
+      "paw-raised",
+      "deadpan",
+      "judgmental",
+      "skeptical",
+      "flat",
+      "done"
+    ],
+    "action": "tuxedo cat stares flatly and slowly lifts a white paw",
+    "sound": "ambient",
+    "use_for": "unimpressed reaction, flat dismissal, raising a paw to object, judging you",
+    "quality": "good",
+    "note": "cropped at left edge",
+    "tax": [
+      "unimpressed",
+      "indifferent",
+      "bored"
+    ]
+  },
+  "117": {
+    "primary": "sleepy yawn",
+    "emotions": [
+      "yawning",
+      "sleepy",
+      "drowsy",
+      "sprawled",
+      "tired",
+      "lazy",
+      "stretching"
+    ],
+    "action": "fluffy cat sprawls across a cordless phone handset and yawns wide",
+    "sound": "wide yawn",
+    "use_for": "being sleepy, big yawn, too tired to care, lazy morning energy",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "sleepy",
+      "relaxed",
+      "bored"
+    ]
+  },
+  "118": {
+    "primary": "group petting calm",
+    "emotions": [
+      "petted",
+      "grooming",
+      "huddled",
+      "calm",
+      "stroked",
+      "gathered",
+      "soothed"
+    ],
+    "action": "a human hand strokes a row of cats huddled together from behind",
+    "sound": "ambient",
+    "use_for": "being comforted, group affection, getting pets, gentle calming moment",
+    "quality": "avoid",
+    "note": "multiple cats, human hand",
+    "tax": [
+      "relaxed",
+      "affectionate",
+      "content"
+    ]
+  },
+  "119": {
+    "primary": "group dance party",
+    "emotions": [
+      "dancing",
+      "party",
+      "vibing",
+      "grooving",
+      "hype",
+      "silly",
+      "synchronized"
+    ],
+    "action": "trio of low-poly cats dance and bob around a boombox",
+    "sound": "upbeat music",
+    "use_for": "dance break, celebration, hype party energy",
+    "quality": "good",
+    "note": "cartoon",
+    "tax": [
+      "happy",
+      "playful",
+      "excited"
+    ]
+  },
+  "120": {
+    "primary": "blissful doze",
+    "emotions": [
+      "sleepy",
+      "blissful",
+      "cozy",
+      "dreamy",
+      "snuggly",
+      "content",
+      "soft"
+    ],
+    "action": "cream cat with hair clips nuzzles its paw with eyes closed",
+    "sound": "quiet purr",
+    "use_for": "cozy contentment, melting into comfort, dreamy peace",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "sleepy",
+      "relaxed",
+      "content",
+      "loving"
+    ]
+  },
+  "121": {
+    "primary": "bored doomscrolling",
+    "emotions": [
+      "scrolling",
+      "phone-addiction",
+      "zoning-out",
+      "distracted",
+      "hunched",
+      "bored",
+      "absorbed"
+    ],
+    "action": "orange cat paws and swipes at a phone propped on the floor",
+    "sound": "ambient screen taps",
+    "use_for": "doomscrolling, ignoring everything, glued to the phone",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "bored",
+      "indifferent",
+      "curious"
+    ]
+  },
+  "122": {
+    "primary": "nosy investigation",
+    "emotions": [
+      "sniffing",
+      "greeting",
+      "nosy",
+      "investigating",
+      "nuzzling",
+      "curious",
+      "cautious"
+    ],
+    "action": "white cat leans in to sniff a seated tabby",
+    "sound": "soft ambient",
+    "use_for": "checking someone out, nosy greeting, getting close",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "curious",
+      "affectionate",
+      "playful"
+    ]
+  },
+  "123": {
+    "primary": "demanding meow",
+    "emotions": [
+      "meowing",
+      "talking",
+      "demanding",
+      "vocal",
+      "chatty",
+      "asking",
+      "pleading"
+    ],
+    "action": "gray tabby sits and meows up at the camera",
+    "sound": "cat meow",
+    "use_for": "begging, asking a question, demanding attention",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "hungry",
+      "annoyed",
+      "curious"
+    ]
+  },
+  "124": {
+    "primary": "smug muttering",
+    "emotions": [
+      "chewing",
+      "mumbling",
+      "smug",
+      "unbothered",
+      "chill",
+      "talking",
+      "self-satisfied"
+    ],
+    "action": "golden cat works its jaw as if chewing or muttering",
+    "sound": "soft chewing",
+    "use_for": "muttering a comeback, unbothered chewing, dry remark",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "content",
+      "unimpressed",
+      "indifferent"
+    ]
+  },
+  "125": {
+    "primary": "exhausted deadpan",
+    "emotions": [
+      "tired",
+      "exhausted",
+      "done",
+      "unimpressed",
+      "drowsy",
+      "grumpy",
+      "dead-inside"
+    ],
+    "action": "brown tabby hangs its head with heavy half-closed eyes",
+    "sound": "soft ambient",
+    "use_for": "running on empty, deadpan exhaustion, can't even",
+    "quality": "ok",
+    "note": "rough key edges",
+    "tax": [
+      "bored",
+      "resigned",
+      "unimpressed",
+      "sleepy"
+    ]
+  },
+  "126": {
+    "primary": "drowsy headbob",
+    "emotions": [
+      "swaying",
+      "headbob",
+      "dozing",
+      "sleepy",
+      "blissful",
+      "cute",
+      "vibing"
+    ],
+    "action": "three gray kittens bob their heads with eyes shut",
+    "sound": "soft music",
+    "use_for": "sleepy vibing, nodding along, blissed-out calm",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "sleepy",
+      "content",
+      "relaxed"
+    ]
+  },
+  "127": {
+    "primary": "mariachi serenade",
+    "emotions": [
+      "playing-guitar",
+      "musical",
+      "festive",
+      "serenading",
+      "performing",
+      "fiesta",
+      "showman"
+    ],
+    "action": "sombrero-wearing cat strums an acoustic guitar",
+    "sound": "guitar strumming",
+    "use_for": "serenading someone, fiesta vibes, musical performance",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "playful",
+      "happy",
+      "proud"
+    ]
+  },
+  "128": {
+    "primary": "chin-scratch bliss",
+    "emotions": [
+      "blissful",
+      "petted",
+      "melting",
+      "soothed",
+      "content",
+      "loving",
+      "happy"
+    ],
+    "action": "orange cat squints in bliss as a finger scratches its chin",
+    "sound": "quiet purr",
+    "use_for": "pure comfort, being pampered, melting from affection",
+    "quality": "good",
+    "note": "human hand visible",
+    "tax": [
+      "content",
+      "loving",
+      "affectionate",
+      "relaxed"
+    ]
+  },
+  "129": {
+    "primary": "defensive hiss",
+    "emotions": [
+      "hissing",
+      "grumpy",
+      "defensive",
+      "warning",
+      "vocal",
+      "irritated",
+      "snarling"
+    ],
+    "action": "black tuxedo cat loafs and opens its mouth to hiss",
+    "sound": "cat hiss",
+    "use_for": "back off energy, grumpy warning, snapping at someone",
+    "quality": "ok",
+    "note": "low-res",
+    "tax": [
+      "angry",
+      "annoyed",
+      "scared"
+    ]
+  },
+  "130": {
+    "primary": "hopeful begging",
+    "emotions": [
+      "begging",
+      "pleading",
+      "standing-up",
+      "wanting",
+      "needy",
+      "expectant",
+      "cute"
+    ],
+    "action": "grey and white cat sits upright on hind legs with paws dangling",
+    "sound": "ambient",
+    "use_for": "begging for something, please please please, wanting attention",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "hungry",
+      "curious",
+      "playful"
+    ]
+  },
+  "131": {
+    "primary": "alert meerkat pose",
+    "emotions": [
+      "standing-up",
+      "upright",
+      "curious",
+      "watchful",
+      "swaying",
+      "alert",
+      "goofy"
+    ],
+    "action": "tuxedo cat balances upright on hind legs and sways",
+    "sound": "ambient",
+    "use_for": "perking up, standing at attention, spotting something",
+    "quality": "ok",
+    "note": "small subject",
+    "tax": [
+      "curious",
+      "surprised",
+      "playful"
+    ]
+  },
+  "132": {
+    "primary": "wide-eyed shock",
+    "emotions": [
+      "shocked",
+      "startled",
+      "wide-eyed",
+      "alarmed",
+      "bewildered",
+      "alert",
+      "jumpy"
+    ],
+    "action": "tabby cat snaps head forward with eyes blown wide",
+    "sound": "ambient",
+    "use_for": "sudden realization, getting caught off guard, what just happened",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "surprised",
+      "scared",
+      "curious"
+    ]
+  },
+  "133": {
+    "primary": "demanding meow",
+    "emotions": [
+      "meowing",
+      "talking",
+      "vocal",
+      "demanding",
+      "looking-up",
+      "chatty",
+      "asking"
+    ],
+    "action": "orange cat looks up and opens mouth to meow",
+    "sound": "cat meow",
+    "use_for": "talking back, asking for food, voicing a complaint",
+    "quality": "partial",
+    "note": "faint key box",
+    "tax": [
+      "hungry",
+      "annoyed",
+      "curious"
+    ]
+  },
+  "134": {
+    "primary": "guilty sad eyes",
+    "emotions": [
+      "guilty",
+      "sad",
+      "apologetic",
+      "remorseful",
+      "droopy",
+      "ashamed",
+      "sorry"
+    ],
+    "action": "white belled cat hunches and tilts head with sorrowful eyes",
+    "sound": "quiet meow",
+    "use_for": "feeling guilty, sad apology, puppy-dog eyes moment",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "sad",
+      "resigned",
+      "nervous"
+    ]
+  },
+  "135": {
+    "primary": "absurd costume strut",
+    "emotions": [
+      "costumed",
+      "weird",
+      "surreal",
+      "fluffy",
+      "bespectacled",
+      "uncanny",
+      "silly"
+    ],
+    "action": "two fuzzy cats in glasses and boots viewed from overhead",
+    "sound": "ambient",
+    "use_for": "bizarre surreal cutaway, cursed character reveal, what am I looking at",
+    "quality": "partial",
+    "note": "cartoon, two subjects",
+    "tax": [
+      "confused",
+      "playful",
+      "mischievous"
+    ]
+  },
+  "136": {
+    "primary": "alert turn",
+    "emotions": [
+      "alert",
+      "looking-around",
+      "attentive",
+      "turning",
+      "noticing",
+      "focused",
+      "watchful"
+    ],
+    "action": "grey British shorthair glances around then locks onto the camera",
+    "sound": "ambient",
+    "use_for": "hearing your name, turning to react, catching someone staring",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "curious",
+      "surprised",
+      "indifferent"
+    ]
+  },
+  "137": {
+    "primary": "spooky flight",
+    "emotions": [
+      "flying",
+      "magical",
+      "halloween",
+      "soaring",
+      "costumed",
+      "whimsical",
+      "departing"
+    ],
+    "action": "cat in witch hat rides a broomstick and shrinks into the distance",
+    "sound": "whoosh",
+    "use_for": "making a magical exit, flying off, spooky season bit",
+    "quality": "partial",
+    "note": "cartoon",
+    "tax": [
+      "mischievous",
+      "playful",
+      "proud"
+    ]
+  },
+  "138": {
+    "primary": "uncanny grin",
+    "emotions": [
+      "smiling",
+      "talking",
+      "uncanny",
+      "cheerful",
+      "creepy",
+      "presenting",
+      "chatty"
+    ],
+    "action": "necktie-wearing cat grins and talks at the camera",
+    "sound": "cat chatter",
+    "use_for": "delivering a line, salesman pitch, unsettling friendly greeting",
+    "quality": "ok",
+    "note": "cartoon",
+    "tax": [
+      "happy",
+      "content",
+      "mischievous"
+    ]
+  },
+  "139": {
+    "primary": "unbothered loaf",
+    "emotions": [
+      "loafing",
+      "grumpy",
+      "unimpressed",
+      "still",
+      "chonky",
+      "deadpan",
+      "side-eye"
+    ],
+    "action": "round tuxedo cat sits in a loaf and slowly side-eyes away",
+    "sound": "ambient",
+    "use_for": "refusing to move, unimpressed reaction, sitting there judging",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "unimpressed",
+      "indifferent",
+      "annoyed"
+    ]
+  },
+  "140": {
+    "primary": "festive performance",
+    "emotions": [
+      "playing-music",
+      "festive",
+      "performing",
+      "joyful",
+      "accordion",
+      "christmas",
+      "singing"
+    ],
+    "action": "cat in Santa hat squeezes an accordion and sways while playing",
+    "sound": "accordion music",
+    "use_for": "festive musical break, serenading someone, holiday cheer",
+    "quality": "ok",
+    "note": "cartoon",
+    "tax": [
+      "happy",
+      "playful",
+      "excited"
+    ]
+  },
+  "141": {
+    "primary": "judgy side-eye",
+    "emotions": [
+      "skeptical",
+      "side-eye",
+      "doubtful",
+      "unconvinced",
+      "judging",
+      "smug",
+      "deadpan"
+    ],
+    "action": "tuxedo cat turns and throws a slow doubting side-eye",
+    "sound": "ambient",
+    "use_for": "calling bluff, suspicious doubt, are you serious right now",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "unimpressed",
+      "annoyed",
+      "indifferent"
+    ]
+  },
+  "142": {
+    "primary": "lazy scene",
+    "emotions": [
+      "sleeping",
+      "approaching",
+      "lazy",
+      "scattered",
+      "wandering",
+      "multiple",
+      "calm"
+    ],
+    "action": "one cat curls asleep while others drift and approach nearby",
+    "sound": "ambient",
+    "use_for": "sleepy lull, multiple cats milling, low-energy background bit",
+    "quality": "avoid",
+    "note": "multiple subjects, black bar",
+    "tax": [
+      "sleepy",
+      "relaxed",
+      "bored"
+    ]
+  },
+  "143": {
+    "primary": "lazy lounging",
+    "emotions": [
+      "relaxed",
+      "lounging",
+      "grooming",
+      "chill",
+      "lazy",
+      "comfy",
+      "unbothered"
+    ],
+    "action": "orange tabby reclines on its side and licks a paw",
+    "sound": "quiet purr",
+    "use_for": "kicking back, casual chill, being too comfortable to care",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "relaxed",
+      "content",
+      "indifferent"
+    ]
+  },
+  "144": {
+    "primary": "confident approach",
+    "emotions": [
+      "approaching",
+      "walking",
+      "tail-up",
+      "strutting",
+      "coming-closer",
+      "purposeful",
+      "incoming"
+    ],
+    "action": "brown tabby strides toward the camera growing larger with tail held high",
+    "sound": "soft footsteps",
+    "use_for": "an entrance, walking up to someone, here-I-come energy",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "curious",
+      "proud",
+      "content"
+    ]
+  },
+  "145": {
+    "primary": "curious reaching",
+    "emotions": [
+      "curious",
+      "reaching",
+      "pawing",
+      "begging",
+      "attentive",
+      "interested",
+      "hopeful"
+    ],
+    "action": "cream cat sits upright and paws toward something above it",
+    "sound": "ambient",
+    "use_for": "wanting something, reaching for a treat, intrigued by an offer",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "curious",
+      "hungry",
+      "excited"
+    ]
+  },
+  "146": {
+    "primary": "deadpan stare",
+    "emotions": [
+      "deadpan",
+      "unimpressed",
+      "blank",
+      "half-lidded",
+      "done",
+      "judging",
+      "tired"
+    ],
+    "action": "brown tabby sits motionless with a flat half-lidded stare",
+    "sound": "ambient",
+    "use_for": "unimpressed reaction, dry stare, being over it",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "unimpressed",
+      "bored",
+      "indifferent"
+    ]
+  },
+  "147": {
+    "primary": "derpy curiosity",
+    "emotions": [
+      "big-ears",
+      "head-tilt",
+      "derpy",
+      "curious",
+      "toothy",
+      "cute",
+      "innocent"
+    ],
+    "action": "huge-eared kitten tilts its head and shows tiny fangs",
+    "sound": "tiny mew",
+    "use_for": "adorable confusion, a cute head tilt, innocent reaction",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "curious",
+      "confused",
+      "playful"
+    ]
+  },
+  "148": {
+    "primary": "glam mermaid",
+    "emotions": [
+      "costume",
+      "mermaid",
+      "glam",
+      "fancy",
+      "silly",
+      "pampered",
+      "diva"
+    ],
+    "action": "orange cat lounges in a pink mermaid tail and bow swishing the fin",
+    "sound": "ambient",
+    "use_for": "extra glam moments, fabulous diva energy, dressed-up silliness",
+    "quality": "good",
+    "note": "costume",
+    "tax": [
+      "proud",
+      "relaxed",
+      "content"
+    ]
+  },
+  "149": {
+    "primary": "chatty meow",
+    "emotions": [
+      "meowing",
+      "talking",
+      "chatty",
+      "round",
+      "vocal",
+      "complaining",
+      "demanding"
+    ],
+    "action": "chubby silver tabby sits and opens its mouth to meow",
+    "sound": "cat meow",
+    "use_for": "saying a line, talking back, demanding attention",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "hungry",
+      "annoyed",
+      "curious"
+    ]
+  },
+  "150": {
+    "primary": "hungry chomp",
+    "emotions": [
+      "eating",
+      "chomping",
+      "hungry",
+      "excited",
+      "biting",
+      "treat",
+      "eager"
+    ],
+    "action": "calico cat lunges mouth wide to bite a treat stick held by a hand",
+    "sound": "eager chomping",
+    "use_for": "devouring food, can't-wait hunger, snatching a snack",
+    "quality": "good",
+    "note": "hand visible",
+    "tax": [
+      "hungry",
+      "excited",
+      "happy"
+    ]
+  },
+  "151": {
+    "primary": "wary approach",
+    "emotions": [
+      "staring",
+      "wary",
+      "cautious",
+      "stepping",
+      "alert",
+      "focused",
+      "serious"
+    ],
+    "action": "orange tabby steps forward keeping a steady stare at the camera",
+    "sound": "ambient",
+    "use_for": "creeping up on someone, a serious approach, locked-in focus",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "curious",
+      "unimpressed",
+      "pensive"
+    ]
+  },
+  "152": {
+    "primary": "longing watch",
+    "emotions": [
+      "watching",
+      "longing",
+      "wistful",
+      "staring",
+      "left-behind",
+      "yearning",
+      "still"
+    ],
+    "action": "orange kitten sits and watches a seal slowly crawl out of frame",
+    "sound": "ambient",
+    "use_for": "watching someone leave, wistful longing, being left behind",
+    "quality": "partial",
+    "note": "second subject (seal) in frame",
+    "tax": [
+      "sad",
+      "pensive",
+      "curious"
+    ]
+  },
+  "153": {
+    "primary": "eager begging",
+    "emotions": [
+      "group",
+      "looking-up",
+      "begging",
+      "eager",
+      "attentive",
+      "hopeful",
+      "licking"
+    ],
+    "action": "three cats cluster together gazing up as the front one licks its lips",
+    "sound": "ambient",
+    "use_for": "a hungry crowd, group waiting for food, many eyes on you",
+    "quality": "ok",
+    "note": "multiple cats",
+    "tax": [
+      "hungry",
+      "curious",
+      "excited"
+    ]
+  },
+  "154": {
+    "primary": "calm companionship",
+    "emotions": [
+      "pair",
+      "sitting",
+      "companionship",
+      "watching",
+      "calm",
+      "together",
+      "attentive"
+    ],
+    "action": "a gray tabby and orange cat sit together looking off in the same direction",
+    "sound": "ambient",
+    "use_for": "two buddies watching something, quiet companionship, side-by-side reaction",
+    "quality": "ok",
+    "note": "two cats",
+    "tax": [
+      "curious",
+      "content",
+      "pensive"
+    ]
+  },
+  "155": {
+    "primary": "menacing deadpan stare",
+    "emotions": [
+      "staring",
+      "menacing",
+      "deadpan",
+      "intense",
+      "creepy",
+      "judging",
+      "unblinking"
+    ],
+    "action": "hairless sphynx cat sits and zooms closer with a hard stare",
+    "sound": "ominous ambient",
+    "use_for": "ominous slow approach, judging silently, unsettling eye contact",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "unimpressed",
+      "indifferent",
+      "pensive"
+    ]
+  },
+  "156": {
+    "primary": "begging reach",
+    "emotions": [
+      "reaching",
+      "begging",
+      "standing",
+      "wanting",
+      "pleading",
+      "eager",
+      "stretching"
+    ],
+    "action": "cream kitten stands on hind legs and reaches a paw upward",
+    "sound": "ambient",
+    "use_for": "begging for something, reaching for a snack, wanting attention",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "hungry",
+      "curious",
+      "excited"
+    ]
+  },
+  "157": {
+    "primary": "awkward birthday moment",
+    "emotions": [
+      "birthday",
+      "cake",
+      "awkward",
+      "deadpan",
+      "celebrating",
+      "unamused",
+      "staring"
+    ],
+    "action": "black cat and tabby sit beside a tiny candle cake then blur into motion",
+    "sound": "ambient",
+    "use_for": "sad birthday, lonely celebration, awkward party moment",
+    "quality": "partial",
+    "note": "two cats, third frame motion-blurred",
+    "tax": [
+      "unimpressed",
+      "bored",
+      "resigned"
+    ]
+  },
+  "158": {
+    "primary": "calm to wide yawn",
+    "emotions": [
+      "yawning",
+      "calm",
+      "mouth-open",
+      "tired",
+      "stretchy",
+      "blasé",
+      "relaxed"
+    ],
+    "action": "orange and white cat sits calmly then throws head back in a wide yawn",
+    "sound": "soft yawn",
+    "use_for": "boredom hitting, dramatic yawn, unbothered reaction",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "bored",
+      "sleepy",
+      "relaxed"
+    ]
+  },
+  "159": {
+    "primary": "goofy twirl",
+    "emotions": [
+      "spinning",
+      "dancing",
+      "twirling",
+      "goofy",
+      "energetic",
+      "wiggly",
+      "silly"
+    ],
+    "action": "gray tabby spins and twirls in place showing its back and sides",
+    "sound": "upbeat ambient",
+    "use_for": "dancing it out, celebrating a win, goofy energy",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "playful",
+      "excited",
+      "happy"
+    ]
+  },
+  "160": {
+    "primary": "earnest reporting",
+    "emotions": [
+      "singing",
+      "reporting",
+      "microphone",
+      "earnest",
+      "performing",
+      "announcing",
+      "talking"
+    ],
+    "action": "tabby cat clutches a microphone and sings into it",
+    "sound": "muffled cat vocals",
+    "use_for": "delivering breaking news, singing a line, hot mic moment",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "curious",
+      "excited",
+      "content"
+    ]
+  },
+  "161": {
+    "primary": "grumpy loaf",
+    "emotions": [
+      "loafing",
+      "grumpy",
+      "chubby",
+      "staring",
+      "stoic",
+      "pouty",
+      "still"
+    ],
+    "action": "round gray and white cat sits in a tight loaf staring forward",
+    "sound": "ambient",
+    "use_for": "quiet disapproval, sitting unbothered, grumpy little guy",
+    "quality": "ok",
+    "note": "low-res",
+    "tax": [
+      "unimpressed",
+      "annoyed",
+      "indifferent"
+    ]
+  },
+  "162": {
+    "primary": "flailing wave",
+    "emotions": [
+      "waving",
+      "flailing",
+      "costumed",
+      "held",
+      "swatting",
+      "wiggly",
+      "playful"
+    ],
+    "action": "hatted cat is held by a hand and waves a paw toward the camera",
+    "sound": "ambient",
+    "use_for": "waving hello, swatting at something, goofy costume bit",
+    "quality": "partial",
+    "note": "human hand visible",
+    "tax": [
+      "playful",
+      "curious",
+      "excited"
+    ]
+  },
+  "163": {
+    "primary": "tender affection",
+    "emotions": [
+      "nuzzling",
+      "grooming",
+      "cuddling",
+      "loving",
+      "tender",
+      "cozy",
+      "snuggling"
+    ],
+    "action": "orange cat licks and nuzzles a white cat who leans in blissfully",
+    "sound": "quiet purr",
+    "use_for": "showing love, comforting a friend, wholesome cuddle moment",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "affectionate",
+      "loving",
+      "content"
+    ]
+  },
+  "164": {
+    "primary": "tired resignation",
+    "emotions": [
+      "done",
+      "resigned",
+      "tired",
+      "fed-up",
+      "unamused",
+      "deadpan",
+      "exhausted"
+    ],
+    "action": "white cat sits stone-faced while a meerkat leans cozily against it",
+    "sound": "ambient",
+    "use_for": "putting up with someone, done but tolerating it, clingy friend",
+    "quality": "good",
+    "note": "cat plus meerkat",
+    "tax": [
+      "resigned",
+      "unimpressed",
+      "annoyed"
+    ]
+  },
+  "165": {
+    "primary": "startled chaos",
+    "emotions": [
+      "flailing",
+      "startled",
+      "lifted",
+      "panicked",
+      "spinning",
+      "wild",
+      "frazzled"
+    ],
+    "action": "hands lift a black cat that flails and twists midair",
+    "sound": "ambient scuffle",
+    "use_for": "sudden panic, being yeeted, chaotic surprise",
+    "quality": "partial",
+    "note": "human hands visible",
+    "tax": [
+      "surprised",
+      "scared",
+      "nervous"
+    ]
+  },
+  "166": {
+    "primary": "alert curiosity",
+    "emotions": [
+      "standing",
+      "alert",
+      "curious",
+      "watching",
+      "meerkat-pose",
+      "looking",
+      "attentive"
+    ],
+    "action": "golden kitten stands upright on hind legs and turns to look aside",
+    "sound": "ambient",
+    "use_for": "spotting something, looking around alertly, standing at attention",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "curious",
+      "surprised",
+      "playful"
+    ]
+  },
+  "167": {
+    "primary": "lazy chilling",
+    "emotions": [
+      "lounging",
+      "reclining",
+      "chilling",
+      "lazy",
+      "slouched",
+      "relaxed",
+      "couch-potato"
+    ],
+    "action": "scottish fold leans back and reclines like a person on a couch",
+    "sound": "quiet ambient",
+    "use_for": "kicking back, lazy weekend mood, fully relaxed slouch",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "relaxed",
+      "content",
+      "sleepy"
+    ]
+  },
+  "168": {
+    "primary": "grumpy deadpan",
+    "emotions": [
+      "grumpy",
+      "unamused",
+      "deadpan",
+      "judging",
+      "done",
+      "sulky",
+      "stone-faced"
+    ],
+    "action": "orange scottish fold sits and stares flatly forward",
+    "sound": "ambient",
+    "use_for": "silent judgment, being unimpressed, deadpan disapproval, refusing to react",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "unimpressed",
+      "annoyed",
+      "indifferent"
+    ]
+  },
+  "169": {
+    "primary": "wary creep",
+    "emotions": [
+      "sneaking",
+      "wary",
+      "alert",
+      "creeping",
+      "wide-eyed",
+      "stalking",
+      "uneasy"
+    ],
+    "action": "tabby with a banana peel on its head creeps forward glancing upward",
+    "sound": "ambient",
+    "use_for": "sneaking around, silly disguise, creeping into frame, goofy menace",
+    "quality": "good",
+    "note": "glowing-eyes edit",
+    "tax": [
+      "curious",
+      "surprised",
+      "mischievous"
+    ]
+  },
+  "170": {
+    "primary": "frantic meow scream",
+    "emotions": [
+      "screaming",
+      "yelling",
+      "meowing",
+      "frantic",
+      "loud",
+      "distressed",
+      "outburst"
+    ],
+    "action": "orange kitten lunges at camera screaming with mouth wide open",
+    "sound": "loud cat scream",
+    "use_for": "screaming a line, panic, demanding attention, losing it loudly",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "angry",
+      "scared",
+      "surprised"
+    ]
+  },
+  "171": {
+    "primary": "affectionate nuzzle",
+    "emotions": [
+      "nuzzling",
+      "affectionate",
+      "loving",
+      "cuddly",
+      "headbutt",
+      "bonding",
+      "sweet"
+    ],
+    "action": "two orange cats lean in and rub heads together affectionately",
+    "sound": "quiet purr",
+    "use_for": "showing love, headbutt affection, cozy bonding, sweet moments",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "loving",
+      "affectionate",
+      "content"
+    ]
+  },
+  "172": {
+    "primary": "startled gasp",
+    "emotions": [
+      "startled",
+      "wide-eyed",
+      "shocked",
+      "gasping",
+      "surprised",
+      "alarmed",
+      "reacting"
+    ],
+    "action": "white cat in a red crochet hat widens eyes then opens mouth in a gasp",
+    "sound": "small meow",
+    "use_for": "shocked reaction, gasping at news, sudden realization, mock horror",
+    "quality": "good",
+    "note": "watermark",
+    "tax": [
+      "surprised",
+      "scared",
+      "curious"
+    ]
+  },
+  "173": {
+    "primary": "chaotic cat montage",
+    "emotions": [
+      "montage",
+      "compilation",
+      "crowd",
+      "assorted",
+      "busy",
+      "mixed",
+      "collage"
+    ],
+    "action": "many different cats appear stacked across the frame at once",
+    "sound": "ambient",
+    "use_for": "crowd of reactions, everyone chiming in, busy collage moment",
+    "quality": "avoid",
+    "note": "compilation, multiple subjects",
+    "tax": [
+      "curious",
+      "surprised",
+      "indifferent"
+    ]
+  },
+  "174": {
+    "primary": "pampered sleepy",
+    "emotions": [
+      "pampered",
+      "sleepy",
+      "cozy",
+      "relaxed",
+      "spa-day",
+      "lounging",
+      "blissful"
+    ],
+    "action": "tabby wrapped in a towel with hair rollers dozes beside a coffee cup",
+    "sound": "quiet purr",
+    "use_for": "self-care day, lazy pampered mood, relaxing in luxury, sleepy comfort",
+    "quality": "good",
+    "note": "watermark",
+    "tax": [
+      "sleepy",
+      "relaxed",
+      "content"
+    ]
+  },
+  "175": {
+    "primary": "happy corn munch",
+    "emotions": [
+      "eating",
+      "munching",
+      "hungry",
+      "snacking",
+      "chomping",
+      "satisfied",
+      "feasting"
+    ],
+    "action": "orange and white cat holds a corn cob and bites into it",
+    "sound": "munching",
+    "use_for": "eating happily, devouring a snack, food obsession, mealtime joy",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "hungry",
+      "happy",
+      "content"
+    ]
+  },
+  "176": {
+    "primary": "stunned shock",
+    "emotions": [
+      "stunned",
+      "shocked",
+      "wide-eyed",
+      "frozen",
+      "speechless",
+      "staring",
+      "blank"
+    ],
+    "action": "tuxedo cat leans into frame with wide unblinking eyes",
+    "sound": "ambient",
+    "use_for": "frozen in shock, stunned silence, processing bad news, blank disbelief",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "surprised",
+      "scared",
+      "confused"
+    ]
+  },
+  "177": {
+    "primary": "snooty disgust",
+    "emotions": [
+      "snooty",
+      "smug",
+      "looking-down",
+      "unimpressed",
+      "sneering",
+      "haughty",
+      "disdain"
+    ],
+    "action": "calico cat tilts head up and back with a curled lip looking down its nose",
+    "sound": "ambient",
+    "use_for": "looking down on someone, snobby disdain, mild disgust, superiority",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "unimpressed",
+      "disgusted",
+      "proud"
+    ]
+  },
+  "178": {
+    "primary": "absent scrolling",
+    "emotions": [
+      "scrolling",
+      "swiping",
+      "distracted",
+      "bored",
+      "tapping",
+      "absorbed",
+      "zoning-out"
+    ],
+    "action": "orange cat sits and paws a phone lying on the ground",
+    "sound": "ambient",
+    "use_for": "doom scrolling, distracted on phone, mindless swiping, ignoring everything",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "bored",
+      "curious",
+      "indifferent"
+    ]
+  },
+  "179": {
+    "primary": "cool squad menace",
+    "emotions": [
+      "squad",
+      "cool",
+      "smug",
+      "crew",
+      "posse",
+      "deadpan",
+      "huddled"
+    ],
+    "action": "a cat in a black hoodie leans forward as more cats crowd behind it",
+    "sound": "ambient",
+    "use_for": "rolling in with the crew, gang energy, unbothered posse, cool entrance",
+    "quality": "ok",
+    "note": "watermark, multiple cats",
+    "tax": [
+      "unimpressed",
+      "mischievous",
+      "proud"
+    ]
+  },
+  "180": {
+    "primary": "rage scream",
+    "emotions": [
+      "screaming",
+      "yelling",
+      "rage",
+      "furious",
+      "outburst",
+      "hissing",
+      "freaking-out"
+    ],
+    "action": "black cat lunges with mouth wide open screaming",
+    "sound": "loud cat scream",
+    "use_for": "explosive anger, screaming a line, losing it, freaking out",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "angry",
+      "scared",
+      "surprised"
+    ]
+  },
+  "181": {
+    "primary": "deadpan chill",
+    "emotions": [
+      "lounging",
+      "sprawled",
+      "lazy",
+      "belly-out",
+      "deadpan",
+      "unbothered",
+      "relaxed",
+      "chunky"
+    ],
+    "action": "chunky tabby cat slumps back belly out staring deadpan",
+    "sound": "ambient",
+    "use_for": "lazy slob energy, not moving a muscle, unbothered chilling, doing nothing",
+    "quality": "good",
+    "note": "",
+    "tax": [
+      "relaxed",
+      "indifferent",
+      "content",
+      "bored"
+    ]
+  }
+}

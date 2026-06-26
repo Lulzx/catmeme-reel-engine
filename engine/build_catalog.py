@@ -12,7 +12,7 @@ needs to re-watch the videos.
 import json, os, glob, subprocess, collections
 from PIL import Image
 import paths
-from paths import CLIPS, FRAMES, CATALOG
+from paths import CLIPS, FRAMES, CATALOG, DATA
 
 paths.ensure()
 
@@ -100,6 +100,21 @@ TAX_ADD = {
  "039":["hungry","content","relaxed"], "040":["happy","content","loving","affectionate"],
  "041":["happy","playful","mischievous","excited"], "042":["relaxed","content","happy"],
 }
+
+# --- external descriptor packs ------------------------------------------------
+# Hand-authored descriptors for added clip packs live in data/descriptors-*.json
+# (one object per clip id) instead of being inlined above, so this file stays
+# readable as the library grows past the original playlist. Each entry carries the
+# same fields as an EMO dict plus a "tax" list (controlled-taxonomy tags → TAX_ADD).
+_EMO_KEYS = ("primary","emotions","action","sound","use_for","quality","note")
+for _pack in sorted(glob.glob(os.path.join(DATA, "descriptors-*.json"))):
+    with open(_pack) as _f:
+        _desc = json.load(_f)
+    for _id, _e in _desc.items():
+        EMO[_id] = {k: _e[k] for k in _EMO_KEYS if k in _e}
+        if _e.get("tax"):
+            TAX_ADD[_id] = _e["tax"]
+
 # sanity: every addition must be a taxonomy word, and every taxonomy word must be used
 assert all(t in TAXONOMY for v in TAX_ADD.values() for t in v), "non-taxonomy tag in TAX_ADD"
 _used = {t for v in TAX_ADD.values() for t in v}
@@ -177,7 +192,7 @@ def subject_bbox(idx):
 
 catalog = []
 for path in sorted(glob.glob(os.path.join(CLIPS, "[0-9]*.*"))):
-    if os.path.splitext(path)[1].lower() not in (".webm",".mkv",".mp4"):
+    if os.path.splitext(path)[1].lower() not in (".webm",".mkv",".mp4",".mov"):
         continue
     base = os.path.basename(path)
     idx = base.split(" ")[0]

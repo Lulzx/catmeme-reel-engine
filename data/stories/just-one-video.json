@@ -1,0 +1,53 @@
+{
+  "title": "I Said I'd Go To Bed Early",
+  "output": "just-one-video.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you promised yourself you'd sleep early tonight",
+  "outro": "FOLLOW FOR PART 2",
+  "outro_cast": [ { "name": "", "want": ["dancing", "hype", "happy", "playful"], "size": 0.44 } ],
+  "beats": [
+    {
+      "action": "*9pm: I'll just watch ONE video*",
+      "bg": { "img": "cozy dark bedroom bed night interior", "palette": "bedroom" },
+      "cast": [ { "name": "ME", "want": ["relaxed", "lounging", "chill", "content"], "size": 0.5 } ]
+    },
+    {
+      "action": "*one video becomes three hours of scrolling*",
+      "bg": { "img": "dark bedroom phone glow night", "palette": "bedroom" },
+      "cast": [ { "name": "ME", "want": ["doomscrolling", "scrolling", "bored", "zoning-out"], "size": 0.5 } ]
+    },
+    {
+      "action": "*I find one comment that ENRAGES me*",
+      "bg": { "img": "dark bedroom phone glow night", "palette": "rage" },
+      "cast": [ { "name": "ME", "want": ["screaming", "rage", "outburst", "yelling"], "size": 0.52 } ]
+    },
+    {
+      "action": "*typing a 6-paragraph reply to a stranger*",
+      "bg": { "img": "person typing laptop keyboard closeup", "palette": "brain" },
+      "cast": [ { "name": "ME", "want": ["typing", "busy", "panic-work", "working"], "size": 0.48 } ]
+    },
+    {
+      "action": "*I delete it and stare into the void*",
+      "bg": { "img": "dark starry night sky space", "palette": "void" },
+      "cast": [ { "name": "ME", "want": ["zoning-out", "dead-inside", "blank", "exhausted"], "size": 0.48 } ]
+    },
+    {
+      "action": "*snacking while the drama unfolds*",
+      "bg": { "img": "dark bedroom cozy night interior", "palette": "snack" },
+      "cast": [ { "name": "ME", "want": ["eating", "snacking", "munching", "hungry"], "size": 0.5 } ]
+    },
+    {
+      "action": "*the sun comes up. I have not slept.*",
+      "bg": { "img": "sunrise window bedroom morning light", "palette": "dawn" },
+      "dur": 5.0,
+      "cast": [ { "name": "ME", "want": ["exhausted", "resigned", "dead-inside", "tired"], "size": 0.5 } ]
+    },
+    {
+      "action": "*my alarm for the gym goes off*",
+      "bg": { "img": "bright bedroom morning alarm clock", "palette": "alarm" },
+      "cast": [ { "name": "ME", "want": ["screaming", "yelling", "outburst", "frantic"], "size": 0.52 } ]
+    }
+  ]
+}
