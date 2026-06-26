@@ -1,0 +1,56 @@
+{
+  "title": "Neither Of Us Will Decide Where To Eat",
+  "output": "where-to-eat.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you're both starving but neither will pick a place",
+  "outro": "FOLLOW FOR PART 2",
+  "outro_cast": [ { "name": "", "want": ["dancing", "hype", "happy", "playful"], "size": 0.44 } ],
+  "beats": [
+    {
+      "action": "*7pm. we are both absolutely starving*",
+      "bg": { "img": "cozy home kitchen evening warm interior", "palette": "snack" },
+      "cast": [ { "name": "ME", "want": ["hungry", "demanding", "meowing"], "size": 0.5 } ]
+    },
+    {
+      "action": "*me: where do you wanna eat?*",
+      "bg": { "img": "cozy living room couch evening interior", "palette": "snack" },
+      "cast": [ { "name": "ME", "want": ["calling", "asking", "meowing"], "size": 0.5 } ]
+    },
+    {
+      "action": "\"idk... wherever you want\"",
+      "bg": { "img": "cozy living room couch evening interior", "palette": "neutral" },
+      "cast": [ { "name": "BAE", "want": ["unbothered", "dismissive", "deadpan", "indifferent"], "size": 0.5 } ]
+    },
+    {
+      "action": "*every single place I suggest gets shot down*",
+      "bg": { "img": "cozy living room couch evening interior", "palette": "neutral" },
+      "cast": [ { "name": "BAE", "want": ["dismissive", "aloof", "nonchalant", "unbothered"], "size": 0.5 } ]
+    },
+    {
+      "action": "*20 minutes of scrolling food apps in silence*",
+      "bg": { "img": "dark living room phone glow night", "palette": "brain" },
+      "cast": [ { "name": "ME", "want": ["zoning-out", "scrolling", "bored", "checked-out"], "size": 0.48 } ]
+    },
+    {
+      "action": "*I can feel the hunger turning into rage*",
+      "bg": { "img": "dim living room evening tense interior", "palette": "rage" },
+      "cast": [ { "name": "ME", "want": ["building-anger", "intense", "annoyed", "flustered"], "size": 0.5 } ]
+    },
+    {
+      "action": "*it becomes a full-blown standoff*",
+      "bg": { "img": "living room couch evening interior", "palette": "rage" },
+      "cast": [
+        { "name": "ME", "want": ["ranting", "yapping", "complaining", "arguing"], "pos": 0.30, "size": 0.42 },
+        { "name": "BAE", "want": ["talking", "explaining", "complaining"], "pos": 0.70, "size": 0.42, "flip": true }
+      ]
+    },
+    {
+      "action": "*we ended up eating cereal. again.*",
+      "bg": { "img": "dark quiet kitchen night interior", "palette": "void" },
+      "dur": 5.0,
+      "cast": [ { "name": "ME", "want": ["resigned", "defeated", "dead-inside", "exhausted"], "size": 0.5 } ]
+    }
+  ]
+}
