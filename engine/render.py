@@ -105,17 +105,22 @@ def library_match(query):
     return best if best_score >= 1 else None
 
 def fetch_image(query):
-    """Scene-relevant photo for `query` from Openverse (keyless CC). Cached."""
+    """Scene-relevant photo for `query` from Openverse (keyless CC). Cached.
+    A `.miss` marker is written when a query yields nothing, so repeat renders
+    fall straight through to the gradient instead of re-hitting the network."""
     slug = re.sub(r"[^a-z0-9]+", "_", query.lower()).strip("_")[:60]
     cache = os.path.join(CACHE, slug + ".jpg")
+    miss  = os.path.join(CACHE, slug + ".miss")
     if os.path.exists(cache):
         return cache
+    if os.path.exists(miss):
+        return None
     api = ("https://api.openverse.org/v1/images/?q=" + urllib.parse.quote(query)
            + "&page_size=8&mature=false&license_type=all")
     try:
         data = json.loads(_get(api))
     except Exception:
-        return None
+        return None                       # transient/network error — retry next run
     for r in data.get("results", []):
         for u in (r.get("url"), r.get("thumbnail")):
             if not u: continue
@@ -125,6 +130,7 @@ def fetch_image(query):
                     im.save(cache, quality=90); return cache
             except Exception:
                 continue
+    open(miss, "w").close()               # query returned nothing usable
     return None
 
 # background painting ----------------------------------------------------------
@@ -133,6 +139,8 @@ PALETTES = {
     "boss":((46,10,12),(96,20,24)), "void":((8,8,10),(24,24,30)),
     "hallway":((28,40,42),(52,72,74)), "mirror":((36,64,72),(120,170,180)),
     "friday":((150,40,90),(250,140,40)), "brain":((30,12,54),(74,30,110)),
+    "rage":((60,8,8),(150,28,20)), "snack":((40,28,16),(92,60,30)),
+    "dawn":((44,30,62),(240,150,92)), "alarm":((90,18,18),(220,80,40)),
     "neutral":((30,30,36),(60,60,72)),
 }
 def gradient(w, h, top, bot):
@@ -288,6 +296,11 @@ def render(story_path):
             else:
                 _,clip,_=M.best(c.get("want",[]),c.get("query",""),catalog,
                                 exclude=used+local_used)
+                if clip is None:          # catalog exhausted by no-repeat rule:
+                    _,clip,_=M.best(c.get("want",[]),c.get("query",""),catalog,
+                                    exclude=local_used)   # allow cross-beat reuse
+            if clip is None:
+                raise SystemExit(f"beat {i}: no clip matches {c.get('want') or c.get('query')!r}")
             clips.append(clip); local_used.append(clip["id"])
         used+=local_used
         # geometry
@@ -356,9 +369,11 @@ def render(story_path):
     with open(listf,"w") as f:
         for bf in beat_files: f.write(f"file '{os.path.abspath(bf)}'\n")
     final=os.path.join(OUTPUT,story.get("output","final.mp4"))
+    # Beats are all encoded with identical params (W/H/fps/pix_fmt/codec/audio),
+    # so the concat demuxer can stream-copy them — no re-encode, no double-encode
+    # quality loss, much faster. +faststart still moves the moov atom for web.
     run(["ffmpeg","-y","-nostdin","-f","concat","-safe","0","-i",listf,
-         "-c:v","libx264","-preset","veryfast","-crf","20","-pix_fmt","yuv420p",
-         "-c:a","aac","-ar","48000","-ac","2","-movflags","+faststart",final])
+         "-c","copy","-movflags","+faststart",final])
     print(f"\n  -> {final}")
     return final
 
