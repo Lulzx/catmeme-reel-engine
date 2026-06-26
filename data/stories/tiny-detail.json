@@ -1,0 +1,51 @@
+{
+  "title": "He Remembered The Tiny Detail",
+  "output": "tiny-detail.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: he remembers the tiny detail you mentioned 6 months ago",
+  "outro": "FOLLOW FOR MORE GREEN FLAGS",
+  "outro_cast": [ { "name": "", "want": ["dancing", "happy", "affectionate", "wholesome"], "size": 0.44 } ],
+  "beats": [
+    {
+      "action": "*6 months ago: you mention your favorite flower, once, in passing*",
+      "bg": { "img": "cozy warm living room couch interior afternoon", "palette": "room" },
+      "cast": [ { "name": "YOU", "want": ["chatty", "talking", "explaining", "casual"], "size": 0.5 } ]
+    },
+    {
+      "action": "*him, quietly filing it away forever*",
+      "bg": { "img": "cozy warm living room couch interior afternoon", "palette": "room" },
+      "cast": [ { "name": "HIM", "want": ["knowing", "attentive", "interested", "focused"], "size": 0.5 } ]
+    },
+    {
+      "action": "*6 months later: you forgot you even said it*",
+      "bg": { "img": "soft minimal apartment interior daylight", "palette": "calm" },
+      "cast": [ { "name": "YOU", "want": ["zoning-out", "blank", "spaced-out", "clueless"], "size": 0.5 } ]
+    },
+    {
+      "action": "*he shows up with that EXACT flower*",
+      "bg": { "img": "front door home entrance flowers bouquet", "palette": "warm" },
+      "cast": [ { "name": "HIM", "want": ["presenting", "cheery", "praising", "approving"], "size": 0.5 } ]
+    },
+    {
+      "action": "*the realization that he was listening the whole time*",
+      "bg": { "img": "cozy warm living room couch interior afternoon", "palette": "warm" },
+      "cast": [
+        { "name": "YOU", "want": ["stunned", "speechless", "surprised", "shocked"], "size": 0.48, "pos": 0.30 },
+        { "name": "HIM", "want": ["smug", "knowing", "content", "proud"], "size": 0.48, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*your heart, completely melting*",
+      "bg": { "img": "soft pink warm bokeh hearts cozy", "palette": "heart" },
+      "cast": [ { "name": "YOU", "want": ["melting", "tender", "emotional", "teary"], "size": 0.5 } ]
+    },
+    {
+      "action": "*him, the smuggest man alive: 'I pay attention'*",
+      "bg": { "img": "cozy warm living room couch interior afternoon", "palette": "room" },
+      "dur": 5.0,
+      "cast": [ { "name": "HIM", "want": ["rizz", "smug", "knowing", "confident"], "size": 0.52 } ]
+    }
+  ]
+}
