@@ -1,0 +1,8 @@
+{
+  "_comment": "Clip IDs the matcher must NEVER pick. AI-edited cursed/human-hybrid clips that don't read as a real cat. Hard-excluded in engine/match.py.",
+  "blocked": {
+    "035": "AI human-face hybrid with glowing eyes (cursed 'Revive' devil-cat)",
+    "065": "cat head edited onto a fish body (cursed surreal hybrid)",
+    "138": "uncanny human-grin necktie cat (cursed hybrid)"
+  }
+}

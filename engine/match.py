@@ -7,12 +7,23 @@ against that request by overlap with its emotion tags / primary / use_for, and
 returns the best match. Deterministic and explainable — no model call needed at
 match time, because the describing was already done once in catalog.json.
 """
-import json, re
-from paths import CATALOG
+import json, os, re
+from paths import CATALOG, DATA
 
 def load_catalog(path=None):
     with open(path or CATALOG) as f:
         return json.load(f)
+
+def load_blocklist():
+    """Clip IDs that must never be picked (cursed AI human-hybrid clips, etc.)."""
+    p = os.path.join(DATA, "blocklist.json")
+    try:
+        with open(p) as f:
+            return set(json.load(f).get("blocked", {}))
+    except FileNotFoundError:
+        return set()
+
+BLOCKED = load_blocklist()
 
 _WORD = re.compile(r"[a-z0-9']+")
 def toks(s):
@@ -44,9 +55,17 @@ def score(clip, want, query=""):
     s += QUALITY_BONUS.get(clip["quality"], 0)
     return s, matched
 
-def match(want, query="", catalog=None, exclude=None, orientation=None):
+def match(want, query="", catalog=None, exclude=None, orientation=None,
+          penalize=None, penalty=-1.5):
+    """exclude: clip ids removed from contention entirely (repeats within one
+    video + the cursed-clip blocklist). penalize: clip ids softly discouraged
+    (used by OTHER videos) — they score `penalty` lower so unused clips win when
+    quality is comparable, but a strong match still beats a weak unused clip.
+    Keeps the channel diverse WITHOUT digging into broken/low-quality clips once
+    the good ones are spent."""
     catalog = catalog or load_catalog()
-    exclude = set(exclude or [])
+    exclude = set(exclude or []) | BLOCKED
+    penalize = set(penalize or [])
     ranked = []
     for c in catalog:
         if c["id"] in exclude:
@@ -54,12 +73,15 @@ def match(want, query="", catalog=None, exclude=None, orientation=None):
         sc, matched = score(c, want, query)
         if orientation and c["orientation"] != orientation:
             sc -= 0.5
+        if c["id"] in penalize:
+            sc += penalty
         ranked.append((sc, c, matched))
     ranked.sort(key=lambda r: r[0], reverse=True)
     return ranked
 
-def best(want, query="", catalog=None, exclude=None, orientation=None):
-    ranked = match(want, query, catalog, exclude, orientation)
+def best(want, query="", catalog=None, exclude=None, orientation=None,
+         penalize=None, penalty=-1.5):
+    ranked = match(want, query, catalog, exclude, orientation, penalize, penalty)
     return ranked[0] if ranked else (0, None, [])
 
 if __name__ == "__main__":

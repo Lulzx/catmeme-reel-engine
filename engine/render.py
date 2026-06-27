@@ -275,7 +275,10 @@ def run(cmd):
 
 DEFAULT_POS={1:[0.5],2:[0.30,0.70],3:[0.22,0.5,0.78]}
 
-def render(story_path):
+def render(story_path, seed_used=None):
+    # seed_used: a list of clip ids already used by *other* videos in a batch;
+    # the matcher avoids them so clips don't repeat across the batch. Passed by
+    # reference and grown in place, so the caller can thread it through a batch.
     story=json.load(open(story_path))
     cv=story.get("canvas",{}); W,H,FPS=cv.get("w",1080),cv.get("h",1920),cv.get("fps",30)
     pov=story.get("pov",""); default_max=story.get("max_beat_dur",4.5)
@@ -286,7 +289,9 @@ def render(story_path):
         beats.append({"card":story["outro"],"bg":{"palette":"void"},"dur":2.6,
                       "cast":story.get("outro_cast",[])})
 
-    used=[]; beat_files=[]
+    # cross-video set (soft): clips other videos used — discouraged, not banned.
+    cross_used=seed_used if seed_used is not None else []
+    story_used=[]; beat_files=[]   # within THIS video: hard no-repeat
     for i,beat in enumerate(beats):
         cast=beat.get("cast",[])
         # resolve each character's clip
@@ -294,15 +299,15 @@ def render(story_path):
         for c in cast:
             if c.get("clip"): clip=by_id[c["clip"]]
             else:
+                # hard-exclude repeats within this video; softly avoid clips used
+                # by other videos (quality still wins over novelty).
                 _,clip,_=M.best(c.get("want",[]),c.get("query",""),catalog,
-                                exclude=used+local_used)
-                if clip is None:          # catalog exhausted by no-repeat rule:
-                    _,clip,_=M.best(c.get("want",[]),c.get("query",""),catalog,
-                                    exclude=local_used)   # allow cross-beat reuse
+                                exclude=story_used+local_used,
+                                penalize=set(cross_used))
             if clip is None:
                 raise SystemExit(f"beat {i}: no clip matches {c.get('want') or c.get('query')!r}")
             clips.append(clip); local_used.append(clip["id"])
-        used+=local_used
+        story_used+=local_used; cross_used+=local_used
         # geometry
         n=len(cast)
         pos=[c.get("pos") for c in cast]
