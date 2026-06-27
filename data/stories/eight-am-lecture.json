@@ -1,0 +1,172 @@
+{
+  "title": "The 8Am Lecture You Swore You'D Attend This Semester",
+  "output": "eight-am-lecture.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the 8am lecture you swore you'd attend this semester",
+  "outro": "FOLLOW FOR PART 2",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*day 1: fully motivated*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "confident",
+            "hype",
+            "determined",
+            "smug"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the 6:30am alarm*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "exhausted",
+            "broken",
+            "done",
+            "dead-inside"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"I'll just rest my eyes\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "sleepy",
+            "drowsy",
+            "dozing",
+            "content"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*waking up at 11am*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "startled",
+            "shocked",
+            "panicked",
+            "alarmed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the lecture, happening without me*",
+      "bg": {
+        "place": "classroom"
+      },
+      "cast": [
+        {
+          "name": "PROFESSOR",
+          "want": [
+            "explaining",
+            "lecturing",
+            "presenting",
+            "chatty"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"I'll watch the recording\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "smug",
+            "self-satisfied",
+            "confident",
+            "cool"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the 40 unwatched recordings*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "frazzled",
+            "panicked",
+            "frantic",
+            "distressed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*attendance: pure vibes*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "blasé",
+            "nonchalant",
+            "unbothered"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

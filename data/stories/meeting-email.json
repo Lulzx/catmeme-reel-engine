@@ -1,0 +1,172 @@
+{
+  "title": "The Meeting That Could'Ve Been An Email",
+  "output": "meeting-email.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the meeting that could've been an email",
+  "outro": "FOLLOW IF YOU'VE SAT THROUGH THIS",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*\"quick sync, won't take long\"*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "MGR",
+          "want": [
+            "announcing",
+            "presenting",
+            "chatty",
+            "explaining"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*me, already regretting it*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "done",
+            "unamused",
+            "fed-up",
+            "deadpan"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*45 minutes, still no point*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "MGR",
+          "want": [
+            "yapping",
+            "ranting",
+            "lecturing",
+            "talking"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*my soul leaving my body*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "zoning out",
+            "vacant",
+            "checked-out",
+            "dissociating"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"let me circle back to that\"*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "MGR",
+          "want": [
+            "making-a-point",
+            "chatty",
+            "demanding",
+            "talking"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*this is literally one email*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "unamused",
+            "blank-stare",
+            "deadpan",
+            "bored"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"any questions?\" — please no*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "pleading",
+            "impatient",
+            "tired",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*IT COULD'VE BEEN AN EMAIL*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "screaming",
+            "outburst",
+            "rage",
+            "yelling"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

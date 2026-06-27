@@ -1,0 +1,172 @@
+{
+  "title": "You Missed The Exit Because You Were Vibing Too Hard",
+  "output": "missed-the-exit.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you missed the exit because you were vibing too hard",
+  "outro": "FOLLOW IF YOU'RE THE AUX DJ",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*aux cord: acquired*",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "smug",
+            "cool",
+            "confident",
+            "rizz"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the song hits different*",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "hype",
+            "dancing",
+            "jamming",
+            "groovy"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*full concert mode*",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "singing",
+            "performing",
+            "joyful singing",
+            "crooning"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"wasn't that our exit?\"*",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "DRIVER",
+          "want": [
+            "alarmed",
+            "startled",
+            "shocked",
+            "what"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*...it was*",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "guilty",
+            "awkward",
+            "embarrassed",
+            "nervous"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*45 extra minutes*",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "DRIVER",
+          "want": [
+            "furious",
+            "rage",
+            "glaring",
+            "road-rage"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*demoted from DJ, effective immediately*",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "defeated",
+            "sad",
+            "sulking",
+            "pouty"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*worth it*",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "smug",
+            "self-satisfied",
+            "content",
+            "unbothered"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

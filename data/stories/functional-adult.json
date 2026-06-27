@@ -1,56 +1,185 @@
 {
   "title": "Trying To Be A Functional Adult",
-  "output": "final.mp4",
-  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "output": "functional-adult.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
   "max_beat_dur": 4.5,
   "baseline": 0.9,
   "pov": "POV: you promised yourself today would be productive",
   "outro": "FOLLOW FOR PART 2",
-  "outro_cast": [ { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 } ],
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
   "beats": [
     {
       "action": "*woke up already exhausted*",
-      "bg": { "place": "home" },
-      "cast": [ { "name": "ME", "want": ["broken", "dead-inside", "exhausted", "done"], "size": 0.5 } ]
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "broken",
+            "dead-inside",
+            "exhausted",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ]
     },
     {
       "action": "*attempting a healthy breakfast*",
-      "bg": { "place": "kitchen" },
-      "cast": [ { "name": "ME", "want": ["disgust", "gagging", "grossed-out", "ew"], "size": 0.5 } ]
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "disgust",
+            "gagging",
+            "grossed-out",
+            "ew"
+          ],
+          "size": 0.5
+        }
+      ]
     },
     {
       "action": "*\"new year, new me\"*",
-      "bg": { "place": "gym" },
-      "cast": [ { "name": "ME", "want": ["smug", "confident", "rizz", "cool"], "size": 0.5 } ]
+      "bg": {
+        "place": "gym"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "smug",
+            "confident",
+            "rizz",
+            "cool"
+          ],
+          "size": 0.5
+        }
+      ]
     },
     {
       "action": "*saw the treadmill speed*",
-      "bg": { "place": "gym" },
-      "cast": [ { "name": "ME", "want": ["startled", "shocked", "spooked", "alarmed"], "size": 0.48 } ]
+      "bg": {
+        "place": "gym"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "startled",
+            "shocked",
+            "spooked",
+            "alarmed"
+          ],
+          "size": 0.48
+        }
+      ]
     },
     {
       "action": "*the trainer judging my form*",
-      "bg": { "place": "gym" },
+      "bg": {
+        "place": "gym"
+      },
       "cast": [
-        { "name": "TRAINER", "want": ["angry", "menacing", "glaring", "stern"], "pos": 0.67, "size": 0.46 },
-        { "name": "ME", "want": ["nervous", "pleading", "sad", "defeated"], "pos": 0.30, "size": 0.40, "flip": true }
+        {
+          "name": "TRAINER",
+          "want": [
+            "angry",
+            "menacing",
+            "glaring",
+            "stern"
+          ],
+          "pos": 0.67,
+          "size": 0.46
+        },
+        {
+          "name": "ME",
+          "want": [
+            "nervous",
+            "pleading",
+            "sad",
+            "defeated"
+          ],
+          "pos": 0.3,
+          "size": 0.4,
+          "flip": true
+        }
       ]
     },
     {
       "action": "*rewarding myself anyway*",
-      "bg": { "place": "restaurant" },
-      "cast": [ { "name": "ME", "want": ["laughing", "amused", "giggling", "lol"], "size": 0.5 } ]
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "laughing",
+            "amused",
+            "giggling",
+            "lol"
+          ],
+          "size": 0.5
+        }
+      ]
     },
     {
       "action": "*productivity: 0   ·   naps: 1*",
-      "bg": { "place": "home" },
-      "cast": [ { "name": "ME", "want": ["sleepy", "content", "relaxed", "cozy"], "size": 0.5 } ]
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "sleepy",
+            "content",
+            "relaxed",
+            "cozy"
+          ],
+          "size": 0.5
+        }
+      ]
     },
     {
       "action": "*tomorrow I'll definitely change*",
-      "bg": { "place": "park" },
+      "bg": {
+        "place": "park"
+      },
       "dur": 6.0,
-      "cast": [ { "name": "ME", "want": ["dancing", "hype", "celebrate", "party"], "size": 0.5 } ]
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "dancing",
+            "hype",
+            "celebrate",
+            "party"
+          ],
+          "size": 0.5
+        }
+      ]
     }
   ]
 }

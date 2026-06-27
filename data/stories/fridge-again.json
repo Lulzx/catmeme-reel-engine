@@ -1,0 +1,172 @@
+{
+  "title": "Opening The Fridge For The 5Th Time Hoping Food Appeared",
+  "output": "fridge-again.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: opening the fridge for the 5th time hoping food appeared",
+  "outro": "FOLLOW IF THE FRIDGE BETRAYS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*peckish, not actually hungry*",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "bored",
+            "wandering",
+            "curious",
+            "blank-stare"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*opening the fridge*",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "curious",
+            "hopeful",
+            "investigating",
+            "inspecting"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*same things as 10 minutes ago*",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "disappointed",
+            "unamused",
+            "bored",
+            "deadpan"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*closing it*",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "done",
+            "unamused",
+            "blank-stare"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*...opening it again*",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "hopeful",
+            "curious",
+            "expectant",
+            "wondering"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*still nothing new*",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "disappointed",
+            "fed-up",
+            "grumpy",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*checking the pantry for a plot twist*",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "investigating",
+            "nosy",
+            "hopeful",
+            "curious"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*surrendering to cereal again*",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "content",
+            "defeated",
+            "blank-stare"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

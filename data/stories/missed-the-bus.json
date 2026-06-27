@@ -1,0 +1,172 @@
+{
+  "title": "You Run For The Bus And The Driver Pulls Away",
+  "output": "missed-the-bus.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you run for the bus and the driver pulls away",
+  "outro": "FOLLOW IF THE BUS LEFT YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*I see my bus — I can make it*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "determined",
+            "hopeful",
+            "focused",
+            "eager"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*full sprint, bag flailing*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "frantic",
+            "flailing",
+            "energetic",
+            "scrambling"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*we make direct eye contact*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "DRIVER",
+          "want": [
+            "deadpan",
+            "unbothered",
+            "blank-stare",
+            "smug"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*he pulls away*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "DRIVER",
+          "want": [
+            "dismissive",
+            "cool",
+            "nonchalant",
+            "unbothered"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*betrayed, mid-stride*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "betrayed",
+            "disbelief",
+            "shocked",
+            "heartbroken"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*next one: 40 minutes*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "defeated",
+            "sad",
+            "done",
+            "broken"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*pretending I wasn't running*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "awkward",
+            "flustered",
+            "embarrassed",
+            "nervous"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the driver smiles. he remembers.*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "DRIVER",
+          "want": [
+            "smug",
+            "mischievous",
+            "sly",
+            "satisfied"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

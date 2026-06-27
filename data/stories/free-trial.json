@@ -1,0 +1,172 @@
+{
+  "title": "The Free Trial You Forgot To Cancel",
+  "output": "free-trial.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the free trial you forgot to cancel",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*\"7 days free!\" I'll cancel in time*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "confident",
+            "smug",
+            "cool",
+            "carefree"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*(narrator: they did not cancel)*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "clueless",
+            "content",
+            "relaxed",
+            "chill"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the $99 charge appears*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "shocked",
+            "startled",
+            "stunned",
+            "alarmed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"I've paid this for 8 MONTHS?\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "disbelief",
+            "speechless",
+            "distressed",
+            "shocked"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*I used it exactly once*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "defeated",
+            "sad",
+            "broken",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*to cancel: navigating 47 menus*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "frazzled",
+            "annoyed",
+            "fed-up",
+            "frantic"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"are you SURE you want to leave?\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "APP",
+          "want": [
+            "pleading",
+            "needy",
+            "demanding",
+            "insistent"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*free trials are a trap*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "unamused",
+            "deadpan",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

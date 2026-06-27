@@ -1,0 +1,172 @@
+{
+  "title": "You Waved Back At Someone Who Wasn'T Waving At You",
+  "output": "waved-back.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you waved back at someone who wasn't waving at you",
+  "outro": "FOLLOW IF YOU'VE DONE THIS",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*someone waves my way*",
+      "bg": {
+        "place": "park"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "happy",
+            "cheerful",
+            "friendly",
+            "smiling"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*I wave back, big smile*",
+      "bg": {
+        "place": "park"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "waving",
+            "flailing wave",
+            "cheerful",
+            "joyful"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*they meant the person behind me*",
+      "bg": {
+        "place": "park"
+      },
+      "cast": [
+        {
+          "name": "THE PERSON",
+          "want": [
+            "friendly",
+            "greeting",
+            "waving",
+            "cheerful"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the realization*",
+      "bg": {
+        "place": "park"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "stunned",
+            "caught-off-guard",
+            "speechless",
+            "frozen"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*pretending I was fixing my hair*",
+      "bg": {
+        "place": "park"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "awkward",
+            "flustered",
+            "nervous",
+            "embarrassed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*leaving at the speed of light*",
+      "bg": {
+        "place": "park"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "panicked",
+            "frantic",
+            "scrambling",
+            "frazzled"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*replaying it all day*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "dissociating",
+            "staring",
+            "vacant",
+            "blank-stare"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*I will never wave again*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "done",
+            "melancholy",
+            "traumatized"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

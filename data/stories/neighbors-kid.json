@@ -1,0 +1,185 @@
+{
+  "title": "Your Parents Comparing You To The Neighbor'S Perfect Kid",
+  "output": "neighbors-kid.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: your parents comparing you to the neighbor's perfect kid",
+  "outro": "FOLLOW IF YOU'RE SOMEONE'S SHARMA JI'S SON",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*mom: \"you know who got a job?\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "MOM",
+          "want": [
+            "smug",
+            "gossiping",
+            "chatty",
+            "telling"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*here we go again*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "done",
+            "unamused",
+            "fed-up",
+            "dead-inside"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"the neighbor's son built a HOUSE\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "MOM",
+          "want": [
+            "showing-off",
+            "proud",
+            "presenting",
+            "praising"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the perfect kid, allegedly*",
+      "bg": {
+        "place": "village"
+      },
+      "cast": [
+        {
+          "name": "THE KID",
+          "want": [
+            "smug",
+            "confident",
+            "rizz",
+            "cool"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"why can't you be like him?\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "MOM",
+          "want": [
+            "pointing",
+            "making-a-point",
+            "lecturing",
+            "demanding"
+          ],
+          "pos": 0.67,
+          "size": 0.46
+        },
+        {
+          "name": "ME",
+          "want": [
+            "defeated",
+            "sad",
+            "resigned",
+            "done"
+          ],
+          "pos": 0.3,
+          "size": 0.4,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*plot twist: he's also suffering*",
+      "bg": {
+        "place": "village"
+      },
+      "cast": [
+        {
+          "name": "THE KID",
+          "want": [
+            "exhausted",
+            "done",
+            "dead-inside",
+            "tired"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*his mom is comparing him to YOU*",
+      "bg": {
+        "place": "village"
+      },
+      "cast": [
+        {
+          "name": "HIS MOM",
+          "want": [
+            "smug",
+            "gossiping",
+            "telling",
+            "chatty"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the cycle never ends*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "melancholy",
+            "blank-stare",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

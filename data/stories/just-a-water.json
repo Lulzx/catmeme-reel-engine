@@ -1,0 +1,172 @@
+{
+  "title": "Splitting The Bill Evenly When You Just Had Water",
+  "output": "just-a-water.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: splitting the bill evenly when you just had water",
+  "outro": "FOLLOW IF THIS HAPPENED TO YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*the table ordered EVERYTHING*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "THE TABLE",
+          "want": [
+            "feasting",
+            "eating",
+            "hungry",
+            "greedy"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*me, with my tap water*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "content",
+            "calm",
+            "blank-stare",
+            "patient"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the bill arrives*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "calm",
+            "unbothered",
+            "chill",
+            "content"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"let's just split it evenly!\"*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "FRIEND",
+          "want": [
+            "cheerful",
+            "confident",
+            "presenting",
+            "cheery presenting"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*my soul leaving my body*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "shocked",
+            "stunned",
+            "disbelief",
+            "speechless"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"it's basically the same\"*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "FRIEND",
+          "want": [
+            "smug",
+            "nonchalant",
+            "dismissive",
+            "blasé"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*paying $60 for a water*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "heartbroken",
+            "crying",
+            "defeated",
+            "sobbing"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*ordering the lobster next time*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "plotting",
+            "determined",
+            "menacing",
+            "scheming"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

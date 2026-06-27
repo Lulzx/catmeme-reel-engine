@@ -1,0 +1,172 @@
+{
+  "title": "Your Date Looked Nothing Like Their Photos",
+  "output": "catfish-date.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: your date looked nothing like their photos",
+  "outro": "FOLLOW IF YOU'VE BEEN CATFISHED",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*waiting, full of butterflies*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "hopeful",
+            "excited",
+            "cheerful",
+            "eager"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"are you... your profile pic?\"*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "confused",
+            "puzzled",
+            "skeptical",
+            "wondering"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the photos were from 2009*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "DATE",
+          "want": [
+            "smug",
+            "confident",
+            "charming",
+            "cool"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*possibly a different person entirely*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "stunned",
+            "disbelief",
+            "speechless",
+            "wide-eyed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*plotting my escape route*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "sneaky",
+            "scheming",
+            "sly",
+            "plotting"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"shall we get dessert?\"*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "DATE",
+          "want": [
+            "hopeful",
+            "eager",
+            "cheerful",
+            "friendly"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*texting a friend for a fake 911*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "sneaky",
+            "busy",
+            "frantic",
+            "sly"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*straight back to the apps*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "done",
+            "tired",
+            "blasé"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "title": "It'S A Group Project And You'Re The Only One Working",
+  "output": "group-project.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: it's a group project and you're the only one working",
+  "outro": "FOLLOW IF YOU CARRIED THE GROUP",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*teacher: \"work as a team!\"*",
+      "bg": {
+        "place": "classroom"
+      },
+      "cast": [
+        {
+          "name": "TEACHER",
+          "want": [
+            "announcing",
+            "presenting",
+            "cheery presenting",
+            "explaining"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the team:*",
+      "bg": {
+        "place": "classroom"
+      },
+      "cast": [
+        {
+          "name": "THE TEAM",
+          "want": [
+            "lazy",
+            "checked-out",
+            "bored",
+            "zoning out"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*me doing every slide at 2am*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "busy typing",
+            "frazzled",
+            "frantic",
+            "panic-work"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"can someone add a part?\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "pleading",
+            "hopeful",
+            "asking",
+            "expectant"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the group chat: silence*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "blank-stare",
+            "deadpan",
+            "done",
+            "unamused"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*presentation day: they're \"experts\"*",
+      "bg": {
+        "place": "classroom"
+      },
+      "cast": [
+        {
+          "name": "TEAMMATE",
+          "want": [
+            "confident",
+            "smug",
+            "cocky",
+            "rizz"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*they got the SAME grade as me*",
+      "bg": {
+        "place": "classroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "furious",
+            "rage",
+            "betrayed",
+            "screaming"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*I will remember this forever*",
+      "bg": {
+        "place": "classroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "menacing",
+            "plotting",
+            "scheming",
+            "ominous"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

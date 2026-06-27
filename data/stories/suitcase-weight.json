@@ -1,0 +1,172 @@
+{
+  "title": "Repacking Your Suitcase At Check-In To Dodge The Fee",
+  "output": "suitcase-weight.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: repacking your suitcase at check-in to dodge the fee",
+  "outro": "FOLLOW IF YOU'D DO THE SAME",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*\"that's a $75 overweight fee\"*",
+      "bg": {
+        "place": "airport"
+      },
+      "cast": [
+        {
+          "name": "STAFF",
+          "want": [
+            "matter-of-fact",
+            "deadpan",
+            "unimpressed",
+            "stern"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*absolutely not*",
+      "bg": {
+        "place": "airport"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "determined",
+            "bold",
+            "intense",
+            "focused"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*opening the suitcase right there*",
+      "bg": {
+        "place": "airport"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "frantic",
+            "scrambling",
+            "busy",
+            "panic-work"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*putting on 6 shirts and a coat*",
+      "bg": {
+        "place": "airport"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "struggling",
+            "awkward",
+            "flustered",
+            "squished"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the line behind me*",
+      "bg": {
+        "place": "airport"
+      },
+      "cast": [
+        {
+          "name": "THE LINE",
+          "want": [
+            "annoyed",
+            "unimpressed",
+            "judging",
+            "impatient"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"it's 0.2kg under now\"*",
+      "bg": {
+        "place": "airport"
+      },
+      "cast": [
+        {
+          "name": "STAFF",
+          "want": [
+            "unimpressed",
+            "deadpan",
+            "unamused",
+            "blank-stare"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*sweating through July in a parka*",
+      "bg": {
+        "place": "airport"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "exhausted",
+            "melting",
+            "tired",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*I won. at what cost*",
+      "bg": {
+        "place": "airport"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "smug",
+            "victory",
+            "satisfied",
+            "self-satisfied"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

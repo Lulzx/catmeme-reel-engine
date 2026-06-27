@@ -1,0 +1,172 @@
+{
+  "title": "A Cringe Memory From 2017 Ambushes You At 3Am",
+  "output": "memory-at-3am.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: a cringe memory from 2017 ambushes you at 3am",
+  "outro": "FOLLOW IF YOUR BRAIN DOES THIS",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*finally falling asleep*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "sleepy",
+            "content",
+            "peaceful",
+            "cozy"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*brain: \"remember THAT?\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "startled",
+            "shocked",
+            "wide-eyed",
+            "alarmed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*no. no no no*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "distressed",
+            "panicked",
+            "freaking-out",
+            "traumatized"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*fully reliving it, eyes open*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "dissociating",
+            "staring",
+            "vacant",
+            "traumatized"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*that thing I said in 2017*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "humiliated",
+            "ashamed",
+            "embarrassed",
+            "awkward"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*making a noise out loud*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "screaming",
+            "outburst",
+            "wailing",
+            "yelling"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*it's now 4:30am*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "exhausted",
+            "broken",
+            "done",
+            "dead-inside"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*see you tomorrow night, brain*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "blank-stare",
+            "melancholy",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

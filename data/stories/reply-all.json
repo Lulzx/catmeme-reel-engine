@@ -1,0 +1,172 @@
+{
+  "title": "You Accidentally Hit Reply-All To The Whole Company",
+  "output": "reply-all.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you accidentally hit reply-all to the whole company",
+  "outro": "FOLLOW IF YOU'VE DONE THIS",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*typing a spicy reply about Karen*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "smug",
+            "mischievous",
+            "plotting",
+            "sly"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*hit send, feeling powerful*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "confident",
+            "cool",
+            "satisfied",
+            "smug"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*it said \"reply ALL\"*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "shocked",
+            "startled",
+            "stunned",
+            "alarmed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*247 coworkers just got it*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "panicked",
+            "freaking-out",
+            "frantic",
+            "distressed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*Karen has seen it*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "KAREN",
+          "want": [
+            "furious",
+            "glaring",
+            "menacing",
+            "angry"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*frantically hitting \"recall\"*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "frantic",
+            "scrambling",
+            "panicked",
+            "busy"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*recall failed*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "defeated",
+            "heartbroken",
+            "broken",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*updating my resume*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "busy typing",
+            "tired",
+            "blank-stare"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "title": "Every Relative Asking When You'Ll Get Married",
+  "output": "relatives-marriage.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: every relative asking when you'll get married",
+  "outro": "FOLLOW IF YOUR RELATIVES DO THIS",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*walking into the family function*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "cautious",
+            "nervous",
+            "uneasy",
+            "wary"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"so beta, any good news?\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "AUNTIE",
+          "want": [
+            "nosy",
+            "gossiping",
+            "chatty",
+            "knowing"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"when are YOU getting married?\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "UNCLE",
+          "want": [
+            "demanding",
+            "asking",
+            "insistent",
+            "nosy"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*me, twenty-two years old*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "done",
+            "unamused",
+            "deadpan",
+            "fed-up"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"your cousin already has two kids\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "AUNTIE",
+          "want": [
+            "showing-off",
+            "proud",
+            "smug",
+            "praising"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*deflecting with a plate of food*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "busy",
+            "distracted",
+            "eating",
+            "awkward"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*plotting an early exit*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "scheming",
+            "sly",
+            "plotting",
+            "sneaky"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*see you next function*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "tired",
+            "blank-stare",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

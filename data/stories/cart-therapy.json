@@ -1,0 +1,172 @@
+{
+  "title": "2Am Add-To-Cart Therapy",
+  "output": "cart-therapy.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: 2am add-to-cart therapy",
+  "outro": "FOLLOW IF YOUR CART IS THERAPY",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*can't sleep, opening the app*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "sleepy",
+            "bored",
+            "scrolling",
+            "absent scrolling"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"I deserve this\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "smug",
+            "tempted",
+            "greedy",
+            "wanting"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*adding things I can't afford*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "excited",
+            "greedy",
+            "wanting",
+            "eager"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*cart total: one rent payment*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "shocked",
+            "stunned",
+            "nervous",
+            "alarmed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*hitting \"buy now\" anyway*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "mischievous",
+            "tempted",
+            "sly",
+            "wild"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*instant, crushing regret*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "guilty",
+            "distressed",
+            "defeated",
+            "sad"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*it arrives; I forgot I bought it*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "surprised",
+            "confused",
+            "amazed",
+            "puzzled"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*return it? no. it lives here now*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "content",
+            "blasé",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

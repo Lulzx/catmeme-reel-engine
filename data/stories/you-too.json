@@ -1,0 +1,172 @@
+{
+  "title": "You Said 'You Too' When The Waiter Said 'Enjoy Your Meal'",
+  "output": "you-too.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you said 'you too' when the waiter said 'enjoy your meal'",
+  "outro": "FOLLOW IF YOU SAID \"YOU TOO\"",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*the waiter brings the food*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "WAITER",
+          "want": [
+            "friendly",
+            "service",
+            "cheerful",
+            "presenting"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"enjoy your meal!\"*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "WAITER",
+          "want": [
+            "cheerful",
+            "smiling",
+            "friendly",
+            "warm"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*me: \"you too!\"*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "happy",
+            "cheerful",
+            "friendly",
+            "goofy"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*...he is not eating*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "caught-off-guard",
+            "frozen",
+            "speechless",
+            "stunned"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the silence*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "WAITER",
+          "want": [
+            "awkward",
+            "deadpan",
+            "blank-stare",
+            "unamused"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*trying to take it back*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "flustered",
+            "nervous",
+            "panicked",
+            "awkward"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*replaying it for 5 business days*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "dissociating",
+            "staring",
+            "vacant",
+            "traumatized"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"you too\" haunts me still*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "melancholy",
+            "done",
+            "blank-stare"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}
