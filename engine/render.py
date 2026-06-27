@@ -104,10 +104,56 @@ def library_match(query):
             best, best_score = path, score
     return best if best_score >= 1 else None
 
+# filler words that make an image search over-specific and return nothing — a
+# verbose scene line like "phone screen text message closeup dark" matches almost
+# no CC photos, but "phone screen" matches plenty.
+_BG_STOP = {"closeup","close","up","interior","exterior","indoor","indoors","dark",
+            "night","evening","morning","cozy","soft","dim","dimly","lit","glow",
+            "glowing","scene","background","view","shot","with","the","and","of","a"}
+
+def _bg_queries(query):
+    """The exact query, then simpler fallbacks built from the salient (non-filler)
+    words. The two-word core is tried before the three-word one: empirically it's
+    both the most reliable to return results and the most on-topic ("neon bar" →
+    bar signs, where "neon bar purple" drifts to a car wrap). A lone keyword is
+    avoided — "neon"/"bar" are too ambiguous — so a wordy scene line resolves to a
+    relevant photo rather than an off-topic one or a blank gradient."""
+    words = re.findall(r"[a-z0-9]+", query.lower())
+    core  = [w for w in words if w not in _BG_STOP] or words
+    cands = [query, " ".join(core[:2]), " ".join(core[:3])]
+    out, seen = [], set()
+    for c in cands:
+        c = c.strip()
+        if c and c not in seen:
+            seen.add(c); out.append(c)
+    return out
+
+def _openverse_search(query):
+    """Run one Openverse search. Returns the first usable RGB image, or None when
+    the search ran but yielded nothing usable. Raises on a network/JSON error so
+    the caller can tell a real miss apart from a transient failure."""
+    api = ("https://api.openverse.org/v1/images/?q=" + urllib.parse.quote(query)
+           + "&page_size=12&mature=false&license_type=all")
+    data = json.loads(_get(api))          # network/JSON errors propagate
+    for r in data.get("results", []):
+        # thumbnail first: it's a live, right-sized CDN image; the original `url`
+        # often points at a source page that 403s or isn't an image at all.
+        for u in (r.get("thumbnail"), r.get("url")):
+            if not u: continue
+            try:
+                im = Image.open(io.BytesIO(_get(u))).convert("RGB")
+                if im.width >= 240 and im.height >= 240:
+                    return im
+            except Exception:
+                continue
+    return None
+
 def fetch_image(query):
     """Scene-relevant photo for `query` from Openverse (keyless CC). Cached.
-    A `.miss` marker is written when a query yields nothing, so repeat renders
-    fall straight through to the gradient instead of re-hitting the network."""
+    Tries the full query then simpler fallbacks so wordy descriptions still land
+    a photo. A `.miss` marker is written only when every variant genuinely comes
+    up empty (not on a network error), so repeat renders fall straight through to
+    the gradient without re-hitting the network."""
     slug = re.sub(r"[^a-z0-9]+", "_", query.lower()).strip("_")[:60]
     cache = os.path.join(CACHE, slug + ".jpg")
     miss  = os.path.join(CACHE, slug + ".miss")
@@ -115,22 +161,14 @@ def fetch_image(query):
         return cache
     if os.path.exists(miss):
         return None
-    api = ("https://api.openverse.org/v1/images/?q=" + urllib.parse.quote(query)
-           + "&page_size=8&mature=false&license_type=all")
     try:
-        data = json.loads(_get(api))
+        for q in _bg_queries(query):
+            im = _openverse_search(q)
+            if im is not None:
+                im.save(cache, quality=90); return cache
     except Exception:
         return None                       # transient/network error — retry next run
-    for r in data.get("results", []):
-        for u in (r.get("url"), r.get("thumbnail")):
-            if not u: continue
-            try:
-                im = Image.open(io.BytesIO(_get(u))).convert("RGB")
-                if im.width >= 320 and im.height >= 320:
-                    im.save(cache, quality=90); return cache
-            except Exception:
-                continue
-    open(miss, "w").close()               # query returned nothing usable
+    open(miss, "w").close()               # every variant returned nothing usable
     return None
 
 # background painting ----------------------------------------------------------
