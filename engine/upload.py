@@ -30,6 +30,7 @@ from engine.paths import ROOT
 from engine import db
 
 YT_MD         = os.path.join(ROOT, "youtube.md")
+VIDEOS_JSON   = os.path.join(ROOT, "data", "videos.json")
 CLIENT_SECRET = os.path.join(ROOT, "client_secret.json")
 TOKEN         = os.path.join(ROOT, "token.json")
 SCOPES        = ["https://www.googleapis.com/auth/youtube.upload"]
@@ -88,6 +89,7 @@ def render_md(con):
         ]
     with open(YT_MD, "w") as f:
         f.write("\n".join(lines))
+    db.export_json(con, VIDEOS_JSON)   # git-tracked JSON snapshot of the DB
 
 
 # ── youtube api ─────────────────────────────────────────────────────────────

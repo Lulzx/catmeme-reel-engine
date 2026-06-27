@@ -129,6 +129,21 @@ def all_used_clips(con):
     return [r["clip_id"] for r in con.execute("SELECT clip_id FROM clip_usage").fetchall()]
 
 
+# ── git-friendly JSON export (videos.db stays local; this is what's tracked) ─
+def export_json(con, path):
+    """Write a versionable JSON snapshot of the catalog of videos. The SQLite DB
+    is the working store (local, gitignored); this JSON is committed so the
+    posting state is visible/portable on GitHub."""
+    data = {
+        "channel": meta_get(con, "channel", {}),
+        "defaults": meta_get(con, "defaults", {}),
+        "videos": list_videos(con),
+    }
+    with open(path, "w") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+
+
 # ── one-time migration from youtube.json ────────────────────────────────────
 def migrate_from_json(con, json_path):
     data = json.load(open(json_path))
