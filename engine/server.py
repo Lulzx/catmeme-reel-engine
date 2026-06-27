@@ -198,7 +198,24 @@ def api_schedule():
         v["output_url"] = f"/media/output/{name}" if has else None
         v["poster"] = _poster(name, vp) if has else None
         v["youtube_url"] = f"https://youtu.be/{v['video_id']}" if v.get("video_id") else None
+        v["place"] = _dominant_place(v["slug"])
     return data
+
+def _dominant_place(slug):
+    """Most-used background scene across a story's beats (drives lane filtering)."""
+    p = os.path.join(STORIES, slug + ".json")
+    if not os.path.exists(p):
+        return None
+    try:
+        beats = json.load(open(p)).get("beats", [])
+    except Exception:
+        return None
+    counts = {}
+    for b in beats:
+        pl = (b.get("bg") or {}).get("place")
+        if pl:
+            counts[pl] = counts.get(pl, 0) + 1
+    return max(counts, key=counts.get) if counts else None
 
 # --- matcher playground ------------------------------------------------------
 @app.get("/api/match")

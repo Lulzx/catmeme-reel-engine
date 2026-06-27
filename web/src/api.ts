@@ -103,6 +103,7 @@ export interface ScheduleVideo {
   output_url: string | null;
   poster: string | null;
   youtube_url: string | null;
+  place: string | null;
 }
 
 export interface Schedule {

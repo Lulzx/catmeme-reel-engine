@@ -45,28 +45,53 @@ function fmtCountdown(ms: number): string {
   return `${m}m`;
 }
 
+/* lanes = setting / background scene (from backgrounds/<name>) */
+const SCENES: Record<string, string> = {
+  airport: "✈️ Airport", amusementpark: "🎡 Amusement Park", bank: "🏦 Bank",
+  beach: "🏖️ Beach", cinema: "🎬 Cinema", classroom: "🏫 Classroom",
+  concert: "🎤 Concert", fantacy: "🪄 Fantasy", forest: "🌲 Forest",
+  grassland: "🌿 Grassland", gym: "🏋️ Gym", highway: "🛣️ Highway", home: "🏠 Home",
+  hospital: "🏥 Hospital", kitchen: "🍳 Kitchen", lab: "🧪 Lab", library: "📚 Library",
+  mountain: "⛰️ Mountain", museum: "🖼️ Museum", office: "💼 Office", park: "🌳 Park",
+  playground: "🛝 Playground", pool: "🏊 Pool", port: "⚓ Port", restaurant: "🍽️ Restaurant",
+  river: "🏞️ River", rooftop: "🌆 Rooftop", school: "🎒 School", shop: "🛍️ Shop",
+  stage: "🎭 Stage", station: "🚉 Station", theater: "🎟️ Theater", village: "🏡 Village",
+  others: "📍 Other",
+};
+const sceneLabel = (id: string) => SCENES[id] ?? id.charAt(0).toUpperCase() + id.slice(1);
+const laneOf = (v: ScheduleVideo): string => v.place ?? "other";
+
 /* ------------------------------------------------------------------ view --- */
 export function Calendar() {
   const [data, setData] = useState<Schedule | null>(null);
   const [month, setMonth] = useState(() => { const d = new Date(); return new Date(d.getFullYear(), d.getMonth(), 1); });
   const [now, setNow] = useState(() => Date.now());
+  const [lane, setLane] = useState("all");
   const play = usePlayer();
 
   useEffect(() => { api.schedule().then(setData).catch(() => setData({ channel: {}, defaults: {}, videos: [] })); }, []);
   useEffect(() => { const t = setInterval(() => setNow(Date.now()), 30_000); return () => clearInterval(t); }, []);
 
-  const videos = data?.videos ?? [];
+  const allVideos = data?.videos ?? [];
+  const lanesPresent = useMemo(() => {
+    const ids = [...new Set(allVideos.map(laneOf))].filter((x) => x !== "other").sort();
+    return ids.map((id) => ({ id, label: sceneLabel(id) }));
+  }, [allVideos]);
+  const videos = useMemo(
+    () => (lane === "all" ? allVideos : allVideos.filter((v) => laneOf(v) === lane)),
+    [allVideos, lane],
+  );
   const counts = useMemo(() => {
     const c: Record<string, number> = { posted: 0, scheduled: 0, queued: 0, authored: 0 };
-    for (const v of videos) c[v.status] = (c[v.status] ?? 0) + 1;
+    for (const v of allVideos) c[v.status] = (c[v.status] ?? 0) + 1;
     return c;
-  }, [videos]);
+  }, [allVideos]);
 
   const nextUp = useMemo(() => {
-    return videos
+    return allVideos
       .filter((v) => v.status === "scheduled" && v.publish_at && new Date(v.publish_at).getTime() > now)
       .sort((a, b) => new Date(a.publish_at!).getTime() - new Date(b.publish_at!).getTime())[0] ?? null;
-  }, [videos, now]);
+  }, [allVideos, now]);
 
   const byDay = useMemo(() => {
     const m = new Map<string, ScheduleVideo[]>();
@@ -113,6 +138,16 @@ export function Calendar() {
         <StatCard label="Scheduled" value={counts.scheduled} accent="sky" icon={<IconClock className="w-4 h-4" />} />
         <StatCard label="In queue" value={counts.queued + counts.authored} accent="amber" icon={<IconCalendar className="w-4 h-4" />} />
       </div>
+
+      {/* lane filter */}
+      {lanesPresent.length > 1 && (
+        <div className="flex flex-wrap items-center gap-1.5 mb-5">
+          <FilterChip active={lane === "all"} onClick={() => setLane("all")}>All lanes</FilterChip>
+          {lanesPresent.map((l) => (
+            <FilterChip key={l.id} active={lane === l.id} onClick={() => setLane(l.id)}>{l.label}</FilterChip>
+          ))}
+        </div>
+      )}
 
       {/* month calendar */}
       <div className="rounded-3xl border border-black/5 dark:border-white/10 bg-white/50 dark:bg-white/[0.03] p-4 sm:p-6 mb-8">
@@ -272,6 +307,22 @@ function AgendaRow({ v, now, onOpen }: { v: ScheduleVideo; now: number; onOpen: 
         </a>
       )}
     </div>
+  );
+}
+
+function FilterChip({ active, onClick, children }: { active: boolean; onClick: () => void; children: React.ReactNode }) {
+  return (
+    <button
+      onClick={onClick}
+      className={cn(
+        "rounded-full px-3 py-1.5 text-xs font-medium transition border",
+        active
+          ? "bg-brand/15 text-zinc-900 dark:text-white border-brand/40"
+          : "border-transparent text-zinc-500 dark:text-zinc-400 hover:bg-black/5 dark:hover:bg-white/5",
+      )}
+    >
+      {children}
+    </button>
   );
 }
 
