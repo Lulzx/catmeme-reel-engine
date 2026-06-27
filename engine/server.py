@@ -31,7 +31,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 
 import paths, match as M
-from paths import (CLIPS, BACKGROUNDS, STORIES, OUTPUT, FRAMES, WORK, CATALOG)
+from paths import (CLIPS, BACKGROUNDS, STORIES, OUTPUT, FRAMES, WORK, CATALOG, DATA)
 
 paths.ensure()
 POSTERS = os.path.join(WORK, "posters")
@@ -180,6 +180,25 @@ def api_outputs():
                         "poster": _poster(fn, p)})
     out.sort(key=lambda o: o["mtime"], reverse=True)
     return out
+
+# --- posting schedule (content calendar) -------------------------------------
+@app.get("/api/schedule")
+def api_schedule():
+    """The posting log/schedule (from the git-tracked videos.json snapshot),
+    enriched with poster + local-render + YouTube URLs for the calendar UI."""
+    p = os.path.join(DATA, "videos.json")
+    if not os.path.exists(p):
+        return {"channel": {}, "defaults": {}, "videos": []}
+    with open(p) as f:
+        data = json.load(f)
+    for v in data.get("videos", []):
+        name = os.path.basename(v.get("file") or "")
+        vp = os.path.join(OUTPUT, name) if name else ""
+        has = bool(name) and os.path.exists(vp)
+        v["output_url"] = f"/media/output/{name}" if has else None
+        v["poster"] = _poster(name, vp) if has else None
+        v["youtube_url"] = f"https://youtu.be/{v['video_id']}" if v.get("video_id") else None
+    return data
 
 # --- matcher playground ------------------------------------------------------
 @app.get("/api/match")

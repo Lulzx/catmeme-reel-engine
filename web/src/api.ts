@@ -86,6 +86,31 @@ export interface MatchResult {
   clip: string;
 }
 
+export type VideoStatus = "posted" | "scheduled" | "queued" | "authored";
+
+export interface ScheduleVideo {
+  slug: string;
+  sort_order: number;
+  pov: string;
+  title: string;
+  description: string;
+  tags: string[];
+  file: string;
+  status: VideoStatus;
+  posted: string | null;
+  publish_at: string | null;
+  video_id: string | null;
+  output_url: string | null;
+  poster: string | null;
+  youtube_url: string | null;
+}
+
+export interface Schedule {
+  channel: { name?: string; url?: string };
+  defaults: { privacy?: string; categoryId?: string; made_for_kids?: boolean };
+  videos: ScheduleVideo[];
+}
+
 async function get<T>(url: string): Promise<T> {
   const r = await fetch(url);
   if (!r.ok) throw new Error(`${r.status} ${r.statusText}`);
@@ -98,6 +123,7 @@ export const api = {
   stories: () => get<StorySummary[]>("/api/stories"),
   story: (slug: string) => get<{ slug: string; raw: Story }>(`/api/stories/${slug}`),
   outputs: () => get<Output[]>("/api/outputs"),
+  schedule: () => get<Schedule>("/api/schedule"),
   match: (want: string, query: string, limit = 18) =>
     get<MatchResult[]>(
       `/api/match?want=${encodeURIComponent(want)}&query=${encodeURIComponent(query)}&limit=${limit}`,

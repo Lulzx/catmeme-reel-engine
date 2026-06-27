@@ -72,6 +72,30 @@ export const IconCat = (p: IP) => (
   <S {...p}><path d="M4 4.5 7 8a8 8 0 0 1 10 0l3-3.5V14a8 8 0 0 1-16 0V4.5Z" /><path d="M9.5 12h.01M14.5 12h.01M12 15c.8 0 1.3-.4 1.3-.4M10.7 14.6s.5.4 1.3.4" /></S>
 );
 
+export const IconCalendar = (p: IP) => (
+  <S {...p}><rect x="3" y="4.5" width="18" height="16" rx="2" /><path d="M3 9h18M8 3v3M16 3v3" /></S>
+);
+export const IconClock = (p: IP) => (
+  <S {...p}><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" /></S>
+);
+export const IconChevronLeft = (p: IP) => (
+  <S {...p}><path d="m14 6-6 6 6 6" /></S>
+);
+export const IconChevronRight = (p: IP) => (
+  <S {...p}><path d="m10 6 6 6-6 6" /></S>
+);
+export const IconCheck = (p: IP) => (
+  <S {...p}><path d="m5 12 4.5 4.5L19 7" /></S>
+);
+export const IconYoutube = (p: IP) => (
+  <svg viewBox="0 0 24 24" fill="currentColor" className={p.className}>
+    <path d="M21.6 7.2a2.5 2.5 0 0 0-1.7-1.8C18.2 5 12 5 12 5s-6.2 0-7.9.4A2.5 2.5 0 0 0 2.4 7.2 26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.7 1.8C5.8 19 12 19 12 19s6.2 0 7.9-.4a2.5 2.5 0 0 0 1.7-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8ZM10 15V9l5 3-5 3Z" />
+  </svg>
+);
+export const IconExternal = (p: IP) => (
+  <S {...p}><path d="M14 5h5v5M19 5l-8 8M19 13v6H5V5h6" /></S>
+);
+
 /* ----------------------------------------------------------- quality chip -- */
 const QMAP: Record<Clip["quality"], { color: "success" | "warning" | "danger" | "accent" | "default"; label: string }> = {
   good: { color: "success", label: "good" },

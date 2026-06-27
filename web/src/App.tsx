@@ -8,6 +8,7 @@ import {
   IconGrid,
   IconBook,
   IconWand,
+  IconCalendar,
   IconSun,
   IconMoon,
   IconGithub,
@@ -16,11 +17,13 @@ import { Gallery } from "./sections/Gallery";
 import { Library } from "./sections/Library";
 import { Stories } from "./sections/Stories";
 import { Match } from "./sections/Match";
+import { Calendar } from "./sections/Calendar";
 
-type Tab = "gallery" | "library" | "stories" | "match";
+type Tab = "gallery" | "calendar" | "library" | "stories" | "match";
 
 const NAV: { id: Tab; label: string; icon: React.ReactNode }[] = [
   { id: "gallery", label: "Gallery", icon: <IconFilm className="w-4 h-4" /> },
+  { id: "calendar", label: "Calendar", icon: <IconCalendar className="w-4 h-4" /> },
   { id: "library", label: "Library", icon: <IconGrid className="w-4 h-4" /> },
   { id: "stories", label: "Stories", icon: <IconBook className="w-4 h-4" /> },
   { id: "match", label: "Match", icon: <IconWand className="w-4 h-4" /> },
@@ -134,6 +137,7 @@ export default function App() {
 
         <main className="flex-1 mx-auto w-full max-w-7xl px-4 sm:px-6 py-8">
           {tab === "gallery" && <Gallery onAuthor={() => setTab("stories")} />}
+          {tab === "calendar" && <Calendar />}
           {tab === "library" && <Library />}
           {tab === "stories" && <Stories />}
           {tab === "match" && <Match />}

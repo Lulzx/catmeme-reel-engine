@@ -1,0 +1,287 @@
+import { useEffect, useMemo, useState } from "react";
+import { Button, Spinner } from "@heroui/react";
+import { api, type Schedule, type ScheduleVideo, type VideoStatus } from "../api";
+import {
+  SectionTitle,
+  usePlayer,
+  cn,
+  IconCalendar,
+  IconClock,
+  IconChevronLeft,
+  IconChevronRight,
+  IconYoutube,
+  IconPlay,
+  IconCheck,
+  IconCat,
+  IconExternal,
+} from "../ui";
+
+/* ---------------------------------------------------------------- helpers -- */
+const STATUS: Record<VideoStatus, { label: string; dot: string; chip: string; ring: string }> = {
+  posted:    { label: "Live",      dot: "bg-emerald-500", chip: "bg-emerald-500/15 text-emerald-600 dark:text-emerald-400", ring: "ring-emerald-500/40" },
+  scheduled: { label: "Scheduled", dot: "bg-sky-500",     chip: "bg-sky-500/15 text-sky-600 dark:text-sky-400",             ring: "ring-sky-500/40" },
+  queued:    { label: "Queued",    dot: "bg-amber-500",   chip: "bg-amber-500/15 text-amber-600 dark:text-amber-400",       ring: "ring-amber-500/40" },
+  authored:  { label: "Draft",     dot: "bg-zinc-400",    chip: "bg-zinc-500/15 text-zinc-500 dark:text-zinc-400",          ring: "ring-zinc-400/40" },
+};
+const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const DOW = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+
+function whenOf(v: ScheduleVideo): Date | null {
+  if (v.publish_at) return new Date(v.publish_at);
+  if (v.posted) { const [y, m, d] = v.posted.split("-").map(Number); return new Date(y, m - 1, d); }
+  return null;
+}
+const dayKey = (d: Date) => `${d.getFullYear()}-${d.getMonth()}-${d.getDate()}`;
+const sameDay = (a: Date, b: Date) => dayKey(a) === dayKey(b);
+const cleanTitle = (v: ScheduleVideo) => v.pov.replace(/^POV:\s*/i, "");
+const timeLabel = (d: Date) => d.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
+
+function fmtCountdown(ms: number): string {
+  if (ms <= 0) return "now";
+  const s = Math.floor(ms / 1000), d = Math.floor(s / 86400),
+    h = Math.floor((s % 86400) / 3600), m = Math.floor((s % 3600) / 60);
+  if (d > 0) return `${d}d ${h}h`;
+  if (h > 0) return `${h}h ${m}m`;
+  return `${m}m`;
+}
+
+/* ------------------------------------------------------------------ view --- */
+export function Calendar() {
+  const [data, setData] = useState<Schedule | null>(null);
+  const [month, setMonth] = useState(() => { const d = new Date(); return new Date(d.getFullYear(), d.getMonth(), 1); });
+  const [now, setNow] = useState(() => Date.now());
+  const play = usePlayer();
+
+  useEffect(() => { api.schedule().then(setData).catch(() => setData({ channel: {}, defaults: {}, videos: [] })); }, []);
+  useEffect(() => { const t = setInterval(() => setNow(Date.now()), 30_000); return () => clearInterval(t); }, []);
+
+  const videos = data?.videos ?? [];
+  const counts = useMemo(() => {
+    const c: Record<string, number> = { posted: 0, scheduled: 0, queued: 0, authored: 0 };
+    for (const v of videos) c[v.status] = (c[v.status] ?? 0) + 1;
+    return c;
+  }, [videos]);
+
+  const nextUp = useMemo(() => {
+    return videos
+      .filter((v) => v.status === "scheduled" && v.publish_at && new Date(v.publish_at).getTime() > now)
+      .sort((a, b) => new Date(a.publish_at!).getTime() - new Date(b.publish_at!).getTime())[0] ?? null;
+  }, [videos, now]);
+
+  const byDay = useMemo(() => {
+    const m = new Map<string, ScheduleVideo[]>();
+    for (const v of videos) { const d = whenOf(v); if (!d) continue; const k = dayKey(d); (m.get(k) ?? m.set(k, []).get(k)!).push(v); }
+    for (const arr of m.values()) arr.sort((a, b) => (whenOf(a)!.getTime()) - (whenOf(b)!.getTime()));
+    return m;
+  }, [videos]);
+
+  const agenda = useMemo(() => {
+    const today = new Date(); today.setHours(0, 0, 0, 0);
+    const rows = videos
+      .map((v) => ({ v, d: whenOf(v) }))
+      .filter((r): r is { v: ScheduleVideo; d: Date } => !!r.d && r.d.getTime() >= today.getTime())
+      .sort((a, b) => a.d.getTime() - b.d.getTime());
+    const groups: { key: string; date: Date; items: ScheduleVideo[] }[] = [];
+    for (const { v, d } of rows) {
+      const k = dayKey(d);
+      let g = groups.find((x) => x.key === k);
+      if (!g) { g = { key: k, date: d, items: [] }; groups.push(g); }
+      g.items.push(v);
+    }
+    return groups;
+  }, [videos]);
+
+  const openVideo = (v: ScheduleVideo) => {
+    if (v.output_url) play({ src: v.output_url, title: cleanTitle(v), subtitle: STATUS[v.status].label, portrait: true });
+    else if (v.youtube_url) window.open(v.youtube_url, "_blank");
+  };
+
+  if (!data) return <div className="grid place-items-center py-24"><Spinner /></div>;
+
+  return (
+    <div>
+      <SectionTitle
+        title="Content calendar"
+        sub="Every reel — live, scheduled and queued — on one timeline."
+        icon={<IconCalendar className="w-5 h-5" />}
+      />
+
+      {/* dashboard row */}
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4 mb-6">
+        <NextUpCard v={nextUp} now={now} onOpen={openVideo} channel={data.channel} />
+        <StatCard label="Live" value={counts.posted} accent="emerald" icon={<IconCheck className="w-4 h-4" />} />
+        <StatCard label="Scheduled" value={counts.scheduled} accent="sky" icon={<IconClock className="w-4 h-4" />} />
+        <StatCard label="In queue" value={counts.queued + counts.authored} accent="amber" icon={<IconCalendar className="w-4 h-4" />} />
+      </div>
+
+      {/* month calendar */}
+      <div className="rounded-3xl border border-black/5 dark:border-white/10 bg-white/50 dark:bg-white/[0.03] p-4 sm:p-6 mb-8">
+        <div className="flex items-center justify-between mb-4">
+          <h3 className="font-display text-xl font-semibold text-zinc-900 dark:text-white">
+            {MONTHS[month.getMonth()]} {month.getFullYear()}
+          </h3>
+          <div className="flex items-center gap-1.5">
+            <Button size="sm" variant="ghost" onPress={() => { const d = new Date(); setMonth(new Date(d.getFullYear(), d.getMonth(), 1)); }}>Today</Button>
+            <button onClick={() => setMonth((m) => new Date(m.getFullYear(), m.getMonth() - 1, 1))} className="grid place-items-center w-8 h-8 rounded-lg text-zinc-500 hover:bg-black/5 dark:hover:bg-white/5 transition" aria-label="Previous month"><IconChevronLeft className="w-5 h-5" /></button>
+            <button onClick={() => setMonth((m) => new Date(m.getFullYear(), m.getMonth() + 1, 1))} className="grid place-items-center w-8 h-8 rounded-lg text-zinc-500 hover:bg-black/5 dark:hover:bg-white/5 transition" aria-label="Next month"><IconChevronRight className="w-5 h-5" /></button>
+          </div>
+        </div>
+        <MonthGrid month={month} byDay={byDay} onOpen={openVideo} />
+        <Legend />
+      </div>
+
+      {/* agenda */}
+      <SectionTitle title="Upcoming" sub="What goes out next, grouped by day." icon={<IconClock className="w-5 h-5" />} />
+      {agenda.length === 0 ? (
+        <div className="rounded-2xl border border-dashed border-black/10 dark:border-white/10 p-10 text-center text-zinc-500 dark:text-zinc-400">
+          Nothing scheduled ahead. Render more reels and run <code className="text-brand">--fill-schedule</code> to extend the calendar.
+        </div>
+      ) : (
+        <div className="space-y-6">
+          {agenda.map((g) => (
+            <div key={g.key}>
+              <div className="flex items-center gap-2 mb-2">
+                <span className="font-display font-semibold text-zinc-900 dark:text-white">{DOW[g.date.getDay()]}</span>
+                <span className="text-sm text-zinc-500 dark:text-zinc-400">{MONTHS[g.date.getMonth()].slice(0, 3)} {g.date.getDate()}</span>
+                <span className="text-xs text-zinc-400">· {g.items.length} {g.items.length === 1 ? "reel" : "reels"}</span>
+              </div>
+              <div className="grid gap-2.5">
+                {g.items.map((v) => <AgendaRow key={v.slug} v={v} now={now} onOpen={openVideo} />)}
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+/* --------------------------------------------------------------- subviews -- */
+function NextUpCard({ v, now, onOpen, channel }: { v: ScheduleVideo | null; now: number; onOpen: (v: ScheduleVideo) => void; channel: Schedule["channel"] }) {
+  return (
+    <div className="relative overflow-hidden rounded-2xl border border-black/5 dark:border-white/10 bg-gradient-to-br from-brand/15 to-transparent p-4 lg:col-span-1">
+      <div className="absolute -right-10 -top-10 w-32 h-32 rounded-full bg-brand/20 blur-3xl" />
+      <div className="relative">
+        <div className="flex items-center justify-between">
+          <span className="text-[11px] font-semibold uppercase tracking-wide text-brand">Next up</span>
+          {channel.url && (
+            <a href={channel.url} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-[11px] text-zinc-500 hover:text-zinc-900 dark:hover:text-white transition">
+              <IconCat className="w-3.5 h-3.5" /> {channel.name ?? "channel"} <IconExternal className="w-3 h-3" />
+            </a>
+          )}
+        </div>
+        {v ? (
+          <button onClick={() => onOpen(v)} className="mt-2 text-left w-full group">
+            <p className="font-display font-semibold text-zinc-900 dark:text-white leading-snug line-clamp-2 group-hover:text-brand transition">{cleanTitle(v)}</p>
+            <div className="mt-2 flex items-center gap-1.5 text-sm">
+              <IconClock className="w-4 h-4 text-brand" />
+              <span className="font-semibold text-zinc-900 dark:text-white">in {fmtCountdown(new Date(v.publish_at!).getTime() - now)}</span>
+              <span className="text-zinc-400">· {timeLabel(new Date(v.publish_at!))}</span>
+            </div>
+          </button>
+        ) : (
+          <p className="mt-3 text-sm text-zinc-500 dark:text-zinc-400">Nothing scheduled — queue is clear.</p>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function StatCard({ label, value, accent, icon }: { label: string; value: number; accent: "emerald" | "sky" | "amber"; icon: React.ReactNode }) {
+  const a = { emerald: "text-emerald-500 bg-emerald-500/10", sky: "text-sky-500 bg-sky-500/10", amber: "text-amber-500 bg-amber-500/10" }[accent];
+  return (
+    <div className="rounded-2xl border border-black/5 dark:border-white/10 bg-white/50 dark:bg-white/[0.03] p-4 flex items-center gap-3">
+      <div className={cn("grid place-items-center w-10 h-10 rounded-xl", a)}>{icon}</div>
+      <div>
+        <div className="font-display text-2xl font-bold text-zinc-900 dark:text-white leading-none">{value}</div>
+        <div className="text-xs text-zinc-500 dark:text-zinc-400 mt-1">{label}</div>
+      </div>
+    </div>
+  );
+}
+
+function MonthGrid({ month, byDay, onOpen }: { month: Date; byDay: Map<string, ScheduleVideo[]>; onOpen: (v: ScheduleVideo) => void }) {
+  const first = new Date(month.getFullYear(), month.getMonth(), 1);
+  const days = new Date(month.getFullYear(), month.getMonth() + 1, 0).getDate();
+  const lead = first.getDay();
+  const cells: (Date | null)[] = [];
+  for (let i = 0; i < lead; i++) cells.push(null);
+  for (let d = 1; d <= days; d++) cells.push(new Date(month.getFullYear(), month.getMonth(), d));
+  while (cells.length % 7 !== 0) cells.push(null);
+  const today = new Date();
+
+  return (
+    <div>
+      <div className="grid grid-cols-7 gap-1.5 mb-1.5">
+        {DOW.map((d) => <div key={d} className="text-center text-[11px] font-semibold text-zinc-400 uppercase tracking-wide py-1">{d}</div>)}
+      </div>
+      <div className="grid grid-cols-7 gap-1.5">
+        {cells.map((d, i) => {
+          if (!d) return <div key={i} className="rounded-xl bg-transparent" />;
+          const items = byDay.get(dayKey(d)) ?? [];
+          const isToday = sameDay(d, today);
+          return (
+            <div key={i} className={cn(
+              "min-h-[88px] rounded-xl border p-1.5 transition",
+              isToday ? "border-brand/50 bg-brand/[0.06]" : "border-black/5 dark:border-white/[0.06] bg-black/[0.015] dark:bg-white/[0.02]",
+            )}>
+              <div className={cn("text-[11px] font-semibold mb-1 px-0.5", isToday ? "text-brand" : "text-zinc-400 dark:text-zinc-500")}>{d.getDate()}</div>
+              <div className="space-y-1">
+                {items.slice(0, 3).map((v) => {
+                  const s = STATUS[v.status];
+                  return (
+                    <button key={v.slug} onClick={() => onOpen(v)} title={cleanTitle(v)}
+                      className={cn("w-full flex items-center gap-1 rounded-md px-1 py-0.5 text-left text-[10px] leading-tight transition hover:ring-1", s.chip, s.ring)}>
+                      <span className={cn("shrink-0 w-1.5 h-1.5 rounded-full", s.dot)} />
+                      <span className="truncate">{cleanTitle(v)}</span>
+                    </button>
+                  );
+                })}
+                {items.length > 3 && <div className="text-[10px] text-zinc-400 px-1">+{items.length - 3} more</div>}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+function AgendaRow({ v, now, onOpen }: { v: ScheduleVideo; now: number; onOpen: (v: ScheduleVideo) => void }) {
+  const s = STATUS[v.status];
+  const d = whenOf(v);
+  const future = v.status === "scheduled" && v.publish_at && new Date(v.publish_at).getTime() > now;
+  return (
+    <div className="group flex items-center gap-3 rounded-2xl border border-black/5 dark:border-white/10 bg-white/50 dark:bg-white/[0.03] p-2.5 hover:ring-2 hover:ring-brand/40 transition">
+      <button onClick={() => onOpen(v)} className="relative shrink-0 w-12 h-[68px] rounded-lg overflow-hidden bg-zinc-900 grid place-items-center">
+        {v.poster ? <img src={v.poster} alt="" loading="lazy" className="w-full h-full object-cover" /> : <IconCat className="w-5 h-5 text-white/30" />}
+        <span className="absolute inset-0 grid place-items-center opacity-0 group-hover:opacity-100 bg-black/30 transition"><IconPlay className="w-5 h-5 text-white" /></span>
+      </button>
+      <div className="min-w-0 flex-1">
+        <p className="font-medium text-sm text-zinc-900 dark:text-white truncate">{cleanTitle(v)}</p>
+        <div className="mt-1 flex items-center gap-2 text-xs">
+          <span className={cn("inline-flex items-center gap-1 rounded-full px-2 py-0.5 font-medium", s.chip)}><span className={cn("w-1.5 h-1.5 rounded-full", s.dot)} />{s.label}</span>
+          {d && <span className="text-zinc-500 dark:text-zinc-400">{v.status === "posted" && !v.publish_at ? "published" : timeLabel(d)}</span>}
+          {future && <span className="text-zinc-400">· in {fmtCountdown(new Date(v.publish_at!).getTime() - now)}</span>}
+        </div>
+      </div>
+      {v.youtube_url && (
+        <a href={v.youtube_url} target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()}
+          className="shrink-0 grid place-items-center w-9 h-9 rounded-lg text-zinc-400 hover:text-red-500 hover:bg-red-500/10 transition" aria-label="Open on YouTube">
+          <IconYoutube className="w-5 h-5" />
+        </a>
+      )}
+    </div>
+  );
+}
+
+function Legend() {
+  return (
+    <div className="mt-4 flex flex-wrap items-center gap-4 text-xs text-zinc-500 dark:text-zinc-400">
+      {(["posted", "scheduled", "queued"] as VideoStatus[]).map((k) => (
+        <span key={k} className="inline-flex items-center gap-1.5"><span className={cn("w-2 h-2 rounded-full", STATUS[k].dot)} />{STATUS[k].label}</span>
+      ))}
+      <span className="ml-auto inline-flex items-center gap-1.5"><IconClock className="w-3.5 h-3.5" /> auto-publishing every ~6h</span>
+    </div>
+  );
+}
