@@ -38,6 +38,28 @@ SCOPES        = ["https://www.googleapis.com/auth/youtube.upload"]
 STATUS_ICON = {"posted": "✅", "scheduled": "🕒", "queued": "⏳", "authored": "📝"}
 DONE = ("posted", "scheduled")   # already on YouTube — never re-uploaded by --next
 
+TRACKED = ["data/videos.json", "youtube.md"]   # auto-committed on state change
+
+
+def git_sync(message):
+    """Commit + push the tracked JSON/md snapshot after the schedule changes.
+    Best-effort: never breaks the upload flow if git is unavailable or offline."""
+    import subprocess
+
+    def g(*args, **kw):
+        return subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True, **kw)
+    try:
+        if not g("status", "--porcelain", "--", *TRACKED).stdout.strip():
+            return                                  # nothing changed
+        g("add", "--", *TRACKED)
+        if g("commit", "-q", "-m", message, "--", *TRACKED).returncode != 0:
+            return
+        push = g("push", "-q", "origin", "HEAD")
+        print("✓ videos.json committed + pushed" if push.returncode == 0
+              else "✓ videos.json committed (push failed — push manually)")
+    except Exception as e:
+        print(f"(git auto-sync skipped: {e})")
+
 
 # ── youtube.md (human view, regenerated from the DB) ────────────────────────
 def render_md(con):
@@ -274,9 +296,11 @@ def main():
         return
     if a.schedule_queue:
         schedule_queue(con, every_h=a.every, start_in_h=a.start_in)
+        git_sync("chore: update videos.json (schedule queue)")
         return
     if a.fill_schedule:
         fill_schedule(con, every_h=a.every, max_n=a.max)
+        git_sync("chore: update videos.json (fill schedule)")
         return
 
     slug = a.slug or db.next_to_post(con)
@@ -290,6 +314,7 @@ def main():
         return
 
     upload(con, slug, privacy=a.privacy, publish_at=a.at)
+    git_sync(f"chore: update videos.json ({slug} {'scheduled' if a.at else 'posted'})")
 
 
 if __name__ == "__main__":
