@@ -38,12 +38,41 @@ village` (+ `others`).
 `fetch_image(query)` in `render.py` calls:
 
 ```
-https://api.openverse.org/v1/images/?q=<query>&page_size=8&mature=false&license_type=all
+https://api.openverse.org/v1/images/?q=<query>&page_size=12&mature=false&license_type=all
 ```
 
-It walks the results, downloads the first that decodes as an image ≥ 320 px, and
-**caches** it at `work/bg_cache/<query-slug>.jpg`. Subsequent renders reuse the cache,
-so output is **stable and instant** (and the same query in two beats reuses one file).
+It walks the results, downloads the first that decodes as an image ≥ 240 px (trying each
+result's **thumbnail first** — the original `url` often points at a source page that
+403s), and **caches** it at `work/bg_cache/<query-slug>.jpg`. Subsequent renders reuse
+the cache, so output is **stable and instant** (and the same query in two beats reuses
+one file).
+
+### Query simplification (so verbose scenes still resolve)
+
+A full scene line like `"phone screen text message closeup dark"` is so specific that
+Openverse returns **zero** results — which used to write a permanent `.miss` marker and
+drop the beat to a flat gradient (the "no background" bug). `fetch_image` now retries
+with progressively simpler queries built from the salient words, stopping at the first
+that returns a usable photo:
+
+```
+full query  →  2-word core  →  3-word core
+"phone screen text message closeup dark"
+   → (miss) → "phone screen"  → "phone screen text"
+```
+
+- Filler words (`closeup`, `dark`, `night`, `interior`, `cozy`, `glow`, …) are stripped
+  to find the core nouns (`_BG_STOP` in `render.py`).
+- The **2-word core is tried before the 3-word one**: empirically it is both the most
+  reliable to return results and the most on-topic — `"neon bar"` → bar neon signs,
+  whereas the 3-word `"neon bar purple"` drifts to a car wrap. A lone keyword is
+  *avoided* (`"neon"` is a car model, `"bar"` is a chocolate bar) so a wordy line lands a
+  *relevant* photo rather than a random one.
+
+A `.miss` marker is written **only** when every variant genuinely comes up empty — never
+on a transient network error — so a temporary outage doesn't poison the cache. If you
+change the simplification and want stale results re-fetched, delete the relevant
+`work/bg_cache/*.jpg` / `*.miss`.
 
 Openverse indexes Creative-Commons images (Flickr, Wikimedia, museums, …) with real
 tags, so keyword relevance is good: `"corporate office room interior desks"` → an actual

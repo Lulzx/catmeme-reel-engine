@@ -129,6 +129,76 @@ def all_used_clips(con):
     return [r["clip_id"] for r in con.execute("SELECT clip_id FROM clip_usage").fetchall()]
 
 
+# ── two-way sync between two videos.db files (local <-> deployed server) ─────
+# Status lifecycle, least-to-most advanced. A reel only ever moves forward, so on
+# a conflict the further-along side wins for the upload/scheduling fields.
+STATUS_RANK = {"authored": 0, "queued": 1, "scheduled": 2, "posted": 3}
+
+
+def _clip_usage_rows(con):
+    return [(r["slug"], r["clip_id"])
+            for r in con.execute("SELECT slug, clip_id FROM clip_usage").fetchall()]
+
+
+def _meta_rows(con):
+    return {r["key"]: r["value"]
+            for r in con.execute("SELECT key, value FROM meta").fetchall()}
+
+
+def merge(local_path, remote_path):
+    """Reconcile two videos.db files and write the merged result back to BOTH, so
+    an authoring machine and the deployed server converge without either side
+    clobbering the other. Used by deploy.py to sync the SQLite store.
+
+    Per video (keyed by slug):
+      • content   (pov, title, description, tags, file, sort_order) comes from
+        LOCAL — the authoring source of truth; remote-only rows keep their own.
+      • lifecycle (status, posted, publish_at, video_id) comes from whichever side
+        is further along by STATUS_RANK, because uploads and scheduling happen on
+        the server. Ties keep the side that already has a video_id.
+      • clip_usage is unioned; meta (channel/defaults) is filled in from either
+        side, local winning on a genuine conflict.
+
+    Rows are only ever added or advanced, never deleted. Returns a summary dict."""
+    lcon = connect(local_path); init(lcon)
+    rcon = connect(remote_path); init(rcon)
+    lv = {v["slug"]: v for v in list_videos(lcon)}
+    rv = {v["slug"]: v for v in list_videos(rcon)}
+
+    merged = {}
+    for slug in set(lv) | set(rv):
+        l, r = lv.get(slug), rv.get(slug)
+        if not r:                      # local-only -> ship to server as-is
+            merged[slug] = l; continue
+        if not l:                      # server-only -> pull back to local as-is
+            merged[slug] = r; continue
+        row = dict(l)                  # local content wins
+        lr, rr = STATUS_RANK.get(l["status"], 0), STATUS_RANK.get(r["status"], 0)
+        adv = r if (rr > lr or (rr == lr and r.get("video_id"))) else l
+        for k in ("status", "posted", "publish_at", "video_id"):
+            row[k] = adv.get(k)
+        row["tags"] = l.get("tags") or r.get("tags") or []
+        merged[slug] = row
+
+    for con in (lcon, rcon):           # write merged videos to both
+        for v in merged.values():
+            upsert_video(con, v)
+    usage = sorted(set(_clip_usage_rows(lcon)) | set(_clip_usage_rows(rcon)))
+    metas = {**_meta_rows(rcon), **_meta_rows(lcon)}   # local meta wins
+    for con in (lcon, rcon):
+        con.executemany("INSERT OR IGNORE INTO clip_usage(slug,clip_id) VALUES(?,?)", usage)
+        for k, val in metas.items():
+            con.execute("INSERT INTO meta(key,value) VALUES(?,?) "
+                        "ON CONFLICT(key) DO UPDATE SET value=excluded.value", (k, val))
+        con.commit()
+
+    summary = {"total": len(merged),
+               "to_remote": sorted(s for s in lv if s not in rv),
+               "to_local":  sorted(s for s in rv if s not in lv)}
+    lcon.close(); rcon.close()
+    return summary
+
+
 # ── git-friendly JSON export (videos.db stays local; this is what's tracked) ─
 def export_json(con, path):
     """Write a versionable JSON snapshot of the catalog of videos. The SQLite DB

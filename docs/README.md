@@ -25,6 +25,8 @@ onto a scene-relevant background, labels it, and renders a finished vertical vid
 | 9 | [09-decisions-and-gotchas.md](09-decisions-and-gotchas.md) | choices made, dead-ends, things that don't work here |
 | 10 | [10-how-to.md](10-how-to.md) | copy-paste recipes (download, rebuild catalog, render) |
 | 11 | [11-prior-art.md](11-prior-art.md) | learnings from similar projects (AICatMeme, AI_Reaction_bot) |
+| 12 | [12-youtube-upload.md](12-youtube-upload.md) | the SQLite tracking store + YouTube upload/scheduling |
+| 13 | [13-deployment.md](13-deployment.md) | **the web UI deploy: `deploy.py`, the host, and SQLite sync** |
 
 ## TL;DR
 

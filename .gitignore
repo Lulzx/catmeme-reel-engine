@@ -41,3 +41,5 @@ data/videos.db
 .DS_Store
 __pycache__/
 *.pyc
+.deploy/
+data/videos.db.bak
