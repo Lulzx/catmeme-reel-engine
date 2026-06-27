@@ -19,7 +19,7 @@ Endpoints
 
 Static media is served under /media/{frames,clips,output,scenes,posters}.
 """
-import os, sys, json, subprocess, time
+import os, sys, json, re, subprocess, time, datetime
 
 ENGINE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(ENGINE)
@@ -276,6 +276,102 @@ def api_analytics():
             return {"error": "reauth",
                     "detail": "needs youtube.readonly — run: python3 -m engine.upload --auth"}
         return {"error": "failed", "detail": msg}
+
+# --- generate batch: scaffold drafts, render + schedule (streamed) -----------
+import author as AUTHOR
+
+@app.post("/api/draft")
+async def api_draft(request: Request):
+    """Scaffold a draft story from a POV premise; returns its slug."""
+    body = await request.json()
+    pov = (body or {}).get("pov", "").strip()
+    scene = (body or {}).get("scene", "home")
+    if not pov:
+        raise HTTPException(400, "pov required")
+    return {"slug": AUTHOR.write_draft(pov, scene)}
+
+def _register_story(con, slug):
+    """Upsert a rendered story into the DB as queued, synthesising metadata."""
+    s = json.load(open(os.path.join(STORIES, slug + ".json")))
+    pov = s.get("pov", "")
+    if DB.get_video(con, slug):
+        DB.set_fields(con, slug, file=f"output/{slug}.mp4", status="queued")
+        return
+    bare = re.sub(r"(?i)^pov:\s*", "", pov).strip()
+    DB.upsert_video(con, {
+        "slug": slug, "sort_order": DB.max_sort_order(con) + 1, "pov": pov,
+        "title": f"{pov} 🐱 #shorts",
+        "description": f"{bare}\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #funnycats #fyp",
+        "tags": ["cat memes", "pov", "relatable", "funny cats", "shorts"],
+        "file": f"output/{slug}.mp4", "status": "queued",
+        "posted": None, "publish_at": None, "video_id": None,
+    })
+
+def _schedule_pending(con, every_h=6):
+    base = UP._latest_publish(con)
+    now = datetime.datetime.now(datetime.timezone.utc)
+    start = (base + datetime.timedelta(hours=every_h)) if base else (now + datetime.timedelta(hours=every_h))
+    if start < now:
+        start = now + datetime.timedelta(hours=every_h)
+    slugs = [v["slug"] for v in DB.list_videos(con)
+             if v["status"] not in ("posted", "scheduled") and v.get("file")]
+    for i, slug in enumerate(slugs):
+        t = start + datetime.timedelta(hours=every_h * i)
+        url = UP.upload(con, slug, publish_at=t.strftime("%Y-%m-%dT%H:%M:%SZ"))
+        yield slug, url
+
+@app.get("/api/batch/stream")
+def api_batch():
+    """Render every pending story (cursed-clip-safe, diversity-seeded) then
+    schedule them onto the publish grid — streamed as SSE log lines."""
+    def sse(o): return f"data: {json.dumps(o)}\n\n"
+
+    def gen():
+        con = DB.connect(); DB.init(con)
+        done = {v["slug"] for v in DB.list_videos(con) if v["status"] in ("posted", "scheduled")}
+        pending = [fn[:-5] for fn in sorted(os.listdir(STORIES))
+                   if fn.endswith(".json") and fn[:-5] not in done]
+        if not pending:
+            yield sse({"line": "Nothing pending — every story is already scheduled.", "kind": "cmd"})
+            yield sse({"done": True, "ok": True, "rendered": []}); return
+        yield sse({"line": f"$ batch: {len(pending)} pending — {', '.join(pending)}", "kind": "cmd"})
+        seed = DB.all_used_clips(con)
+        rendered = []
+        for slug in pending:
+            yield sse({"line": f"── rendering {slug} ──", "kind": "cmd"})
+            proc = subprocess.Popen([sys.executable, "-u", os.path.join(ENGINE, "render.py"),
+                                     os.path.join(STORIES, slug + ".json")],
+                                    stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True,
+                                    bufsize=1, env={**os.environ, "PYTHONUNBUFFERED": "1",
+                                                    "RENDER_SEED": json.dumps(seed)})
+            clips = []
+            for line in proc.stdout:
+                line = line.rstrip("\n")
+                yield sse({"line": line})
+                m = re.search(r"\[([0-9]{3}(?:,[0-9]{3})*)\]", line)
+                if m:
+                    clips += m.group(1).split(",")
+            proc.wait()
+            if proc.returncode == 0:
+                seed += clips
+                DB.record_clips(con, slug, clips)
+                _register_story(con, slug)
+                rendered.append(slug)
+                yield sse({"line": f"✓ {slug} rendered", "kind": "ok"})
+            else:
+                yield sse({"line": f"✗ {slug} failed to render", "kind": "err"})
+        if rendered:
+            yield sse({"line": "── uploading + scheduling ──", "kind": "cmd"})
+            try:
+                for slug, url in _schedule_pending(con):
+                    yield sse({"line": f"🕒 {slug} → {url}"})
+            except Exception as e:
+                yield sse({"line": f"schedule error: {e}", "kind": "err"})
+            UP.render_md(con); UP.git_sync("chore: batch generate + schedule")
+        yield sse({"done": True, "ok": True, "rendered": rendered})
+
+    return StreamingResponse(gen(), media_type="text/event-stream",
+                             headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"})
 
 # --- matcher playground ------------------------------------------------------
 @app.get("/api/match")

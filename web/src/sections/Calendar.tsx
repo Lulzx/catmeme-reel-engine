@@ -16,6 +16,8 @@ import {
   IconExternal,
   IconEye,
   IconHeart,
+  IconWand,
+  IconClose,
 } from "../ui";
 
 /* ---------------------------------------------------------------- helpers -- */
@@ -72,6 +74,7 @@ export function Calendar() {
   const [lane, setLane] = useState("all");
   const [stats, setStats] = useState<Record<string, VideoStats>>({});
   const [statsErr, setStatsErr] = useState<string | null>(null);
+  const [gen, setGen] = useState(false);
   const play = usePlayer();
 
   useEffect(() => { api.schedule().then(setData).catch(() => setData({ channel: {}, defaults: {}, videos: [] })); }, []);
@@ -153,11 +156,18 @@ export function Calendar() {
 
   return (
     <div>
-      <SectionTitle
-        title="Content calendar"
-        sub="Every reel — live, scheduled and queued — on one timeline."
-        icon={<IconCalendar className="w-5 h-5" />}
-      />
+      <div className="flex items-start justify-between gap-3">
+        <SectionTitle
+          title="Content calendar"
+          sub="Every reel — live, scheduled and queued — on one timeline."
+          icon={<IconCalendar className="w-5 h-5" />}
+        />
+        <Button variant="primary" onPress={() => setGen((g) => !g)}>
+          <IconWand className="w-4 h-4" /> Generate
+        </Button>
+      </div>
+
+      {gen && <GeneratePanel onClose={() => setGen(false)} onDone={refresh} />}
 
       {statsErr === "reauth" && (
         <div className="mb-5 rounded-2xl border border-amber-500/30 bg-amber-500/10 px-4 py-3 text-sm text-amber-700 dark:text-amber-300 flex items-center gap-2">
@@ -405,6 +415,67 @@ function FilterChip({ active, onClick, children }: { active: boolean; onClick: (
     >
       {children}
     </button>
+  );
+}
+
+function GeneratePanel({ onClose, onDone }: { onClose: () => void; onDone: () => void }) {
+  const [text, setText] = useState("");
+  const [scene, setScene] = useState("home");
+  const [busy, setBusy] = useState(false);
+  const [log, setLog] = useState<string[]>([]);
+  const append = (l: string) => setLog((x) => [...x, l]);
+  const lines = text.split("\n").map((l) => l.trim()).filter(Boolean);
+
+  const createDrafts = async () => {
+    if (!lines.length) return;
+    setBusy(true);
+    for (const pov of lines) {
+      try { const r = await api.draft(pov, scene); append(`+ draft ${r.slug}`); }
+      catch (e) { append(`! ${pov}: ${(e as Error).message}`); }
+    }
+    append(`created ${lines.length} draft(s) — now hit "Render & schedule".`);
+    setBusy(false);
+  };
+
+  const runBatch = () => {
+    setBusy(true); append("$ starting batch…");
+    const es = new EventSource(api.batchStreamUrl());
+    es.onmessage = (e) => {
+      const d = JSON.parse(e.data);
+      if (d.line) append(d.line);
+      if (d.done) { es.close(); setBusy(false); append("✓ batch complete"); onDone(); }
+    };
+    es.onerror = () => { es.close(); setBusy(false); append("— connection closed —"); };
+  };
+
+  return (
+    <div className="mb-6 rounded-2xl border border-brand/30 bg-brand/[0.05] p-4 sm:p-5">
+      <div className="flex items-center justify-between mb-2">
+        <div className="flex items-center gap-2 font-display font-semibold text-zinc-900 dark:text-white"><IconWand className="w-4 h-4 text-brand" /> Generate a batch</div>
+        <button onClick={onClose} className="text-zinc-400 hover:text-zinc-900 dark:hover:text-white" aria-label="Close"><IconClose className="w-5 h-5" /></button>
+      </div>
+      <p className="text-xs text-zinc-500 dark:text-zinc-400 mb-3">One POV premise per line. Drafts get a generic reaction arc — refine them in the Stories tab for the funny stuff — then render + schedule onto the every-6h grid.</p>
+      <textarea value={text} onChange={(e) => setText(e.target.value)} rows={4}
+        placeholder={"POV: you opened the camera on the wrong side\nPOV: your earbuds catch on a door handle"}
+        className="w-full rounded-xl border border-black/10 dark:border-white/10 bg-white/70 dark:bg-black/30 p-3 text-sm text-zinc-900 dark:text-white outline-none focus:ring-2 focus:ring-brand/40 resize-y font-mono" />
+      <div className="mt-3 flex flex-wrap items-center gap-2">
+        <label className="text-xs text-zinc-500 dark:text-zinc-400">Setting</label>
+        <select value={scene} onChange={(e) => setScene(e.target.value)}
+          className="rounded-lg border border-black/10 dark:border-white/10 bg-white/70 dark:bg-black/30 px-2 py-1.5 text-sm text-zinc-900 dark:text-white outline-none">
+          {Object.keys(SCENES).filter((k) => k !== "others").map((k) => <option key={k} value={k}>{sceneLabel(k)}</option>)}
+        </select>
+        <div className="flex-1" />
+        <Button size="sm" variant="ghost" isDisabled={busy || !lines.length} onPress={createDrafts}>
+          Create {lines.length || ""} draft{lines.length === 1 ? "" : "s"}
+        </Button>
+        <Button size="sm" variant="primary" isDisabled={busy} onPress={runBatch}>
+          {busy ? "Working…" : "Render & schedule pending"}
+        </Button>
+      </div>
+      {log.length > 0 && (
+        <pre className="mt-3 max-h-56 overflow-auto rounded-xl bg-black/90 text-zinc-200 text-[11px] leading-relaxed p-3 font-mono whitespace-pre-wrap">{log.join("\n")}</pre>
+      )}
+    </div>
   );
 }
 

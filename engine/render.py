@@ -383,4 +383,10 @@ def render(story_path, seed_used=None):
     return final
 
 if __name__=="__main__":
-    render(sys.argv[1] if len(sys.argv)>1 else os.path.join(STORIES,"functional-adult.json"))
+    # RENDER_SEED (JSON list of clip ids) lets a batch caller seed cross-video
+    # diversity for subprocess renders; harmless when absent.
+    _seed=None
+    try: _seed=json.loads(os.environ.get("RENDER_SEED","")) or None
+    except Exception: _seed=None
+    render(sys.argv[1] if len(sys.argv)>1 else os.path.join(STORIES,"functional-adult.json"),
+           seed_used=_seed)

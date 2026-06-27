@@ -133,6 +133,16 @@ export const api = {
   outputs: () => get<Output[]>("/api/outputs"),
   schedule: () => get<Schedule>("/api/schedule"),
   analytics: () => get<Analytics>("/api/analytics"),
+  draft: async (pov: string, scene: string) => {
+    const r = await fetch("/api/draft", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ pov, scene }),
+    });
+    if (!r.ok) throw new Error((await r.json().catch(() => ({}))).detail || r.statusText);
+    return r.json() as Promise<{ slug: string }>;
+  },
+  batchStreamUrl: () => "/api/batch/stream",
   reschedule: async (slug: string, publish_at: string) => {
     const r = await fetch(`/api/schedule/${slug}/reschedule`, {
       method: "POST",
