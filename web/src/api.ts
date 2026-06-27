@@ -112,6 +112,13 @@ export interface Schedule {
   videos: ScheduleVideo[];
 }
 
+export interface VideoStats { views: number; likes: number; comments: number; privacy: string }
+export interface Analytics {
+  stats?: Record<string, VideoStats>;
+  error?: "reauth" | "failed";
+  detail?: string;
+}
+
 async function get<T>(url: string): Promise<T> {
   const r = await fetch(url);
   if (!r.ok) throw new Error(`${r.status} ${r.statusText}`);
@@ -125,6 +132,7 @@ export const api = {
   story: (slug: string) => get<{ slug: string; raw: Story }>(`/api/stories/${slug}`),
   outputs: () => get<Output[]>("/api/outputs"),
   schedule: () => get<Schedule>("/api/schedule"),
+  analytics: () => get<Analytics>("/api/analytics"),
   reschedule: async (slug: string, publish_at: string) => {
     const r = await fetch(`/api/schedule/${slug}/reschedule`, {
       method: "POST",

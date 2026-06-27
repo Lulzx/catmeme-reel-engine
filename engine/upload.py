@@ -33,7 +33,8 @@ YT_MD         = os.path.join(ROOT, "youtube.md")
 VIDEOS_JSON   = os.path.join(ROOT, "data", "videos.json")
 CLIENT_SECRET = os.path.join(ROOT, "client_secret.json")
 TOKEN         = os.path.join(ROOT, "token.json")
-SCOPES        = ["https://www.googleapis.com/auth/youtube.upload"]
+SCOPES        = ["https://www.googleapis.com/auth/youtube.upload",
+                 "https://www.googleapis.com/auth/youtube.readonly"]
 
 STATUS_ICON = {"posted": "✅", "scheduled": "🕒", "queued": "⏳", "authored": "📝"}
 DONE = ("posted", "scheduled")   # already on YouTube — never re-uploaded by --next

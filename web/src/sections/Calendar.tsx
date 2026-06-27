@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Button, Spinner } from "@heroui/react";
-import { api, type Schedule, type ScheduleVideo, type VideoStatus } from "../api";
+import { api, type Schedule, type ScheduleVideo, type VideoStatus, type VideoStats } from "../api";
 import {
   SectionTitle,
   usePlayer,
@@ -14,6 +14,8 @@ import {
   IconCheck,
   IconCat,
   IconExternal,
+  IconEye,
+  IconHeart,
 } from "../ui";
 
 /* ---------------------------------------------------------------- helpers -- */
@@ -35,6 +37,7 @@ const dayKey = (d: Date) => `${d.getFullYear()}-${d.getMonth()}-${d.getDate()}`;
 const sameDay = (a: Date, b: Date) => dayKey(a) === dayKey(b);
 const cleanTitle = (v: ScheduleVideo) => v.pov.replace(/^POV:\s*/i, "");
 const timeLabel = (d: Date) => d.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
+const fmtNum = (n: number) => (n >= 1e6 ? `${(n / 1e6).toFixed(1)}M` : n >= 1e3 ? `${(n / 1e3).toFixed(1)}k` : `${n}`);
 
 function fmtCountdown(ms: number): string {
   if (ms <= 0) return "now";
@@ -67,10 +70,15 @@ export function Calendar() {
   const [month, setMonth] = useState(() => { const d = new Date(); return new Date(d.getFullYear(), d.getMonth(), 1); });
   const [now, setNow] = useState(() => Date.now());
   const [lane, setLane] = useState("all");
+  const [stats, setStats] = useState<Record<string, VideoStats>>({});
+  const [statsErr, setStatsErr] = useState<string | null>(null);
   const play = usePlayer();
 
   useEffect(() => { api.schedule().then(setData).catch(() => setData({ channel: {}, defaults: {}, videos: [] })); }, []);
   useEffect(() => { const t = setInterval(() => setNow(Date.now()), 30_000); return () => clearInterval(t); }, []);
+  useEffect(() => {
+    api.analytics().then((r) => { if (r.error) setStatsErr(r.error); else setStats(r.stats ?? {}); }).catch(() => {});
+  }, []);
 
   const allVideos = data?.videos ?? [];
   const lanesPresent = useMemo(() => {
@@ -92,6 +100,14 @@ export function Calendar() {
       .filter((v) => v.status === "scheduled" && v.publish_at && new Date(v.publish_at).getTime() > now)
       .sort((a, b) => new Date(a.publish_at!).getTime() - new Date(b.publish_at!).getTime())[0] ?? null;
   }, [allVideos, now]);
+
+  const totalViews = useMemo(() => Object.values(stats).reduce((a, s) => a + s.views, 0), [stats]);
+  const topPerformers = useMemo(() => {
+    return allVideos
+      .filter((v) => v.video_id && stats[v.video_id]?.views)
+      .sort((a, b) => stats[b.video_id!].views - stats[a.video_id!].views)
+      .slice(0, 3);
+  }, [allVideos, stats]);
 
   const byDay = useMemo(() => {
     const m = new Map<string, ScheduleVideo[]>();
@@ -143,13 +159,43 @@ export function Calendar() {
         icon={<IconCalendar className="w-5 h-5" />}
       />
 
+      {statsErr === "reauth" && (
+        <div className="mb-5 rounded-2xl border border-amber-500/30 bg-amber-500/10 px-4 py-3 text-sm text-amber-700 dark:text-amber-300 flex items-center gap-2">
+          <IconEye className="w-4 h-4 shrink-0" />
+          <span>Connect analytics to see views &amp; likes — run <code className="font-mono text-xs">python3 -m engine.upload --auth</code> once to grant read access.</span>
+        </div>
+      )}
+
       {/* dashboard row */}
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4 mb-6">
         <NextUpCard v={nextUp} now={now} onOpen={openVideo} channel={data.channel} />
-        <StatCard label="Live" value={counts.posted} accent="emerald" icon={<IconCheck className="w-4 h-4" />} />
+        <StatCard label="Live" value={counts.posted} accent="emerald" icon={<IconCheck className="w-4 h-4" />}
+          sub={totalViews > 0 ? `${fmtNum(totalViews)} total views` : undefined} />
         <StatCard label="Scheduled" value={counts.scheduled} accent="sky" icon={<IconClock className="w-4 h-4" />} />
         <StatCard label="In queue" value={counts.queued + counts.authored} accent="amber" icon={<IconCalendar className="w-4 h-4" />} />
       </div>
+
+      {topPerformers.length > 0 && (
+        <div className="mb-8">
+          <div className="text-xs font-semibold uppercase tracking-wide text-zinc-400 mb-2">Top performers</div>
+          <div className="grid gap-2.5 sm:grid-cols-3">
+            {topPerformers.map((v) => (
+              <button key={v.slug} onClick={() => openVideo(v)} className="group flex items-center gap-3 rounded-2xl border border-black/5 dark:border-white/10 bg-white/50 dark:bg-white/[0.03] p-2.5 text-left hover:ring-2 hover:ring-brand/40 transition">
+                <div className="relative shrink-0 w-10 h-[58px] rounded-lg overflow-hidden bg-zinc-900 grid place-items-center">
+                  {v.poster ? <img src={v.poster} alt="" className="w-full h-full object-cover" /> : <IconCat className="w-4 h-4 text-white/30" />}
+                </div>
+                <div className="min-w-0">
+                  <p className="text-sm font-medium text-zinc-900 dark:text-white truncate">{cleanTitle(v)}</p>
+                  <div className="mt-0.5 flex items-center gap-2 text-xs text-zinc-500 dark:text-zinc-400">
+                    <span className="inline-flex items-center gap-1"><IconEye className="w-3.5 h-3.5" />{fmtNum(stats[v.video_id!].views)}</span>
+                    <span className="inline-flex items-center gap-1"><IconHeart className="w-3.5 h-3.5" />{fmtNum(stats[v.video_id!].likes)}</span>
+                  </div>
+                </div>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* lane filter */}
       {lanesPresent.length > 1 && (
@@ -193,7 +239,7 @@ export function Calendar() {
                 <span className="text-xs text-zinc-400">· {g.items.length} {g.items.length === 1 ? "reel" : "reels"}</span>
               </div>
               <div className="grid gap-2.5">
-                {g.items.map((v) => <AgendaRow key={v.slug} v={v} now={now} onOpen={openVideo} />)}
+                {g.items.map((v) => <AgendaRow key={v.slug} v={v} now={now} onOpen={openVideo} stats={v.video_id ? stats[v.video_id] : undefined} />)}
               </div>
             </div>
           ))}
@@ -234,14 +280,14 @@ function NextUpCard({ v, now, onOpen, channel }: { v: ScheduleVideo | null; now:
   );
 }
 
-function StatCard({ label, value, accent, icon }: { label: string; value: number; accent: "emerald" | "sky" | "amber"; icon: React.ReactNode }) {
+function StatCard({ label, value, accent, icon, sub }: { label: string; value: number; accent: "emerald" | "sky" | "amber"; icon: React.ReactNode; sub?: string }) {
   const a = { emerald: "text-emerald-500 bg-emerald-500/10", sky: "text-sky-500 bg-sky-500/10", amber: "text-amber-500 bg-amber-500/10" }[accent];
   return (
     <div className="rounded-2xl border border-black/5 dark:border-white/10 bg-white/50 dark:bg-white/[0.03] p-4 flex items-center gap-3">
       <div className={cn("grid place-items-center w-10 h-10 rounded-xl", a)}>{icon}</div>
-      <div>
+      <div className="min-w-0">
         <div className="font-display text-2xl font-bold text-zinc-900 dark:text-white leading-none">{value}</div>
-        <div className="text-xs text-zinc-500 dark:text-zinc-400 mt-1">{label}</div>
+        <div className="text-xs text-zinc-500 dark:text-zinc-400 mt-1 truncate">{sub ?? label}</div>
       </div>
     </div>
   );
@@ -312,7 +358,7 @@ function MonthGrid({ month, byDay, onOpen, onReschedule }: {
   );
 }
 
-function AgendaRow({ v, now, onOpen }: { v: ScheduleVideo; now: number; onOpen: (v: ScheduleVideo) => void }) {
+function AgendaRow({ v, now, onOpen, stats }: { v: ScheduleVideo; now: number; onOpen: (v: ScheduleVideo) => void; stats?: VideoStats }) {
   const s = STATUS[v.status];
   const d = whenOf(v);
   const future = v.status === "scheduled" && v.publish_at && new Date(v.publish_at).getTime() > now;
@@ -328,6 +374,12 @@ function AgendaRow({ v, now, onOpen }: { v: ScheduleVideo; now: number; onOpen: 
           <span className={cn("inline-flex items-center gap-1 rounded-full px-2 py-0.5 font-medium", s.chip)}><span className={cn("w-1.5 h-1.5 rounded-full", s.dot)} />{s.label}</span>
           {d && <span className="text-zinc-500 dark:text-zinc-400">{v.status === "posted" && !v.publish_at ? "published" : timeLabel(d)}</span>}
           {future && <span className="text-zinc-400">· in {fmtCountdown(new Date(v.publish_at!).getTime() - now)}</span>}
+          {stats && v.status === "posted" && (
+            <span className="inline-flex items-center gap-2 text-zinc-500 dark:text-zinc-400">
+              <span className="inline-flex items-center gap-1"><IconEye className="w-3.5 h-3.5" />{fmtNum(stats.views)}</span>
+              <span className="inline-flex items-center gap-1"><IconHeart className="w-3.5 h-3.5" />{fmtNum(stats.likes)}</span>
+            </span>
+          )}
         </div>
       </div>
       {v.youtube_url && (

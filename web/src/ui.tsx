@@ -95,6 +95,12 @@ export const IconYoutube = (p: IP) => (
 export const IconExternal = (p: IP) => (
   <S {...p}><path d="M14 5h5v5M19 5l-8 8M19 13v6H5V5h6" /></S>
 );
+export const IconEye = (p: IP) => (
+  <S {...p}><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z" /><circle cx="12" cy="12" r="3" /></S>
+);
+export const IconHeart = (p: IP) => (
+  <S {...p}><path d="M12 20s-7-4.3-9.3-8.4C1.2 9 2.3 5.5 5.6 5.5c1.9 0 3.2 1.1 4.4 2.6 1.2-1.5 2.5-2.6 4.4-2.6 3.3 0 4.4 3.5 2.9 6.1C19 15.7 12 20 12 20Z" /></S>
+);
 
 /* ----------------------------------------------------------- quality chip -- */
 const QMAP: Record<Clip["quality"], { color: "success" | "warning" | "danger" | "accent" | "default"; label: string }> = {

@@ -246,6 +246,37 @@ async def api_reschedule(slug: str, request: Request):
     UP.git_sync(f"chore: reschedule {slug} -> {pub}")
     return {"ok": True, "slug": slug, "publish_at": pub}
 
+# --- live analytics (views/likes) --------------------------------------------
+@app.get("/api/analytics")
+def api_analytics():
+    """Per-video viewCount/likeCount for everything we've uploaded. Needs the
+    youtube.readonly scope — returns {error:'reauth'} if the token lacks it."""
+    con = DB.connect(); DB.init(con)
+    ids = [v["video_id"] for v in DB.list_videos(con) if v.get("video_id")]
+    if not ids:
+        return {"stats": {}}
+    try:
+        yt = UP.get_service()
+        stats = {}
+        for i in range(0, len(ids), 50):
+            resp = yt.videos().list(part="statistics,status",
+                                    id=",".join(ids[i:i + 50])).execute()
+            for it in resp.get("items", []):
+                s = it.get("statistics", {})
+                stats[it["id"]] = {
+                    "views": int(s.get("viewCount", 0)),
+                    "likes": int(s.get("likeCount", 0)),
+                    "comments": int(s.get("commentCount", 0)),
+                    "privacy": it.get("status", {}).get("privacyStatus"),
+                }
+        return {"stats": stats}
+    except Exception as e:
+        msg = str(e)
+        if "insufficient" in msg.lower() or "scope" in msg.lower() or "403" in msg:
+            return {"error": "reauth",
+                    "detail": "needs youtube.readonly — run: python3 -m engine.upload --auth"}
+        return {"error": "failed", "detail": msg}
+
 # --- matcher playground ------------------------------------------------------
 @app.get("/api/match")
 def api_match(want: str = "", query: str = "", limit: int = 12):
