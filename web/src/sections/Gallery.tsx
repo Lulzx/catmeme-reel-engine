@@ -16,13 +16,13 @@ export function Gallery({ onAuthor }: { onAuthor: () => void }) {
   return (
     <div>
       {/* hero */}
-      <div className="relative overflow-hidden rounded-3xl border border-black/5 dark:border-white/10 bg-gradient-to-br from-white/60 to-white/20 dark:from-white/5 dark:to-transparent p-8 sm:p-10 mb-8">
+      <div className="relative overflow-hidden rounded-3xl border border-black/5 dark:border-white/10 bg-gradient-to-br from-white/60 to-white/20 dark:from-white/5 dark:to-transparent p-6 sm:p-10 mb-8">
         <div className="absolute -right-16 -top-16 w-64 h-64 rounded-full bg-brand/20 blur-3xl" />
         <div className="relative max-w-2xl">
           <span className="inline-flex items-center gap-1.5 rounded-full bg-brand/15 text-brand px-3 py-1 text-xs font-semibold mb-4">
             <IconFilm className="w-3.5 h-3.5" /> Rendered reels
           </span>
-          <h1 className="font-display text-4xl sm:text-5xl font-bold tracking-tight text-zinc-900 dark:text-white">
+          <h1 className="font-display text-3xl sm:text-5xl font-bold tracking-tight text-zinc-900 dark:text-white">
             Your cat-meme gallery
           </h1>
           <p className="mt-3 text-zinc-600 dark:text-zinc-300">

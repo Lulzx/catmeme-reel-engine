@@ -132,7 +132,7 @@ function Row({
   return (
     <div
       className={
-        "flex items-center gap-4 rounded-2xl border p-2.5 pr-4 transition " +
+        "flex items-center gap-3 sm:gap-4 rounded-2xl border p-2.5 pr-3 sm:pr-4 transition " +
         (top
           ? "border-brand/50 bg-brand/8"
           : "border-black/5 dark:border-white/10 bg-white/50 dark:bg-white/[0.03]")
@@ -140,7 +140,7 @@ function Row({
     >
       <button
         onClick={onPlay}
-        className="relative shrink-0 w-16 h-20 rounded-xl overflow-hidden bg-zinc-800 group"
+        className="relative shrink-0 w-14 h-[72px] sm:w-16 sm:h-20 rounded-xl overflow-hidden bg-zinc-800 group"
       >
         <img src={r.frame} alt={r.primary} loading="lazy" className="w-full h-full object-cover" />
         <div className="absolute inset-0 grid place-items-center bg-black/30 opacity-0 group-hover:opacity-100 transition">
@@ -154,9 +154,11 @@ function Row({
           <p className="font-medium text-zinc-900 dark:text-white truncate">{r.primary}</p>
           <QualityChip quality={r.quality} />
           {top && (
-            <Chip size="sm" color="accent" variant="primary">
-              best match
-            </Chip>
+            <span className="hidden sm:inline-flex">
+              <Chip size="sm" color="accent" variant="primary">
+                best match
+              </Chip>
+            </span>
           )}
         </div>
         <div className="mt-1.5 flex flex-wrap gap-1">
@@ -173,7 +175,7 @@ function Row({
         </div>
       </div>
 
-      <div className="shrink-0 w-28 text-right">
+      <div className="shrink-0 w-14 sm:w-28 text-right">
         <div className="font-display font-bold text-lg text-zinc-900 dark:text-white tabular-nums">
           {r.score.toFixed(1)}
         </div>

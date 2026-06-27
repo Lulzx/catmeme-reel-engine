@@ -38,8 +38,8 @@ export function Stories() {
         sub="Browse a narrative beat by beat, edit it, and render — live"
         icon={<IconBook className="w-5 h-5" />}
       />
-      <div className="grid lg:grid-cols-[260px_1fr] gap-6">
-        <aside className="space-y-2">
+      <div className="grid lg:grid-cols-[260px_1fr] gap-5 lg:gap-6">
+        <aside className="flex lg:flex-col gap-2 overflow-x-auto lg:overflow-visible -mx-4 px-4 pb-2 lg:mx-0 lg:px-0 lg:pb-0 tinybar snap-x">
           {list === null ? (
             <Spinner />
           ) : (
@@ -48,7 +48,7 @@ export function Stories() {
                 key={s.slug}
                 onClick={() => setSlug(s.slug)}
                 className={cn(
-                  "w-full text-left rounded-xl border p-3 transition",
+                  "shrink-0 w-56 lg:w-full snap-start text-left rounded-xl border p-3 transition",
                   slug === s.slug
                     ? "border-brand/50 bg-brand/8"
                     : "border-black/5 dark:border-white/10 bg-white/50 dark:bg-white/[0.03] hover:border-brand/30",

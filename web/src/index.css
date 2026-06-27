@@ -12,6 +12,16 @@
   --color-ink: #08080b;
 }
 
+/* Re-map HeroUI's "accent" (its primary) onto the studio's lime brand so every
+   Button, Spinner, focus ring and chip matches the rest of the UI instead of
+   falling back to HeroUI's default blue. */
+:root,
+.light,
+.dark {
+  --accent: #c2ff4d;
+  --accent-foreground: #0a0a0a;
+}
+
 html,
 body,
 #root {
@@ -22,6 +32,9 @@ body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Don't let mobile Safari reflow type on rotate, and kill the grey tap flash. */
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* App backdrop: deep ink with two soft accent glows. */

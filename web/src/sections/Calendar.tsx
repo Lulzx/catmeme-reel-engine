@@ -164,7 +164,7 @@ export function Calendar() {
           sub="Every reel — live, scheduled and queued — on one timeline."
           icon={<IconCalendar className="w-5 h-5" />}
         />
-        <Button variant="primary" onPress={() => setGen((g) => !g)}>
+        <Button variant="primary" onPress={() => setGen((g) => !g)} className="shrink-0">
           <IconWand className="w-4 h-4" /> Generate
         </Button>
       </div>
@@ -340,10 +340,15 @@ function MonthGrid({ month, byDay, today, selectedKey, onOpenDay, onReschedule }
 
   return (
     <div>
-      <div className="grid grid-cols-7 gap-1.5 mb-1.5">
-        {DOW.map((d) => <div key={d} className="text-center text-[11px] font-semibold text-zinc-400 uppercase tracking-wide py-1">{d}</div>)}
+      <div className="grid grid-cols-7 gap-1 sm:gap-1.5 mb-1.5">
+        {DOW.map((d) => (
+          <div key={d} className="text-center text-[10px] sm:text-[11px] font-semibold text-zinc-400 uppercase tracking-wide py-1">
+            <span className="sm:hidden">{d[0]}</span>
+            <span className="hidden sm:inline">{d}</span>
+          </div>
+        ))}
       </div>
-      <div className="grid grid-cols-7 gap-1.5">
+      <div className="grid grid-cols-7 gap-1 sm:gap-1.5">
         {cells.map((d, i) => {
           if (!d) return <div key={i} className="rounded-xl bg-transparent" />;
           const key = dayKey(d);
@@ -365,7 +370,7 @@ function MonthGrid({ month, byDay, today, selectedKey, onOpenDay, onReschedule }
               onDragLeave={() => setOver((o) => (o === key ? null : o))}
               onDrop={(e) => { e.preventDefault(); setOver(null); const slug = e.dataTransfer.getData("text/plain"); if (slug && !past) onReschedule(slug, d); }}
               className={cn(
-                "group relative flex flex-col text-left min-h-[96px] rounded-xl border p-1.5 transition outline-none",
+                "group relative flex flex-col text-left min-h-[56px] sm:min-h-[96px] rounded-lg sm:rounded-xl border p-1 sm:p-1.5 transition outline-none",
                 "hover:-translate-y-0.5 hover:shadow-lg hover:shadow-black/5 dark:hover:shadow-black/40 focus-visible:ring-2 focus-visible:ring-brand/60",
                 isOver ? "border-brand ring-2 ring-brand/50 bg-brand/10"
                   : isSelected ? "border-brand ring-2 ring-brand/40 bg-brand/[0.07]"
@@ -392,7 +397,15 @@ function MonthGrid({ month, byDay, today, selectedKey, onOpenDay, onReschedule }
                   <span className="text-[10px] font-semibold text-zinc-400 dark:text-zinc-500 tabular-nums">{items.length}</span>
                 )}
               </div>
-              <div className="space-y-1">
+              {/* mobile: a compact dot row — cells are too narrow for titles */}
+              {items.length > 0 && (
+                <div className="flex sm:hidden flex-wrap gap-1 mt-auto pt-0.5">
+                  {items.slice(0, 8).map((v) => (
+                    <span key={v.slug} className={cn("w-1.5 h-1.5 rounded-full", STATUS[v.status].dot)} />
+                  ))}
+                </div>
+              )}
+              <div className="hidden sm:block space-y-1">
                 {items.slice(0, 3).map((v) => {
                   const s = STATUS[v.status];
                   const drag = v.status === "scheduled";

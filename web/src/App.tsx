@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { Button } from "@heroui/react";
 import {
   PlayerProvider,
   cn,
@@ -20,13 +19,14 @@ import { Match } from "./sections/Match";
 import { Calendar } from "./sections/Calendar";
 
 type Tab = "gallery" | "calendar" | "library" | "stories" | "match";
+type IconCmp = (p: { className?: string }) => React.ReactNode;
 
-const NAV: { id: Tab; label: string; icon: React.ReactNode }[] = [
-  { id: "gallery", label: "Gallery", icon: <IconFilm className="w-4 h-4" /> },
-  { id: "calendar", label: "Calendar", icon: <IconCalendar className="w-4 h-4" /> },
-  { id: "library", label: "Library", icon: <IconGrid className="w-4 h-4" /> },
-  { id: "stories", label: "Stories", icon: <IconBook className="w-4 h-4" /> },
-  { id: "match", label: "Match", icon: <IconWand className="w-4 h-4" /> },
+const NAV: { id: Tab; label: string; Icon: IconCmp }[] = [
+  { id: "gallery", label: "Gallery", Icon: IconFilm },
+  { id: "calendar", label: "Calendar", Icon: IconCalendar },
+  { id: "library", label: "Library", Icon: IconGrid },
+  { id: "stories", label: "Stories", Icon: IconBook },
+  { id: "match", label: "Match", Icon: IconWand },
 ];
 
 function useTheme() {
@@ -94,7 +94,9 @@ export default function App() {
                       : "text-zinc-500 dark:text-zinc-400 hover:bg-black/5 dark:hover:bg-white/5",
                   )}
                 >
-                  <span className={tab === n.id ? "text-brand" : ""}>{n.icon}</span>
+                  <span className={tab === n.id ? "text-brand" : ""}>
+                    <n.Icon className="w-4 h-4" />
+                  </span>
                   {n.label}
                 </button>
               ))}
@@ -119,23 +121,9 @@ export default function App() {
               </button>
             </div>
           </div>
-
-          {/* mobile nav */}
-          <div className="sm:hidden flex items-center gap-1 px-3 pb-2 overflow-x-auto">
-            {NAV.map((n) => (
-              <Button
-                key={n.id}
-                size="sm"
-                variant={tab === n.id ? "primary" : "ghost"}
-                onPress={() => setTab(n.id)}
-              >
-                {n.label}
-              </Button>
-            ))}
-          </div>
         </header>
 
-        <main className="flex-1 mx-auto w-full max-w-7xl px-4 sm:px-6 py-8">
+        <main className="flex-1 mx-auto w-full max-w-7xl px-4 sm:px-6 pt-6 pb-24 sm:py-8">
           {tab === "gallery" && <Gallery onAuthor={() => setTab("stories")} />}
           {tab === "calendar" && <Calendar />}
           {tab === "library" && <Library />}
@@ -143,9 +131,34 @@ export default function App() {
           {tab === "match" && <Match />}
         </main>
 
-        <footer className="border-t border-black/5 dark:border-white/10 py-6 text-center text-xs text-zinc-400 dark:text-zinc-500">
+        <footer className="border-t border-black/5 dark:border-white/10 py-6 pb-24 sm:pb-6 text-center text-xs text-zinc-400 dark:text-zinc-500">
           Cat-Meme Reel Engine · catalog → match → render · built with HeroUI
         </footer>
+
+        {/* mobile bottom tab bar */}
+        <nav className="sm:hidden fixed bottom-0 inset-x-0 z-40 border-t border-black/5 dark:border-white/10 bg-white/85 dark:bg-ink/85 backdrop-blur-xl pb-[env(safe-area-inset-bottom)]">
+          <div className="grid grid-cols-5">
+            {NAV.map((n) => (
+              <button
+                key={n.id}
+                onClick={() => setTab(n.id)}
+                aria-current={tab === n.id ? "page" : undefined}
+                className={cn(
+                  "relative flex flex-col items-center gap-1 py-2 text-[10px] font-medium transition-colors",
+                  tab === n.id
+                    ? "text-zinc-900 dark:text-white"
+                    : "text-zinc-400 dark:text-zinc-500",
+                )}
+              >
+                {tab === n.id && (
+                  <span className="absolute top-0 h-0.5 w-8 rounded-full bg-brand" />
+                )}
+                <n.Icon className={cn("w-5 h-5", tab === n.id && "text-brand")} />
+                {n.label}
+              </button>
+            ))}
+          </div>
+        </nav>
       </div>
     </PlayerProvider>
   );
