@@ -1,0 +1,56 @@
+{
+  "title": "Asking For 30 More Minutes",
+  "output": "husband-30-more-minutes.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: asking your husband for 30 more minutes out",
+  "outro": "FOLLOW FOR PART 2",
+  "outro_cast": [ { "name": "", "want": ["celebrating", "victory", "hype", "happy"], "size": 0.44 } ],
+  "beats": [
+    {
+      "action": "*5:55pm. the curfew is in 5 minutes.*",
+      "bg": { "img": "neon bar table evening drinks interior", "palette": "alert" },
+      "cast": [ { "name": "ME", "want": ["nervous", "scared", "startled", "alarmed"], "size": 0.5 } ]
+    },
+    {
+      "action": "*drafting the text: \"babe... so...\"*",
+      "bg": { "img": "restaurant table phone closeup hands evening", "palette": "scheme" },
+      "cast": [ { "name": "ME", "want": ["pleading", "hopeful", "cute", "begging"], "size": 0.5 } ]
+    },
+    {
+      "action": "*rehearsing the pitch to the girls first*",
+      "bg": { "img": "cozy bar booth friends night interior", "palette": "warm" },
+      "cast": [ { "name": "ME", "want": ["explaining", "talking", "making-a-point", "chatty"], "size": 0.5 } ]
+    },
+    {
+      "action": "*hitting send with maximum puppy-eyes energy*",
+      "bg": { "img": "phone screen text message closeup dark", "palette": "glow" },
+      "cast": [ { "name": "ME", "want": ["pleading", "longing", "innocent", "hopeful"], "size": 0.5 } ]
+    },
+    {
+      "action": "*the \"typing...\" bubble appears*",
+      "bg": { "img": "phone screen glow dark closeup night", "palette": "tense" },
+      "cast": [ { "name": "ME", "want": ["nervous", "waiting", "tense", "alarmed"], "size": 0.5 } ]
+    },
+    {
+      "action": "*him: \"you said 6.\"*",
+      "bg": { "img": "dark living room couch night interior", "palette": "room" },
+      "cast": [ { "name": "HIM", "want": ["deadpan", "stern", "unimpressed", "unmoved"], "size": 0.5 } ]
+    },
+    {
+      "action": "*the negotiation: \"30 mins\" vs \"you said 6\"*",
+      "bg": { "img": "dim living room night standoff interior", "palette": "void" },
+      "cast": [
+        { "name": "ME", "want": ["pleading", "begging", "longing"], "size": 0.46, "pos": 0.30 },
+        { "name": "HIM", "want": ["deadpan", "judging", "unmoved"], "size": 0.46, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*him: \"...fine. 15 minutes.\" — A WIN IS A WIN*",
+      "bg": { "img": "neon nightclub party lights celebration", "palette": "party" },
+      "dur": 5.0,
+      "cast": [ { "name": "ME", "want": ["celebrating", "victory", "hype", "proud"], "size": 0.5 } ]
+    }
+  ]
+}

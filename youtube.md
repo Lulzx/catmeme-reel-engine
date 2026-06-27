@@ -39,8 +39,10 @@ Status: ✅ posted · 🕒 scheduled (auto-publishes later) · ⏳ queued (rende
 | 25 | cart-therapy | POV: 2am add-to-cart therapy | 🕒 scheduled | 2026-07-02T16:01:26Z | output/cart-therapy.mp4 |
 | 26 | missed-the-bus | POV: you run for the bus and the driver pulls away | 🕒 scheduled | 2026-07-02T22:01:26Z | output/missed-the-bus.mp4 |
 | 27 | fridge-again | POV: opening the fridge for the 5th time hoping food appeared | 🕒 scheduled | 2026-07-03T04:01:26Z | output/fridge-again.mp4 |
+| 28 | husband-curfew-6pm | POV: your husband gave you a 6pm curfew for girls' day out | ⏳ queued | — | output/husband-curfew-6pm.mp4 |
+| 29 | husband-30-more-minutes | POV: asking your husband for 30 more minutes out | ⏳ queued | — | output/husband-30-more-minutes.mp4 |
 
-**Recommended next:** — all posted/scheduled —
+**Recommended next:** husband-curfew-6pm
 Upload it with `python -m engine.upload --next`.
 
 ---
@@ -343,3 +345,25 @@ Upload it with `python -m engine.upload --next`.
   #catmemes #pov #relatable #food #funnycats #hungry #shorts
   ```
 - **Tags:** cat memes, pov, relatable, food, funny cats, hungry, shorts
+
+### husband-curfew-6pm ⏳
+- **Title:** POV: your husband gave you a 6pm curfew for girls' day out 🐱 #shorts
+- **Description:**
+  ```
+  your husband gave you a 6pm curfew for girls' day out
+  
+  New cat POVs every few days 🐾
+  #shorts #catmemes #pov #relatable #funnycats #fyp
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts
+
+### husband-30-more-minutes ⏳
+- **Title:** POV: asking your husband for 30 more minutes out 🐱 #shorts
+- **Description:**
+  ```
+  asking your husband for 30 more minutes out
+  
+  New cat POVs every few days 🐾
+  #shorts #catmemes #pov #relatable #funnycats #fyp
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts

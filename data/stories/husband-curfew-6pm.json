@@ -1,0 +1,56 @@
+{
+  "title": "He Gave Me A 6PM Curfew",
+  "output": "husband-curfew-6pm.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: your husband gave you a 6pm curfew for girls' day out",
+  "outro": "FOLLOW FOR PART 2",
+  "outro_cast": [ { "name": "", "want": ["dancing", "hype", "happy", "playful"], "size": 0.44 } ],
+  "beats": [
+    {
+      "action": "*him: \"home by 6pm. sharp.\"*",
+      "bg": { "img": "cozy living room couch interior day", "palette": "room" },
+      "cast": [ { "name": "HIM", "want": ["stern", "demanding", "lecturing", "serious"], "size": 0.5 } ]
+    },
+    {
+      "action": "*me: \"of course, honey\" (already plotting)*",
+      "bg": { "img": "cozy living room couch interior day", "palette": "scheme" },
+      "cast": [ { "name": "ME", "want": ["plotting", "scheming", "sly", "mischievous"], "size": 0.5 } ]
+    },
+    {
+      "action": "*the group chat: \"WE'RE OUTSIDE\"*",
+      "bg": { "img": "sunny city street cafe brunch day", "palette": "bright" },
+      "cast": [ { "name": "ME", "want": ["excited", "hype", "eager", "playful"], "size": 0.5 } ]
+    },
+    {
+      "action": "*2pm: mimosas and absolutely zero regrets*",
+      "bg": { "img": "fancy brunch restaurant table drinks", "palette": "fizz" },
+      "cast": [ { "name": "ME", "want": ["celebrating", "vibing", "cheerful", "happy"], "size": 0.5 } ]
+    },
+    {
+      "action": "*5:55pm: his name lights up the screen*",
+      "bg": { "img": "restaurant table phone closeup evening", "palette": "alert" },
+      "cast": [ { "name": "ME", "want": ["nervous", "startled", "wary", "alarmed"], "size": 0.5 } ]
+    },
+    {
+      "action": "*the girls: \"he can WAIT. one more hour!\"*",
+      "bg": { "img": "neon nightclub dance floor party lights", "palette": "party" },
+      "cast": [
+        { "name": "JESS", "want": ["dancing", "hype", "celebrating"], "size": 0.46, "pos": 0.30 },
+        { "name": "ME", "want": ["dancing", "party", "groovy"], "size": 0.46, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*28 missed calls. i'll explain later.*",
+      "bg": { "img": "neon bar night purple lights interior", "palette": "neon" },
+      "cast": [ { "name": "ME", "want": ["unbothered", "dismissive", "smug", "nonchalant"], "size": 0.5 } ]
+    },
+    {
+      "action": "*midnight: the living room light is still on...*",
+      "bg": { "img": "dark living room doorway night interior", "palette": "void" },
+      "dur": 5.0,
+      "cast": [ { "name": "ME", "want": ["terrified", "scared", "frozen", "nervous"], "size": 0.5 } ]
+    }
+  ]
+}
