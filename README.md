@@ -19,6 +19,22 @@ python3 engine/render.py data/stories/functional-adult.json
 
 See what a feeling resolves to: `python3 engine/match.py sleepy relaxed`.
 
+## 🎬 Studio (web UI)
+
+A visual front-end (Vite + [HeroUI](https://heroui.com/)) puts everything on
+screen: a **gallery** of rendered reels, the searchable **clip library**, a
+beat-by-beat **story** view that renders with a **live streaming log**, and an
+interactive emotion→clip **matcher**.
+
+```bash
+pip install -r requirements.txt        # fastapi, uvicorn, pillow
+cd web && npm install && npm run build  # one-time build of the UI
+cd .. && python3 engine/server.py       # -> http://localhost:8000
+```
+
+The backend (`engine/server.py`) serves the UI, the REST API, and all media from
+one port. See [`web/README.md`](web/README.md) for dev mode (hot reload).
+
 ## Layout
 
 ```

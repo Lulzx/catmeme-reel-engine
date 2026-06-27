@@ -1,0 +1,11 @@
+# Runtime deps for the cat-meme reel engine.
+# Core engine (catalog / matcher / renderer):
+pillow>=10.0
+# Web backend (engine/server.py):
+fastapi>=0.110
+uvicorn>=0.27
+# YouTube upload (engine/upload.py):
+google-api-python-client>=2.0
+google-auth-oauthlib>=1.0
+google-auth-httplib2>=0.2
+# ffmpeg / ffprobe must be on PATH (brew install ffmpeg).

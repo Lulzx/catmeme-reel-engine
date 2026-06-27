@@ -26,7 +26,17 @@ output/
 # (drop the two !backgrounds lines if you'd rather not commit backgrounds/ —
 #  they can be re-fetched from the AICatMeme repo.)
 
+# ── Web UI (Vite + HeroUI) ───────────────────────────────────────────
+web/node_modules/
+web/dist/
+web/.vite/
+
+# ── Secrets (YouTube OAuth) ──────────────────────────────────────────
+client_secret*.json
+token.json
+
 # ── Cruft ────────────────────────────────────────────────────────────
+youtube.json.bak
 .DS_Store
 __pycache__/
 *.pyc
