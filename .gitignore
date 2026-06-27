@@ -37,6 +37,7 @@ token.json
 
 # ── Cruft ────────────────────────────────────────────────────────────
 youtube.json.bak
+data/videos.db
 .DS_Store
 __pycache__/
 *.pyc
