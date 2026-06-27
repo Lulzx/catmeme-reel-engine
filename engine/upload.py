@@ -44,8 +44,11 @@ TRACKED = ["data/videos.json", "youtube.md"]   # auto-committed on state change
 
 def git_sync(message):
     """Commit + push the tracked JSON/md snapshot after the schedule changes.
-    Best-effort: never breaks the upload flow if git is unavailable or offline."""
+    Best-effort: never breaks the upload flow if git is unavailable or offline.
+    Set CRS_NO_GIT=1 (e.g. on a deployed mirror) to skip git entirely."""
     import subprocess
+    if os.environ.get("CRS_NO_GIT"):
+        return
 
     def g(*args, **kw):
         return subprocess.run(["git", *args], cwd=ROOT, capture_output=True, text=True, **kw)
