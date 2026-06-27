@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import { Button, Spinner } from "@heroui/react";
 import { api, type Schedule, type ScheduleVideo, type VideoStatus, type VideoStats } from "../api";
 import {
@@ -75,6 +76,7 @@ export function Calendar() {
   const [stats, setStats] = useState<Record<string, VideoStats>>({});
   const [statsErr, setStatsErr] = useState<string | null>(null);
   const [gen, setGen] = useState(false);
+  const [selectedDay, setSelectedDay] = useState<Date | null>(null);
   const play = usePlayer();
 
   useEffect(() => { api.schedule().then(setData).catch(() => setData({ channel: {}, defaults: {}, videos: [] })); }, []);
@@ -229,9 +231,27 @@ export function Calendar() {
             <button onClick={() => setMonth((m) => new Date(m.getFullYear(), m.getMonth() + 1, 1))} className="grid place-items-center w-8 h-8 rounded-lg text-zinc-500 hover:bg-black/5 dark:hover:bg-white/5 transition" aria-label="Next month"><IconChevronRight className="w-5 h-5" /></button>
           </div>
         </div>
-        <MonthGrid month={month} byDay={byDay} onOpen={openVideo} onReschedule={onReschedule} />
+        <MonthGrid
+          month={month}
+          byDay={byDay}
+          today={now}
+          selectedKey={selectedDay ? dayKey(selectedDay) : null}
+          onOpenDay={setSelectedDay}
+          onReschedule={onReschedule}
+        />
         <Legend />
       </div>
+
+      <DayDetail
+        day={selectedDay}
+        byDay={byDay}
+        stats={stats}
+        now={now}
+        onClose={() => setSelectedDay(null)}
+        onNav={(delta) => setSelectedDay((d) => (d ? new Date(d.getFullYear(), d.getMonth(), d.getDate() + delta) : d))}
+        onOpen={openVideo}
+        onGenerate={() => { setSelectedDay(null); setGen(true); }}
+      />
 
       {/* agenda */}
       <SectionTitle title="Upcoming" sub="What goes out next, grouped by day." icon={<IconClock className="w-5 h-5" />} />
@@ -303,9 +323,9 @@ function StatCard({ label, value, accent, icon, sub }: { label: string; value: n
   );
 }
 
-function MonthGrid({ month, byDay, onOpen, onReschedule }: {
-  month: Date; byDay: Map<string, ScheduleVideo[]>;
-  onOpen: (v: ScheduleVideo) => void; onReschedule: (slug: string, day: Date) => void;
+function MonthGrid({ month, byDay, today, selectedKey, onOpenDay, onReschedule }: {
+  month: Date; byDay: Map<string, ScheduleVideo[]>; today: number; selectedKey: string | null;
+  onOpenDay: (day: Date) => void; onReschedule: (slug: string, day: Date) => void;
 }) {
   const [over, setOver] = useState<string | null>(null);
   const first = new Date(month.getFullYear(), month.getMonth(), 1);
@@ -315,7 +335,8 @@ function MonthGrid({ month, byDay, onOpen, onReschedule }: {
   for (let i = 0; i < lead; i++) cells.push(null);
   for (let d = 1; d <= days; d++) cells.push(new Date(month.getFullYear(), month.getMonth(), d));
   while (cells.length % 7 !== 0) cells.push(null);
-  const today = new Date();
+  const todayStart = new Date(today); todayStart.setHours(0, 0, 0, 0);
+  const todayKey = dayKey(new Date(today));
 
   return (
     <div>
@@ -327,42 +348,194 @@ function MonthGrid({ month, byDay, onOpen, onReschedule }: {
           if (!d) return <div key={i} className="rounded-xl bg-transparent" />;
           const key = dayKey(d);
           const items = byDay.get(key) ?? [];
-          const isToday = sameDay(d, today);
+          const isToday = key === todayKey;
+          const isSelected = key === selectedKey;
           const isOver = over === key;
-          const past = d.getTime() < today.setHours(0, 0, 0, 0);
+          const isWeekend = d.getDay() === 0 || d.getDay() === 6;
+          const past = d.getTime() < todayStart.getTime();
+          // status summary for the cell's top accent bar
+          const seg = { posted: 0, scheduled: 0, queued: 0, authored: 0 } as Record<VideoStatus, number>;
+          for (const v of items) seg[v.status]++;
           return (
-            <div
+            <button
               key={i}
+              type="button"
+              onClick={() => onOpenDay(d)}
               onDragOver={(e) => { if (!past) { e.preventDefault(); setOver(key); } }}
               onDragLeave={() => setOver((o) => (o === key ? null : o))}
               onDrop={(e) => { e.preventDefault(); setOver(null); const slug = e.dataTransfer.getData("text/plain"); if (slug && !past) onReschedule(slug, d); }}
               className={cn(
-                "min-h-[88px] rounded-xl border p-1.5 transition",
+                "group relative flex flex-col text-left min-h-[96px] rounded-xl border p-1.5 transition outline-none",
+                "hover:-translate-y-0.5 hover:shadow-lg hover:shadow-black/5 dark:hover:shadow-black/40 focus-visible:ring-2 focus-visible:ring-brand/60",
                 isOver ? "border-brand ring-2 ring-brand/50 bg-brand/10"
-                  : isToday ? "border-brand/50 bg-brand/[0.06]"
-                  : "border-black/5 dark:border-white/[0.06] bg-black/[0.015] dark:bg-white/[0.02]",
+                  : isSelected ? "border-brand ring-2 ring-brand/40 bg-brand/[0.07]"
+                  : isToday ? "border-brand/50 bg-brand/[0.06] hover:border-brand/70"
+                  : cn("border-black/5 dark:border-white/[0.06] hover:border-black/10 dark:hover:border-white/15",
+                      isWeekend ? "bg-black/[0.025] dark:bg-white/[0.015]" : "bg-black/[0.015] dark:bg-white/[0.02]"),
+                past && "opacity-65 hover:opacity-100",
               )}
             >
-              <div className={cn("text-[11px] font-semibold mb-1 px-0.5", isToday ? "text-brand" : "text-zinc-400 dark:text-zinc-500")}>{d.getDate()}</div>
+              {/* status accent bar */}
+              {items.length > 0 && (
+                <div className="absolute inset-x-1.5 top-0 flex h-[3px] gap-px overflow-hidden rounded-b-sm">
+                  {(["posted", "scheduled", "queued", "authored"] as VideoStatus[]).map((k) =>
+                    seg[k] ? <span key={k} className={cn("h-full", STATUS[k].dot)} style={{ flex: seg[k] }} /> : null,
+                  )}
+                </div>
+              )}
+              <div className="flex items-center justify-between mb-1 pt-0.5">
+                <span className={cn(
+                  "grid place-items-center text-[11px] font-bold tabular-nums leading-none",
+                  isToday ? "w-5 h-5 rounded-full bg-brand text-black" : "px-0.5 text-zinc-400 dark:text-zinc-500",
+                )}>{d.getDate()}</span>
+                {items.length > 0 && (
+                  <span className="text-[10px] font-semibold text-zinc-400 dark:text-zinc-500 tabular-nums">{items.length}</span>
+                )}
+              </div>
               <div className="space-y-1">
                 {items.slice(0, 3).map((v) => {
                   const s = STATUS[v.status];
                   const drag = v.status === "scheduled";
                   return (
-                    <button key={v.slug} onClick={() => onOpen(v)} title={drag ? `${cleanTitle(v)} — drag to reschedule` : cleanTitle(v)}
+                    <div key={v.slug} title={drag ? `${cleanTitle(v)} — drag to reschedule` : cleanTitle(v)}
                       draggable={drag}
+                      onClick={(e) => { e.stopPropagation(); onOpenDay(d); }}
                       onDragStart={(e) => { e.dataTransfer.setData("text/plain", v.slug); e.dataTransfer.effectAllowed = "move"; }}
-                      className={cn("w-full flex items-center gap-1 rounded-md px-1 py-0.5 text-left text-[10px] leading-tight transition hover:ring-1", drag && "cursor-grab active:cursor-grabbing", s.chip, s.ring)}>
-                      <span className={cn("shrink-0 w-1.5 h-1.5 rounded-full", s.dot)} />
+                      className={cn("flex items-center gap-1 rounded-md pl-1 pr-1 py-0.5 text-[10px] leading-tight transition hover:ring-1", drag && "cursor-grab active:cursor-grabbing", s.chip, s.ring)}>
+                      {v.poster
+                        ? <img src={v.poster} alt="" loading="lazy" className="shrink-0 w-3 h-[18px] rounded-[3px] object-cover bg-zinc-900" />
+                        : <span className={cn("shrink-0 w-1.5 h-1.5 rounded-full", s.dot)} />}
                       <span className="truncate">{cleanTitle(v)}</span>
-                    </button>
+                    </div>
                   );
                 })}
-                {items.length > 3 && <div className="text-[10px] text-zinc-400 px-1">+{items.length - 3} more</div>}
+                {items.length > 3 && (
+                  <div className="text-[10px] font-medium text-zinc-400 dark:text-zinc-500 px-1 group-hover:text-brand transition">+{items.length - 3} more</div>
+                )}
               </div>
-            </div>
+            </button>
           );
         })}
+      </div>
+    </div>
+  );
+}
+
+/* ----------------------------------------------------------- day detail --- */
+function DayDetail({ day, byDay, stats, now, onClose, onNav, onOpen, onGenerate }: {
+  day: Date | null; byDay: Map<string, ScheduleVideo[]>; stats: Record<string, VideoStats>;
+  now: number; onClose: () => void; onNav: (delta: number) => void;
+  onOpen: (v: ScheduleVideo) => void; onGenerate: () => void;
+}) {
+  useEffect(() => {
+    if (!day) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") onClose();
+      if (e.key === "ArrowLeft") onNav(-1);
+      if (e.key === "ArrowRight") onNav(1);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [day, onClose, onNav]);
+
+  const items = day ? byDay.get(dayKey(day)) ?? [] : [];
+  const isToday = day ? sameDay(day, new Date(now)) : false;
+  const seg = { posted: 0, scheduled: 0, queued: 0, authored: 0 } as Record<VideoStatus, number>;
+  for (const v of items) seg[v.status]++;
+
+  return (
+    <AnimatePresence>
+      {day && (
+        <motion.div
+          className="fixed inset-0 z-50 flex justify-end bg-black/40 backdrop-blur-sm"
+          initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
+          onClick={onClose}
+        >
+          <motion.div
+            className="relative flex h-full w-full sm:max-w-md flex-col border-l border-black/10 dark:border-white/10 bg-white/85 dark:bg-ink/85 backdrop-blur-2xl shadow-2xl"
+            initial={{ x: "100%" }} animate={{ x: 0 }} exit={{ x: "100%" }}
+            transition={{ type: "spring", stiffness: 360, damping: 36 }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* header */}
+            <div className="shrink-0 border-b border-black/5 dark:border-white/10 p-5">
+              <div className="flex items-start justify-between">
+                <div>
+                  <div className="flex items-center gap-2">
+                    <span className="font-display text-2xl font-bold tracking-tight text-zinc-900 dark:text-white">
+                      {DOW[day.getDay()]}, {MONTHS[day.getMonth()].slice(0, 3)} {day.getDate()}
+                    </span>
+                    {isToday && <span className="rounded-full bg-brand px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-black">Today</span>}
+                  </div>
+                  <p className="mt-1 text-sm text-zinc-500 dark:text-zinc-400">
+                    {items.length === 0 ? "No reels scheduled" : `${items.length} ${items.length === 1 ? "reel" : "reels"}`}
+                    {seg.posted > 0 && ` · ${seg.posted} live`}
+                    {seg.scheduled > 0 && ` · ${seg.scheduled} scheduled`}
+                  </p>
+                </div>
+                <div className="flex items-center gap-1">
+                  <button onClick={() => onNav(-1)} className="grid place-items-center w-8 h-8 rounded-lg text-zinc-500 hover:bg-black/5 dark:hover:bg-white/5 transition" aria-label="Previous day"><IconChevronLeft className="w-5 h-5" /></button>
+                  <button onClick={() => onNav(1)} className="grid place-items-center w-8 h-8 rounded-lg text-zinc-500 hover:bg-black/5 dark:hover:bg-white/5 transition" aria-label="Next day"><IconChevronRight className="w-5 h-5" /></button>
+                  <button onClick={onClose} className="grid place-items-center w-8 h-8 rounded-lg text-zinc-500 hover:bg-black/5 dark:hover:bg-white/5 transition" aria-label="Close"><IconClose className="w-5 h-5" /></button>
+                </div>
+              </div>
+            </div>
+
+            {/* body */}
+            <div className="flex-1 overflow-y-auto tinybar p-5">
+              {items.length === 0 ? (
+                <div className="grid place-items-center h-full text-center px-6">
+                  <div>
+                    <div className="mx-auto grid place-items-center w-14 h-14 rounded-2xl bg-black/5 dark:bg-white/5 text-zinc-400 mb-3"><IconCalendar className="w-7 h-7" /></div>
+                    <p className="text-sm text-zinc-500 dark:text-zinc-400">Nothing goes out this day.</p>
+                    <Button size="sm" variant="primary" className="mt-4" onPress={onGenerate}><IconWand className="w-4 h-4" /> Generate a batch</Button>
+                  </div>
+                </div>
+              ) : (
+                <div className="space-y-3">
+                  {items.map((v) => <DayReel key={v.slug} v={v} now={now} onOpen={onOpen} stats={v.video_id ? stats[v.video_id] : undefined} />)}
+                </div>
+              )}
+            </div>
+          </motion.div>
+        </motion.div>
+      )}
+    </AnimatePresence>
+  );
+}
+
+function DayReel({ v, now, onOpen, stats }: { v: ScheduleVideo; now: number; onOpen: (v: ScheduleVideo) => void; stats?: VideoStats }) {
+  const s = STATUS[v.status];
+  const d = whenOf(v);
+  const future = v.status === "scheduled" && v.publish_at && new Date(v.publish_at).getTime() > now;
+  const playable = !!(v.output_url || v.youtube_url);
+  return (
+    <div className="group flex gap-3 rounded-2xl border border-black/5 dark:border-white/10 bg-white/60 dark:bg-white/[0.03] p-3 transition hover:ring-2 hover:ring-brand/40">
+      <button onClick={() => onOpen(v)} disabled={!playable}
+        className="relative shrink-0 w-[68px] h-[96px] rounded-xl overflow-hidden bg-zinc-900 grid place-items-center disabled:cursor-default">
+        {v.poster ? <img src={v.poster} alt="" loading="lazy" className="w-full h-full object-cover" /> : <IconCat className="w-6 h-6 text-white/30" />}
+        {playable && <span className="absolute inset-0 grid place-items-center opacity-0 group-hover:opacity-100 bg-black/30 transition"><IconPlay className="w-6 h-6 text-white" /></span>}
+      </button>
+      <div className="min-w-0 flex-1">
+        <div className="flex items-start gap-2">
+          <p className="font-medium text-sm text-zinc-900 dark:text-white leading-snug line-clamp-2 flex-1">{cleanTitle(v)}</p>
+          {v.youtube_url && (
+            <a href={v.youtube_url} target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()}
+              className="shrink-0 grid place-items-center w-7 h-7 rounded-lg text-zinc-400 hover:text-red-500 hover:bg-red-500/10 transition" aria-label="Open on YouTube"><IconYoutube className="w-4 h-4" /></a>
+          )}
+        </div>
+        <div className="mt-1.5 flex items-center gap-1.5 flex-wrap text-xs">
+          <span className={cn("inline-flex items-center gap-1 rounded-full px-2 py-0.5 font-medium", s.chip)}><span className={cn("w-1.5 h-1.5 rounded-full", s.dot)} />{s.label}</span>
+          {d && <span className="inline-flex items-center gap-1 text-zinc-500 dark:text-zinc-400"><IconClock className="w-3.5 h-3.5" />{v.status === "posted" && !v.publish_at ? "published" : timeLabel(d)}</span>}
+          {future && <span className="text-zinc-400">in {fmtCountdown(new Date(v.publish_at!).getTime() - now)}</span>}
+        </div>
+        {v.place && <div className="mt-1 text-xs text-zinc-400 dark:text-zinc-500">{sceneLabel(v.place)}</div>}
+        {stats && v.status === "posted" && (
+          <div className="mt-2 flex items-center gap-3 text-xs text-zinc-500 dark:text-zinc-400">
+            <span className="inline-flex items-center gap-1"><IconEye className="w-3.5 h-3.5" />{fmtNum(stats.views)}</span>
+            <span className="inline-flex items-center gap-1"><IconHeart className="w-3.5 h-3.5" />{fmtNum(stats.likes)}</span>
+          </div>
+        )}
       </div>
     </div>
   );
