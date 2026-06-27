@@ -125,6 +125,15 @@ export const api = {
   story: (slug: string) => get<{ slug: string; raw: Story }>(`/api/stories/${slug}`),
   outputs: () => get<Output[]>("/api/outputs"),
   schedule: () => get<Schedule>("/api/schedule"),
+  reschedule: async (slug: string, publish_at: string) => {
+    const r = await fetch(`/api/schedule/${slug}/reschedule`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ publish_at }),
+    });
+    if (!r.ok) throw new Error((await r.json().catch(() => ({}))).detail || r.statusText);
+    return r.json();
+  },
   match: (want: string, query: string, limit = 18) =>
     get<MatchResult[]>(
       `/api/match?want=${encodeURIComponent(want)}&query=${encodeURIComponent(query)}&limit=${limit}`,

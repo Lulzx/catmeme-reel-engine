@@ -121,6 +121,18 @@ export function Calendar() {
     else if (v.youtube_url) window.open(v.youtube_url, "_blank");
   };
 
+  const refresh = () => api.schedule().then(setData).catch(() => {});
+  const onReschedule = async (slug: string, day: Date) => {
+    const v = allVideos.find((x) => x.slug === slug);
+    if (!v || !v.publish_at) return;
+    const o = new Date(v.publish_at);
+    const nd = new Date(day.getFullYear(), day.getMonth(), day.getDate(), o.getHours(), o.getMinutes(), o.getSeconds());
+    if (sameDay(nd, o)) return;
+    if (nd.getTime() <= Date.now()) { alert("Drop onto a future day to reschedule."); return; }
+    try { await api.reschedule(slug, nd.toISOString()); await refresh(); }
+    catch (e) { alert("Reschedule failed: " + ((e as Error).message || e)); }
+  };
+
   if (!data) return <div className="grid place-items-center py-24"><Spinner /></div>;
 
   return (
@@ -161,7 +173,7 @@ export function Calendar() {
             <button onClick={() => setMonth((m) => new Date(m.getFullYear(), m.getMonth() + 1, 1))} className="grid place-items-center w-8 h-8 rounded-lg text-zinc-500 hover:bg-black/5 dark:hover:bg-white/5 transition" aria-label="Next month"><IconChevronRight className="w-5 h-5" /></button>
           </div>
         </div>
-        <MonthGrid month={month} byDay={byDay} onOpen={openVideo} />
+        <MonthGrid month={month} byDay={byDay} onOpen={openVideo} onReschedule={onReschedule} />
         <Legend />
       </div>
 
@@ -235,7 +247,11 @@ function StatCard({ label, value, accent, icon }: { label: string; value: number
   );
 }
 
-function MonthGrid({ month, byDay, onOpen }: { month: Date; byDay: Map<string, ScheduleVideo[]>; onOpen: (v: ScheduleVideo) => void }) {
+function MonthGrid({ month, byDay, onOpen, onReschedule }: {
+  month: Date; byDay: Map<string, ScheduleVideo[]>;
+  onOpen: (v: ScheduleVideo) => void; onReschedule: (slug: string, day: Date) => void;
+}) {
+  const [over, setOver] = useState<string | null>(null);
   const first = new Date(month.getFullYear(), month.getMonth(), 1);
   const days = new Date(month.getFullYear(), month.getMonth() + 1, 0).getDate();
   const lead = first.getDay();
@@ -253,20 +269,34 @@ function MonthGrid({ month, byDay, onOpen }: { month: Date; byDay: Map<string, S
       <div className="grid grid-cols-7 gap-1.5">
         {cells.map((d, i) => {
           if (!d) return <div key={i} className="rounded-xl bg-transparent" />;
-          const items = byDay.get(dayKey(d)) ?? [];
+          const key = dayKey(d);
+          const items = byDay.get(key) ?? [];
           const isToday = sameDay(d, today);
+          const isOver = over === key;
+          const past = d.getTime() < today.setHours(0, 0, 0, 0);
           return (
-            <div key={i} className={cn(
-              "min-h-[88px] rounded-xl border p-1.5 transition",
-              isToday ? "border-brand/50 bg-brand/[0.06]" : "border-black/5 dark:border-white/[0.06] bg-black/[0.015] dark:bg-white/[0.02]",
-            )}>
+            <div
+              key={i}
+              onDragOver={(e) => { if (!past) { e.preventDefault(); setOver(key); } }}
+              onDragLeave={() => setOver((o) => (o === key ? null : o))}
+              onDrop={(e) => { e.preventDefault(); setOver(null); const slug = e.dataTransfer.getData("text/plain"); if (slug && !past) onReschedule(slug, d); }}
+              className={cn(
+                "min-h-[88px] rounded-xl border p-1.5 transition",
+                isOver ? "border-brand ring-2 ring-brand/50 bg-brand/10"
+                  : isToday ? "border-brand/50 bg-brand/[0.06]"
+                  : "border-black/5 dark:border-white/[0.06] bg-black/[0.015] dark:bg-white/[0.02]",
+              )}
+            >
               <div className={cn("text-[11px] font-semibold mb-1 px-0.5", isToday ? "text-brand" : "text-zinc-400 dark:text-zinc-500")}>{d.getDate()}</div>
               <div className="space-y-1">
                 {items.slice(0, 3).map((v) => {
                   const s = STATUS[v.status];
+                  const drag = v.status === "scheduled";
                   return (
-                    <button key={v.slug} onClick={() => onOpen(v)} title={cleanTitle(v)}
-                      className={cn("w-full flex items-center gap-1 rounded-md px-1 py-0.5 text-left text-[10px] leading-tight transition hover:ring-1", s.chip, s.ring)}>
+                    <button key={v.slug} onClick={() => onOpen(v)} title={drag ? `${cleanTitle(v)} — drag to reschedule` : cleanTitle(v)}
+                      draggable={drag}
+                      onDragStart={(e) => { e.dataTransfer.setData("text/plain", v.slug); e.dataTransfer.effectAllowed = "move"; }}
+                      className={cn("w-full flex items-center gap-1 rounded-md px-1 py-0.5 text-left text-[10px] leading-tight transition hover:ring-1", drag && "cursor-grab active:cursor-grabbing", s.chip, s.ring)}>
                       <span className={cn("shrink-0 w-1.5 h-1.5 rounded-full", s.dot)} />
                       <span className="truncate">{cleanTitle(v)}</span>
                     </button>

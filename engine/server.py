@@ -22,8 +22,10 @@ Static media is served under /media/{frames,clips,output,scenes,posters}.
 import os, sys, json, subprocess, time
 
 ENGINE = os.path.dirname(os.path.abspath(__file__))
-if ENGINE not in sys.path:
-    sys.path.insert(0, ENGINE)
+REPO = os.path.dirname(ENGINE)
+for _p in (ENGINE, REPO):           # ENGINE for top-level imports, REPO for `engine.*`
+    if _p not in sys.path:
+        sys.path.insert(0, _p)
 
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import StreamingResponse, FileResponse, JSONResponse, Response
@@ -32,6 +34,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 import paths, match as M
 from paths import (CLIPS, BACKGROUNDS, STORIES, OUTPUT, FRAMES, WORK, CATALOG, DATA)
+from engine import db as DB, upload as UP
 
 paths.ensure()
 POSTERS = os.path.join(WORK, "posters")
@@ -216,6 +219,32 @@ def _dominant_place(slug):
         if pl:
             counts[pl] = counts.get(pl, 0) + 1
     return max(counts, key=counts.get) if counts else None
+
+@app.post("/api/schedule/{slug}/reschedule")
+async def api_reschedule(slug: str, request: Request):
+    """Move a scheduled reel to a new publish time (drag-to-reschedule).
+    Updates publishAt on YouTube + the DB, regenerates videos.json, git-syncs."""
+    body = await request.json()
+    pub = (body or {}).get("publish_at")
+    if not pub:
+        raise HTTPException(400, "publish_at (RFC3339) required")
+    con = DB.connect(); DB.init(con)
+    v = DB.get_video(con, slug)
+    if not v:
+        raise HTTPException(404, f"no video '{slug}'")
+    if v["status"] != "scheduled" or not v["video_id"]:
+        raise HTTPException(400, "only scheduled (not-yet-public) reels can be rescheduled")
+    try:
+        yt = UP.get_service()
+        yt.videos().update(part="status", body={"id": v["video_id"], "status": {
+            "privacyStatus": "private", "publishAt": pub, "selfDeclaredMadeForKids": False,
+        }}).execute()
+    except Exception as e:
+        raise HTTPException(502, f"YouTube update failed: {e}")
+    DB.set_fields(con, slug, publish_at=pub)
+    UP.render_md(con)                          # rewrites youtube.md + data/videos.json
+    UP.git_sync(f"chore: reschedule {slug} -> {pub}")
+    return {"ok": True, "slug": slug, "publish_at": pub}
 
 # --- matcher playground ------------------------------------------------------
 @app.get("/api/match")
