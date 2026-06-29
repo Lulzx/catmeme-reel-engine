@@ -1,0 +1,57 @@
+{
+  "title": "Storage Almost Full",
+  "output": "storage-almost-full.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: your phone says 'Storage Almost Full'",
+  "outro": "FOLLOW FOR PART 2",
+  "outro_cast": [ { "name": "", "want": ["dancing", "hype", "happy", "playful"], "size": 0.44 } ],
+  "beats": [
+    {
+      "action": "*the notification hits mid-photo, of course*",
+      "bg": { "img": "phone screen closeup dark desk night", "palette": "alarm" },
+      "cast": [ { "name": "ME", "want": ["alarmed", "shocked", "startled", "panicked"], "size": 0.5 } ]
+    },
+    {
+      "action": "ME: \"relax, I'll just delete a few things\"",
+      "bg": { "img": "person holding phone couch interior", "palette": "room" },
+      "cast": [ { "name": "ME", "want": ["confident", "smug", "nonchalant", "cool"], "size": 0.5 } ]
+    },
+    {
+      "action": "*opens camera roll: 14,000 screenshots*",
+      "bg": { "img": "phone gallery grid photos screen", "palette": "void" },
+      "cast": [ { "name": "ME", "want": ["stunned", "shocked", "speechless", "frozen"], "size": 0.5 } ]
+    },
+    {
+      "action": "*somehow every single one feels important*",
+      "bg": { "img": "person staring at phone closeup pensive", "palette": "brain" },
+      "cast": [ { "name": "ME", "want": ["conflicted", "pensive", "doubtful", "wondering"], "size": 0.48 } ]
+    },
+    {
+      "action": "ME: \"what if I need this receipt from 2021\"",
+      "bg": { "img": "person looking at phone worried interior", "palette": "room" },
+      "cast": [ { "name": "ME", "want": ["hopeful", "anxious", "uneasy", "nervous"], "size": 0.5 } ]
+    },
+    {
+      "action": "*deleted 4 photos. Freed: 8 MB.*",
+      "bg": { "img": "phone screen storage bar full closeup", "palette": "void" },
+      "cast": [ { "name": "ME", "want": ["deadpan", "done", "defeated", "exhausted"], "size": 0.5 } ]
+    },
+    {
+      "action": "*then THE button appears, smug as ever*",
+      "bg": { "img": "phone screen upgrade storage popup glow", "palette": "rage" },
+      "dur": 4.8,
+      "cast": [
+        { "name": "ME", "want": ["pleading", "begging", "desperate", "sad"], "size": 0.46, "pos": 0.3 },
+        { "name": "ICLOUD", "want": ["smug", "cocky", "self-satisfied", "haughty"], "size": 0.48, "pos": 0.7, "flip": true }
+      ]
+    },
+    {
+      "action": "*taps 'Buy 50GB'. back to square one.*",
+      "bg": { "img": "person on phone couch resigned interior", "palette": "room" },
+      "dur": 5.0,
+      "cast": [ { "name": "ME", "want": ["resigned", "defeated", "done", "tired"], "size": 0.5 } ]
+    }
+  ]
+}

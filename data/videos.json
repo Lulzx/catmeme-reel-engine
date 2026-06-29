@@ -1156,6 +1156,28 @@
       "posted": null,
       "publish_at": "2026-07-09T22:01:26Z",
       "video_id": "NxQK0beGbHw"
+    },
+    {
+      "slug": "storage-almost-full",
+      "sort_order": 54,
+      "pov": "POV: your phone says 'Storage Almost Full'",
+      "title": "POV: your phone says 'Storage Almost Full' 🐱 #shorts",
+      "description": "Deleted 4 photos. Freed 8 MB. Bought 50GB anyway.\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #phone #storage #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "phone",
+        "storage",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/storage-almost-full.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-10T04:01:26Z",
+      "video_id": "Iu_Uq7SYn-I"
     }
   ]
 }

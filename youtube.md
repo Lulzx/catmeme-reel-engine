@@ -66,6 +66,7 @@ Status: ✅ posted · 🕒 scheduled (auto-publishes later) · ⏳ queued (rende
 | 52 | barber-back-of-head | POV: your barber shows you the back of your head and you just nod | 🕒 scheduled | 2026-07-09T10:01:26Z | output/barber-back-of-head.mp4 |
 | 53 | group-chat-joke-ignored | POV: you tell a joke in the group chat and nobody reacts to it | 🕒 scheduled | 2026-07-09T16:01:26Z | output/group-chat-joke-ignored.mp4 |
 | 54 | bank-account-treat-yourself | POV: you check your bank account after a weekend of saying treat yourself | 🕒 scheduled | 2026-07-09T22:01:26Z | output/bank-account-treat-yourself.mp4 |
+| 55 | storage-almost-full | POV: your phone says 'Storage Almost Full' | 🕒 scheduled | 2026-07-10T04:01:26Z | output/storage-almost-full.mp4 |
 
 **Recommended next:** — all posted/scheduled —
 Upload it with `python -m engine.upload --next`.
@@ -667,3 +668,14 @@ Upload it with `python -m engine.upload --next`.
   #shorts #catmemes #pov #relatable #money #cats #funnycats #meme #fyp
   ```
 - **Tags:** cat memes, pov, money, relatable, funny cats, cat video, shorts
+
+### storage-almost-full 🕒
+- **Title:** POV: your phone says 'Storage Almost Full' 🐱 #shorts
+- **Description:**
+  ```
+  Deleted 4 photos. Freed 8 MB. Bought 50GB anyway.
+  
+  New cat POVs every few days 🐾
+  #shorts #catmemes #pov #relatable #phone #storage #cats #funnycats #meme #fyp
+  ```
+- **Tags:** cat memes, pov, phone, storage, relatable, funny cats, cat video, shorts
