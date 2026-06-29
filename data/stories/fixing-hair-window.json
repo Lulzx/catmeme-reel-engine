@@ -1,0 +1,58 @@
+{
+  "title": "Fixing Your Hair In A Window But People Are Inside",
+  "output": "fixing-hair-window.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you try to fix your hair in a window but people are inside",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 }
+  ],
+  "beats": [
+    {
+      "action": "*free mirror just dropped: the shop window*",
+      "bg": { "place": "shop" },
+      "cast": [ { "name": "ME", "want": ["smug", "confident", "fancy", "cool"], "size": 0.5 } ]
+    },
+    {
+      "action": "*fixing the hair, full concentration*",
+      "bg": { "place": "shop" },
+      "cast": [ { "name": "ME", "want": ["focused", "grooming", "fixated", "absorbed"], "size": 0.5 } ]
+    },
+    {
+      "action": "*adding the little model pose*",
+      "bg": { "place": "shop" },
+      "cast": [ { "name": "ME", "want": ["diva", "showing-off", "posh", "glam"], "size": 0.5 } ]
+    },
+    {
+      "action": "*...there are people sitting RIGHT there*",
+      "bg": { "place": "shop" },
+      "cast": [ { "name": "ME", "want": ["shocked", "startled", "stunned", "speechless"], "size": 0.5 } ]
+    },
+    {
+      "action": "*eye contact through the glass*",
+      "bg": { "place": "shop" },
+      "cast": [
+        { "name": "STRANGER", "want": ["staring", "judging", "unimpressed", "deadpan"], "size": 0.4, "pos": 0.30 },
+        { "name": "ME", "want": ["caught-off-guard", "humiliated", "embarrassed", "awkward"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*\"just checking the menu haha\"*",
+      "bg": { "place": "shop" },
+      "cast": [ { "name": "ME", "want": ["innocent", "awkward", "guilty", "nervous"], "size": 0.5 } ]
+    },
+    {
+      "action": "*speed-walk away forever*",
+      "bg": { "place": "shop" },
+      "cast": [ { "name": "ME", "want": ["embarrassed", "humiliated", "ashamed", "stiff"], "size": 0.5 } ]
+    },
+    {
+      "action": "*hair now worse than when I started*",
+      "bg": { "place": "shop" },
+      "cast": [ { "name": "ME", "want": ["defeated", "deadpan", "done", "resigned"], "size": 0.5 } ],
+      "dur": 6.0
+    }
+  ]
+}

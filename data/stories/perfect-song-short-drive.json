@@ -1,0 +1,58 @@
+{
+  "title": "Finding The Perfect Song To Drive Three Minutes Away",
+  "output": "perfect-song-short-drive.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you try to find the perfect song to drive three minutes away",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 }
+  ],
+  "beats": [
+    {
+      "action": "*3-minute drive. needs the PERFECT song.*",
+      "bg": { "place": "highway" },
+      "cast": [ { "name": "ME", "want": ["driving", "focused", "determined", "commuting"], "size": 0.5 } ]
+    },
+    {
+      "action": "*scrolling the entire library*",
+      "bg": { "place": "highway" },
+      "cast": [ { "name": "ME", "want": ["scrolling", "focused", "distracted", "absorbed"], "size": 0.5 } ]
+    },
+    {
+      "action": "*skip. skip. heard it. not the vibe.*",
+      "bg": { "place": "highway" },
+      "cast": [ { "name": "ME", "want": ["unimpressed", "skeptical", "dismissive", "picky"], "size": 0.5 } ]
+    },
+    {
+      "action": "*already halfway there. still searching.*",
+      "bg": { "place": "highway" },
+      "cast": [ { "name": "ME", "want": ["alarmed", "nervous", "frantic", "wide-eyed"], "size": 0.5 } ]
+    },
+    {
+      "action": "*THE one. finally. the anthem.*",
+      "bg": { "place": "highway" },
+      "cast": [ { "name": "ME", "want": ["hype", "excited", "celebrating", "vibing"], "size": 0.5 } ]
+    },
+    {
+      "action": "*press play exactly as I arrive*",
+      "bg": { "place": "highway" },
+      "cast": [
+        { "name": "ME", "want": ["hype", "vibing", "singing", "celebrating"], "size": 0.4, "pos": 0.30 },
+        { "name": "PASSENGER", "want": ["unimpressed", "judging", "deadpan", "unamused"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*song peaks. engine off.*",
+      "bg": { "place": "highway" },
+      "cast": [ { "name": "ME", "want": ["defeated", "deadpan", "resigned", "done"], "size": 0.5 } ]
+    },
+    {
+      "action": "*sitting in the parked car to finish it*",
+      "bg": { "place": "highway" },
+      "cast": [ { "name": "ME", "want": ["vibing", "content", "blissful", "chill"], "size": 0.5 } ],
+      "dur": 6.0
+    }
+  ]
+}

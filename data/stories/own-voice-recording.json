@@ -1,0 +1,167 @@
+{
+  "title": "You Hear Your Own Voice In A Recording For The First Time",
+  "output": "own-voice-recording.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you hear your own voice in a recording for the first time",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*hitting play on the voice memo*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "curious",
+            "innocent",
+            "relaxed",
+            "content"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"...I sound like THAT?\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "shocked",
+            "disbelief",
+            "startled",
+            "stunned"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*no. I do NOT sound like that.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "disgusted",
+            "grossed-out",
+            "disbelief",
+            "revulsion"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*playing it back, just to be sure*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "uneasy",
+            "skeptical",
+            "squinting",
+            "wary"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*every conversation, ruined forever*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "traumatized",
+            "distressed",
+            "heartbroken",
+            "dead-inside"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*me vs. the thing in the speaker*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "distressed",
+            "disgusted",
+            "betrayed",
+            "horrified"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "THE PHONE",
+          "want": [
+            "smug",
+            "talking",
+            "deadpan",
+            "self-satisfied"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*deleting it. deleting ALL of them.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "done",
+            "defeated",
+            "disgusted",
+            "fed-up"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

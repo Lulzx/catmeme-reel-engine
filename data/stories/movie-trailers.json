@@ -1,0 +1,167 @@
+{
+  "title": "You Try To Pick A Movie But Spend Two Hours On Trailers",
+  "output": "movie-trailers.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you try to choose a movie but spend two hours watching trailers",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*\"let's just pick something quick\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "relaxed",
+            "cozy",
+            "excited",
+            "content"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*trailer #1: ooh this looks good*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "interested",
+            "intrigued",
+            "curious",
+            "attentive"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*trailer #14: ooh THIS looks good*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "absorbed",
+            "fixated",
+            "focused",
+            "scrolling"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*somehow it has been two hours*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "tired",
+            "dazed",
+            "zoning-out",
+            "drained"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"there's literally nothing to watch\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "defeated",
+            "done",
+            "exhausted",
+            "fed-up"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*partner, still here, still waiting*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "exhausted",
+            "done",
+            "sheepish",
+            "awkward"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "PARTNER",
+          "want": [
+            "bored",
+            "unimpressed",
+            "fed-up",
+            "impatient"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*okay. we're just going to bed.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "sleepy",
+            "defeated",
+            "drowsy"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

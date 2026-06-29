@@ -1,0 +1,185 @@
+{
+  "title": "You Try To Act Casual After Walking The Wrong Way In Public",
+  "output": "walked-wrong-way.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you try to act casual after walking the wrong way in public",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*striding down the platform with full purpose*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "confident",
+            "determined",
+            "purposeful",
+            "bold"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*wait. this is the wrong way.*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "startled",
+            "alarmed",
+            "confused",
+            "blank"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the smooth, casual 180 turn*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "turning",
+            "awkward",
+            "flustered",
+            "stiff"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"just forgot something back there\"*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "carefree",
+            "aloof",
+            "cool",
+            "nonchalant"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the one stranger who watched the whole thing*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "humiliated",
+            "embarrassed",
+            "awkward",
+            "stiff"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "STRANGER",
+          "want": [
+            "side-eye",
+            "judging",
+            "unimpressed",
+            "smug"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*pretending to read a sign I've read 4 times*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "busy",
+            "distracted",
+            "awkward",
+            "flustered"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*walking back past the exact same people*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "ashamed",
+            "embarrassed",
+            "humiliated",
+            "awkward"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*a tourist in my own city now*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "defeated",
+            "deadpan",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

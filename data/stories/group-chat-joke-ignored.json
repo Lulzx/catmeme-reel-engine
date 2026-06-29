@@ -1,0 +1,185 @@
+{
+  "title": "You Tell A Joke In The Group Chat And Nobody Reacts To It",
+  "output": "group-chat-joke-ignored.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you tell a joke in the group chat and nobody reacts to it",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*typing the funniest thing ever sent*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "typing",
+            "mischievous",
+            "confident",
+            "excited"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*hit send, already laughing at myself*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "laughing",
+            "smug",
+            "proud",
+            "amused"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*now... we wait for the laughs*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "waiting",
+            "hopeful",
+            "expectant",
+            "anticipation"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"so anyway\" — someone changes the subject*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "startled",
+            "betrayed",
+            "disappointed",
+            "disbelief"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*me: still hopeful. them: not even looking*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "hopeful",
+            "pleading",
+            "awkward",
+            "betrayed"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "FRIEND",
+          "want": [
+            "scrolling",
+            "distracted",
+            "indifferent",
+            "dismissive"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*they replied... to the message ABOVE mine*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "betrayed",
+            "defeated",
+            "disbelief",
+            "sad"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*delete it? no. let it sit there forever.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "defeated",
+            "deadpan",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*for the record, I think it was funny*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "sulking",
+            "melancholy",
+            "sad",
+            "gloomy"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

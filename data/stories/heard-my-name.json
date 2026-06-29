@@ -1,0 +1,185 @@
+{
+  "title": "You Hear Someone Call Your Name In Public But It Isn'T You",
+  "output": "heard-my-name.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you hear someone call your name in public but it isn't you",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*on the platform, minding my business*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "bored",
+            "relaxed",
+            "waiting",
+            "chill"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"...SAM!\" somewhere behind me*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "alert",
+            "startled",
+            "wide-eyed",
+            "noticing"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*whipping around, full hope*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "hopeful",
+            "eager",
+            "looking-around",
+            "excited"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*already half-waving*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "waving",
+            "cheerful",
+            "greeting",
+            "eager"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*...the wave was for a different Sam*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "embarrassed",
+            "flustered",
+            "awkward",
+            "ashamed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*slowly lowering my hand*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "defeated",
+            "ashamed",
+            "awkward",
+            "downcast"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the real Sam, hugging someone who isn't me*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "STRANGER",
+          "want": [
+            "cheerful",
+            "greeting",
+            "happy",
+            "friendly"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "ME",
+          "want": [
+            "humiliated",
+            "awkward",
+            "glancing",
+            "embarrassed"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*my name isn't even Sam*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "dead-inside",
+            "done",
+            "embarrassed",
+            "resigned"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "title": "Accidentally Matching Your Outfit To The Restaurant Decor",
+  "output": "outfit-matches-decor.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you accidentally match your outfit to the restaurant decor",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 }
+  ],
+  "beats": [
+    {
+      "action": "*dressed up. feeling absolutely fabulous.*",
+      "bg": { "place": "restaurant" },
+      "cast": [ { "name": "ME", "want": ["confident", "fancy", "glam", "swagger"], "size": 0.5 } ]
+    },
+    {
+      "action": "*strut into the restaurant*",
+      "bg": { "place": "restaurant" },
+      "cast": [ { "name": "ME", "want": ["strutting", "cool", "posh", "showing-off"], "size": 0.5 } ]
+    },
+    {
+      "action": "*...the walls are my exact outfit*",
+      "bg": { "place": "restaurant" },
+      "cast": [ { "name": "ME", "want": ["shocked", "startled", "stunned", "speechless"], "size": 0.5 } ]
+    },
+    {
+      "action": "*I am now wallpaper*",
+      "bg": { "place": "restaurant" },
+      "cast": [ { "name": "ME", "want": ["deadpan", "blank", "stiff", "dead-inside"], "size": 0.5 } ]
+    },
+    {
+      "action": "*the waiter genuinely cannot find me*",
+      "bg": { "place": "restaurant" },
+      "cast": [
+        { "name": "WAITER", "want": ["looking-around", "puzzled", "investigating", "confused"], "size": 0.4, "pos": 0.30 },
+        { "name": "ME", "want": ["still", "stiff", "awkward", "blank"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*\"table for... one?\" sir I AM the table*",
+      "bg": { "place": "restaurant" },
+      "cast": [ { "name": "ME", "want": ["deadpan", "done", "embarrassed", "awkward"], "size": 0.5 } ]
+    },
+    {
+      "action": "*decide to just become the booth*",
+      "bg": { "place": "restaurant" },
+      "cast": [ { "name": "ME", "want": ["resigned", "blank", "still", "deadpan"], "size": 0.5 } ]
+    },
+    {
+      "action": "*live here now. I work here, apparently.*",
+      "bg": { "place": "restaurant" },
+      "cast": [ { "name": "ME", "want": ["dead-inside", "resigned", "deadpan", "done"], "size": 0.5 } ],
+      "dur": 6.0
+    }
+  ]
+}

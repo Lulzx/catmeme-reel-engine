@@ -1,0 +1,119 @@
+{
+  "title": "You See A Coworker In Public And Pretend You Didn't See Them",
+  "output": "coworker-in-public.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you see a coworker in public and pretend you didn't see them",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": ["cute", "dancing", "happy", "playful"],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*peaceful grocery run, off the clock*",
+      "bg": { "place": "shop" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["relaxed", "content", "chill", "carefree"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*wait... is that DEREK from accounting*",
+      "bg": { "place": "shop" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["noticing", "startled", "alarmed", "wide-eyed"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*do NOT make eye contact*",
+      "bg": { "place": "shop" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["wary", "cautious", "tense", "stiff"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*suddenly fascinated by canned soup*",
+      "bg": { "place": "shop" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["distracted", "fixated", "innocent", "absorbed"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*he's walking THIS way*",
+      "bg": { "place": "shop" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["nervous", "uneasy", "panicked", "frantic"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"ohh heyy! didn't even see you!\"*",
+      "bg": { "place": "shop" },
+      "cast": [
+        {
+          "name": "DEREK",
+          "want": ["cheerful", "friendly", "greeting", "chatty"],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "ME",
+          "want": ["awkward", "stiff", "flustered", "uneasy"],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*trapped in cereal-aisle small talk*",
+      "bg": { "place": "shop" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["trapped", "exhausted", "dead-inside", "done"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*we both clock in together in 8 hours*",
+      "bg": { "place": "shop" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["resigned", "done", "dead-inside", "exhausted"],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

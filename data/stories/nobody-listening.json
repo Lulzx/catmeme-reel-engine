@@ -1,0 +1,185 @@
+{
+  "title": "You Finish A Long Story And Nobody Was Listening",
+  "output": "nobody-listening.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you finish a long story only to realize nobody was actually listening",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*launching into my best story*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "chatty",
+            "excited",
+            "talking",
+            "animated"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"...and THEN she goes—\"*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "dramatic",
+            "theatrical",
+            "explaining",
+            "making-a-point"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*fully committed to the bit*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "performing",
+            "presenting",
+            "hype",
+            "confident"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the friend, eyes completely glazed*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "FRIEND",
+          "want": [
+            "zoning-out",
+            "spaced-out",
+            "checked-out",
+            "dazed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the other one mid-scroll*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "FRIEND 2",
+          "want": [
+            "scrolling",
+            "distracted",
+            "absorbed",
+            "phone-addiction"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"...so yeah. that's the story.\"*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "hopeful",
+            "expectant",
+            "asking",
+            "waiting"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"wait... what were you saying?\"*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "betrayed",
+            "done",
+            "deadpan",
+            "unamused"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "FRIEND",
+          "want": [
+            "clueless",
+            "blank",
+            "innocent",
+            "confused"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*I will simply never speak again*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "dead-inside",
+            "defeated",
+            "resigned",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

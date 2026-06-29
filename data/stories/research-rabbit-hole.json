@@ -1,0 +1,185 @@
+{
+  "title": "You Try To Be Productive And Research A Random Topic For 3 Hours",
+  "output": "research-rabbit-hole.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you try to be productive but spend three hours researching a random topic",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*sitting down to FINALLY be productive*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "determined",
+            "focused",
+            "productive",
+            "ready"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"I'll just google one quick thing\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "curious",
+            "focused",
+            "intrigued",
+            "wondering"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*...wait, how DO octopuses sleep?*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "interested",
+            "investigating",
+            "curious",
+            "intrigued"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*3 hours in. 47 tabs open.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "zoning-out",
+            "absorbed",
+            "dazed",
+            "fixated"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*I now know everything about octopuses*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "proud",
+            "smug",
+            "satisfied",
+            "self-satisfied"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the actual work: not started*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "done",
+            "defeated",
+            "dead-inside",
+            "resigned"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*me vs the deadline staring back*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "guilty",
+            "nervous",
+            "uneasy",
+            "awkward"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "DEADLINE",
+          "want": [
+            "looming",
+            "ominous",
+            "menacing",
+            "threatening"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*productivity: 0. octopus facts: 100.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "smug",
+            "proud",
+            "self-satisfied",
+            "satisfied"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

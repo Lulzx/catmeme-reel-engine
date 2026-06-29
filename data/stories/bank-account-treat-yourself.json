@@ -1,0 +1,185 @@
+{
+  "title": "You Check Your Bank Account After A Weekend Of Saying Treat Yourself",
+  "output": "bank-account-treat-yourself.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you check your bank account after a weekend of saying treat yourself",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*all weekend: \"you deserve it, treat yourself\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "confident",
+            "carefree",
+            "smug",
+            "hype"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*Monday: okay let's just peek at the balance*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "curious",
+            "nervous",
+            "hopeful",
+            "cautious"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*finger hovering over the banking app*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "nervous",
+            "tense",
+            "suspicious",
+            "uneasy"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*...that number can NOT be right*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "shocked",
+            "startled",
+            "alarmed",
+            "disbelief"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*weekend me vs the man he left behind*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "WEEKEND ME",
+          "want": [
+            "carefree",
+            "smug",
+            "confident",
+            "hype"
+          ],
+          "size": 0.4,
+          "pos": 0.30,
+          "flip": true
+        },
+        {
+          "name": "ME",
+          "want": [
+            "horrified",
+            "shocked",
+            "distressed",
+            "panicked"
+          ],
+          "size": 0.4,
+          "pos": 0.70
+        }
+      ]
+    },
+    {
+      "action": "*refreshing like it'll grow back*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "frantic",
+            "pleading",
+            "distressed",
+            "hopeful"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*guess I live in this exact spot now*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "defeated",
+            "resigned",
+            "deadpan",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"treat yourself\" was a financial trap*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "dead-inside",
+            "defeated",
+            "deadpan",
+            "resigned"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

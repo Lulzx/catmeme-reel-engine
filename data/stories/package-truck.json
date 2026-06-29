@@ -1,0 +1,119 @@
+{
+  "title": "You're Waiting For Your Package And Hear A Truck Drive Past",
+  "output": "package-truck.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you're waiting for your package and hear a truck drive past",
+  "outro": "FOLLOW IF YOU'VE BEEN THERE",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": ["cute", "dancing", "happy", "playful"],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*\"out for delivery\" since 8am*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["hopeful", "expectant", "waiting", "eager"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*refreshing the tracking. again.*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["scrolling", "phone-addiction", "fixated", "impatient"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*a truck!! I HEAR A TRUCK!!*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["excited", "alert", "hype", "wide-eyed"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*sprinting to the window*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["frantic", "eager", "energetic", "scrambling"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*...it drove right past*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["heartbroken", "downcast", "defeated", "disappointed"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the neighbor got THEIRS*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "NEIGHBOR",
+          "want": ["smug", "happy", "cheerful", "showing-off"],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "ME",
+          "want": ["jealous", "betrayed", "longing", "sulking"],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*back to the window. still waiting.*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["resigned", "melancholy", "downcast", "gloomy"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"delivery attempted: nobody home\"*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["furious", "rage", "disbelief", "done"],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

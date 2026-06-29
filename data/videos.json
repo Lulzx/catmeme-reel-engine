@@ -608,10 +608,10 @@
         "shorts"
       ],
       "file": "output/husband-curfew-6pm.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null
+      "publish_at": "2026-07-03T10:01:26Z",
+      "video_id": "Kj8-gHu2uis"
     },
     {
       "slug": "husband-30-more-minutes",
@@ -627,10 +627,535 @@
         "shorts"
       ],
       "file": "output/husband-30-more-minutes.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null
+      "publish_at": "2026-07-03T16:01:26Z",
+      "video_id": "LslOZqusMRg"
+    },
+    {
+      "slug": "liked-old-photo",
+      "sort_order": 29,
+      "pov": "POV: you accidentally liked a three year old photo while deep creeping someone",
+      "title": "POV: you accidentally liked a three year old photo while deep creeping someone 🐱 #shorts",
+      "description": "One thumb twitch and now you're faking your own death.\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #phone #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "phone",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/liked-old-photo.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-03T22:01:26Z",
+      "video_id": "Ni0LaFD-fUg"
+    },
+    {
+      "slug": "coworker-in-public",
+      "sort_order": 30,
+      "pov": "POV: you see a coworker in public and pretend you didn't see them",
+      "title": "POV: you see a coworker in public and pretend you didn't see them 🐱 #shorts",
+      "description": "We make eye contact for 40 hours a week, not on a Saturday.\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #work #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "work",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/coworker-in-public.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-04T04:01:26Z",
+      "video_id": "06OgUUfxItI"
+    },
+    {
+      "slug": "recipe-to-takeout",
+      "sort_order": 31,
+      "pov": "POV: you try to follow a recipe but end up ordering takeout instead",
+      "title": "POV: you try to follow a recipe but end up ordering takeout instead 🐱 #shorts",
+      "description": "I dirtied nine dishes to confidently order pad thai.\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #food #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "food",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/recipe-to-takeout.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-04T10:01:26Z",
+      "video_id": "wdyh0grMtYs"
+    },
+    {
+      "slug": "package-truck",
+      "sort_order": 32,
+      "pov": "POV: you're waiting for your package and hear a truck drive past",
+      "title": "POV: you're waiting for your package and hear a truck drive past 🐱 #shorts",
+      "description": "I have been at this window since 8am and you said nobody was home?\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #delivery #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "delivery",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/package-truck.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-04T16:01:26Z",
+      "video_id": "BELFD_WkX9Q"
+    },
+    {
+      "slug": "forgot-a-fork",
+      "sort_order": 33,
+      "pov": "POV: you finally sit down to eat and realize you forgot a fork",
+      "title": "POV: you finally sit down to eat and realize you forgot a fork 🐱 #shorts",
+      "description": "The couch had me. Then the fork betrayed me. Then the napkin.\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #food #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "food",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/forgot-a-fork.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-04T22:01:26Z",
+      "video_id": "yAMM7s6Tzyw"
+    },
+    {
+      "slug": "quick-sync",
+      "sort_order": 34,
+      "pov": "POV: your boss asks for a quick sync on a task you forgot",
+      "title": "POV: your boss asks for a quick sync on a task you forgot 🐱 #shorts",
+      "description": "\"Almost there!\" = I have not opened it once.\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #work #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "work",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/quick-sync.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-05T04:01:26Z",
+      "video_id": "Aw_kJ9vgeVI"
+    },
+    {
+      "slug": "forgot-why-here",
+      "sort_order": 35,
+      "pov": "POV: you enter a room and immediately forget why you're there",
+      "title": "POV: you enter a room and immediately forget why you're there 🐱 #shorts",
+      "description": "It'll come back the second I sit down. It always does.\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #memory #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "memory",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/forgot-why-here.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-05T10:01:26Z",
+      "video_id": "AiMmen6ncCw"
+    },
+    {
+      "slug": "zoom-camera-on",
+      "sort_order": 36,
+      "pov": "POV: you accidentally join a zoom meeting with your camera and mic on",
+      "title": "POV: you accidentally join a zoom meeting with your camera and mic on 🐱 #shorts",
+      "description": "There is no recovering from \"oh no everyone can see me.\"\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #work #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "work",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/zoom-camera-on.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-05T16:01:26Z",
+      "video_id": "iwk_V7P7h3E"
+    },
+    {
+      "slug": "own-voice-recording",
+      "sort_order": 37,
+      "pov": "POV: you hear your own voice in a recording for the first time",
+      "title": "POV: you hear your own voice in a recording for the first time 🐱 #shorts",
+      "description": "And now I have to live the rest of my life knowing that.\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #awkward #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "awkward",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/own-voice-recording.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-05T22:01:26Z",
+      "video_id": "yTt_sFw-WYE"
+    },
+    {
+      "slug": "movie-trailers",
+      "sort_order": 38,
+      "pov": "POV: you try to choose a movie but spend two hours watching trailers",
+      "title": "POV: you try to choose a movie but spend two hours watching trailers 🐱 #shorts",
+      "description": "Two hours of trailers and we're going to bed undefeated.\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #movies #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "movies",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/movie-trailers.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-06T04:01:26Z",
+      "video_id": "nMYvGYuL7Zw"
+    },
+    {
+      "slug": "nobody-listening",
+      "sort_order": 39,
+      "pov": "POV: you finish a long story only to realize nobody was actually listening",
+      "title": "POV: you finish a long story only to realize nobody was actually listening 🐱 #shorts",
+      "description": "You did NOT pour your soul into that story for a 'wait, what?' 😭\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #awkward #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "awkward",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/nobody-listening.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-06T10:01:26Z",
+      "video_id": "NHd4bQR2ZeM"
+    },
+    {
+      "slug": "customer-service-voice",
+      "sort_order": 40,
+      "pov": "POV: you accidentally use your customer service voice with your close friends",
+      "title": "POV: you accidentally use your customer service voice with your close friends 🐱 #shorts",
+      "description": "Why did I just tell my best friend to 'enjoy the rest of their meal' 💀\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #work #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "work",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/customer-service-voice.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-06T16:01:26Z",
+      "video_id": "YWppIv9xub4"
+    },
+    {
+      "slug": "heard-my-name",
+      "sort_order": 41,
+      "pov": "POV: you hear someone call your name in public but it isn't you",
+      "title": "POV: you hear someone call your name in public but it isn't you 🐱 #shorts",
+      "description": "The half-wave you can never take back 😭\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #awkward #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "awkward",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/heard-my-name.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-06T22:01:26Z",
+      "video_id": "CFMbxKXK93A"
+    },
+    {
+      "slug": "research-rabbit-hole",
+      "sort_order": 42,
+      "pov": "POV: you try to be productive but spend three hours researching a random topic",
+      "title": "POV: you try to be productive but spend three hours researching a random topic 🐱 #shorts",
+      "description": "I have a deadline but ask me anything about octopuses 🐙\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #productivity #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "productivity",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/research-rabbit-hole.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-07T04:01:26Z",
+      "video_id": "hrh04oKkyeY"
+    },
+    {
+      "slug": "google-then-instagram",
+      "sort_order": 43,
+      "pov": "POV: you unlock your phone to google something then check instagram instead",
+      "title": "POV: you unlock your phone to google something then check instagram instead 🐱 #shorts",
+      "description": "What did I even pick up this phone for 📱\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #phone #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "phone",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/google-then-instagram.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-07T10:01:26Z",
+      "video_id": "Y2GsCnIdhsc"
+    },
+    {
+      "slug": "fixing-hair-window",
+      "sort_order": 44,
+      "pov": "POV: you try to fix your hair in a window but people are inside",
+      "title": "POV: you try to fix your hair in a window but people are inside 🐱 #shorts",
+      "description": "The free mirror was a trap and now I owe that whole cafe an apology.\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #awkward #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "awkward",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/fixing-hair-window.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-07T16:01:26Z",
+      "video_id": "B39qApJBErg"
+    },
+    {
+      "slug": "neighbor-grocery-bags",
+      "sort_order": 45,
+      "pov": "POV: your neighbor starts a conversation while you're carrying heavy grocery bags",
+      "title": "POV: your neighbor talks to you while you hold heavy grocery bags 🐱 #shorts",
+      "description": "Set the bags down? No. We suffer in silence and we nod.\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #awkward #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "awkward",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/neighbor-grocery-bags.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-07T22:01:26Z",
+      "video_id": "Vw4Gb112ePc"
+    },
+    {
+      "slug": "perfect-song-short-drive",
+      "sort_order": 46,
+      "pov": "POV: you try to find the perfect song to drive three minutes away",
+      "title": "POV: finding the perfect song to drive three minutes away 🐱 #shorts",
+      "description": "Picked the anthem, pulled into the driveway, finished it in park like a true professional.\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #music #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "music",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/perfect-song-short-drive.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-08T04:01:26Z",
+      "video_id": "CWpHDhAVI0E"
+    },
+    {
+      "slug": "outfit-matches-decor",
+      "sort_order": 47,
+      "pov": "POV: you accidentally match your outfit to the restaurant decor",
+      "title": "POV: you accidentally match your outfit to the restaurant decor 🐱 #shorts",
+      "description": "Dressed to impress, achieved full camouflage, the waiter still can't find me.\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #awkward #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "awkward",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/outfit-matches-decor.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-08T10:01:26Z",
+      "video_id": "7Vt-L7_iIHE"
+    },
+    {
+      "slug": "post-workout-athlete",
+      "sort_order": 48,
+      "pov": "POV: you finish a workout and immediately feel like an elite professional athlete",
+      "title": "POV: you finish a workout and feel like an elite pro athlete 🐱 #shorts",
+      "description": "One set in and I'm signing autographs, sore for six business days.\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #gym #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "gym",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/post-workout-athlete.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-08T16:01:26Z",
+      "video_id": "qrPh71qFUm0"
+    },
+    {
+      "slug": "walked-wrong-way",
+      "sort_order": 49,
+      "pov": "POV: you try to act casual after walking the wrong way in public",
+      "title": "POV: you try to act casual after walking the wrong way in public 🐱 #shorts",
+      "description": "The casual 180 fools absolutely no one.\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #awkward #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "awkward",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/walked-wrong-way.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-08T22:01:26Z",
+      "video_id": "ZOxUrijd5s0"
+    },
+    {
+      "slug": "messy-sandwich-eye-contact",
+      "sort_order": 50,
+      "pov": "POV: you make eye contact with a stranger while eating a messy sandwich",
+      "title": "POV: you make eye contact with a stranger while eating a messy sandwich 🐱 #shorts",
+      "description": "Cheeks full, dignity empty, we just nod.\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #food #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "food",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/messy-sandwich-eye-contact.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-09T04:01:26Z",
+      "video_id": "kU-wA6PN8A8"
+    },
+    {
+      "slug": "barber-back-of-head",
+      "sort_order": 51,
+      "pov": "POV: your barber shows you the back of your head and you just nod",
+      "title": "POV: your barber shows you the back of your head and you just nod 🐱 #shorts",
+      "description": "Nodding at a head I have never once seen.\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #awkward #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "awkward",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/barber-back-of-head.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-09T10:01:26Z",
+      "video_id": "C1Jhgow1v1k"
+    },
+    {
+      "slug": "group-chat-joke-ignored",
+      "sort_order": 52,
+      "pov": "POV: you tell a joke in the group chat and nobody reacts to it",
+      "title": "POV: you tell a joke in the group chat and nobody reacts to it 🐱 #shorts",
+      "description": "For the record, it was a great joke.\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #phone #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "phone",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/group-chat-joke-ignored.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-09T16:01:26Z",
+      "video_id": "Ycm6x8tAlu0"
+    },
+    {
+      "slug": "bank-account-treat-yourself",
+      "sort_order": 53,
+      "pov": "POV: you check your bank account after a weekend of saying treat yourself",
+      "title": "POV: you check your bank account after a weekend of saying treat yourself 🐱 #shorts",
+      "description": "Treat yourself, then meet your overdraft.\n\nNew cat POVs every few days 🐾\n#shorts #catmemes #pov #relatable #money #cats #funnycats #meme #fyp",
+      "tags": [
+        "cat memes",
+        "pov",
+        "money",
+        "relatable",
+        "funny cats",
+        "cat video",
+        "shorts"
+      ],
+      "file": "output/bank-account-treat-yourself.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-09T22:01:26Z",
+      "video_id": "NxQK0beGbHw"
     }
   ]
 }

@@ -1,0 +1,185 @@
+{
+  "title": "You Accidentally Use Your Customer Service Voice On Friends",
+  "output": "customer-service-voice.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you accidentally use your customer service voice with your close friends",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*just vibing with my friends, normal me*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "relaxed",
+            "chill",
+            "cheerful",
+            "laid-back"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*friend: \"can you pass the salt?\"*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "FRIEND",
+          "want": [
+            "asking",
+            "expectant",
+            "casual",
+            "relaxed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"Of course! No problem at all!\"*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "peppy",
+            "cheerful",
+            "friendly",
+            "service"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the fake professional smile activates*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "smiling",
+            "stiff",
+            "performing",
+            "awkward"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"...did you just thank me for water?\"*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "FRIEND",
+          "want": [
+            "confused",
+            "skeptical",
+            "puzzled",
+            "unconvinced"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*I physically cannot turn it off*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "flustered",
+            "panicked",
+            "stiff",
+            "awkward"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"please, do have a seat\" — to my best friend*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "service",
+            "peppy",
+            "smiling",
+            "performing"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "FRIEND",
+          "want": [
+            "weirded-out",
+            "skeptical",
+            "uneasy",
+            "confused"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*\"...enjoy the rest of your meal\"*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "dead-inside",
+            "awkward",
+            "defeated",
+            "resigned"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

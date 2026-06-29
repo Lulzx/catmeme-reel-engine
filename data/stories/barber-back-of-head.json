@@ -1,0 +1,185 @@
+{
+  "title": "Your Barber Shows You The Back Of Your Head And You Just Nod",
+  "output": "barber-back-of-head.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: your barber shows you the back of your head and you just nod",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*the chair spins to face the big mirror*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "surprised",
+            "attentive",
+            "curious",
+            "alert"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*he raises the little mirror behind my head*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "watching",
+            "attentive",
+            "squinting",
+            "focused"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*I cannot evaluate the back of my own skull*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "confused",
+            "blank",
+            "puzzled",
+            "clueless"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*but the barber is waiting, proud*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "BARBER",
+          "want": [
+            "expectant",
+            "proud",
+            "presenting",
+            "hopeful"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*him: presenting. me: faking deep approval*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "approving",
+            "awkward",
+            "nonchalant",
+            "flustered"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "BARBER",
+          "want": [
+            "presenting",
+            "proud",
+            "expectant",
+            "smug"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*\"yeah... yeah, looks great\"*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "approving",
+            "nonchalant",
+            "awkward",
+            "smug"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*thumbs up at a head I have never seen*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "thumbs-up",
+            "approving",
+            "awkward",
+            "smug"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*I trust this stranger with my entire skull*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "deadpan",
+            "done",
+            "blank"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

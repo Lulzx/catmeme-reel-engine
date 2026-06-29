@@ -1,0 +1,124 @@
+{
+  "title": "You Accidentally Liked A Three Year Old Photo While Deep Creeping Someone",
+  "output": "liked-old-photo.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you accidentally liked a three year old photo while deep creeping someone",
+  "outro": "FOLLOW IF YOU'VE DONE THIS",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*3 years deep in their photos*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["nosy", "absorbed", "focused", "scrolling"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*one tap from total glory*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["confident", "cocky", "proud", "strutting"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the thumb slips*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["startled", "alarmed", "shocked", "panicked"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*❤️ Liked.*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["terrified", "speechless", "frozen", "stunned"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*unlike. UNLIKE. UNLIKE.*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["frantic", "scrambling", "frazzled", "flustered"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the notification already sent*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["defeated", "distressed", "traumatized", "dead-inside"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*them: \"...hey, you good?\"*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["humiliated", "embarrassed", "ashamed", "awkward"],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "CRUSH",
+          "want": ["smug", "knowing", "self-satisfied", "cocky"],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*deleting the app, the phone, myself*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["panicked", "frantic", "scrambling", "leaving"],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

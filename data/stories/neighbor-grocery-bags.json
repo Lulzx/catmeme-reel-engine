@@ -1,0 +1,58 @@
+{
+  "title": "Your Neighbor Starts A Conversation While You Hold Heavy Grocery Bags",
+  "output": "neighbor-grocery-bags.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: your neighbor starts a conversation while you're carrying heavy grocery bags",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 }
+  ],
+  "beats": [
+    {
+      "action": "*almost home. bags cutting off circulation*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["struggling", "exhausted", "hunched", "tense"], "size": 0.5 } ]
+    },
+    {
+      "action": "*\"oh hey!! you got a quick sec?\"*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "NEIGHBOR", "want": ["chatty", "cheerful", "friendly", "talking"], "size": 0.5 } ]
+    },
+    {
+      "action": "*sec one. the milk is winning.*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["impatient", "fed-up", "tense", "done"], "size": 0.5 } ]
+    },
+    {
+      "action": "*they are now describing the weather*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "NEIGHBOR", "want": ["yapping", "gossip", "chatty", "talking"], "size": 0.5 } ]
+    },
+    {
+      "action": "*fingers numb. still nodding politely.*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["dead-inside", "exhausted", "tolerating", "done"], "size": 0.5 } ]
+    },
+    {
+      "action": "*minute six and counting*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "NEIGHBOR", "want": ["yapping", "chatty", "smiling", "cheerful"], "size": 0.4, "pos": 0.30 },
+        { "name": "ME", "want": ["trapped", "dead-inside", "done", "exhausted"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*\"...anyway, how've YOU been?\"*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["speechless", "defeated", "dead-inside", "deadpan"], "size": 0.5 } ]
+    },
+    {
+      "action": "*the milk became yogurt*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["resigned", "done", "deadpan", "exhausted"], "size": 0.5 } ],
+      "dur": 6.0
+    }
+  ]
+}

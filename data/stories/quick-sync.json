@@ -1,0 +1,167 @@
+{
+  "title": "Your Boss Asks For A Quick Sync On A Task You Forgot",
+  "output": "quick-sync.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: your boss asks for a quick sync on a task you forgot",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*boss DMs: \"got 5 mins to sync?\"*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "relaxed",
+            "chill",
+            "carefree",
+            "confident"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the task I... definitely started*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "nervous",
+            "uneasy",
+            "flustered",
+            "guilty"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*opening 9 blank tabs in 3 seconds*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "frantic",
+            "panicked",
+            "scrambling",
+            "panic-work"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"so... where are we at?\"*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "blank",
+            "dead-inside",
+            "frozen",
+            "speechless"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"almost there honestly!\"*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "hopeful",
+            "nervous",
+            "awkward",
+            "flustered"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the boss isn't buying it*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "BOSS",
+          "want": [
+            "skeptical",
+            "unimpressed",
+            "judging",
+            "stern"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "ME",
+          "want": [
+            "guilty",
+            "nervous",
+            "awkward",
+            "stiff"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*\"I'll send an update by EOD\"*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "defeated",
+            "exhausted",
+            "done",
+            "dead-inside"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

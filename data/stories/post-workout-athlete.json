@@ -1,0 +1,58 @@
+{
+  "title": "Finishing A Workout And Feeling Like An Elite Pro Athlete",
+  "output": "post-workout-athlete.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you finish a workout and immediately feel like an elite professional athlete",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 }
+  ],
+  "beats": [
+    {
+      "action": "*finish the workout. one (1) whole set.*",
+      "bg": { "place": "gym" },
+      "cast": [ { "name": "ME", "want": ["exhausted", "tired", "proud", "drained"], "size": 0.5 } ]
+    },
+    {
+      "action": "*but in my head: ELITE ATHLETE*",
+      "bg": { "place": "gym" },
+      "cast": [ { "name": "ME", "want": ["confident", "proud", "swagger", "cool"], "size": 0.5 } ]
+    },
+    {
+      "action": "*strut past the treadmills like a champion*",
+      "bg": { "place": "gym" },
+      "cast": [ { "name": "ME", "want": ["strutting", "swagger", "cocky", "showing-off"], "size": 0.5 } ]
+    },
+    {
+      "action": "*the mirror flex. unprompted.*",
+      "bg": { "place": "gym" },
+      "cast": [ { "name": "ME", "want": ["smug", "showing-off", "confident", "fancy"], "size": 0.5 } ]
+    },
+    {
+      "action": "*the imaginary crowd goes WILD*",
+      "bg": { "place": "gym" },
+      "cast": [ { "name": "ME", "want": ["celebrating", "hype", "victory", "performing"], "size": 0.5 } ]
+    },
+    {
+      "action": "*the actual lifter waiting for my bench*",
+      "bg": { "place": "gym" },
+      "cast": [
+        { "name": "ME", "want": ["swagger", "showing-off", "cocky", "proud"], "size": 0.4, "pos": 0.30 },
+        { "name": "LIFTER", "want": ["unimpressed", "judging", "unamused", "deadpan"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*legs give out on the walk to the car*",
+      "bg": { "place": "gym" },
+      "cast": [ { "name": "ME", "want": ["exhausted", "limp", "defeated", "tired"], "size": 0.5 } ]
+    },
+    {
+      "action": "*sore for 6 business days*",
+      "bg": { "place": "gym" },
+      "cast": [ { "name": "ME", "want": ["dead-inside", "traumatized", "done", "deadpan"], "size": 0.5 } ],
+      "dur": 6.0
+    }
+  ]
+}

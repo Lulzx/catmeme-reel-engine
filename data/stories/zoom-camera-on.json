@@ -1,0 +1,167 @@
+{
+  "title": "You Join A Zoom Meeting With Your Camera And Mic On",
+  "output": "zoom-camera-on.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you accidentally join a zoom meeting with your camera and mic on",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*clicking the link, half asleep*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "sleepy",
+            "drowsy",
+            "tired",
+            "relaxed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"...wait, my camera is ON\"*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "shocked",
+            "alarmed",
+            "startled",
+            "wide-eyed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*and the mic. fully unmuted.*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "terrified",
+            "panicked",
+            "alarmed",
+            "freaking-out"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*frantically fixing my hair*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "frantic",
+            "flustered",
+            "scrambling",
+            "frazzled"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"...can everyone see me?\"*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "embarrassed",
+            "awkward",
+            "humiliated",
+            "ashamed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*all 12 coworkers, staring back*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "humiliated",
+            "embarrassed",
+            "stiff",
+            "awkward"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "TEAM",
+          "want": [
+            "judging",
+            "unimpressed",
+            "group",
+            "blank-stare"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*leaving meeting. moving to a new city.*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "frantic",
+            "panicked",
+            "freaking-out",
+            "screaming"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

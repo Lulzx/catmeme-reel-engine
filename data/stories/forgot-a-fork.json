@@ -1,0 +1,119 @@
+{
+  "title": "You Finally Sit Down To Eat And Realize You Forgot A Fork",
+  "output": "forgot-a-fork.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you finally sit down to eat and realize you forgot a fork",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": ["cute", "dancing", "happy", "playful"],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*plate loaded. show queued. perfection.*",
+      "bg": { "place": "kitchen" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["content", "blissful", "happy", "cozy"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*butt fully commits to the couch*",
+      "bg": { "place": "kitchen" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["relaxed", "comfy", "satisfied", "lounging"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*...where is my fork*",
+      "bg": { "place": "kitchen" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["confused", "blank", "startled", "puzzled"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the kitchen is now 4,000 miles away*",
+      "bg": { "place": "kitchen" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["defeated", "exhausted", "reluctant", "done"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*calculating if I can use my hands*",
+      "bg": { "place": "kitchen" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["pensive", "plotting", "scheming", "focused"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"...can you grab me a fork?\" \"no.\"*",
+      "bg": { "place": "kitchen" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["pleading", "begging", "hopeful", "needy"],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "ROOMMATE",
+          "want": ["deadpan", "dismissive", "unbothered", "lazy"],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*I rise. heroically. defeated.*",
+      "bg": { "place": "kitchen" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["exhausted", "resigned", "dramatic", "defeated"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*sit back down. forgot a napkin too.*",
+      "bg": { "place": "kitchen" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["done", "dead-inside", "defeated", "disbelief"],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

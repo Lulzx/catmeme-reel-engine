@@ -1,0 +1,185 @@
+{
+  "title": "You Unlock Your Phone To Google Something And Open Instagram Instead",
+  "output": "google-then-instagram.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you unlock your phone to google something then check instagram instead",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*\"wait, I need to google something\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "curious",
+            "determined",
+            "focused",
+            "purposeful"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*unlocking the phone with a mission*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "focused",
+            "purposeful",
+            "determined",
+            "tapping"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*thumb opens Instagram on autopilot*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "distracted",
+            "absorbed",
+            "scrolling",
+            "swiping"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*20 minutes of reels later...*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "zoning-out",
+            "absorbed",
+            "phone-addiction",
+            "dazed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"...what did I unlock this for?\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "confused",
+            "puzzled",
+            "blank",
+            "wondering"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*locking it. zero memory of the mission.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "defeated",
+            "done",
+            "blank"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*me vs my own traitor thumb*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "betrayed",
+            "done",
+            "unamused",
+            "glaring"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "THE THUMB",
+          "want": [
+            "sneaky",
+            "sly",
+            "smug",
+            "scheming"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*unlocks again. opens Instagram again.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "dead-inside",
+            "scrolling",
+            "absorbed",
+            "resigned"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

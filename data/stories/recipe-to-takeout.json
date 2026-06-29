@@ -1,0 +1,119 @@
+{
+  "title": "You Try To Follow A Recipe But End Up Ordering Takeout Instead",
+  "output": "recipe-to-takeout.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you try to follow a recipe but end up ordering takeout instead",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": ["cute", "dancing", "happy", "playful"],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*today, I become a chef*",
+      "bg": { "place": "kitchen" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["confident", "determined", "eager", "excited"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*step 1: \"mince three cloves\"*",
+      "bg": { "place": "kitchen" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["focused", "busy", "working", "attentive"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*what in god's name is a roux*",
+      "bg": { "place": "kitchen" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["confused", "puzzled", "clueless", "bewildered"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the kitchen is now on fire*",
+      "bg": { "place": "kitchen" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["frantic", "scrambling", "panicked", "freaking-out"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*9 dishes dirty. 0 food made.*",
+      "bg": { "place": "kitchen" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["defeated", "exhausted", "done", "tired"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the recipe vs. my phone*",
+      "bg": { "place": "kitchen" },
+      "cast": [
+        {
+          "name": "RECIPE",
+          "want": ["stern", "judging", "displeased", "demanding"],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "ME",
+          "want": ["tempted", "guilty", "sly", "sneaky"],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*\"...yeah, one large pad thai\"*",
+      "bg": { "place": "kitchen" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["satisfied", "guilty", "soothed", "content"],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the recipe never stood a chance*",
+      "bg": { "place": "kitchen" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": ["smug", "content", "satisfied", "blissful"],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

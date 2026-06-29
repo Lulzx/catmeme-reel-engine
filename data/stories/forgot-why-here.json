@@ -1,0 +1,167 @@
+{
+  "title": "You Enter A Room And Immediately Forget Why You're There",
+  "output": "forgot-why-here.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you enter a room and immediately forget why you're there",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*marching in with a clear PURPOSE*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "determined",
+            "purposeful",
+            "confident",
+            "focused"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*...wait. why am I in here.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "confused",
+            "blank",
+            "puzzled",
+            "huh"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*retracing every step I just took*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "pensive",
+            "wondering",
+            "questioning",
+            "thinking"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*standing in the doorway, buffering*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "vacant",
+            "dazed",
+            "blank-stare",
+            "zoning-out"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*checking my own hands for clues*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "clueless",
+            "looking-around",
+            "puzzled",
+            "lost"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*me, begging my brain to help*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "pleading",
+            "begging",
+            "distressed",
+            "desperate"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "BRAIN",
+          "want": [
+            "deadpan",
+            "blank-stare",
+            "unbothered",
+            "checked-out"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*walking back to the couch. it'll come.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "defeated",
+            "done",
+            "exhausted"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}
