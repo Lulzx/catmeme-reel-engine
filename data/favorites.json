@@ -1,0 +1,6 @@
+{
+  "_comment": "Clips the matcher should FAVOR — id -> positive score bonus, applied in engine/match.py. Counteracts the cross-video diversity penalty (penalty=-1.5) so a recurring mascot keeps getting picked whenever it's a reasonable match. Tune the number up to make it dominate more, down for subtler. Mirror of blocklist.json.",
+  "favored": {
+    "182": 1.6
+  }
+}

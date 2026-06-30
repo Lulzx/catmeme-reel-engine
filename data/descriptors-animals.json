@@ -3048,5 +3048,67 @@
       "content",
       "bored"
     ]
+  },
+  "182": {
+    "primary": "carefree yapping song",
+    "emotions": [
+      "yapping",
+      "singing",
+      "yap-yap-yap",
+      "talking-nonstop",
+      "blabbering",
+      "carefree",
+      "goofy",
+      "vibing",
+      "performing",
+      "oblivious",
+      "chatty",
+      "cocky",
+      "hyping",
+      "meme-song",
+      "mouthing-off",
+      "narrating"
+    ],
+    "action": "ginger cat bobs its head with eyes squeezed shut, mouth opening and closing as it 'sings' the looping yapapa tune",
+    "sound": "the catchy 'yapapa' meme song — rhythmic sing-song meowing",
+    "use_for": "yapping on and on, singing a dumb little song, carefree vibing, comedic narration, talking nonstop without a care, being blissfully oblivious, hyping a moment up, a recurring mascot beat",
+    "quality": "good",
+    "note": "single seamless 8s loop extracted from a 7x-repeated template (intro text card + repeats stripped); starts/ends in silence so it loops cleanly",
+    "tax": [
+      "playful",
+      "happy",
+      "content",
+      "excited",
+      "relaxed",
+      "mischievous"
+    ]
+  },
+  "183": {
+    "primary": "tiny smug meow",
+    "emotions": [
+      "meowing",
+      "talking",
+      "tiny",
+      "little-guy",
+      "cute",
+      "smug",
+      "cheeky",
+      "piping-up",
+      "chiming-in",
+      "baby-cat",
+      "small-voice",
+      "interjecting"
+    ],
+    "action": "small gray-and-white kitten sits and opens its mouth in a little smug meow",
+    "sound": "a tiny high kitten meow",
+    "use_for": "a small voice piping up, a cheeky little interjection, the little guy speaking up, an adorable tiny protest, a baby-cat reaction",
+    "quality": "ok",
+    "note": "vertical 720x1280; soft/low-res, small subject",
+    "tax": [
+      "playful",
+      "curious",
+      "mischievous",
+      "content"
+    ]
   }
 }

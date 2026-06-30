@@ -23,7 +23,19 @@ def load_blocklist():
     except FileNotFoundError:
         return set()
 
+def load_favored():
+    """Clip IDs to softly PREFER: id -> score bonus. Counteracts the cross-video
+    diversity `penalty` so a recurring mascot (e.g. the yapapa cat #182) keeps
+    winning whenever it's a reasonable match. Mirror of the blocklist."""
+    p = os.path.join(DATA, "favorites.json")
+    try:
+        with open(p) as f:
+            return {k: float(v) for k, v in json.load(f).get("favored", {}).items()}
+    except FileNotFoundError:
+        return {}
+
 BLOCKED = load_blocklist()
+FAVORED = load_favored()
 
 _WORD = re.compile(r"[a-z0-9']+")
 def toks(s):
@@ -62,7 +74,9 @@ def match(want, query="", catalog=None, exclude=None, orientation=None,
     (used by OTHER videos) — they score `penalty` lower so unused clips win when
     quality is comparable, but a strong match still beats a weak unused clip.
     Keeps the channel diverse WITHOUT digging into broken/low-quality clips once
-    the good ones are spent."""
+    the good ones are spent. Clips in data/favorites.json get a positive bonus
+    (loaded into FAVORED) so a recurring mascot keeps winning relevant beats even
+    after it's been used elsewhere — it offsets `penalty`."""
     catalog = catalog or load_catalog()
     exclude = set(exclude or []) | BLOCKED
     penalize = set(penalize or [])
@@ -75,6 +89,8 @@ def match(want, query="", catalog=None, exclude=None, orientation=None,
             sc -= 0.5
         if c["id"] in penalize:
             sc += penalty
+        if c["id"] in FAVORED:              # mascot boost — survives the diversity penalty
+            sc += FAVORED[c["id"]]
         ranked.append((sc, c, matched))
     ranked.sort(key=lambda r: r[0], reverse=True)
     return ranked
