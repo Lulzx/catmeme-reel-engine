@@ -1,0 +1,58 @@
+{
+  "title": "You Rehearsed Your Intro And Still Blanked On Your Own Name",
+  "output": "forgot-own-name-intro.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you rehearsed your intro and still blanked on your own name",
+  "outro": "FOLLOW FOR DAILY POVS",
+  "outro_cast": [
+    { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 }
+  ],
+  "beats": [
+    {
+      "action": "*intros going around the circle. 4 people until me*",
+      "bg": { "place": "office" },
+      "cast": [ { "name": "ME", "want": ["nervous", "waiting", "anxious", "tense"], "size": 0.5 } ]
+    },
+    {
+      "action": "*rehearsing name + role + fun fact on loop*",
+      "bg": { "place": "office" },
+      "cast": [ { "name": "ME", "want": ["focused", "muttering", "concentrating", "serious"], "size": 0.5 } ]
+    },
+    {
+      "action": "*3 people... 2... 1... oh no*",
+      "bg": { "place": "office" },
+      "cast": [ { "name": "ME", "want": ["panicked", "dreading", "terrified", "sweating"], "size": 0.5 } ]
+    },
+    {
+      "action": "*\"and you are?\" — total whiteout*",
+      "bg": { "place": "office" },
+      "cast": [ { "name": "ME", "want": ["blank", "frozen", "shocked", "stunned"], "size": 0.5 } ]
+    },
+    {
+      "action": "*fun fact FIRST, name last, role never*",
+      "bg": { "place": "office" },
+      "cast": [
+        { "name": "ME", "want": ["flustered", "awkward", "embarrassed", "rambling"], "size": 0.4, "pos": 0.30 },
+        { "name": "MANAGER", "want": ["polite", "expectant", "curious", "attentive"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*brain spiraling mid-sentence*",
+      "bg": { "place": "office" },
+      "cast": [ { "name": "ME", "want": ["spinning", "brainrot", "short-circuit", "dizzy"], "size": 0.5 } ]
+    },
+    {
+      "action": "*tiny voice: \"your name's on the screen\"*",
+      "bg": { "place": "office" },
+      "cast": [ { "name": "COWORKER", "want": ["tiny", "piping-up", "small-voice", "interjecting"], "size": 0.5 } ]
+    },
+    {
+      "action": "*everyone claps supportively. worse than laughter*",
+      "bg": { "place": "office" },
+      "cast": [ { "name": "ME", "want": ["mortified", "defeated", "cringing", "done"], "size": 0.5 } ],
+      "dur": 6.0
+    }
+  ]
+}

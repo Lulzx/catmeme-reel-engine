@@ -1,0 +1,55 @@
+{
+  "title": "Your Sunday Screen Time Report Just Arrived",
+  "output": "screen-time-sunday.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: your Sunday screen time report just arrived",
+  "outro": "FOLLOW FOR MORE CHAOS",
+  "outro_cast": [
+    { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 }
+  ],
+  "beats": [
+    {
+      "action": "*peaceful sunday morning. pure serenity.*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["content", "relaxed", "cozy", "peaceful"], "size": 0.5 } ]
+    },
+    {
+      "action": "*ping — \"your weekly screen time is ready\"*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["curious", "alert", "looking", "intrigued"], "size": 0.5 } ]
+    },
+    {
+      "action": "*\"the phone counts it wrong. obviously.\"*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["skeptical", "dismissive", "unimpressed", "defensive"], "size": 0.5 } ]
+    },
+    {
+      "action": "*opening it. the number keeps climbing.*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["nervous", "worried", "anxious", "uneasy"], "size": 0.5 } ]
+    },
+    {
+      "action": "*me scrolling. in bed. on the couch. in the shower?*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["guilty", "sheepish", "caught", "exposed"], "size": 0.5 } ]
+    },
+    {
+      "action": "*\"9h 42m daily average\"*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["shocked", "horrified", "stunned", "disbelief"], "size": 0.5 } ]
+    },
+    {
+      "action": "*brain fully short-circuits*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["spinning", "brainrot", "short-circuit", "dizzy"], "size": 0.5 } ]
+    },
+    {
+      "action": "*opens the phone to post about it.*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["resigned", "deadpan", "defeated", "sheepish"], "size": 0.5 } ],
+      "dur": 6.0
+    }
+  ]
+}

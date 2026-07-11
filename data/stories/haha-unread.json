@@ -1,0 +1,50 @@
+{
+  "title": "Replying 'Haha' To A Message You Never Read",
+  "output": "haha-unread.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: replying 'haha' to a message you never read",
+  "outro": "FOLLOW FOR MORE CHAOS",
+  "outro_cast": [
+    { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 }
+  ],
+  "beats": [
+    {
+      "action": "*notification mid-scroll. thumbs \"haha\" on autopilot.*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["distracted", "careless", "scrolling", "casual"], "size": 0.5 } ]
+    },
+    {
+      "action": "*back to my life. zero thoughts.*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["chill", "relaxed", "lazy", "lounging"], "size": 0.5 } ]
+    },
+    {
+      "action": "*reply: \"why is that funny??\"*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["confused", "startled", "alert", "uneasy"], "size": 0.5 } ]
+    },
+    {
+      "action": "*panic scroll-up to actually read it*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["panicked", "dread", "scrambling", "worried"], "size": 0.5 } ]
+    },
+    {
+      "action": "*it said \"my plant died\" ...I said haha.*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["horrified", "guilty", "mortified", "shocked"], "size": 0.5 } ]
+    },
+    {
+      "action": "*brain short-circuits drafting an apology*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["spinning", "short-circuit", "panicked", "brainrot"], "size": 0.5 } ]
+    },
+    {
+      "action": "*\"haha sorry wrong chat\" — sends to wrong chat.*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["defeated", "deadpan", "doomed", "resigned"], "size": 0.5 } ],
+      "dur": 6.0
+    }
+  ]
+}

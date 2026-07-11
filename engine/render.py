@@ -329,7 +329,7 @@ def render(story_path, seed_used=None):
 
     # cross-video set (soft): clips other videos used — discouraged, not banned.
     cross_used=seed_used if seed_used is not None else []
-    story_used=[]; beat_files=[]   # within THIS video: hard no-repeat
+    story_used=[]; beat_files=[]; encode_jobs=[]   # within THIS video: hard no-repeat
     for i,beat in enumerate(beats):
         cast=beat.get("cast",[])
         # resolve each character's clip
@@ -402,10 +402,18 @@ def render(story_path, seed_used=None):
         cmd+=["-map","[a]"] if clips else ["-map",f"{ov_idx+1}:a"]
         cmd+=["-r",str(FPS),"-c:v","libx264","-preset","veryfast","-crf","20",
               "-pix_fmt","yuv420p","-c:a","aac","-ar","48000","-ac","2","-shortest",out]
-        run(cmd)
+        encode_jobs.append(cmd)
         beat_files.append(out)
         names="+".join(c.get("name","?") for c in cast) or "card"
         print(f"  beat {i:02d}  {dur:4.1f}s  [{','.join(cl['id'] for cl in clips) or '-'}]  {names:20s} {beat.get('action','')[:40]}")
+
+    # encode all beats concurrently — matching/layout above is sequential (order
+    # matters for clip diversity), but the ffmpeg encodes are independent and
+    # dominate wall-clock. RENDER_JOBS caps the pool (default: half the cores).
+    jobs=int(os.environ.get("RENDER_JOBS",0)) or max(2,(os.cpu_count() or 4)//2)
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=jobs) as ex:
+        list(ex.map(run,encode_jobs))
 
     # concat
     listf=os.path.join(OUT,"concat.txt")

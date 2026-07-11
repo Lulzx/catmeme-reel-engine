@@ -1,0 +1,65 @@
+{
+  "title": "You Checked Your Form Once And Got Caught Mid-Flex",
+  "output": "gym-mirror-flex.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you checked your form once and got caught mid-flex",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 }
+  ],
+  "beats": [
+    {
+      "action": "*just here to work out. all business. very normal.*",
+      "bg": { "place": "gym" },
+      "cast": [
+        { "name": "ME", "want": ["determined", "strutting", "confident", "working"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*one innocent glance at the mirror. for form.*",
+      "bg": { "place": "gym" },
+      "cast": [
+        { "name": "ME", "want": ["checking", "curious", "focused", "watching"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*okay... maybe one tiny flex*",
+      "bg": { "place": "gym" },
+      "cast": [
+        { "name": "ME", "want": ["smug", "confident", "flirty", "proud"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*full photoshoot mode. no witnesses. i hope.*",
+      "bg": { "place": "gym" },
+      "cast": [
+        { "name": "ME", "want": ["smug", "rizz", "cocky", "proud"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*the TRAINER. arms folded. watching the whole thing.*",
+      "bg": { "place": "gym" },
+      "cast": [
+        { "name": "ME", "want": ["startled", "embarrassed", "flustered", "caught-off-guard"], "size": 0.4, "pos": 0.30 },
+        { "name": "TRAINER", "want": ["unimpressed", "judging", "deadpan", "stern"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*a tiny voice: \"nice pump, bro\"*",
+      "bg": { "place": "gym" },
+      "cast": [
+        { "name": "TRAINER", "want": ["tiny", "piping-up", "small-voice", "squeaking"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*doing cardio in the corner. in shame.*",
+      "bg": { "place": "gym" },
+      "cast": [
+        { "name": "ME", "want": ["defeated", "broken", "done", "deadpan"], "size": 0.5 }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

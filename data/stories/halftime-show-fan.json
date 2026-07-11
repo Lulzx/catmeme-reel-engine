@@ -1,0 +1,185 @@
+{
+  "title": "You Came For The Halftime Show, Not The Match",
+  "output": "halftime-show-fan.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you came for the halftime show, not the match",
+  "outro": "FOLLOW FOR DAILY POVS",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*everyone hyped for the football. me: the setlist.*",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "excited",
+            "eager",
+            "hyped",
+            "anticipation"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*first half: polite claps, mostly on my phone*",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "bored",
+            "distracted",
+            "indifferent",
+            "waiting"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"any goals yet?\" — no idea, don't care*",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "clueless",
+            "indifferent",
+            "distracted",
+            "casual"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*HALFTIME HITS. the transformation begins.*",
+      "bg": {
+        "place": "stage"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "excited",
+            "thrilled",
+            "hyped",
+            "electric"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*full concert mode. every single word.*",
+      "bg": {
+        "place": "stage"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "singing",
+            "performing",
+            "yapping",
+            "vibing"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*FRIEND horrified at the enthusiasm asymmetry*",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "singing",
+            "performing",
+            "ecstatic",
+            "belting"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "ARJUN",
+          "want": [
+            "horrified",
+            "confused",
+            "startled",
+            "unimpressed"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*show ends. I'm out before the second half.*",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "content",
+            "satisfied",
+            "pleased",
+            "casual"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"great match everyone\"*",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "smug",
+            "content",
+            "deadpan",
+            "satisfied"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

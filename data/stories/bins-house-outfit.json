@@ -1,0 +1,65 @@
+{
+  "title": "The Neighbor Caught You Taking Out The Trash In Your House Outfit",
+  "output": "bins-house-outfit.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the neighbor caught you taking out the trash in your house outfit",
+  "outro": "FOLLOW FOR MORE CHAOS",
+  "outro_cast": [
+    { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 }
+  ],
+  "beats": [
+    {
+      "action": "*10pm. coast is clear. deploying the gremlin outfit.*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["sneaky", "mischievous", "plotting", "confident"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*socks, one croc, a robe from 2019*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["sneaky", "creeping", "cautious", "tiptoe"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*just the bins. in and out. nobody sees me.*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["sneaky", "creeping", "watching", "cautious"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*the NEIGHBOR. perfect hair. \"lovely evening!\"*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["startled", "caught-off-guard", "mortified", "flustered"], "size": 0.4, "pos": 0.30 },
+        { "name": "NEIGHBOR", "want": ["cheery", "friendly", "waving", "cheerful"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*clutching the trash bag like a shield*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["awkward", "embarrassed", "flustered", "nervous"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*their polite little chuckle. i will remember it forever.*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "NEIGHBOR", "want": ["laughing", "amused", "giggling", "mocking"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*sprinting back inside. new trauma unlocked.*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["scared", "fleeing", "panicked", "spooked"], "size": 0.5 }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

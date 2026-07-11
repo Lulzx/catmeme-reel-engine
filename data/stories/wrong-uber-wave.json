@@ -1,0 +1,53 @@
+{
+  "title": "You Waved At An Uber That Wasn't Yours",
+  "output": "wrong-uber-wave.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you waved at an Uber that wasn't yours",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 }
+  ],
+  "beats": [
+    {
+      "action": "*phone: \"Raj — white Swift — 1 min\"*",
+      "bg": { "place": "station" },
+      "cast": [ { "name": "ME", "want": ["waiting", "expectant", "scanning", "ready"], "size": 0.5 } ]
+    },
+    {
+      "action": "*a white car! confident wave. little jog even.*",
+      "bg": { "place": "station" },
+      "cast": [ { "name": "ME", "want": ["excited", "confident", "waving", "eager"], "size": 0.5 } ]
+    },
+    {
+      "action": "*the driver just stares. a stranger gets in.*",
+      "bg": { "place": "station" },
+      "cast": [
+        { "name": "ME", "want": ["frozen", "confused", "mid-wave", "dawning-horror"], "size": 0.4, "pos": 0.30 },
+        { "name": "DRIVER", "want": ["staring", "blank", "confused", "judging"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*me: still waving. at nothing.*",
+      "bg": { "place": "station" },
+      "cast": [ { "name": "ME", "want": ["awkward", "embarrassed", "frozen", "stuck"], "size": 0.5 } ]
+    },
+    {
+      "action": "*a bystander is laughing at me*",
+      "bg": { "place": "station" },
+      "cast": [ { "name": "BYSTANDER", "want": ["laughing", "mocking", "amused", "giggling"], "size": 0.5 } ]
+    },
+    {
+      "action": "*playing it cool — \"just stretching.\"*",
+      "bg": { "place": "station" },
+      "cast": [ { "name": "ME", "want": ["pretending", "casual", "sheepish", "covering"], "size": 0.5 } ]
+    },
+    {
+      "action": "*checks phone. my actual Uber cancelled.*",
+      "bg": { "place": "station" },
+      "cast": [ { "name": "ME", "want": ["defeated", "deadpan", "betrayed", "done"], "size": 0.5 } ],
+      "dur": 6.0
+    }
+  ]
+}

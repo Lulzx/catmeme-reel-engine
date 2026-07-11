@@ -1,0 +1,184 @@
+{
+  "title": "Someone Microwaved Fish And The Whole Floor Knows",
+  "output": "microwaved-fish-floor.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: someone microwaved fish and the whole floor knows",
+  "outro": "FOLLOW FOR MORE CHAOS",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*normal tuesday. then one nostril twitches.*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "suspicious",
+            "alert",
+            "startled",
+            "uneasy"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the scent arrives. it is... seafood.*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "confused",
+            "uneasy",
+            "wary",
+            "frowning"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*coworkers pop up like meerkats, tracing it*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "alert",
+            "searching",
+            "curious",
+            "alarmed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the trail leads to the microwave*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "dreading",
+            "cautious",
+            "nervous",
+            "wary"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*it's DAVE. mid-bite. no shame: \"want some?\"*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "horrified",
+            "stunned",
+            "betrayed",
+            "recoiling"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "DAVE",
+          "want": [
+            "smug",
+            "calm",
+            "unbothered",
+            "pleased"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*me, gagging into my sleeve*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "disgust",
+            "gagging",
+            "grossed-out"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the whole floor evacuates to the stairwell*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "overwhelmed",
+            "fleeing",
+            "done",
+            "defeated"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*and DAVE? promoted that week. muhehehe.*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "DAVE",
+          "want": [
+            "gloating",
+            "evil-laugh",
+            "smug",
+            "scheming"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

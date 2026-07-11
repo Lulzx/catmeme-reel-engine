@@ -1,0 +1,172 @@
+{
+  "title": "One More Episode — It Is Now 3am",
+  "output": "one-more-episode-3am.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: 'one more episode' — it is now 3am",
+  "outro": "FOLLOW FOR MORE CHAOS",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*11pm. \"just one more.\" responsible tomorrow-me.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "cozy",
+            "content",
+            "relaxed",
+            "confident"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"next episode in 5\" — 5 seconds is not consent*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "startled",
+            "helpless",
+            "resigned",
+            "trapped"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*cliffhanger. AGAIN. how dare they.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "shocked",
+            "hooked",
+            "gasping",
+            "disbelief"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*just this one to see what happens*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "tired",
+            "glazed",
+            "determined",
+            "hooked"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*3am. \"are you still watching?\" — offended.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "offended",
+            "indignant",
+            "glazed",
+            "deadpan"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*eyes glazed, soul buffering*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "spinning",
+            "brainrot",
+            "short-circuit",
+            "dizzy"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*alarm in 3 hours. no thoughts.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "sleepy",
+            "exhausted",
+            "drained",
+            "numb"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*starts \"the last one\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "deadpan",
+            "done",
+            "defeated"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

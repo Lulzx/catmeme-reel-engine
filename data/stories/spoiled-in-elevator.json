@@ -1,0 +1,185 @@
+{
+  "title": "The Finale Got Spoiled In The Elevator Before You Got Home",
+  "output": "spoiled-in-elevator.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the finale got spoiled in the elevator before you got home",
+  "outro": "FOLLOW FOR MORE CHAOS",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*finale night. dodged the internet ALL DAY like a monk*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "focused",
+            "determined",
+            "vigilant",
+            "proud"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*muted every keyword. fled the lunch table. survived*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "sneaky",
+            "cautious",
+            "relieved",
+            "smug"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*6pm. one elevator ride left between me and home*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "hopeful",
+            "relieved",
+            "content",
+            "calm"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*STRANGER: \"can't believe they KILLED him off\"*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "horrified",
+            "betrayed",
+            "shocked",
+            "dread"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "STRANGER",
+          "want": [
+            "chatty",
+            "oblivious",
+            "excited",
+            "gossiping"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*trapped. floor 3 of 14. every twist lands*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "spinning",
+            "short-circuit",
+            "brainrot",
+            "dizzy"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*they're still going. \"and the wedding? FAKE.\"*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "defeated",
+            "betrayed",
+            "hollow",
+            "sad"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*doors open on 14. I have nothing left*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "hollow",
+            "defeated",
+            "numb",
+            "resigned"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*watch it anyway. \"wow. crazy.\" — dead inside*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "deadpan",
+            "numb",
+            "unimpressed",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

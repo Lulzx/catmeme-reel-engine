@@ -1,0 +1,185 @@
+{
+  "title": "Pretending To Check Your Phone As An Acquaintance Walks By",
+  "output": "phone-acquaintance-dodge.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: pretending to check your phone as an acquaintance walks by",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*spot them at 40m. friend? no. stranger? no. WORSE.*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "alarmed",
+            "startled",
+            "nervous",
+            "dread"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*phone deployed. reading absolutely nothing intensely*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "focused",
+            "pretending",
+            "distracted",
+            "casual"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*they're on their phone too. we both know*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "sneaky",
+            "suspicious",
+            "awkward",
+            "mischievous"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*mutual dodge holding strong. almost clear*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "hopeful",
+            "focused",
+            "relieved",
+            "cautious"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*eye contact at 2 meters. both go \"HEYYY!!\"*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "startled",
+            "forced-smile",
+            "excited",
+            "awkward"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "PAL",
+          "want": [
+            "startled",
+            "forced-smile",
+            "excited",
+            "awkward"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*the fake enthusiasm is UNMATCHED*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "laughing",
+            "amused",
+            "giggling",
+            "awkward"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*30-second conversation neither of us wanted*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "exhausted",
+            "drained",
+            "fed-up",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*both text \"we should catch up!\" neither means it*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "deadpan",
+            "relieved",
+            "done",
+            "amused"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

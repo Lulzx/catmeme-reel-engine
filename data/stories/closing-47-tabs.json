@@ -1,0 +1,58 @@
+{
+  "title": "Closing All 47 Tabs Like A Personality Reboot",
+  "output": "closing-47-tabs.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you closed all 47 tabs like a personality reboot",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 }
+  ],
+  "beats": [
+    {
+      "action": "*47 tabs open. a museum of past ambitions*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["overwhelmed", "tired", "stressed", "frazzled"], "size": 0.5 } ]
+    },
+    {
+      "action": "*\"how to focus\" — unread since march*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["guilty", "sheepish", "awkward", "embarrassed"], "size": 0.5 } ]
+    },
+    {
+      "action": "*the decision: fresh start. new me*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["determined", "confident", "motivated", "serious"], "size": 0.5 } ]
+    },
+    {
+      "action": "*closing them one by one, tiny goodbyes*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["wistful", "sentimental", "reluctant", "sad"], "size": 0.5 } ]
+    },
+    {
+      "action": "*me vs the \"keep just these 3\" temptation*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["conflicted", "hesitant", "torn", "tempted"], "size": 0.4, "pos": 0.30 },
+        { "name": "TABS", "want": ["pleading", "clingy", "desperate", "begging"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*the final CLOSE ALL. pure power*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["gloating", "evil-laugh", "smug", "triumphant"], "size": 0.5 } ]
+    },
+    {
+      "action": "*clean slate. laptop fast again. vibing*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["yapping", "narrating", "vibing", "content"], "size": 0.5 } ]
+    },
+    {
+      "action": "*12 tabs by evening. growth is a cycle*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["resigned", "deadpan", "sheepish", "done"], "size": 0.5 } ],
+      "dur": 6.0
+    }
+  ]
+}

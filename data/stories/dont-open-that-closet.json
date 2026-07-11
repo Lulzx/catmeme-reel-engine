@@ -1,0 +1,185 @@
+{
+  "title": "Guests In 10 Minutes And Everything Goes In The Closet",
+  "output": "dont-open-that-closet.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: guests in 10 minutes and everything goes in the closet",
+  "outro": "FOLLOW FOR MORE CHAOS",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*\"we're 10 minutes away!\" — the text of doom*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "alarmed",
+            "panicked",
+            "startled",
+            "frantic"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*dishes: hidden. laundry: launched. speed run begins*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "frantic",
+            "hurried",
+            "manic",
+            "determined"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the closet accepts everything. physics ignored*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "struggling",
+            "manic",
+            "determined",
+            "frantic"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*door clicks shut. spotless home. host mode: ON*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "smug",
+            "proud",
+            "confident",
+            "content"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*GUEST: \"can I hang my coat in—\" ME: diving*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "panicked",
+            "alarmed",
+            "desperate",
+            "frantic"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "GUEST",
+          "want": [
+            "polite",
+            "oblivious",
+            "curious",
+            "friendly"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*\"I'LL take that! haha!\" — internal muhehehe*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "gloating",
+            "evil-laugh",
+            "scheming",
+            "smug"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the closet held. we survived the coat crisis*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "relieved",
+            "smug",
+            "proud",
+            "exhausted"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*sleeping against the closet that night. guarding it*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "sleepy",
+            "vigilant",
+            "content",
+            "deadpan"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

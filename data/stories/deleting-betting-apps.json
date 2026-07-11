@@ -1,0 +1,156 @@
+{
+  "title": "Deleting The Betting Apps The Morning After The Final",
+  "output": "deleting-betting-apps.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: deleting the betting apps the morning after the final",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*morning after. opening the bank app. one eye only.*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "nervous",
+            "dread",
+            "wincing",
+            "anxious"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"corner kicks over 9.5.\" WHY did I do that.*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "regret",
+            "disbelief",
+            "horrified",
+            "ashamed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"both teams to score AND rain in the second half.\"*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "horrified",
+            "shocked",
+            "defeated",
+            "stunned"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*deleting apps one by one. tiny little funerals.*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "solemn",
+            "resigned",
+            "mournful",
+            "defeated"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"are you sure?\" yes. YES. (no.)*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "conflicted",
+            "hesitant",
+            "torn",
+            "reluctant"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*a tiny voice: \"you said one small bet\"*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "CONSCIENCE",
+          "want": [
+            "tiny",
+            "piping-up",
+            "small-voice",
+            "interjecting"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"never again.\" I mean it this time.*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "deadpan",
+            "resolute",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*reinstalls for the 2030 qualifiers*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "sheepish",
+            "resigned",
+            "guilty",
+            "defeated"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

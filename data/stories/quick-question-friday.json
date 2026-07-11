@@ -1,0 +1,65 @@
+{
+  "title": "Boss Sends 'Quick Question' At 4:59 PM On Friday",
+  "output": "quick-question-friday.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: boss sends 'quick question' at 4:59 PM on Friday",
+  "outro": "FOLLOW FOR MORE CHAOS",
+  "outro_cast": [
+    { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 }
+  ],
+  "beats": [
+    {
+      "action": "*4:58 PM friday. bag packed. one foot out the door.*",
+      "bg": { "place": "office" },
+      "cast": [
+        { "name": "ME", "want": ["excited", "celebrating", "happy", "relieved"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*weekend loading... 98%...*",
+      "bg": { "place": "office" },
+      "cast": [
+        { "name": "ME", "want": ["hopeful", "anticipation", "excited", "content"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*the ping. time freezes.*",
+      "bg": { "place": "office" },
+      "cast": [
+        { "name": "ME", "want": ["startled", "alarmed", "frozen", "spooked"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*\"quick question\" — reading it with one eye*",
+      "bg": { "place": "office" },
+      "cast": [
+        { "name": "ME", "want": ["nervous", "cautious", "suspicious", "dread"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*three attachments and a deadline. BOSS smiling in the doorway.*",
+      "bg": { "place": "office" },
+      "cast": [
+        { "name": "ME", "want": ["trapped", "defeated", "dread", "broken"], "size": 0.4, "pos": 0.30 },
+        { "name": "BOSS", "want": ["smug", "cheery", "friendly", "oblivious"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*brain officially short-circuits*",
+      "bg": { "place": "office" },
+      "cast": [
+        { "name": "ME", "want": ["spinning", "short-circuit", "brainrot", "dizzy"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*\"monday me will handle it\" — closes laptop mid-sentence*",
+      "bg": { "place": "office" },
+      "cast": [
+        { "name": "ME", "want": ["deadpan", "resigned", "done", "unbothered"], "size": 0.5 }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

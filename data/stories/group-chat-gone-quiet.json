@@ -1,0 +1,185 @@
+{
+  "title": "Your Team Concedes And The Group Chat Goes Silent",
+  "output": "group-chat-gone-quiet.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: your team concedes and the group chat goes silent",
+  "outro": "FOLLOW FOR MORE CHAOS",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*200 messages deep, everyone's a pundit tonight*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "typing",
+            "excited",
+            "hyped",
+            "confident"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*goal against. the chat flatlines.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "shocked",
+            "stunned",
+            "frozen",
+            "disbelief"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"seen by 12\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "silent",
+            "deadpan",
+            "empty",
+            "numb"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*everyone typing... nobody sends*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "waiting",
+            "tense",
+            "anxious",
+            "expectant"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the one optimist: \"we can still win this\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "hopeful",
+            "pleading",
+            "awkward",
+            "earnest"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "RAHUL",
+          "want": [
+            "unimpressed",
+            "dismissive",
+            "cold",
+            "annoyed"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*left on read by the entire squad*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "betrayed",
+            "defeated",
+            "sad",
+            "disappointed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"it's just a game\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "RAHUL",
+          "want": [
+            "tiny",
+            "piping-up",
+            "small-voice",
+            "sad"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*chat renamed to \"never speak of this\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "gloomy",
+            "melancholy",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

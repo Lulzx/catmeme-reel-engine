@@ -1,0 +1,71 @@
+{
+  "title": "Autocorrect Rewrote Your Rage Text To The Family Group",
+  "output": "autocorrect-family-group.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: autocorrect rewrote your rage text to the family group",
+  "outro": "FOLLOW FOR MORE CHAOS",
+  "outro_cast": [
+    { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 }
+  ],
+  "beats": [
+    {
+      "action": "*typing the angriest message of my entire life*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["angry", "furious", "typing", "ranting"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*hit send before i lose my nerve*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["furious", "determined", "typing", "outburst"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*reads it back... autocorrect struck again*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["shocked", "wide-eyed", "disbelief", "startled"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*\"you're all such ducklings\" — DUCKLINGS?!*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["exasperated", "done", "unimpressed", "what"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*AUNTY: \"so sweet beta\" — 14 hearts incoming*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["surprised", "confused", "amazed", "disbelief"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*laughing at my own catastrophe*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["laughing", "giggling", "amused", "lol"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*...i'll just let them believe i'm sweet*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["gloating", "scheming", "smug", "evil-laugh"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*rage fully defused by 14 heart emojis*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["content", "smug", "satisfied", "deadpan"], "size": 0.5 }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

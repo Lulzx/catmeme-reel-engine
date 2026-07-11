@@ -1,0 +1,184 @@
+{
+  "title": "You Blanked On Your PIN With A Queue Behind You",
+  "output": "forgot-pin-in-line.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you blanked on your PIN with a queue behind you",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*card in hand. total rung up. muscle memory ready.*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "confident",
+            "ready",
+            "calm",
+            "assured"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the pad stares back. the number is GONE.*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "frozen",
+            "blank",
+            "confused",
+            "alarmed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*attempt one: wrong. I've typed this 10,000 times.*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "shocked",
+            "embarrassed",
+            "panicked",
+            "disbelief"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*summoning it via vibes. typing air numbers.*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "blank",
+            "dazed",
+            "struggling",
+            "confused"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*CASHIER's dead eyes. queue exhaling. one try left.*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "scared",
+            "terrified",
+            "trembling",
+            "nervous"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "CASHIER",
+          "want": [
+            "deadpan",
+            "unimpressed",
+            "bored",
+            "judging"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*brain fully short-circuits*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "spinning",
+            "short-circuit",
+            "nervous"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*then — mid-panic — it comes back*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "relieved",
+            "triumphant",
+            "surprised",
+            "elated"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*types it perfect. walks out shaking. it was my birth year.*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "shaken",
+            "relieved",
+            "embarrassed",
+            "deadpan"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

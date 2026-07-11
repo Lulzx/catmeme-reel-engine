@@ -1,0 +1,58 @@
+{
+  "title": "The Electricity Bill After A Month Of Heatwave AC",
+  "output": "ac-bill-arrives.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the electricity bill after a month of heatwave AC",
+  "outro": "FOLLOW FOR MORE CHAOS",
+  "outro_cast": [
+    { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 }
+  ],
+  "beats": [
+    {
+      "action": "*living in 18°C luxury all july*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["content", "relaxed", "cozy", "happy"], "size": 0.5 } ]
+    },
+    {
+      "action": "*hot chai indoors bc it's cold in here now*",
+      "bg": { "place": "kitchen" },
+      "cast": [ { "name": "ME", "want": ["smug", "cozy", "content", "proud"], "size": 0.5 } ]
+    },
+    {
+      "action": "*the bill notification lands*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["startled", "alert", "alarmed", "surprised"], "size": 0.5 } ]
+    },
+    {
+      "action": "*opening it slowly, one eye only*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["peeking", "cautious", "hiding", "hesitant"], "size": 0.5 } ]
+    },
+    {
+      "action": "*the amount... is that rupees or dollars??*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["shocked", "horrified", "stunned", "gasping"], "size": 0.5 } ]
+    },
+    {
+      "action": "*financial spiral fully engaged*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["spinning", "brainrot", "short-circuit", "dizzy"], "size": 0.5 } ]
+    },
+    {
+      "action": "*me vs the electricity company*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["defeated", "broke", "shocked", "helpless"], "size": 0.4, "pos": 0.30 },
+        { "name": "POWER CO", "want": ["gloating", "evil-laugh", "smug", "scheming"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*fan on max, windows open, \"natural air is healthier\"*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["sweating", "melting", "miserable", "hot"], "size": 0.5 } ],
+      "dur": 6.0
+    }
+  ]
+}

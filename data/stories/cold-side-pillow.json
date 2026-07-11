@@ -1,0 +1,184 @@
+{
+  "title": "2AM Heatwave And You Found The Cold Side Of The Pillow",
+  "output": "cold-side-pillow.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: 2am heatwave and you found the cold side of the pillow",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*2am. sweating. every sheet fight lost.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "exhausted",
+            "miserable",
+            "restless",
+            "uncomfortable"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*flip the pillow. THE COLD SIDE.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "relieved",
+            "blissful",
+            "delighted",
+            "content"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*civilization peaked here*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "peaceful",
+            "satisfied",
+            "content",
+            "grateful"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*40 seconds of heaven... then it warms up*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "disappointed",
+            "restless",
+            "frustrated",
+            "betrayed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*flip again — both sides warm now. betrayal.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "despairing",
+            "frustrated",
+            "defeated",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*migrate to the fridge. ROOMMATE got here first.*",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "deadpan",
+            "surprised",
+            "tired",
+            "defeated"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "ROOMMATE",
+          "want": [
+            "content",
+            "cozy",
+            "smug",
+            "relieved"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*fan + cold pillow finally align. pure bliss.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "yapping",
+            "content",
+            "sleepy"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the alarm rings the second comfort is achieved*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "defeated",
+            "exhausted",
+            "despairing",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

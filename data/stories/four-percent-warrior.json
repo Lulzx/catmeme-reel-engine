@@ -1,0 +1,58 @@
+{
+  "title": "Leaving Home At 4% Battery Like A Warrior",
+  "output": "four-percent-warrior.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you left home at 4% battery like a warrior",
+  "outro": "FOLLOW FOR MORE CHAOS",
+  "outro_cast": [
+    { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 }
+  ],
+  "beats": [
+    {
+      "action": "*phone: 4%. me: I have a destiny*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["determined", "confident", "brave", "reckless"], "size": 0.5 } ]
+    },
+    {
+      "action": "*power-save on. brightness: minimum. we ride*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["focused", "serious", "prepared", "confident"], "size": 0.5 } ]
+    },
+    {
+      "action": "*rationing map glances like water in a desert*",
+      "bg": { "place": "station" },
+      "cast": [ { "name": "ME", "want": ["careful", "worried", "cautious", "tense"], "size": 0.5 } ]
+    },
+    {
+      "action": "*1% at the ticket scan. do NOT die now*",
+      "bg": { "place": "station" },
+      "cast": [ { "name": "ME", "want": ["focused", "wide-eyed", "tense", "nervous"], "size": 0.5 } ]
+    },
+    {
+      "action": "*me vs the low-battery gods*",
+      "bg": { "place": "station" },
+      "cast": [
+        { "name": "ME", "want": ["nervous", "pleading", "hopeful", "tense"], "size": 0.4, "pos": 0.30 },
+        { "name": "PHONE", "want": ["limp", "drained", "exhausted", "weak"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*the scan beeps green. adrenaline unlocked*",
+      "bg": { "place": "station" },
+      "cast": [ { "name": "ME", "want": ["spinning", "brainrot", "short-circuit", "dizzy"], "size": 0.5 } ]
+    },
+    {
+      "action": "*beat the odds. never doubted myself*",
+      "bg": { "place": "station" },
+      "cast": [ { "name": "ME", "want": ["gloating", "evil-laugh", "smug", "proud"], "size": 0.5 } ]
+    },
+    {
+      "action": "*door opens, phone dies. exactly as planned*",
+      "bg": { "place": "station" },
+      "cast": [ { "name": "ME", "want": ["deadpan", "resigned", "done", "satisfied"], "size": 0.5 } ],
+      "dur": 6.0
+    }
+  ]
+}

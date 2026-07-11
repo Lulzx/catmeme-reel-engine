@@ -1,0 +1,53 @@
+{
+  "title": "Saying 'I Love It' At The Hairdresser While Dying Inside",
+  "output": "hairdresser-love-it.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: saying 'I love it' at the hairdresser while dying inside",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 }
+  ],
+  "beats": [
+    {
+      "action": "*showing the reference photo, full of hope*",
+      "bg": { "place": "shop" },
+      "cast": [ { "name": "ME", "want": ["hopeful", "excited", "trusting", "smiling"], "size": 0.5 } ]
+    },
+    {
+      "action": "*snip. snip. that's... a lot of hair.*",
+      "bg": { "place": "shop" },
+      "cast": [ { "name": "ME", "want": ["nervous", "uneasy", "watching", "worried"], "size": 0.5 } ]
+    },
+    {
+      "action": "*eyes widening with every cut*",
+      "bg": { "place": "shop" },
+      "cast": [ { "name": "ME", "want": ["alarmed", "dread", "panicked", "tense"], "size": 0.5 } ]
+    },
+    {
+      "action": "*spins the chair — \"so? what do you think?\"*",
+      "bg": { "place": "shop" },
+      "cast": [
+        { "name": "ME", "want": ["frozen", "polite", "forced-smile", "dying"], "size": 0.4, "pos": 0.30 },
+        { "name": "HAIRDRESSER", "want": ["proud", "expectant", "cheerful", "waiting"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*\"I... love it.\" dead eyes.*",
+      "bg": { "place": "shop" },
+      "cast": [ { "name": "ME", "want": ["deadpan", "hollow", "fake-smile", "defeated"], "size": 0.5 } ]
+    },
+    {
+      "action": "*inner voice, tiny: \"we do NOT love it\"*",
+      "bg": { "place": "shop" },
+      "cast": [ { "name": "INNER", "want": ["tiny", "piping-up", "small-voice", "interjecting"], "size": 0.5 } ]
+    },
+    {
+      "action": "*tipping extra. out of pure fear.*",
+      "bg": { "place": "shop" },
+      "cast": [ { "name": "ME", "want": ["nervous", "resigned", "sweating", "awkward"], "size": 0.5 } ],
+      "dur": 6.0
+    }
+  ]
+}

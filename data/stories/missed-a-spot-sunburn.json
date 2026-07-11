@@ -1,0 +1,73 @@
+{
+  "title": "You Got Sunburnt Only Where You Missed The Sunscreen",
+  "output": "missed-a-spot-sunburn.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you got sunburnt only where you missed the sunscreen",
+  "outro": "FOLLOW FOR MORE CHAOS",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": ["cute", "dancing", "happy", "playful"],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*applying sunscreen like a lab experiment*",
+      "bg": { "place": "beach" },
+      "cast": [
+        { "name": "ME", "want": ["focused", "confident", "content", "busy"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*so smug about my skincare. every single inch.*",
+      "bg": { "place": "beach" },
+      "cast": [
+        { "name": "ME", "want": ["smug", "proud", "self-satisfied", "confident"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*beach day. living the absolute dream.*",
+      "bg": { "place": "beach" },
+      "cast": [
+        { "name": "ME", "want": ["blissful", "relaxed", "happy", "content"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*next morning. mirror. one red handprint.*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["shocked", "wide-eyed", "alarmed", "staring"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*bestie can't breathe. it's shaped like a HAND.*",
+      "bg": { "place": "beach" },
+      "cast": [
+        { "name": "ME", "want": ["awkward", "embarrassed", "dead-inside", "unimpressed"], "size": 0.4, "pos": 0.30 },
+        { "name": "FRIEND", "want": ["laughing", "mocking", "crying", "amused"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*and the whole beach is now filming me*",
+      "bg": { "place": "beach" },
+      "cast": [
+        { "name": "ME", "want": ["awkward", "shy", "nervous", "dead-inside"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*it's a statement piece, actually.*",
+      "bg": { "place": "beach" },
+      "cast": [
+        { "name": "ME", "want": ["deadpan", "resigned", "done", "proud"], "size": 0.5 }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

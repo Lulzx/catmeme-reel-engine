@@ -1,0 +1,65 @@
+{
+  "title": "You Held The Door For Someone Slightly Too Far Away",
+  "output": "door-hold-too-far.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you held the door for someone slightly too far away",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 }
+  ],
+  "beats": [
+    {
+      "action": "*held the door. then clocked how far away they were.*",
+      "bg": { "place": "office" },
+      "cast": [
+        { "name": "ME", "want": ["startled", "awkward", "caught-off-guard", "nervous"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*\"15 meters. too far to hold. too close to drop.\"*",
+      "bg": { "place": "office" },
+      "cast": [
+        { "name": "ME", "want": ["awkward", "nervous", "flustered", "panicked"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*committed now. holding. smiling. dying.*",
+      "bg": { "place": "office" },
+      "cast": [
+        { "name": "ME", "want": ["awkward", "flustered", "embarrassed", "nervous"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*THEM breaking into the obligated little jog*",
+      "bg": { "place": "office" },
+      "cast": [
+        { "name": "ME", "want": ["awkward", "flustered", "embarrassed", "frozen"], "size": 0.4, "pos": 0.30 },
+        { "name": "THEM", "want": ["rushed", "apologetic", "awkward", "approaching"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*the mandatory nod-thank-you ritual*",
+      "bg": { "place": "office" },
+      "cast": [
+        { "name": "ME", "want": ["awkward", "polite", "nervous", "flustered"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*narrator: they will never speak of this. neither will i.*",
+      "bg": { "place": "office" },
+      "cast": [
+        { "name": "ME", "want": ["laughing", "amused", "mocking", "giggling"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*still processing this at my desk hours later*",
+      "bg": { "place": "office" },
+      "cast": [
+        { "name": "ME", "want": ["zoning-out", "blank", "deadpan", "checked-out"], "size": 0.5 }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

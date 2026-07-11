@@ -1,0 +1,169 @@
+{
+  "title": "Your Friend Who Doesn't Care About Football During The Final",
+  "output": "friend-who-hates-football.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: your friend who 'doesn't care about football' during the final",
+  "outro": "FOLLOW FOR MORE CHAOS",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*FRIEND: \"I'll just read my book, don't mind me\"*",
+      "bg": { "place": "livingroom" },
+      "cast": [
+        {
+          "name": "FRIEND",
+          "want": [
+            "reading",
+            "indifferent",
+            "calm",
+            "bored"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*first goal. the book lowers two inches.*",
+      "bg": { "place": "livingroom" },
+      "cast": [
+        {
+          "name": "FRIEND",
+          "want": [
+            "curious",
+            "interested",
+            "attentive",
+            "reacting"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"wait... what's the score?\"*",
+      "bg": { "place": "livingroom" },
+      "cast": [
+        {
+          "name": "FRIEND",
+          "want": [
+            "asking",
+            "engaged",
+            "curious",
+            "leaning-in"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*now standing. learning names. picking a side.*",
+      "bg": { "place": "livingroom" },
+      "cast": [
+        {
+          "name": "FRIEND",
+          "want": [
+            "excited",
+            "invested",
+            "cheering",
+            "hyped"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*FRIEND screaming at the ref louder than the stadium*",
+      "bg": { "place": "livingroom" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "staring",
+            "shocked",
+            "disbelief",
+            "deadpan"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "FRIEND",
+          "want": [
+            "screaming",
+            "raging",
+            "furious",
+            "yelling"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*I cannot stop laughing at this transformation*",
+      "bg": { "place": "livingroom" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "laughing",
+            "amused",
+            "giggling",
+            "delighted"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"it's just a game\" — who said that? not this friend*",
+      "bg": { "place": "livingroom" },
+      "cast": [
+        {
+          "name": "FRIEND",
+          "want": [
+            "cheering",
+            "excited",
+            "passionate",
+            "hyped"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*bought a jersey online before full time*",
+      "bg": { "place": "livingroom" },
+      "cast": [
+        {
+          "name": "FRIEND",
+          "want": [
+            "proud",
+            "happy",
+            "excited",
+            "celebrating"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

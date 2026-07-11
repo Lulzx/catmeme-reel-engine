@@ -1,0 +1,166 @@
+{
+  "title": "Laughing At Your Own Meme Before You Even Send It",
+  "output": "laughing-at-own-meme.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: laughing at your own meme before you even send it",
+  "outro": "FOLLOW FOR MORE CHAOS",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*idea strikes mid-scroll. THE meme.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "inspired",
+            "excited",
+            "eager",
+            "struck"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*font: impact. crop: surgical.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "focused",
+            "meticulous",
+            "intense",
+            "determined"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*preview... and I completely lose it*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "laughing",
+            "giggling",
+            "amused"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*re-reading it. harder every time. actual tears.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "delighted",
+            "joyful",
+            "gleeful",
+            "happy"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*hit send. muhehehe. glory incoming.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "gloating",
+            "scheming",
+            "smug",
+            "triumphant"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*20 minutes later, FRIEND replies: \"lol\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "deflated",
+            "crushed",
+            "expectant",
+            "disappointed"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "FRIEND",
+          "want": [
+            "indifferent",
+            "unimpressed",
+            "dismissive",
+            "bored"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*still crying at it. alone. and that's enough.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "giggling",
+            "content",
+            "happy",
+            "amused"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

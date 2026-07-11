@@ -1,0 +1,185 @@
+{
+  "title": "Your Team Lost But The Merch Just Arrived",
+  "output": "merch-arrived-late.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: your team lost but the merch just arrived",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*doorbell. the jersey I ordered when hope was alive*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "surprised",
+            "curious",
+            "expectant",
+            "nervous"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*unboxing it in complete silence*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "melancholy",
+            "solemn",
+            "quiet",
+            "gloomy"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*trying it on anyway. the mirror stare*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "conflicted",
+            "wistful",
+            "sad",
+            "reflective"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "\"it... still fits nice though\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "content",
+            "wistful",
+            "satisfied",
+            "proud"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*ME: wearing it with dignity. FRIEND: \"they lost tho?\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "proud",
+            "defiant",
+            "wistful",
+            "dignified"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "FRIEND",
+          "want": [
+            "confused",
+            "skeptical",
+            "questioning",
+            "blunt"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*a tiny voice: \"loyalty is free. shipping was not.\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "TINY",
+          "want": [
+            "tiny",
+            "piping-up",
+            "small-voice",
+            "sad"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*standing taller. this is who I am now*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "proud",
+            "resolved",
+            "content",
+            "confident"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*wearing it to sleep. it's called grief merch*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "sleepy",
+            "melancholy",
+            "content",
+            "wistful"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

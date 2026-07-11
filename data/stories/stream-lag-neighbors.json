@@ -1,0 +1,153 @@
+{
+  "title": "Your Stream Is 30 Seconds Behind The Neighbors",
+  "output": "stream-lag-neighbors.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: your stream is 30 seconds behind the neighbors",
+  "outro": "FOLLOW FOR MORE CHAOS",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*big screen. stream says \"HD\". confidence: maximum.*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "proud",
+            "content",
+            "confident",
+            "relaxed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*neighbors ERUPT through the wall. my screen: midfield.*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "dread",
+            "worried",
+            "anxious",
+            "uneasy"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*something happened. I refuse to know what.*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "panicked",
+            "denial",
+            "avoiding",
+            "distressed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*NEIGHBOR through the wall: \"don't you DARE tell me\"*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "pleading",
+            "desperate",
+            "panicked",
+            "begging"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "NEIGHBOR",
+          "want": [
+            "smug",
+            "condescending",
+            "teasing",
+            "superior"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*30 seconds of knowing-but-not-knowing. brain melting.*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "spinning",
+            "short-circuit",
+            "dizzy",
+            "overwhelmed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the goal finally arrives. I perform surprise, alone.*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "acting",
+            "fake-surprise",
+            "pretending",
+            "deadpan"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*second half on phone data, 4 sec ahead. now I'M the neighbor. muhehehe.*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "gloating",
+            "evil-laugh",
+            "scheming",
+            "smug"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

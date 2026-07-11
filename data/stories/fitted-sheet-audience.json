@@ -1,0 +1,185 @@
+{
+  "title": "Folding A Fitted Sheet While Someone Watches",
+  "output": "fitted-sheet-audience.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: folding a fitted sheet while someone watches",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*laundry day. full confidence.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "confident",
+            "proud",
+            "determined",
+            "focused"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the fitted sheet emerges. respectful nod to the enemy.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "wary",
+            "focused",
+            "serious",
+            "determined"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*attempt one: a ball*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "struggling",
+            "flustered",
+            "frustrated",
+            "confused"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*attempt two: a bigger ball*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "flailing",
+            "defeated",
+            "frustrated",
+            "overwhelmed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*MOM watching. she folds it in 4 seconds.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "embarrassed",
+            "defeated",
+            "sheepish",
+            "awkward"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "MOM",
+          "want": [
+            "smug",
+            "confident",
+            "unbothered",
+            "proud"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*\"corners inside corners\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "MOM",
+          "want": [
+            "tiny",
+            "piping-up",
+            "small-voice",
+            "instructing"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*meanwhile I have unlocked zero new knowledge*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "defeated",
+            "deadpan",
+            "resigned",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*stuffed it in the cupboard. door barely closes.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "sheepish",
+            "resigned",
+            "guilty",
+            "deadpan"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

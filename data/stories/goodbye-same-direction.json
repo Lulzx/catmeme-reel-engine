@@ -1,0 +1,185 @@
+{
+  "title": "You Said Goodbye And Then Walked The Same Direction",
+  "output": "goodbye-same-direction.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you said goodbye and then walked the same direction",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*great hangout. the big goodbye: hug, \"see you soon!\"*",
+      "bg": {
+        "place": "park"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "happy",
+            "warm",
+            "friendly",
+            "content"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*both turn to leave... the same direction. abort. ABORT.*",
+      "bg": {
+        "place": "park"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "startled",
+            "alarmed",
+            "awkward",
+            "dread"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*ME and PAL walking side by side. silence. we used up the words*",
+      "bg": {
+        "place": "park"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "awkward",
+            "embarrassed",
+            "flustered",
+            "stiff"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "PAL",
+          "want": [
+            "deadpan",
+            "stiff",
+            "uncomfortable",
+            "done"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*forcing a topic. \"so... crazy weather huh\"*",
+      "bg": {
+        "place": "park"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "flustered",
+            "awkward",
+            "forced-smile",
+            "nervous"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"oh I gotta—\" pointing at literally nothing*",
+      "bg": {
+        "place": "park"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "pretending",
+            "sneaky",
+            "flustered",
+            "hurried"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the fake detour is unhinged. narrator is losing it*",
+      "bg": {
+        "place": "park"
+      },
+      "cast": [
+        {
+          "name": "NARRATOR",
+          "want": [
+            "laughing",
+            "amused",
+            "giggling",
+            "mocking"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*detour cost me 20 extra minutes. worth it*",
+      "bg": {
+        "place": "park"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "exhausted",
+            "relieved",
+            "deadpan",
+            "resigned"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*they were faking too. we meet at the same bus stop*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "deadpan",
+            "defeated",
+            "done",
+            "resigned"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

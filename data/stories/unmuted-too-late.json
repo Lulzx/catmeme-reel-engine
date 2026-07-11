@@ -1,0 +1,80 @@
+{
+  "title": "You Finally Unmuted And The Topic Had Moved On",
+  "output": "unmuted-too-late.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you finally unmuted and the topic had moved on",
+  "outro": "FOLLOW FOR DAILY POVS",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": ["cute", "dancing", "happy", "playful"],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*I have A Point. waiting for the perfect gap.*",
+      "bg": { "place": "office" },
+      "cast": [
+        { "name": "ME", "want": ["focused", "confident", "attentive", "alert"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*rehearsing the killer line on a loop*",
+      "bg": { "place": "office" },
+      "cast": [
+        { "name": "ME", "want": ["pensive", "focused", "talking", "expectant"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*\"you're on mute\" — fumbling — unmuted at last*",
+      "bg": { "place": "office" },
+      "cast": [
+        { "name": "ME", "want": ["nervous", "alert", "awkward", "startled"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*me: \"so my idea—\" them: \"sushi or thai?\"*",
+      "bg": { "place": "office" },
+      "cast": [
+        { "name": "ME", "want": ["presenting", "talking", "proud", "chatty"], "size": 0.4, "pos": 0.30 },
+        { "name": "COWORKER", "want": ["indifferent", "distracted", "chatty", "dismissive"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*...silence. the topic has fully moved on.*",
+      "bg": { "place": "office" },
+      "cast": [
+        { "name": "ME", "want": ["blank", "awkward", "deadpan", "dead-inside"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*brain.exe has stopped responding*",
+      "bg": { "place": "office" },
+      "cast": [
+        { "name": "ME", "want": ["spinning", "short-circuit", "brainrot", "zoning-out"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*slow... re-mute. we never speak of this.*",
+      "bg": { "place": "office" },
+      "cast": [
+        { "name": "ME", "want": ["resigned", "defeated", "deadpan", "done"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*types the point in chat. zero reactions.*",
+      "bg": { "place": "office" },
+      "cast": [
+        { "name": "ME", "want": ["sulking", "melancholy", "sad", "gloomy"], "size": 0.5 }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

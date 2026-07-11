@@ -1,0 +1,184 @@
+{
+  "title": "The Gym Has One Fan And It Points At The Trainer",
+  "output": "gym-fan-trainer-only.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the gym has one fan and it points at the trainer",
+  "outro": "FOLLOW FOR MORE CHAOS",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*40°C outside. gym AC \"under maintenance\" since March.*",
+      "bg": {
+        "place": "gym"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "suffering",
+            "overheated",
+            "miserable",
+            "exhausted"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*one glorious fan. aimed at the TRAINER's desk.*",
+      "bg": {
+        "place": "gym"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "jealous",
+            "staring",
+            "unimpressed",
+            "annoyed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*members drifting into the breeze mid-set*",
+      "bg": {
+        "place": "gym"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "sneaky",
+            "hopeful",
+            "desperate",
+            "relieved"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*curls performed strictly in the fan's airspace*",
+      "bg": {
+        "place": "gym"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "blissful",
+            "sneaky",
+            "content",
+            "relieved"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*caught dragging the whole bench into the airstream*",
+      "bg": {
+        "place": "gym"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "guilty",
+            "sheepish",
+            "caught",
+            "nervous"
+          ],
+          "size": 0.4,
+          "pos": 0.3
+        },
+        {
+          "name": "TRAINER",
+          "want": [
+            "stern",
+            "unimpressed",
+            "annoyed",
+            "pointing"
+          ],
+          "size": 0.4,
+          "pos": 0.7,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*TRAINER points me back to the desert. smug.*",
+      "bg": {
+        "place": "gym"
+      },
+      "cast": [
+        {
+          "name": "TRAINER",
+          "want": [
+            "laughing",
+            "gloating",
+            "annoyed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*everyone judged. the fan, unbothered.*",
+      "bg": {
+        "place": "gym"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "humiliated",
+            "defeated",
+            "resigned",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*so now we train in the parking lot. wind is free.*",
+      "bg": {
+        "place": "gym"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "deadpan",
+            "resigned",
+            "content",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

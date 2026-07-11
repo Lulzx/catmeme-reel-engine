@@ -1,0 +1,58 @@
+{
+  "title": "The Stranger Next To You Is Reading Your Texts",
+  "output": "shoulder-screen-reader.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the stranger next to you is reading your texts",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 }
+  ],
+  "beats": [
+    {
+      "action": "*texting freely on the metro, not a care*",
+      "bg": { "place": "station" },
+      "cast": [ { "name": "ME", "want": ["typing", "working", "busy", "casual"], "size": 0.5 } ]
+    },
+    {
+      "action": "*the feeling... eyes. peripheral vision detects eyes*",
+      "bg": { "place": "station" },
+      "cast": [ { "name": "ME", "want": ["suspicious", "alert", "wary", "uneasy"], "size": 0.5 } ]
+    },
+    {
+      "action": "*slow scroll test... their head follows*",
+      "bg": { "place": "station" },
+      "cast": [ { "name": "ME", "want": ["suspicious", "sneaky", "watchful", "narrowed-eyes"], "size": 0.5 } ]
+    },
+    {
+      "action": "*typing a decoy: \"i know you're reading this\"*",
+      "bg": { "place": "station" },
+      "cast": [ { "name": "ME", "want": ["mischievous", "sneaky", "smug", "plotting"], "size": 0.5 } ]
+    },
+    {
+      "action": "*them reacting to the decoy. both frozen*",
+      "bg": { "place": "station" },
+      "cast": [
+        { "name": "ME", "want": ["smug", "watching", "triumphant", "satisfied"], "size": 0.4, "pos": 0.30 },
+        { "name": "STRANGER", "want": ["startled", "caught", "shocked", "guilty"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*caught red-handed, instant fake sleep*",
+      "bg": { "place": "station" },
+      "cast": [ { "name": "ME", "want": ["laughing", "amused", "giggling", "mocking"], "size": 0.5 } ]
+    },
+    {
+      "action": "*switching to typing in another language*",
+      "bg": { "place": "station" },
+      "cast": [ { "name": "ME", "want": ["sneaky", "peeking", "clever", "mischievous"], "size": 0.5 } ]
+    },
+    {
+      "action": "*they lean in closer. the audacity*",
+      "bg": { "place": "station" },
+      "cast": [ { "name": "ME", "want": ["disbelief", "deadpan", "exasperated", "done"], "size": 0.5 } ],
+      "dur": 6.0
+    }
+  ]
+}

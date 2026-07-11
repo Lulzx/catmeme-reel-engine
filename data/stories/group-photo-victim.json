@@ -1,0 +1,73 @@
+{
+  "title": "Everyone Looks Great In The Group Photo Except You",
+  "output": "group-photo-victim.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: everyone looks great in the group photo except you",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": ["cute", "dancing", "happy", "playful"],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*\"let's take a pic!\" — I pose with full confidence*",
+      "bg": { "place": "park" },
+      "cast": [
+        { "name": "ME", "want": ["confident", "happy", "excited", "proud"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*the photo drops in the group chat*",
+      "bg": { "place": "park" },
+      "cast": [
+        { "name": "ME", "want": ["curious", "expectant", "hopeful", "attentive"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*friend one: model. friend two: magazine cover.*",
+      "bg": { "place": "park" },
+      "cast": [
+        { "name": "ME", "want": ["watching", "curious", "surprised", "staring"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*me: mid-blink, mid-word, cursed forever*",
+      "bg": { "place": "park" },
+      "cast": [
+        { "name": "ME", "want": ["shocked", "dead-inside", "awkward", "disbelief"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*me: \"retake?\" them: \"already posted it\"*",
+      "bg": { "place": "park" },
+      "cast": [
+        { "name": "ME", "want": ["pleading", "betrayed", "awkward", "disbelief"], "size": 0.4, "pos": 0.30 },
+        { "name": "FRIEND", "want": ["indifferent", "dismissive", "smug", "unbothered"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*the whole chat reacting. crying-laughing.*",
+      "bg": { "place": "park" },
+      "cast": [
+        { "name": "FRIEND", "want": ["laughing", "mocking", "amused", "giggling"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*profile pic stays 2019 forever.*",
+      "bg": { "place": "park" },
+      "cast": [
+        { "name": "ME", "want": ["resigned", "defeated", "deadpan", "done"], "size": 0.5 }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

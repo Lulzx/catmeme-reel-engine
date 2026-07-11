@@ -1,0 +1,65 @@
+{
+  "title": "The Ice Cream Is Melting Faster Than You Can Eat It",
+  "output": "melting-ice-cream.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the ice cream is melting faster than you can eat it",
+  "outro": "FOLLOW FOR DAILY POVS",
+  "outro_cast": [
+    { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 }
+  ],
+  "beats": [
+    {
+      "action": "*first lick. sunny day. life is perfect.*",
+      "bg": { "place": "park" },
+      "cast": [
+        { "name": "ME", "want": ["happy", "content", "blissful", "excited"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*drip one. okay. manageable.*",
+      "bg": { "place": "park" },
+      "cast": [
+        { "name": "ME", "want": ["focused", "alert", "cautious", "watching"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*drips two through five. it's a race now.*",
+      "bg": { "place": "park" },
+      "cast": [
+        { "name": "ME", "want": ["panicked", "alarmed", "frantic", "nervous"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*licking faster than physically possible*",
+      "bg": { "place": "park" },
+      "cast": [
+        { "name": "ME", "want": ["panicked", "desperate", "flustered", "frantic"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*a KID with a perfectly intact cone just... watching*",
+      "bg": { "place": "park" },
+      "cast": [
+        { "name": "ME", "want": ["frantic", "defeated", "flustered", "panicked"], "size": 0.4, "pos": 0.30 },
+        { "name": "KID", "want": ["calm", "smug", "content", "unbothered"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*KID: \"you're supposed to eat it faster\"*",
+      "bg": { "place": "park" },
+      "cast": [
+        { "name": "KID", "want": ["tiny", "piping-up", "small-voice", "squeaking"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*cone on the ground. the seagull wins.*",
+      "bg": { "place": "park" },
+      "cast": [
+        { "name": "ME", "want": ["defeated", "sad", "devastated", "done"], "size": 0.5 }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

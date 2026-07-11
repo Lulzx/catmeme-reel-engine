@@ -1,0 +1,58 @@
+{
+  "title": "You Rehearsed Your Coffee Order And Still Fumbled It",
+  "output": "coffee-order-rehearsal.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you rehearsed your coffee order and still fumbled it",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 }
+  ],
+  "beats": [
+    {
+      "action": "*mouthing my order, third in line. we got this.*",
+      "bg": { "place": "shop" },
+      "cast": [ { "name": "ME", "want": ["mouthing", "focused", "confident", "rehearsing"], "size": 0.5 } ]
+    },
+    {
+      "action": "*line's shorter now. rehearsing harder.*",
+      "bg": { "place": "shop" },
+      "cast": [ { "name": "ME", "want": ["nervous", "anticipation", "hopeful", "expectant"], "size": 0.5 } ]
+    },
+    {
+      "action": "*\"one large iced oat latte.\" easy. easy.*",
+      "bg": { "place": "shop" },
+      "cast": [ { "name": "ME", "want": ["hopeful", "determined", "focused", "psyching-up"], "size": 0.5 } ]
+    },
+    {
+      "action": "*at the counter — out comes pure word salad*",
+      "bg": { "place": "shop" },
+      "cast": [
+        { "name": "ME", "want": ["flustered", "fumbling", "panicked", "stammering"], "size": 0.4, "pos": 0.30 },
+        { "name": "BARISTA", "want": ["blank", "unbothered", "deadpan", "waiting"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*\"a hot... cold... medium-small... please?\"*",
+      "bg": { "place": "shop" },
+      "cast": [ { "name": "ME", "want": ["embarrassed", "cringing", "flustered", "awkward"], "size": 0.5 } ]
+    },
+    {
+      "action": "*barista, calm as a monk: \"an iced oat latte?\"*",
+      "bg": { "place": "shop" },
+      "cast": [ { "name": "BARISTA", "want": ["calm", "helpful", "unbothered", "kind"], "size": 0.5 } ]
+    },
+    {
+      "action": "*the guy behind me is laughing. out loud.*",
+      "bg": { "place": "shop" },
+      "cast": [ { "name": "GUY", "want": ["laughing", "mocking", "giggling", "amused"], "size": 0.5 } ]
+    },
+    {
+      "action": "*sipping the wrong drink anyway. it's fine.*",
+      "bg": { "place": "shop" },
+      "cast": [ { "name": "ME", "want": ["resigned", "deadpan", "defeated", "done"], "size": 0.5 } ],
+      "dur": 6.0
+    }
+  ]
+}

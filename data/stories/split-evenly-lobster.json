@@ -1,0 +1,185 @@
+{
+  "title": "'Let's Split It Evenly' Says The One Who Ordered The Most",
+  "output": "split-evenly-lobster.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: 'let's split it evenly' says the one who ordered the most",
+  "outro": "FOLLOW FOR DEREK'S NEXT VICTIM",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*team dinner. I order modest. dal. water. responsible.*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "calm",
+            "content",
+            "humble",
+            "responsible"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*DEREK orders the entire left page of the menu*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "DEREK",
+          "want": [
+            "greedy",
+            "indulgent",
+            "pleased",
+            "content"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*dishes arrive for DEREK like a coronation*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "DEREK",
+          "want": [
+            "delighted",
+            "pleased",
+            "satisfied",
+            "content"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*lobster. steak. a second lobster.*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "DEREK",
+          "want": [
+            "blissful",
+            "indulgent",
+            "greedy",
+            "content"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*bill lands. DEREK, wiping his mouth: \"just split evenly, yeah?\"*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "horrified",
+            "betrayed",
+            "stunned",
+            "outraged"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "DEREK",
+          "want": [
+            "smug",
+            "calm",
+            "unbothered",
+            "innocent"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*muhehehe. the trilogy is complete.*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "DEREK",
+          "want": [
+            "gloating",
+            "evil-laugh",
+            "smug",
+            "scheming"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*I pay. I always pay.*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "defeated",
+            "resigned",
+            "broke",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*DEREK: 3 — ME: 0*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "defeated",
+            "deadpan",
+            "resigned",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

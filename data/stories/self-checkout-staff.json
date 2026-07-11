@@ -1,0 +1,185 @@
+{
+  "title": "The Self-Checkout Called Staff On You Again",
+  "output": "self-checkout-staff.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the self-checkout called staff on you again",
+  "outro": "FOLLOW FOR MORE CHAOS",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*chose self-checkout specifically to avoid humans*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "confident",
+            "smug",
+            "content",
+            "focused"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "\"UNEXPECTED ITEM IN THE BAGGING AREA\"",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "startled",
+            "confused",
+            "alarmed",
+            "nervous"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*trying to fix it. somehow much worse now*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "panicked",
+            "flustered",
+            "struggling",
+            "frantic"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the light starts blinking. the shame beacon*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "dread",
+            "embarrassed",
+            "defeated",
+            "nervous"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*STAFF swipes their card wordlessly. judging in silence*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "embarrassed",
+            "sheepish",
+            "guilty",
+            "awkward"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "STAFF",
+          "want": [
+            "unimpressed",
+            "deadpan",
+            "tired",
+            "judging"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*a tiny voice from the queue: \"it was the onions\"*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "TINY",
+          "want": [
+            "tiny",
+            "piping-up",
+            "small-voice",
+            "interjecting"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the whole queue is now laughing at me*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "QUEUE",
+          "want": [
+            "laughing",
+            "mocking",
+            "amused",
+            "giggling"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*apologizing to the machine on my way out*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "guilty",
+            "apologetic",
+            "remorseful",
+            "resigned"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

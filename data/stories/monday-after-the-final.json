@@ -1,0 +1,169 @@
+{
+  "title": "Surviving Monday After Staying Up For The Final",
+  "output": "monday-after-the-final.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: surviving Monday after staying up for the final",
+  "outro": "FOLLOW FOR MORE CHAOS",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*alarm at 7. I slept at 3:30. we don't talk about it.*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "exhausted",
+            "sleepy",
+            "broken",
+            "groggy"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*shirt inside out. no time. leave it.*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "zombie",
+            "resigned",
+            "sleepy",
+            "dazed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the office. everyone equally destroyed.*",
+      "bg": { "place": "office" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "exhausted",
+            "broken",
+            "drained",
+            "sleepy"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*silent nod of the brotherhood. we survived.*",
+      "bg": { "place": "office" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "solemn",
+            "tired",
+            "knowing",
+            "weary"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*ONE fresh coworker: \"I recorded it!\" — floor: shhh*",
+      "bg": { "place": "office" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "dead-inside",
+            "annoyed",
+            "deadpan",
+            "drained"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "COWORKER",
+          "want": [
+            "cheerful",
+            "oblivious",
+            "chatty",
+            "energetic"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*too tired to be mad, so I just laugh at the fresh one*",
+      "bg": { "place": "office" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "laughing",
+            "amused",
+            "giggling",
+            "delirious"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"strategy session\" = highlights in the meeting room*",
+      "bg": { "place": "office" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "sneaky",
+            "mischievous",
+            "scheming",
+            "content"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the whole floor, watching replays. boss included.*",
+      "bg": { "place": "office" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "content",
+            "happy",
+            "relieved",
+            "amused"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

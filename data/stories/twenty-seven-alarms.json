@@ -1,0 +1,58 @@
+{
+  "title": "Setting 27 Alarms For Monday Like One Will Work",
+  "output": "twenty-seven-alarms.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you set 27 alarms for Monday like one will work",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 }
+  ],
+  "beats": [
+    {
+      "action": "*sunday night. the alarm architecture begins*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["typing", "focused", "determined", "serious"], "size": 0.5 } ]
+    },
+    {
+      "action": "*6:00 hope. 6:15 threat. 6:30 final boss*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["mischievous", "confident", "plotting", "proud"], "size": 0.5 } ]
+    },
+    {
+      "action": "*recalculating hours of sleep left. hourly*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["worried", "thinking", "anxious", "tired"], "size": 0.5 } ]
+    },
+    {
+      "action": "*morning: snoozing all 27 like a rhythm game*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["sleepy", "exhausted", "drowsy", "groggy"], "size": 0.5 } ]
+    },
+    {
+      "action": "*me vs the 5:59 alarm i set myself*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["sleepy", "annoyed", "groggy", "grumpy"], "size": 0.4, "pos": 0.30 },
+        { "name": "ALARM", "want": ["screaming", "loud", "chaotic", "relentless"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*half-asleep brain fully short-circuiting*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["spinning", "brainrot", "sleepy", "dizzy"], "size": 0.5 } ]
+    },
+    {
+      "action": "*wake at 8:47 to a CALL, not an alarm*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["startled", "shocked", "panicked", "horrified"], "size": 0.5 } ]
+    },
+    {
+      "action": "*sets 31 alarms for tuesday. the system works*",
+      "bg": { "place": "home" },
+      "cast": [ { "name": "ME", "want": ["resigned", "deadpan", "done", "defeated"], "size": 0.5 } ],
+      "dur": 6.0
+    }
+  ]
+}

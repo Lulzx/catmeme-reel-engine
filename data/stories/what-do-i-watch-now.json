@@ -1,0 +1,156 @@
+{
+  "title": "The World Cup Is Over And You Don't Know What To Do At 9pm",
+  "output": "what-do-i-watch-now.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the World Cup is over and you don't know what to do at 9pm",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*9pm. tv on. remote in hand. and... nothing.*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "empty",
+            "lost",
+            "blank",
+            "aimless"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*a month of purpose. gone. just like that.*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "melancholy",
+            "sad",
+            "gloomy",
+            "wistful"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*scrolling every app. nothing sparks a single thing.*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "bored",
+            "restless",
+            "unimpressed",
+            "indifferent"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*checking the football app out of pure habit*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "hopeful",
+            "searching",
+            "expectant",
+            "wistful"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"no matches scheduled.\" the void stares back.*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "devastated",
+            "hollow",
+            "defeated",
+            "sad"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*brain spinning in the empty 9pm void*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "spinning",
+            "brainrot",
+            "short-circuit",
+            "dizzy"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*rewatching old highlights. pretending I don't know the score.*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "nostalgic",
+            "wistful",
+            "fond",
+            "dreamy"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"2030 loading... 1,439 days\"*",
+      "bg": { "place": "home" },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "hopeful",
+            "longing",
+            "dreamy",
+            "determined"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

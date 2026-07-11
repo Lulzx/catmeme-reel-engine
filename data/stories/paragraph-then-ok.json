@@ -1,0 +1,172 @@
+{
+  "title": "You Typed A Paragraph And Sent 'Ok'",
+  "output": "paragraph-then-ok.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you typed a paragraph and sent 'ok'",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*the message that deserves a REAL response*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "focused",
+            "determined",
+            "thoughtful",
+            "serious"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*three paragraphs. bullet points. an emotional arc*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "typing",
+            "focused",
+            "passionate",
+            "intense"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*reading it back. too much? too honest? too many commas?*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "doubtful",
+            "questioning",
+            "puzzled",
+            "hesitant"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*deleting it word by word. tiny funerals*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "melancholy",
+            "downcast",
+            "teary",
+            "sad"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the overthink spiral has fully taken over*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "spinning",
+            "short-circuit",
+            "brainrot",
+            "dizzy"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*sends: \"ok\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "deadpan",
+            "defeated",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*their reply, after 40 minutes: \"ok\"*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "disbelief",
+            "betrayed",
+            "shocked",
+            "defeated"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*we were both paragraphs once. the drafts folder knows*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "melancholy",
+            "wistful",
+            "resigned",
+            "gloomy"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

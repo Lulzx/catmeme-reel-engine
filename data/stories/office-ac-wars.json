@@ -1,0 +1,53 @@
+{
+  "title": "The Coldest Coworker Controls The Office Thermostat",
+  "output": "office-ac-wars.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the coldest coworker controls the office thermostat",
+  "outro": "FOLLOW FOR DAILY POVS",
+  "outro_cast": [
+    { "name": "", "want": ["cute", "dancing", "happy", "playful"], "size": 0.44 }
+  ],
+  "beats": [
+    {
+      "action": "*typing in gloves and a blanket. indoors.*",
+      "bg": { "place": "office" },
+      "cast": [ { "name": "ME", "want": ["miserable", "done", "hunched", "suffering"], "size": 0.5 } ]
+    },
+    {
+      "action": "*the coworker: sweater fortress, hand on the dial*",
+      "bg": { "place": "office" },
+      "cast": [ { "name": "COWORKER", "want": ["smug", "cozy", "guarding", "content"], "size": 0.5 } ]
+    },
+    {
+      "action": "*18°C. in the office. in summer.*",
+      "bg": { "place": "office" },
+      "cast": [ { "name": "ME", "want": ["fed-up", "unamused", "grumpy", "exasperated"], "size": 0.5 } ]
+    },
+    {
+      "action": "*sneaking over to nudge it two degrees warmer...*",
+      "bg": { "place": "office" },
+      "cast": [ { "name": "ME", "want": ["sneaky", "tiptoeing", "hopeful", "scheming"], "size": 0.5 } ]
+    },
+    {
+      "action": "*caught. instantly. at the thermostat.*",
+      "bg": { "place": "office" },
+      "cast": [
+        { "name": "ME", "want": ["caught", "frozen", "guilty", "nervous"], "size": 0.4, "pos": 0.30 },
+        { "name": "COWORKER", "want": ["glaring", "territorial", "stern", "warning"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*gloating like a frost villain*",
+      "bg": { "place": "office" },
+      "cast": [ { "name": "COWORKER", "want": ["gloating", "smug", "evil-laugh", "scheming"], "size": 0.5 } ]
+    },
+    {
+      "action": "*typing beside a desk lamp for warmth.*",
+      "bg": { "place": "office" },
+      "cast": [ { "name": "ME", "want": ["defeated", "deadpan", "freezing", "resigned"], "size": 0.5 } ],
+      "dur": 6.0
+    }
+  ]
+}

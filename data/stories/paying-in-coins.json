@@ -1,0 +1,73 @@
+{
+  "title": "Paying In Coins While The Queue Watches",
+  "output": "paying-in-coins.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: paying in coins while the queue watches",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": ["cute", "dancing", "happy", "playful"],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*total: 97. my wallet: zero notes.*",
+      "bg": { "place": "shop" },
+      "cast": [
+        { "name": "ME", "want": ["nervous", "alert", "wide-eyed", "focused"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*but the coin pouch... is FULL. deep breath.*",
+      "bg": { "place": "shop" },
+      "cast": [
+        { "name": "ME", "want": ["confident", "mischievous", "focused", "determined"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*counting. one coin. at a time.*",
+      "bg": { "place": "shop" },
+      "cast": [
+        { "name": "ME", "want": ["focused", "busy", "content", "working"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*me: still counting. cashier: dying inside.*",
+      "bg": { "place": "shop" },
+      "cast": [
+        { "name": "ME", "want": ["focused", "busy", "innocent", "content"], "size": 0.4, "pos": 0.30 },
+        { "name": "CASHIER", "want": ["unimpressed", "annoyed", "done", "deadpan"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*a coin rolls off the counter. into the void.*",
+      "bg": { "place": "shop" },
+      "cast": [
+        { "name": "ME", "want": ["startled", "alarmed", "wide-eyed", "shocked"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*tiny voice from the queue: \"just use UPI\"*",
+      "bg": { "place": "shop" },
+      "cast": [
+        { "name": "VOICE", "want": ["tiny", "piping-up", "small-voice", "smug"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*exact change achieved. I walk out a champion.*",
+      "bg": { "place": "shop" },
+      "cast": [
+        { "name": "ME", "want": ["gloating", "smug", "proud", "self-satisfied"], "size": 0.5 }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

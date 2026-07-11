@@ -1,0 +1,73 @@
+{
+  "title": "Watching Your Delivery Driver Circle Your Block For 20 Minutes",
+  "output": "delivery-driver-circles.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: watching your delivery driver circle your block for 20 minutes",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": ["cute", "dancing", "happy", "playful"],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*\"your order is nearby!\" — pure joy*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["happy", "excited", "hopeful", "expectant"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*watching the little dot approach my block*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["watching", "hopeful", "curious", "attentive"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*he passed it. he's at the neighbor's again*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["confused", "annoyed", "unimpressed", "staring"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*the dot is ORBITING now. a full lap.*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["wide-eyed", "alarmed", "staring", "nervous"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*both of us on the phone: \"I can see you\"*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["pleading", "talking", "nervous", "demanding"], "size": 0.4, "pos": 0.30 },
+        { "name": "DRIVER", "want": ["confused", "talking", "lost", "annoyed"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*food's cold. I laugh. I tip anyway.*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["laughing", "crying", "amused", "defeated"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*plot twist: the map was upside down*",
+      "bg": { "place": "home" },
+      "cast": [
+        { "name": "ME", "want": ["deadpan", "done", "dead-inside", "resigned"], "size": 0.5 }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

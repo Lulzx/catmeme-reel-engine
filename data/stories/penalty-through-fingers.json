@@ -1,0 +1,172 @@
+{
+  "title": "Watching The Penalty Shootout Through Your Fingers",
+  "output": "penalty-through-fingers.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: watching the penalty shootout through your fingers",
+  "outro": "FOLLOW IF THIS IS YOU",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*extra time ends. \"I can't do this.\"*",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "nervous",
+            "worried",
+            "fidgeting",
+            "anxious"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*watching the first kick through my fingers*",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "peeking",
+            "scared",
+            "hiding",
+            "nervous"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"scored. breathe.\"*",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "relieved",
+            "grateful",
+            "calm",
+            "content"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*next kick: judging from behind the couch*",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "hiding",
+            "terrified",
+            "cowering",
+            "scared"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*deciding kick: I'm in the kitchen now, audio only*",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "wide-eyed",
+            "shock",
+            "fearful",
+            "frozen"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the run-up. brain fully leaves the body.*",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "spinning",
+            "short-circuit",
+            "brainrot",
+            "dizzy"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*crowd ERUPTS. it went in.*",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "ecstatic",
+            "celebrating",
+            "screaming",
+            "overjoyed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"never doubted them\" — heart rate: 180*",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "deadpan",
+            "shaky",
+            "relieved",
+            "drained"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

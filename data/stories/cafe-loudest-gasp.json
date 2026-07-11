@@ -1,0 +1,73 @@
+{
+  "title": "You Gasped Louder Than The Whole Café At The Match",
+  "output": "cafe-loudest-gasp.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you gasped louder than the whole café at the match",
+  "outro": "FOLLOW FOR MORE CHAOS",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": ["cute", "dancing", "happy", "playful"],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*café screening the match. me: just here for coffee.*",
+      "bg": { "place": "restaurant" },
+      "cast": [
+        { "name": "ME", "want": ["relaxed", "content", "chill", "unbothered"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*near-miss on screen. and then... it happens.*",
+      "bg": { "place": "restaurant" },
+      "cast": [
+        { "name": "ME", "want": ["alert", "wide-eyed", "surprised", "attentive"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*an involuntary FULL-BODY gasp escapes me*",
+      "bg": { "place": "restaurant" },
+      "cast": [
+        { "name": "ME", "want": ["shocked", "screaming", "outburst", "wide-eyed"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*whole café turns. a regular nods respect.*",
+      "bg": { "place": "restaurant" },
+      "cast": [
+        { "name": "ME", "want": ["startled", "awkward", "excited", "surprised"], "size": 0.4, "pos": 0.30 },
+        { "name": "REGULAR", "want": ["cool", "approving", "chill", "content"], "size": 0.4, "pos": 0.70, "flip": true }
+      ]
+    },
+    {
+      "action": "*even the barista's losing it behind the counter*",
+      "bg": { "place": "restaurant" },
+      "cast": [
+        { "name": "BARISTA", "want": ["laughing", "excited", "amused", "giggling"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*now I'm leading the café chants*",
+      "bg": { "place": "restaurant" },
+      "cast": [
+        { "name": "ME", "want": ["excited", "celebrating", "hype", "performing"], "size": 0.5 }
+      ]
+    },
+    {
+      "action": "*coffee cold. untouched. worth it.*",
+      "bg": { "place": "restaurant" },
+      "cast": [
+        { "name": "ME", "want": ["content", "proud", "deadpan", "blissful"], "size": 0.5 }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

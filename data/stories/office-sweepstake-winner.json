@@ -1,0 +1,185 @@
+{
+  "title": "The Coworker Who Hates Football Won The Office Sweepstake",
+  "output": "office-sweepstake-winner.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the coworker who hates football won the office sweepstake",
+  "outro": "FOLLOW — DEREK RETURNS",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*I studied every team. every form guide.*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "confident",
+            "focused",
+            "studious",
+            "determined"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*DEREK picked \"the one with nice colors\"*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "DEREK",
+          "want": [
+            "bored",
+            "indifferent",
+            "clueless",
+            "unbothered"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*my teams crash out one by one*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "shocked",
+            "distraught",
+            "disbelief",
+            "defeated"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*DEREK, not looking up: \"is that good?\"*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "DEREK",
+          "want": [
+            "oblivious",
+            "calm",
+            "indifferent",
+            "distracted"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*his team keeps winning. mine are on the plane home.*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "anguished",
+            "betrayed",
+            "distraught",
+            "disbelief"
+          ],
+          "size": 0.4,
+          "pos": 0.30
+        },
+        {
+          "name": "DEREK",
+          "want": [
+            "calm",
+            "unbothered",
+            "content",
+            "indifferent"
+          ],
+          "size": 0.4,
+          "pos": 0.70,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*DEREK collects the entire prize pot*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "DEREK",
+          "want": [
+            "smug",
+            "pleased",
+            "content",
+            "satisfied"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*muhehehe*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "DEREK",
+          "want": [
+            "gloating",
+            "evil-laugh",
+            "scheming",
+            "smug"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*PART 1 OF DEREK ALWAYS WINS*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "defeated",
+            "deadpan",
+            "resigned",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}
