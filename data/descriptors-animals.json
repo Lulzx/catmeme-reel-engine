@@ -2527,7 +2527,7 @@
       "mouth-open",
       "tired",
       "stretchy",
-      "blasé",
+      "blas\u00e9",
       "relaxed"
     ],
     "action": "orange and white cat sits calmly then throws head back in a wide yawn",
@@ -3070,7 +3070,7 @@
       "narrating"
     ],
     "action": "ginger cat bobs its head with eyes squeezed shut, mouth opening and closing as it 'sings' the looping yapapa tune",
-    "sound": "the catchy 'yapapa' meme song — rhythmic sing-song meowing",
+    "sound": "the catchy 'yapapa' meme song \u2014 rhythmic sing-song meowing",
     "use_for": "yapping on and on, singing a dumb little song, carefree vibing, comedic narration, talking nonstop without a care, being blissfully oblivious, hyping a moment up, a recurring mascot beat",
     "quality": "good",
     "note": "single seamless 8s loop extracted from a 7x-repeated template (intro text card + repeats stripped); starts/ends in silence so it loops cleanly",
@@ -3109,6 +3109,66 @@
       "curious",
       "mischievous",
       "content"
+    ]
+  },
+  "184": {
+    "primary": "villainous giggle",
+    "emotions": [
+      "laughing",
+      "giggling",
+      "hehehe",
+      "evil-laugh",
+      "villain",
+      "scheming",
+      "smug-laugh",
+      "mischief-achieved",
+      "cant-hold-it-in",
+      "muhehehe",
+      "plotting",
+      "gloating",
+      "snickering",
+      "chuckling"
+    ],
+    "action": "cream-colored cat squints and opens its mouth in three distinct 'hehehe' villain giggles, whiskers twitching with each laugh",
+    "sound": "a raspy little 'heh-heh-heh' villain chuckle, repeated three times",
+    "use_for": "an evil plan coming together, laughing at someone's misfortune, a scheming payoff beat, gloating after winning, mischievous satisfaction, the smug 'muhehehe' reaction",
+    "quality": "good",
+    "note": "clean 1080p green screen, no intro card; three laugh bursts across 11s \u2014 trim to one burst (~2.5s) for a short beat",
+    "tax": [
+      "mischievous",
+      "playful",
+      "happy",
+      "proud"
+    ]
+  },
+  "185": {
+    "primary": "hypnotic oiia spin",
+    "emotions": [
+      "spinning",
+      "oiia",
+      "brainrot",
+      "glitching",
+      "chaos",
+      "dizzy",
+      "malfunctioning",
+      "losing-it",
+      "spiraling",
+      "hypnotic",
+      "meme-song",
+      "short-circuit",
+      "brain-empty",
+      "whirling"
+    ],
+    "action": "gray tabby stands facing camera, then whirls into a rapid blurred spin in place \u2014 the OIIA spinning-cat meme",
+    "sound": "the glitchy AI 'oiia oiia' chant synced to the spin",
+    "use_for": "brain short-circuiting, spiraling out, chaotic overload, dissociating hard, a malfunctioning-mind beat, meme-brainrot energy, thoughts going in circles",
+    "quality": "good",
+    "note": "1280x698, clean green screen; cat stands still ~2s then spins \u2014 trim to the spin for a chaos beat",
+    "tax": [
+      "confused",
+      "excited",
+      "playful",
+      "scared"
     ]
   }
 }
