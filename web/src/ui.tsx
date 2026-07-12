@@ -52,6 +52,9 @@ export const IconGrid = (p: IP) => (
 export const IconBook = (p: IP) => (
   <S {...p}><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5v14Z" /><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5" /></S>
 );
+export const IconScroll = (p: IP) => (
+  <S {...p}><path d="M6 4h11a2 2 0 0 1 2 2v11a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V6a2 2 0 0 1 2-2Z" /><path d="M9 8.5h7M9 12h7M9 15.5h4" /></S>
+);
 export const IconWand = (p: IP) => (
   <S {...p}><path d="M15 4V2M15 10V8M9 4H7M19 4h-2M12.5 6.5 11 5M18 11l-1.5-1.5M4 20l9-9M14 7l3 3" /></S>
 );

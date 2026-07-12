@@ -64,6 +64,44 @@ export interface Story {
   [k: string]: unknown;
 }
 
+export interface SagaSummary {
+  slug: string;
+  title: string;
+  output: string;
+  scenes: number;
+  narrator: string;
+}
+
+export interface SagaCast {
+  name?: string;
+  want?: string[];
+  clip?: string;
+  size?: number;
+}
+
+export interface SagaScene {
+  id: string;
+  kind?: "scene" | "transformation";
+  mood?: string;
+  vo?: string;
+  caption?: string;
+  bg?: { img?: string; place?: string };
+  cast?: SagaCast | SagaCast[];
+  panels?: { label?: string; mood?: string; bg?: { img?: string }; cast?: SagaCast }[];
+}
+
+export interface Saga {
+  title?: string;
+  slug?: string;
+  output?: string;
+  canvas?: { w: number; h: number; fps: number };
+  voice?: { provider?: string; narrator?: string };
+  pace?: { tail?: number; tempo?: number };
+  music?: { src: string; gainDb?: number };
+  scenes: SagaScene[];
+  [k: string]: unknown;
+}
+
 export interface Output {
   name: string;
   url: string;
@@ -166,6 +204,18 @@ export const api = {
     return r.json();
   },
   renderStreamUrl: (slug: string) => `/api/render/${slug}/stream`,
+  sagas: () => get<SagaSummary[]>("/api/sagas"),
+  saga: (slug: string) => get<{ slug: string; raw: Saga }>(`/api/sagas/${slug}`),
+  saveSaga: async (slug: string, saga: Saga) => {
+    const r = await fetch(`/api/sagas/${slug}`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(saga),
+    });
+    if (!r.ok) throw new Error((await r.json()).detail || r.statusText);
+    return r.json();
+  },
+  sagaRenderStreamUrl: (slug: string) => `/api/sagas/${slug}/build-render/stream`,
 };
 
 export function fmtBytes(n: number): string {

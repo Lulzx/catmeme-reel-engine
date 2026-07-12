@@ -6,6 +6,7 @@ import {
   IconFilm,
   IconGrid,
   IconBook,
+  IconScroll,
   IconWand,
   IconCalendar,
   IconSun,
@@ -15,10 +16,11 @@ import {
 import { Gallery } from "./sections/Gallery";
 import { Library } from "./sections/Library";
 import { Stories } from "./sections/Stories";
+import { Sagas } from "./sections/Sagas";
 import { Match } from "./sections/Match";
 import { Calendar } from "./sections/Calendar";
 
-type Tab = "gallery" | "calendar" | "library" | "stories" | "match";
+type Tab = "gallery" | "calendar" | "library" | "stories" | "sagas" | "match";
 type IconCmp = (p: { className?: string }) => React.ReactNode;
 
 const NAV: { id: Tab; label: string; Icon: IconCmp }[] = [
@@ -26,6 +28,7 @@ const NAV: { id: Tab; label: string; Icon: IconCmp }[] = [
   { id: "calendar", label: "Calendar", Icon: IconCalendar },
   { id: "library", label: "Library", Icon: IconGrid },
   { id: "stories", label: "Stories", Icon: IconBook },
+  { id: "sagas", label: "Sagas", Icon: IconScroll },
   { id: "match", label: "Match", Icon: IconWand },
 ];
 
@@ -128,6 +131,7 @@ export default function App() {
           {tab === "calendar" && <Calendar />}
           {tab === "library" && <Library />}
           {tab === "stories" && <Stories />}
+          {tab === "sagas" && <Sagas />}
           {tab === "match" && <Match />}
         </main>
 
@@ -137,7 +141,7 @@ export default function App() {
 
         {/* mobile bottom tab bar */}
         <nav className="sm:hidden fixed bottom-0 inset-x-0 z-40 border-t border-black/5 dark:border-white/10 bg-white/85 dark:bg-ink/85 backdrop-blur-xl pb-[env(safe-area-inset-bottom)]">
-          <div className="grid grid-cols-5">
+          <div className="grid grid-cols-6">
             {NAV.map((n) => (
               <button
                 key={n.id}
