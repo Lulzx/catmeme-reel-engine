@@ -118,6 +118,27 @@ def render_md(con):
     db.export_json(con, VIDEOS_JSON)   # git-tracked JSON snapshot of the DB
 
 
+# ── description helpers ──────────────────────────────────────────────────────
+def _chapter_block(chapters):
+    """Render saga chapters as a YouTube-parseable timestamp list. YouTube only
+    shows a chapter UI when the first stamp is 0:00 and there are ≥3 ascending
+    stamps — so we emit nothing (harmless) for shorter/sparse sagas."""
+    if not chapters or len(chapters) < 3:
+        return ""
+    lines = []
+    for c in chapters:
+        sec = int(c.get("at", 0))
+        lines.append(f"{sec // 60}:{sec % 60:02d} {c.get('title', '')}".rstrip())
+    if not lines[0].startswith("0:00"):
+        return ""
+    return "\n\nChapters:\n" + "\n".join(lines)
+
+
+def _build_description(v):
+    """The upload description: the stored text plus auto chapter timestamps."""
+    return (v.get("description") or "") + _chapter_block(v.get("chapters"))
+
+
 # ── youtube api ─────────────────────────────────────────────────────────────
 def get_service():
     try:
@@ -165,7 +186,7 @@ def upload(con, slug, privacy=None, publish_at=None):
     if publish_at:
         status["publishAt"] = publish_at
     body = {
-        "snippet": {"title": v["title"][:100], "description": v["description"],
+        "snippet": {"title": v["title"][:100], "description": _build_description(v),
                     "tags": v["tags"], "categoryId": d.get("categoryId", "15")},
         "status": status,
     }

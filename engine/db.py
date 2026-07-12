@@ -13,7 +13,15 @@ from engine.paths import DATA
 DB_PATH = os.path.join(DATA, "videos.db")
 
 VIDEO_COLS = ["slug", "sort_order", "pov", "title", "description", "tags",
-              "file", "status", "posted", "publish_at", "video_id"]
+              "file", "status", "posted", "publish_at", "video_id",
+              "kind", "duration_sec", "chapters"]
+
+# Columns added after the original schema shipped. init() ALTERs them onto any
+# pre-existing videos.db (the store is the source of truth and long-lived, so a
+# bare CREATE-only schema would leave older DBs missing these).
+_ADDED_COLS = [("kind", "TEXT DEFAULT 'short'"),   # 'short' | 'saga'
+               ("duration_sec", "INTEGER"),
+               ("chapters", "TEXT")]               # JSON array of {title, at}
 
 
 def connect(path=None):
@@ -37,7 +45,10 @@ def init(con):
         status      TEXT DEFAULT 'queued',      -- authored|queued|scheduled|posted
         posted      TEXT,
         publish_at  TEXT,
-        video_id    TEXT
+        video_id    TEXT,
+        kind        TEXT DEFAULT 'short',       -- short (POV reel) | saga (long-form)
+        duration_sec INTEGER,
+        chapters    TEXT                        -- JSON array of {title, at}
     );
     CREATE TABLE IF NOT EXISTS clip_usage (
         slug    TEXT,
@@ -45,6 +56,10 @@ def init(con):
         PRIMARY KEY (slug, clip_id)
     );
     """)
+    have = {r["name"] for r in con.execute("PRAGMA table_info(videos)").fetchall()}
+    for name, decl in _ADDED_COLS:
+        if name not in have:
+            con.execute(f"ALTER TABLE videos ADD COLUMN {name} {decl}")
     con.commit()
 
 
@@ -65,25 +80,30 @@ def meta_get(con, key, default=None):
 def _row_to_video(r):
     d = {k: r[k] for k in VIDEO_COLS}
     d["tags"] = json.loads(d["tags"]) if d["tags"] else []
+    d["chapters"] = json.loads(d["chapters"]) if d.get("chapters") else []
+    d["kind"] = d.get("kind") or "short"
     return d
 
 
 def upsert_video(con, v):
     tags = json.dumps(v.get("tags", []))
+    chapters = json.dumps(v.get("chapters", []))
     con.execute("""
-        INSERT INTO videos (slug,sort_order,pov,title,description,tags,file,status,posted,publish_at,video_id)
-        VALUES (:slug,:sort_order,:pov,:title,:description,:tags,:file,:status,:posted,:publish_at,:video_id)
+        INSERT INTO videos (slug,sort_order,pov,title,description,tags,file,status,posted,publish_at,video_id,kind,duration_sec,chapters)
+        VALUES (:slug,:sort_order,:pov,:title,:description,:tags,:file,:status,:posted,:publish_at,:video_id,:kind,:duration_sec,:chapters)
         ON CONFLICT(slug) DO UPDATE SET
             sort_order=excluded.sort_order, pov=excluded.pov, title=excluded.title,
             description=excluded.description, tags=excluded.tags, file=excluded.file,
             status=excluded.status, posted=excluded.posted,
-            publish_at=excluded.publish_at, video_id=excluded.video_id
+            publish_at=excluded.publish_at, video_id=excluded.video_id,
+            kind=excluded.kind, duration_sec=excluded.duration_sec, chapters=excluded.chapters
     """, {
         "slug": v["slug"], "sort_order": v.get("sort_order", 0), "pov": v.get("pov"),
         "title": v.get("title"), "description": v.get("description"), "tags": tags,
         "file": v.get("file"), "status": v.get("status", "queued"),
         "posted": v.get("posted"), "publish_at": v.get("publish_at"),
-        "video_id": v.get("video_id"),
+        "video_id": v.get("video_id"), "kind": v.get("kind", "short"),
+        "duration_sec": v.get("duration_sec"), "chapters": chapters,
     })
     con.commit()
 

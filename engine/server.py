@@ -13,6 +13,10 @@ Endpoints
   GET  /api/stories                 story summaries
   GET  /api/stories/{slug}          full story + the clip each beat resolves to
   PUT  /api/stories/{slug}          save edited story json
+  GET  /api/sagas                   long-form saga summaries
+  GET  /api/sagas/{slug}            full saga json
+  PUT  /api/sagas/{slug}            save edited saga json
+  GET  /api/sagas/{slug}/build-render/stream  build+render a saga locally (SSE)
   GET  /api/outputs                 rendered reels (+ duration / size / poster)
   GET  /api/match                   live matcher: want=a,b&query=..&limit=n
   GET  /api/render/{slug}/stream    run a render, stream ffmpeg logs over SSE
@@ -33,7 +37,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 
 import paths, match as M
-from paths import (CLIPS, BACKGROUNDS, STORIES, OUTPUT, FRAMES, WORK, CATALOG, DATA)
+from paths import (CLIPS, BACKGROUNDS, STORIES, SAGAS, OUTPUT, FRAMES, WORK, CATALOG, DATA)
 from engine import db as DB, upload as UP
 
 paths.ensure()
@@ -148,6 +152,85 @@ async def api_save_story(slug: str, request: Request):
     with open(path, "w") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
     return {"ok": True, "slug": slug}
+
+# --- sagas (long-form narrated stories) --------------------------------------
+def _saga_path(slug):
+    p = os.path.join(SAGAS, slug + ".json")
+    if not os.path.exists(p):
+        raise HTTPException(404, f"no saga '{slug}'")
+    return p
+
+def saga_summary(slug, data):
+    scenes = data.get("scenes", [])
+    return {"slug": slug,
+            "title": data.get("title", slug),
+            "output": data.get("output", f"{slug}.mp4"),
+            "scenes": len(scenes),
+            "narrator": (data.get("voice") or {}).get("narrator", "")}
+
+@app.get("/api/sagas")
+def api_sagas():
+    out = []
+    if os.path.isdir(SAGAS):
+        for fn in sorted(os.listdir(SAGAS)):
+            if fn.endswith(".json"):
+                slug = fn[:-5]
+                try:
+                    with open(os.path.join(SAGAS, fn)) as f:
+                        out.append(saga_summary(slug, json.load(f)))
+                except Exception:
+                    continue
+    return out
+
+@app.get("/api/sagas/{slug}")
+def api_saga(slug: str):
+    with open(_saga_path(slug)) as f:
+        data = json.load(f)
+    return {"slug": slug, "raw": data}
+
+@app.put("/api/sagas/{slug}")
+async def api_save_saga(slug: str, request: Request):
+    body = await request.body()
+    try:
+        data = json.loads(body)
+    except json.JSONDecodeError as e:
+        raise HTTPException(400, f"invalid JSON: {e}")
+    if not isinstance(data, dict) or "scenes" not in data:
+        raise HTTPException(400, "saga must be an object with a 'scenes' list")
+    os.makedirs(SAGAS, exist_ok=True)
+    with open(os.path.join(SAGAS, slug + ".json"), "w") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+    return {"ok": True, "slug": slug}
+
+@app.get("/api/sagas/{slug}/build-render/stream")
+def api_saga_render(slug: str):
+    """Build the saga's manifest, render it locally with Remotion, and register
+    it in the DB as a queued long-form video — streamed as SSE log lines. This is
+    the slow path (TTS + whisper + headless-Chrome render): minutes, not seconds."""
+    _saga_path(slug)                      # 404 early if the saga doesn't exist
+    out_name = f"{slug}.mp4"
+
+    def sse(obj):
+        return f"data: {json.dumps(obj)}\n\n"
+
+    def gen():
+        yield sse({"line": f"$ saga build + render {slug}", "kind": "cmd"})
+        proc = subprocess.Popen([sys.executable, "-u",
+                                 os.path.join(ENGINE, "saga_render.py"), slug],
+                                stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
+                                text=True, bufsize=1,
+                                env={**os.environ, "PYTHONUNBUFFERED": "1"})
+        for line in proc.stdout:
+            yield sse({"line": line.rstrip("\n")})
+        proc.wait()
+        ok = proc.returncode == 0
+        yield sse({"done": True, "code": proc.returncode, "ok": ok,
+                   "output": out_name if ok else None,
+                   "url": f"/media/output/{out_name}?t={int(time.time())}" if ok else None})
+
+    return StreamingResponse(gen(), media_type="text/event-stream",
+                             headers={"Cache-Control": "no-cache",
+                                      "X-Accel-Buffering": "no"})
 
 # --- outputs (rendered reels) ------------------------------------------------
 def _ffprobe_dur(path):
