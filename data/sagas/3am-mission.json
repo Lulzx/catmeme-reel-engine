@@ -1,0 +1,183 @@
+{
+  "title": "My 3 AM Mission",
+  "slug": "3am-mission",
+  "output": "3am-mission.mp4",
+  "logline": "A cat narrates its 3 AM chaos like a deep-cover military operation.",
+  "canvas": {
+    "w": 1920,
+    "h": 1080,
+    "fps": 30
+  },
+  "voice": {
+    "provider": "piper",
+    "narrator": "en_US-ryan-high"
+  },
+  "pace": {
+    "tail": 0.2,
+    "tempo": 1.08
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "mood": "tense",
+      "vo": "Zero-three-hundred hours. The humans are down. The apartment is mine.",
+      "bg": {
+        "img": "livingroom"
+      },
+      "cast": [
+        {
+          "want": [
+            "scheming",
+            "plotting",
+            "sly",
+            "alert"
+          ],
+          "size": 0.84
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "mood": "tense",
+      "vo": "Primary objective: the single most expensive object in this household.",
+      "bg": {
+        "img": "kitchen2"
+      },
+      "cast": [
+        {
+          "want": [
+            "intense",
+            "stare",
+            "determined",
+            "focused"
+          ],
+          "size": 0.82
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "mood": "dramatic",
+      "vo": "Target acquired. A full glass of water, left on the edge by an amateur. I hold eye contact with the sleeping human. I push.",
+      "bg": {
+        "img": "kitchen2"
+      },
+      "cast": [
+        {
+          "want": [
+            "slap",
+            "attack",
+            "smack"
+          ],
+          "size": 0.86
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "mood": "neutral",
+      "vo": "Impact. Glorious. A human stirs, mumbles my name, goes back to sleep. Amateur. I was never here.",
+      "bg": {
+        "img": "livingroom"
+      },
+      "cast": [
+        {
+          "want": [
+            "smug",
+            "unimpressed",
+            "deadpan"
+          ],
+          "size": 0.82
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "mood": "dramatic",
+      "vo": "Phase two: the zoomies. Top speed. No heading. No reason. Command does not question the zoomies.",
+      "bg": {
+        "img": "livingroom"
+      },
+      "cast": [
+        {
+          "want": [
+            "hype",
+            "zoomies",
+            "excited",
+            "dancing"
+          ],
+          "size": 0.84
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "mood": "dramatic",
+      "vo": "I scream. Once. Into the dark. Not a cry for help. A statement of ownership.",
+      "bg": {
+        "img": "livingroom"
+      },
+      "cast": [
+        {
+          "clip": "170",
+          "size": 0.9
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "mood": "bloomer",
+      "vo": "Objective complete. I will now sleep for sixteen uninterrupted hours. The humans, regrettably, have jobs.",
+      "bg": {
+        "img": "livingroom"
+      },
+      "cast": [
+        {
+          "want": [
+            "content",
+            "smug",
+            "sleepy"
+          ],
+          "size": 0.82
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "kind": "transformation",
+      "mood": "neutral",
+      "vo": "The secret? Timing. And zero remorse.",
+      "panels": [
+        {
+          "label": "3 AM",
+          "mood": "dramatic",
+          "bg": {
+            "img": "livingroom"
+          },
+          "cast": {
+            "want": [
+              "hype",
+              "wild",
+              "chaos",
+              "screaming"
+            ]
+          }
+        },
+        {
+          "label": "9 AM",
+          "mood": "doomer",
+          "bg": {
+            "img": "livingroom"
+          },
+          "cast": {
+            "want": [
+              "dead-inside",
+              "sleepy",
+              "exhausted"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "title": "I Was Told To Touch Grass",
+  "slug": "touch-grass",
+  "output": "touch-grass.mp4",
+  "canvas": { "w": 1920, "h": 1080, "fps": 30 },
+  "voice": { "narrator": "expr-voice-5-m" },
+  "scenes": [
+    {
+      "id": "s1",
+      "mood": "doomer",
+      "vo": "They told me I needed to touch grass. I had not been outside in six days.",
+      "bg": { "img": "home" },
+      "cast": [ { "want": ["dead-inside", "exhausted", "done"], "size": 0.86 } ]
+    },
+    {
+      "id": "s2",
+      "mood": "dramatic",
+      "vo": "The sun. It burned. My eyes were simply not built for this.",
+      "bg": { "img": "grassland" },
+      "cast": [ { "want": ["dramatic", "shocked", "gasp"], "size": 0.84 } ]
+    },
+    {
+      "id": "s3",
+      "mood": "neutral",
+      "vo": "But then, I felt it. The grass. A breeze. A single, perfect bug.",
+      "bg": { "img": "grassland" },
+      "cast": [ { "want": ["goofy", "curious", "alert"], "size": 0.82 } ]
+    },
+    {
+      "id": "s4",
+      "mood": "bloomer",
+      "vo": "I am outside now. I am a wild animal. You should probably fear me.",
+      "bg": { "img": "grassland" },
+      "cast": [ { "want": ["hype", "excited", "dancing"], "size": 0.84 } ]
+    },
+    {
+      "id": "s5",
+      "kind": "transformation",
+      "mood": "bloomer",
+      "vo": "Indoor cat? I don't know her.",
+      "panels": [
+        { "label": "BEFORE", "mood": "doomer", "bg": { "img": "home" },
+          "cast": { "want": ["dead-inside", "exhausted"] } },
+        { "label": "AFTER", "mood": "bloomer", "bg": { "img": "grassland" },
+          "cast": { "want": ["hype", "smug", "celebrating"] } }
+      ]
+    }
+  ]
+}

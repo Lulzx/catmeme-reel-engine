@@ -1,0 +1,70 @@
+{
+  "title": "My Friends Staged An Intervention",
+  "slug": "the-intervention",
+  "output": "the-intervention.mp4",
+  "canvas": { "w": 1920, "h": 1080, "fps": 30 },
+  "voice": { "narrator": "expr-voice-5-m" },
+  "scenes": [
+    {
+      "id": "s1",
+      "mood": "doomer",
+      "vo": "It was supposed to be a normal Tuesday. Then my friends showed up at the door.",
+      "bg": { "img": "home" },
+      "cast": [ { "want": ["zoning-out", "blank", "deadpan"], "size": 0.86 } ]
+    },
+    {
+      "id": "s2",
+      "mood": "dramatic",
+      "vo": "An intervention. For me. Apparently, and I quote, I had been a lot.",
+      "bg": { "img": "home" },
+      "cast": [ { "want": ["shocked", "dramatic", "gasp"], "size": 0.84 } ]
+    },
+    {
+      "id": "s3",
+      "mood": "tense",
+      "vo": "They listed my crimes. The three a.m. zoomies. The judging. The biting.",
+      "bg": { "img": "home" },
+      "cast": [ { "want": ["yapping", "ranting", "complaining"], "size": 0.82 } ]
+    },
+    {
+      "id": "s4",
+      "mood": "sad",
+      "vo": "I tried to defend myself. I had no defense. They were completely right.",
+      "bg": { "img": "home" },
+      "cast": [ { "want": ["sad", "pleading", "crying"], "size": 0.84 } ]
+    },
+    {
+      "id": "s5",
+      "mood": "tense",
+      "vo": "So I made a choice. I would become a better cat. Probably. Eventually.",
+      "bg": { "img": "home" },
+      "cast": [ { "want": ["scheming", "plotting", "determined"], "size": 0.82 } ]
+    },
+    {
+      "id": "s6",
+      "mood": "bloomer",
+      "vo": "New me. I greet them at the door. I do not bite. As much.",
+      "bg": { "img": "home" },
+      "cast": [ { "want": ["happy", "excited", "content"], "size": 0.84 } ]
+    },
+    {
+      "id": "s7",
+      "mood": "dramatic",
+      "vo": "Okay, I bit one of them. But only a little. Growth is not linear.",
+      "bg": { "img": "home" },
+      "cast": [ { "want": ["goofy", "dramatic", "silly"], "size": 0.82 } ]
+    },
+    {
+      "id": "s8",
+      "kind": "transformation",
+      "mood": "bloomer",
+      "vo": "From menace, to slightly less of a menace. We call that progress.",
+      "panels": [
+        { "label": "BEFORE", "mood": "doomer", "bg": { "img": "home" },
+          "cast": { "want": ["dead-inside", "zoning-out"] } },
+        { "label": "AFTER", "mood": "bloomer", "bg": { "img": "grassland" },
+          "cast": { "want": ["hype", "happy", "celebrating"] } }
+      ]
+    }
+  ]
+}

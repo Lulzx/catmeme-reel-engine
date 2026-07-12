@@ -1,0 +1,123 @@
+{
+  "title": "From Doomer Cat to Bloomer Cat",
+  "slug": "glow-up",
+  "output": "glow-up.mp4",
+  "canvas": {
+    "w": 1920,
+    "h": 1080,
+    "fps": 30
+  },
+  "voice": {
+    "narrator": "expr-voice-5-m"
+  },
+  "scenes": [
+    {
+      "id": "s1",
+      "mood": "doomer",
+      "vo": "Six months ago, I was not okay. I slept twenty hours a day, and I judged everyone who didn't.",
+      "bg": {
+        "img": "home"
+      },
+      "cast": [
+        {
+          "want": [
+            "dead-inside",
+            "exhausted",
+            "done"
+          ],
+          "size": 0.86
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "mood": "sad",
+      "vo": "My human said I'd gotten bitter. A little gremlin. And honestly? She wasn't wrong.",
+      "bg": {
+        "img": "home"
+      },
+      "cast": [
+        {
+          "want": [
+            "sad",
+            "crying",
+            "pleading"
+          ],
+          "size": 0.84
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "mood": "dramatic",
+      "vo": "Then one morning, I caught my reflection in the window. Something had to change.",
+      "bg": {
+        "img": "mountain"
+      },
+      "cast": [
+        {
+          "want": [
+            "dramatic",
+            "shocked",
+            "gasp"
+          ],
+          "size": 0.82
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "mood": "bloomer",
+      "vo": "So I started small. Sunbeam naps. Chasing the little red dot. And slowly, I felt alive again.",
+      "bg": {
+        "img": "grassland"
+      },
+      "cast": [
+        {
+          "want": [
+            "hype",
+            "excited",
+            "dancing"
+          ],
+          "size": 0.84
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "kind": "transformation",
+      "mood": "bloomer",
+      "vo": "From doomer cat, to bloomer cat. If I can do it, so can you.",
+      "panels": [
+        {
+          "label": "BEFORE",
+          "mood": "doomer",
+          "bg": {
+            "img": "home"
+          },
+          "cast": {
+            "want": [
+              "dead-inside",
+              "sad",
+              "depressed"
+            ]
+          }
+        },
+        {
+          "label": "AFTER",
+          "mood": "bloomer",
+          "bg": {
+            "img": "grassland"
+          },
+          "cast": {
+            "want": [
+              "hype",
+              "dancing",
+              "celebrating"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
