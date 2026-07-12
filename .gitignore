@@ -11,6 +11,8 @@ clips/
 # (frames, overlays, composited bg, web cache, per-beat clips; finished reels)
 work/
 output/
+# Remotion's headless-Chrome download (~200M, re-fetched on demand)
+.remotion/
 
 # ── Images ───────────────────────────────────────────────────────────
 *.jpg
