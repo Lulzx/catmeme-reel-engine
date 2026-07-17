@@ -1,10 +1,10 @@
-"""Author a wojak-style cat story as simple JSON; this builds the Remotion
+"""Author a wojak-style cat story as simple JSON; this builds the render
 manifest. Semantic in -> deterministic out: resolves clips (match.py), synthesizes
 narration (KittenTTS), times captions (whisper.cpp), computes grounded geometry +
-mood grading. Remotion just renders the manifest.
+mood grading. HyperFrames just renders the manifest.
 
   python3 engine/saga_build.py data/sagas/<slug>.json
-  -> work/manifests/<slug>.json   (render with remotion/scripts/render-local.mjs)
+  -> work/manifests/<slug>.json   (render with hyperframes/render.mjs)
 """
 from __future__ import annotations
 import json

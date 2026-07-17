@@ -204,7 +204,7 @@ async def api_save_saga(slug: str, request: Request):
 
 @app.get("/api/sagas/{slug}/build-render/stream")
 def api_saga_render(slug: str):
-    """Build the saga's manifest, render it locally with Remotion, and register
+    """Build the saga's manifest, render it locally with HyperFrames, and register
     it in the DB as a queued long-form video — streamed as SSE log lines. This is
     the slow path (TTS + whisper + headless-Chrome render): minutes, not seconds."""
     _saga_path(slug)                      # 404 early if the saga doesn't exist

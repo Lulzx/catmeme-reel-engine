@@ -1,9 +1,0 @@
-node_modules/
-whisper.cpp/
-out/
-.remotion/
-# public/ holds symlinks into ../work and ../backgrounds — regenerable, not committed
-public/sprites
-public/seq
-public/audio
-public/bg

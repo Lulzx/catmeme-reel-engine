@@ -6,7 +6,8 @@ Shorts pipeline can import it from here). `sprite_box()` is the long-form varian
 it positions a *tight-cropped* cat cutout as a grounded "bust", wojak-style.
 
 MOODS turns a one-word emotion ("doomer", "bloomer", ...) into resolved CSS the
-Remotion renderer applies verbatim — the brain stays in Python; Remotion stays dumb.
+HyperFrames renderer applies verbatim — the brain stays in Python; the renderer
+stays dumb.
 """
 from __future__ import annotations
 

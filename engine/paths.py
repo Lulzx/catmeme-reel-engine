@@ -6,14 +6,14 @@ Layout:
   data/          committed text data
     catalog.json   the "describe once" clip library
     stories/*.json the narratives (short POV reels)
-    sagas/*.json   long-form narrated cat stories (Remotion sagas)
+    sagas/*.json   long-form narrated cat stories (HyperFrames sagas)
   work/          regenerable artifacts (safe to delete; rebuilt on demand)
     frames/        one representative frame per clip
     overlays/      per-beat text-overlay PNGs
     bg_render/     per-beat composited background PNGs
     bg_cache/      web-fetched background photos (cached by query)
     beat_clips/    per-beat rendered mp4s + concat list
-    manifests/     per-saga Remotion input-prop manifests
+    manifests/     per-saga render manifests (HyperFrames input)
   output/        finished reels
 """
 import os

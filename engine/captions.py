@@ -14,8 +14,21 @@ try:
 except ImportError:
     from paths import WORK, ROOT
 
-TRANSCRIBE = os.path.join(ROOT, "remotion", "scripts", "transcribe.mjs")
 CAP_WORK = os.path.join(WORK, "captions")
+WHISPER_MODEL = "base.en"  # word-timing clock; the displayed text comes from the script
+
+
+def _whisper_words(w16):
+    """Word-level timings for a 16kHz wav via `hyperframes transcribe`.
+    Returns [{text, startMs, endMs}] (whisper's words — used only for their clock)."""
+    r = subprocess.run(
+        ["npx", "hyperframes", "transcribe", w16,
+         "--engine", "whisper", "--model", WHISPER_MODEL, "--json"],
+        check=True, capture_output=True, text=True, cwd=ROOT)
+    summary = json.loads(r.stdout)
+    words = json.load(open(summary["transcriptPath"]))
+    return [{"text": w["text"], "startMs": round(w["start"] * 1000),
+             "endMs": round(w["end"] * 1000)} for w in words]
 
 
 def align(script_text, whisper_words):
@@ -47,18 +60,12 @@ def tokens_for(wavs: dict, scripts: dict | None = None) -> dict:
         return {}
     scripts = scripts or {}
     os.makedirs(CAP_WORK, exist_ok=True)
-    items = []
+    whisper = {}
     for sid, wav in wavs.items():
         w16 = os.path.join(CAP_WORK, f"{sid}.16k.wav")
         subprocess.run(["ffmpeg", "-y", "-nostdin", "-i", wav, "-ar", "16000", "-ac", "1", w16],
                        check=True, capture_output=True)
-        items.append({"id": sid, "wav": w16})
-    inp = os.path.join(CAP_WORK, "in.json")
-    outp = os.path.join(CAP_WORK, "out.json")
-    json.dump(items, open(inp, "w"))
-    subprocess.run(["node", TRANSCRIBE, inp, outp], check=True,
-                   cwd=os.path.join(ROOT, "remotion"))
-    whisper = json.load(open(outp))
+        whisper[sid] = _whisper_words(w16)
     # Relabel whisper timing with the known script text.
     return {sid: align(scripts.get(sid, ""), words) if scripts.get(sid) else words
             for sid, words in whisper.items()}

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Build a saga's Remotion manifest, render it locally to output/<slug>.mp4, and
-register it in videos.db so it schedules + posts through the SAME YouTube pipeline
-as the Shorts (engine/upload.py, the Calendar tab, fill_schedule, …).
+"""Build a saga's manifest, render it locally to output/<slug>.mp4, and register
+it in videos.db so it schedules + posts through the SAME YouTube pipeline as the
+Shorts (engine/upload.py, the Calendar tab, fill_schedule, …).
 
 Everything is local + $0: saga_build.py synthesises narration (Piper/Kitten) and
-caption timing (whisper.cpp), then remotion/scripts/render-local.mjs renders on
-the Mac. No cloud, no Lambda.
+caption timing (whisper.cpp), then hyperframes/render.mjs renders on the Mac with
+HyperFrames (HTML + GSAP). No cloud, no Lambda.
 
 Progress streams to stdout so the web server can relay it over SSE
 (GET /api/sagas/<slug>/build-render/stream).
@@ -30,7 +30,7 @@ import saga_build  # noqa: E402
 from engine import db as DB  # noqa: E402
 from engine import upload as UP  # noqa: E402
 
-RENDER_MJS = os.path.join(REPO, "remotion", "scripts", "render-local.mjs")
+RENDER_MJS = os.path.join(REPO, "hyperframes", "render.mjs")
 
 
 def _ffprobe_dur(path):
@@ -91,14 +91,14 @@ def build_and_render(slug, do_register=True):
         sys.exit(f"no saga '{slug}' at {spath}")
     story = json.load(open(spath))
 
-    # 1) semantic JSON -> Remotion manifest (narration, captions, geometry)
+    # 1) semantic JSON -> render manifest (narration, captions, geometry)
     print(f"── building manifest for {slug} ──", flush=True)
     manifest = saga_build.build(spath)
 
-    # 2) render locally with Remotion -> output/<slug>.mp4
+    # 2) render locally with HyperFrames -> output/<slug>.mp4
     out_rel = os.path.join("output", f"{slug}.mp4")
     out_abs = os.path.join(REPO, out_rel)
-    print(f"── rendering {slug} locally (remotion) ──", flush=True)
+    print(f"── rendering {slug} locally (hyperframes) ──", flush=True)
     proc = subprocess.Popen(
         ["node", RENDER_MJS, manifest, out_abs],
         cwd=REPO, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
@@ -108,7 +108,7 @@ def build_and_render(slug, do_register=True):
         sys.stdout.flush()
     proc.wait()
     if proc.returncode != 0:
-        sys.exit(f"remotion render failed (code {proc.returncode})")
+        sys.exit(f"hyperframes render failed (code {proc.returncode})")
     if not os.path.exists(out_abs):
         sys.exit(f"render reported success but {out_rel} is missing")
 
