@@ -3045,6 +3045,31 @@
       "kind": "short",
       "duration_sec": null,
       "chapters": []
+    },
+    {
+      "slug": "cat-explains-the-universe",
+      "sort_order": 125,
+      "pov": "POV: you asked your friend one simple question about space",
+      "title": "POV: you asked your friend one simple question about space 🐱 #shorts",
+      "description": "i asked if the moon is a planet. he started at the Big Bang.\n\nnew cat POVs every day 🐾\n#shorts #catmemes #pov #relatable #space #science",
+      "tags": [
+        "cat memes",
+        "pov",
+        "relatable",
+        "funny cats",
+        "shorts",
+        "space",
+        "science",
+        "friends"
+      ],
+      "file": "output/cat-explains-the-universe.mp4",
+      "status": "scheduled",
+      "posted": null,
+      "publish_at": "2026-07-29T18:04:47Z",
+      "video_id": "WGV2DzaDbsg",
+      "kind": "short",
+      "duration_sec": null,
+      "chapters": []
     }
   ]
 }
