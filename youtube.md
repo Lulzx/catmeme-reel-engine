@@ -123,6 +123,20 @@ Status: ✅ posted · 🕒 scheduled (auto-publishes later) · ⏳ queued (rende
 | 109 | ac-bill-arrives | POV: the electricity bill after a month of heatwave AC | 🕒 scheduled | 2026-07-25T00:30:00Z | output/ac-bill-arrives.mp4 |
 | 110 | forgot-own-name-intro | POV: you rehearsed your intro and still blanked on your own name | 🕒 scheduled | 2026-07-25T06:30:00Z | output/forgot-own-name-intro.mp4 |
 | 111 | closing-47-tabs | POV: closing all 47 tabs like a personality reboot | 🕒 scheduled | 2026-07-25T12:30:00Z | output/closing-47-tabs.mp4 |
+| 112 | push-door-pull | POV: the door says push and you pull it anyway | 🕒 scheduled | 2026-07-26T06:04:47Z | output/push-door-pull.mp4 |
+| 113 | stomach-growl-exam | POV: your stomach growls in a completely silent exam hall | 🕒 scheduled | 2026-07-26T12:04:47Z | output/stomach-growl-exam.mp4 |
+| 114 | wrong-chat-rant | POV: you send the rant to the wrong chat | 🕒 scheduled | 2026-07-26T18:04:47Z | output/wrong-chat-rant.mp4 |
+| 115 | typing-then-stopped | POV: they're typing. they stop. they're typing. they stop. | 🕒 scheduled | 2026-07-27T00:04:47Z | output/typing-then-stopped.mp4 |
+| 116 | derek-send-it-later | POV: the friend who says 'i'll send it later' | 🕒 scheduled | 2026-07-27T06:04:47Z | output/derek-send-it-later.mp4 |
+| 117 | see-my-screen | POV: he shared the whole desktop instead of the slides | 🕒 scheduled | 2026-07-27T12:04:47Z | output/see-my-screen.mp4 |
+| 118 | no-rush-four-minutes | POV: 'no rush on this' and then a follow-up in 4 minutes | 🕒 scheduled | 2026-07-27T18:04:47Z | output/no-rush-four-minutes.mp4 |
+| 119 | empty-bottle-back | POV: someone put the empty bottle back in the fridge | 🕒 scheduled | 2026-07-28T00:04:47Z | output/empty-bottle-back.mp4 |
+| 120 | other-queue-moves | POV: you pick the short queue and it becomes the slow one | 🕒 scheduled | 2026-07-28T06:04:47Z | output/other-queue-moves.mp4 |
+| 121 | only-one-who-is-hot | POV: you're the only person in the room who is hot | 🕒 scheduled | 2026-07-28T12:04:47Z | output/only-one-who-is-hot.mp4 |
+| 122 | fan-remote-two-feet | POV: the fan remote is two feet away | 🕒 scheduled | 2026-07-28T18:04:47Z | output/fan-remote-two-feet.mp4 |
+| 123 | at-your-gate-sir | POV: the delivery guy is at your gate. it is not your gate. | 🕒 scheduled | 2026-07-29T00:04:47Z | output/at-your-gate-sir.mp4 |
+| 124 | holding-the-lift | POV: you hold the lift for someone who is very far away | 🕒 scheduled | 2026-07-29T06:04:47Z | output/holding-the-lift.mp4 |
+| 125 | auto-no-change | POV: the auto driver has no change and neither do you | 🕒 scheduled | 2026-07-29T12:04:47Z | output/auto-no-change.mp4 |
 
 **Recommended next:** — all posted/scheduled —
 Upload it with `python -m engine.upload --next`.
@@ -1351,3 +1365,157 @@ Upload it with `python -m engine.upload --next`.
   #shorts #catmemes #pov #relatable #funnycats #fyp #tabs #productivity
   ```
 - **Tags:** cat memes, pov, relatable, funny cats, shorts, tabs, productivity
+
+### push-door-pull 🕒
+- **Title:** POV: the door says push and you pull it anyway 🐱 #shorts
+- **Description:**
+  ```
+  it said push. i pulled it three times. he watched all three.
+  
+  new cat POVs every day 🐾
+  #shorts #catmemes #pov #relatable #fail #awkward #embarrassing
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, fail, awkward, embarrassing
+
+### stomach-growl-exam 🕒
+- **Title:** POV: your stomach growls in a completely silent exam hall 🐱 #shorts
+- **Description:**
+  ```
+  ninety minutes of silence and my stomach picks that exact moment.
+  
+  new cat POVs every day 🐾
+  #shorts #catmemes #pov #relatable #exam #school #students
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, exam, school, students
+
+### wrong-chat-rant 🕒
+- **Title:** POV: you send the rant to the wrong chat 🐱 #shorts
+- **Description:**
+  ```
+  the rant was perfect. the chat was wrong.
+  
+  new cat POVs every day 🐾
+  #shorts #catmemes #pov #relatable #groupchat #work #texting
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, group chat, work, texting
+
+### typing-then-stopped 🕒
+- **Title:** POV: they're typing. they stop. they're typing. they stop. 🐱 #shorts
+- **Description:**
+  ```
+  they typed. they stopped. they typed. they stopped. then: ok.
+  
+  new cat POVs every day 🐾
+  #shorts #catmemes #pov #relatable #texting #groupchat #waiting
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, texting, group chat, waiting
+
+### derek-send-it-later 🕒
+- **Title:** POV: the friend who says 'i'll send it later' 🐱 #shorts
+- **Description:**
+  ```
+  DEREK said he'd send it later. DEREK has never sent it later.
+  
+  new cat POVs every day 🐾
+  #shorts #catmemes #pov #relatable #derek #friends #money #billsplit
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, derek, friends, money, bill split
+
+### see-my-screen 🕒
+- **Title:** POV: he shared the whole desktop instead of the slides 🐱 #shorts
+- **Description:**
+  ```
+  he shared the entire desktop. all 47 tabs. one was a job site.
+  
+  new cat POVs every day 🐾
+  #shorts #catmemes #pov #relatable #office #zoom #workfromhome
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, office, zoom, work from home
+
+### no-rush-four-minutes 🕒
+- **Title:** POV: 'no rush on this' and then a follow-up in 4 minutes 🐱 #shorts
+- **Description:**
+  ```
+  'no rush on this one' and then a follow-up four minutes later.
+  
+  new cat POVs every day 🐾
+  #shorts #catmemes #pov #relatable #office #boss #work
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, office, boss, work
+
+### empty-bottle-back 🕒
+- **Title:** POV: someone put the empty bottle back in the fridge 🐱 #shorts
+- **Description:**
+  ```
+  someone put the empty bottle back in the fridge. so did i.
+  
+  new cat POVs every day 🐾
+  #shorts #catmemes #pov #relatable #home #family #fridge
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, home, family, fridge
+
+### other-queue-moves 🕒
+- **Title:** POV: you pick the short queue and it becomes the slow one 🐱 #shorts
+- **Description:**
+  ```
+  picked the short queue. the other one has been moving for ten minutes.
+  
+  new cat POVs every day 🐾
+  #shorts #catmemes #pov #relatable #supermarket #queue #shopping
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, supermarket, queue, shopping
+
+### only-one-who-is-hot 🕒
+- **Title:** POV: you're the only person in the room who is hot 🐱 #shorts
+- **Description:**
+  ```
+  it's 41 outside and everyone else has a blanket on.
+  
+  new cat POVs every day 🐾
+  #shorts #catmemes #pov #relatable #heatwave #summer #ac
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, heatwave, summer, ac
+
+### fan-remote-two-feet 🕒
+- **Title:** POV: the fan remote is two feet away 🐱 #shorts
+- **Description:**
+  ```
+  the remote was two feet away. i stayed hot.
+  
+  new cat POVs every day 🐾
+  #shorts #catmemes #pov #relatable #summer #lazy #heatwave
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, summer, lazy, heatwave
+
+### at-your-gate-sir 🕒
+- **Title:** POV: the delivery guy is at your gate. it is not your gate. 🐱 #shorts
+- **Description:**
+  ```
+  he was at a gate. it was not my gate. it says delivered.
+  
+  new cat POVs every day 🐾
+  #shorts #catmemes #pov #relatable #delivery #fooddelivery #orders
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, delivery, food delivery, orders
+
+### holding-the-lift 🕒
+- **Title:** POV: you hold the lift for someone who is very far away 🐱 #shorts
+- **Description:**
+  ```
+  i held the lift. he did the little run. it is never faster.
+  
+  new cat POVs every day 🐾
+  #shorts #catmemes #pov #relatable #office #lift #awkward
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, office, lift, awkward
+
+### auto-no-change 🕒
+- **Title:** POV: the auto driver has no change and neither do you 🐱 #shorts
+- **Description:**
+  ```
+  fare was 80. i had 100. he had nothing. we stood there for four minutes.
+  
+  new cat POVs every day 🐾
+  #shorts #catmemes #pov #relatable #autorickshaw #india #commute
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, auto rickshaw, india, commute
