@@ -1,0 +1,56 @@
+{
+  "title": "He Explains The Entire Universe",
+  "output": "cat-explains-the-universe.mp4",
+  "canvas": { "w": 1080, "h": 1920, "fps": 30 },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you asked your friend one simple question about space",
+  "outro": "FOLLOW FOR PART 2",
+  "outro_cast": [ { "name": "", "clip": "066", "want": ["dancing", "hype", "happy", "playful"], "size": 0.44 } ],
+  "beats": [
+    {
+      "action": "*me: is the moon a planet?*",
+      "bg": { "img": "cozy living room couch evening interior", "palette": "room" },
+      "cast": [ { "name": "ME", "clip": "147", "want": ["curious", "asking", "questioning", "innocent"], "size": 0.5 } ]
+    },
+    {
+      "action": "\"okay so. we have to start with the Big Bang\"",
+      "bg": { "img": "cozy living room couch evening interior", "palette": "brain" },
+      "cast": [ { "name": "FRIEND", "clip": "149", "want": ["explaining", "chatty"], "size": 0.5 } ]
+    },
+    {
+      "action": "*13.8 billion years. no bathroom break.*",
+      "bg": { "img": "dark starry night sky galaxy space", "palette": "void" },
+      "cast": [ { "name": "FRIEND", "want": ["yapping", "talking-nonstop", "ranting", "chatty"], "size": 0.5 } ]
+    },
+    {
+      "action": "\"and TECHNICALLY, you are made of stardust\"",
+      "bg": { "img": "nebula stars deep space purple", "palette": "void" },
+      "cast": [ { "name": "FRIEND", "want": ["presenting", "showing-off", "showman", "theatrical"], "size": 0.5 } ]
+    },
+    {
+      "action": "\"don't even get me STARTED on black holes\"",
+      "bg": { "img": "black hole space dark cosmic", "palette": "void" },
+      "cast": [ { "name": "FRIEND", "want": ["intense", "staring", "ominous", "menacing"], "size": 0.52 } ]
+    },
+    {
+      "action": "*me: so like... aliens?*",
+      "bg": { "img": "cozy living room couch evening interior", "palette": "room" },
+      "dur": 5.0,
+      "cast": [
+        { "name": "ME", "clip": "134", "want": ["cautious", "nervous", "awkward"], "size": 0.44, "pos": 0.3 },
+        { "name": "FRIEND", "clip": "027", "want": ["screaming", "outburst", "rage", "yelling"], "size": 0.5, "pos": 0.7, "flip": true }
+      ]
+    },
+    {
+      "action": "*he is now explaining the heat death of the universe*",
+      "bg": { "img": "dark empty starry night sky space", "palette": "void" },
+      "cast": [ { "name": "ME", "clip": "146", "want": ["zoning-out", "dead-inside", "blank-stare", "checked-out"], "size": 0.48 } ]
+    },
+    {
+      "action": "*I just wanted to know if the moon is a planet*",
+      "bg": { "img": "cozy living room couch night interior", "palette": "room" },
+      "cast": [ { "name": "ME", "clip": "059", "want": ["exhausted", "resigned", "defeated", "tired"], "size": 0.5 } ]
+    }
+  ]
+}
