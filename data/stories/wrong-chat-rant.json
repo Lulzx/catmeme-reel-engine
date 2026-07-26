@@ -1,0 +1,154 @@
+{
+  "title": "you send the rant to the wrong chat",
+  "output": "wrong-chat-rant.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you send the rant to the wrong chat",
+  "outro": "FOLLOW FOR MORE",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*ranting about my manager*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "ranting",
+            "furious",
+            "complaining",
+            "mouthy"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*typing fast, feeling great*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "typing",
+            "intense",
+            "focused",
+            "energetic"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*hit send*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "satisfied",
+            "smug",
+            "proud",
+            "confident"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*wrong chat*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "frozen",
+            "stunned",
+            "speechless",
+            "wide-eyed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*it went to the work group*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "terrified",
+            "panicked",
+            "freaking-out",
+            "distressed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*delete for everyone. four people already saw.*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "defeated",
+            "broken",
+            "dead-inside",
+            "empty"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*one of them was him*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "traumatized",
+            "blank-stare",
+            "frozen",
+            "hunched"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

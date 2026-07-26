@@ -1,0 +1,136 @@
+{
+  "title": "someone put the empty bottle back in the fridge",
+  "output": "empty-bottle-back.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: someone put the empty bottle back in the fridge",
+  "outro": "FOLLOW IF YOU'VE DONE THIS",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*2am. thirsty.*",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "sleepy",
+            "drowsy",
+            "tired",
+            "half-lidded"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*walking to the kitchen in the dark*",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "walking",
+            "creeping",
+            "sneaking",
+            "quiet"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the bottle is in the fridge*",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "hopeful",
+            "eager",
+            "reaching",
+            "wanting"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*it's empty*",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "stunned",
+            "blank-stare",
+            "speechless",
+            "frozen"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*someone put it back empty*",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "furious",
+            "indignant",
+            "betrayed",
+            "building-anger"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*i put it back empty too*",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "deadpan",
+            "nonchalant",
+            "unbothered",
+            "sly"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

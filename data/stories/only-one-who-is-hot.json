@@ -1,0 +1,149 @@
+{
+  "title": "you're the only person in the room who is hot",
+  "output": "only-one-who-is-hot.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you're the only person in the room who is hot",
+  "outro": "FOLLOW IF YOU'RE ALWAYS THE HOT ONE",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*it's 41 outside*",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "melting",
+            "exhausted",
+            "limp",
+            "sprawled"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*i am sweating through the sofa*",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "soaked",
+            "melting",
+            "droopy",
+            "tired"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*everyone else has a blanket*",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "disbelief",
+            "wtf",
+            "stunned",
+            "bewildered"
+          ],
+          "size": 0.4,
+          "pos": 0.3
+        },
+        {
+          "name": "THEM",
+          "want": [
+            "cozy",
+            "comfy",
+            "content",
+            "snuggling"
+          ],
+          "size": 0.4,
+          "pos": 0.7,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*\"can we put the AC on\"*",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "pleading",
+            "begging",
+            "asking",
+            "needy"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"no it's actually quite pleasant\"*",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "THEM",
+          "want": [
+            "dismissive",
+            "unbothered",
+            "smug",
+            "indifferent"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*i went and stood in the bathroom for a while*",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "defeated",
+            "melancholy",
+            "alone"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

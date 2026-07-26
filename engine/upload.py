@@ -34,7 +34,10 @@ VIDEOS_JSON   = os.path.join(ROOT, "data", "videos.json")
 CLIENT_SECRET = os.path.join(ROOT, "client_secret.json")
 TOKEN         = os.path.join(ROOT, "token.json")
 SCOPES        = ["https://www.googleapis.com/auth/youtube.upload",
-                 "https://www.googleapis.com/auth/youtube.readonly"]
+                 "https://www.googleapis.com/auth/youtube.readonly",
+                 # commentThreads.list refuses youtube.readonly under OAuth —
+                 # reading viewer comments (engine/insights.py) needs force-ssl.
+                 "https://www.googleapis.com/auth/youtube.force-ssl"]
 
 STATUS_ICON = {"posted": "✅", "scheduled": "🕒", "queued": "⏳", "authored": "📝"}
 DONE = ("posted", "scheduled")   # already on YouTube — never re-uploaded by --next
@@ -152,6 +155,14 @@ def get_service():
     creds = None
     if os.path.exists(TOKEN):
         creds = Credentials.from_authorized_user_file(TOKEN, SCOPES)
+        # A refresh only renews the scopes the token already carries. If SCOPES has
+        # grown since it was minted, drop it and force a fresh consent screen —
+        # otherwise the new scope silently never takes effect.
+        if creds and not set(SCOPES).issubset(set(creds.scopes or [])):
+            missing = sorted(set(SCOPES) - set(creds.scopes or []))
+            print(f"Token is missing scope(s): {', '.join(missing)}\n"
+                  f"Re-authorizing in the browser…")
+            creds = None
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())

@@ -1,0 +1,167 @@
+{
+  "title": "you hold the lift for someone who is very far away",
+  "output": "holding-the-lift.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you hold the lift for someone who is very far away",
+  "outro": "FOLLOW IF YOU DO THE LITTLE RUN",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*i hold the lift for a guy down the corridor*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "friendly",
+            "greeting",
+            "supportive",
+            "waving"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*he sees me holding it*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "waiting",
+            "patient",
+            "expectant",
+            "watching"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*he does the little run*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "HIM",
+          "want": [
+            "scrambling",
+            "energetic",
+            "hyper",
+            "flailing"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the little run is not faster than walking*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "unamused",
+            "deadpan",
+            "judging",
+            "flat"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*we are both committed now*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "awkward",
+            "uneasy",
+            "stiff",
+            "tense"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*he said thanks. i said no problem.*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "shy",
+            "awkward",
+            "apologetic",
+            "greeting"
+          ],
+          "size": 0.4,
+          "pos": 0.3
+        },
+        {
+          "name": "HIM",
+          "want": [
+            "friendly",
+            "greeting",
+            "smiling",
+            "warm"
+          ],
+          "size": 0.4,
+          "pos": 0.7,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*we went up in complete silence*",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "quiet",
+            "still",
+            "stiff",
+            "blank"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

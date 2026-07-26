@@ -1,0 +1,118 @@
+{
+  "title": "the fan remote is two feet away",
+  "output": "fan-remote-two-feet.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the fan remote is two feet away",
+  "outro": "FOLLOW IF THE REMOTE WON",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*fan is on speed one*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "warm",
+            "melting",
+            "squirming",
+            "droopy"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the remote is on the table*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "looking",
+            "glancing",
+            "noticing",
+            "staring"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the table is two feet away*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "pensive",
+            "focused",
+            "wondering",
+            "squint"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*i looked at it for a while*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "blank-stare",
+            "vacant",
+            "spaced-out",
+            "still"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*stayed hot*",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "lazy",
+            "sprawled",
+            "limp",
+            "unbothered"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "title": "you pick the short queue and it becomes the slow one",
+  "output": "other-queue-moves.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you pick the short queue and it becomes the slow one",
+  "outro": "FOLLOW FOR MORE",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*two queues. i pick the short one.*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "confident",
+            "smug",
+            "self-satisfied",
+            "proud"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*good decision. very smart.*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "self-satisfied",
+            "smug",
+            "content",
+            "cocky"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the other queue starts moving*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "noticing",
+            "glancing",
+            "curious",
+            "alert"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*mine has not moved*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "impatient",
+            "annoyed",
+            "irritated",
+            "waiting"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the man in front has forty items and a price check*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "fed-up",
+            "done",
+            "exhausted",
+            "unamused"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*the guy who came in after me is already outside*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "defeated",
+            "sulking",
+            "gloomy",
+            "downcast"
+          ],
+          "size": 0.4,
+          "pos": 0.3
+        },
+        {
+          "name": "HIM",
+          "want": [
+            "leaving",
+            "departing",
+            "carefree",
+            "strutting"
+          ],
+          "size": 0.4,
+          "pos": 0.7
+        }
+      ]
+    },
+    {
+      "action": "*i stayed in my queue. out of principle.*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "defensive",
+            "determined",
+            "stern",
+            "resigned"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

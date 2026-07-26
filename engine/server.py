@@ -368,7 +368,8 @@ async def api_draft(request: Request):
     """Scaffold a draft story from a POV premise; returns its slug."""
     body = await request.json()
     pov = (body or {}).get("pov", "").strip()
-    scene = (body or {}).get("scene", "home")
+    # None (not "home") so author.py rotates the scene per premise — see doc 15 rule 16
+    scene = (body or {}).get("scene") or None
     if not pov:
         raise HTTPException(400, "pov required")
     return {"slug": AUTHOR.write_draft(pov, scene)}

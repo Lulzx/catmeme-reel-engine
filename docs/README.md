@@ -27,6 +27,8 @@ onto a scene-relevant background, labels it, and renders a finished vertical vid
 | 11 | [11-prior-art.md](11-prior-art.md) | learnings from similar projects (AICatMeme, AI_Reaction_bot) |
 | 12 | [12-youtube-upload.md](12-youtube-upload.md) | the SQLite tracking store + YouTube upload/scheduling |
 | 13 | [13-deployment.md](13-deployment.md) | **the web UI deploy: `deploy.py`, the host, and SQLite sync** |
+| 14 | [14-analytics-and-trends.md](14-analytics-and-trends.md) | reading channel performance; which themes win; trendy clip curation |
+| 15 | [15-human-voice.md](15-human-voice.md) | **caption rules so scripts don't read as AI — enforced by `engine/lint_voice.py`** |
 
 ## TL;DR
 

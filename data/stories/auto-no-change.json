@@ -1,0 +1,167 @@
+{
+  "title": "the auto driver has no change and neither do you",
+  "output": "auto-no-change.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the auto driver has no change and neither do you",
+  "outro": "FOLLOW IF YOU SAID KEEP IT",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*fare is 80*",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "calm",
+            "content",
+            "chill",
+            "sitting"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*i give him 100*",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "confident",
+            "friendly",
+            "ready",
+            "cash"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"no change sir\"*",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "DRIVER",
+          "want": [
+            "matter-of-fact",
+            "unbothered",
+            "stern",
+            "nonchalant"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*i ask if he has 20*",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "asking",
+            "questioning",
+            "hopeful",
+            "earnest"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*he asks if i have 80*",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "blank",
+            "deadpan",
+            "speechless",
+            "flat"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*neither of us has moved in four minutes*",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "waiting",
+            "still",
+            "unmoved",
+            "patient"
+          ],
+          "size": 0.4,
+          "pos": 0.3
+        },
+        {
+          "name": "DRIVER",
+          "want": [
+            "waiting",
+            "unbothered",
+            "still",
+            "stoic"
+          ],
+          "size": 0.4,
+          "pos": 0.7,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*i told him to keep it*",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "defeated",
+            "done",
+            "tolerating"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

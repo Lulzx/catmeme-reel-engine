@@ -1,0 +1,167 @@
+{
+  "title": "the door says push and you pull it anyway",
+  "output": "push-door-pull.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the door says push and you pull it anyway",
+  "outro": "FOLLOW IF YOU'VE DONE THIS",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*the door says push*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "walking-in",
+            "confident",
+            "purposeful",
+            "calm"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*i pull it*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "struggling",
+            "reaching",
+            "determined",
+            "focused"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*i pull it again, harder*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "struggling",
+            "determined",
+            "focused",
+            "reaching"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*there's a guy inside watching me*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "embarrassed",
+            "flustered",
+            "awkward",
+            "nervous"
+          ],
+          "size": 0.4,
+          "pos": 0.3
+        },
+        {
+          "name": "HIM",
+          "want": [
+            "staring",
+            "watching",
+            "unamused",
+            "judging"
+          ],
+          "size": 0.4,
+          "pos": 0.7,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*i pull it a third time. i don't know why.*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "confused",
+            "blank-stare",
+            "dazed",
+            "clueless"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*he opens it from his side*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "humiliated",
+            "embarrassed",
+            "small",
+            "ashamed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*i said thank you about six times*",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "awkward",
+            "apologetic",
+            "flustered",
+            "shy"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

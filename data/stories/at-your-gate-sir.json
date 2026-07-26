@@ -1,0 +1,154 @@
+{
+  "title": "the delivery guy is at your gate. it is not your gate.",
+  "output": "at-your-gate-sir.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the delivery guy is at your gate. it is not your gate.",
+  "outro": "FOLLOW IF IT SAID DELIVERED",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*\"i'm at your gate sir\"*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "hopeful",
+            "eager",
+            "ready",
+            "cheerful"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*i go down. nobody there.*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "looking-around",
+            "confused",
+            "puzzled",
+            "wandering"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"which gate\"*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "asking",
+            "questioning",
+            "calling",
+            "impatient"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*\"your gate\"*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "blank",
+            "deadpan",
+            "speechless",
+            "flat"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*he sends a photo. that is not my building.*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "disbelief",
+            "stunned",
+            "wtf",
+            "bewildered"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*he cancelled the order*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "distressed",
+            "heartbroken",
+            "sorrowful",
+            "defeated"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*it says delivered*",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "dead-inside",
+            "blank-stare",
+            "empty",
+            "traumatized"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "title": "the friend who says 'i'll send it later'",
+  "output": "derek-send-it-later.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the friend who says 'i'll send it later'",
+  "outro": "DEREK 4, ME 0",
+  "outro_cast": [
+    {
+      "name": "",
+      "want": [
+        "cute",
+        "dancing",
+        "happy",
+        "playful"
+      ],
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "*i paid for everyone. again.*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "resigned",
+            "tired",
+            "done",
+            "tolerating"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*DEREK says he'll send it later*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "skeptical",
+            "doubtful",
+            "unconvinced",
+            "side-eye"
+          ],
+          "size": 0.4,
+          "pos": 0.3
+        },
+        {
+          "name": "DEREK",
+          "want": [
+            "nonchalant",
+            "carefree",
+            "unbothered",
+            "chill"
+          ],
+          "size": 0.4,
+          "pos": 0.7,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "*that evening. nothing.*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "waiting",
+            "patient",
+            "blank",
+            "still"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*next morning. nothing.*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "impatient",
+            "irritated",
+            "fed-up",
+            "annoyed"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*i sent him a screenshot of the bill*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "determined",
+            "insistent",
+            "serious",
+            "typing"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*he liked it*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "speechless",
+            "stunned",
+            "disbelief",
+            "frozen"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*muhehehe*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "DEREK",
+          "want": [
+            "muhehehe",
+            "evil-laugh",
+            "gloating",
+            "smug-laugh"
+          ],
+          "size": 0.5
+        }
+      ]
+    },
+    {
+      "action": "*i am going to pay next time as well*",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "want": [
+            "defeated",
+            "resigned",
+            "melancholy",
+            "done"
+          ],
+          "size": 0.5
+        }
+      ],
+      "dur": 6.0
+    }
+  ]
+}
