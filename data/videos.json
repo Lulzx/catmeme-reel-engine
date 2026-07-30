@@ -3441,7 +3441,7 @@
       "status": "scheduled",
       "posted": null,
       "publish_at": "2026-08-02T20:37:27Z",
-      "video_id": "FbnDJ1rqwHo",
+      "video_id": "XIh1mvxNPlY",
       "kind": "short",
       "duration_sec": null,
       "chapters": []
@@ -3463,10 +3463,10 @@
         "work"
       ],
       "file": "output/noted-sir.mp4",
-      "status": "scheduled",
+      "status": "queued",
       "posted": null,
-      "publish_at": "2026-08-03T02:37:27Z",
-      "video_id": "GTv0ChlIbCE",
+      "publish_at": null,
+      "video_id": null,
       "kind": "short",
       "duration_sec": null,
       "chapters": []
