@@ -227,6 +227,33 @@ def upload(con, slug, privacy=None, publish_at=None):
     return url
 
 
+# YouTube halts a batch for two unrelated reasons, and only one of them mentions
+# "quota" — the account-level video cap does not, which is why it used to crash
+# a --fill-schedule run instead of stopping it. Both mean "come back tomorrow".
+# See docs/09-decisions-and-gotchas.md.
+_DAILY_LIMITS = (
+    ("uploadlimitexceeded",
+     "YouTube's per-account daily video limit was reached"),
+    ("number of videos they may upload",          # same thing, message-only phrasing
+     "YouTube's per-account daily video limit was reached"),
+    ("quotaexceeded",
+     "The YouTube API daily quota ran out"),
+    ("dailylimitexceeded",
+     "The YouTube API daily quota ran out"),
+    ("quota",                                     # catch-all for other phrasings
+     "The YouTube API daily quota ran out"),
+)
+
+
+def _daily_limit_reason(exc):
+    """Explanation if `exc` is a daily-limit stop, else None (a real error)."""
+    s = str(exc).lower()
+    for needle, reason in _DAILY_LIMITS:
+        if needle in s:
+            return reason
+    return None
+
+
 def _latest_publish(con):
     """Latest publishAt already on the books, so a new batch continues the grid."""
     times = []
@@ -239,8 +266,9 @@ def _latest_publish(con):
 
 def fill_schedule(con, every_h, max_n=None):
     """Upload queued videos with publishAt continuing the every_h grid from the
-    last scheduled video. Stops gracefully when the daily API quota runs out —
-    the rest stay queued for the next run (e.g. a daily cron after quota reset)."""
+    last scheduled video. Stops gracefully on either daily limit — the API quota
+    or the per-account video cap — leaving the rest queued for the next run
+    (e.g. a daily cron after the limit resets)."""
     now = datetime.datetime.now(datetime.timezone.utc)
     base = _latest_publish(con)
     start = (base + datetime.timedelta(hours=every_h)) if base else (now + datetime.timedelta(hours=every_h))
@@ -260,12 +288,17 @@ def fill_schedule(con, every_h, max_n=None):
             upload(con, slug, publish_at=t.strftime("%Y-%m-%dT%H:%M:%SZ"))
             done += 1
         except Exception as e:
-            if "quota" in str(e).lower():
-                print(f"\nDaily upload quota reached after {done} video(s). "
-                      f"{len(slugs)-done} stay queued for the next run.")
-                return
+            reason = _daily_limit_reason(e)
+            if reason:
+                left = len(slugs) - done
+                print(f"\n{reason} after {done} video(s).")
+                print(f"{left} still queued (no publishAt set) — re-run this same "
+                      f"command on a later day and the grid continues from the "
+                      f"last scheduled reel, with no gap and no double-upload.")
+                return done
             raise
     print(f"\nScheduled {done} video(s).")
+    return done
 
 
 def schedule_queue(con, every_h, start_in_h):
@@ -304,7 +337,7 @@ def main():
                    help="upload all queued videos now, auto-publishing on a stagger")
     p.add_argument("--fill-schedule", action="store_true",
                    help="schedule queued videos continuing the grid from the last "
-                        "scheduled one; stops gracefully at the daily quota")
+                        "scheduled one; stops gracefully at either daily limit")
     p.add_argument("--max", type=int, default=None, metavar="N",
                    help="cap how many to schedule this run (with --fill-schedule)")
     p.add_argument("--every", type=float, default=6.0, metavar="HOURS",
