@@ -1,0 +1,197 @@
+{
+  "title": "the holiday is on a saturday",
+  "output": "holiday-on-a-saturday.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the one holiday this month falls on a saturday",
+  "outro": "sunday until 2029",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "checked the calendar in june.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "curious",
+            "reaching",
+            "pawing",
+            "begging",
+            "attentive"
+          ],
+          "clip": "145"
+        }
+      ]
+    },
+    {
+      "action": "\"15th. that's a saturday\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "unimpressed",
+            "paw-raised",
+            "deadpan",
+            "judgmental",
+            "skeptical"
+          ],
+          "clip": "116"
+        }
+      ]
+    },
+    {
+      "action": "nobody said anything in the group.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "small",
+            "distant",
+            "timid",
+            "watching",
+            "alone"
+          ],
+          "clip": "099"
+        }
+      ]
+    },
+    {
+      "action": "\"at least we still get the weekend\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "COWORKER",
+          "size": 0.5,
+          "clip": "182",
+          "want": [
+            "yapping",
+            "singing",
+            "yap-yap-yap",
+            "talking-nonstop",
+            "blabbering"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "we always get the weekend.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "grumpy",
+            "unamused",
+            "deadpan",
+            "judging",
+            "done"
+          ],
+          "clip": "168"
+        }
+      ]
+    },
+    {
+      "action": "\"next year it lands on a sunday\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.46,
+          "want": [
+            "draped",
+            "limp",
+            "deadpan",
+            "unbothered",
+            "lounging"
+          ],
+          "pos": 0.3,
+          "clip": "059"
+        },
+        {
+          "name": "AJAY",
+          "size": 0.44,
+          "clip": "183",
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "pos": 0.72,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "i checked. he was right.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "head-tilt",
+            "wondering",
+            "questioning",
+            "puzzled",
+            "looking-up"
+          ],
+          "clip": "111"
+        }
+      ]
+    },
+    {
+      "action": "it is on a sunday until 2029.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "staring",
+            "blank",
+            "deadpan",
+            "vacant",
+            "unbothered"
+          ],
+          "clip": "113"
+        }
+      ]
+    }
+  ]
+}

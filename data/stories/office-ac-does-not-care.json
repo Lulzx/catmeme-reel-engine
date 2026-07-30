@@ -1,0 +1,217 @@
+{
+  "title": "the office ac does not care",
+  "output": "office-ac-does-not-care.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you reached the office soaked and the ac is on full",
+  "outro": "dry for exactly two hours",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "041",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "reached at 9:50. dripping.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "bathing",
+            "splashing",
+            "soaked",
+            "struggling",
+            "wet"
+          ],
+          "clip": "103"
+        }
+      ]
+    },
+    {
+      "action": "\"who set it to 18\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.52,
+          "want": [
+            "screaming",
+            "rage",
+            "yelling",
+            "outburst",
+            "shouting"
+          ],
+          "clip": "012"
+        }
+      ]
+    },
+    {
+      "action": "nobody sets it. it is just like that.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "deadpan",
+            "staring",
+            "unbothered",
+            "blank",
+            "dead-inside"
+          ],
+          "clip": "096"
+        }
+      ]
+    },
+    {
+      "action": "\"you should keep a jacket here\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "COWORKER",
+          "size": 0.5,
+          "clip": "182",
+          "want": [
+            "yapping",
+            "singing",
+            "yap-yap-yap",
+            "talking-nonstop",
+            "blabbering"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "i have a jacket here. it is also wet.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "unimpressed",
+            "paw-raised",
+            "deadpan",
+            "judgmental",
+            "skeptical"
+          ],
+          "clip": "116"
+        }
+      ]
+    },
+    {
+      "action": "\"sit near the window\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.46,
+          "want": [
+            "side-eye",
+            "turning",
+            "squint",
+            "skeptical",
+            "judging"
+          ],
+          "pos": 0.3,
+          "clip": "054"
+        },
+        {
+          "name": "AJAY",
+          "size": 0.44,
+          "clip": "183",
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "pos": 0.72,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "the window is where the ac is.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "lounging",
+            "sprawled",
+            "lazy",
+            "belly-out",
+            "deadpan"
+          ],
+          "clip": "181"
+        }
+      ]
+    },
+    {
+      "action": "by 4pm i was completely dry.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "blissful",
+            "melting",
+            "cozy",
+            "content",
+            "pampered"
+          ],
+          "clip": "057"
+        }
+      ]
+    },
+    {
+      "action": "i left at 6.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "deadpan",
+            "unimpressed",
+            "blank",
+            "half-lidded",
+            "done"
+          ],
+          "clip": "146"
+        }
+      ]
+    }
+  ]
+}

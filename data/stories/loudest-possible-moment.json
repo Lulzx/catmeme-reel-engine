@@ -1,0 +1,217 @@
+{
+  "title": "the loudest possible moment",
+  "output": "loudest-possible-moment.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you sneeze in the quietest room in the building",
+  "outro": "no bless you the second time",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "106",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "library. three days before the exam.",
+      "bg": {
+        "place": "library"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "relaxed",
+            "lounging",
+            "grooming",
+            "chill",
+            "lazy"
+          ],
+          "clip": "143"
+        }
+      ]
+    },
+    {
+      "action": "i felt it coming.",
+      "bg": {
+        "place": "library"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "peeking",
+            "startled",
+            "wide-eyed",
+            "surprised",
+            "leaning-in"
+          ],
+          "clip": "112"
+        }
+      ]
+    },
+    {
+      "action": "held it for six seconds.",
+      "bg": {
+        "place": "library"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "protesting",
+            "reluctant",
+            "trapped",
+            "squished",
+            "handled"
+          ],
+          "clip": "044"
+        }
+      ]
+    },
+    {
+      "action": "\"AACHOO\"",
+      "bg": {
+        "place": "library"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.52,
+          "want": [
+            "hissing",
+            "startled",
+            "spooked",
+            "defensive",
+            "yelling"
+          ],
+          "clip": "061"
+        }
+      ]
+    },
+    {
+      "action": "thirty heads came up at once.",
+      "bg": {
+        "place": "library"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "standing",
+            "alert",
+            "curious",
+            "watching",
+            "meerkat-pose"
+          ],
+          "clip": "166"
+        }
+      ]
+    },
+    {
+      "action": "\"bless you\"",
+      "bg": {
+        "place": "library"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.46,
+          "want": [
+            "sad",
+            "teary",
+            "heartbroken",
+            "downcast",
+            "gloomy"
+          ],
+          "pos": 0.3,
+          "clip": "076"
+        },
+        {
+          "name": "AJAY",
+          "size": 0.44,
+          "clip": "183",
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "pos": 0.72,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "\"loudest thing i have ever heard indoors\"",
+      "bg": {
+        "place": "library"
+      },
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.5,
+          "clip": "182",
+          "want": [
+            "yapping",
+            "singing",
+            "yap-yap-yap",
+            "talking-nonstop",
+            "blabbering"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "i sneezed again.",
+      "bg": {
+        "place": "library"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "flailing",
+            "startled",
+            "lifted",
+            "panicked",
+            "spinning"
+          ],
+          "clip": "165"
+        }
+      ]
+    },
+    {
+      "action": "nobody said bless you the second time.",
+      "bg": {
+        "place": "library"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "watery-eyes",
+            "pleading",
+            "tearful",
+            "soft",
+            "melancholy"
+          ],
+          "clip": "085"
+        }
+      ]
+    }
+  ]
+}

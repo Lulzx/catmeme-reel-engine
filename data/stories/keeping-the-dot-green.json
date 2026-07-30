@@ -1,0 +1,217 @@
+{
+  "title": "keeping the dot green",
+  "output": "keeping-the-dot-green.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: keeping your status green while doing absolutely nothing",
+  "outro": "forty mouse moves",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "184",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "3:15pm.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "typing",
+            "working",
+            "busy",
+            "office",
+            "coding"
+          ],
+          "clip": "033"
+        }
+      ]
+    },
+    {
+      "action": "nothing left to do until the review.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "zoning-out",
+            "blank",
+            "dissociating",
+            "spaced-out",
+            "daydreaming"
+          ],
+          "clip": "010"
+        }
+      ]
+    },
+    {
+      "action": "\"move the mouse every four minutes\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "plotting",
+            "sneaky",
+            "side-eye",
+            "scheming",
+            "sly"
+          ],
+          "clip": "052"
+        }
+      ]
+    },
+    {
+      "action": "\"how's it going, all good, on track, no blockers?\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "BOSS",
+          "size": 0.5,
+          "clip": "182",
+          "want": [
+            "yapping",
+            "singing",
+            "yap-yap-yap",
+            "talking-nonstop",
+            "blabbering"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "\"yeah, almost there\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "chewing",
+            "mumbling",
+            "smug",
+            "unbothered",
+            "chill"
+          ],
+          "clip": "124"
+        }
+      ]
+    },
+    {
+      "action": "\"it shows when you go idle\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.46,
+          "want": [
+            "startled",
+            "wide-eyed",
+            "alarmed",
+            "alert",
+            "caught-off-guard"
+          ],
+          "pos": 0.3,
+          "clip": "043"
+        },
+        {
+          "name": "AJAY",
+          "size": 0.44,
+          "clip": "183",
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "pos": 0.72,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "i moved the mouse.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "side-eye",
+            "judging",
+            "deadpan",
+            "unbothered",
+            "skeptical"
+          ],
+          "clip": "069"
+        }
+      ]
+    },
+    {
+      "action": "i have now moved the mouse forty times.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "scrolling",
+            "swiping",
+            "distracted",
+            "bored",
+            "tapping"
+          ],
+          "clip": "178"
+        }
+      ]
+    },
+    {
+      "action": "i am genuinely tired.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "tired",
+            "exhausted",
+            "done",
+            "unimpressed",
+            "drowsy"
+          ],
+          "clip": "125"
+        }
+      ]
+    }
+  ]
+}

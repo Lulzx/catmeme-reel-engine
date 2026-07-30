@@ -138,8 +138,24 @@ Status: ✅ posted · 🕒 scheduled (auto-publishes later) · ⏳ queued (rende
 | 124 | holding-the-lift | POV: you hold the lift for someone who is very far away | ✅ posted | 2026-07-29 | output/holding-the-lift.mp4 |
 | 125 | auto-no-change | POV: the auto driver has no change and neither do you | ✅ posted | 2026-07-29 | output/auto-no-change.mp4 |
 | 126 | cat-explains-the-universe | POV: you asked your friend one simple question about space | ✅ posted | 2026-07-29 | output/cat-explains-the-universe.mp4 |
+| 127 | one-puddle-at-9am | POV: you stepped in one puddle on the way to work | ⏳ queued | — | output/one-puddle-at-9am.mp4 |
+| 128 | keeping-the-dot-green | POV: keeping your status green while doing absolutely nothing | ⏳ queued | — | output/keeping-the-dot-green.mp4 |
+| 129 | day-four-same-jeans | POV: nothing has dried in four days | ⏳ queued | — | output/day-four-same-jeans.mp4 |
+| 130 | he-walked-to-the-front | POV: someone cuts the line and everyone silently accepts it | ⏳ queued | — | output/he-walked-to-the-front.mp4 |
+| 131 | light-went-at-the-best-part | POV: the power goes out right at the good part | ⏳ queued | — | output/light-went-at-the-best-part.mp4 |
+| 132 | no-auto-will-go-there | POV: it's raining and no auto will go to your area | ⏳ queued | — | output/no-auto-will-go-there.mp4 |
+| 133 | loudest-possible-moment | POV: you sneeze in the quietest room in the building | ⏳ queued | — | output/loudest-possible-moment.mp4 |
+| 134 | office-ac-does-not-care | POV: you reached the office soaked and the ac is on full | ⏳ queued | — | output/office-ac-does-not-care.mp4 |
+| 135 | phone-showed-me-2016 | POV: your phone decides to show you a photo from 2016 | ⏳ queued | — | output/phone-showed-me-2016.mp4 |
+| 136 | the-wind-got-my-umbrella | POV: the wind flipped your umbrella at the crossing | ⏳ queued | — | output/the-wind-got-my-umbrella.mp4 |
+| 137 | only-one-laughing | POV: you laughed and nobody else did | ⏳ queued | — | output/only-one-laughing.mp4 |
+| 138 | stopped-the-second-i-reached | POV: it stops raining the exact second you reach | ⏳ queued | — | output/stopped-the-second-i-reached.mp4 |
+| 139 | holiday-on-a-saturday | POV: the one holiday this month falls on a saturday | ⏳ queued | — | output/holiday-on-a-saturday.mp4 |
+| 140 | restarting-the-router-again | POV: the wifi is gone and you are the tech support of this house | ⏳ queued | — | output/restarting-the-router-again.mp4 |
+| 141 | he-thinks-he-knows-me | POV: a stranger is talking to you like you know each other | ⏳ queued | — | output/he-thinks-he-knows-me.mp4 |
+| 142 | noted-sir | POV: replying 'noted sir' to a message that ended your evening | ⏳ queued | — | output/noted-sir.mp4 |
 
-**Recommended next:** — all posted/scheduled —
+**Recommended next:** one-puddle-at-9am
 Upload it with `python -m engine.upload --next`.
 
 ---
@@ -1531,3 +1547,171 @@ Upload it with `python -m engine.upload --next`.
   #shorts #catmemes #pov #relatable #space #science
   ```
 - **Tags:** cat memes, pov, relatable, funny cats, shorts, space, science, friends
+
+### one-puddle-at-9am ⏳
+- **Title:** POV: you stepped in one puddle on the way to work 🐱 #shorts
+- **Description:**
+  ```
+  one puddle at 9am and the socks were done for the day.
+  
+  new cat POVs daily 🐾
+  #shorts #catmemes #pov #relatable #monsoon #rain #commute
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, monsoon, rain, commute
+
+### keeping-the-dot-green ⏳
+- **Title:** POV: keeping your status green while doing absolutely nothing 🐱 #shorts
+- **Description:**
+  ```
+  nothing to do until the review. the dot must stay green.
+  
+  #shorts #catmemes #pov #relatable #office #wfh #work
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, office, wfh, work
+
+### day-four-same-jeans ⏳
+- **Title:** POV: nothing has dried in four days 🐱 #shorts
+- **Description:**
+  ```
+  washed everything on monday. it is thursday.
+  
+  daily cat POVs 🐾
+  #shorts #catmemes #pov #relatable #monsoon #laundry #home
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, monsoon, laundry, home
+
+### he-walked-to-the-front ⏳
+- **Title:** POV: someone cuts the line and everyone silently accepts it 🐱 #shorts
+- **Description:**
+  ```
+  eleven people in the queue. he walked straight past all of them. twice.
+  
+  #shorts #catmemes #pov #relatable #queue #shop #awkward
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, queue, shop, awkward
+
+### light-went-at-the-best-part ⏳
+- **Title:** POV: the power goes out right at the good part 🐱 #shorts
+- **Description:**
+  ```
+  two hours in, the power went, and the app had saved nothing.
+  
+  new cat POVs daily 🐾
+  #shorts #catmemes #pov #relatable #powercut #netflix #home
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, power cut, netflix, home
+
+### no-auto-will-go-there ⏳
+- **Title:** POV: it's raining and no auto will go to your area 🐱 #shorts
+- **Description:**
+  ```
+  raining, 7:40pm, and suddenly nobody goes to sector 12.
+  
+  #shorts #catmemes #pov #relatable #auto #india #rain
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, auto rickshaw, india, rain
+
+### loudest-possible-moment ⏳
+- **Title:** POV: you sneeze in the quietest room in the building 🐱 #shorts
+- **Description:**
+  ```
+  held it for six seconds. the whole library still heard it.
+  
+  daily cat POVs 🐾
+  #shorts #catmemes #pov #relatable #library #exams #awkward
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, library, exams, awkward
+
+### office-ac-does-not-care ⏳
+- **Title:** POV: you reached the office soaked and the ac is on full 🐱 #shorts
+- **Description:**
+  ```
+  walked in soaked and the ac was already at 18.
+  
+  #shorts #catmemes #pov #relatable #office #ac #monsoon
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, office, ac, monsoon
+
+### phone-showed-me-2016 ⏳
+- **Title:** POV: your phone decides to show you a photo from 2016 🐱 #shorts
+- **Description:**
+  ```
+  ten years ago today, apparently. side parting and one earphone.
+  
+  new cat POVs daily 🐾
+  #shorts #catmemes #pov #relatable #2016 #nostalgia #memories
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, 2016, nostalgia, memories
+
+### the-wind-got-my-umbrella ⏳
+- **Title:** POV: the wind flipped your umbrella at the crossing 🐱 #shorts
+- **Description:**
+  ```
+  200 rupees. eleven days. one gust.
+  
+  #shorts #catmemes #pov #relatable #monsoon #umbrella #rain
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, monsoon, umbrella, rain
+
+### only-one-laughing ⏳
+- **Title:** POV: you laughed and nobody else did 🐱 #shorts
+- **Description:**
+  ```
+  it was not a joke. forty people turned around.
+  
+  daily cat POVs 🐾
+  #shorts #catmemes #pov #relatable #college #classroom #awkward
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, college, classroom, awkward
+
+### stopped-the-second-i-reached ⏳
+- **Title:** POV: it stops raining the exact second you reach 🐱 #shorts
+- **Description:**
+  ```
+  waited twenty five minutes, ran for it, and the sun came out at my gate.
+  
+  #shorts #catmemes #pov #relatable #rain #monsoon #weather
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, rain, monsoon, weather
+
+### holiday-on-a-saturday ⏳
+- **Title:** POV: the one holiday this month falls on a saturday 🐱 #shorts
+- **Description:**
+  ```
+  the one holiday this month and it lands on a saturday.
+  
+  new cat POVs daily 🐾
+  #shorts #catmemes #pov #relatable #office #holiday #work
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, office, holiday, work
+
+### restarting-the-router-again ⏳
+- **Title:** POV: the wifi is gone and you are the tech support of this house 🐱 #shorts
+- **Description:**
+  ```
+  it goes at 9pm every night and somehow i am the tech support.
+  
+  #shorts #catmemes #pov #relatable #wifi #internet #home
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, wifi, internet, home
+
+### he-thinks-he-knows-me ⏳
+- **Title:** POV: a stranger is talking to you like you know each other 🐱 #shorts
+- **Description:**
+  ```
+  he asked about my brother. i do not have a brother.
+  
+  daily cat POVs 🐾
+  #shorts #catmemes #pov #relatable #awkward #strangers #smalltalk
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, awkward, strangers, small talk
+
+### noted-sir ⏳
+- **Title:** POV: replying 'noted sir' to a message that ended your evening 🐱 #shorts
+- **Description:**
+  ```
+  6:58pm. typed four lines, deleted all four, sent two words.
+  
+  #shorts #catmemes #pov #relatable #office #boss #work
+  ```
+- **Tags:** cat memes, pov, relatable, funny cats, shorts, office, boss, work

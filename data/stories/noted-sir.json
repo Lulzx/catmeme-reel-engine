@@ -1,0 +1,197 @@
+{
+  "title": "noted sir",
+  "output": "noted-sir.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: replying 'noted sir' to a message that ended your evening",
+  "outro": "still on leave",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "6:58pm. phone buzzed.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "scrolling",
+            "swiping",
+            "distracted",
+            "bored",
+            "tapping"
+          ],
+          "clip": "178"
+        }
+      ]
+    },
+    {
+      "action": "\"we'll need this by tomorrow morning\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "BOSS",
+          "size": 0.5,
+          "clip": "182",
+          "want": [
+            "yapping",
+            "singing",
+            "yap-yap-yap",
+            "talking-nonstop",
+            "blabbering"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "i typed four lines.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "talking",
+            "yapping",
+            "wide-eyed",
+            "alert",
+            "mouthy"
+          ],
+          "clip": "087"
+        }
+      ]
+    },
+    {
+      "action": "deleted all four.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "deadpan",
+            "blank",
+            "staring",
+            "done",
+            "flat"
+          ],
+          "clip": "051"
+        }
+      ]
+    },
+    {
+      "action": "\"noted sir\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "smug",
+            "squinting",
+            "unbothered",
+            "cocky",
+            "dead-inside"
+          ],
+          "clip": "047"
+        }
+      ]
+    },
+    {
+      "action": "\"you should have said you're on leave\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.46,
+          "want": [
+            "deadpan",
+            "unimpressed",
+            "blank",
+            "half-lidded",
+            "done"
+          ],
+          "pos": 0.3,
+          "clip": "146"
+        },
+        {
+          "name": "AJAY",
+          "size": 0.44,
+          "clip": "183",
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "pos": 0.72,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "i am on leave.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "staring",
+            "menacing",
+            "deadpan",
+            "intense",
+            "creepy"
+          ],
+          "clip": "155"
+        }
+      ]
+    },
+    {
+      "action": "i have been on leave since monday.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "cursed",
+            "surreal",
+            "weird",
+            "deadpan",
+            "uncanny"
+          ],
+          "clip": "135"
+        }
+      ]
+    }
+  ]
+}

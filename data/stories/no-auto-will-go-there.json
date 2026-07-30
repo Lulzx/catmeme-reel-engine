@@ -1,0 +1,197 @@
+{
+  "title": "no auto will go there",
+  "output": "no-auto-will-go-there.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: it's raining and no auto will go to your area",
+  "outro": "80 rupees to walk through it anyway",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "041",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "7:40pm. it started ten minutes ago.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "alert",
+            "looking-around",
+            "attentive",
+            "turning",
+            "noticing"
+          ],
+          "clip": "136"
+        }
+      ]
+    },
+    {
+      "action": "\"bhaiya, sector 12?\"",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.46,
+          "want": [
+            "begging",
+            "pleading",
+            "standing-up",
+            "wanting",
+            "needy"
+          ],
+          "pos": 0.3,
+          "clip": "130"
+        },
+        {
+          "name": "AUTO",
+          "size": 0.5,
+          "want": [
+            "skeptical",
+            "side-eye",
+            "doubtful",
+            "unconvinced",
+            "judging"
+          ],
+          "pos": 0.72,
+          "flip": true,
+          "clip": "141"
+        }
+      ]
+    },
+    {
+      "action": "he did the small head shake.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "AUTO",
+          "size": 0.5,
+          "want": [
+            "side-eye",
+            "turning-away",
+            "dismissive",
+            "wary",
+            "skeptical"
+          ],
+          "clip": "098"
+        }
+      ]
+    },
+    {
+      "action": "\"80 extra\"",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "AUTO",
+          "size": 0.48,
+          "clip": "183",
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "\"traffic, rain, shift ending, petrol, my back\"",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "AUTO",
+          "size": 0.5,
+          "clip": "182",
+          "want": [
+            "yapping",
+            "singing",
+            "yap-yap-yap",
+            "talking-nonstop",
+            "blabbering"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "i paid the 80.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "tired",
+            "exhausted",
+            "done",
+            "unimpressed",
+            "drowsy"
+          ],
+          "clip": "164"
+        }
+      ]
+    },
+    {
+      "action": "he stopped at the corner. the lane was flooded.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "startled",
+            "wide-eyed",
+            "alarmed",
+            "alert",
+            "caught-off-guard"
+          ],
+          "clip": "043"
+        }
+      ]
+    },
+    {
+      "action": "i walked through the exact water i paid to skip.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "sad",
+            "crying",
+            "pleading",
+            "sorrow",
+            "disappointed"
+          ],
+          "clip": "008"
+        }
+      ]
+    }
+  ]
+}

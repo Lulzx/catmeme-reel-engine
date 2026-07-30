@@ -1,0 +1,182 @@
+{
+  "title": "the wind got my umbrella",
+  "output": "the-wind-got-my-umbrella.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the wind flipped your umbrella at the crossing",
+  "outro": "we both got humbled",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "bought it for 200 rupees.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "counting",
+            "money",
+            "cash",
+            "focused",
+            "head-down"
+          ],
+          "clip": "091"
+        }
+      ]
+    },
+    {
+      "action": "lasted eleven days.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "staring",
+            "blank",
+            "deadpan",
+            "vacant",
+            "unbothered"
+          ],
+          "clip": "113"
+        }
+      ]
+    },
+    {
+      "action": "\"no no no no\"",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.52,
+          "want": [
+            "screaming",
+            "yelling",
+            "meowing",
+            "frantic",
+            "loud"
+          ],
+          "clip": "170"
+        }
+      ]
+    },
+    {
+      "action": "it turned into a bowl.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "flailing",
+            "startled",
+            "lifted",
+            "panicked",
+            "spinning"
+          ],
+          "clip": "165"
+        }
+      ]
+    },
+    {
+      "action": "\"that's why you buy the good one\"",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "SHOP GUY",
+          "size": 0.48,
+          "clip": "183",
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "\"mine is from 2019. never opened wrong once\"",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "UNCLE",
+          "size": 0.5,
+          "clip": "182",
+          "want": [
+            "yapping",
+            "singing",
+            "yap-yap-yap",
+            "talking-nonstop",
+            "blabbering"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "we walked to the corner together.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "grumpy",
+            "looking-down",
+            "displeased",
+            "sulking",
+            "moody"
+          ],
+          "clip": "093"
+        }
+      ]
+    },
+    {
+      "action": "his umbrella flipped while he was still talking about it.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "laughing",
+            "giggling",
+            "amused",
+            "lol",
+            "mocking"
+          ],
+          "clip": "041"
+        }
+      ]
+    }
+  ]
+}

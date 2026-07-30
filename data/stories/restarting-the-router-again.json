@@ -1,0 +1,217 @@
+{
+  "title": "restarting the router again",
+  "output": "restarting-the-router-again.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the wifi is gone and you are the tech support of this house",
+  "outro": "dad the hero",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "041",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "it goes at 9pm. every night.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "loafing",
+            "grumpy",
+            "unimpressed",
+            "still",
+            "chonky"
+          ],
+          "clip": "139"
+        }
+      ]
+    },
+    {
+      "action": "unplug. wait ten. plug.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "wrench",
+            "fixing",
+            "working",
+            "handy",
+            "tool"
+          ],
+          "clip": "092"
+        }
+      ]
+    },
+    {
+      "action": "nothing.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "staring",
+            "blank",
+            "deadpan",
+            "vacant",
+            "unbothered"
+          ],
+          "clip": "113"
+        }
+      ]
+    },
+    {
+      "action": "\"check if the light is blinking\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "DAD",
+          "size": 0.5,
+          "clip": "182",
+          "want": [
+            "yapping",
+            "singing",
+            "yap-yap-yap",
+            "talking-nonstop",
+            "blabbering"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "\"which light\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "head-tilt",
+            "wondering",
+            "questioning",
+            "puzzled",
+            "looking-up"
+          ],
+          "clip": "111"
+        }
+      ]
+    },
+    {
+      "action": "\"it's blinking orange\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.46,
+          "want": [
+            "grumpy",
+            "unimpressed",
+            "annoyed",
+            "tolerating",
+            "stern"
+          ],
+          "pos": 0.3,
+          "clip": "078"
+        },
+        {
+          "name": "AJAY",
+          "size": 0.44,
+          "clip": "183",
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "pos": 0.72,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "it has been blinking orange for three years.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "unimpressed",
+            "paw-raised",
+            "deadpan",
+            "judgmental",
+            "skeptical"
+          ],
+          "clip": "116"
+        }
+      ]
+    },
+    {
+      "action": "it came back on its own after eleven minutes.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "blissful",
+            "petted",
+            "melting",
+            "soothed",
+            "content"
+          ],
+          "clip": "128"
+        }
+      ]
+    },
+    {
+      "action": "dad told the whole family he fixed it.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "smug",
+            "squinting",
+            "knowing",
+            "side-glance",
+            "sly"
+          ],
+          "clip": "102"
+        }
+      ]
+    }
+  ]
+}

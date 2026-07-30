@@ -1,0 +1,197 @@
+{
+  "title": "one puddle at 9am",
+  "output": "one-puddle-at-9am.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you stepped in one puddle on the way to work",
+  "outro": "the bag never recovered",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "9:04am. the road was dry except for one part.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "staring",
+            "wary",
+            "cautious",
+            "stepping",
+            "alert"
+          ],
+          "clip": "151"
+        }
+      ]
+    },
+    {
+      "action": "\"i can jump this\"",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.52,
+          "want": [
+            "strutting",
+            "approaching",
+            "confident",
+            "walking",
+            "determined"
+          ],
+          "clip": "049"
+        }
+      ]
+    },
+    {
+      "action": "i could not jump this.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "bathing",
+            "splashing",
+            "soaked",
+            "struggling",
+            "wet"
+          ],
+          "clip": "103"
+        }
+      ]
+    },
+    {
+      "action": "\"it's fine. it'll dry by lunch\"",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "deadpan",
+            "unimpressed",
+            "blank",
+            "half-lidded",
+            "done"
+          ],
+          "clip": "146"
+        }
+      ]
+    },
+    {
+      "action": "\"you squelch when you walk. it's a whole sound\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "COWORKER",
+          "size": 0.5,
+          "clip": "182",
+          "want": [
+            "yapping",
+            "singing",
+            "yap-yap-yap",
+            "talking-nonstop",
+            "blabbering"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "\"keep a spare pair in your bag\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.46,
+          "want": [
+            "guilty",
+            "sad",
+            "apologetic",
+            "remorseful",
+            "droopy"
+          ],
+          "pos": 0.3,
+          "clip": "134"
+        },
+        {
+          "name": "AJAY",
+          "size": 0.44,
+          "clip": "183",
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "pos": 0.72,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "i do keep a spare pair in my bag. two of them.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "content",
+            "loafing",
+            "relaxed",
+            "smug",
+            "cozy"
+          ],
+          "clip": "077"
+        }
+      ]
+    },
+    {
+      "action": "the bag was also in the puddle.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "broken",
+            "dead-inside",
+            "exhausted",
+            "cursed",
+            "done"
+          ],
+          "clip": "125"
+        }
+      ]
+    }
+  ]
+}

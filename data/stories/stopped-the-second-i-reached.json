@@ -1,0 +1,217 @@
+{
+  "title": "it stopped the second i reached",
+  "output": "stopped-the-second-i-reached.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: it stops raining the exact second you reach",
+  "outro": "milk was a mistake",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "106",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "waited under the shop for twenty five minutes.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "small",
+            "distant",
+            "timid",
+            "watching",
+            "alone"
+          ],
+          "clip": "099"
+        }
+      ]
+    },
+    {
+      "action": "\"i'll just run for it\"",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.52,
+          "want": [
+            "approaching",
+            "walking",
+            "tail-up",
+            "strutting",
+            "coming-closer"
+          ],
+          "clip": "144"
+        }
+      ]
+    },
+    {
+      "action": "ran.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "creeping",
+            "stalking",
+            "focused",
+            "wide-eyed",
+            "approaching"
+          ],
+          "clip": "108"
+        }
+      ]
+    },
+    {
+      "action": "reached home.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "alert",
+            "looking-around",
+            "attentive",
+            "turning",
+            "noticing"
+          ],
+          "clip": "136"
+        }
+      ]
+    },
+    {
+      "action": "6:04. sun came out.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "startled",
+            "wide-eyed",
+            "shocked",
+            "gasping",
+            "surprised"
+          ],
+          "clip": "172"
+        }
+      ]
+    },
+    {
+      "action": "\"you should have waited five minutes\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "NEIGHBOR",
+          "size": 0.5,
+          "clip": "182",
+          "want": [
+            "yapping",
+            "singing",
+            "yap-yap-yap",
+            "talking-nonstop",
+            "blabbering"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "\"the app said it would stop at 6\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.46,
+          "want": [
+            "sad",
+            "teary",
+            "heartbroken",
+            "downcast",
+            "gloomy"
+          ],
+          "pos": 0.3,
+          "clip": "076"
+        },
+        {
+          "name": "AJAY",
+          "size": 0.44,
+          "clip": "183",
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "pos": 0.72,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "i went back out for milk.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "curious",
+            "reaching",
+            "pawing",
+            "begging",
+            "attentive"
+          ],
+          "clip": "145"
+        }
+      ]
+    },
+    {
+      "action": "6:11. it started again at the shop door.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "crying",
+            "teary",
+            "sad",
+            "watery-eyes",
+            "heartbroken"
+          ],
+          "clip": "097"
+        }
+      ]
+    }
+  ]
+}

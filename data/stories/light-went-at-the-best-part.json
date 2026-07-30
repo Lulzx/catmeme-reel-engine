@@ -1,0 +1,217 @@
+{
+  "title": "the light went at the best part",
+  "output": "light-went-at-the-best-part.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the power goes out right at the good part",
+  "outro": "my sister told me anyway",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "094",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "9:40pm. two hours in.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "lounging",
+            "reclining",
+            "chilling",
+            "lazy",
+            "slouched"
+          ],
+          "clip": "167"
+        }
+      ]
+    },
+    {
+      "action": "\"he's about to say who did it\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "wide-eyed",
+            "staring",
+            "innocent",
+            "curious",
+            "hopeful"
+          ],
+          "clip": "075"
+        }
+      ]
+    },
+    {
+      "action": "everything went black.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "stunned",
+            "shocked",
+            "wide-eyed",
+            "frozen",
+            "speechless"
+          ],
+          "clip": "176"
+        }
+      ]
+    },
+    {
+      "action": "\"no no NOT now\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.52,
+          "want": [
+            "screaming",
+            "yelling",
+            "rage",
+            "furious",
+            "outburst"
+          ],
+          "clip": "180"
+        }
+      ]
+    },
+    {
+      "action": "\"it's the whole lane, not just you\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "NEIGHBOR",
+          "size": 0.5,
+          "clip": "182",
+          "want": [
+            "yapping",
+            "singing",
+            "yap-yap-yap",
+            "talking-nonstop",
+            "blabbering"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "\"the inverter is also off\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.46,
+          "want": [
+            "head-tilt",
+            "wondering",
+            "questioning",
+            "puzzled",
+            "looking-up"
+          ],
+          "pos": 0.3,
+          "clip": "111"
+        },
+        {
+          "name": "AJAY",
+          "size": 0.44,
+          "clip": "183",
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "pos": 0.72,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "it came back after forty one minutes.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "yawning",
+            "calm",
+            "mouth-open",
+            "tired",
+            "stretchy"
+          ],
+          "clip": "158"
+        }
+      ]
+    },
+    {
+      "action": "the app had saved nothing.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "crying",
+            "sobbing",
+            "tears",
+            "banana-cat",
+            "wailing"
+          ],
+          "clip": "094"
+        }
+      ]
+    },
+    {
+      "action": "i watched two hours again and my sister told me who did it.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "screaming",
+            "rage",
+            "yelling",
+            "outburst",
+            "shouting"
+          ],
+          "clip": "012"
+        }
+      ]
+    }
+  ]
+}

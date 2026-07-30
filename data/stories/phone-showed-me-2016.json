@@ -1,0 +1,197 @@
+{
+  "title": "the phone showed me 2016",
+  "output": "phone-showed-me-2016.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: your phone decides to show you a photo from 2016",
+  "outro": "we all had the same haircut",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "184",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "it said ten years ago today.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "scrolling",
+            "phone-addiction",
+            "zoning-out",
+            "distracted",
+            "hunched"
+          ],
+          "clip": "121"
+        }
+      ]
+    },
+    {
+      "action": "i should not have opened it.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "peeking",
+            "curious",
+            "sneaky",
+            "watching",
+            "reaching"
+          ],
+          "clip": "071"
+        }
+      ]
+    },
+    {
+      "action": "\"who let me wear that\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.52,
+          "want": [
+            "shocked",
+            "gasping",
+            "stunned",
+            "mouth-open",
+            "disbelief"
+          ],
+          "clip": "089"
+        }
+      ]
+    },
+    {
+      "action": "side parting. one earphone. blue jeans.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "grumpy",
+            "unimpressed",
+            "scowling",
+            "judging",
+            "irritated"
+          ],
+          "clip": "080"
+        }
+      ]
+    },
+    {
+      "action": "\"posting this in the group on your birthday\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.5,
+          "clip": "182",
+          "want": [
+            "yapping",
+            "singing",
+            "yap-yap-yap",
+            "talking-nonstop",
+            "blabbering"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "\"you looked happy though\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.46,
+          "want": [
+            "hopeful",
+            "looking-up",
+            "longing",
+            "pleading",
+            "soft"
+          ],
+          "pos": 0.3,
+          "clip": "064"
+        },
+        {
+          "name": "AJAY",
+          "size": 0.44,
+          "clip": "183",
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "pos": 0.72,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "i did look happy.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "blissful",
+            "petted",
+            "melting",
+            "soothed",
+            "content"
+          ],
+          "clip": "128"
+        }
+      ]
+    },
+    {
+      "action": "i zoomed in. all five of us had the same haircut.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "skeptical",
+            "side-eye",
+            "doubtful",
+            "unconvinced",
+            "judging"
+          ],
+          "clip": "141"
+        }
+      ]
+    }
+  ]
+}

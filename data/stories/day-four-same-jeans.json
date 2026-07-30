@@ -1,0 +1,197 @@
+{
+  "title": "day four of the same jeans",
+  "output": "day-four-same-jeans.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: nothing has dried in four days",
+  "outro": "a hot wet sock",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "106",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "washed everything on monday. eleven things.",
+      "bg": {
+        "place": "rooftop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "reaching",
+            "paws-up",
+            "praising",
+            "stretching",
+            "yearning"
+          ],
+          "clip": "105"
+        }
+      ]
+    },
+    {
+      "action": "\"it'll dry by evening\"",
+      "bg": {
+        "place": "rooftop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "happy",
+            "smiling",
+            "friendly",
+            "cheerful",
+            "approving"
+          ],
+          "clip": "040"
+        }
+      ]
+    },
+    {
+      "action": "it did not dry by evening.",
+      "bg": {
+        "place": "rooftop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "staring",
+            "blank",
+            "deadpan",
+            "vacant",
+            "unbothered"
+          ],
+          "clip": "113"
+        }
+      ]
+    },
+    {
+      "action": "\"put the fan on them\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "MOM",
+          "size": 0.5,
+          "clip": "182",
+          "want": [
+            "yapping",
+            "singing",
+            "yap-yap-yap",
+            "talking-nonstop",
+            "blabbering"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "the fan has been on them since tuesday.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "loafing",
+            "grumpy",
+            "chubby",
+            "staring",
+            "stoic"
+          ],
+          "clip": "161"
+        }
+      ]
+    },
+    {
+      "action": "\"iron them, that works\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.46,
+          "want": [
+            "grumpy",
+            "looking-down",
+            "displeased",
+            "sulking",
+            "moody"
+          ],
+          "pos": 0.3,
+          "clip": "093"
+        },
+        {
+          "name": "AJAY",
+          "size": 0.44,
+          "clip": "183",
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "pos": 0.72,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "i ironed a wet sock.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "wrench",
+            "fixing",
+            "working",
+            "handy",
+            "tool"
+          ],
+          "clip": "092"
+        }
+      ]
+    },
+    {
+      "action": "it is now a hot wet sock.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "disgust",
+            "gagging",
+            "nausea",
+            "grossed-out",
+            "revulsion"
+          ],
+          "clip": "006"
+        }
+      ]
+    }
+  ]
+}

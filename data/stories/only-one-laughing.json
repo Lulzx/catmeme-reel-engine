@@ -1,0 +1,217 @@
+{
+  "title": "i was the only one laughing",
+  "output": "only-one-laughing.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you laughed and nobody else did",
+  "outro": "then i had to explain it",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "sir said something on slide 12.",
+      "bg": {
+        "place": "classroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "explaining",
+            "lecturing",
+            "pointing",
+            "matter-of-fact",
+            "presenting"
+          ],
+          "clip": "001"
+        }
+      ]
+    },
+    {
+      "action": "i thought it was a joke.",
+      "bg": {
+        "place": "classroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "big-ears",
+            "head-tilt",
+            "derpy",
+            "curious",
+            "toothy"
+          ],
+          "clip": "147"
+        }
+      ]
+    },
+    {
+      "action": "\"HA\"",
+      "bg": {
+        "place": "classroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.52,
+          "want": [
+            "laughing",
+            "giggling",
+            "amused",
+            "lol",
+            "mocking"
+          ],
+          "clip": "041"
+        }
+      ]
+    },
+    {
+      "action": "it was not a joke.",
+      "bg": {
+        "place": "classroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "shocked",
+            "startled",
+            "wide-eyed",
+            "alarmed",
+            "bewildered"
+          ],
+          "clip": "132"
+        }
+      ]
+    },
+    {
+      "action": "forty people turned around.",
+      "bg": {
+        "place": "classroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "startled",
+            "wide-eyed",
+            "alarmed",
+            "alert",
+            "caught-off-guard"
+          ],
+          "clip": "043"
+        }
+      ]
+    },
+    {
+      "action": "\"why are you laughing\"",
+      "bg": {
+        "place": "classroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.46,
+          "want": [
+            "watery-eyes",
+            "pleading",
+            "tearful",
+            "soft",
+            "melancholy"
+          ],
+          "pos": 0.3,
+          "clip": "085"
+        },
+        {
+          "name": "AJAY",
+          "size": 0.44,
+          "clip": "183",
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "pos": 0.72,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "\"bro that was a scream. you screamed\"",
+      "bg": {
+        "place": "classroom"
+      },
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.5,
+          "clip": "182",
+          "want": [
+            "yapping",
+            "singing",
+            "yap-yap-yap",
+            "talking-nonstop",
+            "blabbering"
+          ]
+        }
+      ]
+    },
+    {
+      "action": "sir asked me to explain what was funny.",
+      "bg": {
+        "place": "classroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "protesting",
+            "reluctant",
+            "trapped",
+            "squished",
+            "handled"
+          ],
+          "clip": "044"
+        }
+      ]
+    },
+    {
+      "action": "i explained it to forty people. nobody laughed.",
+      "bg": {
+        "place": "classroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "crying",
+            "teary",
+            "sad",
+            "watery-eyes",
+            "heartbroken"
+          ],
+          "clip": "097"
+        }
+      ]
+    }
+  ]
+}
