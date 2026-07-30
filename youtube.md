@@ -153,9 +153,9 @@ Status: ✅ posted · 🕒 scheduled (auto-publishes later) · ⏳ queued (rende
 | 139 | holiday-on-a-saturday | POV: the one holiday this month falls on a saturday | 🕒 scheduled | 2026-08-02T08:37:27Z | output/holiday-on-a-saturday.mp4 |
 | 140 | restarting-the-router-again | POV: the wifi is gone and you are the tech support of this house | 🕒 scheduled | 2026-08-02T14:37:27Z | output/restarting-the-router-again.mp4 |
 | 141 | he-thinks-he-knows-me | POV: a stranger is talking to you like you know each other | 🕒 scheduled | 2026-08-02T20:37:27Z | output/he-thinks-he-knows-me.mp4 |
-| 142 | noted-sir | POV: replying 'noted sir' to a message that ended your evening | ⏳ queued | — | output/noted-sir.mp4 |
+| 142 | noted-sir | POV: replying 'noted sir' to a message that ended your evening | 🕒 scheduled | 2026-08-03T02:37:27Z | output/noted-sir.mp4 |
 
-**Recommended next:** noted-sir
+**Recommended next:** — all posted/scheduled —
 Upload it with `python -m engine.upload --next`.
 
 ---
@@ -1706,7 +1706,7 @@ Upload it with `python -m engine.upload --next`.
   ```
 - **Tags:** cat memes, pov, relatable, funny cats, shorts, awkward, strangers, small talk
 
-### noted-sir ⏳
+### noted-sir 🕒
 - **Title:** POV: replying 'noted sir' to a message that ended your evening 🐱 #shorts
 - **Description:**
   ```

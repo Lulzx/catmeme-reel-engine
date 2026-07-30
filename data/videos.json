@@ -3463,10 +3463,10 @@
         "work"
       ],
       "file": "output/noted-sir.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-08-03T02:37:27Z",
+      "video_id": "VeR3KR4unHU",
       "kind": "short",
       "duration_sec": null,
       "chapters": []
