@@ -34,6 +34,36 @@ environment — so they aren't rediscovered the hard way.
 - **Python TLS needed an unverified SSL context** to fetch images reliably here. Fine
   for public CC images; don't copy that pattern into anything sensitive.
 - **Send a real `User-Agent`** on image requests; some endpoints reject the default.
+- **`uploadLimitExceeded` — the per-account daily video cap, not the API quota.** Batch
+  scheduling dies partway with:
+
+  ```
+  googleapiclient.errors.ResumableUploadError: <HttpError 400 when requesting None
+  returned "The user has exceeded the number of videos they may upload.".
+  Details: "[{'message': 'The user has exceeded the number of videos they may upload.',
+  'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+  ```
+
+  This is **not** the API quota — that's separate and this project's is raised to ~100
+  uploads/day. YouTube *also* caps how many videos the **account** may upload per calendar
+  day. Observed 2026-07-30: it fired after **38 uploads in one day** (a 27-reel batch plus
+  11 of the next). Plan on **~35–40/day**, and split month-sized batches across days.
+
+  `engine/upload.py --fill-schedule` handles the quota error but **not this one** — it
+  exits 1 with the traceback above. The failure is safely resumable, because the DB is
+  written per-upload: reels already up are `scheduled` with a `publish_at`, the rest stay
+  `queued` with `publish_at` NULL. Re-running the same command on a later day continues the
+  6-hour grid from the last scheduled reel, with no gap and no double-upload. Confirm with:
+
+  ```bash
+  sqlite3 data/videos.db "SELECT status, count(*) FROM videos GROUP BY status;"
+  sqlite3 data/videos.db "SELECT date(publish_at), count(*) FROM videos \
+      WHERE status='scheduled' GROUP BY 1 ORDER BY 1;"      # find days under 4
+  sqlite3 data/videos.db "SELECT count(*) FROM videos \
+      WHERE status='queued' AND publish_at IS NOT NULL;"    # must be 0
+  ```
+
+  Full detail in [12-youtube-upload.md](12-youtube-upload.md).
 
 ## Dead-ends (tried, rejected)
 
