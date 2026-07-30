@@ -96,3 +96,28 @@ them.
 python3 -m engine.allocate --report                       # who's over-exposed
 python3 -m engine.allocate --check <the batch's slugs>    # repeats in this batch
 ```
+
+## Watch the *punchline* beats specifically
+
+The allocator can only spread clips as far as the `want` tags let it. The failure
+mode is subtle and it comes from the writing, not the solver: if you reach for the
+same tag block on every payoff beat — `deadpan, blank, staring, done, flat` is the
+tempting one — every reel's last beat competes for the same handful of clips and
+the allocator reports `FORCED REPEAT` because there is nothing else to give.
+
+On the 2026-08-03 batch that put clip **051 (deadpan stare) in 19 of 27 reels**,
+all on the payoff beat, so the moment that carries each reel looked identical
+across a week of the feed. Retagging each ending to its own register (stunned /
+judging / grumpy / dead-inside / humiliated / exhausted, all of which exist in the
+catalog) moved the batch from 99 distinct clips with a worst repeat of 19 to **113
+distinct with a worst repeat of 5** — same allocator, better inputs.
+
+Two practical notes:
+
+- **Check the tag vocabulary exists before using it.** The catalog has 623 emotion
+  tags but plenty of plausible words (`weary`, `dread`, `pained`, `frustrated`,
+  `bitter`) are **not** among them, and an unmatched tag silently degrades to a
+  poor pick rather than erroring. Grep `emotions` in `data/catalog.json` first.
+- **`--repin-all` reassigns mascot pins too.** Plain `--fix` leaves anything
+  already pinned alone, which is what you normally want; `--repin-all` will move
+  182/183 off their lines. If you do use it, re-pin the mascots afterwards.

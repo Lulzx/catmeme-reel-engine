@@ -56,6 +56,15 @@ environment — so they aren't rediscovered the hard way.
   `note`; still usable when the emotion fits.
 - **6 playlist entries were deleted/private** at download time, hence gaps in the
   numbering (014, 015, 028, 029, 034, 038).
+- **`size` is a *height* fraction, so wide-bbox clips overflow sideways.** In
+  `layout()` the visible width is `(bx1-bx0) * size*H/bbh * (cw/ch)` — nothing clamps
+  it to the canvas. Clip **183** (the german cat) has a bbox aspect of ~1.3, so the
+  usual `size: 0.44` renders it **951px wide on a 1080 canvas**. Fine for a solo
+  close-up (that's its signature look), but in a **two-cat beat it completely covers
+  its scene partner** — `pos` 0.30/0.72 is nowhere near enough separation. For any
+  two-cat beat involving a wide clip, size it by *target width* instead: 183 at
+  `size: 0.24` is ~496px, which pairs with a ~420px partner at `pos` 0.26/0.74. Check
+  before rendering rather than after — the story JSON looks completely reasonable.
 - **Clip 007 ("driving") has a real car interior**, not full green — flagged `partial`;
   it keys imperfectly.
 - **Dull-green clips erase under an aggressive chroma key.** Clip 033's green is
