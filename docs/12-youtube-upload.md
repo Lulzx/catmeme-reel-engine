@@ -45,7 +45,22 @@ YouTube classify it as a Short automatically.
 
 ## Notes & limits
 
-- **Quota:** the YouTube Data API gives ~10,000 units/day; each upload costs ~1,600, so ~6 uploads/day. Fine for this cadence.
+- **Two separate limits, and it's the second one that bites:**
+  1. *API quota* — the default is ~10,000 units/day at ~1,600 per upload (~6 uploads), but
+     **this project has an increased quota good for ~100 uploads/day**, so the API side is
+     rarely the constraint.
+  2. *Per-account daily video cap* — YouTube separately limits how many videos the
+     **account** may upload per day. Observed 2026-07-30: after **38 uploads in one
+     calendar day** the API started returning
+     `HttpError 400 uploadLimitExceeded — "The user has exceeded the number of videos they
+     may upload."` So plan on **~35-40 uploads/day, not 100**.
+
+  `--fill-schedule` stops gracefully on the API *quota* error but **does not catch
+  `uploadLimitExceeded`** — it exits 1 with a `ResumableUploadError` traceback. The failure
+  is clean and resumable: everything already uploaded is `scheduled` with its `publish_at`,
+  the rest stay `queued` with `publish_at` NULL, so re-running the same command on a later
+  day continues the grid from the last scheduled reel with no gap and no duplicates. For
+  month-sized batches, split the uploads across calendar days.
 - **First-upload privacy:** new/unverified API clients sometimes have uploads forced to *private* until the channel is in good standing. If a video lands private, flip it to public once in YouTube Studio, or upload that first one manually. Use `--privacy unlisted` to test the pipeline without publishing.
 - **Re-running:** uploading the same slug again creates a *new* video (YouTube has no idempotency); the script guards against re-posting an already-posted slug unless you name it explicitly.
 - Thumbnails/captions aren't set by the API here — Shorts use a frame by default, which is fine for this format.
