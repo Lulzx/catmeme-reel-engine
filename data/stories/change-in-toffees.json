@@ -1,0 +1,162 @@
+{
+  "title": "no change",
+  "output": "change-in-toffees.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the shop gives you toffees instead of your change",
+  "outro": "14 in that drawer",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "the bill was 188.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "calm",
+            "waiting",
+            "patient",
+            "alert",
+            "standing"
+          ],
+          "clip": "156"
+        }
+      ]
+    },
+    {
+      "action": "i gave 200.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confident",
+            "calm",
+            "giving",
+            "relaxed",
+            "content"
+          ],
+          "clip": "126"
+        }
+      ]
+    },
+    {
+      "action": "he gave me a 10 rupee note.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "curious",
+            "squinting",
+            "inspecting",
+            "alert",
+            "puzzled"
+          ],
+          "clip": "131"
+        }
+      ]
+    },
+    {
+      "action": "and two toffees.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "puzzled",
+            "staring",
+            "blank",
+            "squinting"
+          ],
+          "clip": "176"
+        }
+      ]
+    },
+    {
+      "action": "\"no change\"",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "SHOPKEEPER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"eat them\"",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i have 14 toffees in that drawer and i do not eat toffees.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "indifferent",
+            "unbothered",
+            "blank",
+            "bored",
+            "dead-inside"
+          ],
+          "clip": "059"
+        }
+      ]
+    }
+  ]
+}

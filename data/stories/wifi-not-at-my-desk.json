@@ -1,0 +1,142 @@
+{
+  "title": "one bar",
+  "output": "wifi-not-at-my-desk.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the wifi works everywhere in the house except at your desk",
+  "outro": "standing in the kitchen",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "the kitchen gets full bars.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "pleased",
+            "content",
+            "happy",
+            "calm",
+            "relaxed"
+          ],
+          "clip": "101"
+        }
+      ]
+    },
+    {
+      "action": "even the bathroom gets full bars.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "surprised",
+            "curious",
+            "alert",
+            "wide-eyed",
+            "puzzled"
+          ],
+          "clip": "087"
+        }
+      ]
+    },
+    {
+      "action": "one bar at my desk.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "annoyed",
+            "irritated",
+            "grumpy",
+            "unimpressed",
+            "indifferent"
+          ],
+          "clip": "078"
+        }
+      ]
+    },
+    {
+      "action": "\"it is the wall\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "\"buy an extender\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "UNCLE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i work from the kitchen now. standing.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "resigned",
+            "tired",
+            "sighing",
+            "done",
+            "standing"
+          ],
+          "clip": "164"
+        }
+      ]
+    }
+  ]
+}

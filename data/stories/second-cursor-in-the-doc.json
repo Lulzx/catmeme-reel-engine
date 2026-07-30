@@ -1,0 +1,162 @@
+{
+  "title": "a second cursor",
+  "output": "second-cursor-in-the-doc.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you are typing in a shared doc and their cursor is watching you",
+  "outro": "he was faster",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "i opened the doc to fix one line.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "focused",
+            "working",
+            "typing",
+            "busy",
+            "calm"
+          ],
+          "clip": "033"
+        }
+      ]
+    },
+    {
+      "action": "a second cursor appeared.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "wary",
+            "suspicious",
+            "cautious",
+            "alert",
+            "nervous"
+          ],
+          "clip": "071"
+        }
+      ]
+    },
+    {
+      "action": "it stopped moving.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "tense",
+            "still",
+            "staring",
+            "waiting",
+            "anxious"
+          ],
+          "clip": "161"
+        }
+      ]
+    },
+    {
+      "action": "i typed slower.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "nervous",
+            "careful",
+            "tense",
+            "cautious",
+            "stiff"
+          ],
+          "clip": "062"
+        }
+      ]
+    },
+    {
+      "action": "\"typo in line 4\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "\"i can fix it if you want\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "BOSS",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "he fixed the typo while i was still typing the word.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "humiliated",
+            "defeated",
+            "stunned",
+            "frozen",
+            "blank"
+          ],
+          "clip": "176"
+        }
+      ]
+    }
+  ]
+}

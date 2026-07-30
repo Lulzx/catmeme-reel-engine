@@ -1,0 +1,182 @@
+{
+  "title": "one safe place",
+  "output": "mom-cleaned-my-desk.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: mom cleaned your desk and nothing is where you left it",
+  "outro": "a key to nothing",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "the desk is spotless.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "surprised",
+            "wide-eyed",
+            "impressed",
+            "alert",
+            "staring"
+          ],
+          "clip": "112"
+        }
+      ]
+    },
+    {
+      "action": "i cannot find the charger.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "searching",
+            "looking",
+            "confused",
+            "puzzled",
+            "alert"
+          ],
+          "clip": "111"
+        }
+      ]
+    },
+    {
+      "action": "or the pen drive.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "worried",
+            "anxious",
+            "searching",
+            "alarmed",
+            "tense"
+          ],
+          "clip": "172"
+        }
+      ]
+    },
+    {
+      "action": "or the warranty card.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "panicking",
+            "distressed",
+            "frantic",
+            "alarmed",
+            "shocked"
+          ],
+          "clip": "002"
+        }
+      ]
+    },
+    {
+      "action": "\"everything is in one safe place\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "MOM",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "she does not remember which place.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "annoyed",
+            "irritated",
+            "grumpy",
+            "unimpressed",
+            "side-eye"
+          ],
+          "clip": "139"
+        }
+      ]
+    },
+    {
+      "action": "\"check the steel cupboard\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "it was there. so was an old sim, one battery and a key to nothing.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "staring",
+            "blank",
+            "deadpan",
+            "tired",
+            "done"
+          ],
+          "clip": "146"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "title": "just evening it out",
+  "output": "barber-evening-it-out.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you said that is enough and the barber kept going",
+  "outro": "there is just less of it",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "i said stop at the right length.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "calm",
+            "relaxed",
+            "content",
+            "pleased",
+            "happy"
+          ],
+          "clip": "042"
+        }
+      ]
+    },
+    {
+      "action": "\"just evening it out\"",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "BARBER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "he evened it out for six minutes.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "alarmed",
+            "worried",
+            "nervous",
+            "tense",
+            "alert"
+          ],
+          "clip": "097"
+        }
+      ]
+    },
+    {
+      "action": "i watched it get shorter in the mirror.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "scared",
+            "alarmed",
+            "pleading",
+            "nervous",
+            "wide-eyed"
+          ],
+          "clip": "084"
+        }
+      ]
+    },
+    {
+      "action": "\"looks sharp bhai\"",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "\"now it is even\"",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "BARBER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "it is even. there is just less of it.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "stunned",
+            "frozen",
+            "empty",
+            "shocked",
+            "staring"
+          ],
+          "clip": "176"
+        }
+      ]
+    }
+  ]
+}

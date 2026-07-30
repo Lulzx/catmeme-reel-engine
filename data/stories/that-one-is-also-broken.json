@@ -1,0 +1,162 @@
+{
+  "title": "meter is broken",
+  "output": "that-one-is-also-broken.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the auto driver says the meter is broken again",
+  "outro": "and i said thank you",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "i asked for the meter.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "calm",
+            "asking",
+            "polite",
+            "alert",
+            "standing"
+          ],
+          "clip": "123"
+        }
+      ]
+    },
+    {
+      "action": "\"meter is broken\"",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "DRIVER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "the meter was running.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "squinting",
+            "suspicious",
+            "inspecting",
+            "staring",
+            "curious"
+          ],
+          "clip": "056"
+        }
+      ]
+    },
+    {
+      "action": "i pointed at it.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confident",
+            "determined",
+            "pointing",
+            "bold",
+            "alert"
+          ],
+          "clip": "049"
+        }
+      ]
+    },
+    {
+      "action": "\"that one is also broken\"",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "DRIVER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"just walk from here\"",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i paid 180 for a 90 rupee ride and said thank you.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "defeated",
+            "slumped",
+            "resigned",
+            "deadpan",
+            "done"
+          ],
+          "clip": "058"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "title": "one slice left",
+  "output": "nobody-was-full.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: one slice of cake is left and everybody suddenly is not hungry",
+  "outro": "nobody was full",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "one slice left in the box.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "staring",
+            "looking",
+            "curious",
+            "wide-eyed",
+            "alert"
+          ],
+          "clip": "074"
+        }
+      ]
+    },
+    {
+      "action": "\"you have it\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "MOM",
+          "size": 0.5,
+          "want": [
+            "sweet",
+            "kind",
+            "gentle",
+            "smiling",
+            "happy"
+          ],
+          "clip": "171"
+        }
+      ]
+    },
+    {
+      "action": "\"no no you have it\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "DAD",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "nobody moved for a while.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "awkward",
+            "nervous",
+            "pensive",
+            "attentive",
+            "watching"
+          ],
+          "clip": "154"
+        }
+      ]
+    },
+    {
+      "action": "i said i was full.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "lying",
+            "shifty",
+            "awkward",
+            "nervous",
+            "guilty"
+          ],
+          "clip": "031"
+        }
+      ]
+    },
+    {
+      "action": "i was not full.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "hungry",
+            "longing",
+            "staring",
+            "sad",
+            "wanting"
+          ],
+          "clip": "095"
+        }
+      ]
+    },
+    {
+      "action": "\"i will cut it in four\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.42,
+          "want": [
+            "deadpan",
+            "flat",
+            "done",
+            "blank",
+            "staring"
+          ],
+          "pos": 0.26,
+          "clip": "051"
+        },
+        {
+          "name": "AJAY",
+          "size": 0.24,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183",
+          "pos": 0.74,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "at 1am the box was empty. everyone had been full.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "smug",
+            "squinting",
+            "unbothered",
+            "knowing",
+            "cocky"
+          ],
+          "clip": "047"
+        }
+      ]
+    }
+  ]
+}

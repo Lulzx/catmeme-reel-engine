@@ -1,0 +1,162 @@
+{
+  "title": "tomorrow evening",
+  "output": "come-tomorrow-eleven-days.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the tailor has been saying come tomorrow for eleven days",
+  "outro": "he forgot what it was",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "i gave it on the 3rd.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "hopeful",
+            "calm",
+            "pleasant",
+            "content",
+            "relaxed"
+          ],
+          "clip": "100"
+        }
+      ]
+    },
+    {
+      "action": "\"tomorrow evening\"",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "TAILOR",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i went on the 4th.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "waiting",
+            "standing",
+            "patient",
+            "blank",
+            "bored"
+          ],
+          "clip": "178"
+        }
+      ]
+    },
+    {
+      "action": "\"tomorrow evening\"",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "TAILOR",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"try another shop\"",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "it is the 14th.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "exhausted",
+            "tired",
+            "resigned",
+            "lazy",
+            "bored"
+          ],
+          "clip": "117"
+        }
+      ]
+    },
+    {
+      "action": "today he asked me what i had given him.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "stunned",
+            "disbelief",
+            "shocked",
+            "frozen",
+            "yelling"
+          ],
+          "clip": "089"
+        }
+      ]
+    }
+  ]
+}

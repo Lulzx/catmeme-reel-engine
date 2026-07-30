@@ -1,0 +1,142 @@
+{
+  "title": "the geyser was on",
+  "output": "geyser-since-yesterday.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the geyser has been on since yesterday evening",
+  "outro": "and still cold",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "i switched it on at 7pm.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "calm",
+            "casual",
+            "relaxed",
+            "pressing",
+            "working"
+          ],
+          "clip": "143"
+        }
+      ]
+    },
+    {
+      "action": "for two minutes.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "blank",
+            "plain",
+            "flat",
+            "waiting",
+            "standing"
+          ],
+          "clip": "114"
+        }
+      ]
+    },
+    {
+      "action": "it is 9am.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "shocked",
+            "wide-eyed",
+            "alarmed",
+            "panicking",
+            "distressed"
+          ],
+          "clip": "172"
+        }
+      ]
+    },
+    {
+      "action": "\"who left this on\"",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "MOM",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"maybe it is broken\"",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the water was cold.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "disgusted",
+            "annoyed",
+            "sad",
+            "disappointed",
+            "grumpy"
+          ],
+          "clip": "093"
+        }
+      ]
+    }
+  ]
+}

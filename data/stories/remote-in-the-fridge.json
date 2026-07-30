@@ -1,0 +1,162 @@
+{
+  "title": "three days missing",
+  "output": "remote-in-the-fridge.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the tv remote has been missing for three days and everyone has looked",
+  "outro": "it was in the fridge",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "it went missing on tuesday.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "searching",
+            "looking",
+            "confused",
+            "alert",
+            "puzzled"
+          ],
+          "clip": "111"
+        }
+      ]
+    },
+    {
+      "action": "we checked the sofa.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "searching",
+            "inspecting",
+            "looking",
+            "curious",
+            "alert"
+          ],
+          "clip": "166"
+        }
+      ]
+    },
+    {
+      "action": "we checked inside the sofa.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "struggling",
+            "digging",
+            "working",
+            "busy",
+            "determined"
+          ],
+          "clip": "033"
+        }
+      ]
+    },
+    {
+      "action": "\"nobody touched it\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "DAD",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"check the fridge\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i checked the fridge to prove a point.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "smug",
+            "confident",
+            "cocky",
+            "knowing",
+            "proud"
+          ],
+          "clip": "020"
+        }
+      ]
+    },
+    {
+      "action": "it was in the fridge.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "shocked",
+            "wide-eyed",
+            "stunned",
+            "staring",
+            "alarmed"
+          ],
+          "clip": "176"
+        }
+      ]
+    }
+  ]
+}

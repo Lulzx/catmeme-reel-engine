@@ -1,0 +1,182 @@
+{
+  "title": "someone unplugged my charger",
+  "output": "charger-unplugged.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: someone unplugged your charger to charge their own phone",
+  "outro": "12 percent forever",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "i left it at 12 percent.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "leaving",
+            "walking",
+            "casual",
+            "calm",
+            "relaxed"
+          ],
+          "clip": "022"
+        }
+      ]
+    },
+    {
+      "action": "came back to 12 percent.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "puzzled",
+            "squinting",
+            "staring",
+            "curious"
+          ],
+          "clip": "111"
+        }
+      ]
+    },
+    {
+      "action": "my cable was on the floor.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "shocked",
+            "surprised",
+            "wide-eyed",
+            "alarmed",
+            "staring"
+          ],
+          "clip": "172"
+        }
+      ]
+    },
+    {
+      "action": "\"mine was urgent\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "BHAI",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "his phone was at 88.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "deadpan",
+            "unimpressed",
+            "flat",
+            "staring",
+            "done"
+          ],
+          "clip": "116"
+        }
+      ]
+    },
+    {
+      "action": "i plugged mine back in.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "working",
+            "busy",
+            "focused",
+            "fixing",
+            "alert"
+          ],
+          "clip": "092"
+        }
+      ]
+    },
+    {
+      "action": "\"hide it next time\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "he unplugged it again while i was telling him not to.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "screaming",
+            "rage",
+            "outburst",
+            "angry",
+            "furious"
+          ],
+          "clip": "180"
+        }
+      ]
+    }
+  ]
+}

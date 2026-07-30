@@ -1,0 +1,202 @@
+{
+  "title": "9am saturday invite",
+  "output": "nine-am-saturday.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: a meeting invite lands for 9am saturday and nobody declines it",
+  "outro": "he joined at 9:20",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "the invite came at 11pm friday.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "scared",
+            "nervous",
+            "alarmed",
+            "wary",
+            "pensive"
+          ],
+          "clip": "103"
+        }
+      ]
+    },
+    {
+      "action": "no agenda.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "squinting",
+            "reading",
+            "suspicious",
+            "inspecting",
+            "curious"
+          ],
+          "clip": "072"
+        }
+      ]
+    },
+    {
+      "action": "eleven people accepted in four minutes.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "alarmed",
+            "shocked",
+            "wide-eyed",
+            "alert",
+            "staring"
+          ],
+          "clip": "132"
+        }
+      ]
+    },
+    {
+      "action": "i accepted too.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "resigned",
+            "defeated",
+            "sighing",
+            "tired",
+            "done"
+          ],
+          "clip": "164"
+        }
+      ]
+    },
+    {
+      "action": "\"you can leave early\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "\"should be quick\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "BOSS",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "it was 9am.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "sleepy",
+            "tired",
+            "drowsy",
+            "exhausted",
+            "yawning"
+          ],
+          "clip": "158"
+        }
+      ]
+    },
+    {
+      "action": "four people had cameras off.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "judging",
+            "side-eye",
+            "skeptical",
+            "suspicious",
+            "unimpressed"
+          ],
+          "clip": "054"
+        }
+      ]
+    },
+    {
+      "action": "the one who made the invite joined at 9:20.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "screaming",
+            "rage",
+            "outburst",
+            "angry",
+            "furious"
+          ],
+          "clip": "012"
+        }
+      ]
+    }
+  ]
+}

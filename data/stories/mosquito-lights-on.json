@@ -1,0 +1,182 @@
+{
+  "title": "the light goes on, it goes quiet",
+  "output": "mosquito-lights-on.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you switch the light on and the mosquito is suddenly nowhere",
+  "outro": "before the pillow",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "i heard it near my ear.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "wary",
+            "alert",
+            "attentive",
+            "cautious",
+            "watching"
+          ],
+          "clip": "083"
+        }
+      ]
+    },
+    {
+      "action": "i turned the light on.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "searching",
+            "looking",
+            "squinting",
+            "inspecting",
+            "alert"
+          ],
+          "clip": "166"
+        }
+      ]
+    },
+    {
+      "action": "nothing.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "blank",
+            "confused",
+            "puzzled",
+            "staring",
+            "flat"
+          ],
+          "clip": "096"
+        }
+      ]
+    },
+    {
+      "action": "\"clap where you heard it\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i waited 40 seconds.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "waiting",
+            "patient",
+            "still",
+            "staring",
+            "tense"
+          ],
+          "clip": "016"
+        }
+      ]
+    },
+    {
+      "action": "\"switch on the fan\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "UNCLE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i turned it off.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "tired",
+            "sleepy",
+            "resigned",
+            "sighing",
+            "done"
+          ],
+          "clip": "125"
+        }
+      ]
+    },
+    {
+      "action": "it was back at my ear before my head reached the pillow.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "wailing",
+            "pleading",
+            "sad",
+            "screaming",
+            "yelling"
+          ],
+          "clip": "085"
+        }
+      ]
+    }
+  ]
+}

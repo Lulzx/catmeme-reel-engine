@@ -1,0 +1,202 @@
+{
+  "title": "hiccups in the review",
+  "output": "hiccups-slide-twelve.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the hiccups arrive during the most serious meeting of your life",
+  "outro": "one word",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "quarterly review. eleven people.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "nervous",
+            "tense",
+            "alert",
+            "worried",
+            "stiff"
+          ],
+          "clip": "044"
+        }
+      ]
+    },
+    {
+      "action": "the first one was small.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "surprised",
+            "startled",
+            "wide-eyed",
+            "shocked",
+            "alarmed"
+          ],
+          "clip": "172"
+        }
+      ]
+    },
+    {
+      "action": "i held my breath.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "holding",
+            "straining",
+            "tense",
+            "struggling",
+            "stiff"
+          ],
+          "clip": "055"
+        }
+      ]
+    },
+    {
+      "action": "\"and if we look at slide 12\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "BOSS",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "the second one was not small.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "screaming",
+            "outburst",
+            "loud",
+            "shocked",
+            "alarmed"
+          ],
+          "clip": "170"
+        }
+      ]
+    },
+    {
+      "action": "somebody laughed and stopped.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "embarrassed",
+            "awkward",
+            "shy",
+            "nervous",
+            "guilty"
+          ],
+          "clip": "134"
+        }
+      ]
+    },
+    {
+      "action": "\"hold your nose\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i drank water upside down in the corridor.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "struggling",
+            "weird",
+            "contorted",
+            "silly",
+            "goofy"
+          ],
+          "clip": "106"
+        }
+      ]
+    },
+    {
+      "action": "slide 12 had one word on it.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "dead-inside",
+            "empty",
+            "zoning-out",
+            "blank",
+            "done"
+          ],
+          "clip": "010"
+        }
+      ]
+    }
+  ]
+}

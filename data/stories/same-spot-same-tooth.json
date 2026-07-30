@@ -1,0 +1,162 @@
+{
+  "title": "the same spot",
+  "output": "same-spot-same-tooth.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you bite your tongue and then bite the exact same spot again",
+  "outro": "same tooth",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "rice. normal bite.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "eating",
+            "chewing",
+            "content",
+            "happy",
+            "calm"
+          ],
+          "clip": "175"
+        }
+      ]
+    },
+    {
+      "action": "i bit the side of my tongue.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "yelling",
+            "outburst",
+            "screaming",
+            "angry",
+            "shocked"
+          ],
+          "clip": "170"
+        }
+      ]
+    },
+    {
+      "action": "\"chew on the other side\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i waited before the next bite.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "careful",
+            "cautious",
+            "tense",
+            "still",
+            "alert"
+          ],
+          "clip": "122"
+        }
+      ]
+    },
+    {
+      "action": "i was careful.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "focused",
+            "determined",
+            "careful",
+            "stiff",
+            "concentrating"
+          ],
+          "clip": "108"
+        }
+      ]
+    },
+    {
+      "action": "\"happens to me daily\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "UNCLE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "same spot. same tooth.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "yelling",
+            "outburst",
+            "angry",
+            "intense",
+            "disgusted"
+          ],
+          "clip": "180"
+        }
+      ]
+    }
+  ]
+}

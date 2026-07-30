@@ -1,0 +1,182 @@
+{
+  "title": "the atm only has 500s",
+  "output": "atm-only-500s.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the atm only gives 500 notes and you needed 200",
+  "outro": "still no change",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "the atm had one working slot.",
+      "bg": {
+        "place": "bank"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "waiting",
+            "bored",
+            "patient",
+            "standing",
+            "blank"
+          ],
+          "clip": "181"
+        }
+      ]
+    },
+    {
+      "action": "i needed 200 rupees.",
+      "bg": {
+        "place": "bank"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "deadpan",
+            "flat",
+            "plain",
+            "staring",
+            "unbothered"
+          ],
+          "clip": "113"
+        }
+      ]
+    },
+    {
+      "action": "\"it only gives 500s sir\"",
+      "bg": {
+        "place": "bank"
+      },
+      "cast": [
+        {
+          "name": "GUARD",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i took 2000.",
+      "bg": {
+        "place": "bank"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "resigned",
+            "sighing",
+            "tired",
+            "done",
+            "flat"
+          ],
+          "clip": "164"
+        }
+      ]
+    },
+    {
+      "action": "the tea guy held the note up to the light.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "TEA GUY",
+          "size": 0.5,
+          "want": [
+            "squinting",
+            "suspicious",
+            "inspecting",
+            "curious",
+            "staring"
+          ],
+          "clip": "011"
+        }
+      ]
+    },
+    {
+      "action": "\"anything smaller?\"",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "TEA GUY",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i bought biscuits, a comb and a phone charger.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "shopping",
+            "carrying",
+            "busy",
+            "alert",
+            "wide-eyed"
+          ],
+          "clip": "169"
+        }
+      ]
+    },
+    {
+      "action": "the tea was 20 rupees.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "stunned",
+            "disbelief",
+            "shocked",
+            "frozen",
+            "staring"
+          ],
+          "clip": "176"
+        }
+      ]
+    }
+  ]
+}

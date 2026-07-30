@@ -1,0 +1,142 @@
+{
+  "title": "he reclined fully",
+  "output": "reclined-on-a-40-minute-flight.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: he reclined all the way back on a 40 minute flight",
+  "outro": "last row",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "the flight was 40 minutes.",
+      "bg": {
+        "place": "airport"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "calm",
+            "waiting",
+            "patient",
+            "relaxed",
+            "seated"
+          ],
+          "clip": "148"
+        }
+      ]
+    },
+    {
+      "action": "he reclined before takeoff.",
+      "bg": {
+        "place": "airport"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "indignant",
+            "annoyed",
+            "disgusted",
+            "angry",
+            "unimpressed"
+          ],
+          "clip": "005"
+        }
+      ]
+    },
+    {
+      "action": "my tray table went slanted.",
+      "bg": {
+        "place": "airport"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "squinting",
+            "inspecting",
+            "confused",
+            "puzzled",
+            "staring"
+          ],
+          "clip": "185"
+        }
+      ]
+    },
+    {
+      "action": "\"you can also recline\"",
+      "bg": {
+        "place": "airport"
+      },
+      "cast": [
+        {
+          "name": "MAN",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"go on, try\"",
+      "bg": {
+        "place": "airport"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i was in the last row.",
+      "bg": {
+        "place": "airport"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "trapped",
+            "annoyed",
+            "irritated",
+            "grumpy",
+            "done"
+          ],
+          "clip": "129"
+        }
+      ]
+    }
+  ]
+}

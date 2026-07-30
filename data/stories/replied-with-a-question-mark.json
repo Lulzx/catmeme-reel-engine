@@ -1,0 +1,162 @@
+{
+  "title": "four lines, one question mark",
+  "output": "replied-with-a-question-mark.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you sent four lines and they replied with just a question mark",
+  "outro": "then two of them",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "i typed it twice before sending.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "focused",
+            "typing",
+            "busy",
+            "working",
+            "alert"
+          ],
+          "clip": "136"
+        }
+      ]
+    },
+    {
+      "action": "four lines.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "blank",
+            "plain",
+            "flat",
+            "waiting",
+            "staring"
+          ],
+          "clip": "096"
+        }
+      ]
+    },
+    {
+      "action": "seen at 2:14.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "staring",
+            "waiting",
+            "tense",
+            "anxious",
+            "alert"
+          ],
+          "clip": "023"
+        }
+      ]
+    },
+    {
+      "action": "\"?\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"maybe shorten it\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i cut two lines and sent it again.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "typing",
+            "busy",
+            "focused",
+            "working",
+            "determined"
+          ],
+          "clip": "091"
+        }
+      ]
+    },
+    {
+      "action": "\"??\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "title": "the strap gave up",
+  "output": "one-slipper-like-a-phone.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: your slipper strap gives up in the middle of the road",
+  "outro": "one slipper",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "the left one went first.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "walking",
+            "casual",
+            "relaxed",
+            "calm",
+            "moving"
+          ],
+          "clip": "109"
+        }
+      ]
+    },
+    {
+      "action": "i felt it before i heard it.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "wary",
+            "cautious",
+            "alert",
+            "attentive",
+            "suspicious"
+          ],
+          "clip": "151"
+        }
+      ]
+    },
+    {
+      "action": "i kept walking like nothing happened.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confident",
+            "smug",
+            "strutting",
+            "proud",
+            "cocky"
+          ],
+          "clip": "144"
+        }
+      ]
+    },
+    {
+      "action": "it came off completely at the signal.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "alarmed",
+            "scared",
+            "nervous",
+            "startled",
+            "pleading"
+          ],
+          "clip": "008"
+        }
+      ]
+    },
+    {
+      "action": "\"there is a cobbler near the temple\"",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the temple was 2 kilometres away.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "disappointed",
+            "sad",
+            "resigned",
+            "pensive",
+            "tired"
+          ],
+          "clip": "076"
+        }
+      ]
+    },
+    {
+      "action": "\"my cousin fixes these\"",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "UNCLE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"he is in nagpur\"",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.46,
+          "want": [
+            "staring",
+            "unimpressed",
+            "side-eye",
+            "judging",
+            "flat"
+          ],
+          "pos": 0.26,
+          "clip": "155"
+        },
+        {
+          "name": "AJAY",
+          "size": 0.24,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183",
+          "pos": 0.74,
+          "flip": true
+        }
+      ]
+    },
+    {
+      "action": "i walked it holding one slipper like a phone.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "resigned",
+            "tired",
+            "walking",
+            "sighing",
+            "done"
+          ],
+          "clip": "164"
+        }
+      ]
+    }
+  ]
+}

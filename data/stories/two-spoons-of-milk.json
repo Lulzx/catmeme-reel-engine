@@ -1,0 +1,142 @@
+{
+  "title": "some left",
+  "output": "two-spoons-of-milk.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: someone put the milk back with two spoons left in it",
+  "outro": "a fourth of a spoon",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "i shook the packet.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "inspecting",
+            "curious",
+            "working",
+            "alert",
+            "squinting"
+          ],
+          "clip": "160"
+        }
+      ]
+    },
+    {
+      "action": "it made a sound.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "hopeful",
+            "alert",
+            "curious",
+            "wide-eyed",
+            "interested"
+          ],
+          "clip": "145"
+        }
+      ]
+    },
+    {
+      "action": "not enough sound.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "worried",
+            "suspicious",
+            "squinting",
+            "tense",
+            "alarmed"
+          ],
+          "clip": "055"
+        }
+      ]
+    },
+    {
+      "action": "\"there is some left\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "BHAI",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"add water\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "there was some left. it filled a fourth of a spoon.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "disgusted",
+            "sour",
+            "annoyed",
+            "grumpy",
+            "unimpressed"
+          ],
+          "clip": "080"
+        }
+      ]
+    }
+  ]
+}

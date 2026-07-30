@@ -1,0 +1,142 @@
+{
+  "title": "two days more",
+  "output": "drilling-8am-sunday.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the neighbour starts drilling at 8am on a sunday",
+  "outro": "for three weeks now",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "sunday. 8am.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "sleepy",
+            "drowsy",
+            "tired",
+            "yawning",
+            "resting"
+          ],
+          "clip": "117"
+        }
+      ]
+    },
+    {
+      "action": "one drill.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "startled",
+            "shocked",
+            "alarmed",
+            "surprised",
+            "scared"
+          ],
+          "clip": "025"
+        }
+      ]
+    },
+    {
+      "action": "then a hammer.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "distressed",
+            "panicking",
+            "frantic",
+            "alarmed",
+            "tense"
+          ],
+          "clip": "170"
+        }
+      ]
+    },
+    {
+      "action": "\"only two days more\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "NEIGHBOUR",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"ask what he is building\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "it has been two days more for three weeks.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "dead-inside",
+            "exhausted",
+            "empty",
+            "zoning-out",
+            "tired"
+          ],
+          "clip": "125"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "title": "someone's alarm",
+  "output": "alarm-three-seats-down.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: someone's alarm is going off on the train and they are fast asleep",
+  "outro": "then a second one",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "7:12 train.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "waiting",
+            "calm",
+            "seated",
+            "patient",
+            "blank"
+          ],
+          "clip": "086"
+        }
+      ]
+    },
+    {
+      "action": "an alarm started three seats down.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "alert",
+            "startled",
+            "curious",
+            "wide-eyed",
+            "alarmed"
+          ],
+          "clip": "132"
+        }
+      ]
+    },
+    {
+      "action": "it was the loud default one.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "distressed",
+            "tense",
+            "annoyed",
+            "alarmed",
+            "frantic"
+          ],
+          "clip": "021"
+        }
+      ]
+    },
+    {
+      "action": "he was asleep.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "staring",
+            "squinting",
+            "unimpressed",
+            "judging",
+            "flat"
+          ],
+          "clip": "096"
+        }
+      ]
+    },
+    {
+      "action": "\"it is not my phone\"",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "MAN",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"wake him\"",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "nobody woke him.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "disbelief",
+            "stunned",
+            "judging",
+            "side-eye",
+            "unimpressed"
+          ],
+          "clip": "080"
+        }
+      ]
+    },
+    {
+      "action": "it stopped on its own. then a second one started.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "dead-inside",
+            "empty",
+            "exhausted",
+            "zoning-out",
+            "done"
+          ],
+          "clip": "125"
+        }
+      ]
+    }
+  ]
+}
