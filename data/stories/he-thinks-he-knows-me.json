@@ -148,13 +148,13 @@
           "name": "ME",
           "size": 0.5,
           "want": [
-            "cursed",
-            "surreal",
-            "weird",
             "deadpan",
-            "uncanny"
+            "blank",
+            "unbothered",
+            "staring",
+            "flat"
           ],
-          "clip": "135"
+          "clip": "096"
         }
       ]
     },

@@ -183,13 +183,13 @@
           "name": "ME",
           "size": 0.5,
           "want": [
-            "cursed",
-            "surreal",
-            "weird",
-            "deadpan",
-            "uncanny"
+            "smug",
+            "unbothered",
+            "self-satisfied",
+            "content",
+            "squinting"
           ],
-          "clip": "135"
+          "clip": "124"
         }
       ]
     }
