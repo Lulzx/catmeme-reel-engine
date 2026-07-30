@@ -3088,10 +3088,10 @@
         "commute"
       ],
       "file": "output/one-puddle-at-9am.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-07-30T08:37:27Z",
+      "video_id": "aJ5vMEtNpVU",
       "kind": "short",
       "duration_sec": null,
       "chapters": []
@@ -3113,10 +3113,10 @@
         "work"
       ],
       "file": "output/keeping-the-dot-green.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-07-30T14:37:27Z",
+      "video_id": "Of-mN2yD_Cg",
       "kind": "short",
       "duration_sec": null,
       "chapters": []
@@ -3138,10 +3138,10 @@
         "home"
       ],
       "file": "output/day-four-same-jeans.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-07-30T20:37:27Z",
+      "video_id": "781UraXW7t8",
       "kind": "short",
       "duration_sec": null,
       "chapters": []
@@ -3163,10 +3163,10 @@
         "awkward"
       ],
       "file": "output/he-walked-to-the-front.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-07-31T02:37:27Z",
+      "video_id": "pWQS9AKyQHc",
       "kind": "short",
       "duration_sec": null,
       "chapters": []
@@ -3188,10 +3188,10 @@
         "home"
       ],
       "file": "output/light-went-at-the-best-part.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-07-31T08:37:27Z",
+      "video_id": "YHAmTUNx2t4",
       "kind": "short",
       "duration_sec": null,
       "chapters": []
@@ -3213,10 +3213,10 @@
         "rain"
       ],
       "file": "output/no-auto-will-go-there.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-07-31T14:37:27Z",
+      "video_id": "0QUhzLuyMt4",
       "kind": "short",
       "duration_sec": null,
       "chapters": []
@@ -3238,10 +3238,10 @@
         "awkward"
       ],
       "file": "output/loudest-possible-moment.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-07-31T20:37:27Z",
+      "video_id": "zwPq1MJ6PJ4",
       "kind": "short",
       "duration_sec": null,
       "chapters": []
@@ -3263,10 +3263,10 @@
         "monsoon"
       ],
       "file": "output/office-ac-does-not-care.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-08-01T02:37:27Z",
+      "video_id": "GASPG_S9fTw",
       "kind": "short",
       "duration_sec": null,
       "chapters": []
@@ -3288,10 +3288,10 @@
         "memories"
       ],
       "file": "output/phone-showed-me-2016.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-08-01T08:37:27Z",
+      "video_id": "EiCP9l0ezN8",
       "kind": "short",
       "duration_sec": null,
       "chapters": []
@@ -3313,10 +3313,10 @@
         "rain"
       ],
       "file": "output/the-wind-got-my-umbrella.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-08-01T14:37:27Z",
+      "video_id": "si7w2xZEwOM",
       "kind": "short",
       "duration_sec": null,
       "chapters": []
@@ -3338,10 +3338,10 @@
         "awkward"
       ],
       "file": "output/only-one-laughing.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-08-01T20:37:27Z",
+      "video_id": "TVdACLuH1sU",
       "kind": "short",
       "duration_sec": null,
       "chapters": []
@@ -3363,10 +3363,10 @@
         "weather"
       ],
       "file": "output/stopped-the-second-i-reached.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-08-02T02:37:27Z",
+      "video_id": "1aGJpvs8wJU",
       "kind": "short",
       "duration_sec": null,
       "chapters": []
@@ -3388,10 +3388,10 @@
         "work"
       ],
       "file": "output/holiday-on-a-saturday.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-08-02T08:37:27Z",
+      "video_id": "T9RfdGqL4fo",
       "kind": "short",
       "duration_sec": null,
       "chapters": []
@@ -3413,10 +3413,10 @@
         "home"
       ],
       "file": "output/restarting-the-router-again.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-08-02T14:37:27Z",
+      "video_id": "9p16chKEMdg",
       "kind": "short",
       "duration_sec": null,
       "chapters": []
@@ -3438,10 +3438,10 @@
         "small talk"
       ],
       "file": "output/he-thinks-he-knows-me.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-08-02T20:37:27Z",
+      "video_id": "FbnDJ1rqwHo",
       "kind": "short",
       "duration_sec": null,
       "chapters": []
@@ -3463,10 +3463,10 @@
         "work"
       ],
       "file": "output/noted-sir.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-08-03T02:37:27Z",
+      "video_id": "GTv0ChlIbCE",
       "kind": "short",
       "duration_sec": null,
       "chapters": []
