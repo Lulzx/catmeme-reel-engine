@@ -14,6 +14,7 @@ Each cat keeps its own audio; multi-cat scenes mix the audio. Beats are
 concatenated into out/final.mp4.
 """
 import json, os, sys, subprocess, textwrap, io, re, ssl, urllib.request, urllib.parse
+from collections import Counter
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import match as M
 import paths
@@ -75,6 +76,18 @@ LIB_KW = {
  "theater":["theater","theatre","auditorium","drama"],
  "village":["village","countryside","rural","town","hamlet"],
 }
+# Scene names that have no file in backgrounds/ and need a better search query than
+# the bare word (see the `place` fallback in paint_bg).
+PLACE_QUERY = {
+    "office": "open plan office desks interior",
+    "livingroom": "cozy living room sofa interior",
+    "bedroom": "cozy bedroom interior night",
+    "bathroom": "bathroom sink mirror interior",
+    "balcony": "apartment balcony railing city",
+    "lift": "elevator interior doors",
+    "queue": "supermarket checkout counter queue",
+}
+
 _lib_index = None
 def _library():
     global _lib_index
@@ -208,6 +221,15 @@ def make_background(spec, w, h, path, shadows=()):
         src=spec["image"]
     elif spec.get("place"):
         src=library_path(spec["place"])
+        if src is None:
+            # A named scene with no file in backgrounds/ used to fall straight
+            # through to a flat gradient — silently, so nobody noticed that
+            # `place: "office"` (164 beats channel-wide) had no office.jpg and
+            # every one of those beats rendered as grey. Treat an unknown place
+            # as a search query instead: keyword-match the library first, then
+            # the web. Only a genuine miss reaches the gradient now.
+            q=PLACE_QUERY.get(spec["place"], spec["place"])
+            src=library_match(q) or fetch_image(q)
     if src is None and spec.get("img"):
         src=library_match(spec["img"]) or fetch_image(spec["img"])
     photo=Image.open(src).convert("RGB") if src else None
@@ -219,6 +241,10 @@ def make_background(spec, w, h, path, shadows=()):
         for y in range(top): d.line([(0,y),(w,y)],fill=(0,0,0,int(150*(1-y/top))))
         img=Image.alpha_composite(img.convert("RGBA"),ov).convert("RGB")
     else:
+        # Say so. This silently produced 164 grey beats before anyone spotted it.
+        if spec.get("place") or spec.get("img"):
+            print(f"    ! no background image for "
+                  f"{spec.get('place') or spec.get('img')!r} — using a gradient")
         top,bot=PALETTES.get(spec.get("palette","neutral"),PALETTES["neutral"])
         img=gradient(w,h,top,bot)
     # contact shadows (drawn on a blurred layer so they read as soft)
@@ -313,6 +339,19 @@ def run(cmd):
 
 DEFAULT_POS={1:[0.5],2:[0.30,0.70],3:[0.22,0.5,0.78]}
 
+def _channel_usage():
+    """Every clip already published, repeated once per video that used it, so the
+    matcher's fatigue penalty starts from the channel's real history instead of
+    treating each render as the first one. Empty if the DB isn't there yet."""
+    import sqlite3
+    db=os.path.join(paths.DATA,"videos.db")
+    if not os.path.exists(db): return []
+    try:
+        con=sqlite3.connect(db)
+        try: return [r[0] for r in con.execute("select clip_id from clip_usage")]
+        finally: con.close()
+    except Exception: return []
+
 def render(story_path, seed_used=None):
     # seed_used: a list of clip ids already used by *other* videos in a batch;
     # the matcher avoids them so clips don't repeat across the batch. Passed by
@@ -328,7 +367,9 @@ def render(story_path, seed_used=None):
                       "cast":story.get("outro_cast",[])})
 
     # cross-video set (soft): clips other videos used — discouraged, not banned.
-    cross_used=seed_used if seed_used is not None else []
+    # A repeat costs more the more videos already used the clip (match.penalize
+    # takes counts), so a broad-match clip can't quietly colonise the channel.
+    cross_used=seed_used if seed_used is not None else _channel_usage()
     story_used=[]; beat_files=[]; encode_jobs=[]   # within THIS video: hard no-repeat
     for i,beat in enumerate(beats):
         cast=beat.get("cast",[])
@@ -341,7 +382,7 @@ def render(story_path, seed_used=None):
                 # by other videos (quality still wins over novelty).
                 _,clip,_=M.best(c.get("want",[]),c.get("query",""),catalog,
                                 exclude=story_used+local_used,
-                                penalize=set(cross_used))
+                                penalize=Counter(cross_used))
             if clip is None:
                 raise SystemExit(f"beat {i}: no clip matches {c.get('want') or c.get('query')!r}")
             clips.append(clip); local_used.append(clip["id"])

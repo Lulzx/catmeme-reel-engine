@@ -51,6 +51,7 @@ Measured across 112 stories / 872 captions:
 | Title Case titles | "You Tell A Joke In The Group Chat…" | nobody types like this |
 | One outro on 45 videos | `FOLLOW IF THIS IS YOU` ×45 | identical furniture across a feed |
 | Narrating the picture | "the fake professional smile activates" | captions should add what the image can't show |
+| Asterisks on screen | `*i pull it*` in all 872 captions | markdown emphasis rendered literally into the frame — see rule 18 |
 
 ## The rules
 
@@ -88,6 +89,21 @@ Measured across 112 stories / 872 captions:
 14. **Be specific.** "₹40" beats "some money". "the 7:12 bus" beats "the bus". Concrete
     detail is the cheapest anti-AI signal there is, and it's what people quote back.
 
+**Punctuation of the caption itself**
+
+18. **No asterisks. Use quotes.** *(added 2026-07-30)* The caption is drawn to the
+    frame literally — `*i pull it*` puts two visible asterisks on screen, which is
+    markdown leaking into a video. Two forms only:
+    - **spoken line → double quotes:** `"i can jump this"`
+    - **narration → bare text, no markers at all:** `it is 6pm.`
+
+    Lean on the quoted form. A line someone actually says is concrete by
+    construction, which is most of rule 4 and rule 13 for free — `*peak
+    desperation.*` isn't a thing anyone says out loud, so the register that got
+    called out can't survive the rewrite. The italic font still applies, so quoted
+    dialogue and bare narration stay visually distinct without any punctuation
+    doing the work.
+
 **Furniture**
 
 15. **Rotate the outro**, and write it in the same voice as the script. Never reuse the
@@ -96,6 +112,20 @@ Measured across 112 stories / 872 captions:
     happens in, and don't repeat one scene across consecutive videos in a batch.
 17. **Vary the description.** The identical boilerplate + hashtag block on every upload
     reads as automated to both viewers and the algorithm.
+
+## These rules are a floor, not the goal
+
+Everything above is about not sounding generated. It is not the same thing as being
+funny, and a script can pass every rule here and still be a wry shrug that nobody
+laughs at. Endings like *"i closed the calendar."* clear the linter and fail the
+reel.
+
+So the last beat carries the reel: a **reversal** (the precaution causes the
+damage), a **callback**, or an **absurd escalation that stays specific**. The flat
+beats in rule 3 exist to give that ending something to push off. Scored explicitly
+as the `punchline` metric in
+[`.claude/skills/make-reel/SCORING.md`](../.claude/skills/make-reel/SCORING.md),
+which gates what gets rendered.
 
 ## The sniff test
 

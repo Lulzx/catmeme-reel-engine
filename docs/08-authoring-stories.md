@@ -18,7 +18,7 @@ queries. No clip IDs, no pixel work. This is the file a human or an LLM writes.
 
   "beats": [
     {
-      "action": "*walking in like I own the place*", // italic caption ("dialogue" also ok)
+      "action": "\"i can jump this\"",                // caption: quoted line, or bare narration
       "dur": 5.0,                                     // optional override of max_beat_dur
       "bg": {
         "img": "corporate office room interior desks", // Openverse query (fetched+cached)
@@ -53,8 +53,15 @@ queries. No clip IDs, no pixel work. This is the file a human or an LLM writes.
 
 1. **One constant `pov` premise.** Phrase it as a relatable POV: "POV: mom calls you
    for no reason". It never changes during the video.
-2. **Each beat is a moment**, captioned with an `*action*` (stage direction) or a line
-   of `"dialogue"`. Keep them short — they're small on screen.
+2. **Each beat is a moment.** The caption is either a **quoted spoken line**
+   (`"i can jump this"`) or **bare narration** with no markers at all
+   (`it is 6pm.`). Keep them short — they're small on screen.
+
+   **Never use `*asterisks*`.** The caption is drawn to the frame literally, so
+   they show up on screen as characters. This is rule 18 in
+   [15-human-voice.md](15-human-voice.md) and `engine/lint_voice.py` fails on it.
+   The ~126 stories written before 2026-07-30 still use the old `*action*` form;
+   they're already posted and aren't worth re-rendering, so don't copy them.
 3. **Name your characters** (`ME`, `MOM`, `BOSS`). Reuse names across beats; the cat
    clip can differ each time (the reaction changes, the character doesn't).
 4. **Use two-character scenes for the climax** — put both cats in one beat with

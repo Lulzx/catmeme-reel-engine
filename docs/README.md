@@ -29,6 +29,12 @@ onto a scene-relevant background, labels it, and renders a finished vertical vid
 | 13 | [13-deployment.md](13-deployment.md) | **the web UI deploy: `deploy.py`, the host, and SQLite sync** |
 | 14 | [14-analytics-and-trends.md](14-analytics-and-trends.md) | reading channel performance; which themes win; trendy clip curation |
 | 15 | [15-human-voice.md](15-human-voice.md) | **caption rules so scripts don't read as AI — enforced by `engine/lint_voice.py`** |
+| 16 | [16-clip-diversity.md](16-clip-diversity.md) | stopping one clip from carrying the channel — fatigue penalty + `engine/allocate.py` |
+
+Scripts are also **scored before they ship**: the rubric lives with the authoring
+skill at [`.claude/skills/make-reel/SCORING.md`](../.claude/skills/make-reel/SCORING.md)
+— 8 metrics, 100 points, 75 to pass. It's judged by Claude reading the script, not
+computed, because every metric on it is a question about whether something is funny.
 
 ## TL;DR
 

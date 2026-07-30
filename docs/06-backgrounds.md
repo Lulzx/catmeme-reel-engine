@@ -23,6 +23,23 @@ library, …) sourced from the
 `backgrounds/` and **optimized** (downscaled to just cover 1080×1920, recompressed
 to progressive JPEG q82 — ~18 MB → ~10 MB).
 
+### A `place` with no file used to render grey *(fixed 2026-07-30)*
+
+Step 2 is a direct filename lookup, and for a long time a miss fell straight
+through to the gradient at step 5 — silently. `backgrounds/` has no `office.jpg`,
+so **every `"place": "office"` beat rendered as a flat grey card: 164 beats across
+the channel.** Nothing logged it, and `office` is also a `PALETTES` key, so it
+looked deliberate.
+
+Now an unresolved `place` is treated as a search query instead: it runs through the
+library keyword match and then Openverse, exactly as `bg.img` does. `PLACE_QUERY`
+in `render.py` maps the scene names that need a better query than the bare word
+(`office` → "open plan office desks interior", `livingroom`, `bedroom`, …). Only a
+genuine search miss reaches the gradient now.
+
+Anything re-rendered picks up a real photo automatically. Already-posted reels keep
+whatever they shipped with — they aren't re-rendered.
+
 Naming a scene with `bg.place` mirrors how AICatMeme picks backgrounds (an LLM chooses
 from a closed set of scene-named files) — it's the most reliable way to get a specific,
 consistent background. Use `bg.img` (keyword/web) when you want something the library

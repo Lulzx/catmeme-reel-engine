@@ -8,6 +8,10 @@ It's still only a *draft*: the captions here are structural placeholders, delibe
 bland so nobody ships them as-is. Rewrite them by hand in the Stories editor (or ask
 Claude) following doc 15 before rendering. Used by the web "Generate batch" feature and
 importable as a helper.
+
+Placeholders are bare text, no `*asterisks*` — the caption is drawn to the frame
+literally, so markdown emphasis would end up on screen (rule 18, doc 15). Write the
+real captions as quoted speech ("i can jump this") or bare narration (it is 6pm.).
 """
 import json, os, re
 from paths import STORIES
@@ -20,30 +24,30 @@ OUTRO_CAST = [{"name": "", "want": ["cute", "dancing", "happy", "playful"], "siz
 ARCS = {
     # escalate steadily to a peak, then land
     "slow_burn": [
-        ("*setup*",             ["confident", "hopeful", "cheerful", "smug"]),
-        ("*first sign*",        ["curious", "surprised", "wondering", "skeptical"]),
-        ("*it's worse*",        ["shocked", "startled", "stunned", "alarmed"]),
-        ("*trying to stay calm*", ["nervous", "awkward", "flustered", "uneasy"]),
-        ("*not staying calm*",  ["annoyed", "fed-up", "unamused", "done"]),
-        ("*peak*",              ["panicked", "frantic", "distressed", "freaking-out"]),
-        ("*what i did after*",  ["resigned", "deadpan", "blank-stare", "done"]),
+        ("setup",             ["confident", "hopeful", "cheerful", "smug"]),
+        ("first sign",        ["curious", "surprised", "wondering", "skeptical"]),
+        ("it's worse",        ["shocked", "startled", "stunned", "alarmed"]),
+        ("trying to stay calm", ["nervous", "awkward", "flustered", "uneasy"]),
+        ("not staying calm",  ["annoyed", "fed-up", "unamused", "done"]),
+        ("peak",              ["panicked", "frantic", "distressed", "freaking-out"]),
+        ("what i did after",  ["resigned", "deadpan", "blank-stare", "done"]),
     ],
     # build the tension, then nothing happens — the nothing is the joke
     "anticlimax": [
-        ("*setup*",         ["confident", "hopeful", "cheerful", "smug"]),
-        ("*bracing*",       ["nervous", "awkward", "uneasy", "waiting"]),
-        ("*here it comes*", ["alarmed", "startled", "expectant", "anticipation"]),
-        ("*nothing*",       ["blank-stare", "deadpan", "confused", "unamused"]),
-        ("*oh*",            ["resigned", "deadpan", "done", "indifferent"]),
+        ("setup",         ["confident", "hopeful", "cheerful", "smug"]),
+        ("bracing",       ["nervous", "awkward", "uneasy", "waiting"]),
+        ("here it comes", ["alarmed", "startled", "expectant", "anticipation"]),
+        ("nothing",       ["blank-stare", "deadpan", "confused", "unamused"]),
+        ("oh",            ["resigned", "deadpan", "done", "indifferent"]),
     ],
     # flat beats, one detonation, then a plain admission
     "flat_spike": [
-        ("*plain fact*",     ["bored", "indifferent", "deadpan", "relaxed"]),
-        ("*plain fact*",     ["bored", "distracted", "blank-stare", "unamused"]),
-        ("*still nothing*",  ["bored", "deadpan", "indifferent", "done"]),
-        ("*the thing*",      ["shocked", "stunned", "alarmed", "freaking-out"]),
-        ("*small reaction*", ["defeated", "resigned", "sulking", "done"]),
-        ("*the admission*",  ["deadpan", "blank-stare", "resigned", "done"]),
+        ("plain fact",     ["bored", "indifferent", "deadpan", "relaxed"]),
+        ("plain fact",     ["bored", "distracted", "blank-stare", "unamused"]),
+        ("still nothing",  ["bored", "deadpan", "indifferent", "done"]),
+        ("the thing",      ["shocked", "stunned", "alarmed", "freaking-out"]),
+        ("small reaction", ["defeated", "resigned", "sulking", "done"]),
+        ("the admission",  ["deadpan", "blank-stare", "resigned", "done"]),
     ],
 }
 ARC_ORDER = ["slow_burn", "anticlimax", "flat_spike"]

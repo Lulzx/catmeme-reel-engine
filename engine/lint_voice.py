@@ -61,6 +61,10 @@ def lint(slug, story):
                 break
         if "—" in c:
             errs.append(f"rule 7 em dash: {c}")
+        if "*" in c:
+            # the caption is drawn literally, so an asterisk ends up on screen
+            errs.append(f"rule 18 asterisk in caption (quote it or drop the "
+                        f"markers): {c}")
         for w in METAPHOR_WORDS:
             if re.search(rf"\b{w}\b", low):
                 errs.append(f"rule 9 metaphor noun ('{w}'): {c}")

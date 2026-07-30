@@ -15,10 +15,28 @@ Run everything from the repo root (`cat-videos/`).
 
 ### 1. Lock the premise
 One relatable POV line that never changes, phrased as `POV: ...`
-(e.g. "POV: you promised yourself you'd sleep early tonight"). Then sketch 6–9 **beats**,
-each a single moment with a short caption — an `*action*` stage direction or a
-`"line of dialogue"`. Arc it: setup → escalation → climax (often a two-cat scene) →
-punchline. Name characters (`ME`, `MOM`, `BOSS`) and reuse the names across beats.
+(e.g. "POV: you promised yourself you'd sleep early tonight"). Then sketch 5–9 **beats**,
+each a single moment with a short caption. Name characters (`ME`, `MOM`, `BOSS`) and
+reuse the names across beats.
+
+**Caption format — quotes or nothing.** Two forms only:
+
+- a spoken line in double quotes: `"i can jump this"`
+- narration as bare text, no markers: `it is 6pm.`
+
+**Never `*asterisks*`** — the caption is drawn to the frame literally, so they end up
+on screen as characters. That's rule 18 in `docs/15-human-voice.md` and
+`engine/lint_voice.py` fails on it. Stories written before 2026-07-30 still use the
+old `*action*` form; they're already posted, don't copy them.
+
+**Write the ending first.** The last beat is the whole point of the reel: a reversal
+(the precaution causes the damage), a callback, or an absurd escalation that stays
+specific. A resigned shrug ("i closed the calendar.") is where a punchline goes, not
+a punchline — it fails the scoring gate in step 5.
+
+**Recurring cast.** Every reel casts clip **182** (yapapa cat — the one who won't stop
+talking) and **183** (german cat — the small guy with the unhelpful tip), pinned by id.
+`184` is DEREK. Give them lines that earn their place; don't paste them in.
 
 ### 2. Write the story JSON
 Create `data/stories/<slug>.json`. Minimal shape (full schema in
@@ -34,7 +52,7 @@ Create `data/stories/<slug>.json`. Minimal shape (full schema in
   "outro_cast": [ { "want": ["dancing","happy"], "size": 0.44 } ],
   "beats": [
     {
-      "action": "*captioned moment*",                // or "\"dialogue\""
+      "action": "\"i can jump this\"",                // quoted line, or bare narration
       "bg": { "img": "specific scene query interior night", "palette": "room" },
       "cast": [ { "name": "ME", "want": ["bored","scrolling"], "size": 0.5 } ]
     }
@@ -69,7 +87,27 @@ If a beat lands on a weak/`avoid`/`low` clip or the wrong vibe, adjust its `want
 (or check options with `python3 engine/match.py <tag> <tag> ...`) and re-run. Tags map to
 the catalog's `emotions`/`primary`; browse `data/catalog.json` for the vocabulary.
 
-### 4. Render
+### 4. Check the voice rules and the clip spread
+```bash
+python3 -m engine.lint_voice --batch <slug> ...   # errors gate the render
+python3 -m engine.allocate --check <slug> ...     # clip repeats / over-exposure
+python3 -m engine.allocate --fix   <slug> ...     # globally reassign the pins
+```
+`lint_voice` enforces `docs/15-human-voice.md`. `allocate` solves clip assignment
+across the whole batch at once so one cat doesn't end up in everything — see
+`docs/16-clip-diversity.md`.
+
+### 5. Score it — MANDATORY GATE
+**Read `SCORING.md` in this directory and score every script yourself before
+rendering.** Eight metrics, 100 points, threshold **75**, plus hard gates on the
+punchline, the hook, and the human-voice read. You are the scorer — there is no
+scoring binary, because every metric is a judgement about whether something is
+funny.
+
+A script below 75, or failing any gate, is **not rendered and not queued**. Rewrite
+it and score again. A batch of nine that clears the bar beats sixteen that don't.
+
+### 6. Render
 ```bash
 python3 engine/render.py data/stories/<slug>.json     # -> output/<slug>.mp4
 ```
@@ -77,7 +115,7 @@ The log prints each beat's duration, chosen clip id, character, and caption. Bac
 are fetched from Openverse and cached in `work/bg_cache/`; if offline, the `palette`
 gradient is used as a fallback.
 
-### 5. Verify
+### 7. Verify
 ```bash
 ffprobe -v error -show_entries format=duration -of csv=p=0 output/<slug>.mp4
 ffmpeg -nostdin -i output/<slug>.mp4 -af volumedetect -f null - 2>&1 | grep mean_volume  # not silent

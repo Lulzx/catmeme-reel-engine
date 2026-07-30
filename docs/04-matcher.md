@@ -51,6 +51,25 @@ scene). With ~30 usable clips and typically <15 cast slots per story, this rarel
 forces a bad pick. To deliberately allow reuse, pin the clip by id instead
 (`"clip": "020"`).
 
+## `penalize` — cross-video fatigue
+
+`exclude` is a hard ban within one video. Across videos the lever is `penalize`,
+a mapping `clip_id -> how many videos already used it`; each candidate takes
+`penalty * log2(1 + uses)` (default `penalty = -1.5`). A plain set still works and
+is read as one use each.
+
+The log matters. This used to be a flat -1.5 no matter how exposed a clip was,
+which is how clip 032 ended up in 92 of the first 126 videos. Now one prior use
+costs 1.5, ten cost 5.2, ninety cost 9.8 — enough to lose to a fresh clip with a
+weaker tag match, but not enough to beat a genuinely exact match.
+
+`render.py` seeds this from the `clip_usage` table (`_channel_usage()`), so even a
+single render is scored against the channel's real history. Clips listed in
+`data/favorites.json` get a positive bonus that offsets the penalty, which is how
+the recurring mascots keep winning. Batch-level allocation (the part per-beat
+greedy scoring can't do) lives in `engine/allocate.py` —
+see [16-clip-diversity.md](16-clip-diversity.md).
+
 ## Design notes / how to extend
 
 - **Tags are the lever.** If a beat keeps mis-matching, the fix is almost always to

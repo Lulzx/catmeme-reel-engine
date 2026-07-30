@@ -7,7 +7,7 @@ against that request by overlap with its emotion tags / primary / use_for, and
 returns the best match. Deterministic and explainable — no model call needed at
 match time, because the describing was already done once in catalog.json.
 """
-import json, os, re
+import json, math, os, re
 from paths import CATALOG, DATA
 
 def load_catalog(path=None):
@@ -71,15 +71,20 @@ def match(want, query="", catalog=None, exclude=None, orientation=None,
           penalize=None, penalty=-1.5):
     """exclude: clip ids removed from contention entirely (repeats within one
     video + the cursed-clip blocklist). penalize: clip ids softly discouraged
-    (used by OTHER videos) — they score `penalty` lower so unused clips win when
-    quality is comparable, but a strong match still beats a weak unused clip.
+    (used by OTHER videos) — either a set, or a mapping id -> how many videos
+    already used it. The cost is `penalty * log2(1 + uses)`, so it keeps growing
+    with exposure instead of flattening out after the first repeat (a flat -1.5
+    is how clip #032 ended up in 92 videos). Unused clips win when quality is
+    comparable, but a strong match still beats a weak unused clip.
     Keeps the channel diverse WITHOUT digging into broken/low-quality clips once
     the good ones are spent. Clips in data/favorites.json get a positive bonus
     (loaded into FAVORED) so a recurring mascot keeps winning relevant beats even
     after it's been used elsewhere — it offsets `penalty`."""
     catalog = catalog or load_catalog()
     exclude = set(exclude or []) | BLOCKED
-    penalize = set(penalize or [])
+    penalize = penalize or {}
+    if not isinstance(penalize, dict):                # a bare set/list of ids
+        penalize = {cid: 1 for cid in penalize}
     ranked = []
     for c in catalog:
         if c["id"] in exclude:
@@ -87,8 +92,9 @@ def match(want, query="", catalog=None, exclude=None, orientation=None,
         sc, matched = score(c, want, query)
         if orientation and c["orientation"] != orientation:
             sc -= 0.5
-        if c["id"] in penalize:
-            sc += penalty
+        n = penalize.get(c["id"], 0)
+        if n:
+            sc += penalty * math.log2(1 + n)
         if c["id"] in FAVORED:              # mascot boost — survives the diversity penalty
             sc += FAVORED[c["id"]]
         ranked.append((sc, c, matched))
