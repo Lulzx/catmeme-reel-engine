@@ -1,0 +1,202 @@
+{
+  "title": "3:01",
+  "output": "i-do-not-have-a-dog.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the neighbour's dog barks only when you are on a call",
+  "outro": "i do not have a dog",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "call at 3.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "calm",
+            "focused",
+            "ready",
+            "alert",
+            "content"
+          ],
+          "clip": "074"
+        }
+      ]
+    },
+    {
+      "action": "the dog started at 3:01.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "alert",
+            "attentive",
+            "wary",
+            "curious",
+            "watching"
+          ],
+          "clip": "083"
+        }
+      ]
+    },
+    {
+      "action": "i muted myself.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "cautious",
+            "careful",
+            "alert",
+            "busy",
+            "focused"
+          ],
+          "clip": "091"
+        }
+      ]
+    },
+    {
+      "action": "it stopped.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "puzzled",
+            "skeptical",
+            "wary",
+            "squinting"
+          ],
+          "clip": "098"
+        }
+      ]
+    },
+    {
+      "action": "i unmuted.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "cautious",
+            "uneasy",
+            "nervous",
+            "alert",
+            "attentive"
+          ],
+          "clip": "122"
+        }
+      ]
+    },
+    {
+      "action": "it started.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "annoyed",
+            "irritated",
+            "grumpy",
+            "disgusted",
+            "done"
+          ],
+          "clip": "168"
+        }
+      ]
+    },
+    {
+      "action": "\"it can hear you\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "\"dogs know things\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "UNCLE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "my manager asked if i have a dog. i do not.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "deadpan",
+            "blank",
+            "staring",
+            "done",
+            "indifferent"
+          ],
+          "clip": "051"
+        }
+      ]
+    }
+  ]
+}

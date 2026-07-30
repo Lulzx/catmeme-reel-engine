@@ -1,0 +1,182 @@
+{
+  "title": "use the last one",
+  "output": "both-at-641.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the file is called report_final_final and it is not the final one",
+  "outro": "both at 6:41",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "he sent report_final.doc.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "calm",
+            "working",
+            "focused",
+            "alert",
+            "content"
+          ],
+          "clip": "022"
+        }
+      ]
+    },
+    {
+      "action": "then report_final_v2.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "curious",
+            "squinting",
+            "attentive",
+            "alert",
+            "puzzled"
+          ],
+          "clip": "166"
+        }
+      ]
+    },
+    {
+      "action": "then report_final_final.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "skeptical",
+            "staring",
+            "blank",
+            "unimpressed"
+          ],
+          "clip": "004"
+        }
+      ]
+    },
+    {
+      "action": "\"use the last one\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "COLLEAGUE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "there were two last ones.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "deadpan",
+            "blank",
+            "skeptical",
+            "staring",
+            "indifferent"
+          ],
+          "clip": "069"
+        }
+      ]
+    },
+    {
+      "action": "\"check the time\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "both said 6:41pm.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "skeptical",
+            "doubtful",
+            "unconvinced",
+            "squinting",
+            "blank"
+          ],
+          "clip": "141"
+        }
+      ]
+    },
+    {
+      "action": "i used the bigger file. it was the wrong one.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "defeated",
+            "resigned",
+            "sulking",
+            "tired",
+            "done"
+          ],
+          "clip": "164"
+        }
+      ]
+    }
+  ]
+}

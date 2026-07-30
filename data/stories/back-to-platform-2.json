@@ -1,0 +1,202 @@
+{
+  "title": "platform 5",
+  "output": "back-to-platform-2.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you are on the wrong side of the platform and your train is leaving",
+  "outro": "back to platform 2",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "platform 2. i was sure.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confident",
+            "proud",
+            "calm",
+            "content",
+            "relaxed"
+          ],
+          "clip": "120"
+        }
+      ]
+    },
+    {
+      "action": "the announcement said platform 5.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "alarmed",
+            "scared",
+            "distressed",
+            "nervous",
+            "wary"
+          ],
+          "clip": "103"
+        }
+      ]
+    },
+    {
+      "action": "the train was already standing there.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "scared",
+            "nervous",
+            "alarmed",
+            "distressed",
+            "pleading"
+          ],
+          "clip": "097"
+        }
+      ]
+    },
+    {
+      "action": "\"use the bridge\"",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the bridge has 40 steps up.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "struggling",
+            "tired",
+            "exhausted",
+            "drowsy",
+            "sleepy"
+          ],
+          "clip": "125"
+        }
+      ]
+    },
+    {
+      "action": "and 40 down.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "drowsy",
+            "sleepy",
+            "tired",
+            "lazy",
+            "resigned"
+          ],
+          "clip": "117"
+        }
+      ]
+    },
+    {
+      "action": "\"run\"",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "UNCLE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i reached platform 5 as it left.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "defeated",
+            "slumped",
+            "resigned",
+            "sad",
+            "done"
+          ],
+          "clip": "134"
+        }
+      ]
+    },
+    {
+      "action": "the next one came to platform 2.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "dead-inside",
+            "empty",
+            "zoning-out",
+            "blank",
+            "indifferent"
+          ],
+          "clip": "121"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "title": "it stopped at every floor",
+  "output": "kid-pressed-all-of-them.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the lift stops at every floor and nobody gets in",
+  "outro": "he took the stairs",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "ground floor. i pressed 9.",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "calm",
+            "waiting",
+            "patient",
+            "relaxed",
+            "content"
+          ],
+          "clip": "126"
+        }
+      ]
+    },
+    {
+      "action": "it stopped at 2.",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "curious",
+            "alert",
+            "attentive",
+            "watching",
+            "surprised"
+          ],
+          "clip": "166"
+        }
+      ]
+    },
+    {
+      "action": "nobody got in.",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "blank",
+            "indifferent",
+            "bored",
+            "staring",
+            "zoning-out"
+          ],
+          "clip": "059"
+        }
+      ]
+    },
+    {
+      "action": "it stopped at 3.",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "suspicious",
+            "wary",
+            "skeptical",
+            "alert",
+            "squinting"
+          ],
+          "clip": "047"
+        }
+      ]
+    },
+    {
+      "action": "\"someone is playing\"",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "UNCLE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"press close fast\"",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "it stopped at 4, 5 and 6.",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "annoyed",
+            "irritated",
+            "grumpy",
+            "done",
+            "unimpressed"
+          ],
+          "clip": "139"
+        }
+      ]
+    },
+    {
+      "action": "a kid on the third floor had pressed all of them.",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "puzzled",
+            "curious",
+            "squinting",
+            "alert"
+          ],
+          "clip": "147"
+        }
+      ]
+    },
+    {
+      "action": "he waved at me from the stairs.",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "smug",
+            "unbothered",
+            "cool",
+            "indifferent",
+            "confident"
+          ],
+          "clip": "073"
+        }
+      ]
+    }
+  ]
+}

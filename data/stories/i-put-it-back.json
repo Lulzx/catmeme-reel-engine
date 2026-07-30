@@ -1,0 +1,202 @@
+{
+  "title": "add water and shake",
+  "output": "i-put-it-back.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: someone finished the shampoo and put the bottle back",
+  "outro": "i put it back",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "hair wet. hand on the bottle.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "calm",
+            "busy",
+            "working",
+            "focused",
+            "relaxed"
+          ],
+          "clip": "174"
+        }
+      ]
+    },
+    {
+      "action": "nothing came out.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "puzzled",
+            "staring",
+            "blank",
+            "squinting"
+          ],
+          "clip": "176"
+        }
+      ]
+    },
+    {
+      "action": "i squeezed harder.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "straining",
+            "struggling",
+            "determined",
+            "busy",
+            "intense"
+          ],
+          "clip": "155"
+        }
+      ]
+    },
+    {
+      "action": "air.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "disappointed",
+            "sad",
+            "sulking",
+            "longing",
+            "pensive"
+          ],
+          "clip": "152"
+        }
+      ]
+    },
+    {
+      "action": "\"add water and shake\"",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i added water and shook it.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "busy",
+            "working",
+            "determined",
+            "focused",
+            "hopeful"
+          ],
+          "clip": "092"
+        }
+      ]
+    },
+    {
+      "action": "\"that is the trick\"",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "UNCLE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i got one wash out of it.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "pleased",
+            "content",
+            "proud",
+            "relieved",
+            "happy"
+          ],
+          "clip": "114"
+        }
+      ]
+    },
+    {
+      "action": "i put the bottle back.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "smug",
+            "unbothered",
+            "confident",
+            "cool",
+            "indifferent"
+          ],
+          "clip": "124"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "title": "the power came back",
+  "output": "the-third-drawer.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the power comes back the second you light the candle",
+  "outro": "the third drawer",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "the power went at 8:40.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "startled",
+            "alarmed",
+            "alert",
+            "surprised",
+            "wary"
+          ],
+          "clip": "132"
+        }
+      ]
+    },
+    {
+      "action": "i found the torch. no batteries.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "disappointed",
+            "annoyed",
+            "sour",
+            "grumpy",
+            "irritated"
+          ],
+          "clip": "129"
+        }
+      ]
+    },
+    {
+      "action": "the candle was in the third drawer.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "searching",
+            "digging",
+            "busy",
+            "determined",
+            "focused"
+          ],
+          "clip": "091"
+        }
+      ]
+    },
+    {
+      "action": "\"matches are in the kitchen\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i got the matches.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "eager",
+            "hopeful",
+            "expectant",
+            "alert",
+            "curious"
+          ],
+          "clip": "156"
+        }
+      ]
+    },
+    {
+      "action": "i lit it.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "content",
+            "pleased",
+            "proud",
+            "calm",
+            "relaxed"
+          ],
+          "clip": "148"
+        }
+      ]
+    },
+    {
+      "action": "\"see, now it will come\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "UNCLE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "the power came back.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "gasping",
+            "startled",
+            "wide-eyed",
+            "reacting",
+            "surprised"
+          ],
+          "clip": "172"
+        }
+      ]
+    },
+    {
+      "action": "i blew it out. it went again.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "screaming",
+            "outburst",
+            "yelling",
+            "angry",
+            "intense"
+          ],
+          "clip": "180"
+        }
+      ]
+    }
+  ]
+}

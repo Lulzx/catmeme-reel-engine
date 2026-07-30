@@ -1,0 +1,162 @@
+{
+  "title": "the tag",
+  "output": "still-there.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the tag in the new shirt scratches all day",
+  "outro": "still there",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "new shirt. first day.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "proud",
+            "confident",
+            "pleased",
+            "content",
+            "happy"
+          ],
+          "clip": "127"
+        }
+      ]
+    },
+    {
+      "action": "something on my neck.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "uneasy",
+            "alert",
+            "wary",
+            "attentive",
+            "cautious"
+          ],
+          "clip": "169"
+        }
+      ]
+    },
+    {
+      "action": "i turned the collar. a tag.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "squinting",
+            "inspecting",
+            "curious",
+            "annoyed",
+            "alert"
+          ],
+          "clip": "149"
+        }
+      ]
+    },
+    {
+      "action": "\"cut it with a key\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "\"do not pull it\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "UNCLE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i pulled it.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "determined",
+            "bold",
+            "busy",
+            "intense",
+            "focused"
+          ],
+          "clip": "108"
+        }
+      ]
+    },
+    {
+      "action": "there is a hole in the collar and the stub is still there.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "disgusted",
+            "sour",
+            "scowling",
+            "unimpressed",
+            "irritated"
+          ],
+          "clip": "080"
+        }
+      ]
+    }
+  ]
+}

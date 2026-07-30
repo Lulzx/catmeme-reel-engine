@@ -1,0 +1,182 @@
+{
+  "title": "41 messages by morning",
+  "output": "i-gave-the-update.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you were added to a group chat for a project you are not on",
+  "outro": "i gave the update",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "added at 11pm.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "surprised",
+            "curious",
+            "alert",
+            "startled",
+            "reacting"
+          ],
+          "clip": "112"
+        }
+      ]
+    },
+    {
+      "action": "41 messages by morning.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "shocked",
+            "alarmed",
+            "staring",
+            "wide-eyed",
+            "distressed"
+          ],
+          "clip": "172"
+        }
+      ]
+    },
+    {
+      "action": "i am not on this project.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "skeptical",
+            "puzzled",
+            "blank",
+            "squinting"
+          ],
+          "clip": "054"
+        }
+      ]
+    },
+    {
+      "action": "\"just mute it\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i muted it.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "calm",
+            "relaxed",
+            "indifferent",
+            "content",
+            "unbothered"
+          ],
+          "clip": "143"
+        }
+      ]
+    },
+    {
+      "action": "\"can you give an update\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "BOSS",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "they thought i was the owner.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "scared",
+            "nervous",
+            "alarmed",
+            "distressed",
+            "pleading"
+          ],
+          "clip": "025"
+        }
+      ]
+    },
+    {
+      "action": "i gave the update.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "defeated",
+            "humiliated",
+            "resigned",
+            "drained",
+            "done"
+          ],
+          "clip": "058"
+        }
+      ]
+    }
+  ]
+}

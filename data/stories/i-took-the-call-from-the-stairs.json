@@ -1,0 +1,182 @@
+{
+  "title": "we also booked it",
+  "output": "i-took-the-call-from-the-stairs.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you booked the meeting room and four people are already in it",
+  "outro": "from the stairs",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "room booked from 11.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confident",
+            "ready",
+            "calm",
+            "content",
+            "focused"
+          ],
+          "clip": "163"
+        }
+      ]
+    },
+    {
+      "action": "four people were already inside.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "shocked",
+            "wide-eyed",
+            "surprised",
+            "staring",
+            "alarmed"
+          ],
+          "clip": "075"
+        }
+      ]
+    },
+    {
+      "action": "i showed them my booking.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "determined",
+            "bold",
+            "confident",
+            "alert",
+            "busy"
+          ],
+          "clip": "049"
+        }
+      ]
+    },
+    {
+      "action": "\"we also booked it\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "COLLEAGUE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"check the date\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "their booking was for tuesday. it was thursday.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "skeptical",
+            "judging",
+            "unimpressed",
+            "squinting",
+            "side-eye"
+          ],
+          "clip": "054"
+        }
+      ]
+    },
+    {
+      "action": "they did not move.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "defeated",
+            "sulking",
+            "sad",
+            "disappointed",
+            "resigned"
+          ],
+          "clip": "008"
+        }
+      ]
+    },
+    {
+      "action": "i took the call from the stairs.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "resigned",
+            "tired",
+            "defeated",
+            "drained",
+            "done"
+          ],
+          "clip": "164"
+        }
+      ]
+    }
+  ]
+}

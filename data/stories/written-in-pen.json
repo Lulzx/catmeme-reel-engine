@@ -1,0 +1,182 @@
+{
+  "title": "i changed it",
+  "output": "written-in-pen.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: someone changed the wifi password and did not tell anyone",
+  "outro": "written in pen",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "everything stopped at once.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "alarmed",
+            "startled",
+            "shocked",
+            "alert",
+            "distressed"
+          ],
+          "clip": "132"
+        }
+      ]
+    },
+    {
+      "action": "the router lights were fine.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "squinting",
+            "inspecting",
+            "curious",
+            "puzzled",
+            "attentive"
+          ],
+          "clip": "111"
+        }
+      ]
+    },
+    {
+      "action": "\"i changed it\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "DAD",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i asked why.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "asking",
+            "curious",
+            "skeptical",
+            "alert",
+            "expectant"
+          ],
+          "clip": "131"
+        }
+      ]
+    },
+    {
+      "action": "\"security\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "DAD",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"look behind the router\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "it was written on the router in pen.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "blank",
+            "deadpan",
+            "indifferent",
+            "staring",
+            "zoning-out"
+          ],
+          "clip": "059"
+        }
+      ]
+    },
+    {
+      "action": "the password is my name.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "unimpressed",
+            "skeptical",
+            "side-eye",
+            "judging",
+            "indifferent"
+          ],
+          "clip": "069"
+        }
+      ]
+    }
+  ]
+}

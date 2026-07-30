@@ -1,0 +1,202 @@
+{
+  "title": "how many whistles",
+  "output": "she-was-in-another-room.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you lost count of the cooker whistles",
+  "outro": "she was in another room",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "three whistles. that is the rule.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confident",
+            "calm",
+            "focused",
+            "alert",
+            "content"
+          ],
+          "clip": "068"
+        }
+      ]
+    },
+    {
+      "action": "i heard one.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "attentive",
+            "listening",
+            "alert",
+            "curious",
+            "watching"
+          ],
+          "clip": "166"
+        }
+      ]
+    },
+    {
+      "action": "maybe two.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "uneasy",
+            "wary",
+            "cautious",
+            "nervous",
+            "pensive"
+          ],
+          "clip": "062"
+        }
+      ]
+    },
+    {
+      "action": "i was on my phone.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "distracted",
+            "scrolling",
+            "bored",
+            "zoning-out",
+            "indifferent"
+          ],
+          "clip": "178"
+        }
+      ]
+    },
+    {
+      "action": "\"how many\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "MOM",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"say three\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i said three.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "nervous",
+            "awkward",
+            "guilty",
+            "uneasy",
+            "cautious"
+          ],
+          "clip": "134"
+        }
+      ]
+    },
+    {
+      "action": "\"it was five\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "MOM",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "she was in another room.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "awkward",
+            "nervous",
+            "stunned",
+            "humiliated",
+            "blank"
+          ],
+          "clip": "031"
+        }
+      ]
+    }
+  ]
+}

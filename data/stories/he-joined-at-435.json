@@ -1,0 +1,182 @@
+{
+  "title": "no link in the invite",
+  "output": "he-joined-at-435.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the meeting invite has no link in it",
+  "outro": "4:35",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "meeting at 4. the invite had no link.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "puzzled",
+            "squinting",
+            "alert",
+            "searching"
+          ],
+          "clip": "185"
+        }
+      ]
+    },
+    {
+      "action": "i replied asking for it.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "asking",
+            "expectant",
+            "curious",
+            "alert",
+            "attentive"
+          ],
+          "clip": "123"
+        }
+      ]
+    },
+    {
+      "action": "no reply.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "waiting",
+            "blank",
+            "bored",
+            "pensive",
+            "indifferent"
+          ],
+          "clip": "010"
+        }
+      ]
+    },
+    {
+      "action": "\"check the description\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the description was empty.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "deadpan",
+            "blank",
+            "unimpressed",
+            "staring",
+            "indifferent"
+          ],
+          "clip": "155"
+        }
+      ]
+    },
+    {
+      "action": "\"i sent it in the chat\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "BOSS",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "he had sent it to a different group.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "stunned",
+            "disbelief",
+            "shocked",
+            "staring",
+            "skeptical"
+          ],
+          "clip": "089"
+        }
+      ]
+    },
+    {
+      "action": "we started at 4:20. he joined at 4:35.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "unimpressed",
+            "indifferent",
+            "bored",
+            "blank",
+            "deadpan"
+          ],
+          "clip": "146"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "title": "the ac was sweating",
+  "output": "that-was-my-water.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the restaurant ac drips on exactly your seat",
+  "outro": "that was my water",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "one drop on my shoulder.",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "startled",
+            "alert",
+            "surprised",
+            "curious",
+            "alarmed"
+          ],
+          "clip": "043"
+        }
+      ]
+    },
+    {
+      "action": "i looked up.",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "looking-up",
+            "curious",
+            "searching",
+            "attentive",
+            "alert"
+          ],
+          "clip": "153"
+        }
+      ]
+    },
+    {
+      "action": "the ac was sweating.",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "disgusted",
+            "skeptical",
+            "squinting",
+            "wary",
+            "unimpressed"
+          ],
+          "clip": "177"
+        }
+      ]
+    },
+    {
+      "action": "\"it does that\"",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "WAITER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"sit sideways\"",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i sat sideways.",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "awkward",
+            "uncomfortable",
+            "stiff",
+            "nervous",
+            "cautious"
+          ],
+          "clip": "071"
+        }
+      ]
+    },
+    {
+      "action": "he put a glass on the table to catch it.",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "puzzled",
+            "staring",
+            "blank",
+            "squinting"
+          ],
+          "clip": "176"
+        }
+      ]
+    },
+    {
+      "action": "it was my water glass.",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "disgusted",
+            "sour",
+            "unimpressed",
+            "scowling",
+            "grumpy"
+          ],
+          "clip": "080"
+        }
+      ]
+    }
+  ]
+}

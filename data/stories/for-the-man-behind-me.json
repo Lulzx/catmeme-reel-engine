@@ -1,0 +1,182 @@
+{
+  "title": "closed",
+  "output": "for-the-man-behind-me.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the shutter comes down exactly as you reach the shop",
+  "outro": "for the man behind me",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "i walked fast for the last 200 metres.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "determined",
+            "focused",
+            "eager",
+            "alert",
+            "busy"
+          ],
+          "clip": "150"
+        }
+      ]
+    },
+    {
+      "action": "he was pulling the shutter down.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "alarmed",
+            "scared",
+            "pleading",
+            "nervous",
+            "wide-eyed"
+          ],
+          "clip": "084"
+        }
+      ]
+    },
+    {
+      "action": "\"closed\"",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "SHOPKEEPER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "it was 8:58.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "blank",
+            "plain",
+            "flat",
+            "staring",
+            "pensive"
+          ],
+          "clip": "023"
+        }
+      ]
+    },
+    {
+      "action": "\"tell him it is urgent\"",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i said it was urgent.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "pleading",
+            "begging",
+            "hopeful",
+            "asking",
+            "expectant"
+          ],
+          "clip": "130"
+        }
+      ]
+    },
+    {
+      "action": "he shook his head.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "disappointed",
+            "sad",
+            "resigned",
+            "tired",
+            "pensive"
+          ],
+          "clip": "076"
+        }
+      ]
+    },
+    {
+      "action": "then he opened it for the man behind me.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "yelling",
+            "outburst",
+            "angry",
+            "intense",
+            "screaming"
+          ],
+          "clip": "170"
+        }
+      ]
+    }
+  ]
+}

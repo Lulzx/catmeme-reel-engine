@@ -1,0 +1,202 @@
+{
+  "title": "one letter off",
+  "output": "sorry-rishaba.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: your name is spelled wrong in every single email",
+  "outro": "sorry rishaba",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "the offer letter said rishab.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "squinting",
+            "inspecting",
+            "reading",
+            "curious",
+            "attentive"
+          ],
+          "clip": "056"
+        }
+      ]
+    },
+    {
+      "action": "i said it is rishabh.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "calm",
+            "polite",
+            "asking",
+            "alert",
+            "focused"
+          ],
+          "clip": "013"
+        }
+      ]
+    },
+    {
+      "action": "they fixed it in one place.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "pleased",
+            "hopeful",
+            "content",
+            "relieved",
+            "calm"
+          ],
+          "clip": "171"
+        }
+      ]
+    },
+    {
+      "action": "\"looks fine now\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "HR",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"check the signature\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the signature said rushabh.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "exhausted",
+            "tired",
+            "drowsy",
+            "resigned",
+            "done"
+          ],
+          "clip": "125"
+        }
+      ]
+    },
+    {
+      "action": "i sent a polite correction.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "patient",
+            "calm",
+            "typing",
+            "busy",
+            "focused"
+          ],
+          "clip": "033"
+        }
+      ]
+    },
+    {
+      "action": "\"sorry rishaba\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "HR",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i answer to all of them now.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "dead-inside",
+            "empty",
+            "zoning-out",
+            "bored",
+            "indifferent"
+          ],
+          "clip": "181"
+        }
+      ]
+    }
+  ]
+}

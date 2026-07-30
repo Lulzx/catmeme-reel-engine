@@ -1,0 +1,162 @@
+{
+  "title": "the blue shirt",
+  "output": "i-was-also-there.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: mom gave your shirt to a cousin",
+  "outro": "i was also there",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "i looked for the blue shirt.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "searching",
+            "looking",
+            "busy",
+            "alert",
+            "curious"
+          ],
+          "clip": "166"
+        }
+      ]
+    },
+    {
+      "action": "it was not in the cupboard.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "puzzled",
+            "staring",
+            "alarmed",
+            "squinting"
+          ],
+          "clip": "003"
+        }
+      ]
+    },
+    {
+      "action": "\"you never wear it\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "MOM",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i wore it in march.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "indignant",
+            "annoyed",
+            "irritated",
+            "unimpressed",
+            "grumpy"
+          ],
+          "clip": "161"
+        }
+      ]
+    },
+    {
+      "action": "\"check the wedding photos\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "rohit was wearing it in the photos.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "sad",
+            "disappointed",
+            "pleading",
+            "longing",
+            "sulking"
+          ],
+          "clip": "085"
+        }
+      ]
+    },
+    {
+      "action": "at a wedding i was also at.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "sad",
+            "disappointed",
+            "resigned",
+            "pensive",
+            "tired"
+          ],
+          "clip": "076"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "title": "the timer said 12",
+  "output": "both-came-at-once.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the otp arrives after it has already expired",
+  "outro": "both at once",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "i asked for the otp.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "calm",
+            "waiting",
+            "focused",
+            "alert",
+            "patient"
+          ],
+          "clip": "016"
+        }
+      ]
+    },
+    {
+      "action": "nothing for 40 seconds.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "waiting",
+            "uneasy",
+            "tense",
+            "attentive",
+            "pensive"
+          ],
+          "clip": "070"
+        }
+      ]
+    },
+    {
+      "action": "the timer said 12.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "scared",
+            "nervous",
+            "distressed",
+            "alarmed",
+            "pleading"
+          ],
+          "clip": "025"
+        }
+      ]
+    },
+    {
+      "action": "\"ask again\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i asked again.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "demanding",
+            "asking",
+            "expectant",
+            "vocal",
+            "intense"
+          ],
+          "clip": "133"
+        }
+      ]
+    },
+    {
+      "action": "both came at once.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "surprised",
+            "curious",
+            "wide-eyed",
+            "reacting",
+            "alert"
+          ],
+          "clip": "087"
+        }
+      ]
+    },
+    {
+      "action": "\"use the newer one\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "UNCLE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i tried the first one. expired.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "disappointed",
+            "sad",
+            "sulking",
+            "pensive",
+            "longing"
+          ],
+          "clip": "093"
+        }
+      ]
+    },
+    {
+      "action": "i tried the second. it was the first one again.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "screaming",
+            "outburst",
+            "yelling",
+            "angry",
+            "intense"
+          ],
+          "clip": "180"
+        }
+      ]
+    }
+  ]
+}

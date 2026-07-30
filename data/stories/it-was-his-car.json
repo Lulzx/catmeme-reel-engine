@@ -1,0 +1,182 @@
+{
+  "title": "no number on the windscreen",
+  "output": "it-was-his-car.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: someone parked across your gate and left no number",
+  "outro": "it was his",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "a white car across my gate.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "puzzled",
+            "staring",
+            "alert",
+            "squinting"
+          ],
+          "clip": "185"
+        }
+      ]
+    },
+    {
+      "action": "no number on the windscreen.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "squinting",
+            "inspecting",
+            "curious",
+            "searching",
+            "attentive"
+          ],
+          "clip": "011"
+        }
+      ]
+    },
+    {
+      "action": "i waited 20 minutes.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "waiting",
+            "patient",
+            "bored",
+            "blank",
+            "indifferent"
+          ],
+          "clip": "030"
+        }
+      ]
+    },
+    {
+      "action": "\"honk once\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i honked once.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "determined",
+            "bold",
+            "confident",
+            "alert",
+            "busy"
+          ],
+          "clip": "049"
+        }
+      ]
+    },
+    {
+      "action": "\"whose car is this\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "NEIGHBOUR",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "it was his.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "startled",
+            "shocked",
+            "surprised",
+            "wide-eyed",
+            "reacting"
+          ],
+          "clip": "172"
+        }
+      ]
+    },
+    {
+      "action": "he is the one who complains about parking.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "judging",
+            "side-eye",
+            "skeptical",
+            "unimpressed",
+            "suspicious"
+          ],
+          "clip": "141"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "title": "one counter",
+  "output": "they-opened-another-counter.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: one counter is open and three staff are having a conversation",
+  "outro": "25 minutes",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "eleven people. one counter.",
+      "bg": {
+        "place": "bank"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "waiting",
+            "patient",
+            "bored",
+            "blank",
+            "standing"
+          ],
+          "clip": "104"
+        }
+      ]
+    },
+    {
+      "action": "three staff behind it.",
+      "bg": {
+        "place": "bank"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "curious",
+            "watching",
+            "attentive",
+            "alert",
+            "squinting"
+          ],
+          "clip": "136"
+        }
+      ]
+    },
+    {
+      "action": "two were talking.",
+      "bg": {
+        "place": "bank"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "curious",
+            "watching",
+            "attentive",
+            "alert",
+            "interested"
+          ],
+          "clip": "145"
+        }
+      ]
+    },
+    {
+      "action": "one was watching them talk.",
+      "bg": {
+        "place": "bank"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "blank",
+            "deadpan",
+            "staring",
+            "indifferent",
+            "bored"
+          ],
+          "clip": "113"
+        }
+      ]
+    },
+    {
+      "action": "\"they will open another\"",
+      "bg": {
+        "place": "bank"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "nobody opened another.",
+      "bg": {
+        "place": "bank"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "resigned",
+            "tired",
+            "bored",
+            "indifferent",
+            "done"
+          ],
+          "clip": "146"
+        }
+      ]
+    },
+    {
+      "action": "\"it is lunch time\"",
+      "bg": {
+        "place": "bank"
+      },
+      "cast": [
+        {
+          "name": "UNCLE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i reached the front after 25 minutes.",
+      "bg": {
+        "place": "bank"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "exhausted",
+            "drained",
+            "tired",
+            "worn",
+            "sleepy"
+          ],
+          "clip": "158"
+        }
+      ]
+    },
+    {
+      "action": "then they opened another counter.",
+      "bg": {
+        "place": "bank"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "yelling",
+            "outburst",
+            "angry",
+            "intense",
+            "screaming"
+          ],
+          "clip": "012"
+        }
+      ]
+    }
+  ]
+}

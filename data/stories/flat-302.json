@@ -1,0 +1,182 @@
+{
+  "title": "same building",
+  "output": "flat-302.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the courier makes you sign for a parcel that is not yours",
+  "outro": "flat 302",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "he had one parcel and a pen.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "curious",
+            "alert",
+            "attentive",
+            "waiting",
+            "calm"
+          ],
+          "clip": "154"
+        }
+      ]
+    },
+    {
+      "action": "the name was not mine.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "squinting",
+            "puzzled",
+            "skeptical",
+            "staring"
+          ],
+          "clip": "054"
+        }
+      ]
+    },
+    {
+      "action": "\"same building\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "COURIER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "it was not the same building.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "skeptical",
+            "doubtful",
+            "unconvinced",
+            "judging",
+            "unimpressed"
+          ],
+          "clip": "141"
+        }
+      ]
+    },
+    {
+      "action": "\"just sign\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i signed.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "resigned",
+            "tired",
+            "indifferent",
+            "calm",
+            "done"
+          ],
+          "clip": "146"
+        }
+      ]
+    },
+    {
+      "action": "it has been at my door for six days.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "bored",
+            "indifferent",
+            "blank",
+            "deadpan",
+            "zoning-out"
+          ],
+          "clip": "059"
+        }
+      ]
+    },
+    {
+      "action": "my own parcel went to flat 302.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "exhausted",
+            "resigned",
+            "tired",
+            "drowsy",
+            "done"
+          ],
+          "clip": "125"
+        }
+      ]
+    }
+  ]
+}

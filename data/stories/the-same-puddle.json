@@ -1,0 +1,142 @@
+{
+  "title": "the 4:10 bus",
+  "output": "the-same-puddle.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: the bus hits the puddle at exactly the wrong moment",
+  "outro": "the same puddle",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "i walked around the puddle.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "careful",
+            "cautious",
+            "alert",
+            "focused",
+            "attentive"
+          ],
+          "clip": "151"
+        }
+      ]
+    },
+    {
+      "action": "carefully.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "proud",
+            "confident",
+            "content",
+            "pleased",
+            "smug"
+          ],
+          "clip": "077"
+        }
+      ]
+    },
+    {
+      "action": "then the 4:10 bus came.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "alarmed",
+            "scared",
+            "startled",
+            "distressed",
+            "wary"
+          ],
+          "clip": "172"
+        }
+      ]
+    },
+    {
+      "action": "\"you should stand further back\"",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "UNCLE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"too late now\"",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the puddle i walked around is on my shirt.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "disgusted",
+            "grumpy",
+            "sour",
+            "annoyed",
+            "irritated"
+          ],
+          "clip": "080"
+        }
+      ]
+    }
+  ]
+}

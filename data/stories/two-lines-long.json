@@ -1,0 +1,182 @@
+{
+  "title": "circling back",
+  "output": "two-lines-long.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: he says he is circling back on this for the fourth time",
+  "outro": "two lines long",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "\"just circling back on this\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "BOSS",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "fourth time this week.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "bored",
+            "indifferent",
+            "blank",
+            "zoning-out",
+            "deadpan"
+          ],
+          "clip": "059"
+        }
+      ]
+    },
+    {
+      "action": "nothing had changed.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "blank",
+            "deadpan",
+            "bored",
+            "staring",
+            "indifferent"
+          ],
+          "clip": "096"
+        }
+      ]
+    },
+    {
+      "action": "\"reply with a question\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i replied with a question.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "busy",
+            "typing",
+            "focused",
+            "working",
+            "determined"
+          ],
+          "clip": "033"
+        }
+      ]
+    },
+    {
+      "action": "\"good point, circling back\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "BOSS",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "we have been circling since tuesday.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "exhausted",
+            "drained",
+            "bored",
+            "tired",
+            "zoning-out"
+          ],
+          "clip": "010"
+        }
+      ]
+    },
+    {
+      "action": "the task is two lines long.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "dead-inside",
+            "empty",
+            "blank",
+            "done",
+            "indifferent"
+          ],
+          "clip": "051"
+        }
+      ]
+    }
+  ]
+}

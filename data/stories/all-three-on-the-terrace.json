@@ -1,0 +1,142 @@
+{
+  "title": "we had three",
+  "output": "all-three-on-the-terrace.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: you bought a bucket and there were already three at home",
+  "outro": "on the terrace",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "the old bucket had a crack.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "pensive",
+            "inspecting",
+            "curious",
+            "alert",
+            "squinting"
+          ],
+          "clip": "064"
+        }
+      ]
+    },
+    {
+      "action": "i bought a new one. red. 180 rupees.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "proud",
+            "pleased",
+            "content",
+            "confident",
+            "happy"
+          ],
+          "clip": "144"
+        }
+      ]
+    },
+    {
+      "action": "\"we had three\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "MOM",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "we did not have three.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "puzzled",
+            "pensive",
+            "squinting",
+            "curious"
+          ],
+          "clip": "111"
+        }
+      ]
+    },
+    {
+      "action": "\"check the terrace\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "all three were on the terrace. all three were fine.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "exhausted",
+            "resigned",
+            "drained",
+            "tired",
+            "done"
+          ],
+          "clip": "164"
+        }
+      ]
+    }
+  ]
+}

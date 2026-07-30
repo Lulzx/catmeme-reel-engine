@@ -1,0 +1,182 @@
+{
+  "title": "cable work",
+  "output": "a-different-department.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 4.5,
+  "baseline": 0.9,
+  "pov": "POV: they dug up the road again three weeks after paving it",
+  "outro": "a different department",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "they paved it on the 2nd.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "pleased",
+            "content",
+            "happy",
+            "calm",
+            "relaxed"
+          ],
+          "clip": "057"
+        }
+      ]
+    },
+    {
+      "action": "it was smooth for three weeks.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "content",
+            "blissful",
+            "relaxed",
+            "calm",
+            "pleased"
+          ],
+          "clip": "109"
+        }
+      ]
+    },
+    {
+      "action": "on the 24th they dug it up.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "startled",
+            "shocked",
+            "surprised",
+            "wide-eyed",
+            "reacting"
+          ],
+          "clip": "132"
+        }
+      ]
+    },
+    {
+      "action": "\"cable work\"",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "UNCLE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "singing",
+            "mouthy"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"last time also cable\"",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "AJAY",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "cute"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the same three men. the same spot.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "suspicious",
+            "wary",
+            "squinting",
+            "alert",
+            "cautious"
+          ],
+          "clip": "151"
+        }
+      ]
+    },
+    {
+      "action": "they paved it back on friday.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "hopeful",
+            "content",
+            "calm",
+            "pleased",
+            "relaxed"
+          ],
+          "clip": "090"
+        }
+      ]
+    },
+    {
+      "action": "on monday a different department came.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "exhausted",
+            "drowsy",
+            "tired",
+            "resigned",
+            "done"
+          ],
+          "clip": "125"
+        }
+      ]
+    }
+  ]
+}
