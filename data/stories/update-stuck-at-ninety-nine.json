@@ -1,0 +1,140 @@
+{
+  "title": "ninety-nine percent",
+  "output": "update-stuck-at-ninety-nine.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the laptop update reaches 99% two minutes before your call",
+  "outro": "ready for the next meeting",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "call starts in two minutes.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "drinking",
+            "smug",
+            "content"
+          ],
+          "clip": "124"
+        }
+      ]
+    },
+    {
+      "action": "\"updates are usually quick\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "COWORKER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "the screen reached 99%.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "guilty",
+            "nervous",
+            "apologetic"
+          ],
+          "clip": "062"
+        }
+      ]
+    },
+    {
+      "action": "\"do not restart it\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the call started on my phone.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "cursed",
+            "weird",
+            "uncanny"
+          ],
+          "clip": "191"
+        }
+      ]
+    },
+    {
+      "action": "the laptop finished when everyone left.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "furious",
+            "glaring"
+          ],
+          "clip": "027"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "027"
+}

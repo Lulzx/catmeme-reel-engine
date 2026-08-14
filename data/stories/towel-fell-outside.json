@@ -1,0 +1,140 @@
+{
+  "title": "the towel outside",
+  "output": "towel-fell-outside.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: your towel falls outside the bathroom after the shower starts",
+  "outro": "towel delivery in progress",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the shower was on.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "drinking",
+            "smug",
+            "content"
+          ],
+          "clip": "190"
+        }
+      ]
+    },
+    {
+      "action": "\"did you take a towel?\"",
+      "bg": {
+        "place": "bathroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ROOMMATE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "the towel was by the door.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "guilty",
+            "nervous",
+            "apologetic"
+          ],
+          "clip": "062"
+        }
+      ]
+    },
+    {
+      "action": "\"reach under the gap\"",
+      "bg": {
+        "place": "bathroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i caught one corner.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "startled",
+            "panicked",
+            "flailing"
+          ],
+          "clip": "165"
+        }
+      ]
+    },
+    {
+      "action": "the robot vacuum took the other corner.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "slapping",
+            "feisty"
+          ],
+          "clip": "079"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "079"
+}

@@ -1,0 +1,140 @@
+{
+  "title": "the careful toast",
+  "output": "toast-butter-side-down.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: you carry toast carefully and it still lands butter-side down",
+  "outro": "the plate chose the floor",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the toast was perfect.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "curious",
+            "ready",
+            "alert"
+          ],
+          "clip": "136"
+        }
+      ]
+    },
+    {
+      "action": "\"use a plate\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "MOM",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "the plate was two steps away.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "approaching",
+            "walking",
+            "curious"
+          ],
+          "clip": "056"
+        }
+      ]
+    },
+    {
+      "action": "\"hold it with both paws\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i reached the table.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "surprised",
+            "squeaking",
+            "innocent"
+          ],
+          "clip": "045"
+        }
+      ]
+    },
+    {
+      "action": "the plate slipped. the toast stayed in my hand.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "dramatic",
+            "shocked"
+          ],
+          "clip": "070"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "070"
+}

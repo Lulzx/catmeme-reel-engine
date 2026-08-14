@@ -1,0 +1,145 @@
+{
+  "title": "the one-minute voice note",
+  "output": "one-minute-voice-note.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: your friend sends a one-minute voice note for a yes-or-no question",
+  "thumbnail_clip": "191",
+  "outro": "it was 59 seconds",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "\"quick question\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "it reached 1:00.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "surprised",
+            "staring",
+            "alarmed",
+            "wide-eyed"
+          ],
+          "clip": "112"
+        }
+      ]
+    },
+    {
+      "action": "\"play it at 2x\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the first 48 seconds were breathing.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "skeptical",
+            "unimpressed",
+            "side-eye",
+            "judging"
+          ],
+          "clip": "069"
+        }
+      ]
+    },
+    {
+      "action": "\"anyway, are you free?\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.5,
+          "want": [
+            "talking",
+            "asking",
+            "chatty",
+            "casual"
+          ],
+          "clip": "133"
+        }
+      ]
+    },
+    {
+      "action": "another voice note arrived. 0:59.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "laughing",
+            "bursting-out",
+            "closeup",
+            "cant-hold-it-in"
+          ],
+          "clip": "191"
+        }
+      ]
+    }
+  ]
+}

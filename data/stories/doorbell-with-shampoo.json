@@ -1,0 +1,165 @@
+{
+  "title": "shampoo and the doorbell",
+  "output": "doorbell-with-shampoo.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the delivery arrives the second shampoo touches your hair",
+  "thumbnail_clip": "189",
+  "outro": "reception is at lunch",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "shampoo in.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "content",
+            "relaxed",
+            "washing",
+            "calm"
+          ],
+          "clip": "090"
+        }
+      ]
+    },
+    {
+      "action": "the doorbell rang.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "jumping",
+            "startled",
+            "airborne",
+            "alarmed"
+          ],
+          "clip": "188"
+        }
+      ]
+    },
+    {
+      "action": "\"i am at your gate\"",
+      "bg": {
+        "place": "lift"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "DRIVER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"say two minutes\"",
+      "bg": {
+        "place": "bathroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the lift stopped on every floor.",
+      "bg": {
+        "place": "lift"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "nervous",
+            "impatient",
+            "distressed",
+            "waiting"
+          ],
+          "clip": "016"
+        }
+      ]
+    },
+    {
+      "action": "the app said delivered to reception.",
+      "bg": {
+        "place": "lift"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "shocked",
+            "confused",
+            "alarmed",
+            "staring"
+          ],
+          "clip": "176"
+        }
+      ]
+    },
+    {
+      "action": "the parcel was outside my own door.",
+      "bg": {
+        "place": "lift"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "rage",
+            "angry",
+            "furious",
+            "attack"
+          ],
+          "clip": "189"
+        }
+      ]
+    }
+  ]
+}

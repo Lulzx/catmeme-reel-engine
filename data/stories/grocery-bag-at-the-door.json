@@ -1,0 +1,145 @@
+{
+  "title": "three steps from the door",
+  "output": "grocery-bag-at-the-door.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the grocery bag gives up three steps from your door",
+  "thumbnail_clip": "187",
+  "outro": "the lift kept one tomato",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "one trip.",
+      "bg": {
+        "place": "shop"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confident",
+            "proud",
+            "strong",
+            "determined"
+          ],
+          "clip": "049"
+        }
+      ]
+    },
+    {
+      "action": "\"take two trips\"",
+      "bg": {
+        "place": "shop"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "NEIGHBOR",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"the handles look thin\"",
+      "bg": {
+        "place": "lift"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "three steps from my door.",
+      "bg": {
+        "place": "lift"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "nervous",
+            "careful",
+            "struggling",
+            "tense"
+          ],
+          "clip": "055"
+        }
+      ]
+    },
+    {
+      "action": "the bottom opened.",
+      "bg": {
+        "place": "lift"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "shocked",
+            "startled",
+            "alarmed",
+            "panicked"
+          ],
+          "clip": "025"
+        }
+      ]
+    },
+    {
+      "action": "the lift came back with one tomato.",
+      "bg": {
+        "place": "lift"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "boxing",
+            "fighting",
+            "tiny",
+            "determined"
+          ],
+          "clip": "187"
+        }
+      ]
+    }
+  ]
+}

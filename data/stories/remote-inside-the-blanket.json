@@ -1,0 +1,140 @@
+{
+  "title": "the blanket remote",
+  "output": "remote-inside-the-blanket.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the TV remote disappears inside the blanket while you are holding it",
+  "outro": "channel changed by seat",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the remote was in my hand.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confident",
+            "proud",
+            "smug"
+          ],
+          "clip": "073"
+        }
+      ]
+    },
+    {
+      "action": "\"turn the volume down\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "DAD",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i lifted the blanket.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "peeking",
+            "curious",
+            "alert"
+          ],
+          "clip": "169"
+        }
+      ]
+    },
+    {
+      "action": "\"check beside your leg\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the TV changed channels.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "sad",
+            "pleading",
+            "disappointed"
+          ],
+          "clip": "085"
+        }
+      ]
+    },
+    {
+      "action": "i was sitting on the remote the whole time.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "goofy",
+            "twirling"
+          ],
+          "clip": "159"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "159"
+}

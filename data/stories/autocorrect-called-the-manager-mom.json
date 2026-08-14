@@ -1,0 +1,140 @@
+{
+  "title": "the autocorrect greeting",
+  "output": "autocorrect-called-the-manager-mom.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: autocorrect changes your manager's title to mom in the first email",
+  "outro": "no reply for eleven minutes",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "new email. 9:02am.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "watching",
+            "calm",
+            "attentive"
+          ],
+          "clip": "074"
+        }
+      ]
+    },
+    {
+      "action": "\"keep it formal\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "MANAGER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i typed good morning ma'am.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "begging",
+            "pleading",
+            "expectant"
+          ],
+          "clip": "072"
+        }
+      ]
+    },
+    {
+      "action": "\"read it once\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the email sent.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "sad",
+            "teary",
+            "heartbroken"
+          ],
+          "clip": "076"
+        }
+      ]
+    },
+    {
+      "action": "\"good morning mom\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "upside-down",
+            "goofy"
+          ],
+          "clip": "106"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "106"
+}

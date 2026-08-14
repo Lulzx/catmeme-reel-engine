@@ -38,7 +38,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 import paths, match as M
 from paths import (CLIPS, BACKGROUNDS, STORIES, SAGAS, OUTPUT, FRAMES, WORK, CATALOG, DATA)
-from engine import db as DB, upload as UP
+from engine import db as DB, upload as UP, posters as POSTER_GEN
 
 paths.ensure()
 POSTERS = os.path.join(WORK, "posters")
@@ -246,9 +246,13 @@ def _poster(name, video_path):
     """Generate (once) a poster jpg for a rendered reel."""
     poster = os.path.join(POSTERS, name + ".jpg")
     if not os.path.exists(poster) or os.path.getmtime(poster) < os.path.getmtime(video_path):
-        subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-y", "-ss", "0.6",
-            "-i", video_path, "-vframes", "1", "-vf", "scale=540:-1", poster],
-            check=False, timeout=30)
+        slug = os.path.splitext(os.path.basename(name))[0]
+        try:
+            POSTER_GEN.generate(slug, video_path=video_path, output_path=poster)
+        except Exception:
+            subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-y", "-ss", "0.6",
+                "-i", video_path, "-vframes", "1", "-vf", "scale=540:-1", poster],
+                check=False, timeout=30)
     return f"/media/posters/{name}.jpg" if os.path.exists(poster) else None
 
 @app.get("/api/outputs")

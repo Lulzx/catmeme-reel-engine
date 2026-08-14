@@ -1,0 +1,140 @@
+{
+  "title": "the quiet drill",
+  "output": "drill-stopped-at-the-door.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the neighbor's drilling stops exactly when you go to complain",
+  "outro": "wrong side of the wall",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the drilling lasted 38 minutes.",
+      "bg": {
+        "place": "hallway"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "walking",
+            "approaching",
+            "confident"
+          ],
+          "clip": "068"
+        }
+      ]
+    },
+    {
+      "action": "\"go ask how long is left\"",
+      "bg": {
+        "place": "hallway"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "NEIGHBOR",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i walked to their door.",
+      "bg": {
+        "place": "hallway"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "investigating",
+            "sniffing",
+            "nosy"
+          ],
+          "clip": "071"
+        }
+      ]
+    },
+    {
+      "action": "\"knock while it is quiet\"",
+      "bg": {
+        "place": "hallway"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the drill stopped.",
+      "bg": {
+        "place": "hallway"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "bathing",
+            "soaked",
+            "frantic"
+          ],
+          "clip": "127"
+        }
+      ]
+    },
+    {
+      "action": "it restarted inside my own wall.",
+      "bg": {
+        "place": "hallway"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "slapping",
+            "fighting"
+          ],
+          "clip": "189"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "189"
+}

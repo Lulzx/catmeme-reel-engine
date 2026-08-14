@@ -1,0 +1,145 @@
+{
+  "title": "the fourth reheating",
+  "output": "tea-reheated-four-times.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: you reheated the same tea four times and still forgot it",
+  "thumbnail_clip": "190",
+  "outro": "tea number five",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "8:10am. fresh tea.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "happy",
+            "content",
+            "pleased",
+            "relaxed"
+          ],
+          "clip": "057"
+        }
+      ]
+    },
+    {
+      "action": "8:42am. microwave.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "tired",
+            "busy",
+            "distracted",
+            "working"
+          ],
+          "clip": "092"
+        }
+      ]
+    },
+    {
+      "action": "\"it will get cold\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "MOM",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"it already is\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "11:06am. i made a new cup.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "hopeful",
+            "ready",
+            "proud",
+            "cheerful"
+          ],
+          "clip": "018"
+        }
+      ]
+    },
+    {
+      "action": "i poured it into the old tea.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "drinking",
+            "laughing",
+            "fancy",
+            "smug"
+          ],
+          "clip": "190"
+        }
+      ]
+    }
+  ]
+}

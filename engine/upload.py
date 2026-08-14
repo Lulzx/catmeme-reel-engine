@@ -111,7 +111,7 @@ def render_md(con):
             f"- **Title:** {v['title']}",
             "- **Description:**",
             "  ```",
-            *["  " + ln for ln in (v["description"] or "").split("\n")],
+            *[("  " + ln) if ln else "" for ln in (v["description"] or "").split("\n")],
             "  ```",
             f"- **Tags:** {', '.join(v['tags'])}",
             "",

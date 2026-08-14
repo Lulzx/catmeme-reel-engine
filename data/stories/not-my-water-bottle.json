@@ -1,0 +1,145 @@
+{
+  "title": "not my water bottle",
+  "output": "not-my-water-bottle.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: your bottle rolls under the seat every time the train moves",
+  "thumbnail_clip": "065",
+  "outro": "mine was still rolling",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "i put it between my shoes.",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "careful",
+            "focused",
+            "prepared",
+            "content"
+          ],
+          "clip": "091"
+        }
+      ]
+    },
+    {
+      "action": "the train moved.",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "surprised",
+            "watching",
+            "alert",
+            "startled"
+          ],
+          "clip": "083"
+        }
+      ]
+    },
+    {
+      "action": "\"put it in your bag\"",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "PASSENGER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"too far now\"",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the train braked. it rolled back.",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "happy",
+            "relieved",
+            "hopeful",
+            "excited"
+          ],
+          "clip": "159"
+        }
+      ]
+    },
+    {
+      "action": "it was not my bottle.",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "cursed",
+            "weird",
+            "confused",
+            "fish"
+          ],
+          "clip": "065"
+        }
+      ]
+    }
+  ]
+}

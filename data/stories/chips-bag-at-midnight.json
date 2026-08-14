@@ -1,0 +1,140 @@
+{
+  "title": "the quiet chips",
+  "output": "chips-bag-at-midnight.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: you try to open a chips bag quietly at midnight",
+  "outro": "the room heard dinner",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "12:18am.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confident",
+            "proud",
+            "smug"
+          ],
+          "clip": "073"
+        }
+      ]
+    },
+    {
+      "action": "\"open it slowly\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ROOMMATE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "the first corner stretched.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "peeking",
+            "curious",
+            "alert"
+          ],
+          "clip": "087"
+        }
+      ]
+    },
+    {
+      "action": "\"use the other side\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the bag stayed silent.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "grumpy",
+            "scowling",
+            "disgusted"
+          ],
+          "clip": "080"
+        }
+      ]
+    },
+    {
+      "action": "one chip cracked louder than the bag.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "shocked",
+            "speechless"
+          ],
+          "clip": "127"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "127"
+}

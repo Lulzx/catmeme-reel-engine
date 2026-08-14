@@ -1,0 +1,140 @@
+{
+  "title": "the cold chair",
+  "output": "office-ac-seat.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the only free office chair is directly under the air conditioner",
+  "outro": "the coffee needed a jacket",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "every chair was taken.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "curious",
+            "ready",
+            "alert"
+          ],
+          "clip": "169"
+        }
+      ]
+    },
+    {
+      "action": "\"that corner is free\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "COWORKER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "the vent pointed straight down.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "approaching",
+            "walking",
+            "curious"
+          ],
+          "clip": "056"
+        }
+      ]
+    },
+    {
+      "action": "\"move the chair one foot\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the wheels were locked.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "exhausted",
+            "fed-up",
+            "deadpan"
+          ],
+          "clip": "181"
+        }
+      ]
+    },
+    {
+      "action": "my hot coffee grew a skin in two minutes.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "banana",
+            "costume"
+          ],
+          "clip": "031"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "031"
+}

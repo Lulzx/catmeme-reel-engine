@@ -1,0 +1,140 @@
+{
+  "title": "the bad wheel",
+  "output": "grocery-cart-bad-wheel.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: your grocery cart has one wheel that only wants the snack aisle",
+  "outro": "the wheel chose dinner",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the cart pulled left.",
+      "bg": {
+        "place": "shop"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "typing",
+            "working",
+            "busy"
+          ],
+          "clip": "030"
+        }
+      ]
+    },
+    {
+      "action": "\"just push harder\"",
+      "bg": {
+        "place": "shop"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "we passed the snack aisle.",
+      "bg": {
+        "place": "shop"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "grumpy",
+            "unimpressed",
+            "annoyed"
+          ],
+          "clip": "139"
+        }
+      ]
+    },
+    {
+      "action": "\"the wheel remembers\"",
+      "bg": {
+        "place": "shop"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i aimed for vegetables.",
+      "bg": {
+        "place": "shop"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "cursed",
+            "weird",
+            "uncanny"
+          ],
+          "clip": "163"
+        }
+      ]
+    },
+    {
+      "action": "the cart parked beside chips by itself.",
+      "bg": {
+        "place": "shop"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "awkward",
+            "random"
+          ],
+          "clip": "157"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "157"
+}

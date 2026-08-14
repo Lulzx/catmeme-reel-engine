@@ -1,0 +1,140 @@
+{
+  "title": "the delivery photo",
+  "output": "parcel-on-the-wrong-mat.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the delivery photo shows your parcel on somebody else's doormat",
+  "outro": "same digits, different walk",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "delivered: 4:12pm.",
+      "bg": {
+        "place": "hallway"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "sneaky",
+            "mischievous",
+            "calm"
+          ],
+          "clip": "086"
+        }
+      ]
+    },
+    {
+      "action": "\"please check the photo\"",
+      "bg": {
+        "place": "hallway"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "DRIVER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "the mat said welcome-ish.",
+      "bg": {
+        "place": "hallway"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "focused",
+            "head-down",
+            "busy"
+          ],
+          "clip": "108"
+        }
+      ]
+    },
+    {
+      "action": "\"zoom into the corner\"",
+      "bg": {
+        "place": "hallway"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "door 603 was visible.",
+      "bg": {
+        "place": "hallway"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "guilty",
+            "ashamed",
+            "sorry"
+          ],
+          "clip": "026"
+        }
+      ]
+    },
+    {
+      "action": "i live in 306.",
+      "bg": {
+        "place": "hallway"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "silly",
+            "costume"
+          ],
+          "clip": "050"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "050"
+}

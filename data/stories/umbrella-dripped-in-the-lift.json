@@ -1,0 +1,140 @@
+{
+  "title": "the wet umbrella",
+  "output": "umbrella-dripped-in-the-lift.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: your umbrella stays dry outside and empties itself inside the lift",
+  "outro": "sleeve collected the rain",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the rain had stopped.",
+      "bg": {
+        "place": "lift"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "begging",
+            "hopeful",
+            "expectant"
+          ],
+          "clip": "105"
+        }
+      ]
+    },
+    {
+      "action": "\"close it before the lift\"",
+      "bg": {
+        "place": "lift"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "NEIGHBOR",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "the umbrella folded neatly.",
+      "bg": {
+        "place": "lift"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "talking",
+            "asking",
+            "curious"
+          ],
+          "clip": "013"
+        }
+      ]
+    },
+    {
+      "action": "\"hold it point-down\"",
+      "bg": {
+        "place": "lift"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the lift doors closed.",
+      "bg": {
+        "place": "lift"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "sad",
+            "teary",
+            "heartbroken"
+          ],
+          "clip": "076"
+        }
+      ]
+    },
+    {
+      "action": "the handle poured water into my sleeve.",
+      "bg": {
+        "place": "lift"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "costumed",
+            "flailing"
+          ],
+          "clip": "162"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "162"
+}

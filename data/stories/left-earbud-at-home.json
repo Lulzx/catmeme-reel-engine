@@ -1,0 +1,140 @@
+{
+  "title": "the left earbud",
+  "output": "left-earbud-at-home.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the earbud case is full because both earbuds are not yours",
+  "outro": "stereo for two people",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the case showed 100%.",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "scrolling",
+            "distracted",
+            "bored"
+          ],
+          "clip": "178"
+        }
+      ]
+    },
+    {
+      "action": "\"use the left one\"",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "both earbuds said right.",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "reaching",
+            "curious",
+            "hopeful"
+          ],
+          "clip": "095"
+        }
+      ]
+    },
+    {
+      "action": "\"check your pocket\"",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "my left earbud was at home.",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "demanding",
+            "impatient",
+            "shoving"
+          ],
+          "clip": "115"
+        }
+      ]
+    },
+    {
+      "action": "the second right earbud connected to a stranger.",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "goofy",
+            "upside-down"
+          ],
+          "clip": "106"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "106"
+}

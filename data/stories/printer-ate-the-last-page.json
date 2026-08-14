@@ -1,0 +1,140 @@
+{
+  "title": "page four",
+  "output": "printer-ate-the-last-page.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the printer jams only on the final page of your document",
+  "outro": "signature sold separately",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "pages 1 to 3 printed.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "lounging",
+            "lazy",
+            "relaxed"
+          ],
+          "clip": "167"
+        }
+      ]
+    },
+    {
+      "action": "\"page four is the signature page\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "COWORKER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "the printer clicked twice.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "deadpan",
+            "blank",
+            "unimpressed"
+          ],
+          "clip": "157"
+        }
+      ]
+    },
+    {
+      "action": "\"open tray b\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "a corner appeared.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "reluctant",
+            "trapped",
+            "indignant"
+          ],
+          "clip": "044"
+        }
+      ]
+    },
+    {
+      "action": "page four came out as eight ribbons.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "screaming",
+            "rage"
+          ],
+          "clip": "170"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "170"
+}

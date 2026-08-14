@@ -1,0 +1,140 @@
+{
+  "title": "the expired code",
+  "output": "otp-expired-at-six-digits.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the verification code expires while you are typing the sixth digit",
+  "outro": "same phone, new race",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "code sent.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "hungry",
+            "eating",
+            "content"
+          ],
+          "clip": "175"
+        }
+      ]
+    },
+    {
+      "action": "\"read it quickly\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "the message arrived after 28 seconds.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "looking-back",
+            "alert",
+            "curious"
+          ],
+          "clip": "166"
+        }
+      ]
+    },
+    {
+      "action": "\"you have two seconds\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i typed digit six.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "startled",
+            "jump-scare",
+            "spooked"
+          ],
+          "clip": "171"
+        }
+      ]
+    },
+    {
+      "action": "a newer code replaced it.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "menacing",
+            "looming"
+          ],
+          "clip": "088"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "088"
+}

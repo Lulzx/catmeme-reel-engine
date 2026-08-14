@@ -1,0 +1,140 @@
+{
+  "title": "the bus window",
+  "output": "bus-window-single-drop.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: one rain drop finds the only open inch of the bus window",
+  "outro": "fresh air delivered",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the window was almost shut.",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "watching",
+            "calm",
+            "attentive"
+          ],
+          "clip": "154"
+        }
+      ]
+    },
+    {
+      "action": "\"leave a little air\"",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "PASSENGER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "one drop came through.",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "begging",
+            "pleading",
+            "expectant"
+          ],
+          "clip": "156"
+        }
+      ]
+    },
+    {
+      "action": "\"move your shoulder\"",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i moved six inches.",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "menacing",
+            "looming",
+            "intense"
+          ],
+          "clip": "155"
+        }
+      ]
+    },
+    {
+      "action": "the drop landed in my ear.",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "spinning",
+            "hypnotic"
+          ],
+          "clip": "019"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "019"
+}

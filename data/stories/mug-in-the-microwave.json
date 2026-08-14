@@ -1,0 +1,140 @@
+{
+  "title": "the office mug",
+  "output": "mug-in-the-microwave.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: your office mug has been waiting inside the microwave since yesterday",
+  "outro": "tea with notes of pasta",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the microwave beeped.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "walking",
+            "approaching",
+            "confident"
+          ],
+          "clip": "144"
+        }
+      ]
+    },
+    {
+      "action": "\"whose mug is that?\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "COWORKER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "my name was underneath it.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "investigating",
+            "sniffing",
+            "nosy"
+          ],
+          "clip": "122"
+        }
+      ]
+    },
+    {
+      "action": "\"smell it first\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the tea had a skin.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "broken",
+            "exhausted",
+            "done"
+          ],
+          "clip": "116"
+        }
+      ]
+    },
+    {
+      "action": "someone had reheated lunch beside it.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "cursed",
+            "surreal"
+          ],
+          "clip": "191"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "191"
+}

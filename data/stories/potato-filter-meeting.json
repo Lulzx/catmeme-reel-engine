@@ -1,0 +1,140 @@
+{
+  "title": "the potato meeting",
+  "output": "potato-filter-meeting.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the potato filter stays on when your manager joins the call",
+  "outro": "meeting catered",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "camera on.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "relaxed",
+            "content",
+            "calm"
+          ],
+          "clip": "118"
+        }
+      ]
+    },
+    {
+      "action": "\"we can see you\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "MANAGER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "the filter menu would not open.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "head-tilt",
+            "puzzled",
+            "confused"
+          ],
+          "clip": "147"
+        }
+      ]
+    },
+    {
+      "action": "\"leave and rejoin\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i rejoined as a potato.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "dramatic",
+            "betrayed",
+            "theatrical"
+          ],
+          "clip": "018"
+        }
+      ]
+    },
+    {
+      "action": "the manager turned into fries.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "laughing",
+            "giggling"
+          ],
+          "clip": "184"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "184"
+}

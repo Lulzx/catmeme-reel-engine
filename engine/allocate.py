@@ -65,12 +65,23 @@ MASCOT_CAP = 99    # favourites are exempt — they're meant to recur
 
 
 # ── inputs ──────────────────────────────────────────────────────────────────
-def prior_uses():
-    """clip_id -> how many already-published videos used it."""
+def prior_uses(exclude_slugs=None):
+    """clip_id -> uses outside the batch currently being inspected.
+
+    Registered queued stories already have ``clip_usage`` rows. Excluding their
+    slugs prevents a check from counting the same batch as both prior and current
+    usage after registration.
+    """
     if not os.path.exists(DB):
         return Counter()
     con = sqlite3.connect(DB)
     try:
+        exclude_slugs = list(exclude_slugs or [])
+        if exclude_slugs:
+            marks = ",".join("?" for _ in exclude_slugs)
+            sql = (f"select clip_id, count(*) from clip_usage "
+                   f"where slug not in ({marks}) group by clip_id")
+            return Counter(dict(con.execute(sql, exclude_slugs)))
         return Counter(dict(con.execute(
             "select clip_id, count(*) from clip_usage group by clip_id")))
     finally:
@@ -204,7 +215,7 @@ def allocate(open_slots, catalog, uses, taken, story_pins=None, cap=CAP,
 
 
 # ── reporting ───────────────────────────────────────────────────────────────
-def check(stories, uses):
+def check(stories, uses, cap=CAP):
     """Repeats inside the batch + clips that are already over-exposed."""
     used = Counter()
     where = {}
@@ -220,7 +231,7 @@ def check(stories, uses):
     for cid, n in used.most_common():
         if cid in M.FAVORED:
             continue
-        if n > CAP:
+        if n > cap:
             problems.append(f"repeat x{n}: [{cid}] {', '.join(where[cid])}")
     for cid, n in used.items():
         if cid not in M.FAVORED and uses.get(cid, 0) >= 15:
@@ -238,9 +249,15 @@ def main():
     ap.add_argument("--repin-all", action="store_true",
                     help="also reassign members that already have a pinned clip")
     ap.add_argument("--cap", type=int, default=CAP)
+    ap.add_argument("--floor", type=float, default=FLOOR,
+                    help="minimum semantic fit retained for allocation")
+    ap.add_argument("--max-drop", type=float, default=MAX_DROP,
+                    help="maximum fit traded for clip freshness")
+    ap.add_argument("--fatigue", type=float, default=FATIGUE,
+                    help="penalty weight for prior channel uses")
     a = ap.parse_args()
 
-    uses = prior_uses()
+    uses = prior_uses(a.slugs)
     if a.report or not a.slugs:
         cat = {c["id"]: c for c in M.load_catalog()}
         print(f"{'clip':>5}  {'vids':>4}  primary")
@@ -251,7 +268,7 @@ def main():
             return
 
     stories = load_stories(a.slugs)
-    used, problems = check(stories, uses)
+    used, problems = check(stories, uses, cap=a.cap)
     print(f"\n{len(stories)} stories · {sum(used.values())} cast slots · "
           f"{len(used)} distinct clips")
     for p in problems:
@@ -264,7 +281,8 @@ def main():
     cat = M.load_catalog()
     open_ = slots(stories, repin_all=a.repin_all)
     taken, per_story = pinned_counts(stories)
-    plan = allocate(open_, cat, uses, taken, story_pins=per_story, cap=a.cap)
+    plan = allocate(open_, cat, uses, taken, story_pins=per_story, cap=a.cap,
+                    floor=a.floor, max_drop=a.max_drop, fatigue=a.fatigue)
     by_id = {c["id"]: c for c in cat}
     for (slug, bi, ci), (cid, fit, forced) in sorted(plan.items()):
         stories[slug]["beats"][bi]["cast"][ci]["clip"] = cid

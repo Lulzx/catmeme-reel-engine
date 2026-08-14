@@ -1,0 +1,140 @@
+{
+  "title": "one minute remaining",
+  "output": "washing-machine-one-minute.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the washing machine says one minute remaining for fourteen minutes",
+  "outro": "the sock wanted a solo wash",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "one minute remaining.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "hungry",
+            "eating",
+            "content"
+          ],
+          "clip": "039"
+        }
+      ]
+    },
+    {
+      "action": "\"it is almost done\"",
+      "bg": {
+        "place": "bathroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ROOMMATE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "six minutes passed.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "looking-back",
+            "alert",
+            "curious"
+          ],
+          "clip": "083"
+        }
+      ]
+    },
+    {
+      "action": "\"do not open it\"",
+      "bg": {
+        "place": "bathroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "it displayed one minute again.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "bathing",
+            "soaked",
+            "frantic"
+          ],
+          "clip": "026"
+        }
+      ]
+    },
+    {
+      "action": "the machine added a sock and restarted.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "bursting-out",
+            "closeup"
+          ],
+          "clip": "180"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "180"
+}

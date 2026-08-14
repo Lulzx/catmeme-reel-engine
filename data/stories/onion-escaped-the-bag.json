@@ -1,0 +1,140 @@
+{
+  "title": "the escaped onion",
+  "output": "onion-escaped-the-bag.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: one onion rolls out of your bag across the entire parking lot",
+  "outro": "the onion has transport",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the bag tipped.",
+      "bg": {
+        "place": "street"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "typing",
+            "working",
+            "busy"
+          ],
+          "clip": "033"
+        }
+      ]
+    },
+    {
+      "action": "\"one onion escaped\"",
+      "bg": {
+        "place": "street"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "it crossed two parking rows.",
+      "bg": {
+        "place": "street"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "grumpy",
+            "unimpressed",
+            "annoyed"
+          ],
+          "clip": "161"
+        }
+      ]
+    },
+    {
+      "action": "\"cut it off near the gate\"",
+      "bg": {
+        "place": "street"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i reached the gate first.",
+      "bg": {
+        "place": "street"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "screaming",
+            "frantic",
+            "distressed"
+          ],
+          "clip": "170"
+        }
+      ]
+    },
+    {
+      "action": "the onion left under a car.",
+      "bg": {
+        "place": "street"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "armed",
+            "menacing"
+          ],
+          "clip": "088"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "088"
+}

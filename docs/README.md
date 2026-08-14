@@ -30,6 +30,8 @@ onto a scene-relevant background, labels it, and renders a finished vertical vid
 | 14 | [14-analytics-and-trends.md](14-analytics-and-trends.md) | reading channel performance; which themes win; trendy clip curation |
 | 15 | [15-human-voice.md](15-human-voice.md) | **caption rules so scripts don't read as AI — enforced by `engine/lint_voice.py`** |
 | 16 | [16-clip-diversity.md](16-clip-diversity.md) | stopping one clip from carrying the channel — fatigue penalty + `engine/allocate.py` |
+| 17 | [17-growth-research-2026-08-14.md](17-growth-research-2026-08-14.md) | **fresh analytics, competitor benchmark, silly-clip sourcing, thumbnail constraint, and next-batch scores** |
+| 18 | [18-six-hour-fill-2026-08-14.md](18-six-hour-fill-2026-08-14.md) | **56-Short production ledger for the August 18–31 six-hour schedule grid** |
 
 Scripts are also **scored before they ship**: the rubric lives with the authoring
 skill at [`.claude/skills/make-reel/SCORING.md`](../.claude/skills/make-reel/SCORING.md)

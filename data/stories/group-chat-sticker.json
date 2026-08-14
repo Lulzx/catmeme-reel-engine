@@ -1,0 +1,140 @@
+{
+  "title": "the wrong sticker",
+  "output": "group-chat-sticker.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: you send a dancing cat sticker during a serious group-chat update",
+  "outro": "the update got zero",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the update was six lines.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "watching",
+            "calm",
+            "attentive"
+          ],
+          "clip": "154"
+        }
+      ]
+    },
+    {
+      "action": "\"just reply noted\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "my thumb opened stickers.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "begging",
+            "pleading",
+            "expectant"
+          ],
+          "clip": "072"
+        }
+      ]
+    },
+    {
+      "action": "\"close it carefully\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "one sticker started moving.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "stunned",
+            "speechless",
+            "frozen"
+          ],
+          "clip": "174"
+        }
+      ]
+    },
+    {
+      "action": "the dancing cat got two heart reactions.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "smiling",
+            "friendly"
+          ],
+          "clip": "040"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "040"
+}

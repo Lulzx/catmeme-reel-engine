@@ -1,0 +1,140 @@
+{
+  "title": "one ice cube",
+  "output": "one-ice-cube-left.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: someone returns the ice tray with one cube left",
+  "outro": "zero cubes now",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the water was warm.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "sleepy",
+            "tired",
+            "drowsy"
+          ],
+          "clip": "117"
+        }
+      ]
+    },
+    {
+      "action": "\"there is ice in the freezer\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ROOMMATE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "the tray held one cube.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "side-eye",
+            "skeptical",
+            "judging"
+          ],
+          "clip": "069"
+        }
+      ]
+    },
+    {
+      "action": "\"split it in half\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i twisted the tray.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "sad",
+            "pleading",
+            "disappointed"
+          ],
+          "clip": "085"
+        }
+      ]
+    },
+    {
+      "action": "the cube launched under the fridge.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "boxing",
+            "fighting"
+          ],
+          "clip": "187"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "187"
+}

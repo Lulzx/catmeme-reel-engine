@@ -1,0 +1,145 @@
+{
+  "title": "the wrong lunchbox lid",
+  "output": "wrong-lunchbox-lid.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: your lunchbox lid fits every box except the one you brought",
+  "thumbnail_clip": "186",
+  "outro": "we swapped lunches",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "12:40pm.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "hungry",
+            "waiting",
+            "expectant",
+            "ready"
+          ],
+          "clip": "130"
+        }
+      ]
+    },
+    {
+      "action": "the lid would not close.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "struggling",
+            "puzzled",
+            "annoyed"
+          ],
+          "clip": "054"
+        }
+      ]
+    },
+    {
+      "action": "\"turn it around\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "COWORKER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"that is the bottom\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "their lid clicked onto mine.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "surprised",
+            "curious",
+            "hopeful",
+            "relieved"
+          ],
+          "clip": "075"
+        }
+      ]
+    },
+    {
+      "action": "mine clicked onto theirs. we swapped lunches.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "silly",
+            "dancing",
+            "tiny",
+            "celebrating"
+          ],
+          "clip": "186"
+        }
+      ]
+    }
+  ]
+}

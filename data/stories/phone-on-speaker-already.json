@@ -1,0 +1,140 @@
+{
+  "title": "the speaker call",
+  "output": "phone-on-speaker-already.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: you warn someone they are on speaker after they already said the thing",
+  "outro": "warning delivered late",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the call connected.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "waiting",
+            "patient",
+            "expectant"
+          ],
+          "clip": "130"
+        }
+      ]
+    },
+    {
+      "action": "\"you will not believe what happened\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "MOM",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "everyone in the room looked up.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "staring",
+            "wide-eyed",
+            "curious"
+          ],
+          "clip": "084"
+        }
+      ]
+    },
+    {
+      "action": "\"say speaker now\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "\"you are on speaker\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "crying",
+            "sobbing",
+            "wailing"
+          ],
+          "clip": "094"
+        }
+      ]
+    },
+    {
+      "action": "\"yes, i heard myself from the kitchen\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "goofy",
+            "dancing"
+          ],
+          "clip": "159"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "159"
+}

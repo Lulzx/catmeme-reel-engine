@@ -1,0 +1,145 @@
+{
+  "title": "the family call screenshot",
+  "output": "front-camera-family-call.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the family video call opens on your front camera from below",
+  "thumbnail_clip": "179",
+  "outro": "new group photo",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "join now.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "tired",
+            "unprepared",
+            "sleepy",
+            "blank"
+          ],
+          "clip": "158"
+        }
+      ]
+    },
+    {
+      "action": "front camera.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "shocked",
+            "wide-eyed",
+            "startled",
+            "embarrassed"
+          ],
+          "clip": "045"
+        }
+      ]
+    },
+    {
+      "action": "\"we can only see your chin\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "AUNT",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"do not move\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the call froze.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "nervous",
+            "stiff",
+            "awkward",
+            "frozen"
+          ],
+          "clip": "062"
+        }
+      ]
+    },
+    {
+      "action": "the screenshot became the group photo.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "FAMILY",
+          "size": 0.5,
+          "want": [
+            "squad",
+            "crowd",
+            "crew",
+            "huddled"
+          ],
+          "clip": "179"
+        }
+      ]
+    }
+  ]
+}

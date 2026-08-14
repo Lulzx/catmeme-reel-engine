@@ -1,0 +1,140 @@
+{
+  "title": "the charging angle",
+  "output": "charger-at-one-percent.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: your charger only works when nobody touches the cable",
+  "outro": "two percent secured",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "battery: 1%.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "scrolling",
+            "distracted",
+            "bored"
+          ],
+          "clip": "178"
+        }
+      ]
+    },
+    {
+      "action": "\"hold it at that angle\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "the charging icon appeared.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "reaching",
+            "curious",
+            "hopeful"
+          ],
+          "clip": "095"
+        }
+      ]
+    },
+    {
+      "action": "\"do not breathe\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "my hand went numb.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "wide-eyed",
+            "alarmed",
+            "caught-off-guard"
+          ],
+          "clip": "113"
+        }
+      ]
+    },
+    {
+      "action": "the power went out at 2%.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "slap",
+            "attack"
+          ],
+          "clip": "005"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "005"
+}

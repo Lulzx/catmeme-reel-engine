@@ -1,0 +1,145 @@
+{
+  "title": "the chair was still wet",
+  "output": "wet-office-chair.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: you sit down exactly after the office chair was cleaned",
+  "thumbnail_clip": "148",
+  "outro": "the cloth came with me",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "9:01am. team meeting.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "rushing",
+            "working",
+            "alert",
+            "professional"
+          ],
+          "clip": "030"
+        }
+      ]
+    },
+    {
+      "action": "i sat down.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "content",
+            "relaxed",
+            "settling",
+            "calm"
+          ],
+          "clip": "086"
+        }
+      ]
+    },
+    {
+      "action": "\"we just cleaned that\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "CLEANER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"stand up slowly\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "everyone looked at the chair.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "embarrassed",
+            "awkward",
+            "nervous",
+            "guilty"
+          ],
+          "clip": "023"
+        }
+      ]
+    },
+    {
+      "action": "the blue cloth was stuck to my belt.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "costume",
+            "silly",
+            "awkward",
+            "mermaid"
+          ],
+          "clip": "148"
+        }
+      ]
+    }
+  ]
+}

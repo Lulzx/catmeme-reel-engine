@@ -1,0 +1,145 @@
+{
+  "title": "connected to the living room",
+  "output": "bluetooth-living-room.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: your phone connects to the living-room speaker at the worst time",
+  "thumbnail_clip": "184",
+  "outro": "dad had notes",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "headphones: connected.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confident",
+            "content",
+            "ready",
+            "relaxed"
+          ],
+          "clip": "077"
+        }
+      ]
+    },
+    {
+      "action": "\"play the rehearsal\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"how to ask for a raise\" filled the room.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "shocked",
+            "embarrassed",
+            "alarmed",
+            "flustered"
+          ],
+          "clip": "172"
+        }
+      ]
+    },
+    {
+      "action": "\"dad turned it up\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "everyone stopped eating.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "awkward",
+            "nervous",
+            "guilty",
+            "frozen"
+          ],
+          "clip": "134"
+        }
+      ]
+    },
+    {
+      "action": "\"start with eye contact\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "DAD",
+          "size": 0.5,
+          "want": [
+            "laughing",
+            "giggling",
+            "evil-laugh",
+            "mischievous"
+          ],
+          "clip": "184"
+        }
+      ]
+    }
+  ]
+}

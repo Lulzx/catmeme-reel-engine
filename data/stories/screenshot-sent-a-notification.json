@@ -1,0 +1,140 @@
+{
+  "title": "the screenshot notification",
+  "output": "screenshot-sent-a-notification.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: you screenshot a message and immediately send it back to the same chat",
+  "outro": "evidence returned to sender",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the message was strange.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "lounging",
+            "lazy",
+            "relaxed"
+          ],
+          "clip": "167"
+        }
+      ]
+    },
+    {
+      "action": "\"send me a screenshot\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i opened the share menu.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "deadpan",
+            "blank",
+            "unimpressed"
+          ],
+          "clip": "096"
+        }
+      ]
+    },
+    {
+      "action": "\"pick my name\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i picked the open chat.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "unimpressed",
+            "paw-raised",
+            "judgmental"
+          ],
+          "clip": "116"
+        }
+      ]
+    },
+    {
+      "action": "\"why did you send my own message?\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "dancing",
+            "happy"
+          ],
+          "clip": "082"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "082"
+}

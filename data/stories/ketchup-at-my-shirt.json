@@ -1,0 +1,145 @@
+{
+  "title": "the ketchup waited",
+  "output": "ketchup-at-my-shirt.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the ketchup bottle waits until you point it at yourself",
+  "thumbnail_clip": "003",
+  "outro": "one drop for the fries",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "nothing came out.",
+      "bg": {
+        "place": "restaurant"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "waiting",
+            "hungry",
+            "puzzled"
+          ],
+          "clip": "111"
+        }
+      ]
+    },
+    {
+      "action": "i shook it again.",
+      "bg": {
+        "place": "restaurant"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "trying",
+            "focused",
+            "annoyed",
+            "determined"
+          ],
+          "clip": "107"
+        }
+      ]
+    },
+    {
+      "action": "\"hit the bottom\"",
+      "bg": {
+        "place": "restaurant"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"not that hard\"",
+      "bg": {
+        "place": "restaurant"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the cap hit my shirt first.",
+      "bg": {
+        "place": "restaurant"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "shocked",
+            "messy",
+            "alarmed",
+            "disgusted"
+          ],
+          "clip": "177"
+        }
+      ]
+    },
+    {
+      "action": "one tiny drop landed on the fries.",
+      "bg": {
+        "place": "restaurant"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "goofy",
+            "derp",
+            "silly",
+            "confused"
+          ],
+          "clip": "003"
+        }
+      ]
+    }
+  ]
+}

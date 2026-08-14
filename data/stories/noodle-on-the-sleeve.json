@@ -1,0 +1,140 @@
+{
+  "title": "the last noodle",
+  "output": "noodle-on-the-sleeve.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the final noodle misses your mouth and enters your sleeve",
+  "outro": "sleeve saved dinner",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "one noodle remained.",
+      "bg": {
+        "place": "restaurant"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "happy",
+            "smiling",
+            "friendly"
+          ],
+          "clip": "110"
+        }
+      ]
+    },
+    {
+      "action": "\"just slurp it\"",
+      "bg": {
+        "place": "restaurant"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "it swung past my fork.",
+      "bg": {
+        "place": "restaurant"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "standing-up",
+            "alert",
+            "watchful"
+          ],
+          "clip": "136"
+        }
+      ]
+    },
+    {
+      "action": "\"lean closer\"",
+      "bg": {
+        "place": "restaurant"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the bowl was empty.",
+      "bg": {
+        "place": "restaurant"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "surprised",
+            "squeaking",
+            "innocent"
+          ],
+          "clip": "045"
+        }
+      ]
+    },
+    {
+      "action": "the noodle came out near my wrist.",
+      "bg": {
+        "place": "restaurant"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "absurd",
+            "costume"
+          ],
+          "clip": "031"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "031"
+}

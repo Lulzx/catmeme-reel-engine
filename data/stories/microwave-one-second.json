@@ -1,0 +1,140 @@
+{
+  "title": "one second left",
+  "output": "microwave-one-second.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: you stop the microwave at one second so it never beeps",
+  "outro": "the microwave stayed polite",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the timer showed 0:02.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "begging",
+            "hopeful",
+            "expectant"
+          ],
+          "clip": "153"
+        }
+      ]
+    },
+    {
+      "action": "\"do not wake anyone\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ROOMMATE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i waited by the button.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "talking",
+            "asking",
+            "curious"
+          ],
+          "clip": "133"
+        }
+      ]
+    },
+    {
+      "action": "\"now\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i stopped it at 0:01.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "grumpy",
+            "stern",
+            "bothered"
+          ],
+          "clip": "078"
+        }
+      ]
+    },
+    {
+      "action": "the smoke alarm beeped instead.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "hissing",
+            "defensive"
+          ],
+          "clip": "129"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "129"
+}

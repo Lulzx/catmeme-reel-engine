@@ -1,0 +1,140 @@
+{
+  "title": "the other side",
+  "output": "cab-on-the-other-side.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: your cab stops across a road that cannot be crossed",
+  "outro": "still 40 metres away",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the cab was 40 metres away.",
+      "bg": {
+        "place": "street"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "scrolling",
+            "distracted",
+            "bored"
+          ],
+          "clip": "181"
+        }
+      ]
+    },
+    {
+      "action": "\"i can see you\"",
+      "bg": {
+        "place": "street"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "DRIVER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "the divider continued forever.",
+      "bg": {
+        "place": "street"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "reaching",
+            "curious",
+            "hopeful"
+          ],
+          "clip": "156"
+        }
+      ]
+    },
+    {
+      "action": "\"walk to the opening\"",
+      "bg": {
+        "place": "street"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the cab drove toward it.",
+      "bg": {
+        "place": "street"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "broken",
+            "exhausted",
+            "done"
+          ],
+          "clip": "168"
+        }
+      ]
+    },
+    {
+      "action": "we swapped sides at the same time.",
+      "bg": {
+        "place": "street"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "silly",
+            "tiny"
+          ],
+          "clip": "186"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "186"
+}

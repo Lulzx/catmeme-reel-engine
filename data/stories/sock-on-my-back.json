@@ -1,0 +1,145 @@
+{
+  "title": "the missing sock",
+  "output": "sock-on-my-back.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the missing sock was on your back during the whole meeting",
+  "thumbnail_clip": "031",
+  "outro": "nice cape",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "8:55am. one sock missing.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "searching",
+            "confused",
+            "worried",
+            "rushing"
+          ],
+          "clip": "147"
+        }
+      ]
+    },
+    {
+      "action": "\"wear different ones\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ROOMMATE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"camera only sees the top half\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the meeting lasted 27 minutes.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "working",
+            "serious",
+            "focused",
+            "professional"
+          ],
+          "clip": "151"
+        }
+      ]
+    },
+    {
+      "action": "one private message arrived.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "curious",
+            "alert",
+            "nervous",
+            "reading"
+          ],
+          "clip": "074"
+        }
+      ]
+    },
+    {
+      "action": "\"nice cape\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "costume",
+            "silly",
+            "awkward",
+            "walking-in"
+          ],
+          "clip": "031"
+        }
+      ]
+    }
+  ]
+}

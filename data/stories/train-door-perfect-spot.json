@@ -1,0 +1,140 @@
+{
+  "title": "the wrong train door",
+  "output": "train-door-perfect-spot.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: you stand exactly where the train door does not open",
+  "outro": "perfect spot for no door",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the floor marker was here.",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "lounging",
+            "lazy",
+            "relaxed"
+          ],
+          "clip": "053"
+        }
+      ]
+    },
+    {
+      "action": "\"the door will stop in front of us\"",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "PASSENGER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "the train stopped two metres left.",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "deadpan",
+            "blank",
+            "unimpressed"
+          ],
+          "clip": "096"
+        }
+      ]
+    },
+    {
+      "action": "\"move before it opens\"",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "everyone moved left.",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "wide-eyed",
+            "alarmed",
+            "caught-off-guard"
+          ],
+          "clip": "113"
+        }
+      ]
+    },
+    {
+      "action": "the next door opened behind me.",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "paired",
+            "together"
+          ],
+          "clip": "074"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "074"
+}

@@ -1,0 +1,140 @@
+{
+  "title": "the hidden tab",
+  "output": "music-from-one-browser-tab.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: music starts playing from one of your forty browser tabs",
+  "outro": "wrong device, right panic",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "music started at 11:14am.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "happy",
+            "smiling",
+            "friendly"
+          ],
+          "clip": "040"
+        }
+      ]
+    },
+    {
+      "action": "\"which tab is that?\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "COWORKER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "none showed the speaker icon.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "standing-up",
+            "alert",
+            "watchful"
+          ],
+          "clip": "131"
+        }
+      ]
+    },
+    {
+      "action": "\"mute the whole laptop\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the music stopped.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "unimpressed",
+            "done",
+            "humiliated"
+          ],
+          "clip": "177"
+        }
+      ]
+    },
+    {
+      "action": "my phone kept playing inside the drawer.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "drinking",
+            "laughing"
+          ],
+          "clip": "190"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "190"
+}

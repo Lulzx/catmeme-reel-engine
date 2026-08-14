@@ -1,0 +1,140 @@
+{
+  "title": "the pocket tissue",
+  "output": "tissue-in-the-laundry.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: one tissue turns an entire dark laundry load white",
+  "outro": "two loads decorated",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the wash finished.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "scrolling",
+            "distracted",
+            "bored"
+          ],
+          "clip": "059"
+        }
+      ]
+    },
+    {
+      "action": "\"check the pockets next time\"",
+      "bg": {
+        "place": "bathroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ROOMMATE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "white dots covered everything.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "reaching",
+            "curious",
+            "hopeful"
+          ],
+          "clip": "145"
+        }
+      ]
+    },
+    {
+      "action": "\"shake them outside\"",
+      "bg": {
+        "place": "bathroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i shook one shirt.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "poking",
+            "provoking",
+            "annoying"
+          ],
+          "clip": "119"
+        }
+      ]
+    },
+    {
+      "action": "the neighbor's black laundry was below.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "chorus",
+            "meowing"
+          ],
+          "clip": "021"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "021"
+}

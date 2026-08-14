@@ -1,0 +1,140 @@
+{
+  "title": "the loose spice lid",
+  "output": "spice-lid-was-loose.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the spice jar lid comes off while you shake one tiny pinch",
+  "outro": "one pinch remained in the jar",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the recipe said one pinch.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "happy",
+            "smiling",
+            "friendly"
+          ],
+          "clip": "110"
+        }
+      ]
+    },
+    {
+      "action": "\"tap the jar gently\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "MOM",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "nothing came out.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "standing-up",
+            "alert",
+            "watchful"
+          ],
+          "clip": "131"
+        }
+      ]
+    },
+    {
+      "action": "\"one harder tap\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the lid stayed in my hand.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "hissing",
+            "warning",
+            "irritated"
+          ],
+          "clip": "129"
+        }
+      ]
+    },
+    {
+      "action": "the pot disappeared under red powder.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "squeaking",
+            "startled"
+          ],
+          "clip": "188"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "188"
+}

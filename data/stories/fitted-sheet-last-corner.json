@@ -1,0 +1,140 @@
+{
+  "title": "the fitted sheet",
+  "output": "fitted-sheet-last-corner.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the last fitted-sheet corner removes the first three",
+  "outro": "back to corner one",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "three corners were on.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "typing",
+            "working",
+            "busy"
+          ],
+          "clip": "033"
+        }
+      ]
+    },
+    {
+      "action": "\"pull the last one harder\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ROOMMATE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "the mattress bent.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "grumpy",
+            "unimpressed",
+            "annoyed"
+          ],
+          "clip": "139"
+        }
+      ]
+    },
+    {
+      "action": "\"sit on this side\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the last corner fitted.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "menacing",
+            "looming",
+            "intense"
+          ],
+          "clip": "070"
+        }
+      ]
+    },
+    {
+      "action": "the first three corners launched together.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "karate",
+            "punching"
+          ],
+          "clip": "189"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "189"
+}

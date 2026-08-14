@@ -1,0 +1,140 @@
+{
+  "title": "the flashlight shortcut",
+  "output": "flashlight-on-my-face.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: you turn on the phone flashlight directly into your own face",
+  "outro": "new profile picture",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the room was dark.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "sleepy",
+            "tired",
+            "drowsy"
+          ],
+          "clip": "117"
+        }
+      ]
+    },
+    {
+      "action": "\"use the lock-screen shortcut\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i held the phone up.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "side-eye",
+            "skeptical",
+            "judging"
+          ],
+          "clip": "141"
+        }
+      ]
+    },
+    {
+      "action": "\"the other shortcut\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the flashlight came on.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "grumpy",
+            "scowling",
+            "disgusted"
+          ],
+          "clip": "080"
+        }
+      ]
+    },
+    {
+      "action": "the front camera took a photo too.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "startled",
+            "jump-scare"
+          ],
+          "clip": "188"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "188"
+}

@@ -1,0 +1,140 @@
+{
+  "title": "the alarm moved",
+  "output": "alarm-under-the-pillow.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: your alarm is loud until the phone disappears under the pillow",
+  "outro": "snoozed by face",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "6:30am.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "working",
+            "busy",
+            "focused"
+          ],
+          "clip": "092"
+        }
+      ]
+    },
+    {
+      "action": "\"that alarm has rung four times\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ROOMMATE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "the sound became quieter.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "watching",
+            "fixated",
+            "wary"
+          ],
+          "clip": "055"
+        }
+      ]
+    },
+    {
+      "action": "\"check under the pillow\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i found the phone.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "intense",
+            "flustered",
+            "awkward"
+          ],
+          "clip": "155"
+        }
+      ]
+    },
+    {
+      "action": "my cheek had pressed snooze again.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "goofy",
+            "derp"
+          ],
+          "clip": "186"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "186"
+}

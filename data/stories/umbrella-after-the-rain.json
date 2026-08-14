@@ -1,0 +1,140 @@
+{
+  "title": "the last puddle",
+  "output": "umbrella-after-the-rain.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the rain stops the second you finally open your umbrella",
+  "outro": "umbrella stayed dry",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the rain got heavier.",
+      "bg": {
+        "place": "street"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "waiting",
+            "patient",
+            "expectant"
+          ],
+          "clip": "130"
+        }
+      ]
+    },
+    {
+      "action": "\"open it before we are soaked\"",
+      "bg": {
+        "place": "street"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "the umbrella jammed.",
+      "bg": {
+        "place": "street"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "staring",
+            "wide-eyed",
+            "curious"
+          ],
+          "clip": "075"
+        }
+      ]
+    },
+    {
+      "action": "\"push the red button\"",
+      "bg": {
+        "place": "street"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "it opened. the rain stopped.",
+      "bg": {
+        "place": "street"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "teary",
+            "emotional",
+            "heartbroken"
+          ],
+          "clip": "097"
+        }
+      ]
+    },
+    {
+      "action": "a bus emptied the last puddle on me.",
+      "bg": {
+        "place": "street"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "wide-eyed",
+            "alarmed"
+          ],
+          "clip": "132"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "132"
+}

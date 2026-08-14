@@ -1,0 +1,140 @@
+{
+  "title": "the missing sticky note",
+  "output": "sticky-note-on-my-back.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the reminder you lost has been stuck to your back all morning",
+  "outro": "reminder delivered",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the yellow note was missing.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "curious",
+            "ready",
+            "alert"
+          ],
+          "clip": "087"
+        }
+      ]
+    },
+    {
+      "action": "\"what did it say?\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "COWORKER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i searched the whole desk.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "approaching",
+            "walking",
+            "curious"
+          ],
+          "clip": "144"
+        }
+      ]
+    },
+    {
+      "action": "\"check under the laptop\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the meeting started.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "reluctant",
+            "trapped",
+            "indignant"
+          ],
+          "clip": "044"
+        }
+      ]
+    },
+    {
+      "action": "\"buy deodorant\" faced the camera.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "absurd",
+            "costume"
+          ],
+          "clip": "148"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "148"
+}

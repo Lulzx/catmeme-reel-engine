@@ -1,0 +1,140 @@
+{
+  "title": "the bent spoon",
+  "output": "ice-cream-spoon-bent.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the ice cream is hard enough to bend the only clean spoon",
+  "outro": "dessert kept its shape",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the tub came from the freezer.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "sneaky",
+            "mischievous",
+            "calm"
+          ],
+          "clip": "086"
+        }
+      ]
+    },
+    {
+      "action": "\"wait five minutes\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ROOMMATE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i waited forty seconds.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "focused",
+            "head-down",
+            "busy"
+          ],
+          "clip": "091"
+        }
+      ]
+    },
+    {
+      "action": "\"use the strong spoon\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the spoon bent.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "unimpressed",
+            "done",
+            "humiliated"
+          ],
+          "clip": "168"
+        }
+      ]
+    },
+    {
+      "action": "the ice cream slid out as one block.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "poking",
+            "provoking"
+          ],
+          "clip": "107"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "107"
+}

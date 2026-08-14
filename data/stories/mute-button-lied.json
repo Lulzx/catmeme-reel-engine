@@ -1,0 +1,140 @@
+{
+  "title": "the mute button",
+  "output": "mute-button-lied.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: you complain about the meeting while your microphone is still on",
+  "outro": "the meeting ended early",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the meeting reached 46 minutes.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confident",
+            "proud",
+            "smug"
+          ],
+          "clip": "102"
+        }
+      ]
+    },
+    {
+      "action": "\"this could have been an email\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "COWORKER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "three faces stopped moving.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "peeking",
+            "curious",
+            "alert"
+          ],
+          "clip": "112"
+        }
+      ]
+    },
+    {
+      "action": "\"your mic is green\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i clicked mute.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "screaming",
+            "rage",
+            "yelling"
+          ],
+          "clip": "180"
+        }
+      ]
+    },
+    {
+      "action": "\"we heard the click too\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "evil-laugh",
+            "mischievous"
+          ],
+          "clip": "137"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "137"
+}

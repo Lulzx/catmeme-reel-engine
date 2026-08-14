@@ -1,0 +1,140 @@
+{
+  "title": "the fridge light",
+  "output": "fridge-light-investigation.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: you keep opening the fridge to check whether the light really turns off",
+  "outro": "the light had evidence",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the fridge was empty.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "hungry",
+            "eating",
+            "content"
+          ],
+          "clip": "039"
+        }
+      ]
+    },
+    {
+      "action": "\"the light turns off when it closes\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "DAD",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i pressed the little switch.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "looking-back",
+            "alert",
+            "curious"
+          ],
+          "clip": "083"
+        }
+      ]
+    },
+    {
+      "action": "\"record it from inside\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i left my phone on the shelf.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "angry",
+            "furious",
+            "glaring"
+          ],
+          "clip": "005"
+        }
+      ]
+    },
+    {
+      "action": "the door locked with the phone recording.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "silly",
+            "banana"
+          ],
+          "clip": "050"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "050"
+}

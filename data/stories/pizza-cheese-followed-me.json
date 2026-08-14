@@ -1,0 +1,140 @@
+{
+  "title": "the pizza cheese",
+  "output": "pizza-cheese-followed-me.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: one pizza bite pulls all the cheese from every other slice",
+  "outro": "one slice owned everything",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the first slice lifted.",
+      "bg": {
+        "place": "restaurant"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "working",
+            "busy",
+            "focused"
+          ],
+          "clip": "030"
+        }
+      ]
+    },
+    {
+      "action": "\"cut the cheese string\"",
+      "bg": {
+        "place": "restaurant"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "the string reached the box.",
+      "bg": {
+        "place": "restaurant"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "watching",
+            "fixated",
+            "wary"
+          ],
+          "clip": "152"
+        }
+      ]
+    },
+    {
+      "action": "\"keep pulling\"",
+      "bg": {
+        "place": "restaurant"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "three slices moved together.",
+      "bg": {
+        "place": "restaurant"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "wide-eyed",
+            "stunned",
+            "gasping"
+          ],
+          "clip": "172"
+        }
+      ]
+    },
+    {
+      "action": "the crust arrived with no cheese.",
+      "bg": {
+        "place": "restaurant"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "group",
+            "begging"
+          ],
+          "clip": "153"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "153"
+}

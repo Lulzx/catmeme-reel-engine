@@ -1,0 +1,140 @@
+{
+  "title": "the backwards badge",
+  "output": "id-card-backwards.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: you introduce yourself while your ID card shows the blank side",
+  "outro": "introduction complete",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the visitor asked my name.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "relaxed",
+            "content",
+            "calm"
+          ],
+          "clip": "100"
+        }
+      ]
+    },
+    {
+      "action": "\"your badge should say it\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "VISITOR",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "the badge faced backward.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "head-tilt",
+            "puzzled",
+            "confused"
+          ],
+          "clip": "003"
+        }
+      ]
+    },
+    {
+      "action": "\"turn the clip around\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i flipped it proudly.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "grumpy",
+            "stern",
+            "bothered"
+          ],
+          "clip": "078"
+        }
+      ]
+    },
+    {
+      "action": "the clip launched the card into their coffee.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "flailing",
+            "panicked"
+          ],
+          "clip": "162"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "162"
+}

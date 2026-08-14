@@ -1,0 +1,145 @@
+{
+  "title": "fan speed two and a half",
+  "output": "fan-speed-two-and-half.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the ceiling fan has two settings: nothing and cyclone",
+  "thumbnail_clip": "106",
+  "outro": "the knob is in my hand",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "\"two is enough\"",
+      "bg": {
+        "place": "home"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "DAD",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "speed 2. nothing.",
+      "bg": {
+        "place": "home"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "hot",
+            "tired",
+            "unimpressed",
+            "waiting"
+          ],
+          "clip": "146"
+        }
+      ]
+    },
+    {
+      "action": "\"try 2.5\"",
+      "bg": {
+        "place": "home"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the knob stopped between numbers.",
+      "bg": {
+        "place": "home"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "curious",
+            "careful",
+            "focused",
+            "hopeful"
+          ],
+          "clip": "136"
+        }
+      ]
+    },
+    {
+      "action": "every paper left the table.",
+      "bg": {
+        "place": "home"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "shocked",
+            "startled",
+            "chaos",
+            "alarmed"
+          ],
+          "clip": "132"
+        }
+      ]
+    },
+    {
+      "action": "the regulator came off in my hand.",
+      "bg": {
+        "place": "home"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "goofy",
+            "derp",
+            "silly",
+            "confused"
+          ],
+          "clip": "106"
+        }
+      ]
+    }
+  ]
+}

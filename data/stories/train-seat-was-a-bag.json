@@ -1,0 +1,140 @@
+{
+  "title": "the window seat",
+  "output": "train-seat-was-a-bag.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the last empty train seat is occupied by a tiny shopping bag",
+  "outro": "the seat stayed reserved",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "one seat was open.",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "relaxed",
+            "content",
+            "calm"
+          ],
+          "clip": "090"
+        }
+      ]
+    },
+    {
+      "action": "\"somebody is sitting there\"",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "PASSENGER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "it was a bag of onions.",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "head-tilt",
+            "puzzled",
+            "confused"
+          ],
+          "clip": "003"
+        }
+      ]
+    },
+    {
+      "action": "\"ask the bag nicely\"",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "nobody claimed it.",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "slapping",
+            "fighting",
+            "feisty"
+          ],
+          "clip": "079"
+        }
+      ]
+    },
+    {
+      "action": "the onions got off at the next stop.",
+      "bg": {
+        "place": "station"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "squad",
+            "crew"
+          ],
+          "clip": "179"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "179"
+}

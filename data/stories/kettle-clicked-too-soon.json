@@ -1,0 +1,140 @@
+{
+  "title": "the early kettle",
+  "output": "kettle-clicked-too-soon.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the kettle clicks off before the water even gets warm",
+  "outro": "the sandwich was boiling",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the kettle started.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "working",
+            "busy",
+            "focused"
+          ],
+          "clip": "092"
+        }
+      ]
+    },
+    {
+      "action": "\"wait for the click\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "MOM",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "it clicked after nine seconds.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "watching",
+            "fixated",
+            "wary"
+          ],
+          "clip": "055"
+        }
+      ]
+    },
+    {
+      "action": "\"switch it on again\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "it clicked immediately.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "crying",
+            "sobbing",
+            "wailing"
+          ],
+          "clip": "094"
+        }
+      ]
+    },
+    {
+      "action": "the plug was in the sandwich maker.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "spinning",
+            "dizzy"
+          ],
+          "clip": "019"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "019"
+}

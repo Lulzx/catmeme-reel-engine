@@ -1,0 +1,140 @@
+{
+  "title": "the delivery pin",
+  "output": "delivery-pin-from-the-balcony.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the driver asks for the delivery PIN while you are four floors up",
+  "outro": "my pin worked perfectly",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the bell rang downstairs.",
+      "bg": {
+        "place": "hallway"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "walking",
+            "approaching",
+            "confident"
+          ],
+          "clip": "098"
+        }
+      ]
+    },
+    {
+      "action": "\"please tell me the pin\"",
+      "bg": {
+        "place": "hallway"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "DRIVER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "my phone was charging inside.",
+      "bg": {
+        "place": "hallway"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "investigating",
+            "sniffing",
+            "nosy"
+          ],
+          "clip": "071"
+        }
+      ]
+    },
+    {
+      "action": "\"shout each digit\"",
+      "bg": {
+        "place": "hallway"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i shouted 7 4 2 1.",
+      "bg": {
+        "place": "hallway"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "angry",
+            "furious",
+            "glaring"
+          ],
+          "clip": "027"
+        }
+      ]
+    },
+    {
+      "action": "the neighbor collected their parcel.",
+      "bg": {
+        "place": "hallway"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "party",
+            "dancing"
+          ],
+          "clip": "119"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "119"
+}

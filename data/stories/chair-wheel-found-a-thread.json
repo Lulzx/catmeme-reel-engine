@@ -1,0 +1,140 @@
+{
+  "title": "the chair thread",
+  "output": "chair-wheel-found-a-thread.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: your office chair wheel pulls one loose thread from your sweater",
+  "outro": "the chair knitted nothing",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the chair would not roll.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "relaxed",
+            "content",
+            "calm"
+          ],
+          "clip": "118"
+        }
+      ]
+    },
+    {
+      "action": "\"something is under the wheel\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "COWORKER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "a blue thread appeared.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "head-tilt",
+            "puzzled",
+            "confused"
+          ],
+          "clip": "054"
+        }
+      ]
+    },
+    {
+      "action": "\"pull it slowly\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the chair moved.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "rage",
+            "furious",
+            "outburst"
+          ],
+          "clip": "012"
+        }
+      ]
+    },
+    {
+      "action": "my sleeve became six inches shorter.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "stunned",
+            "gasping"
+          ],
+          "clip": "174"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "174"
+}

@@ -1,0 +1,140 @@
+{
+  "title": "the coffee lid",
+  "output": "coffee-lid-click.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the takeaway coffee lid clicks only after coffee reaches your shirt",
+  "outro": "lid secured after delivery",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the lid looked closed.",
+      "bg": {
+        "place": "street"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "sleepy",
+            "tired",
+            "drowsy"
+          ],
+          "clip": "158"
+        }
+      ]
+    },
+    {
+      "action": "\"press all four sides\"",
+      "bg": {
+        "place": "street"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "three sides clicked.",
+      "bg": {
+        "place": "street"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "side-eye",
+            "skeptical",
+            "judging"
+          ],
+          "clip": "069"
+        }
+      ]
+    },
+    {
+      "action": "\"the last side is fine\"",
+      "bg": {
+        "place": "street"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i took one sip.",
+      "bg": {
+        "place": "street"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "slapping",
+            "fighting",
+            "feisty"
+          ],
+          "clip": "187"
+        }
+      ]
+    },
+    {
+      "action": "the fourth click came from my shirt.",
+      "bg": {
+        "place": "street"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "festive",
+            "performing"
+          ],
+          "clip": "140"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "140"
+}

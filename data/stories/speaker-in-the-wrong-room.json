@@ -1,0 +1,140 @@
+{
+  "title": "the wrong speaker",
+  "output": "speaker-in-the-wrong-room.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the voice assistant answers from a room nobody is in",
+  "outro": "the floor is timing us",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "i asked for a timer.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "walking",
+            "approaching",
+            "confident"
+          ],
+          "clip": "068"
+        }
+      ]
+    },
+    {
+      "action": "\"timer set for ten minutes\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "DAD",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "the answer came from upstairs.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "investigating",
+            "sniffing",
+            "nosy"
+          ],
+          "clip": "122"
+        }
+      ]
+    },
+    {
+      "action": "\"ask which device heard you\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "three speakers replied.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "poking",
+            "provoking",
+            "annoying"
+          ],
+          "clip": "107"
+        }
+      ]
+    },
+    {
+      "action": "the vacuum started a ten-minute timer.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "group",
+            "huddled"
+          ],
+          "clip": "090"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "090"
+}

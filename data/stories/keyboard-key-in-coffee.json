@@ -1,0 +1,140 @@
+{
+  "title": "the missing key",
+  "output": "keyboard-key-in-coffee.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: a keyboard key falls into your coffee during the morning email",
+  "outro": "th coff was fin",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "9:03am. first email.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "waiting",
+            "patient",
+            "expectant"
+          ],
+          "clip": "064"
+        }
+      ]
+    },
+    {
+      "action": "\"your space bar sounds loose\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "COWORKER",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "one key bounced off the desk.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "staring",
+            "wide-eyed",
+            "curious"
+          ],
+          "clip": "075"
+        }
+      ]
+    },
+    {
+      "action": "\"do not move the mug\"",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the coffee said plop.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "startled",
+            "jump-scare",
+            "spooked"
+          ],
+          "clip": "115"
+        }
+      ]
+    },
+    {
+      "action": "the email had no letter e.",
+      "bg": {
+        "place": "office"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "disgust",
+            "gagging"
+          ],
+          "clip": "006"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "006"
+}

@@ -1,0 +1,140 @@
+{
+  "title": "the clean plate",
+  "output": "roommate-dish-ownership.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: your roommate washes exactly one plate and it is yours",
+  "outro": "clean and occupied",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the sink held nine dishes.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "hungry",
+            "eating",
+            "content"
+          ],
+          "clip": "175"
+        }
+      ]
+    },
+    {
+      "action": "\"i washed mine\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ROOMMATE",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "one plate was drying.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "looking-back",
+            "alert",
+            "curious"
+          ],
+          "clip": "166"
+        }
+      ]
+    },
+    {
+      "action": "\"that one has your sticker\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "my plate was spotless.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "teary",
+            "emotional",
+            "heartbroken"
+          ],
+          "clip": "097"
+        }
+      ]
+    },
+    {
+      "action": "their dinner was already on it.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "derpy",
+            "curious"
+          ],
+          "clip": "160"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "160"
+}

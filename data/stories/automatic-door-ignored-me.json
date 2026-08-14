@@ -1,0 +1,140 @@
+{
+  "title": "the automatic door",
+  "output": "automatic-door-ignored-me.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the automatic door opens for everyone except you",
+  "outro": "the trolley adopted me",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.5
+    }
+  ],
+  "beats": [
+    {
+      "action": "the door stayed shut.",
+      "bg": {
+        "place": "shop"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "working",
+            "busy",
+            "focused"
+          ],
+          "clip": "108"
+        }
+      ]
+    },
+    {
+      "action": "\"step closer\"",
+      "bg": {
+        "place": "shop"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "GUARD",
+          "size": 0.5,
+          "want": [
+            "yapping",
+            "talking-nonstop",
+            "blabbering",
+            "chatty",
+            "oblivious"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i waved at the sensor.",
+      "bg": {
+        "place": "shop"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "watching",
+            "fixated",
+            "wary"
+          ],
+          "clip": "152"
+        }
+      ]
+    },
+    {
+      "action": "\"try walking away\"",
+      "bg": {
+        "place": "shop"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.5,
+          "want": [
+            "meowing",
+            "talking",
+            "tiny",
+            "little-guy",
+            "piping-up"
+          ],
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "it opened for the person behind me.",
+      "bg": {
+        "place": "shop"
+      },
+      "dur": 3.2,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "screaming",
+            "rage",
+            "yelling"
+          ],
+          "clip": "012"
+        }
+      ]
+    },
+    {
+      "action": "i entered attached to their trolley.",
+      "bg": {
+        "place": "shop"
+      },
+      "dur": 3.6,
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "mermaid",
+            "glam"
+          ],
+          "clip": "148"
+        }
+      ]
+    }
+  ],
+  "thumbnail_clip": "148"
+}
