@@ -1,0 +1,143 @@
+{
+ "title": "one ear at a time",
+ "output": "one-ear-at-a-time.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.4,
+ "baseline": 0.9,
+ "pov": "POV: your earphones only work if you hold the wire at one exact angle",
+ "outro": "both, for one song",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "left works. right does not.",
+   "bg": {
+    "place": "station"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "puzzled",
+      "noticing",
+      "curious",
+      "skeptical",
+      "wondering"
+     ],
+     "clip": "136"
+    }
+   ]
+  },
+  {
+   "action": "i twisted the wire.",
+   "bg": {
+    "place": "station"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "fixing",
+      "focused",
+      "working",
+      "determined",
+      "tentative"
+     ],
+     "clip": "092"
+    }
+   ]
+  },
+  {
+   "action": "right came back. left went.",
+   "bg": {
+    "place": "station"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "irritated",
+      "sour",
+      "grumpy",
+      "displeased",
+      "bothered"
+     ],
+     "clip": "129"
+    }
+   ]
+  },
+  {
+   "action": "\"hold it there\"",
+   "bg": {
+    "place": "station"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "\"just use one side\"",
+   "bg": {
+    "place": "station"
+   },
+   "cast": [
+    {
+     "name": "FRIEND",
+     "size": 0.46,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "stiff",
+      "frozen",
+      "still",
+      "focused",
+      "tense"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "161"
+    }
+   ]
+  },
+  {
+   "action": "the song ended. the next one played in both.",
+   "bg": {
+    "place": "station"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "stiff",
+      "frozen",
+      "still",
+      "tense",
+      "patient"
+     ],
+     "clip": "152"
+    }
+   ]
+  }
+ ]
+}

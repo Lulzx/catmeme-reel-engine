@@ -1,0 +1,128 @@
+{
+ "title": "it was not the fridge",
+ "output": "it-was-not-the-fridge.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.4,
+ "baseline": 0.9,
+ "pov": "POV: there is a sound in the room and only you can hear it",
+ "outro": "still there",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "there is a sound in this room.",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "alert",
+      "noticing",
+      "wary",
+      "attentive",
+      "tense"
+     ],
+     "clip": "151"
+    }
+   ]
+  },
+  {
+   "action": "nobody else hears it.",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "SISTER",
+     "size": 0.48,
+     "want": [
+      "dismissive",
+      "unamused",
+      "indifferent",
+      "flat",
+      "bored"
+     ],
+     "clip": "181"
+    }
+   ]
+  },
+  {
+   "action": "i turned everything off.",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "determined",
+      "focused",
+      "working",
+      "intense",
+      "careful"
+     ],
+     "clip": "155"
+    }
+   ]
+  },
+  {
+   "action": "\"it is the fridge\"",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "i unplugged the fridge.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "determined",
+      "intense",
+      "focused",
+      "working",
+      "bold"
+     ],
+     "clip": "049"
+    }
+   ]
+  },
+  {
+   "action": "still there. what is yours?",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "YAPPING CAT",
+     "size": 0.5,
+     "clip": "182"
+    }
+   ]
+  }
+ ]
+}

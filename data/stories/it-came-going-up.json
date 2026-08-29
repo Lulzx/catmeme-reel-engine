@@ -1,0 +1,88 @@
+{
+ "title": "it came going up",
+ "output": "it-came-going-up.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: you press down and the lift arrives going up",
+ "outro": "same six people",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "i pressed down.",
+   "bg": {
+    "place": "lift"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "pawing",
+      "tapping",
+      "poking",
+      "reaching",
+      "paw-raised"
+     ],
+     "clip": "107"
+    }
+   ]
+  },
+  {
+   "action": "it came going up.",
+   "bg": {
+    "place": "lift"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "puzzled",
+      "skeptical",
+      "huh",
+      "confused",
+      "unamused"
+     ],
+     "clip": "004"
+    }
+   ]
+  },
+  {
+   "action": "\"get in anyway\"",
+   "bg": {
+    "place": "lift"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "nine up, then all the way down, with the same six people.",
+   "bg": {
+    "place": "lift"
+   },
+   "cast": [
+    {
+     "name": "STRANGER",
+     "size": 0.5,
+     "clip": "182"
+    }
+   ]
+  }
+ ]
+}

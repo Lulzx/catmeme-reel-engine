@@ -1,0 +1,151 @@
+{
+ "title": "derek parked in fourteen",
+ "output": "derek-parked-in-fourteen.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.4,
+ "baseline": 0.9,
+ "pov": "POV: derek parked in your spot and left a note",
+ "outro": "the note was from tuesday",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "slot fourteen. mine since march.",
+   "bg": {
+    "place": "highway"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "matter-of-fact",
+      "confident",
+      "calm",
+      "proud",
+      "ready"
+     ],
+     "clip": "073"
+    }
+   ]
+  },
+  {
+   "action": "derek's car is in it.",
+   "bg": {
+    "place": "highway"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "unamused",
+      "glaring",
+      "annoyed",
+      "done",
+      "irritated"
+     ],
+     "clip": "027"
+    }
+   ]
+  },
+  {
+   "action": "\"there is a note\"",
+   "bg": {
+    "place": "highway"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "noticing",
+      "curious",
+      "looking",
+      "inspecting",
+      "skeptical"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "166"
+    }
+   ]
+  },
+  {
+   "action": "\"only five minutes\"",
+   "bg": {
+    "place": "highway"
+   },
+   "cast": [
+    {
+     "name": "DEREK",
+     "size": 0.5,
+     "clip": "184"
+    }
+   ]
+  },
+  {
+   "action": "\"read the date\"",
+   "bg": {
+    "place": "highway"
+   },
+   "cast": [
+    {
+     "name": "WATCHMAN",
+     "size": 0.46,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "inspecting",
+      "focused",
+      "noticing",
+      "investigating",
+      "squinting"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "136"
+    }
+   ]
+  },
+  {
+   "action": "tuesday. today is friday.",
+   "bg": {
+    "place": "highway"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "furious",
+      "rage",
+      "building-anger",
+      "indignant",
+      "snarling"
+     ],
+     "clip": "180"
+    }
+   ]
+  }
+ ]
+}

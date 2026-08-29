@@ -1,0 +1,128 @@
+{
+ "title": "the stapler was empty",
+ "output": "he-stapled-his-in-front-of-me.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.4,
+ "baseline": 0.9,
+ "pov": "POV: every stapler in the office is empty",
+ "outro": "i folded the corner",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "four pages. one corner.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "busy",
+      "working",
+      "focused",
+      "matter-of-fact",
+      "ready"
+     ],
+     "clip": "091"
+    }
+   ]
+  },
+  {
+   "action": "it clicked. nothing came out.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "puzzled",
+      "confused",
+      "noticing",
+      "skeptical",
+      "huh"
+     ],
+     "clip": "004"
+    }
+   ]
+  },
+  {
+   "action": "empty.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "unamused",
+      "flat",
+      "done",
+      "blank",
+      "disappointed"
+     ],
+     "clip": "051"
+    }
+   ]
+  },
+  {
+   "action": "\"the other one\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "the other one was also empty.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "losing-it",
+      "frantic",
+      "spiraling",
+      "freaking-out",
+      "distressed"
+     ],
+     "clip": "185"
+    }
+   ]
+  },
+  {
+   "action": "\"mine is loaded\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "COWORKER",
+     "size": 0.5,
+     "clip": "182"
+    }
+   ]
+  }
+ ]
+}

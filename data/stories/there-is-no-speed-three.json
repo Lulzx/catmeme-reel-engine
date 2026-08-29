@@ -1,0 +1,88 @@
+{
+ "title": "there is no speed three",
+ "output": "there-is-no-speed-three.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: the fan has two speeds and neither is right",
+ "outro": "under a blanket, in a storm",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "speed one does nothing.",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "bored",
+      "half-lidded",
+      "loafing",
+      "droopy",
+      "zoning-out"
+     ],
+     "clip": "178"
+    }
+   ]
+  },
+  {
+   "action": "speed two is takeoff.",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "alarmed",
+      "flailing",
+      "shocked",
+      "wide-eyed",
+      "chaos"
+     ],
+     "clip": "172"
+    }
+   ]
+  },
+  {
+   "action": "\"put it on three\"",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "i slept in a storm under a blanket.",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "YAPPING CAT",
+     "size": 0.5,
+     "clip": "182"
+    }
+   ]
+  }
+ ]
+}

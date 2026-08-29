@@ -1,0 +1,88 @@
+{
+ "title": "one shoe only",
+ "output": "one-shoe-only.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: the puddle only got one shoe",
+ "outro": "squelch, squelch",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "one puddle. one shoe.",
+   "bg": {
+    "place": "street"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "startled",
+      "alarmed",
+      "shocked",
+      "wide-eyed",
+      "soaked"
+     ],
+     "clip": "132"
+    }
+   ]
+  },
+  {
+   "action": "the left one is completely fine.",
+   "bg": {
+    "place": "street"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "side-eye",
+      "judging",
+      "skeptical",
+      "unconvinced",
+      "judgy"
+     ],
+     "clip": "141"
+    }
+   ]
+  },
+  {
+   "action": "\"walk on the dry side\"",
+   "bg": {
+    "place": "street"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "i squelched all the way to the desk.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "COWORKER",
+     "size": 0.5,
+     "clip": "182"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "title": "the sign came after",
+ "output": "sign-went-where-i-landed.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.4,
+ "baseline": 0.9,
+ "pov": "POV: they put the wet floor sign down after you slip",
+ "outro": "he measured it",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "the floor looked dry.",
+   "bg": {
+    "place": "shop"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "calm",
+      "walking",
+      "confident",
+      "carefree",
+      "chill"
+     ],
+     "clip": "144"
+    }
+   ]
+  },
+  {
+   "action": "it was not dry.",
+   "bg": {
+    "place": "shop"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "startled",
+      "flailing",
+      "alarmed",
+      "airborne",
+      "shocked"
+     ],
+     "clip": "025"
+    }
+   ]
+  },
+  {
+   "action": "i did the whole arm windmill.",
+   "bg": {
+    "place": "shop"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "flailing",
+      "frantic",
+      "struggling",
+      "scrambling",
+      "chaos"
+     ],
+     "clip": "103"
+    }
+   ]
+  },
+  {
+   "action": "\"nice one\"",
+   "bg": {
+    "place": "shop"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "\"careful, it is wet\"",
+   "bg": {
+    "place": "shop"
+   },
+   "cast": [
+    {
+     "name": "CLEANER",
+     "size": 0.5,
+     "clip": "182"
+    }
+   ]
+  },
+  {
+   "action": "he put it exactly where i landed.",
+   "bg": {
+    "place": "shop"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "glaring",
+      "scowling",
+      "irritated",
+      "indignant",
+      "annoyed"
+     ],
+     "clip": "080"
+    }
+   ]
+  }
+ ]
+}

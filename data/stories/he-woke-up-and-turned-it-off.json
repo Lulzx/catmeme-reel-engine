@@ -1,0 +1,143 @@
+{
+ "title": "the remote was under him",
+ "output": "he-woke-up-and-turned-it-off.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.4,
+ "baseline": 0.9,
+ "pov": "POV: the ac remote is under the one person who is asleep",
+ "outro": "39 outside, 39 inside",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "2pm. thirty nine outside.",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "exhausted",
+      "melting",
+      "tired",
+      "done",
+      "drowsy"
+     ],
+     "clip": "125"
+    }
+   ]
+  },
+  {
+   "action": "the remote is under him.",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "staring",
+      "fixated",
+      "watchful",
+      "tense",
+      "wanting"
+     ],
+     "clip": "157"
+    }
+   ]
+  },
+  {
+   "action": "he has not moved in an hour.",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "DAD",
+     "size": 0.48,
+     "want": [
+      "sleeping",
+      "dozing",
+      "sprawled",
+      "limp",
+      "peaceful"
+     ],
+     "clip": "022"
+    }
+   ]
+  },
+  {
+   "action": "\"just take it\"",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "\"do not touch it\"",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "MOM",
+     "size": 0.46,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "sneaky",
+      "creeping",
+      "careful",
+      "tentative",
+      "focused"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "071"
+    }
+   ]
+  },
+  {
+   "action": "he woke up and turned it off.",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "DAD",
+     "size": 0.48,
+     "want": [
+      "stern",
+      "matter-of-fact",
+      "unamused",
+      "serious",
+      "done"
+     ],
+     "clip": "078"
+    }
+   ]
+  }
+ ]
+}

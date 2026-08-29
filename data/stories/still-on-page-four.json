@@ -1,0 +1,128 @@
+{
+ "title": "still on page four",
+ "output": "still-on-page-four.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.4,
+ "baseline": 0.9,
+ "pov": "POV: the app that came with the phone and cannot be deleted",
+ "outro": "never opened once",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "it came with the phone.",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "matter-of-fact",
+      "noticing",
+      "curious",
+      "calm",
+      "inspecting"
+     ],
+     "clip": "149"
+    }
+   ]
+  },
+  {
+   "action": "i have never opened it.",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "aloof",
+      "nonchalant",
+      "unbothered",
+      "dismissive",
+      "blasé"
+     ],
+     "clip": "024"
+    }
+   ]
+  },
+  {
+   "action": "delete is greyed out.",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "squinting",
+      "inspecting",
+      "suspicious",
+      "wary",
+      "doubtful"
+     ],
+     "clip": "102"
+    }
+   ]
+  },
+  {
+   "action": "\"disable it\"",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "i made a folder for it. the folder is on page four.",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "sulking",
+      "pouty",
+      "sulky",
+      "grumpy",
+      "sour"
+     ],
+     "clip": "093"
+    }
+   ]
+  },
+  {
+   "action": "which one is on your page four?",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "YAPPING CAT",
+     "size": 0.5,
+     "clip": "182"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "title": "we agreed on 180",
+ "output": "we-agreed-on-one-eighty.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.4,
+ "baseline": 0.9,
+ "pov": "POV: the auto meter is broken again",
+ "outro": "it was three kilometres",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "\"meter?\"",
+   "bg": {
+    "place": "street"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "asking",
+      "questioning",
+      "hopeful",
+      "matter-of-fact",
+      "curious"
+     ],
+     "clip": "123"
+    }
+   ]
+  },
+  {
+   "action": "\"meter is broken\"",
+   "bg": {
+    "place": "street"
+   },
+   "cast": [
+    {
+     "name": "DRIVER",
+     "size": 0.5,
+     "clip": "182"
+    }
+   ]
+  },
+  {
+   "action": "it is three kilometres.",
+   "bg": {
+    "place": "street"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "skeptical",
+      "unamused",
+      "doubtful",
+      "flat",
+      "matter-of-fact"
+     ],
+     "clip": "069"
+    }
+   ]
+  },
+  {
+   "action": "\"one eighty\"",
+   "bg": {
+    "place": "street"
+   },
+   "cast": [
+    {
+     "name": "DRIVER",
+     "size": 0.5,
+     "clip": "182"
+    }
+   ]
+  },
+  {
+   "action": "\"say eighty\"",
+   "bg": {
+    "place": "street"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "bold",
+      "confident",
+      "determined",
+      "insistent",
+      "challenging"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "187"
+    }
+   ]
+  },
+  {
+   "action": "we agreed on one eighty.",
+   "bg": {
+    "place": "street"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "slouched",
+      "downcast",
+      "gloomy",
+      "sulking",
+      "hunched"
+     ],
+     "clip": "167"
+    }
+   ]
+  }
+ ]
+}

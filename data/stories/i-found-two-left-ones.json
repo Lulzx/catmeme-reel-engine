@@ -1,0 +1,143 @@
+{
+ "title": "two left ones",
+ "output": "i-found-two-left-ones.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.4,
+ "baseline": 0.9,
+ "pov": "POV: you find one sock and never the other",
+ "outro": "the machine is keeping them",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "the left one is here.",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "noticing",
+      "looking",
+      "curious",
+      "matter-of-fact",
+      "inspecting"
+     ],
+     "clip": "153"
+    }
+   ]
+  },
+  {
+   "action": "the right one is not.",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "puzzled",
+      "looking-around",
+      "confused",
+      "wondering",
+      "skeptical"
+     ],
+     "clip": "054"
+    }
+   ]
+  },
+  {
+   "action": "\"did you check the machine\"",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "MOM",
+     "size": 0.46,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "inspecting",
+      "investigating",
+      "focused",
+      "working",
+      "busy"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "030"
+    }
+   ]
+  },
+  {
+   "action": "\"check it again\"",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "i checked it again.",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "determined",
+      "inspecting",
+      "focused",
+      "working",
+      "intense"
+     ],
+     "clip": "108"
+    }
+   ]
+  },
+  {
+   "action": "i found two left ones.",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "disbelief",
+      "wtf",
+      "bewildered",
+      "huh",
+      "puzzled"
+     ],
+     "clip": "002"
+    }
+   ]
+  }
+ ]
+}

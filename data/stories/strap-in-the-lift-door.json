@@ -1,0 +1,143 @@
+{
+ "title": "strap in the lift door",
+ "output": "strap-in-the-lift-door.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.4,
+ "baseline": 0.9,
+ "pov": "POV: you get into the lift and the door closes on your bag strap",
+ "outro": "nine floors, one handle",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "\"hold it hold it\"",
+   "bg": {
+    "place": "lift"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "frantic",
+      "scrambling",
+      "running",
+      "hurrying",
+      "panicked"
+     ],
+     "clip": "170"
+    }
+   ]
+  },
+  {
+   "action": "i got in. the bag did not.",
+   "bg": {
+    "place": "lift"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "startled",
+      "wide-eyed",
+      "shocked",
+      "alarmed",
+      "stunned"
+     ],
+     "clip": "089"
+    }
+   ]
+  },
+  {
+   "action": "the strap is in the door.",
+   "bg": {
+    "place": "lift"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "struggling",
+      "pulling",
+      "straining",
+      "tense",
+      "stiff"
+     ],
+     "clip": "058"
+    }
+   ]
+  },
+  {
+   "action": "\"just pull\"",
+   "bg": {
+    "place": "lift"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "\"pull it the other way\"",
+   "bg": {
+    "place": "lift"
+   },
+   "cast": [
+    {
+     "name": "NEIGHBOUR",
+     "size": 0.46,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "struggling",
+      "straining",
+      "pulling",
+      "intense",
+      "determined"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "189"
+    }
+   ]
+  },
+  {
+   "action": "it opened at nine and gave me one handle.",
+   "bg": {
+    "place": "lift"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "dead-inside",
+      "checked-out",
+      "empty",
+      "vacant",
+      "flat"
+     ],
+     "clip": "113"
+    }
+   ]
+  }
+ ]
+}

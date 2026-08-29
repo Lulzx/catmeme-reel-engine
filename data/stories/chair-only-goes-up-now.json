@@ -1,0 +1,143 @@
+{
+ "title": "the chair only goes up now",
+ "output": "chair-only-goes-up-now.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.4,
+ "baseline": 0.9,
+ "pov": "POV: your office chair sinks four inches every ten minutes",
+ "outro": "i can see the ceiling tiles",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "the chair was the right height once.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "content",
+      "calm",
+      "relaxed",
+      "pleased",
+      "comfy"
+     ],
+     "clip": "143"
+    }
+   ]
+  },
+  {
+   "action": "it sinks a little every ten minutes.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "noticing",
+      "curious",
+      "puzzled",
+      "skeptical",
+      "wondering"
+     ],
+     "clip": "111"
+    }
+   ]
+  },
+  {
+   "action": "\"you are lower than this morning\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "squished",
+      "hunched",
+      "trapped",
+      "small",
+      "droopy"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "044"
+    }
+   ]
+  },
+  {
+   "action": "\"can everyone see the screen\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "BOSS",
+     "size": 0.5,
+     "clip": "182"
+    }
+   ]
+  },
+  {
+   "action": "i pulled the lever.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "determined",
+      "focused",
+      "fixing",
+      "intense",
+      "ready"
+     ],
+     "clip": "016"
+    }
+   ]
+  },
+  {
+   "action": "now it only goes up. i am above the monitor.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "awkward",
+      "stiff",
+      "uneasy",
+      "shy",
+      "hunched"
+     ],
+     "clip": "099"
+    }
+   ]
+  }
+ ]
+}

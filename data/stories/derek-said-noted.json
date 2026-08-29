@@ -1,0 +1,122 @@
+{
+ "title": "derek said noted",
+ "output": "derek-said-noted.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.4,
+ "baseline": 0.9,
+ "pov": "POV: derek hits reply all to say noted",
+ "outro": "he said it again",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "one mail. two hundred and forty people.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "matter-of-fact",
+      "calm",
+      "working",
+      "focused",
+      "busy"
+     ],
+     "clip": "033"
+    }
+   ]
+  },
+  {
+   "action": "derek replied to all of them.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "DEREK",
+     "size": 0.5,
+     "clip": "184"
+    }
+   ]
+  },
+  {
+   "action": "\"noted\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "DEREK",
+     "size": 0.5,
+     "clip": "184"
+    }
+   ]
+  },
+  {
+   "action": "nine people replied all to say stop replying all.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "stunned",
+      "disbelief",
+      "blank",
+      "wide-eyed",
+      "what"
+     ],
+     "clip": "176"
+    }
+   ]
+  },
+  {
+   "action": "\"i agree with the last one\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "COWORKER",
+     "size": 0.5,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "SMALL CAT",
+     "size": 0.44,
+     "clip": "183",
+     "pos": 0.72,
+     "flip": true
+    }
+   ]
+  },
+  {
+   "action": "\"noted\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "DEREK",
+     "size": 0.5,
+     "clip": "184"
+    }
+   ]
+  }
+ ]
+}

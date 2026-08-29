@@ -1,0 +1,143 @@
+{
+ "title": "the water came at 3:40",
+ "output": "water-came-at-three-forty.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.4,
+ "baseline": 0.9,
+ "pov": "POV: the water comes at 4am and you set an alarm for 4am",
+ "outro": "the tank is still empty",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "the tank has been empty since tuesday.",
+   "bg": {
+    "place": "bathroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "gloomy",
+      "melancholy",
+      "downcast",
+      "sulky",
+      "moody"
+     ],
+     "clip": "076"
+    }
+   ]
+  },
+  {
+   "action": "\"it comes at four\"",
+   "bg": {
+    "place": "bathroom"
+   },
+   "cast": [
+    {
+     "name": "NEIGHBOUR",
+     "size": 0.46,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "matter-of-fact",
+      "waiting",
+      "patient",
+      "calm",
+      "wary"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "090"
+    }
+   ]
+  },
+  {
+   "action": "i set an alarm.",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "tapping",
+      "pawing",
+      "focused",
+      "busy",
+      "working"
+     ],
+     "clip": "145"
+    }
+   ]
+  },
+  {
+   "action": "\"keep the bucket under it\"",
+   "bg": {
+    "place": "bathroom"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "it came at three forty.",
+   "bg": {
+    "place": "bathroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "sleeping",
+      "dozing",
+      "drowsy",
+      "limp",
+      "peaceful"
+     ],
+     "clip": "126"
+    }
+   ]
+  },
+  {
+   "action": "i woke at four. it left at three fifty five.",
+   "bg": {
+    "place": "bathroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "sobbing",
+      "wailing",
+      "tearful",
+      "heartbroken",
+      "crying"
+     ],
+     "clip": "094"
+    }
+   ]
+  }
+ ]
+}

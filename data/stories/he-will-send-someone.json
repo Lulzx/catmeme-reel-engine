@@ -1,0 +1,128 @@
+{
+ "title": "he will send someone",
+ "output": "he-will-send-someone.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.4,
+ "baseline": 0.9,
+ "pov": "POV: the landlord will send someone",
+ "outro": "since june",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "the tap has been dripping since june.",
+   "bg": {
+    "place": "bathroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "staring",
+      "fixated",
+      "unblinking",
+      "still",
+      "stone-faced"
+     ],
+     "clip": "075"
+    }
+   ]
+  },
+  {
+   "action": "\"i will send someone\"",
+   "bg": {
+    "place": "hallway"
+   },
+   "cast": [
+    {
+     "name": "LANDLORD",
+     "size": 0.5,
+     "clip": "182"
+    }
+   ]
+  },
+  {
+   "action": "someone came.",
+   "bg": {
+    "place": "bathroom"
+   },
+   "cast": [
+    {
+     "name": "MAN",
+     "size": 0.48,
+     "want": [
+      "walking-in",
+      "matter-of-fact",
+      "calm",
+      "busy",
+      "ready"
+     ],
+     "clip": "173"
+    }
+   ]
+  },
+  {
+   "action": "\"he is only for the fan\"",
+   "bg": {
+    "place": "bathroom"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "he looked at the tap for a minute.",
+   "bg": {
+    "place": "bathroom"
+   },
+   "cast": [
+    {
+     "name": "MAN",
+     "size": 0.48,
+     "want": [
+      "inspecting",
+      "pensive",
+      "focused",
+      "investigating",
+      "matter-of-fact"
+     ],
+     "clip": "062"
+    }
+   ]
+  },
+  {
+   "action": "\"i will send someone\"",
+   "bg": {
+    "place": "bathroom"
+   },
+   "cast": [
+    {
+     "name": "MAN",
+     "size": 0.48,
+     "want": [
+      "matter-of-fact",
+      "calm",
+      "departing",
+      "leaving",
+      "dismissive"
+     ],
+     "clip": "007"
+    }
+   ]
+  }
+ ]
+}

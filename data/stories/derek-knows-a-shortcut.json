@@ -1,0 +1,129 @@
+{
+ "title": "derek knows a shortcut",
+ "output": "derek-knows-a-shortcut.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.4,
+ "baseline": 0.9,
+ "pov": "POV: derek knows a shortcut",
+ "outro": "fifty five minutes",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "twenty minutes on the map.",
+   "bg": {
+    "place": "highway"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "calm",
+      "matter-of-fact",
+      "content",
+      "ready",
+      "confident"
+     ],
+     "clip": "068"
+    }
+   ]
+  },
+  {
+   "action": "\"trust me\"",
+   "bg": {
+    "place": "highway"
+   },
+   "cast": [
+    {
+     "name": "DEREK",
+     "size": 0.5,
+     "clip": "184"
+    }
+   ]
+  },
+  {
+   "action": "\"this is not the road\"",
+   "bg": {
+    "place": "highway"
+   },
+   "cast": [
+    {
+     "name": "PASSENGER",
+     "size": 0.46,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "uneasy",
+      "wary",
+      "doubtful",
+      "skeptical",
+      "tentative"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "098"
+    }
+   ]
+  },
+  {
+   "action": "the shortcut had a gate.",
+   "bg": {
+    "place": "village"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "blank",
+      "stunned",
+      "unamused",
+      "flat",
+      "what"
+     ],
+     "clip": "059"
+    }
+   ]
+  },
+  {
+   "action": "\"we can reverse\"",
+   "bg": {
+    "place": "village"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "we got there in fifty five. derek said the traffic was lucky.",
+   "bg": {
+    "place": "highway"
+   },
+   "cast": [
+    {
+     "name": "DEREK",
+     "size": 0.5,
+     "clip": "184"
+    }
+   ]
+  }
+ ]
+}

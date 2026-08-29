@@ -1,0 +1,88 @@
+{
+ "title": "it was my battery",
+ "output": "it-was-my-battery.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: everyone checks their phone and nobody moves",
+ "outro": "twenty percent",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "one sound. eleven people check.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "alert",
+      "noticing",
+      "looking-around",
+      "wary",
+      "curious"
+     ],
+     "clip": "169"
+    }
+   ]
+  },
+  {
+   "action": "nobody moves.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "stone-faced",
+      "unblinking",
+      "still",
+      "stiff",
+      "frozen"
+     ],
+     "clip": "056"
+    }
+   ]
+  },
+  {
+   "action": "\"it was yours\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "it was mine. it was the battery.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "COWORKER",
+     "size": 0.5,
+     "clip": "182"
+    }
+   ]
+  }
+ ]
+}

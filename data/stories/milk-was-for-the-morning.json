@@ -1,0 +1,128 @@
+{
+ "title": "the milk was for the morning",
+ "output": "milk-was-for-the-morning.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.4,
+ "baseline": 0.9,
+ "pov": "POV: you drink the last milk and remember the morning chai",
+ "outro": "four packets, 11:15pm",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "11pm. one glass left.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "hungry",
+      "tempted",
+      "wanting",
+      "eager",
+      "sneaky"
+     ],
+     "clip": "095"
+    }
+   ]
+  },
+  {
+   "action": "i drank it.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "drinking",
+      "satisfied",
+      "pleased",
+      "content",
+      "blissful"
+     ],
+     "clip": "190"
+    }
+   ]
+  },
+  {
+   "action": "\"that is for the morning\"",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "MOM",
+     "size": 0.5,
+     "clip": "182"
+    }
+   ]
+  },
+  {
+   "action": "i put the glass down very quietly.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "guilty",
+      "caught-off-guard",
+      "nervous",
+      "awkward",
+      "frozen"
+     ],
+     "clip": "134"
+    }
+   ]
+  },
+  {
+   "action": "\"the shop shuts at eleven\"",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "he had only small packets. i bought four.",
+   "bg": {
+    "place": "shop"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "exhausted",
+      "slouched",
+      "limp",
+      "droopy",
+      "drowsy"
+     ],
+     "clip": "100"
+    }
+   ]
+  }
+ ]
+}

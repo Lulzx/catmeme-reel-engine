@@ -1,0 +1,129 @@
+{
+ "title": "derek brought one samosa",
+ "output": "derek-brought-one-samosa.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.4,
+ "baseline": 0.9,
+ "pov": "POV: derek offers to bring snacks for eleven people",
+ "outro": "the corner had no filling",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "derek said he would bring snacks.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "hopeful",
+      "cheerful",
+      "eager",
+      "pleased",
+      "happy"
+     ],
+     "clip": "150"
+    }
+   ]
+  },
+  {
+   "action": "\"he is bringing for everyone\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "COWORKER",
+     "size": 0.46,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "counting",
+      "expectant",
+      "waiting",
+      "hopeful",
+      "calm"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "064"
+    }
+   ]
+  },
+  {
+   "action": "he came in with one paper bag.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "DEREK",
+     "size": 0.5,
+     "clip": "184"
+    }
+   ]
+  },
+  {
+   "action": "\"i already ate mine\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "DEREK",
+     "size": 0.5,
+     "clip": "184"
+    }
+   ]
+  },
+  {
+   "action": "one samosa. cut eleven ways.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "disbelief",
+      "blank",
+      "unamused",
+      "flat",
+      "stunned"
+     ],
+     "clip": "096"
+    }
+   ]
+  },
+  {
+   "action": "the small one got the corner with nothing in it.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  }
+ ]
+}

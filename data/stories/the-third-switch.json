@@ -1,0 +1,128 @@
+{
+ "title": "the third switch",
+ "output": "the-third-switch.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.4,
+ "baseline": 0.9,
+ "pov": "POV: the third switch has never done anything",
+ "outro": "eleven years",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "two switches make sense.",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "matter-of-fact",
+      "calm",
+      "noticing",
+      "content",
+      "curious"
+     ],
+     "clip": "154"
+    }
+   ]
+  },
+  {
+   "action": "the third one does nothing.",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "puzzled",
+      "confused",
+      "wondering",
+      "skeptical",
+      "huh"
+     ],
+     "clip": "111"
+    }
+   ]
+  },
+  {
+   "action": "i have pressed it for eleven years.",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "fixated",
+      "determined",
+      "focused",
+      "intense",
+      "patient"
+     ],
+     "clip": "055"
+    }
+   ]
+  },
+  {
+   "action": "\"press it twice\"",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "i pressed it twice. the fan in the other room stopped.",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "deadpan",
+      "stone-faced",
+      "unblinking",
+      "flat",
+      "still"
+     ],
+     "clip": "139"
+    }
+   ]
+  },
+  {
+   "action": "what does your third switch do?",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "YAPPING CAT",
+     "size": 0.5,
+     "clip": "182"
+    }
+   ]
+  }
+ ]
+}

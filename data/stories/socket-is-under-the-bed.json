@@ -1,0 +1,143 @@
+{
+ "title": "the socket moved",
+ "output": "socket-is-under-the-bed.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.4,
+ "baseline": 0.9,
+ "pov": "POV: the only socket in the room is behind the bed",
+ "outro": "we moved a bed for this",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "one socket. behind the bed.",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "skeptical",
+      "unamused",
+      "doubtful",
+      "flat",
+      "done"
+     ],
+     "clip": "116"
+    }
+   ]
+  },
+  {
+   "action": "\"move it that way\"",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "DAD",
+     "size": 0.46,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "pushing",
+      "struggling",
+      "straining",
+      "working",
+      "determined"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "189"
+    }
+   ]
+  },
+  {
+   "action": "the cable is 20cm short.",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "disappointed",
+      "fed-up",
+      "unamused",
+      "flat",
+      "done"
+     ],
+     "clip": "164"
+    }
+   ]
+  },
+  {
+   "action": "\"turn the bed\"",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "we turned the bed.",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "hopeful",
+      "working",
+      "determined",
+      "focused",
+      "eager"
+     ],
+     "clip": "156"
+    }
+   ]
+  },
+  {
+   "action": "the socket is under the bed now.",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "fed-up",
+      "done",
+      "unamused",
+      "sour",
+      "grumpy"
+     ],
+     "clip": "168"
+    }
+   ]
+  }
+ ]
+}

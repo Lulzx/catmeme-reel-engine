@@ -32,6 +32,7 @@ onto a scene-relevant background, labels it, and renders a finished vertical vid
 | 16 | [16-clip-diversity.md](16-clip-diversity.md) | stopping one clip from carrying the channel — fatigue penalty + `engine/allocate.py` |
 | 17 | [17-growth-research-2026-08-14.md](17-growth-research-2026-08-14.md) | **fresh analytics, competitor benchmark, silly-clip sourcing, thumbnail constraint, and next-batch scores** |
 | 18 | [18-six-hour-fill-2026-08-14.md](18-six-hour-fill-2026-08-14.md) | **56-Short production ledger for the August 18–31 six-hour schedule grid** |
+| 19 | [19-growth-research-2026-08-29.md](19-growth-research-2026-08-29.md) | **the reach-ceiling diagnosis (no outliers, views saturate by day 7) and the September portfolio batch** |
 
 Scripts are also **scored before they ship**: the rubric lives with the authoring
 skill at [`.claude/skills/make-reel/SCORING.md`](../.claude/skills/make-reel/SCORING.md)

@@ -1,0 +1,143 @@
+{
+ "title": "the light went in the last over",
+ "output": "light-went-in-the-last-over.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.4,
+ "baseline": 0.9,
+ "pov": "POV: the power cuts in the last over",
+ "outro": "the whole lane shouted",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "six runs. four balls.",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "intense",
+      "tense",
+      "fixated",
+      "alert",
+      "anticipation"
+     ],
+     "clip": "087"
+    }
+   ]
+  },
+  {
+   "action": "the fan stopped first.",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "noticing",
+      "alarmed",
+      "startled",
+      "wary",
+      "alert"
+     ],
+     "clip": "043"
+    }
+   ]
+  },
+  {
+   "action": "then everything.",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "shocked",
+      "frozen",
+      "stunned",
+      "wide-eyed",
+      "speechless"
+     ],
+     "clip": "176"
+    }
+   ]
+  },
+  {
+   "action": "\"it will come in two minutes\"",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "DAD",
+     "size": 0.5,
+     "clip": "182"
+    }
+   ]
+  },
+  {
+   "action": "\"the inverter is also off\"",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "waiting",
+      "impatient",
+      "fed-up",
+      "done",
+      "tense"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "146"
+    }
+   ]
+  },
+  {
+   "action": "the lane shouted before the light came. i still do not know which side.",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "looking-around",
+      "bewildered",
+      "huh",
+      "clueless",
+      "wondering"
+     ],
+     "clip": "003"
+    }
+   ]
+  }
+ ]
+}

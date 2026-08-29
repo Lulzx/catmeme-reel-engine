@@ -1,0 +1,88 @@
+{
+ "title": "i waited fourteen",
+ "output": "i-waited-fourteen.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: the tea is lava and then it is cold",
+ "outro": "no middle",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "i waited four minutes.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "waiting",
+      "patient",
+      "half-lidded",
+      "loafing",
+      "still"
+     ],
+     "clip": "053"
+    }
+   ]
+  },
+  {
+   "action": "still lava.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "gagging",
+      "yuck",
+      "grossed-out",
+      "revulsion",
+      "ew"
+     ],
+     "clip": "006"
+    }
+   ]
+  },
+  {
+   "action": "\"blow on it\"",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "i waited fourteen. it was cold.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "YAPPING CAT",
+     "size": 0.5,
+     "clip": "182"
+    }
+   ]
+  }
+ ]
+}

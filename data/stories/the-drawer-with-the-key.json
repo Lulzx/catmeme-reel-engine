@@ -1,0 +1,128 @@
+{
+ "title": "the drawer with the key",
+ "output": "the-drawer-with-the-key.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.4,
+ "baseline": 0.9,
+ "pov": "POV: every house has one drawer",
+ "outro": "it opens nothing here",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "every house has one drawer.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "matter-of-fact",
+      "calm",
+      "knowing",
+      "curious",
+      "content"
+     ],
+     "clip": "074"
+    }
+   ]
+  },
+  {
+   "action": "old chargers. one battery. a key.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "inspecting",
+      "investigating",
+      "noticing",
+      "focused",
+      "curious"
+     ],
+     "clip": "122"
+    }
+   ]
+  },
+  {
+   "action": "the key does not open anything in this house.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "puzzled",
+      "confused",
+      "skeptical",
+      "wondering",
+      "huh"
+     ],
+     "clip": "111"
+    }
+   ]
+  },
+  {
+   "action": "\"keep it\"",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "i have tried it on every door in this house.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "knowing",
+      "smug",
+      "self-satisfied",
+      "proud",
+      "content"
+     ],
+     "clip": "047"
+    }
+   ]
+  },
+  {
+   "action": "what is in your drawer?",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "YAPPING CAT",
+     "size": 0.5,
+     "clip": "182"
+    }
+   ]
+  }
+ ]
+}
