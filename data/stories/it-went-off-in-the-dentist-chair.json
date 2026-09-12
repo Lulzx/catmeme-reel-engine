@@ -1,0 +1,163 @@
+{
+ "title": "it went off in the dentist chair",
+ "output": "it-went-off-in-the-dentist-chair.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: the alarm for the big morning was set for 6pm",
+ "outro": "the dentist turned it off",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "191",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "interview at 9.",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "nervous",
+      "tense",
+      "anxious",
+      "uneasy",
+      "alert"
+     ],
+     "clip": "169"
+    }
+   ]
+  },
+  {
+   "action": "alarm set for 6. checked it three times.",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "focused",
+      "careful",
+      "attentive",
+      "inspecting",
+      "determined"
+     ],
+     "clip": "136"
+    }
+   ]
+  },
+  {
+   "action": "slept like a baby.",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "sleeping",
+      "dozing",
+      "sleepy",
+      "peaceful",
+      "cozy"
+     ],
+     "clip": "022"
+    }
+   ]
+  },
+  {
+   "action": "woke up at 8:52.",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "terrified",
+      "screaming",
+      "panicked",
+      "frantic",
+      "alarmed"
+     ],
+     "clip": "170"
+    }
+   ]
+  },
+  {
+   "action": "\"how do you sleep through an alarm. how\"",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "FRIEND",
+     "size": 0.5,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "humiliated",
+      "embarrassed",
+      "ashamed",
+      "awkward",
+      "guilty"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "134"
+    }
+   ]
+  },
+  {
+   "action": "\"check am and pm\"",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "it went off at 6pm. in the dentist chair. with the tool in my mouth.",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "mouth-open",
+      "wide-eyed",
+      "shocked",
+      "gasping",
+      "startled"
+     ],
+     "clip": "172"
+    }
+   ]
+  }
+ ]
+}

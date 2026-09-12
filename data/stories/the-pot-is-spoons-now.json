@@ -1,0 +1,163 @@
+{
+ "title": "the pot is spoons now",
+ "output": "the-pot-is-spoons-now.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: the spoon slides into the pot the second you look away",
+ "outro": "the fork went in too",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "191",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "one stir.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "calm",
+      "content",
+      "relaxed",
+      "focused",
+      "busy"
+     ],
+     "clip": "182"
+    }
+   ]
+  },
+  {
+   "action": "one look at the phone.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "scrolling",
+      "distracted",
+      "absorbed",
+      "phone-addiction",
+      "hunched"
+     ],
+     "clip": "121"
+    }
+   ]
+  },
+  {
+   "action": "the spoon is gone.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "confused",
+      "puzzled",
+      "staring",
+      "wide-eyed",
+      "surprised"
+     ],
+     "clip": "075"
+    }
+   ]
+  },
+  {
+   "action": "\"use a longer one. obviously\"",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ROOMMATE",
+     "size": 0.5,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "annoyed",
+      "irritated",
+      "bothered",
+      "unimpressed",
+      "grumpy"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "078"
+    }
+   ]
+  },
+  {
+   "action": "\"rest it on the edge\"",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "the second one went in fishing for the first.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "frantic",
+      "scrambling",
+      "panicked",
+      "alarmed",
+      "struggling"
+     ],
+     "clip": "103"
+    }
+   ]
+  },
+  {
+   "action": "three spoons. one pot. dinner is served with a fork.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "disgusted",
+      "disgust",
+      "grossed-out",
+      "displeased",
+      "sour"
+     ],
+     "clip": "006"
+    }
+   ]
+  }
+ ]
+}

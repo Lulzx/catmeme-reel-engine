@@ -1,0 +1,163 @@
+{
+ "title": "new folder seven",
+ "output": "new-folder-seven.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: your screen is shared and you cannot find the file",
+ "outro": "someone screenshotted the desktop",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "191",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "\"sharing my screen now\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "confident",
+      "presenting",
+      "cheerful",
+      "proud",
+      "ready"
+     ],
+     "clip": "088"
+    }
+   ]
+  },
+  {
+   "action": "forty icons. none of them is it.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "squinting",
+      "searching",
+      "looking-around",
+      "focused",
+      "inspecting"
+     ],
+     "clip": "136"
+    }
+   ]
+  },
+  {
+   "action": "downloads. downloads (1). downloads (old).",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "awkward",
+      "nervous",
+      "uneasy",
+      "shy",
+      "tense"
+     ],
+     "clip": "099"
+    }
+   ]
+  },
+  {
+   "action": "\"take your time, take your time, no rush\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "MANAGER",
+     "size": 0.48,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "awkward",
+      "embarrassed",
+      "humiliated",
+      "shy",
+      "stiff"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "058"
+    }
+   ]
+  },
+  {
+   "action": "\"use search\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "search found my tax return.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "horrified",
+      "terrified",
+      "screaming",
+      "panicked",
+      "alarmed"
+     ],
+     "clip": "012"
+    }
+   ]
+  },
+  {
+   "action": "eleven people watched me open new folder (7). it was in new folder (7).",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "humiliated",
+      "ashamed",
+      "droopy",
+      "sorry",
+      "downcast"
+     ],
+     "clip": "134"
+    }
+   ]
+  }
+ ]
+}

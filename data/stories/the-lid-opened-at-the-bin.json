@@ -1,0 +1,143 @@
+{
+  "title": "the lid opened at the bin",
+  "output": "the-lid-opened-at-the-bin.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the jar you closed last night will not open this morning",
+  "outro": "the jam is in the bin",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "7:10am",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "hungry",
+            "waiting",
+            "calm",
+            "expectant",
+            "content"
+          ],
+          "clip": "072"
+        }
+      ]
+    },
+    {
+      "action": "i closed this jar myself last night",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "determined",
+            "focused",
+            "intense",
+            "working",
+            "struggling"
+          ],
+          "clip": "108"
+        }
+      ]
+    },
+    {
+      "action": "\"run it under hot water\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "MOM",
+          "size": 0.5,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "annoyed",
+            "irritated",
+            "bothered",
+            "unimpressed",
+            "grumpy"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "078"
+        }
+      ]
+    },
+    {
+      "action": "\"tap the edge on the counter\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "towel, then knife, then both",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "rage",
+            "furious",
+            "angry",
+            "building-anger",
+            "frantic"
+          ],
+          "clip": "180"
+        }
+      ]
+    },
+    {
+      "action": "it opened over the bin. on the way to throwing it out.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "heartbroken",
+            "crying",
+            "sorrow",
+            "teary",
+            "sad"
+          ],
+          "clip": "097"
+        }
+      ]
+    }
+  ]
+}

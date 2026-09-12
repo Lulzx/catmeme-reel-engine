@@ -1,0 +1,163 @@
+{
+ "title": "we reached the same door",
+ "output": "we-reached-the-same-door.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: you are the slow walker in the corridor",
+ "outro": "they sat at my desk",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "186",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "8:58. someone is behind me.",
+   "bg": {
+    "place": "hallway"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "calm",
+      "relaxed",
+      "strolling",
+      "walking",
+      "unbothered"
+     ],
+     "clip": "158"
+    }
+   ]
+  },
+  {
+   "action": "i walk at my speed.",
+   "bg": {
+    "place": "hallway"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "chill",
+      "laid-back",
+      "mellow",
+      "content",
+      "aloof"
+     ],
+     "clip": "053"
+    }
+   ]
+  },
+  {
+   "action": "they sighed twice.",
+   "bg": {
+    "place": "hallway"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "side-eye",
+      "glancing",
+      "looking-back",
+      "suspicious",
+      "wary"
+     ],
+     "clip": "098"
+    }
+   ]
+  },
+  {
+   "action": "\"move over, some of us have meetings\"",
+   "bg": {
+    "place": "hallway"
+   },
+   "cast": [
+    {
+     "name": "COWORKER",
+     "size": 0.46,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "innocent",
+      "confused",
+      "puzzled",
+      "head-tilt",
+      "clueless"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "147"
+    }
+   ]
+  },
+  {
+   "action": "\"speed up a bit\"",
+   "bg": {
+    "place": "hallway"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "i sped up. they sped up. i slowed. they slowed.",
+   "bg": {
+    "place": "hallway"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "nervous",
+      "awkward",
+      "uneasy",
+      "tense",
+      "jumpy"
+     ],
+     "clip": "055"
+    }
+   ]
+  },
+  {
+   "action": "we reached the same door. it was my office. their meeting was with me.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "shocked",
+      "betrayed",
+      "gasping",
+      "disbelief",
+      "mouth-open"
+     ],
+     "clip": "002"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,143 @@
+{
+  "title": "it was for the toilet",
+  "output": "it-was-for-the-toilet.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: you joined a queue without knowing what it is for",
+  "outro": "three left of what",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "191",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "a queue. a long one.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "curious",
+            "interested",
+            "nosy",
+            "peeking",
+            "intrigued"
+          ],
+          "clip": "071"
+        }
+      ]
+    },
+    {
+      "action": "i joined it.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confident",
+            "proud",
+            "cool",
+            "smug",
+            "self-satisfied"
+          ],
+          "clip": "020"
+        }
+      ]
+    },
+    {
+      "action": "twenty minutes.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "bored",
+            "waiting",
+            "patient",
+            "tired",
+            "sleepy"
+          ],
+          "clip": "158"
+        }
+      ]
+    },
+    {
+      "action": "\"they only have three left\"",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "WOMAN AHEAD",
+          "size": 0.48,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "excited",
+            "eager",
+            "hype",
+            "hopeful",
+            "wanting"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "119"
+        }
+      ]
+    },
+    {
+      "action": "\"ask what it is\"",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i reached the front. it was the toilet. i went in anyway. i did not need to.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "awkward",
+            "embarrassed",
+            "shy",
+            "uneasy",
+            "nervous"
+          ],
+          "clip": "023"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "title": "derek closed the blind",
+  "output": "derek-closed-the-blind.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: derek took the window seat on the team trip",
+  "outro": "muhehehe",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "window seat since june.",
+      "bg": {
+        "place": "airport"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "pleased",
+            "proud",
+            "content",
+            "satisfied",
+            "happy"
+          ],
+          "clip": "114"
+        }
+      ]
+    },
+    {
+      "action": "\"i get sick in the aisle\"",
+      "bg": {
+        "place": "airport"
+      },
+      "cast": [
+        {
+          "name": "DEREK",
+          "size": 0.5,
+          "clip": "184"
+        }
+      ]
+    },
+    {
+      "action": "\"just let him. it is two hours\"",
+      "bg": {
+        "place": "airport"
+      },
+      "cast": [
+        {
+          "name": "COWORKER",
+          "size": 0.46,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "annoyed",
+            "irritated",
+            "bothered",
+            "displeased",
+            "grumpy"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "093"
+        }
+      ]
+    },
+    {
+      "action": "\"ask for the view\"",
+      "bg": {
+        "place": "airport"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "he closed the blind at takeoff.",
+      "bg": {
+        "place": "airport"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "disbelief",
+            "staring",
+            "wide-eyed",
+            "shocked",
+            "alarmed"
+          ],
+          "clip": "176"
+        }
+      ]
+    },
+    {
+      "action": "he woke up at landing. opened the blind. \"you missed it\"",
+      "bg": {
+        "place": "airport"
+      },
+      "cast": [
+        {
+          "name": "DEREK",
+          "size": 0.5,
+          "clip": "184"
+        }
+      ]
+    }
+  ]
+}

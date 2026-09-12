@@ -1,0 +1,143 @@
+{
+  "title": "my cab left while i was in theirs",
+  "output": "my-cab-left-while-i-was-in-theirs.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: you get into the back seat of a car that is not your cab",
+  "outro": "the family waved",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "186",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "same colour. same model.",
+      "bg": {
+        "place": "street"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confident",
+            "proud",
+            "cool",
+            "self-satisfied",
+            "smug"
+          ],
+          "clip": "073"
+        }
+      ]
+    },
+    {
+      "action": "i said the address.",
+      "bg": {
+        "place": "street"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "calm",
+            "relaxed",
+            "content",
+            "chill",
+            "unbothered"
+          ],
+          "clip": "143"
+        }
+      ]
+    },
+    {
+      "action": "\"who are you\"",
+      "bg": {
+        "place": "street"
+      },
+      "cast": [
+        {
+          "name": "DRIVER",
+          "size": 0.48,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "startled",
+            "frozen",
+            "wide-eyed",
+            "shocked",
+            "caught-off-guard"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "043"
+        }
+      ]
+    },
+    {
+      "action": "there was a family in the front.",
+      "bg": {
+        "place": "street"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "awkward",
+            "nervous",
+            "embarrassed",
+            "uneasy",
+            "shy"
+          ],
+          "clip": "023"
+        }
+      ]
+    },
+    {
+      "action": "\"say sorry and get out slowly\"",
+      "bg": {
+        "place": "street"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i got out slowly. my actual cab drove off while i was in theirs.",
+      "bg": {
+        "place": "street"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "sad",
+            "heartbroken",
+            "crying",
+            "teary",
+            "sorrow"
+          ],
+          "clip": "008"
+        }
+      ]
+    }
+  ]
+}

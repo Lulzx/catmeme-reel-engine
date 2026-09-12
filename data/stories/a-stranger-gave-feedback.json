@@ -1,0 +1,143 @@
+{
+  "title": "a stranger gave feedback",
+  "output": "a-stranger-gave-feedback.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the printer you picked is on another floor",
+  "outro": "page 12 needs work apparently",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "186",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "print.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "waiting",
+            "patient",
+            "expectant",
+            "calm",
+            "staring"
+          ],
+          "clip": "016"
+        }
+      ]
+    },
+    {
+      "action": "nothing.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "annoyed",
+            "irritated",
+            "grumpy",
+            "unimpressed",
+            "bothered"
+          ],
+          "clip": "139"
+        }
+      ]
+    },
+    {
+      "action": "\"it goes to the default one, everyone knows that\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "COWORKER",
+          "size": 0.48,
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"check which floor\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "third floor. eighty pages.",
+      "bg": {
+        "place": "hallway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "exhausted",
+            "tired",
+            "done",
+            "resigned",
+            "slouched"
+          ],
+          "clip": "164"
+        }
+      ]
+    },
+    {
+      "action": "a stranger had read both copies. he had notes.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "disbelief",
+            "stunned",
+            "mouth-open",
+            "gasping",
+            "wtf"
+          ],
+          "pos": 0.3,
+          "clip": "089"
+        },
+        {
+          "name": "STRANGER",
+          "size": 0.5,
+          "want": [
+            "cheery",
+            "presenting",
+            "proud",
+            "pointing",
+            "upbeat"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "001"
+        }
+      ]
+    }
+  ]
+}

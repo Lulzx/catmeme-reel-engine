@@ -1,0 +1,148 @@
+{
+ "title": "i ate the shell",
+ "output": "i-ate-the-shell.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: the piece of eggshell that runs from the spoon",
+ "outro": "crunch",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "191",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "one bit of shell.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "noticing",
+      "alert",
+      "inspecting",
+      "curious",
+      "attentive"
+     ],
+     "clip": "166"
+    }
+   ]
+  },
+  {
+   "action": "spoon in. it ran.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "focused",
+      "determined",
+      "careful",
+      "intense",
+      "stalking"
+     ],
+     "clip": "108"
+    }
+   ]
+  },
+  {
+   "action": "\"scoop it with the big shell\"",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "MOM",
+     "size": 0.5,
+     "clip": "182"
+    }
+   ]
+  },
+  {
+   "action": "\"wet your finger\"",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "finger in. it went under the yolk.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "frustrated",
+      "annoyed",
+      "irritated",
+      "grumpy",
+      "fed-up"
+     ],
+     "clip": "129"
+    }
+   ]
+  },
+  {
+   "action": "i ate around it for the whole omelette.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "suspicious",
+      "squinting",
+      "judging",
+      "skeptical",
+      "side-eye"
+     ],
+     "clip": "141"
+    }
+   ]
+  },
+  {
+   "action": "it was in the last bite. i ate it.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "disgusted",
+      "grossed-out",
+      "gagging",
+      "ew",
+      "yuck"
+     ],
+     "clip": "006"
+    }
+   ]
+  }
+ ]
+}

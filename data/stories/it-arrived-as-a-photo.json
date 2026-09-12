@@ -1,0 +1,129 @@
+{
+  "title": "it arrived as a photo",
+  "output": "it-arrived-as-a-photo.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: derek found the same thing cheaper",
+  "outro": "he says it is very supportive",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "041",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "i bought a chair. three weeks to arrive.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "proud",
+            "pleased",
+            "content",
+            "happy",
+            "satisfied"
+          ],
+          "clip": "190"
+        }
+      ]
+    },
+    {
+      "action": "\"i got the same one for half\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "DEREK",
+          "size": 0.5,
+          "clip": "184"
+        }
+      ]
+    },
+    {
+      "action": "\"derek always finds the deal\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "COWORKER",
+          "size": 0.46,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "skeptical",
+            "doubtful",
+            "unconvinced",
+            "wary",
+            "side-eye"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "141"
+        }
+      ]
+    },
+    {
+      "action": "\"wait until it arrives\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "his came first. in a flat envelope.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "curious",
+            "inspecting",
+            "noticing",
+            "squinting",
+            "alert"
+          ],
+          "clip": "136"
+        }
+      ]
+    },
+    {
+      "action": "it was a photo of the chair. laminated. he sat on it.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "DEREK",
+          "size": 0.5,
+          "clip": "184"
+        }
+      ]
+    }
+  ]
+}

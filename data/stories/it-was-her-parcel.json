@@ -1,0 +1,143 @@
+{
+  "title": "it was her parcel",
+  "output": "it-was-her-parcel.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: your parcel was given to the neighbour who is never home",
+  "outro": "we both said sorry",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "186",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "delivered to neighbour.",
+      "bg": {
+        "place": "hallway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "squinting",
+            "inspecting",
+            "puzzled",
+            "reading"
+          ],
+          "clip": "185"
+        }
+      ]
+    },
+    {
+      "action": "301, 303, 305. nobody.",
+      "bg": {
+        "place": "hallway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "looking-around",
+            "searching",
+            "wandering",
+            "walking",
+            "curious"
+          ],
+          "clip": "149"
+        }
+      ]
+    },
+    {
+      "action": "\"302, she comes at 11, she is never home, 11pm\"",
+      "bg": {
+        "place": "hallway"
+      },
+      "cast": [
+        {
+          "name": "NEIGHBOR",
+          "size": 0.46,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "tired",
+            "done",
+            "flat",
+            "unimpressed",
+            "exhausted"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "146"
+        }
+      ]
+    },
+    {
+      "action": "\"wait on the stairs\"",
+      "bg": {
+        "place": "hallway"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "11:40pm. she came. she had a parcel.",
+      "bg": {
+        "place": "hallway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "hopeful",
+            "excited",
+            "eager",
+            "expectant",
+            "celebrating"
+          ],
+          "clip": "037"
+        }
+      ]
+    },
+    {
+      "action": "she gave it to me. it was hers. mine was on my own mat. since 2pm.",
+      "bg": {
+        "place": "hallway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "humiliated",
+            "embarrassed",
+            "awkward",
+            "ashamed",
+            "guilty"
+          ],
+          "clip": "031"
+        }
+      ]
+    }
+  ]
+}

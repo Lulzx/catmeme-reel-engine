@@ -1,0 +1,143 @@
+{
+  "title": "which socket is holy",
+  "output": "which-socket-is-holy.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the one charger in the house that cannot be moved",
+  "outro": "it is back. nobody speaks of it.",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "190",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "one socket. one charger. since we moved in.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "calm",
+            "still",
+            "content",
+            "relaxed",
+            "cozy"
+          ],
+          "clip": "090"
+        }
+      ]
+    },
+    {
+      "action": "i unplugged it. for the bedroom.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "sneaky",
+            "plotting",
+            "sly",
+            "scheming",
+            "cautious"
+          ],
+          "clip": "052"
+        }
+      ]
+    },
+    {
+      "action": "forty seconds.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "nervous",
+            "uneasy",
+            "tense",
+            "wary",
+            "alert"
+          ],
+          "clip": "055"
+        }
+      ]
+    },
+    {
+      "action": "\"who moved the charger\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "DAD",
+          "size": 0.46,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "startled",
+            "spooked",
+            "alarmed",
+            "jumpy",
+            "frozen"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "043"
+        }
+      ]
+    },
+    {
+      "action": "\"put it back before the others come\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "three people came in. nobody needed to charge. which socket is holy in your house?",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "dead-inside",
+            "broken",
+            "empty",
+            "flat",
+            "stone-faced"
+          ],
+          "clip": "096"
+        }
+      ]
+    }
+  ]
+}

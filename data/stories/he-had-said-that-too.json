@@ -1,0 +1,151 @@
+{
+  "title": "he had said that too",
+  "output": "he-had-said-that-too.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the small cat says save the form first",
+  "outro": "third time i am saving every box",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "191",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "31 boxes in 40 minutes.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "working",
+            "typing",
+            "busy",
+            "focused",
+            "productive"
+          ],
+          "clip": "033"
+        }
+      ]
+    },
+    {
+      "action": "the page froze on box 31.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "staring",
+            "frozen",
+            "still",
+            "tense",
+            "alert"
+          ],
+          "clip": "161"
+        }
+      ]
+    },
+    {
+      "action": "\"save it first\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "\"just refresh, it comes back\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "COWORKER",
+          "size": 0.46,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "hopeful",
+            "expectant",
+            "eager",
+            "tentative",
+            "cautious"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "150"
+        }
+      ]
+    },
+    {
+      "action": "box one was empty again.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "crying",
+            "sobbing",
+            "tears",
+            "wailing",
+            "heartbroken"
+          ],
+          "clip": "094"
+        }
+      ]
+    },
+    {
+      "action": "40 minutes later i refreshed to check. he said \"save it first\". he had said that too.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "rage",
+            "furious",
+            "screaming",
+            "outburst",
+            "yelling"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "012"
+        }
+      ]
+    }
+  ]
+}

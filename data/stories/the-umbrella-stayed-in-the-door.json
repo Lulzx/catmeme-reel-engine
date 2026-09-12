@@ -1,0 +1,163 @@
+{
+ "title": "the umbrella stayed in the door",
+ "output": "the-umbrella-stayed-in-the-door.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: your umbrella opens inside the shop",
+ "outro": "the shop has an awning now",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "191",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "raining. 4pm.",
+   "bg": {
+    "place": "shop"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "relaxed",
+      "content",
+      "calm",
+      "walking",
+      "unbothered"
+     ],
+     "clip": "182"
+    }
+   ]
+  },
+  {
+   "action": "i pressed the button by mistake.",
+   "bg": {
+    "place": "shop"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "startled",
+      "shocked",
+      "wide-eyed",
+      "alarmed",
+      "jumpy"
+     ],
+     "clip": "132"
+    }
+   ]
+  },
+  {
+   "action": "it is wider than the door.",
+   "bg": {
+    "place": "shop"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "struggling",
+      "frantic",
+      "scrambling",
+      "flustered",
+      "awkward"
+     ],
+     "clip": "103"
+    }
+   ]
+  },
+  {
+   "action": "\"you cannot open that in here\"",
+   "bg": {
+    "place": "shop"
+   },
+   "cast": [
+    {
+     "name": "SECURITY",
+     "size": 0.48,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "nervous",
+      "awkward",
+      "embarrassed",
+      "shy",
+      "cautious"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "062"
+    }
+   ]
+  },
+  {
+   "action": "\"walk it in sideways\"",
+   "bg": {
+    "place": "shop"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "sideways took the sign down.",
+   "bg": {
+    "place": "shop"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "scrambling",
+      "struggling",
+      "frantic",
+      "panicked",
+      "freaking-out"
+     ],
+     "clip": "180"
+    }
+   ]
+  },
+  {
+   "action": "i left through the other door. it is still in the first one. people walk under it.",
+   "bg": {
+    "place": "street"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "smug",
+      "self-satisfied",
+      "cool",
+      "unbothered",
+      "strutting"
+     ],
+     "clip": "179"
+    }
+   ]
+  }
+ ]
+}

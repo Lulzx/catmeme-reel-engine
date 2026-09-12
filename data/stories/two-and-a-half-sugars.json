@@ -1,0 +1,143 @@
+{
+  "title": "two and a half sugars",
+  "output": "two-and-a-half-sugars.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: you cannot remember if you already put sugar in",
+  "outro": "dad likes it now",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "041",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "kettle, cup, tea bag",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "calm",
+            "content",
+            "relaxed",
+            "sleepy",
+            "drowsy"
+          ],
+          "clip": "100"
+        }
+      ]
+    },
+    {
+      "action": "did i put sugar in.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "puzzled",
+            "wondering",
+            "pensive",
+            "questioning"
+          ],
+          "clip": "111"
+        }
+      ]
+    },
+    {
+      "action": "no memory of it at all",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "zoning-out",
+            "spaced-out",
+            "dazed",
+            "vacant",
+            "blank"
+          ],
+          "clip": "010"
+        }
+      ]
+    },
+    {
+      "action": "\"just taste it\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "MOM",
+          "size": 0.5,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "side-eye",
+            "judging",
+            "skeptical",
+            "unimpressed",
+            "doubtful"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "054"
+        }
+      ]
+    },
+    {
+      "action": "\"add half\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "it had two already. it was also not my cup.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "disgusted",
+            "gagging",
+            "grossed-out",
+            "disgust",
+            "nausea"
+          ],
+          "clip": "006"
+        }
+      ]
+    }
+  ]
+}

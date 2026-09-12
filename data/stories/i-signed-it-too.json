@@ -1,0 +1,163 @@
+{
+ "title": "i signed it too",
+ "output": "i-signed-it-too.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: there is a note on the office fridge and it is about your lunch",
+ "outro": "it has been eleven days",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "041",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "a note on the fridge. capitals.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "curious",
+      "noticing",
+      "inspecting",
+      "calm",
+      "attentive"
+     ],
+     "clip": "154"
+    }
+   ]
+  },
+  {
+   "action": "\"whoever's lunch this is\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "staring",
+      "alert",
+      "wary",
+      "tense",
+      "frozen"
+     ],
+     "clip": "151"
+    }
+   ]
+  },
+  {
+   "action": "nine signatures under it.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "nervous",
+      "guilty",
+      "awkward",
+      "shy",
+      "uneasy"
+     ],
+     "clip": "099"
+    }
+   ]
+  },
+  {
+   "action": "\"someone should really say something\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "COWORKER",
+     "size": 0.48,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "nodding",
+      "agreeing",
+      "supportive",
+      "calm",
+      "stiff"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "114"
+    }
+   ]
+  },
+  {
+   "action": "\"sign it. blend in\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "i signed the note about my own lunch.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "sneaky",
+      "plotting",
+      "sly",
+      "scheming",
+      "cautious"
+     ],
+     "clip": "052"
+    }
+   ]
+  },
+  {
+   "action": "the lunch is still there. so is the note. so am i.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "dead-inside",
+      "broken",
+      "empty",
+      "stone-faced",
+      "vacant"
+     ],
+     "clip": "056"
+    }
+   ]
+  }
+ ]
+}

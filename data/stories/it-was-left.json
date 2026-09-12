@@ -1,0 +1,151 @@
+{
+  "title": "it was left",
+  "output": "it-was-left.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the small cat gives directions",
+  "outro": "he was right about the cow too",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "186",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "no signal. one fork in the road.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "driving",
+            "commuting",
+            "focused",
+            "alert",
+            "watching"
+          ],
+          "clip": "026"
+        }
+      ]
+    },
+    {
+      "action": "\"left\"",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "\"the big road is always right\"",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "PASSENGER",
+          "size": 0.46,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "doubtful",
+            "skeptical",
+            "unconvinced",
+            "wondering",
+            "puzzled"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "141"
+        }
+      ]
+    },
+    {
+      "action": "i went right.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confident",
+            "cocky",
+            "bold",
+            "determined",
+            "cool"
+          ],
+          "clip": "068"
+        }
+      ]
+    },
+    {
+      "action": "twenty minutes. a dead end. a cow.",
+      "bg": {
+        "place": "village"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "stone-faced",
+            "blank",
+            "staring",
+            "unblinking",
+            "still"
+          ],
+          "clip": "152"
+        }
+      ]
+    },
+    {
+      "action": "it was left. i said i knew. he said nothing for the rest of the drive.",
+      "bg": {
+        "place": "highway"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "ashamed",
+            "embarrassed",
+            "guilty",
+            "droopy",
+            "sulking"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "134"
+        }
+      ]
+    }
+  ]
+}

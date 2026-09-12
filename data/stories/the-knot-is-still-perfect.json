@@ -1,0 +1,143 @@
+{
+  "title": "the knot is still perfect",
+  "output": "the-knot-is-still-perfect.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the plastic bag knot you tied for one second",
+  "outro": "the knot is on the counter. alone.",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "186",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "one knot. for one second.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "content",
+            "relaxed",
+            "calm",
+            "chill",
+            "lounging"
+          ],
+          "clip": "109"
+        }
+      ]
+    },
+    {
+      "action": "it will not open.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "struggling",
+            "focused",
+            "intense",
+            "determined",
+            "working"
+          ],
+          "clip": "108"
+        }
+      ]
+    },
+    {
+      "action": "\"teeth. use your teeth\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "DAD",
+          "size": 0.5,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "skeptical",
+            "judging",
+            "unconvinced",
+            "doubtful",
+            "side-eye"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "141"
+        }
+      ]
+    },
+    {
+      "action": "\"wet it first\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the scissors are inside the bag.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "dead-inside",
+            "broken",
+            "vacant",
+            "blank",
+            "empty"
+          ],
+          "clip": "113"
+        }
+      ]
+    },
+    {
+      "action": "the bag tore down the side. the knot is still perfect.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "rage",
+            "furious",
+            "yelling",
+            "screaming",
+            "outburst"
+          ],
+          "clip": "180"
+        }
+      ]
+    }
+  ]
+}

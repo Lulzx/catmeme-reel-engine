@@ -1,0 +1,128 @@
+{
+  "title": "it never moved",
+  "output": "it-never-moved.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: part 2. still in the lift",
+  "outro": "we took the stairs. he kept singing.",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "041",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "27 minutes. the alarm is still playing music.",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "tired",
+            "exhausted",
+            "done",
+            "slouched",
+            "dead-inside"
+          ],
+          "clip": "125"
+        }
+      ]
+    },
+    {
+      "action": "the neighbour is on verse four.",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "NEIGHBOR",
+          "size": 0.5,
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "there is no verse four.",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "unamused",
+            "flat",
+            "stone-faced",
+            "unmoved",
+            "judging"
+          ],
+          "clip": "168"
+        }
+      ]
+    },
+    {
+      "action": "\"try the door\"",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "a voice outside. anyone in there. the door opened.",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "hopeful",
+            "relieved",
+            "excited",
+            "eager",
+            "reaching"
+          ],
+          "clip": "060"
+        }
+      ]
+    },
+    {
+      "action": "it opened on the floor we got in on. it never moved.",
+      "bg": {
+        "place": "hallway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "rage",
+            "furious",
+            "screaming",
+            "outburst",
+            "yelling"
+          ],
+          "clip": "180"
+        }
+      ]
+    }
+  ]
+}

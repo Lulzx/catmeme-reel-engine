@@ -1,0 +1,128 @@
+{
+  "title": "the watch read it aloud",
+  "output": "the-watch-read-it-aloud.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: your phone pings once after you swore it was on silent",
+  "outro": "\"did you eat\"",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "190",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "silent mode on.",
+      "bg": {
+        "place": "library"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "calm",
+            "content",
+            "confident",
+            "relaxed",
+            "satisfied"
+          ],
+          "clip": "086"
+        }
+      ]
+    },
+    {
+      "action": "40 people and no sound.",
+      "bg": {
+        "place": "library"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "focused",
+            "working",
+            "attentive",
+            "busy",
+            "reading"
+          ],
+          "clip": "092"
+        }
+      ]
+    },
+    {
+      "action": "ping.",
+      "bg": {
+        "place": "library"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "startled",
+            "shocked",
+            "alarmed",
+            "wide-eyed",
+            "frozen"
+          ],
+          "clip": "172"
+        }
+      ]
+    },
+    {
+      "action": "\"are you there?? hello??\"",
+      "bg": {
+        "place": "library"
+      },
+      "cast": [
+        {
+          "name": "MOM",
+          "size": 0.5,
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"the watch. turn the watch off.\"",
+      "bg": {
+        "place": "library"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the phone was silent. the watch was not. it read it aloud. twice.",
+      "bg": {
+        "place": "library"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "humiliated",
+            "embarrassed",
+            "ashamed",
+            "awkward",
+            "shy"
+          ],
+          "clip": "023"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "title": "his tap my water",
+  "output": "his-tap-my-water.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the public bathroom tap does not see your hands",
+  "outro": "i dried my hands on the walk back",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "nothing came out.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "waiting",
+            "patient",
+            "expectant",
+            "calm",
+            "still"
+          ],
+          "clip": "016"
+        }
+      ]
+    },
+    {
+      "action": "i waved at it.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "annoyed",
+            "irritated",
+            "waving",
+            "bothered",
+            "unimpressed"
+          ],
+          "clip": "078"
+        }
+      ]
+    },
+    {
+      "action": "\"you have to hold them still\"",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "MAN NEXT TO ME",
+          "size": 0.48,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "skeptical",
+            "doubtful",
+            "unconvinced",
+            "side-eye",
+            "wary"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "141"
+        }
+      ]
+    },
+    {
+      "action": "\"try the other side\"",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "then i used his.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "determined",
+            "focused",
+            "intense",
+            "working",
+            "busy"
+          ],
+          "clip": "092"
+        }
+      ]
+    },
+    {
+      "action": "he got water from my tap. mine gave nothing until i left.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "MAN NEXT TO ME",
+          "size": 0.48,
+          "want": [
+            "satisfied",
+            "pleased",
+            "happy",
+            "smug",
+            "celebrating"
+          ],
+          "pos": 0.3,
+          "clip": "190"
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "side-eye",
+            "judging",
+            "judgy",
+            "glaring",
+            "suspicious"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "069"
+        }
+      ]
+    }
+  ]
+}

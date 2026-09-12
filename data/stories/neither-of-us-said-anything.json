@@ -1,0 +1,128 @@
+{
+  "title": "neither of us said anything",
+  "output": "neither-of-us-said-anything.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: you say see you tomorrow on a friday",
+  "outro": "see you tomorrow",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "186",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "friday. 5:58pm.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "celebrating",
+            "happy",
+            "relieved",
+            "excited",
+            "joyful"
+          ],
+          "clip": "017"
+        }
+      ]
+    },
+    {
+      "action": "\"see you tomorrow\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "cheerful",
+            "waving",
+            "friendly",
+            "upbeat",
+            "smiling"
+          ],
+          "clip": "082"
+        }
+      ]
+    },
+    {
+      "action": "\"see you tomorrow\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "BOSS",
+          "size": 0.5,
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"you both mean monday\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i did not mean monday.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "nervous",
+            "awkward",
+            "flustered",
+            "scared",
+            "uneasy"
+          ],
+          "clip": "023"
+        }
+      ]
+    },
+    {
+      "action": "i came in saturday. so did the boss. neither of us said anything. we left at six.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "stone-faced",
+            "stoic",
+            "dead-inside",
+            "flat",
+            "still"
+          ],
+          "clip": "161"
+        }
+      ]
+    }
+  ]
+}

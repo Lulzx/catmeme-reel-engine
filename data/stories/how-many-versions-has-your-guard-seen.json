@@ -1,0 +1,143 @@
+{
+  "title": "how many versions has your guard seen",
+  "output": "how-many-versions-has-your-guard-seen.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the building security guard has seen every version of you",
+  "outro": "he has seen the worst one",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "187",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "6am gym version.",
+      "bg": {
+        "place": "hallway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "energetic",
+            "hyper",
+            "bouncy",
+            "upbeat",
+            "peppy"
+          ],
+          "clip": "067"
+        }
+      ]
+    },
+    {
+      "action": "2am pizza version.",
+      "bg": {
+        "place": "hallway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "hungry",
+            "eating",
+            "snacking",
+            "munching",
+            "chomping"
+          ],
+          "clip": "175"
+        }
+      ]
+    },
+    {
+      "action": "sunday no shower version.",
+      "bg": {
+        "place": "hallway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "lazy",
+            "slouched",
+            "couch-potato",
+            "sprawled",
+            "drowsy"
+          ],
+          "clip": "167"
+        }
+      ]
+    },
+    {
+      "action": "\"good evening\" to all of them.",
+      "bg": {
+        "place": "hallway"
+      },
+      "cast": [
+        {
+          "name": "GUARD",
+          "size": 0.46,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "awkward",
+            "shy",
+            "embarrassed",
+            "guilty",
+            "innocent"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "023"
+        }
+      ]
+    },
+    {
+      "action": "\"he does not remember any of it\"",
+      "bg": {
+        "place": "hallway"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "he asked if the pizza place was good. i never told him. how many versions of you has your guard seen?",
+      "bg": {
+        "place": "hallway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "frozen",
+            "startled",
+            "wide-eyed",
+            "spooked",
+            "alarmed"
+          ],
+          "clip": "043"
+        }
+      ]
+    }
+  ]
+}

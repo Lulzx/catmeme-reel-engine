@@ -1,0 +1,128 @@
+{
+  "title": "every alarm in the building",
+  "output": "every-alarm-in-the-building.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the building tests the generator during your only call",
+  "outro": "they said the test passed",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "my only call this week.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "focused",
+            "working",
+            "calm",
+            "ready",
+            "attentive"
+          ],
+          "clip": "154"
+        }
+      ]
+    },
+    {
+      "action": "the lights went at 2:58.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "startled",
+            "alarmed",
+            "wide-eyed",
+            "shocked",
+            "confused"
+          ],
+          "clip": "172"
+        }
+      ]
+    },
+    {
+      "action": "\"testing. testing. one two.\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "BUILDING GUY",
+          "size": 0.5,
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"use the phone hotspot\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "hotspot on. lights back.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "hopeful",
+            "relieved",
+            "calm",
+            "content",
+            "pleased"
+          ],
+          "clip": "050"
+        }
+      ]
+    },
+    {
+      "action": "the generator worked. so did every alarm. all at once. on my call.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "screaming",
+            "rage",
+            "yelling",
+            "outburst",
+            "furious"
+          ],
+          "clip": "180"
+        }
+      ]
+    }
+  ]
+}

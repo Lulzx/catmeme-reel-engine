@@ -1,0 +1,143 @@
+{
+  "title": "how many layers is your chair",
+  "output": "how-many-layers-is-your-chair.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the chair in the bedroom that is not for sitting",
+  "outro": "the coins bought a second chair",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "186",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "a chair. in my room.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "matter-of-fact",
+            "calm",
+            "noticing",
+            "inspecting",
+            "curious"
+          ],
+          "clip": "011"
+        }
+      ]
+    },
+    {
+      "action": "no one has sat on it since 2021.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "bored",
+            "indifferent",
+            "lounging",
+            "lazy",
+            "relaxed"
+          ],
+          "clip": "181"
+        }
+      ]
+    },
+    {
+      "action": "\"is this pile clean or dirty\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "MOM",
+          "size": 0.46,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "puzzled",
+            "wondering",
+            "clueless",
+            "huh"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "003"
+        }
+      ]
+    },
+    {
+      "action": "\"the middle layer is clean\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i dug. a winter jacket. coins in the pocket.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "excited",
+            "surprised",
+            "happy",
+            "celebrating",
+            "eager"
+          ],
+          "clip": "188"
+        }
+      ]
+    },
+    {
+      "action": "i moved the pile to the bed to sit. i slept on the chair. how many layers is yours?",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "sleepy",
+            "exhausted",
+            "drowsy",
+            "slouched",
+            "tired"
+          ],
+          "clip": "125"
+        }
+      ]
+    }
+  ]
+}

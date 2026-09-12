@@ -1,0 +1,143 @@
+{
+  "title": "which clock is lying",
+  "output": "which-clock-is-lying.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the clock at home that is ten minutes fast on purpose",
+  "outro": "i am not allowed near it",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "189",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "the living room clock is ten minutes fast.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "matter-of-fact",
+            "calm",
+            "noticing",
+            "attentive",
+            "watching"
+          ],
+          "clip": "154"
+        }
+      ]
+    },
+    {
+      "action": "on purpose. since 2019.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "bored",
+            "indifferent",
+            "unbothered",
+            "flat",
+            "still"
+          ],
+          "clip": "116"
+        }
+      ]
+    },
+    {
+      "action": "i set it right.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "proud",
+            "satisfied",
+            "pleased",
+            "self-satisfied",
+            "content"
+          ],
+          "clip": "190"
+        }
+      ]
+    },
+    {
+      "action": "\"who touched the clock\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "DAD",
+          "size": 0.46,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "innocent",
+            "shy",
+            "awkward",
+            "guilty",
+            "sheepish"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "099"
+        }
+      ]
+    },
+    {
+      "action": "\"just add ten in your head\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "everyone was late. same day. it is fifteen fast now. which clock in your house lies?",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "ashamed",
+            "embarrassed",
+            "guilty",
+            "droopy",
+            "sorry"
+          ],
+          "clip": "134"
+        }
+      ]
+    }
+  ]
+}

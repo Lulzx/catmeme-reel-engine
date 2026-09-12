@@ -1,0 +1,149 @@
+{
+ "title": "derek chipped it himself",
+ "output": "derek-chipped-it-himself.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: derek says your mug is his mug",
+ "outro": "i drink from a bowl now",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "my mug. three years.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "content",
+      "proud",
+      "calm",
+      "relaxed",
+      "cozy"
+     ],
+     "clip": "148"
+    }
+   ]
+  },
+  {
+   "action": "derek is drinking from it.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "DEREK",
+     "size": 0.5,
+     "clip": "184"
+    }
+   ]
+  },
+  {
+   "action": "\"this is mine\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "DEREK",
+     "size": 0.5,
+     "clip": "184"
+    }
+   ]
+  },
+  {
+   "action": "\"it does look like his, to be fair\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "COWORKER",
+     "size": 0.48,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "betrayed",
+      "disbelief",
+      "stunned",
+      "hurt",
+      "gasping"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "089"
+    }
+   ]
+  },
+  {
+   "action": "\"show him the chip on the handle\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "i showed him the chip.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "confident",
+      "smug",
+      "proud",
+      "pointing",
+      "bold"
+     ],
+     "clip": "102"
+    }
+   ]
+  },
+  {
+   "action": "he said he chipped it. in 2023. on my desk. so it is his.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "rage",
+      "furious",
+      "angry",
+      "hissing",
+      "outburst"
+     ],
+     "clip": "180"
+    }
+   ]
+  }
+ ]
+}

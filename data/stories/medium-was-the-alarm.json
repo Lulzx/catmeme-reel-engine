@@ -1,0 +1,128 @@
+{
+  "title": "medium was the alarm",
+  "output": "medium-was-the-alarm.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the recipe says medium heat and your stove has two settings",
+  "outro": "the recipe had four stars",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "189",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "medium heat. six minutes.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "focused",
+            "reading",
+            "attentive",
+            "calm",
+            "ready"
+          ],
+          "clip": "154"
+        }
+      ]
+    },
+    {
+      "action": "the knob goes off or sun.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "puzzled",
+            "squinting",
+            "inspecting",
+            "doubtful"
+          ],
+          "clip": "185"
+        }
+      ]
+    },
+    {
+      "action": "\"just turn it a bit\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ROOMMATE",
+          "size": 0.5,
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"lift the pan up and down\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i lifted. i turned a bit. smoke.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "alarmed",
+            "frantic",
+            "panicked",
+            "scrambling",
+            "wild"
+          ],
+          "clip": "165"
+        }
+      ]
+    },
+    {
+      "action": "medium was the smoke alarm. dinner was the toast from breakfast.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "defeated",
+            "sulking",
+            "gloomy",
+            "downcast",
+            "sad"
+          ],
+          "clip": "076"
+        }
+      ]
+    }
+  ]
+}

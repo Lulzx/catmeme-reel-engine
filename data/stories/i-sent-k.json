@@ -1,0 +1,128 @@
+{
+  "title": "i sent k",
+  "output": "i-sent-k.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: you are the one typing and stopping",
+  "outro": "we are both typing again",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "191",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "\"are you free saturday?\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.5,
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i typed yes and deleted it.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "pensive",
+            "thinking",
+            "scrolling",
+            "typing",
+            "absorbed"
+          ],
+          "clip": "178"
+        }
+      ]
+    },
+    {
+      "action": "i typed yes! and deleted it.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "nervous",
+            "uneasy",
+            "jumpy",
+            "tense",
+            "cautious"
+          ],
+          "clip": "062"
+        }
+      ]
+    },
+    {
+      "action": "\"just send yes\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i typed yeah. then okay. then sure.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "frantic",
+            "panic-work",
+            "typing",
+            "busy",
+            "scrambling"
+          ],
+          "clip": "033"
+        }
+      ]
+    },
+    {
+      "action": "four minutes. i sent k. they replied ok. instantly.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "dead-inside",
+            "broken",
+            "empty",
+            "vacant",
+            "dazed"
+          ],
+          "clip": "113"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "title": "i said hi to the call",
+  "output": "i-said-hi-to-the-call.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: someone says hello and it was not to you",
+  "outro": "we are friends now. me and the call.",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "186",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "someone said hi.",
+      "bg": {
+        "place": "street"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "alert",
+            "noticing",
+            "curious",
+            "looking-around",
+            "attentive"
+          ],
+          "clip": "136"
+        }
+      ]
+    },
+    {
+      "action": "i turned. i smiled. i waved.",
+      "bg": {
+        "place": "street"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "cheerful",
+            "happy",
+            "waving",
+            "friendly",
+            "smiling"
+          ],
+          "clip": "040"
+        }
+      ]
+    },
+    {
+      "action": "she was on earphones.",
+      "bg": {
+        "place": "street"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "frozen",
+            "awkward",
+            "still",
+            "stiff",
+            "wide-eyed"
+          ],
+          "clip": "176"
+        }
+      ]
+    },
+    {
+      "action": "\"she is on a call\"",
+      "bg": {
+        "place": "street"
+      },
+      "cast": [
+        {
+          "name": "NEIGHBOR",
+          "size": 0.48,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "embarrassed",
+            "ashamed",
+            "droopy",
+            "shy",
+            "uneasy"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "134"
+        }
+      ]
+    },
+    {
+      "action": "\"keep waving and keep walking\"",
+      "bg": {
+        "place": "street"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i said hi back. to the call. the person on the call said hi to me.",
+      "bg": {
+        "place": "street"
+      },
+      "cast": [
+        {
+          "name": "WOMAN",
+          "size": 0.48,
+          "want": [
+            "talking",
+            "chatty",
+            "calling",
+            "chatting",
+            "vocal"
+          ],
+          "pos": 0.3,
+          "clip": "123"
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "laughing",
+            "bursting-out",
+            "giggling",
+            "cant-hold-it-in",
+            "amused"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "191"
+        }
+      ]
+    }
+  ]
+}

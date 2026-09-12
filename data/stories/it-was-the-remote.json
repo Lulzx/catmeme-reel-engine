@@ -1,0 +1,143 @@
+{
+  "title": "it was the remote",
+  "output": "it-was-the-remote.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: part 2. the box nobody ordered",
+  "outro": "it still has batteries",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "the second box said do not open. we opened it too.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "curious",
+            "eager",
+            "excited",
+            "leaning-in",
+            "peeking"
+          ],
+          "clip": "156"
+        }
+      ]
+    },
+    {
+      "action": "newspaper and a mug.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "puzzled",
+            "inspecting",
+            "wondering",
+            "head-tilt",
+            "confused"
+          ],
+          "clip": "111"
+        }
+      ]
+    },
+    {
+      "action": "\"that is my mug, i lost that mug, that is my mug\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ROOMMATE",
+          "size": 0.46,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "skeptical",
+            "unconvinced",
+            "side-eye",
+            "judging",
+            "squinting"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "141"
+        }
+      ]
+    },
+    {
+      "action": "\"read the date on the newspaper\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "dated march 2023.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "pensive",
+            "sad",
+            "melancholy",
+            "downcast",
+            "gloomy"
+          ],
+          "clip": "076"
+        }
+      ]
+    },
+    {
+      "action": "the small box had the tv remote. from the old flat. we bought a new tv because of it.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "grief",
+            "heartbroken",
+            "sobbing",
+            "crying",
+            "tearful"
+          ],
+          "clip": "094"
+        }
+      ]
+    }
+  ]
+}

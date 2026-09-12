@@ -1,0 +1,163 @@
+{
+ "title": "the laptop is now missing",
+ "output": "the-laptop-is-now-missing.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: you ring your phone from the laptop to find it",
+ "outro": "it rang once. from somewhere.",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "041",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "phone is gone.",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "alert",
+      "noticing",
+      "looking-around",
+      "wary",
+      "curious"
+     ],
+     "clip": "151"
+    }
+   ]
+  },
+  {
+   "action": "i rang it from the laptop.",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "focused",
+      "working",
+      "typing",
+      "busy",
+      "attentive"
+     ],
+     "clip": "091"
+    }
+   ]
+  },
+  {
+   "action": "nothing.",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "staring",
+      "blank",
+      "waiting",
+      "still",
+      "unblinking"
+     ],
+     "clip": "051"
+    }
+   ]
+  },
+  {
+   "action": "\"it is in the bathroom. it is always the bathroom\"",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "FRIEND",
+     "size": 0.5,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "skeptical",
+      "doubtful",
+      "side-eye",
+      "unconvinced",
+      "judging"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "141"
+    }
+   ]
+  },
+  {
+   "action": "\"check the fridge\"",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "it was on silent. under the cushion i was sitting on.",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "relieved",
+      "happy",
+      "pleased",
+      "celebrating",
+      "satisfied"
+     ],
+     "clip": "186"
+    }
+   ]
+  },
+  {
+   "action": "i stood up to celebrate. the laptop is now missing.",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "dead-inside",
+      "broken",
+      "empty",
+      "vacant",
+      "dazed"
+     ],
+     "clip": "113"
+    }
+   ]
+  }
+ ]
+}

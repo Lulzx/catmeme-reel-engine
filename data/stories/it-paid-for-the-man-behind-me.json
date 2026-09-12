@@ -1,0 +1,158 @@
+{
+  "title": "it paid for the man behind me",
+  "output": "it-paid-for-the-man-behind-me.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: you tap your card on the wrong counter's machine",
+  "outro": "i paid twice. i have nothing.",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "189",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "two counters.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "indifferent",
+            "unbothered",
+            "deadpan",
+            "still",
+            "matter-of-fact"
+          ],
+          "clip": "056"
+        }
+      ]
+    },
+    {
+      "action": "it beeped.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "satisfied",
+            "content",
+            "pleased",
+            "proud",
+            "smug"
+          ],
+          "clip": "077"
+        }
+      ]
+    },
+    {
+      "action": "\"paid. thank you. next\"",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "OTHER CASHIER",
+          "size": 0.48,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "puzzled",
+            "huh",
+            "bewildered",
+            "head-tilt"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "111"
+        }
+      ]
+    },
+    {
+      "action": "\"tap again on the right one\"",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i tapped again on the right one.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "nervous",
+            "scared",
+            "spooked",
+            "uneasy",
+            "tense"
+          ],
+          "clip": "025"
+        }
+      ]
+    },
+    {
+      "action": "the first tap paid for the man behind me. he said thanks and took my bag too.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "rage",
+            "furious",
+            "angry",
+            "yelling",
+            "outburst"
+          ],
+          "pos": 0.3,
+          "clip": "180"
+        },
+        {
+          "name": "MAN BEHIND",
+          "size": 0.48,
+          "want": [
+            "happy",
+            "smug",
+            "pleased",
+            "celebrating",
+            "cheerful"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "190"
+        }
+      ]
+    }
+  ]
+}

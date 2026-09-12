@@ -1,0 +1,163 @@
+{
+ "title": "they came to my wrong gate",
+ "output": "they-came-to-my-wrong-gate.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: you are the delivery driver at the wrong gate",
+ "outro": "i left it with the wall",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "the pin says here.",
+   "bg": {
+    "place": "street"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "confused",
+      "looking-around",
+      "puzzled",
+      "squinting",
+      "inspecting"
+     ],
+     "clip": "185"
+    }
+   ]
+  },
+  {
+   "action": "here is a wall.",
+   "bg": {
+    "place": "street"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "staring",
+      "blank",
+      "flat",
+      "unimpressed",
+      "still"
+     ],
+     "clip": "051"
+    }
+   ]
+  },
+  {
+   "action": "\"i am at the gate, i can see the road\"",
+   "bg": {
+    "place": "street"
+   },
+   "cast": [
+    {
+     "name": "CUSTOMER",
+     "size": 0.46,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "confused",
+      "wondering",
+      "questioning",
+      "bewildered",
+      "head-tilt"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "111"
+    }
+   ]
+  },
+  {
+   "action": "\"try the other side\"",
+   "bg": {
+    "place": "street"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "i walked around. 400 metres.",
+   "bg": {
+    "place": "street"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "walking",
+      "going-somewhere",
+      "tired",
+      "exhausted",
+      "commuting"
+     ],
+     "clip": "026"
+    }
+   ]
+  },
+  {
+   "action": "found their gate. nobody there.",
+   "bg": {
+    "place": "street"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "waiting",
+      "patient",
+      "alone",
+      "looking-around",
+      "expectant"
+     ],
+     "clip": "016"
+    }
+   ]
+  },
+  {
+   "action": "they had walked to my wall to meet me. we are at each other's gate.",
+   "bg": {
+    "place": "street"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "laughing",
+      "cant-hold-it-in",
+      "losing-it",
+      "giggling",
+      "amused"
+     ],
+     "clip": "041"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,129 @@
+{
+  "title": "derek fixed the wifi",
+  "output": "derek-fixed-the-wifi.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: derek says he fixed the wifi",
+  "outro": "muhehehe",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "041",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "11am. no wifi.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "annoyed",
+            "bored",
+            "waiting",
+            "unimpressed",
+            "irritated"
+          ],
+          "clip": "078"
+        }
+      ]
+    },
+    {
+      "action": "\"i got it\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "DEREK",
+          "size": 0.5,
+          "clip": "184"
+        }
+      ]
+    },
+    {
+      "action": "he unplugged both boxes.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "suspicious",
+            "doubtful",
+            "skeptical",
+            "watching",
+            "judging"
+          ],
+          "clip": "141"
+        }
+      ]
+    },
+    {
+      "action": "\"last time this took a day\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "COWORKER",
+          "size": 0.48,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "nervous",
+            "uneasy",
+            "tense",
+            "alarmed",
+            "worried"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "055"
+        }
+      ]
+    },
+    {
+      "action": "\"wait thirty seconds\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "it came back. the password is now derek1.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "DEREK",
+          "size": 0.5,
+          "clip": "184"
+        }
+      ]
+    }
+  ]
+}

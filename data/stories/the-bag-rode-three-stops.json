@@ -1,0 +1,158 @@
+{
+  "title": "the bag rode three stops",
+  "output": "the-bag-rode-three-stops.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the bus seat you took belongs to somebody's bag",
+  "outro": "the bag had the window",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "041",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "a bag had the last seat.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "hopeful",
+            "expectant",
+            "eager",
+            "looking",
+            "wanting"
+          ],
+          "clip": "130"
+        }
+      ]
+    },
+    {
+      "action": "i moved the bag and sat.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "content",
+            "relaxed",
+            "satisfied",
+            "cozy",
+            "comfy"
+          ],
+          "clip": "057"
+        }
+      ]
+    },
+    {
+      "action": "\"that seat was taken\"",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "OWNER",
+          "size": 0.48,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "startled",
+            "confused",
+            "caught-off-guard",
+            "puzzled",
+            "wide-eyed"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "043"
+        }
+      ]
+    },
+    {
+      "action": "\"stand up. it is easier\"",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the bag went back.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "sulking",
+            "grumpy",
+            "sour",
+            "pouty",
+            "displeased"
+          ],
+          "clip": "093"
+        }
+      ]
+    },
+    {
+      "action": "the bag rode three stops in my seat. it got off before me.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "blank",
+            "vacant",
+            "dazed",
+            "staring",
+            "zoning-out"
+          ],
+          "pos": 0.3,
+          "clip": "113"
+        },
+        {
+          "name": "OWNER",
+          "size": 0.48,
+          "want": [
+            "smug",
+            "unbothered",
+            "indifferent",
+            "content",
+            "self-satisfied"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "124"
+        }
+      ]
+    }
+  ]
+}

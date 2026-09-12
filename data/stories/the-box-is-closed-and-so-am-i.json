@@ -1,0 +1,163 @@
+{
+ "title": "the box is closed and so am i",
+ "output": "the-box-is-closed-and-so-am-i.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: the tape sticks to everything except the box",
+ "outro": "posted it. with the hand.",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "185",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "one parcel to send.",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "busy",
+      "focused",
+      "working",
+      "calm",
+      "determined"
+     ],
+     "clip": "092"
+    }
+   ]
+  },
+  {
+   "action": "tape on the box falls off",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "confused",
+      "puzzled",
+      "staring",
+      "wondering",
+      "curious"
+     ],
+     "clip": "111"
+    }
+   ]
+  },
+  {
+   "action": "tape on my finger stays forever",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "struggling",
+      "frantic",
+      "flailing",
+      "alarmed",
+      "scrambling"
+     ],
+     "clip": "103"
+    }
+   ]
+  },
+  {
+   "action": "\"press it down harder\"",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "FRIEND",
+     "size": 0.5,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "irritated",
+      "annoyed",
+      "grumpy",
+      "bothered",
+      "unimpressed"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "078"
+    }
+   ]
+  },
+  {
+   "action": "\"cut a fresh bit\"",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "the fresh bit is stuck to the old bit",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "rage",
+      "furious",
+      "angry",
+      "building-anger",
+      "yelling"
+     ],
+     "clip": "180"
+    }
+   ]
+  },
+  {
+   "action": "the box is closed. my hand is on it. under the tape.",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "resigned",
+      "tired",
+      "exhausted",
+      "sad",
+      "droopy"
+     ],
+     "clip": "134"
+    }
+   ]
+  }
+ ]
+}

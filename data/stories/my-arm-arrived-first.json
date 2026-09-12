@@ -1,0 +1,158 @@
+{
+  "title": "my arm arrived first",
+  "output": "my-arm-arrived-first.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the escalator handrail is faster than the stairs",
+  "outro": "the glove took the rail down again",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "187",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "hand on the rail.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "calm",
+            "relaxed",
+            "content",
+            "chill",
+            "mellow"
+          ],
+          "clip": "053"
+        }
+      ]
+    },
+    {
+      "action": "the rail is faster than the steps.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "noticing",
+            "surprised",
+            "curious",
+            "alert",
+            "wide-eyed"
+          ],
+          "clip": "087"
+        }
+      ]
+    },
+    {
+      "action": "my hand was two steps ahead of me.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "stretching",
+            "stretchy",
+            "struggling",
+            "awkward",
+            "leaning-in"
+          ],
+          "clip": "105"
+        }
+      ]
+    },
+    {
+      "action": "\"let go of it\"",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "MAN BEHIND",
+          "size": 0.48,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "stubborn",
+            "determined",
+            "intense",
+            "focused",
+            "stiff"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "108"
+        }
+      ]
+    },
+    {
+      "action": "\"walk faster than the rail\"",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i beat the rail to the top. it brought my glove up 20 seconds later.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "smug",
+            "proud",
+            "self-satisfied",
+            "waiting",
+            "expectant"
+          ],
+          "pos": 0.3,
+          "clip": "177"
+        },
+        {
+          "name": "MAN BEHIND",
+          "size": 0.48,
+          "want": [
+            "unimpressed",
+            "grumpy",
+            "glaring",
+            "staring",
+            "stern"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "161"
+        }
+      ]
+    }
+  ]
+}

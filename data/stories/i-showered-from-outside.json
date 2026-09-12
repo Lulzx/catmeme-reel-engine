@@ -1,0 +1,143 @@
+{
+  "title": "i showered from outside",
+  "output": "i-showered-from-outside.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the shower is warm until you step into it",
+  "outro": "the floor is clean now",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "187",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "hand test says warm",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "hopeful",
+            "content",
+            "pleased",
+            "expectant",
+            "calm"
+          ],
+          "clip": "064"
+        }
+      ]
+    },
+    {
+      "action": "stepped in and it went cold",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "shocked",
+            "startled",
+            "screaming",
+            "alarmed",
+            "soaked"
+          ],
+          "clip": "172"
+        }
+      ]
+    },
+    {
+      "action": "stepped out and it went warm",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "suspicious",
+            "squinting",
+            "wary",
+            "staring",
+            "unblinking"
+          ],
+          "clip": "155"
+        }
+      ]
+    },
+    {
+      "action": "\"it needs a minute to run\"",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "ROOMMATE",
+          "size": 0.5,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "annoyed",
+            "irritated",
+            "unimpressed",
+            "bothered",
+            "grumpy"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "078"
+        }
+      ]
+    },
+    {
+      "action": "\"turn the other knob\"",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i showered from outside, one arm at a time. the roommate said it needs a minute.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "smug",
+            "self-satisfied",
+            "proud",
+            "cocky",
+            "satisfied"
+          ],
+          "clip": "047"
+        }
+      ]
+    }
+  ]
+}

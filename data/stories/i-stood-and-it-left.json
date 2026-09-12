@@ -1,0 +1,143 @@
+{
+  "title": "i stood and it left",
+  "output": "i-stood-and-it-left.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the bus comes the second you sit down",
+  "outro": "i sat down. two came.",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "188",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "12 minutes standing.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "waiting",
+            "bored",
+            "patient",
+            "tired",
+            "indifferent"
+          ],
+          "clip": "030"
+        }
+      ]
+    },
+    {
+      "action": "i sat. the bus came.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "startled",
+            "alarmed",
+            "scrambling",
+            "frantic",
+            "jumpy"
+          ],
+          "clip": "132"
+        }
+      ]
+    },
+    {
+      "action": "i stood. it went past.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "angry",
+            "furious",
+            "glaring",
+            "rage",
+            "irritated"
+          ],
+          "clip": "027"
+        }
+      ]
+    },
+    {
+      "action": "\"look like you are not waiting\"",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "STRANGER",
+          "size": 0.5,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "skeptical",
+            "doubtful",
+            "unconvinced",
+            "side-eye",
+            "judging"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "141"
+        }
+      ]
+    },
+    {
+      "action": "\"stand up slowly\"",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i stood up slowly. it left slowly. the stranger was on it. he waved.",
+      "bg": {
+        "place": "station"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "betrayed",
+            "heartbroken",
+            "sad",
+            "teary",
+            "disappointed"
+          ],
+          "clip": "097"
+        }
+      ]
+    }
+  ]
+}

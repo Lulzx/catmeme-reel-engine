@@ -1,0 +1,129 @@
+{
+  "title": "the pot is a pond",
+  "output": "the-pot-is-a-pond.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: derek waters your plant while you are on leave",
+  "outro": "muhehehe",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "189",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "nine days off.",
+      "bg": {
+        "place": "airport"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "happy",
+            "excited",
+            "joyful",
+            "celebrating",
+            "upbeat"
+          ],
+          "clip": "066"
+        }
+      ]
+    },
+    {
+      "action": "\"i will water it\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "DEREK",
+          "size": 0.5,
+          "clip": "184"
+        }
+      ]
+    },
+    {
+      "action": "day 3. a text: \"he is watering it a lot\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "COWORKER",
+          "size": 0.48,
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"tell him it is plastic\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i did not tell him.",
+      "bg": {
+        "place": "restaurant"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "smug",
+            "sly",
+            "plotting",
+            "sneaky",
+            "self-satisfied"
+          ],
+          "clip": "052"
+        }
+      ]
+    },
+    {
+      "action": "day 9. the pot is a pond. a leaf is floating. the leaf is also plastic.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "laughing",
+            "giggling",
+            "amused",
+            "cant-hold-it-in",
+            "lol"
+          ],
+          "pos": 0.3,
+          "clip": "041"
+        },
+        {
+          "name": "DEREK",
+          "size": 0.5,
+          "clip": "184",
+          "pos": 0.7,
+          "flip": true
+        }
+      ]
+    }
+  ]
+}

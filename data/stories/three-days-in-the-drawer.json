@@ -1,0 +1,128 @@
+{
+  "title": "three days in the drawer",
+  "output": "three-days-in-the-drawer.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: a timer goes off from a phone in a drawer",
+  "outro": "the drawer is in the garden now",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "187",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "beeping. from the drawer.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "alert",
+            "noticing",
+            "wary",
+            "listening",
+            "attentive"
+          ],
+          "clip": "136"
+        }
+      ]
+    },
+    {
+      "action": "the old phone from 2019.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "curious",
+            "inspecting",
+            "squinting",
+            "puzzled",
+            "confused"
+          ],
+          "clip": "111"
+        }
+      ]
+    },
+    {
+      "action": "no charger for it and it is at 3%.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "hopeful",
+            "calm",
+            "relieved",
+            "content",
+            "unbothered"
+          ],
+          "clip": "171"
+        }
+      ]
+    },
+    {
+      "action": "\"it will die eventually\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "BROTHER",
+          "size": 0.5,
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"find the charger\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "day three. no charger. it is at 4% now. it is going up.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "bewildered",
+            "uncanny",
+            "spooked",
+            "wtf"
+          ],
+          "clip": "061"
+        }
+      ]
+    }
+  ]
+}

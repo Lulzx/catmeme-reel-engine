@@ -1,0 +1,143 @@
+{
+  "title": "it was in the jacket i was holding",
+  "output": "it-was-in-the-jacket-i-was-holding.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the small cat says check your pocket",
+  "outro": "the shop had not seen them",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "041",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "the keys are gone.",
+      "bg": {
+        "place": "hallway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "alarmed",
+            "searching",
+            "looking-around",
+            "wide-eyed",
+            "nervous"
+          ],
+          "clip": "084"
+        }
+      ]
+    },
+    {
+      "action": "\"pocket\"",
+      "bg": {
+        "place": "hallway"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "left pocket. right pocket. back pocket.",
+      "bg": {
+        "place": "hallway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "busy",
+            "frantic",
+            "scrambling",
+            "searching",
+            "looking-down"
+          ],
+          "clip": "103"
+        }
+      ]
+    },
+    {
+      "action": "\"retrace your steps from the morning\"",
+      "bg": {
+        "place": "hallway"
+      },
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.46,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "tired",
+            "exhausted",
+            "done",
+            "dead-inside",
+            "flat"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "125"
+        }
+      ]
+    },
+    {
+      "action": "i walked back to the shop. 2km.",
+      "bg": {
+        "place": "street"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "walking",
+            "going-somewhere",
+            "determined",
+            "purposeful",
+            "commuting"
+          ],
+          "clip": "026"
+        }
+      ]
+    },
+    {
+      "action": "they were in the jacket. the jacket i was holding. he had pointed at it twice.",
+      "bg": {
+        "place": "street"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "humiliated",
+            "ashamed",
+            "embarrassed",
+            "guilty",
+            "droopy"
+          ],
+          "clip": "134"
+        }
+      ]
+    }
+  ]
+}

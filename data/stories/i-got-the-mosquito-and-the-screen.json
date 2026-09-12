@@ -1,0 +1,163 @@
+{
+ "title": "i got the mosquito and the screen",
+ "output": "i-got-the-mosquito-and-the-screen.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: the mosquito lands on your phone screen",
+ "outro": "the new screen comes tuesday",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "190",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "2am.",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "sleepy",
+      "drowsy",
+      "tired",
+      "dozing",
+      "cozy"
+     ],
+     "clip": "120"
+    }
+   ]
+  },
+  {
+   "action": "the whine.",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "alert",
+      "startled",
+      "wide-eyed",
+      "wary",
+      "spooked"
+     ],
+     "clip": "043"
+    }
+   ]
+  },
+  {
+   "action": "lights on. nothing. lights off. back.",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "furious",
+      "irritated",
+      "building-anger",
+      "fed-up",
+      "annoyed"
+     ],
+     "clip": "027"
+    }
+   ]
+  },
+  {
+   "action": "it landed on my phone screen.",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "stalking",
+      "fixated",
+      "intense",
+      "focused",
+      "creeping"
+     ],
+     "clip": "108"
+    }
+   ]
+  },
+  {
+   "action": "\"now. hit it now. now now now\"",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "SISTER",
+     "size": 0.5,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "tense",
+      "intense",
+      "focused",
+      "alert",
+      "stalking"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "087"
+    }
+   ]
+  },
+  {
+   "action": "\"gently\"",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "i got the mosquito. and the screen. the mosquito is on the crack.",
+   "bg": {
+    "place": "bedroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "heartbroken",
+      "crying",
+      "sobbing",
+      "teary",
+      "sorrow"
+     ],
+     "clip": "094"
+    }
+   ]
+  }
+ ]
+}

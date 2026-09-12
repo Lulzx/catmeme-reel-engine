@@ -1,0 +1,163 @@
+{
+ "title": "i have been the button",
+ "output": "i-have-been-the-button.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: the tv turns on when you sit and off when you stand",
+ "outro": "i stood up. it turned off.",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "188",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "sat down and the tv came on",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "content",
+      "relaxed",
+      "lounging",
+      "cozy",
+      "chill"
+     ],
+     "clip": "174"
+    }
+   ]
+  },
+  {
+   "action": "stood up and it went off",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "startled",
+      "alert",
+      "surprised",
+      "wide-eyed",
+      "confused"
+     ],
+     "clip": "045"
+    }
+   ]
+  },
+  {
+   "action": "sat, on, stood, off",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "squinting",
+      "inspecting",
+      "suspicious",
+      "wary",
+      "doubtful"
+     ],
+     "clip": "141"
+    }
+   ]
+  },
+  {
+   "action": "\"the sensor thing is broken\"",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "SISTER",
+     "size": 0.5,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "doubtful",
+      "skeptical",
+      "unconvinced",
+      "judging",
+      "side-eye"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "054"
+    }
+   ]
+  },
+  {
+   "action": "\"sit slower\"",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "i sat slower, then from the other side",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "cautious",
+      "creeping",
+      "sneaky",
+      "careful",
+      "tentative"
+     ],
+     "clip": "062"
+    }
+   ]
+  },
+  {
+   "action": "the remote was under the cushion. i have been the button for a year.",
+   "bg": {
+    "place": "livingroom"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "humiliated",
+      "embarrassed",
+      "ashamed",
+      "awkward",
+      "guilty"
+     ],
+     "clip": "134"
+    }
+   ]
+  }
+ ]
+}

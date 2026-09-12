@@ -1,0 +1,163 @@
+{
+ "title": "a spoon from before we moved here",
+ "output": "a-spoon-from-before-we-moved-here.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: the coin rolls exactly where the fridge is",
+ "outro": "the fridge does not go back",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "041",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "one coin.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "indifferent",
+      "unbothered",
+      "deadpan",
+      "still",
+      "matter-of-fact"
+     ],
+     "clip": "059"
+    }
+   ]
+  },
+  {
+   "action": "it rolled in a straight line.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "watching",
+      "alert",
+      "staring",
+      "attentive",
+      "fixated"
+     ],
+     "clip": "166"
+    }
+   ]
+  },
+  {
+   "action": "under the fridge.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "annoyed",
+      "unimpressed",
+      "irritated",
+      "bothered",
+      "grumpy"
+     ],
+     "clip": "078"
+    }
+   ]
+  },
+  {
+   "action": "\"leave it. it is one coin\"",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "DAD",
+     "size": 0.48,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "determined",
+      "stubborn",
+      "focused",
+      "intense",
+      "bold"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "108"
+    }
+   ]
+  },
+  {
+   "action": "\"use a ruler\"",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "the ruler is under the fridge now.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "sulking",
+      "pouty",
+      "grumpy",
+      "sour",
+      "moody"
+     ],
+     "clip": "093"
+    }
+   ]
+  },
+  {
+   "action": "i moved the fridge. there was a spoon from before we lived here. the coin was under the spoon.",
+   "bg": {
+    "place": "kitchen"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "shocked",
+      "wide-eyed",
+      "startled",
+      "gasping",
+      "alarmed"
+     ],
+     "clip": "172"
+    }
+   ]
+  }
+ ]
+}

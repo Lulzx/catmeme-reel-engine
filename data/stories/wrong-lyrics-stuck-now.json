@@ -1,0 +1,128 @@
+{
+  "title": "wrong lyrics stuck now",
+  "output": "wrong-lyrics-stuck-now.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: one line of a song you do not know is stuck all day",
+  "outro": "still do not know the song",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "041",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "one line since 7am.",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "annoyed",
+            "zoning-out",
+            "distracted",
+            "bothered",
+            "irritated"
+          ],
+          "clip": "107"
+        }
+      ]
+    },
+    {
+      "action": "i do not know the song.",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "puzzled",
+            "wondering",
+            "questioning",
+            "pensive"
+          ],
+          "clip": "111"
+        }
+      ]
+    },
+    {
+      "action": "\"hum it. i will get it.\"",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "COWORKER",
+          "size": 0.5,
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i hummed and she did not get it.",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "awkward",
+            "embarrassed",
+            "shy",
+            "sheepish",
+            "flustered"
+          ],
+          "clip": "023"
+        }
+      ]
+    },
+    {
+      "action": "\"sing it in the lift\"",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i sang it. the man beside me finished it. wrong words. those are stuck now.",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "rage",
+            "furious",
+            "angry",
+            "glaring",
+            "scowling"
+          ],
+          "clip": "027"
+        }
+      ]
+    }
+  ]
+}

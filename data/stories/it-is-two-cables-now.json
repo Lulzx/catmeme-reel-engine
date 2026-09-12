@@ -1,0 +1,163 @@
+{
+ "title": "it is two cables now",
+ "output": "it-is-two-cables-now.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: the drawer has one cable and it is tangled",
+ "outro": "neither one fits the phone",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "190",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "one drawer.",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "curious",
+      "looking-down",
+      "inspecting",
+      "calm",
+      "investigating"
+     ],
+     "clip": "074"
+    }
+   ]
+  },
+  {
+   "action": "one cable.",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "matter-of-fact",
+      "calm",
+      "noticing",
+      "attentive",
+      "still"
+     ],
+     "clip": "153"
+    }
+   ]
+  },
+  {
+   "action": "tied to nothing, in a knot",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "confused",
+      "puzzled",
+      "squinting",
+      "suspicious",
+      "wondering"
+     ],
+     "clip": "111"
+    }
+   ]
+  },
+  {
+   "action": "\"just pull any end\"",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "BROTHER",
+     "size": 0.5,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "irritated",
+      "annoyed",
+      "unimpressed",
+      "grumpy",
+      "bothered"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "078"
+    }
+   ]
+  },
+  {
+   "action": "\"find the other end\"",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "one end became two ends became four",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "frantic",
+      "alarmed",
+      "panicked",
+      "scrambling",
+      "wide-eyed"
+     ],
+     "clip": "172"
+    }
+   ]
+  },
+  {
+   "action": "i untangled it. it is two cables now.",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "stunned",
+      "shocked",
+      "gasping",
+      "mouth-open",
+      "disbelief"
+     ],
+     "clip": "002"
+    }
+   ]
+  }
+ ]
+}

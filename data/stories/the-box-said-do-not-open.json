@@ -1,0 +1,143 @@
+{
+  "title": "the box said do not open",
+  "output": "the-box-said-do-not-open.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: a box arrives and nobody ordered it",
+  "outro": "follow for part 2",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "188",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "a box. our address. no name.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "curious",
+            "inspecting",
+            "sniffing",
+            "investigating",
+            "interested"
+          ],
+          "clip": "122"
+        }
+      ]
+    },
+    {
+      "action": "it is heavy.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "struggling",
+            "lifted",
+            "straining",
+            "surprised",
+            "wide-eyed"
+          ],
+          "clip": "165"
+        }
+      ]
+    },
+    {
+      "action": "\"i did not order anything, did you order, who ordered\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ROOMMATE",
+          "size": 0.46,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "suspicious",
+            "wary",
+            "side-eye",
+            "doubtful",
+            "judging"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "141"
+        }
+      ]
+    },
+    {
+      "action": "\"shake it\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "it made a sound. like a coin. in a cup.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "alert",
+            "attentive",
+            "startled",
+            "spooked",
+            "tense"
+          ],
+          "clip": "043"
+        }
+      ]
+    },
+    {
+      "action": "it said do not open. inside was a box. it said do not open. part 2 at 10pm.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "mischievous",
+            "sneaky",
+            "plotting",
+            "scheming",
+            "sly"
+          ],
+          "clip": "052"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "title": "i am still saying i checked",
+  "output": "i-am-still-saying-i-checked.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: nothing turns on and the small cat asks if it is plugged in",
+  "outro": "i had checked",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "the tv is dead.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "staring",
+            "blank",
+            "confused",
+            "puzzled",
+            "wondering"
+          ],
+          "clip": "111"
+        }
+      ]
+    },
+    {
+      "action": "\"it is the board. it is always the board\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.5,
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "\"is it plugged in\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "\"yes\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "annoyed",
+            "irritated",
+            "dismissive",
+            "indignant",
+            "bothered"
+          ],
+          "clip": "009"
+        }
+      ]
+    },
+    {
+      "action": "i checked the remote. the batteries. the fuse. the board.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "working",
+            "busy",
+            "focused",
+            "determined",
+            "inspecting"
+          ],
+          "clip": "189"
+        }
+      ]
+    },
+    {
+      "action": "it was not plugged in. he plugged it in. i am still saying i checked.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "ashamed",
+            "embarrassed",
+            "sulking",
+            "pouty",
+            "sour"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "093"
+        }
+      ]
+    }
+  ]
+}

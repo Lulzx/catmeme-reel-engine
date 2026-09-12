@@ -1,0 +1,128 @@
+{
+  "title": "the part is in the other building",
+  "output": "the-part-is-in-the-other-building.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the plumber said two minutes",
+  "outro": "two minutes. since tuesday.",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "191",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "the tap drips. tuesday.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "annoyed",
+            "irritated",
+            "grumpy",
+            "unimpressed",
+            "bothered"
+          ],
+          "clip": "168"
+        }
+      ]
+    },
+    {
+      "action": "\"two minutes, he is very good, two minutes\"",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "LANDLORD",
+          "size": 0.5,
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "it is 4pm.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "waiting",
+            "patient",
+            "bored",
+            "still",
+            "expectant"
+          ],
+          "clip": "016"
+        }
+      ]
+    },
+    {
+      "action": "\"put a bucket\"",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "he came at 7. he looked at it. he left.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "bewildered",
+            "puzzled",
+            "head-tilt",
+            "questioning"
+          ],
+          "clip": "111"
+        }
+      ]
+    },
+    {
+      "action": "he needs a part. the part is in the other building. so is he. the bucket is full.",
+      "bg": {
+        "place": "bathroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "side-eye",
+            "judging",
+            "skeptical",
+            "unconvinced",
+            "judgy"
+          ],
+          "clip": "141"
+        }
+      ]
+    }
+  ]
+}

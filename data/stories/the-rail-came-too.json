@@ -1,0 +1,143 @@
+{
+  "title": "the rail came too",
+  "output": "the-rail-came-too.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: one hanger takes every hanger with it",
+  "outro": "the wardrobe stays open now",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "one shirt.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "matter-of-fact",
+            "noticing",
+            "calm",
+            "indifferent",
+            "unbothered"
+          ],
+          "clip": "059"
+        }
+      ]
+    },
+    {
+      "action": "pull. eleven hangers.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "startled",
+            "shocked",
+            "wide-eyed",
+            "alarmed",
+            "surprised"
+          ],
+          "clip": "025"
+        }
+      ]
+    },
+    {
+      "action": "\"take them out one by one\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "MOM",
+          "size": 0.5,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "annoyed",
+            "impatient",
+            "irritated",
+            "grumpy",
+            "fed-up"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "115"
+        }
+      ]
+    },
+    {
+      "action": "\"lift. do not pull.\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i lifted.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "determined",
+            "focused",
+            "careful",
+            "intense",
+            "bold"
+          ],
+          "clip": "108"
+        }
+      ]
+    },
+    {
+      "action": "the rail came too. the shelf came too. i wore yesterday's shirt.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "dead-inside",
+            "broken",
+            "done",
+            "exhausted",
+            "flat"
+          ],
+          "clip": "125"
+        }
+      ]
+    }
+  ]
+}

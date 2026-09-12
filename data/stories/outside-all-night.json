@@ -1,0 +1,163 @@
+{
+ "title": "outside all night",
+ "output": "outside-all-night.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: you searched the whole house for the key",
+ "outro": "nothing was taken. which is worse.",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "186",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "jacket, no",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "looking-around",
+      "searching",
+      "curious",
+      "alert",
+      "busy"
+     ],
+     "clip": "136"
+    }
+   ]
+  },
+  {
+   "action": "bag, no. yesterday jeans, no",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "frantic",
+      "scrambling",
+      "struggling",
+      "panicked",
+      "alarmed"
+     ],
+     "clip": "103"
+    }
+   ]
+  },
+  {
+   "action": "the key bowl is empty",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "staring",
+      "blank",
+      "still",
+      "unblinking",
+      "vacant"
+     ],
+     "clip": "113"
+    }
+   ]
+  },
+  {
+   "action": "\"retrace your steps from lunch\"",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ROOMMATE",
+     "size": 0.5,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "annoyed",
+      "irritated",
+      "bothered",
+      "unimpressed",
+      "grumpy"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "080"
+    }
+   ]
+  },
+  {
+   "action": "\"check the door\"",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "it was in the front door. outside. all night.",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "terrified",
+      "spooked",
+      "scared",
+      "wide-eyed",
+      "uneasy"
+     ],
+     "clip": "043"
+    }
+   ]
+  },
+  {
+   "action": "the roommate thanked me for leaving it there for her.",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "dead-inside",
+      "broken",
+      "empty",
+      "vacant",
+      "traumatized"
+     ],
+     "clip": "047"
+    }
+   ]
+  }
+ ]
+}

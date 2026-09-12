@@ -1,0 +1,151 @@
+{
+  "title": "he was under it",
+  "output": "he-was-under-it.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the small cat said take the umbrella",
+  "outro": "he did not share",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "041",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "8am. no clouds.",
+      "bg": {
+        "place": "street"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "content",
+            "cheerful",
+            "relaxed",
+            "happy",
+            "upbeat"
+          ],
+          "clip": "042"
+        }
+      ]
+    },
+    {
+      "action": "\"take the umbrella\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "\"it never rains in september\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.46,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confident",
+            "cocky",
+            "unbothered",
+            "nonchalant",
+            "carefree"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i left it.",
+      "bg": {
+        "place": "street"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "walking",
+            "going-somewhere",
+            "strutting",
+            "purposeful",
+            "cool"
+          ],
+          "clip": "144"
+        }
+      ]
+    },
+    {
+      "action": "200 metres. one cloud.",
+      "bg": {
+        "place": "street"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "alert",
+            "wary",
+            "noticing",
+            "looking-up",
+            "suspicious"
+          ],
+          "clip": "083"
+        }
+      ]
+    },
+    {
+      "action": "it rained on me. only me. he was under the umbrella. he had taken it.",
+      "bg": {
+        "place": "street"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "soaked",
+            "wet",
+            "struggling",
+            "distressed",
+            "frazzled"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "103"
+        }
+      ]
+    }
+  ]
+}

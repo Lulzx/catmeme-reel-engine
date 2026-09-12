@@ -1,0 +1,163 @@
+{
+ "title": "the boss was on mute",
+ "output": "the-boss-was-on-mute.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: you gave the entire update on mute",
+ "outro": "nobody heard either of us",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "190",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "my turn. four minutes.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "confident",
+      "presenting",
+      "cheerful",
+      "proud",
+      "talking"
+     ],
+     "clip": "036"
+    }
+   ]
+  },
+  {
+   "action": "everyone nodded.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "pleased",
+      "content",
+      "satisfied",
+      "smug",
+      "happy"
+     ],
+     "clip": "190"
+    }
+   ]
+  },
+  {
+   "action": "\"you are on mute\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "TEAMMATE",
+     "size": 0.48,
+     "clip": "182"
+    }
+   ]
+  },
+  {
+   "action": "the nodding was for something else.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "embarrassed",
+      "awkward",
+      "humiliated",
+      "shy",
+      "flustered"
+     ],
+     "clip": "023"
+    }
+   ]
+  },
+  {
+   "action": "\"do it again, shorter\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "i did it again. mic on.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "determined",
+      "focused",
+      "intense",
+      "working",
+      "serious"
+     ],
+     "clip": "187"
+    }
+   ]
+  },
+  {
+   "action": "the boss said thanks on mute.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "dead-inside",
+      "blank",
+      "stone-faced",
+      "vacant",
+      "empty"
+     ],
+     "pos": 0.3,
+     "clip": "113"
+    },
+    {
+     "name": "BOSS",
+     "size": 0.5,
+     "want": [
+      "mumbling",
+      "chewing",
+      "deadpan",
+      "staring",
+      "calm"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "157"
+    }
+   ]
+  }
+ ]
+}

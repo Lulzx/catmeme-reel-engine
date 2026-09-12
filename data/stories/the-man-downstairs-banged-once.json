@@ -1,0 +1,148 @@
+{
+ "title": "the man downstairs banged once",
+ "output": "the-man-downstairs-banged-once.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: you count the stairs in the dark and there is one fewer",
+ "outro": "it is twelve. i counted again with the light on.",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "190",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "twelve stairs and i know it.",
+   "bg": {
+    "place": "hallway"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "confident",
+      "cocky",
+      "smug",
+      "proud",
+      "self-satisfied"
+     ],
+     "clip": "020"
+    }
+   ]
+  },
+  {
+   "action": "lights off. one. two. three.",
+   "bg": {
+    "place": "hallway"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "cautious",
+      "careful",
+      "tentative",
+      "creeping",
+      "sneaking"
+     ],
+     "clip": "169"
+    }
+   ]
+  },
+  {
+   "action": "\"it is thirteen\"",
+   "bg": {
+    "place": "hallway"
+   },
+   "cast": [
+    {
+     "name": "ROOMMATE",
+     "size": 0.5,
+     "clip": "182"
+    }
+   ]
+  },
+  {
+   "action": "\"use the wall\"",
+   "bg": {
+    "place": "hallway"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "i used the wall until the wall ended.",
+   "bg": {
+    "place": "hallway"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "alarmed",
+      "startled",
+      "frantic",
+      "scrambling",
+      "flailing"
+     ],
+     "clip": "165"
+    }
+   ]
+  },
+  {
+   "action": "i stepped on thirteen. the floor was closer than thirteen.",
+   "bg": {
+    "place": "hallway"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "shocked",
+      "stunned",
+      "dazed",
+      "wide-eyed",
+      "frozen"
+     ],
+     "clip": "176"
+    }
+   ]
+  },
+  {
+   "action": "the man downstairs banged once.",
+   "bg": {
+    "place": "hallway"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "guilty",
+      "apologetic",
+      "sorry",
+      "ashamed",
+      "sheepish"
+     ],
+     "clip": "134"
+    }
+   ]
+  }
+ ]
+}

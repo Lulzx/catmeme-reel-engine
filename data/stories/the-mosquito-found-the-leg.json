@@ -1,0 +1,143 @@
+{
+  "title": "the mosquito found the leg",
+  "output": "the-mosquito-found-the-leg.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: too hot for the blanket and too cold without it",
+  "outro": "the leg is still out",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "041",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "1am.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "tired",
+            "sleepy",
+            "restless",
+            "annoyed",
+            "sweaty"
+          ],
+          "clip": "005"
+        }
+      ]
+    },
+    {
+      "action": "blanket on is hot and off is cold.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "annoyed",
+            "irritated",
+            "grumpy",
+            "bothered",
+            "fed-up"
+          ],
+          "clip": "129"
+        }
+      ]
+    },
+    {
+      "action": "\"stop moving\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "PARTNER",
+          "size": 0.5,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "awkward",
+            "guilty",
+            "sheepish",
+            "innocent",
+            "shy"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "099"
+        }
+      ]
+    },
+    {
+      "action": "\"one leg out. one arm too.\"",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "one leg out.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "content",
+            "blissful",
+            "relaxed",
+            "cozy",
+            "satisfied"
+          ],
+          "clip": "101"
+        }
+      ]
+    },
+    {
+      "action": "the mosquito found the leg. everything is under now. it is hot.",
+      "bg": {
+        "place": "bedroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "dead-inside",
+            "broken",
+            "exhausted",
+            "done",
+            "flat"
+          ],
+          "clip": "125"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "title": "where do your bags live",
+  "output": "where-do-your-bags-live.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the bag full of bags under the sink",
+  "outro": "the big bag is back",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "188",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "under the sink. one bag.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "curious",
+            "inspecting",
+            "peeking",
+            "nosy",
+            "investigating"
+          ],
+          "clip": "122"
+        }
+      ]
+    },
+    {
+      "action": "inside it. forty bags.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "shocked",
+            "wide-eyed",
+            "gasping",
+            "surprised",
+            "mouth-open"
+          ],
+          "clip": "172"
+        }
+      ]
+    },
+    {
+      "action": "i threw the whole thing out.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "determined",
+            "bold",
+            "proud",
+            "confident",
+            "satisfied"
+          ],
+          "clip": "049"
+        }
+      ]
+    },
+    {
+      "action": "\"where are the bags\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "MOM",
+          "size": 0.46,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "innocent",
+            "shy",
+            "guilty",
+            "awkward",
+            "apologetic"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "134"
+        }
+      ]
+    },
+    {
+      "action": "\"they come back on their own\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "6pm. six bags under the sink. inside a bag. where do yours live?",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "disbelief",
+            "dazed",
+            "vacant",
+            "bewildered",
+            "staring"
+          ],
+          "clip": "113"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "title": "the new loaf was behind them",
+  "output": "the-new-loaf-was-behind-them.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: only the two end slices of the bread are left",
+  "outro": "it was also sliced",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "two slices left. both ends.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "calm",
+            "noticing",
+            "curious",
+            "inspecting",
+            "matter-of-fact"
+          ],
+          "clip": "013"
+        }
+      ]
+    },
+    {
+      "action": "they have been facing each other since tuesday.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "staring",
+            "unimpressed",
+            "deadpan",
+            "bored",
+            "flat"
+          ],
+          "clip": "096"
+        }
+      ]
+    },
+    {
+      "action": "\"the ends are the best bit\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "BROTHER",
+          "size": 0.48,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "skeptical",
+            "side-eye",
+            "judging",
+            "unconvinced",
+            "doubtful"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "141"
+        }
+      ]
+    },
+    {
+      "action": "\"toast them. you cannot tell\"",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i could tell.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "disgusted",
+            "grossed-out",
+            "chewing",
+            "unamused",
+            "displeased"
+          ],
+          "clip": "006"
+        }
+      ]
+    },
+    {
+      "action": "i ate it. the new loaf was behind the bag the whole time.",
+      "bg": {
+        "place": "kitchen"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "dead-inside",
+            "broken",
+            "empty",
+            "done",
+            "checked-out"
+          ],
+          "clip": "125"
+        }
+      ]
+    }
+  ]
+}

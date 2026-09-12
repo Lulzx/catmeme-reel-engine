@@ -1,0 +1,158 @@
+{
+  "title": "the trolley stopped at his car",
+  "output": "the-trolley-stopped-at-his-car.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: you let go of the trolley on a slope for one second",
+  "outro": "he did not help",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "191",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "slight slope.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "calm",
+            "relaxed",
+            "content",
+            "busy",
+            "focused"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "i let go to open the boot.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "busy",
+            "working",
+            "focused",
+            "distracted",
+            "absorbed"
+          ],
+          "clip": "178"
+        }
+      ]
+    },
+    {
+      "action": "\"trolley! trolley!\"",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "STRANGER",
+          "size": 0.48,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "alarmed",
+            "startled",
+            "shocked",
+            "wide-eyed",
+            "panicked"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "172"
+        }
+      ]
+    },
+    {
+      "action": "\"run diagonally\"",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "it turned when i ran.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "frantic",
+            "scrambling",
+            "running",
+            "flailing",
+            "panicked"
+          ],
+          "clip": "165"
+        }
+      ]
+    },
+    {
+      "action": "it stopped at the car of the man who watched the whole thing. he was still watching.",
+      "bg": {
+        "place": "shop"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "embarrassed",
+            "awkward",
+            "humiliated",
+            "ashamed",
+            "shy"
+          ],
+          "pos": 0.3,
+          "clip": "023"
+        },
+        {
+          "name": "MAN",
+          "size": 0.48,
+          "want": [
+            "unimpressed",
+            "grumpy",
+            "glaring",
+            "staring",
+            "stern"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "161"
+        }
+      ]
+    }
+  ]
+}

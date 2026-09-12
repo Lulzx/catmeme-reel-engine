@@ -1,0 +1,143 @@
+{
+  "title": "the alarm button played music",
+  "output": "the-alarm-button-played-music.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the lift stops between floors",
+  "outro": "follow for part 2",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "190",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "floor three and a half. a jolt.",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "startled",
+            "alarmed",
+            "jumpy",
+            "wide-eyed",
+            "spooked"
+          ],
+          "clip": "043"
+        }
+      ]
+    },
+    {
+      "action": "it stopped.",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "still",
+            "frozen",
+            "staring",
+            "tense",
+            "quiet"
+          ],
+          "clip": "161"
+        }
+      ]
+    },
+    {
+      "action": "\"okay so it stopped, we are stopped, it has stopped\"",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "NEIGHBOR",
+          "size": 0.46,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "annoyed",
+            "irritated",
+            "bothered",
+            "glaring",
+            "unimpressed"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "027"
+        }
+      ]
+    },
+    {
+      "action": "\"press the alarm\"",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i pressed the alarm.",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "hopeful",
+            "expectant",
+            "reaching",
+            "pawing",
+            "determined"
+          ],
+          "clip": "145"
+        }
+      ]
+    },
+    {
+      "action": "it played music. the neighbour started singing. part 2 at 10pm.",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "disgusted",
+            "grossed-out",
+            "ew",
+            "displeased",
+            "scowling"
+          ],
+          "clip": "006"
+        }
+      ]
+    }
+  ]
+}

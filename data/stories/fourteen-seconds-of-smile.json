@@ -1,0 +1,163 @@
+{
+ "title": "fourteen seconds of smile",
+ "output": "fourteen-seconds-of-smile.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: you take a photo and it was a video of you taking a photo",
+ "outro": "40 views in the group",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "191",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "group photo with eleven people.",
+   "bg": {
+    "place": "park"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "cheerful",
+      "happy",
+      "excited",
+      "proud",
+      "upbeat"
+     ],
+     "clip": "110"
+    }
+   ]
+  },
+  {
+   "action": "\"smile\"",
+   "bg": {
+    "place": "park"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "focused",
+      "presenting",
+      "performing",
+      "confident",
+      "announcing"
+     ],
+     "clip": "160"
+    }
+   ]
+  },
+  {
+   "action": "click and nothing.",
+   "bg": {
+    "place": "park"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "confused",
+      "puzzled",
+      "squinting",
+      "inspecting",
+      "doubtful"
+     ],
+     "clip": "185"
+    }
+   ]
+  },
+  {
+   "action": "\"did you get it? did you get it?\"",
+   "bg": {
+    "place": "park"
+   },
+   "cast": [
+    {
+     "name": "FRIEND",
+     "size": 0.5,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "nervous",
+      "awkward",
+      "flustered",
+      "tense",
+      "uneasy"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "023"
+    }
+   ]
+  },
+  {
+   "action": "\"check the button\"",
+   "bg": {
+    "place": "park"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "it was on video. fourteen seconds. me saying smile eleven times.",
+   "bg": {
+    "place": "park"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "humiliated",
+      "embarrassed",
+      "ashamed",
+      "awkward",
+      "shy"
+     ],
+     "clip": "062"
+    }
+   ]
+  },
+  {
+   "action": "everyone kept the video. nobody kept the photo.",
+   "bg": {
+    "place": "park"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "sulking",
+      "pouty",
+      "sulky",
+      "grumpy",
+      "sour"
+     ],
+     "clip": "093"
+    }
+   ]
+  }
+ ]
+}

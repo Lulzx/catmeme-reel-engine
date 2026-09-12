@@ -1,0 +1,142 @@
+{
+ "title": "derek booked the other room",
+ "output": "derek-booked-the-other-room.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: derek is in the meeting room you booked",
+ "outro": "he was nearly done",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "190",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "i booked it for 2.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "ready",
+      "calm",
+      "waiting",
+      "confident",
+      "patient"
+     ],
+     "clip": "016"
+    }
+   ]
+  },
+  {
+   "action": "derek is inside with his feet up.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "DEREK",
+     "size": 0.5,
+     "clip": "184"
+    }
+   ]
+  },
+  {
+   "action": "\"i am nearly done\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "DEREK",
+     "size": 0.5,
+     "clip": "184"
+    }
+   ]
+  },
+  {
+   "action": "\"just take the small room\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "COWORKER",
+     "size": 0.48,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "annoyed",
+      "fed-up",
+      "irritated",
+      "unimpressed",
+      "bothered"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "078"
+    }
+   ]
+  },
+  {
+   "action": "\"show him the booking\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "i showed him and he left.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "proud",
+      "victory",
+      "celebrating",
+      "smug",
+      "pleased"
+     ],
+     "clip": "190"
+    }
+   ]
+  },
+  {
+   "action": "he had booked the small room. from 2:15. he walked in at 2:15.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "DEREK",
+     "size": 0.5,
+     "clip": "184"
+    }
+   ]
+  }
+ ]
+}

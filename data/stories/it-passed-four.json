@@ -1,0 +1,143 @@
+{
+  "title": "it passed four",
+  "output": "it-passed-four.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: you press 4 and the lift goes to the basement first",
+  "outro": "the stairs go to the basement",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "188",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "pressed 4.",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "calm",
+            "relaxed",
+            "waiting",
+            "patient",
+            "content"
+          ],
+          "clip": "182"
+        }
+      ]
+    },
+    {
+      "action": "it went down.",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "puzzled",
+            "head-tilt",
+            "wondering",
+            "huh"
+          ],
+          "clip": "111"
+        }
+      ]
+    },
+    {
+      "action": "basement. nobody there. the door opened anyway.",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "wary",
+            "cautious",
+            "uneasy",
+            "spooked",
+            "tense"
+          ],
+          "clip": "169"
+        }
+      ]
+    },
+    {
+      "action": "\"it does that, it does that, just wait\"",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "COWORKER",
+          "size": 0.48,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "annoyed",
+            "unimpressed",
+            "side-eye",
+            "judging",
+            "bothered"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "069"
+        }
+      ]
+    },
+    {
+      "action": "\"press it twice\"",
+      "bg": {
+        "place": "lift"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "it went up. it passed 4. it opened on 7. i took the stairs.",
+      "bg": {
+        "place": "hallway"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "rage",
+            "furious",
+            "angry",
+            "fed-up",
+            "outburst"
+          ],
+          "clip": "180"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "title": "the boss replied as discussed",
+  "output": "the-boss-replied-as-discussed.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the follow-up email sent before the email",
+  "outro": "the meeting is now on tuesday",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "185",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "i wrote the email at 9:10.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "working",
+            "typing",
+            "focused",
+            "busy",
+            "productive"
+          ],
+          "clip": "033"
+        }
+      ]
+    },
+    {
+      "action": "i wrote the follow-up at 9:12.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "proud",
+            "confident",
+            "content",
+            "self-satisfied",
+            "smug"
+          ],
+          "clip": "020"
+        }
+      ]
+    },
+    {
+      "action": "the follow-up sent first.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "shocked",
+            "wide-eyed",
+            "gasping",
+            "alarmed",
+            "frozen"
+          ],
+          "clip": "172"
+        }
+      ]
+    },
+    {
+      "action": "\"recall it, recall it, recall it\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "COWORKER",
+          "size": 0.48,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "panicked",
+            "frantic",
+            "scrambling",
+            "nervous",
+            "flustered"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "103"
+        }
+      ]
+    },
+    {
+      "action": "\"send a third one explaining\"",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "the boss replied to the follow-up only. \"as discussed\". we have never discussed.",
+      "bg": {
+        "place": "office"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "puzzled",
+            "bewildered",
+            "head-tilt",
+            "huh"
+          ],
+          "clip": "004"
+        }
+      ]
+    }
+  ]
+}

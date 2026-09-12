@@ -1,0 +1,178 @@
+{
+ "title": "now we share",
+ "output": "now-we-share.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: you drink from the bottle on your desk that is not yours",
+ "outro": "he refilled it for me",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "187",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "hour two of the call.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "tired",
+      "exhausted",
+      "thirsty",
+      "drowsy",
+      "bored"
+     ],
+     "clip": "125"
+    }
+   ]
+  },
+  {
+   "action": "i drank half the bottle on my desk.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "content",
+      "relaxed",
+      "satisfied",
+      "drinking",
+      "blissful"
+     ],
+     "clip": "128"
+    }
+   ]
+  },
+  {
+   "action": "mine was in my bag.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "startled",
+      "wide-eyed",
+      "shocked",
+      "frozen",
+      "gasping"
+     ],
+     "clip": "172"
+    }
+   ]
+  },
+  {
+   "action": "\"that one is his\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "COWORKER",
+     "size": 0.48,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "guilty",
+      "nervous",
+      "awkward",
+      "sorry",
+      "uneasy"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "134"
+    }
+   ]
+  },
+  {
+   "action": "\"fill it back up\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "he came back and drank from it.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "frozen",
+      "still",
+      "stiff",
+      "staring",
+      "unblinking"
+     ],
+     "clip": "161"
+    }
+   ]
+  },
+  {
+   "action": "now we share. he wrote \"ours\" on it. we have never spoken.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "awkward",
+      "shy",
+      "tentative",
+      "smiling",
+      "soft"
+     ],
+     "pos": 0.3,
+     "clip": "062"
+    },
+    {
+     "name": "HIM",
+     "size": 0.5,
+     "want": [
+      "deadpan",
+      "staring",
+      "unimpressed",
+      "stone-faced",
+      "judging"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "155"
+    }
+   ]
+  }
+ ]
+}

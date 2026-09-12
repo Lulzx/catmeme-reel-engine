@@ -1,0 +1,143 @@
+{
+  "title": "still not my hoodie",
+  "output": "still-not-my-hoodie.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the borrowed hoodie has been yours for three years",
+  "outro": "three years and one day",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "191",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "one cold night. 2023.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "cozy",
+            "content",
+            "relaxed",
+            "comfy",
+            "warm"
+          ],
+          "clip": "048"
+        }
+      ]
+    },
+    {
+      "action": "\"you still have my hoodie\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "FRIEND",
+          "size": 0.46,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "guilty",
+            "apologetic",
+            "awkward",
+            "innocent",
+            "shy"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "134"
+        }
+      ]
+    },
+    {
+      "action": "i said which one.",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "nonchalant",
+            "aloof",
+            "unbothered",
+            "dismissive",
+            "blas\u00e9"
+          ],
+          "clip": "024"
+        }
+      ]
+    },
+    {
+      "action": "\"wash it and give it back\"",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i washed it. i walked it over.",
+      "bg": {
+        "place": "street"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "walking",
+            "going-somewhere",
+            "commuting",
+            "purposeful",
+            "determined"
+          ],
+          "clip": "007"
+        }
+      ]
+    },
+    {
+      "action": "i gave it back. she lent it to me for the walk home. what is still not yours?",
+      "bg": {
+        "place": "home"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "smug",
+            "self-satisfied",
+            "cocky",
+            "sly",
+            "pleased"
+          ],
+          "clip": "047"
+        }
+      ]
+    }
+  ]
+}

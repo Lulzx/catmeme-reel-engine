@@ -1,0 +1,158 @@
+{
+  "title": "the speaker thanked me alone",
+  "output": "the-speaker-thanked-me-alone.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: you clap when nobody else claps",
+  "outro": "i clapped at the end too. still alone.",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "190",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "i clapped.",
+      "bg": {
+        "place": "stage"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "cheerful",
+            "happy",
+            "proud",
+            "celebrating",
+            "pleased"
+          ],
+          "clip": "190"
+        }
+      ]
+    },
+    {
+      "action": "nobody else did. 200 people.",
+      "bg": {
+        "place": "stage"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "frozen",
+            "wide-eyed",
+            "still",
+            "stunned",
+            "shocked"
+          ],
+          "clip": "176"
+        }
+      ]
+    },
+    {
+      "action": "\"it was not over\"",
+      "bg": {
+        "place": "stage"
+      },
+      "cast": [
+        {
+          "name": "COWORKER",
+          "size": 0.48,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "nervous",
+            "awkward",
+            "uneasy",
+            "tense",
+            "embarrassed"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "023"
+        }
+      ]
+    },
+    {
+      "action": "\"turn it into scratching your arm\"",
+      "bg": {
+        "place": "stage"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "i scratched my arm loudly.",
+      "bg": {
+        "place": "stage"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "grooming",
+            "awkward",
+            "busy",
+            "scratching",
+            "distracted"
+          ],
+          "clip": "163"
+        }
+      ]
+    },
+    {
+      "action": "the speaker pointed at me and said thank you. then went on for 40 minutes.",
+      "bg": {
+        "place": "stage"
+      },
+      "cast": [
+        {
+          "name": "SPEAKER",
+          "size": 0.48,
+          "want": [
+            "presenting",
+            "proud",
+            "announcing",
+            "performing",
+            "confident"
+          ],
+          "pos": 0.3,
+          "clip": "018"
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "humiliated",
+            "ashamed",
+            "embarrassed",
+            "sulking",
+            "droopy"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "134"
+        }
+      ]
+    }
+  ]
+}

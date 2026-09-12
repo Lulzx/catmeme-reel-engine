@@ -1,0 +1,143 @@
+{
+  "title": "i was awake for that one",
+  "output": "i-was-awake-for-that-one.mp4",
+  "canvas": {
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "max_beat_dur": 3.4,
+  "baseline": 0.9,
+  "pov": "POV: the tv asks if you are still watching and you were not",
+  "outro": "episode 9 apparently",
+  "outro_cast": [
+    {
+      "name": "",
+      "clip": "186",
+      "size": 0.44
+    }
+  ],
+  "beats": [
+    {
+      "action": "11pm. episode 4.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "sleepy",
+            "drowsy",
+            "dozing",
+            "tired",
+            "relaxed"
+          ],
+          "clip": "126"
+        }
+      ]
+    },
+    {
+      "action": "are you still watching.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "startled",
+            "confused",
+            "dazed",
+            "wide-eyed",
+            "alert"
+          ],
+          "clip": "112"
+        }
+      ]
+    },
+    {
+      "action": "i pressed yes.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "unbothered",
+            "nonchalant",
+            "aloof",
+            "dismissive",
+            "calm"
+          ],
+          "clip": "024"
+        }
+      ]
+    },
+    {
+      "action": "\"you are not watching\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "SISTER",
+          "size": 0.5,
+          "clip": "182",
+          "pos": 0.3
+        },
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "defensive",
+            "indignant",
+            "protesting",
+            "reluctant",
+            "irritated"
+          ],
+          "pos": 0.7,
+          "flip": true,
+          "clip": "044"
+        }
+      ]
+    },
+    {
+      "action": "\"press no and sleep\"",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "SMALL CAT",
+          "size": 0.46,
+          "clip": "183"
+        }
+      ]
+    },
+    {
+      "action": "it asked again at 4am. i was awake for that one. i know nobody in this show.",
+      "bg": {
+        "place": "livingroom"
+      },
+      "cast": [
+        {
+          "name": "ME",
+          "size": 0.5,
+          "want": [
+            "confused",
+            "puzzled",
+            "bewildered",
+            "clueless",
+            "huh"
+          ],
+          "clip": "185"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+ "title": "the picture is still crooked",
+ "output": "the-picture-is-still-crooked.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: you are the neighbour who is drilling",
+ "outro": "seven holes. one picture.",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "189",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "sunday. 8am.",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "cheerful",
+      "eager",
+      "ready",
+      "upbeat",
+      "proud"
+     ],
+     "clip": "137"
+    }
+   ]
+  },
+  {
+   "action": "the first hole was too far left.",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "focused",
+      "working",
+      "busy",
+      "fixing",
+      "handy"
+     ],
+     "clip": "092"
+    }
+   ]
+  },
+  {
+   "action": "\"it is crooked\"",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "WIFE",
+     "size": 0.46,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "annoyed",
+      "irritated",
+      "glaring",
+      "bothered",
+      "stern"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "027"
+    }
+   ]
+  },
+  {
+   "action": "hole five.",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "intense",
+      "determined",
+      "serious",
+      "fixated",
+      "focused"
+     ],
+     "clip": "108"
+    }
+   ]
+  },
+  {
+   "action": "\"they will knock soon\"",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "a knock. i stopped. i waited. they left.",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "sneaky",
+      "still",
+      "quiet",
+      "cautious",
+      "peeking"
+     ],
+     "clip": "071"
+    }
+   ]
+  },
+  {
+   "action": "it is up. it is crooked. i will fix it tomorrow. at 8.",
+   "bg": {
+    "place": "home"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "smug",
+      "self-satisfied",
+      "content",
+      "pleased",
+      "cocky"
+     ],
+     "clip": "047"
+    }
+   ]
+  }
+ ]
+}

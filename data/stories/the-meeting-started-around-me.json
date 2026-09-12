@@ -1,0 +1,178 @@
+{
+ "title": "the meeting started around me",
+ "output": "the-meeting-started-around-me.mp4",
+ "canvas": {
+  "w": 1080,
+  "h": 1920,
+  "fps": 30
+ },
+ "max_beat_dur": 3.0,
+ "baseline": 0.9,
+ "pov": "POV: someone took your chair and left the broken one",
+ "outro": "they asked for my update",
+ "outro_cast": [
+  {
+   "name": "",
+   "clip": "190",
+   "size": 0.44
+  }
+ ],
+ "beats": [
+  {
+   "action": "9:02. my chair is gone.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "noticing",
+      "alert",
+      "looking-around",
+      "curious",
+      "wary"
+     ],
+     "clip": "169"
+    }
+   ]
+  },
+  {
+   "action": "a chair with three wheels is in its place.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "inspecting",
+      "unimpressed",
+      "squinting",
+      "suspicious",
+      "judging"
+     ],
+     "clip": "141"
+    }
+   ]
+  },
+  {
+   "action": "\"all chairs are company chairs\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "COWORKER",
+     "size": 0.48,
+     "clip": "182",
+     "pos": 0.3
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "annoyed",
+      "irritated",
+      "glaring",
+      "grumpy",
+      "bothered"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "129"
+    }
+   ]
+  },
+  {
+   "action": "\"take one from the meeting room\"",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "SMALL CAT",
+     "size": 0.46,
+     "clip": "183"
+    }
+   ]
+  },
+  {
+   "action": "i took the good one.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "smug",
+      "proud",
+      "self-satisfied",
+      "cocky",
+      "strutting"
+     ],
+     "clip": "047"
+    }
+   ]
+  },
+  {
+   "action": "at 10 the meeting room filled up around me.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "nervous",
+      "uneasy",
+      "awkward",
+      "tense",
+      "cautious"
+     ],
+     "clip": "062"
+    }
+   ]
+  },
+  {
+   "action": "i sat in it for an hour. they asked for my update. i had no slides.",
+   "bg": {
+    "place": "office"
+   },
+   "cast": [
+    {
+     "name": "MANAGER",
+     "size": 0.48,
+     "want": [
+      "staring",
+      "expectant",
+      "waiting",
+      "demanding",
+      "stern"
+     ],
+     "pos": 0.3,
+     "clip": "021"
+    },
+    {
+     "name": "ME",
+     "size": 0.5,
+     "want": [
+      "crying",
+      "teary",
+      "sobbing",
+      "heartbroken",
+      "tearful"
+     ],
+     "pos": 0.7,
+     "flip": true,
+     "clip": "094"
+    }
+   ]
+  }
+ ]
+}
