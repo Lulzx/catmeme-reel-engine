@@ -31,6 +31,17 @@ python3 engine/chat_render.py data/chats/i-got-the-job.json --register  # render
 
 Script schema and writing rules: [`docs/20-group-chat-format.md`](docs/20-group-chat-format.md).
 
+## 📺 Prime-time debate reels
+
+A third format: a household crime covered as breaking news. A screaming anchor,
+a panel grid that grows to six cats, crosstalk, and a night-vision CCTV reveal.
+
+```bash
+python3 engine/news_render.py data/news/who-ate-the-last-maggi.json --register
+```
+
+Details: [`docs/21-prime-time-debate.md`](docs/21-prime-time-debate.md).
+
 ## 🎬 Studio (web UI)
 
 A visual front-end (Vite + [HeroUI](https://heroui.com/)) puts everything on

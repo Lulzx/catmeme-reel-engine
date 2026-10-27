@@ -1,0 +1,28 @@
+// Green-screen key for one panelist's track, matching the Python pipeline's
+// ffmpeg chain (cutouts.py): chromakey=<key>:0.12:0.08 then despill=green:mix=0.6:expand=0.4.
+uniform float3 iResolution;
+uniform shader uSrc;
+uniform float2 uSrcSize;   // track frame size in pixels
+uniform float3 uKey;       // the clip's sampled key colour, 0..1
+
+float2 uv(float3 c) {      // BT.601 chroma, as ffmpeg's chromakey compares it
+    return float2(-0.168736 * c.r - 0.331264 * c.g + 0.5 * c.b,
+                  0.5 * c.r - 0.418688 * c.g - 0.081312 * c.b);
+}
+
+half4 main(float2 coord) {
+    float2 p = coord / iResolution.xy * uSrcSize;
+    float2 k = uv(uKey);
+    float diff = 0.0;      // ffmpeg averages the distance over a 3x3 neighbourhood
+    for (int dy = -1; dy <= 1; dy++) {
+        for (int dx = -1; dx <= 1; dx++) {
+            float2 d = uv(float3(uSrc.eval(p + float2(dx, dy)).rgb)) - k;
+            diff += sqrt(dot(d, d) / 2.0);
+        }
+    }
+    diff /= 9.0;
+    float a = clamp((diff - 0.12) / 0.08, 0.0, 1.0);
+    float3 c = float3(uSrc.eval(p).rgb);
+    c.g -= max(c.g - (c.r * 0.6 + c.b * 0.24), 0.0);
+    return half4(half3(c * a), half(a));
+}

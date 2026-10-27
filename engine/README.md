@@ -28,8 +28,10 @@ relevant to each line; the clip's own audio is the soundtrack.
 | `engine/match.py` | emotion → clip matcher (CLI: `python3 engine/match.py screaming rage`) |
 | `engine/render.py` | story → video renderer |
 | `engine/chat_render.py` | group-chat reel renderer (`data/chats/*.json`, see `docs/20-group-chat-format.md`) |
+| `engine/news_render.py` | prime-time debate renderer (`data/news/*.json`, see `docs/21-prime-time-debate.md`) |
 | `data/catalog.json` | the clip library (emotions + key-color + bbox + metadata) |
 | `data/chats/*.json` | group-chat scripts (cast + timed events) |
+| `data/news/*.json` | prime-time debate scripts (panel + timed events) |
 | `data/stories/*.json` | the narratives (`functional-adult.json`, `asking-for-a-raise.json`) |
 | `clips/` | source green-screen clips (+ `archive.txt`) |
 | `backgrounds/` | bundled AI scene backgrounds (kitchen, gym, beach, …) — preferred over the web |

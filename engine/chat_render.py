@@ -430,7 +430,7 @@ class VideoNote(Item):
 
 
 # ── audio ─────────────────────────────────────────────────────────────────────
-def decode(path, start, dur):
+def decode(path, start, dur, fade_out=0.03):
     raw = subprocess.run(["ffmpeg", "-nostdin", "-ss", str(start), "-t", str(dur), "-i", path,
                           "-f", "f32le", "-ac", "2", "-ar", str(SR), "-"],
                          check=True, capture_output=True).stdout
@@ -440,8 +440,10 @@ def decode(path, start, dur):
         a *= min(4.0, 0.14 / rms)
     fade = min(len(a), int(0.03 * SR))
     if fade:
-        ramp = np.linspace(0, 1, fade, dtype=np.float32)[:, None]
-        a[:fade] *= ramp; a[-fade:] *= ramp[::-1]
+        a[:fade] *= np.linspace(0, 1, fade, dtype=np.float32)[:, None]
+    tail = min(len(a), int(fade_out * SR))
+    if tail:
+        a[-tail:] *= np.linspace(1, 0, tail, dtype=np.float32)[:, None]
     return a
 
 

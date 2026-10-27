@@ -43,3 +43,12 @@ __pycache__/
 *.pyc
 .deploy/
 data/videos.db.bak
+
+# ── fframes debate renderer (engine/ff_debate) ───────────────────────
+engine/ff_debate/target/
+engine/ff_debate/frames/
+engine/ff_debate/strip.png
+engine/ff_debate/onion.png
+
+# ── Fish Audio voice-over key ────────────────────────────────────────
+fish_api_key.txt
