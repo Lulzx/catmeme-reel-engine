@@ -379,6 +379,7 @@ Status: ✅ posted · 🕒 scheduled (auto-publishes later) · ⏳ queued (rende
 | 365 | it-went-off-in-the-dentist-chair | POV: the alarm for the big morning was set for 6pm | ⏳ queued | — | output/it-went-off-in-the-dentist-chair.mp4 |
 | 366 | i-got-the-job | POV: you told the family group you got the job | ✅ posted | 2026-10-27 | output/i-got-the-job.mp4 |
 | 367 | who-ate-the-last-maggi | POV: your family holds a prime time debate about the last maggi | ✅ posted | 2026-10-27 | output/who-ate-the-last-maggi.mp4 |
+| 368 | is-the-gym-open | POV: you're the new tenant and you ask the society group one question | ✅ posted | 2026-10-27 | output/is-the-gym-open.mp4 |
 
 **Recommended next:** the-trolley-stopped-at-his-car
 Upload it with `python -m engine.upload --next`.
@@ -4518,3 +4519,14 @@ Upload it with `python -m engine.upload --next`.
   #shorts #maggi #indianfamily #newsdebate #catmemes
   ```
 - **Tags:** cat memes, maggi, indian family, news debate, prime time, funny cats, shorts, sharma ji ka beta
+
+### is-the-gym-open ✅
+- **Title:** POV: you're the new tenant and you ask the society group one question 🐱 #shorts
+- **Description:**
+  ```
+  is the gym open on sundays. nobody knows. the secretary knows something else.
+
+  sharma uncle has noted it 🙏
+  #shorts #societygroup #apartmentlife #relatable #catmemes
+  ```
+- **Tags:** cat memes, society group, apartment life, whatsapp group, indian society, relatable, funny cats, shorts
