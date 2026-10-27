@@ -33,6 +33,7 @@ onto a scene-relevant background, labels it, and renders a finished vertical vid
 | 17 | [17-growth-research-2026-08-14.md](17-growth-research-2026-08-14.md) | **fresh analytics, competitor benchmark, silly-clip sourcing, thumbnail constraint, and next-batch scores** |
 | 18 | [18-six-hour-fill-2026-08-14.md](18-six-hour-fill-2026-08-14.md) | **56-Short production ledger for the August 18–31 six-hour schedule grid** |
 | 19 | [19-growth-research-2026-08-29.md](19-growth-research-2026-08-29.md) | **the reach-ceiling diagnosis (no outliers, views saturate by day 7) and the September portfolio batch** |
+| 20 | [20-group-chat-format.md](20-group-chat-format.md) | **the group-chat format: a family chat where every member is a cat — script schema, writing rules, renderer** |
 
 Scripts are also **scored before they ship**: the rubric lives with the authoring
 skill at [`.claude/skills/make-reel/SCORING.md`](../.claude/skills/make-reel/SCORING.md)

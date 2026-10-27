@@ -1,6 +1,7 @@
 # Runtime deps for the cat-meme reel engine.
 # Core engine (catalog / matcher / renderer):
 pillow>=10.0
+numpy>=1.26           # cutouts.py, chat_render.py
 # Web backend (engine/server.py):
 fastapi>=0.110
 uvicorn>=0.27

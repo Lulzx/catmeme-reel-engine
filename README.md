@@ -19,6 +19,18 @@ python3 engine/render.py data/stories/functional-adult.json
 
 See what a feeling resolves to: `python3 engine/match.py sleepy relaxed`.
 
+## 💬 Group-chat reels
+
+A second format: the reel is a family group chat where every member is a cat.
+Texts pop in, cats send video notes with their own audio, and people get added,
+delete messages and react.
+
+```bash
+python3 engine/chat_render.py data/chats/i-got-the-job.json --register  # render + queue
+```
+
+Script schema and writing rules: [`docs/20-group-chat-format.md`](docs/20-group-chat-format.md).
+
 ## 🎬 Studio (web UI)
 
 A visual front-end (Vite + [HeroUI](https://heroui.com/)) puts everything on
