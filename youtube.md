@@ -377,6 +377,7 @@ Status: ✅ posted · 🕒 scheduled (auto-publishes later) · ⏳ queued (rende
 | 363 | it-arrived-as-a-photo | POV: derek found the same thing cheaper | ⏳ queued | — | output/it-arrived-as-a-photo.mp4 |
 | 364 | i-have-been-the-button | POV: the tv turns on when you sit and off when you stand | ⏳ queued | — | output/i-have-been-the-button.mp4 |
 | 365 | it-went-off-in-the-dentist-chair | POV: the alarm for the big morning was set for 6pm | ⏳ queued | — | output/it-went-off-in-the-dentist-chair.mp4 |
+| 366 | i-got-the-job | POV: you told the family group you got the job | ✅ posted | 2026-10-27 | output/i-got-the-job.mp4 |
 
 **Recommended next:** the-trolley-stopped-at-his-car
 Upload it with `python -m engine.upload --next`.
@@ -4492,3 +4493,15 @@ Upload it with `python -m engine.upload --next`.
   #shorts #catmemes #relatable #pov #funnycats
   ```
 - **Tags:** cat memes, pov, relatable, funny cats, shorts, bedroom
+
+### i-got-the-job ✅
+- **Title:** POV: you told the family group you got the job 🐱 #shorts
+- **Description:**
+  ```
+  papa added sharma ji's son one minute after my message.
+
+  mummy's video note is still playing
+  New family group episodes soon 🐾
+  #shorts #familygroup #sharmajikabeta #relatable #catmemes
+  ```
+- **Tags:** cat memes, family group chat, sharma ji ka beta, relatable, funny cats, shorts, indian family, whatsapp family group
