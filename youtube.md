@@ -378,6 +378,7 @@ Status: ✅ posted · 🕒 scheduled (auto-publishes later) · ⏳ queued (rende
 | 364 | i-have-been-the-button | POV: the tv turns on when you sit and off when you stand | ⏳ queued | — | output/i-have-been-the-button.mp4 |
 | 365 | it-went-off-in-the-dentist-chair | POV: the alarm for the big morning was set for 6pm | ⏳ queued | — | output/it-went-off-in-the-dentist-chair.mp4 |
 | 366 | i-got-the-job | POV: you told the family group you got the job | ✅ posted | 2026-10-27 | output/i-got-the-job.mp4 |
+| 367 | who-ate-the-last-maggi | POV: your family holds a prime time debate about the last maggi | ✅ posted | 2026-10-27 | output/who-ate-the-last-maggi.mp4 |
 
 **Recommended next:** the-trolley-stopped-at-his-car
 Upload it with `python -m engine.upload --next`.
@@ -4505,3 +4506,15 @@ Upload it with `python -m engine.upload --next`.
   #shorts #familygroup #sharmajikabeta #relatable #catmemes
   ```
 - **Tags:** cat memes, family group chat, sharma ji ka beta, relatable, funny cats, shorts, indian family, whatsapp family group
+
+### who-ate-the-last-maggi ✅
+- **Title:** POV: your family holds a prime time debate about the last maggi 🐱 #shorts
+- **Description:**
+  ```
+  4 packets on sunday. 0 packets today. the nation wanted to know.
+
+  next at 10: who left the geyser on
+  New debates every week 🐾
+  #shorts #maggi #indianfamily #newsdebate #catmemes
+  ```
+- **Tags:** cat memes, maggi, indian family, news debate, prime time, funny cats, shorts, sharma ji ka beta
