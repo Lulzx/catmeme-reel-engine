@@ -386,7 +386,7 @@ Status: ✅ posted · 🕒 scheduled (auto-publishes later) · ⏳ queued (rende
 | 372 | kbc-phone-a-friend-mummy | POV: you used phone a friend on mummy | 🕒 scheduled | 2026-10-29T08:56:00Z | output/kbc-phone-a-friend-mummy.mp4 |
 | 373 | mummys-screen-time | POV: mummy says you are always on the phone | 🕒 scheduled | 2026-10-29T14:56:00Z | output/mummys-screen-time.mp4 |
 | 374 | five-alarms-for-the-flight | POV: you set 5 alarms for your 7:40 flight | 🕒 scheduled | 2026-10-29T20:56:00Z | output/five-alarms-for-the-flight.mp4 |
-| 375 | week-before-salary | POV: the week before salary | ⏳ queued | — | output/week-before-salary.mp4 |
+| 375 | week-before-salary | POV: the week before salary | 🕒 scheduled | 2026-10-30T02:56:00Z | output/week-before-salary.mp4 |
 | 376 | mummy-fills-my-biodata | POV: mummy is filling your biodata | ⏳ queued | — | output/mummy-fills-my-biodata.mp4 |
 | 377 | pnr-refresh-diwali | POV: your diwali ticket home is on waitlist | ⏳ queued | — | output/pnr-refresh-diwali.mp4 |
 | 378 | mummys-kitchen-reviews | POV: the family reviews mummy's kitchen | ⏳ queued | — | output/mummys-kitchen-reviews.mp4 |
@@ -4611,7 +4611,7 @@ Upload it with `python -m engine.upload --next`.
   ```
 - **Tags:** cat memes, alarm, snooze, missed flight, indian family, relatable, funny cats, shorts
 
-### week-before-salary ⏳
+### week-before-salary 🕒
 - **Title:** my upi history the week before salary 🐱💸 #shorts
 - **Description:**
   ```

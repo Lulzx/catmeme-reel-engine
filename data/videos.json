@@ -8900,10 +8900,10 @@
         "shorts"
       ],
       "file": "output/week-before-salary.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-10-30T02:56:00Z",
+      "video_id": "HhmZBUwYH-U",
       "kind": "short",
       "duration_sec": null,
       "chapters": []
