@@ -389,7 +389,7 @@ Status: ✅ posted · 🕒 scheduled (auto-publishes later) · ⏳ queued (rende
 | 375 | week-before-salary | POV: the week before salary | 🕒 scheduled | 2026-10-30T02:56:00Z | output/week-before-salary.mp4 |
 | 376 | mummy-fills-my-biodata | POV: mummy is filling your biodata | 🕒 scheduled | 2026-10-30T08:56:00Z | output/mummy-fills-my-biodata.mp4 |
 | 377 | pnr-refresh-diwali | POV: your diwali ticket home is on waitlist | 🕒 scheduled | 2026-10-30T14:56:00Z | output/pnr-refresh-diwali.mp4 |
-| 378 | mummys-kitchen-reviews | POV: the family reviews mummy's kitchen | ⏳ queued | — | output/mummys-kitchen-reviews.mp4 |
+| 378 | mummys-kitchen-reviews | POV: the family reviews mummy's kitchen | 🕒 scheduled | 2026-10-30T20:56:00Z | output/mummys-kitchen-reviews.mp4 |
 | 379 | rider-is-2-mins-away | POV: the rider has been 2 mins away for 35 minutes | ⏳ queued | — | output/rider-is-2-mins-away.mp4 |
 | 380 | nani-birthday-video-call | POV: the family video call to sing for nani's 75th | ⏳ queued | — | output/nani-birthday-video-call.mp4 |
 | 381 | diet-day-one-receipt | POV: day 1 of your diet, 3:07 am | ⏳ queued | — | output/diet-day-one-receipt.mp4 |
@@ -4644,7 +4644,7 @@ Upload it with `python -m engine.upload --next`.
   ```
 - **Tags:** cat memes, diwali, irctc, waiting list, pnr status, going home, relatable, funny cats, shorts
 
-### mummys-kitchen-reviews ⏳
+### mummys-kitchen-reviews 🕒
 - **Title:** the family left google reviews for mummy's kitchen 🐱 #shorts
 - **Description:**
   ```
