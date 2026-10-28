@@ -383,6 +383,18 @@ Status: ✅ posted · 🕒 scheduled (auto-publishes later) · ⏳ queued (rende
 | 369 | papa-searches-youtuber | POV: you told papa you want to be a youtuber | ✅ posted | 2026-10-28 | output/papa-searches-youtuber.mp4 |
 | 370 | ten-minute-shower | POV: you went for a 10 minute shower | 🕒 scheduled | 2026-10-28T20:56:00Z | output/ten-minute-shower.mp4 |
 | 371 | diwali-guest-tier-list | POV: the house cat ranks your diwali guests | 🕒 scheduled | 2026-10-29T02:56:00Z | output/diwali-guest-tier-list.mp4 |
+| 372 | kbc-phone-a-friend-mummy | POV: you used phone a friend on mummy | 🕒 scheduled | 2026-10-29T08:56:00Z | output/kbc-phone-a-friend-mummy.mp4 |
+| 373 | mummys-screen-time | POV: mummy says you are always on the phone | ⏳ queued | — | output/mummys-screen-time.mp4 |
+| 374 | five-alarms-for-the-flight | POV: you set 5 alarms for your 7:40 flight | ⏳ queued | — | output/five-alarms-for-the-flight.mp4 |
+| 375 | week-before-salary | POV: the week before salary | ⏳ queued | — | output/week-before-salary.mp4 |
+| 376 | mummy-fills-my-biodata | POV: mummy is filling your biodata | ⏳ queued | — | output/mummy-fills-my-biodata.mp4 |
+| 377 | pnr-refresh-diwali | POV: your diwali ticket home is on waitlist | ⏳ queued | — | output/pnr-refresh-diwali.mp4 |
+| 378 | mummys-kitchen-reviews | POV: the family reviews mummy's kitchen | ⏳ queued | — | output/mummys-kitchen-reviews.mp4 |
+| 379 | rider-is-2-mins-away | POV: the rider has been 2 mins away for 35 minutes | ⏳ queued | — | output/rider-is-2-mins-away.mp4 |
+| 380 | nani-birthday-video-call | POV: the family video call to sing for nani's 75th | ⏳ queued | — | output/nani-birthday-video-call.mp4 |
+| 381 | diet-day-one-receipt | POV: day 1 of your diet, 3:07 am | ⏳ queued | — | output/diet-day-one-receipt.mp4 |
+| 382 | papa-opened-the-report-card | POV: papa opened your report card before you got home | ⏳ queued | — | output/papa-opened-the-report-card.mp4 |
+| 383 | should-i-quit-poll | POV: you posted a poll asking if you should quit your job | ⏳ queued | — | output/should-i-quit-poll.mp4 |
 
 **Recommended next:** the-trolley-stopped-at-his-car
 Upload it with `python -m engine.upload --next`.
@@ -4566,3 +4578,134 @@ Upload it with `python -m engine.upload --next`.
   #shorts #diwali #desifamily #tierlist #catmemes
   ```
 - **Tags:** cat memes, diwali, tier list, desi family, diwali guests, relatable, funny cats, shorts
+
+### kbc-phone-a-friend-mummy 🕒
+- **Title:** i used phone a friend on mummy 🐱📞 #shorts
+- **Description:**
+  ```
+  30 seconds. she used 22 of them on the blue shirt.
+
+  sharma aunty also says hi 🙏
+  #shorts #kbc #indianmom #desifamily #catmemes
+  ```
+- **Tags:** cat memes, kbc, phone a friend, indian mom, desi family, relatable, funny cats, shorts
+
+### mummys-screen-time ⏳
+- **Title:** mummy said i'm always on the phone so i checked her screen time 🐱 #shorts
+- **Description:**
+  ```
+  3h 05m vs 11h 48m. i have not said anything. i just set my phone face down.
+
+  #shorts #indianmom #screentime #desifamily #catmemes
+  ```
+- **Tags:** cat memes, indian mom, screen time, desi family, whatsapp, relatable, funny cats, shorts
+
+### five-alarms-for-the-flight ⏳
+- **Title:** POV: you set 5 alarms for your 7:40 flight 🐱 #shorts
+- **Description:**
+  ```
+  the alarms worked. the battery didn't.
+
+  send this to the friend who snoozes 4 times and calls it a plan ✈️
+  #shorts #snooze #flight #relatable #catmemes
+  ```
+- **Tags:** cat memes, alarm, snooze, missed flight, indian family, relatable, funny cats, shorts
+
+### week-before-salary ⏳
+- **Title:** my upi history the week before salary 🐱💸 #shorts
+- **Description:**
+  ```
+  ₹712 on the 24th. half chai by the 27th. hot water by the 30th.
+
+  both of them think the other one doesn't know
+  #shorts #salary #upi #middleclass #catmemes
+  ```
+- **Tags:** cat memes, salary, upi, end of month, indian parents, relatable, funny cats, shorts
+
+### mummy-fills-my-biodata ⏳
+- **Title:** mummy filled my biodata 🐱📄 #shorts
+- **Description:**
+  ```
+  height: 5'9" (with chappal). salary: 28 LPA (it was 28,000). photo: updated.
+
+  send this to the one whose mummy has already printed 40 copies 🙏
+  #shorts #biodata #rishta #indianmom #catmemes
+  ```
+- **Tags:** cat memes, biodata, rishta, indian mom, arranged marriage, desi family, funny cats, shorts
+
+### pnr-refresh-diwali ⏳
+- **Title:** refreshing my pnr status 212 times before diwali 🐱🚆 #shorts
+- **Description:**
+  ```
+  WL 87 to confirmed in 212 refreshes. nobody told me about the mattress.
+
+  send this to whoever is still on WL 40 🙏
+  #shorts #diwali #irctc #waitinglist #catmemes
+  ```
+- **Tags:** cat memes, diwali, irctc, waiting list, pnr status, going home, relatable, funny cats, shorts
+
+### mummys-kitchen-reviews ⏳
+- **Title:** the family left google reviews for mummy's kitchen 🐱 #shorts
+- **Description:**
+  ```
+  4.6 stars. 1,213 reviews. the owner replies to everyone.
+
+  which review is your chhota bhai 👀
+  #shorts #indianmom #desifamily #googlereviews #catmemes
+  ```
+- **Tags:** cat memes, indian mom, google reviews, desi family, mummy ka khana, relatable, funny cats, shorts
+
+### rider-is-2-mins-away ⏳
+- **Title:** POV: the rider has been 2 mins away for 35 minutes 🐱🛵 #shorts
+- **Description:**
+  ```
+  he did a full lap of sector 14. then he stopped for chai. then he called.
+
+  who else declines every unknown number 👇
+  #shorts #fooddelivery #truecaller #relatable #catmemes
+  ```
+- **Tags:** cat memes, food delivery, delivery rider, spam call, indian, relatable, funny cats, shorts
+
+### nani-birthday-video-call ⏳
+- **Title:** the family video call for nani's birthday 🐱🎂 #shorts
+- **Description:**
+  ```
+  12 minutes to get everyone unmuted. papa's forehead joined at minute 13.
+
+  who in your family is the forehead on every call 👇
+  #shorts #familycall #desifamily #nani #catmemes
+  ```
+- **Tags:** cat memes, family video call, desi family, nani, zoom call, you're on mute, funny cats, shorts
+
+### diet-day-one-receipt ⏳
+- **Title:** the receipt from day 1 of my diet 🐱🧾 #shorts
+- **Description:**
+  ```
+  started at 9 am with a salad. ended at 3:07 am with 4 naan.
+
+  the delivery guy knows. he has always known.
+  #shorts #diet #3amcravings #swiggy #catmemes
+  ```
+- **Tags:** cat memes, diet, 3am cravings, food delivery, receipt, relatable, funny cats, shorts
+
+### papa-opened-the-report-card ⏳
+- **Title:** papa opened my report card before i got home 🐱📄 #shorts
+- **Description:**
+  ```
+  38 in maths. 96 in computer. 3rd rank. and then the last row.
+
+  tag someone who was also 3rd in class 👀
+  #shorts #reportcard #indianparents #school #catmemes
+  ```
+- **Tags:** cat memes, report card, indian parents, exam results, papa, school, funny cats, shorts
+
+### should-i-quit-poll ⏳
+- **Title:** posted a poll asking if i should quit my job. forgot who follows me 🐱 #shorts
+- **Description:**
+  ```
+  71% said quit. one of them signs my salary.
+
+  never post polls on a sunday night 🫠
+  #shorts #officelife #corporate #instagramstory #catmemes
+  ```
+- **Tags:** cat memes, office life, corporate humour, instagram story, quit my job, relatable, funny cats, shorts
