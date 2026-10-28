@@ -384,7 +384,7 @@ Status: ✅ posted · 🕒 scheduled (auto-publishes later) · ⏳ queued (rende
 | 370 | ten-minute-shower | POV: you went for a 10 minute shower | 🕒 scheduled | 2026-10-28T20:56:00Z | output/ten-minute-shower.mp4 |
 | 371 | diwali-guest-tier-list | POV: the house cat ranks your diwali guests | 🕒 scheduled | 2026-10-29T02:56:00Z | output/diwali-guest-tier-list.mp4 |
 | 372 | kbc-phone-a-friend-mummy | POV: you used phone a friend on mummy | 🕒 scheduled | 2026-10-29T08:56:00Z | output/kbc-phone-a-friend-mummy.mp4 |
-| 373 | mummys-screen-time | POV: mummy says you are always on the phone | ⏳ queued | — | output/mummys-screen-time.mp4 |
+| 373 | mummys-screen-time | POV: mummy says you are always on the phone | 🕒 scheduled | 2026-10-29T14:56:00Z | output/mummys-screen-time.mp4 |
 | 374 | five-alarms-for-the-flight | POV: you set 5 alarms for your 7:40 flight | ⏳ queued | — | output/five-alarms-for-the-flight.mp4 |
 | 375 | week-before-salary | POV: the week before salary | ⏳ queued | — | output/week-before-salary.mp4 |
 | 376 | mummy-fills-my-biodata | POV: mummy is filling your biodata | ⏳ queued | — | output/mummy-fills-my-biodata.mp4 |
@@ -4590,7 +4590,7 @@ Upload it with `python -m engine.upload --next`.
   ```
 - **Tags:** cat memes, kbc, phone a friend, indian mom, desi family, relatable, funny cats, shorts
 
-### mummys-screen-time ⏳
+### mummys-screen-time 🕒
 - **Title:** mummy said i'm always on the phone so i checked her screen time 🐱 #shorts
 - **Description:**
   ```
