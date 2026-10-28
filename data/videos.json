@@ -8875,10 +8875,10 @@
         "shorts"
       ],
       "file": "output/five-alarms-for-the-flight.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-10-29T20:56:00Z",
+      "video_id": "28NuwJiR_i0",
       "kind": "short",
       "duration_sec": null,
       "chapters": []
