@@ -8775,10 +8775,10 @@
         "shorts"
       ],
       "file": "output/ten-minute-shower.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-10-28T20:56:00Z",
+      "video_id": "zyAhFgp0QDU",
       "kind": "short",
       "duration_sec": null,
       "chapters": []

@@ -381,7 +381,7 @@ Status: ✅ posted · 🕒 scheduled (auto-publishes later) · ⏳ queued (rende
 | 367 | who-ate-the-last-maggi | POV: your family holds a prime time debate about the last maggi | ✅ posted | 2026-10-27 | output/who-ate-the-last-maggi.mp4 |
 | 368 | is-the-gym-open | POV: you're the new tenant and you ask the society group one question | ✅ posted | 2026-10-27 | output/is-the-gym-open.mp4 |
 | 369 | papa-searches-youtuber | POV: you told papa you want to be a youtuber | ✅ posted | 2026-10-28 | output/papa-searches-youtuber.mp4 |
-| 370 | ten-minute-shower | POV: you went for a 10 minute shower | ⏳ queued | — | output/ten-minute-shower.mp4 |
+| 370 | ten-minute-shower | POV: you went for a 10 minute shower | 🕒 scheduled | 2026-10-28T20:56:00Z | output/ten-minute-shower.mp4 |
 | 371 | diwali-guest-tier-list | POV: the house cat ranks your diwali guests | ⏳ queued | — | output/diwali-guest-tier-list.mp4 |
 
 **Recommended next:** the-trolley-stopped-at-his-car
@@ -4545,7 +4545,7 @@ Upload it with `python -m engine.upload --next`.
   ```
 - **Tags:** cat memes, indian parents, search history, papa, youtuber, relatable, funny cats, shorts
 
-### ten-minute-shower ⏳
+### ten-minute-shower 🕒
 - **Title:** POV: you went for a 10 minute shower 🐱 #shorts
 - **Description:**
   ```
