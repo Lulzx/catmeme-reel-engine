@@ -8800,10 +8800,10 @@
         "shorts"
       ],
       "file": "output/diwali-guest-tier-list.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-10-29T02:56:00Z",
+      "video_id": "8m_TzaxschM",
       "kind": "short",
       "duration_sec": null,
       "chapters": []

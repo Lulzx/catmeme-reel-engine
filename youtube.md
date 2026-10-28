@@ -382,7 +382,7 @@ Status: ✅ posted · 🕒 scheduled (auto-publishes later) · ⏳ queued (rende
 | 368 | is-the-gym-open | POV: you're the new tenant and you ask the society group one question | ✅ posted | 2026-10-27 | output/is-the-gym-open.mp4 |
 | 369 | papa-searches-youtuber | POV: you told papa you want to be a youtuber | ✅ posted | 2026-10-28 | output/papa-searches-youtuber.mp4 |
 | 370 | ten-minute-shower | POV: you went for a 10 minute shower | 🕒 scheduled | 2026-10-28T20:56:00Z | output/ten-minute-shower.mp4 |
-| 371 | diwali-guest-tier-list | POV: the house cat ranks your diwali guests | ⏳ queued | — | output/diwali-guest-tier-list.mp4 |
+| 371 | diwali-guest-tier-list | POV: the house cat ranks your diwali guests | 🕒 scheduled | 2026-10-29T02:56:00Z | output/diwali-guest-tier-list.mp4 |
 
 **Recommended next:** the-trolley-stopped-at-his-car
 Upload it with `python -m engine.upload --next`.
@@ -4556,7 +4556,7 @@ Upload it with `python -m engine.upload --next`.
   ```
 - **Tags:** cat memes, indian mom, desi family, missed calls, lock screen, relatable, funny cats, shorts
 
-### diwali-guest-tier-list ⏳
+### diwali-guest-tier-list 🕒
 - **Title:** the house cat ranked every diwali guest 🐱🪔 #shorts
 - **Description:**
   ```
