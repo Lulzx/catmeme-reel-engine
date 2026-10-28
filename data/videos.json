@@ -8732,6 +8732,81 @@
       "kind": "short",
       "duration_sec": null,
       "chapters": []
+    },
+    {
+      "slug": "papa-searches-youtuber",
+      "sort_order": 384,
+      "pov": "POV: you told papa you want to be a youtuber",
+      "title": "papa's search history after i said i want to be a youtuber 🐱 #shorts",
+      "description": "he said nothing at dinner. then he went to his room at 11:40.\n\ntag the papa who reads every comment 🙏\n#shorts #indianparents #youtuber #searchhistory #catmemes",
+      "tags": [
+        "cat memes",
+        "indian parents",
+        "search history",
+        "papa",
+        "youtuber",
+        "relatable",
+        "funny cats",
+        "shorts"
+      ],
+      "file": "output/papa-searches-youtuber.mp4",
+      "status": "posted",
+      "posted": "2026-10-28",
+      "publish_at": null,
+      "video_id": "EkorgJ_6Joc",
+      "kind": "short",
+      "duration_sec": null,
+      "chapters": []
+    },
+    {
+      "slug": "ten-minute-shower",
+      "sort_order": 385,
+      "pov": "POV: you went for a 10 minute shower",
+      "title": "POV: you went for a 10 minute shower 🐱 #shorts",
+      "description": "9:02 to 9:12. the whole building got involved.\n\nsend this to the mummy who calls 7 times for one question 📞\n#shorts #indianmom #desifamily #relatable #catmemes",
+      "tags": [
+        "cat memes",
+        "indian mom",
+        "desi family",
+        "missed calls",
+        "lock screen",
+        "relatable",
+        "funny cats",
+        "shorts"
+      ],
+      "file": "output/ten-minute-shower.mp4",
+      "status": "queued",
+      "posted": null,
+      "publish_at": null,
+      "video_id": null,
+      "kind": "short",
+      "duration_sec": null,
+      "chapters": []
+    },
+    {
+      "slug": "diwali-guest-tier-list",
+      "sort_order": 386,
+      "pov": "POV: the house cat ranks your diwali guests",
+      "title": "the house cat ranked every diwali guest 🐱🪔 #shorts",
+      "description": "seven guests. one cat. the mithai uncle was doing so well.\n\nwhich tier is your chachu in 👇\n#shorts #diwali #desifamily #tierlist #catmemes",
+      "tags": [
+        "cat memes",
+        "diwali",
+        "tier list",
+        "desi family",
+        "diwali guests",
+        "relatable",
+        "funny cats",
+        "shorts"
+      ],
+      "file": "output/diwali-guest-tier-list.mp4",
+      "status": "queued",
+      "posted": null,
+      "publish_at": null,
+      "video_id": null,
+      "kind": "short",
+      "duration_sec": null,
+      "chapters": []
     }
   ]
 }

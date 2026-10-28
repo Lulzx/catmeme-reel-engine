@@ -380,6 +380,9 @@ Status: ✅ posted · 🕒 scheduled (auto-publishes later) · ⏳ queued (rende
 | 366 | i-got-the-job | POV: you told the family group you got the job | ✅ posted | 2026-10-27 | output/i-got-the-job.mp4 |
 | 367 | who-ate-the-last-maggi | POV: your family holds a prime time debate about the last maggi | ✅ posted | 2026-10-27 | output/who-ate-the-last-maggi.mp4 |
 | 368 | is-the-gym-open | POV: you're the new tenant and you ask the society group one question | ✅ posted | 2026-10-27 | output/is-the-gym-open.mp4 |
+| 369 | papa-searches-youtuber | POV: you told papa you want to be a youtuber | ✅ posted | 2026-10-28 | output/papa-searches-youtuber.mp4 |
+| 370 | ten-minute-shower | POV: you went for a 10 minute shower | ⏳ queued | — | output/ten-minute-shower.mp4 |
+| 371 | diwali-guest-tier-list | POV: the house cat ranks your diwali guests | ⏳ queued | — | output/diwali-guest-tier-list.mp4 |
 
 **Recommended next:** the-trolley-stopped-at-his-car
 Upload it with `python -m engine.upload --next`.
@@ -4530,3 +4533,36 @@ Upload it with `python -m engine.upload --next`.
   #shorts #societygroup #apartmentlife #relatable #catmemes
   ```
 - **Tags:** cat memes, society group, apartment life, whatsapp group, indian society, relatable, funny cats, shorts
+
+### papa-searches-youtuber ✅
+- **Title:** papa's search history after i said i want to be a youtuber 🐱 #shorts
+- **Description:**
+  ```
+  he said nothing at dinner. then he went to his room at 11:40.
+
+  tag the papa who reads every comment 🙏
+  #shorts #indianparents #youtuber #searchhistory #catmemes
+  ```
+- **Tags:** cat memes, indian parents, search history, papa, youtuber, relatable, funny cats, shorts
+
+### ten-minute-shower ⏳
+- **Title:** POV: you went for a 10 minute shower 🐱 #shorts
+- **Description:**
+  ```
+  9:02 to 9:12. the whole building got involved.
+
+  send this to the mummy who calls 7 times for one question 📞
+  #shorts #indianmom #desifamily #relatable #catmemes
+  ```
+- **Tags:** cat memes, indian mom, desi family, missed calls, lock screen, relatable, funny cats, shorts
+
+### diwali-guest-tier-list ⏳
+- **Title:** the house cat ranked every diwali guest 🐱🪔 #shorts
+- **Description:**
+  ```
+  seven guests. one cat. the mithai uncle was doing so well.
+
+  which tier is your chachu in 👇
+  #shorts #diwali #desifamily #tierlist #catmemes
+  ```
+- **Tags:** cat memes, diwali, tier list, desi family, diwali guests, relatable, funny cats, shorts
