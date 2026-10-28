@@ -8951,10 +8951,10 @@
         "shorts"
       ],
       "file": "output/pnr-refresh-diwali.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-10-30T14:56:00Z",
+      "video_id": "Dl5vc-sY14g",
       "kind": "short",
       "duration_sec": null,
       "chapters": []
