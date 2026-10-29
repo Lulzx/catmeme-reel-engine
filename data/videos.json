@@ -9001,10 +9001,10 @@
         "shorts"
       ],
       "file": "output/rider-is-2-mins-away.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-10-31T02:56:00Z",
+      "video_id": "wd5CoYM7w3k",
       "kind": "short",
       "duration_sec": null,
       "chapters": []
