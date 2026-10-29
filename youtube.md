@@ -395,6 +395,18 @@ Status: ✅ posted · 🕒 scheduled (auto-publishes later) · ⏳ queued (rende
 | 381 | diet-day-one-receipt | POV: day 1 of your diet, 3:07 am | ⏳ queued | — | output/diet-day-one-receipt.mp4 |
 | 382 | papa-opened-the-report-card | POV: papa opened your report card before you got home | ⏳ queued | — | output/papa-opened-the-report-card.mp4 |
 | 383 | should-i-quit-poll | POV: you posted a poll asking if you should quit your job | ⏳ queued | — | output/should-i-quit-poll.mp4 |
+| 384 | papa-whatsapp-stock-tip | POV: papa got a stock tip on whatsapp | ⏳ queued | — | output/papa-whatsapp-stock-tip.mp4 |
+| 385 | coupon-that-never-works | POV: you just want the coupon to work | ⏳ queued | — | output/coupon-that-never-works.mp4 |
+| 386 | papa-flight-day-early | POV: papa is flying alone for the first time | ⏳ queued | — | output/papa-flight-day-early.mp4 |
+| 387 | mummy-23418-steps | POV: mummy joined your step challenge | ⏳ queued | — | output/mummy-23418-steps.mp4 |
+| 388 | mummys-rajma-recipe | POV: you asked mummy for the exact rajma recipe | ⏳ queued | — | output/mummys-rajma-recipe.mp4 |
+| 389 | six-into-sharma-uncles-balcony | POV: society cricket final. last over. you're on strike | ⏳ queued | — | output/six-into-sharma-uncles-balcony.mp4 |
+| 390 | whos-watching | POV: you open everyone's continue watching | ⏳ queued | — | output/whos-watching.mp4 |
+| 391 | papa-called-the-hr | POV: your inbox the week you start job hunting | ⏳ queued | — | output/papa-called-the-hr.mp4 |
+| 392 | papa-wrapped | POV: papa got his 2026 wrapped | ⏳ queued | — | output/papa-wrapped.mp4 |
+| 393 | kundli-match-pandit-fix | POV: mummy got your kundli matched | ⏳ queued | — | output/kundli-match-pandit-fix.mp4 |
+| 394 | no-gifts-please-invite | POV: the shaadi e-invite says no gifts please | ⏳ queued | — | output/no-gifts-please-invite.mp4 |
+| 395 | november-wedding-calendar | POV: it's november and the family has your calendar | ⏳ queued | — | output/november-wedding-calendar.mp4 |
 
 **Recommended next:** the-trolley-stopped-at-his-car
 Upload it with `python -m engine.upload --next`.
@@ -4709,3 +4721,134 @@ Upload it with `python -m engine.upload --next`.
   #shorts #officelife #corporate #instagramstory #catmemes
   ```
 - **Tags:** cat memes, office life, corporate humour, instagram story, quit my job, relatable, funny cats, shorts
+
+### papa-whatsapp-stock-tip ⏳
+- **Title:** papa took a stock tip from the whatsapp uncle 🐱📉 #shorts
+- **Description:**
+  ```
+  target ₹400. papa averaged down 3 times. the fd is involved now.
+
+  tag someone whose papa is in a stock tips group 📉
+  #shorts #stockmarket #indianparents #whatsappuncle #catmemes
+  ```
+- **Tags:** cat memes, stock market, indian parents, whatsapp uncle, trading, relatable, funny cats, shorts
+
+### coupon-that-never-works ⏳
+- **Title:** i just wanted the coupon to work 🐱🛒 #shorts
+- **Description:**
+  ```
+  ₹987 earphones. one coupon. it ended at ₹1,330 and i saved ₹100.
+
+  what's the worst fee you've ever paid? 👇
+  #shorts #onlineshopping #coupon #diwalisale #catmemes
+  ```
+- **Tags:** cat memes, online shopping, coupon code, diwali sale, checkout, relatable, funny cats, shorts
+
+### papa-flight-day-early ⏳
+- **Title:** papa reached the airport early for his first flight 🐱✈️ #shorts
+- **Description:**
+  ```
+  he left home at 4 am to be safe. security was empty. now we know why.
+
+  send this to the papa who reaches the station 3 hours early 🙏
+  #shorts #indianparents #firstflight #airport #catmemes
+  ```
+- **Tags:** cat memes, indian parents, first flight, airport, papa, relatable, funny cats, shorts
+
+### mummy-23418-steps ⏳
+- **Title:** POV: mummy joined your step challenge 🐱👟 #shorts
+- **Description:**
+  ```
+  23,418 vs 312. she did the sabzi mandi twice.
+
+  whose mummy has never once sat down before 10 pm 🙋
+  #shorts #indianmom #steps #fitness #catmemes
+  ```
+- **Tags:** cat memes, indian mom, step count, fitness app, desi family, relatable, funny cats, shorts
+
+### mummys-rajma-recipe ⏳
+- **Title:** asked mummy for the exact rajma recipe 🐱🍛 #shorts
+- **Description:**
+  ```
+  6 ingredients. 0 units. 4 whistles or until papa asks.
+
+  send this to the one who still calls home to ask how much salt 🧂
+  #shorts #indianmom #mummykahaath #rajmachawal #catmemes
+  ```
+- **Tags:** cat memes, indian mom, rajma, andaaz se, desi kitchen, relatable, funny cats, shorts
+
+### six-into-sharma-uncles-balcony ⏳
+- **Title:** society cricket final. last ball. need 6 🐱🏏 #shorts
+- **Description:**
+  ```
+  the shot was perfect. the rules were not.
+
+  what's the rule in your society if the ball goes in a balcony 👇
+  #shorts #gullycricket #societylife #cricket #catmemes
+  ```
+- **Tags:** cat memes, gully cricket, society cricket, cricket, apartment life, relatable, funny cats, shorts
+
+### whos-watching ⏳
+- **Title:** opened everyone's continue watching in the family account 🐱📺 #shorts
+- **Description:**
+  ```
+  papa says he doesn't watch it. papa is 6 episodes ahead.
+
+  #shorts #desifamily #familyaccount #dadi #catmemes
+  ```
+- **Tags:** cat memes, desi family, family account, continue watching, dadi, relatable, funny cats, shorts
+
+### papa-called-the-hr ⏳
+- **Title:** POV: your inbox the week you start job hunting 🐱📧 #shorts
+- **Description:**
+  ```
+  one interview. 14 calls to reception. none of them from me.
+
+  tag the papa who has HR's landline number 📞
+  #shorts #jobhunt #indianparents #inbox #catmemes
+  ```
+- **Tags:** cat memes, job hunt, job rejection, indian parents, papa, relatable, funny cats, shorts
+
+### papa-wrapped ⏳
+- **Title:** papa's 2026 wrapped 🐱🎧 #shorts
+- **Description:**
+  ```
+  1,095 times "khana bana?". 3,212 lights switched off. one top artist.
+
+  tag the papa who turned off your light while you were in the room 💡
+  #shorts #indiandad #papa #wrapped #catmemes
+  ```
+- **Tags:** cat memes, indian dad, papa, wrapped, desi family, relatable, funny cats, shorts
+
+### kundli-match-pandit-fix ⏳
+- **Title:** mummy got my kundli matched 🐱🪐 #shorts
+- **Description:**
+  ```
+  14 out of 36. i was so happy. for 5 minutes.
+
+  which koota would you fail first 👇
+  #shorts #kundli #rishta #indianmom #catmemes
+  ```
+- **Tags:** cat memes, kundli, guna milan, rishta, indian mom, arranged marriage, funny cats, shorts
+
+### no-gifts-please-invite ⏳
+- **Title:** the shaadi invite said no gifts please 🐱💌 #shorts
+- **Description:**
+  ```
+  your presence is our present. page 3 has a QR code.
+
+  tag the friend who will send this to the family group 💌
+  #shorts #shaadi #weddinginvite #desiwedding #catmemes
+  ```
+- **Tags:** cat memes, wedding invite, shaadi, no gifts please, desi wedding, sharma ji ka beta, funny cats, shorts
+
+### november-wedding-calendar ⏳
+- **Title:** my november calendar in shaadi season 🐱📅 #shorts
+- **Description:**
+  ```
+  10 leaves on 1 november. 0 by the 21st. and one sunday left.
+
+  how many shaadis are you attending this month 👇
+  #shorts #shaadiseason #weddingseason #desifamily #catmemes
+  ```
+- **Tags:** cat memes, wedding season, shaadi season, november, leave balance, desi family, funny cats, shorts
