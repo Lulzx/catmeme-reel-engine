@@ -9076,10 +9076,10 @@
         "shorts"
       ],
       "file": "output/papa-opened-the-report-card.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-10-31T20:56:00Z",
+      "video_id": "PzPM42VJ7ZE",
       "kind": "short",
       "duration_sec": null,
       "chapters": []
