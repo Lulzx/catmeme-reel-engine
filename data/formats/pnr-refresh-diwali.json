@@ -1,0 +1,113 @@
+{
+  "format": "pnr_status",
+  "title": "refreshing the pnr status before going home for diwali",
+  "output": "pnr-refresh-diwali.mp4",
+  "pov": "POV: your diwali ticket home is on waitlist",
+  "clock": "12:10",
+  "booked": "WL 87",
+  "hold": 4.2,
+  "train": {
+    "pnr": "245 188 7306",
+    "class": "3A",
+    "name": "12309 rajdhani exp",
+    "route": [
+      "NDLS",
+      "PNBE"
+    ],
+    "dep": "30 oct, 4:10 pm"
+  },
+  "youtube": {
+    "pov": "POV: your diwali ticket home is on waitlist",
+    "title": "refreshing my pnr status 212 times before diwali 🐱🚆 #shorts",
+    "description": "WL 87 to confirmed in 212 refreshes. nobody told me about the mattress.\n\nsend this to whoever is still on WL 40 🙏\n#shorts #diwali #irctc #waitinglist #catmemes",
+    "tags": [
+      "cat memes",
+      "diwali",
+      "irctc",
+      "waiting list",
+      "pnr status",
+      "going home",
+      "relatable",
+      "funny cats",
+      "shorts"
+    ]
+  },
+  "clips_used": [
+    "033",
+    "019",
+    "001"
+  ],
+  "cats": [
+    {
+      "at": -1,
+      "clip": "033",
+      "start": 0.3,
+      "dur": 5.0,
+      "loop": true,
+      "bg": "home.jpg",
+      "who": "you"
+    },
+    {
+      "at": 6,
+      "clip": "019",
+      "start": 0.5,
+      "bg": "home.jpg",
+      "who": "you"
+    },
+    {
+      "at": 7,
+      "clip": "001",
+      "start": 4.6,
+      "bg": "home.jpg",
+      "who": "you",
+      "dur": 1.6,
+      "loop": true
+    }
+  ],
+  "checks": [
+    {
+      "gap": 0.6,
+      "when": "28 oct, 11:40 pm",
+      "count": 1,
+      "status": "WL 87"
+    },
+    {
+      "when": "29 oct, 7:02 am",
+      "count": 12,
+      "status": "WL 84"
+    },
+    {
+      "when": "29 oct, 7:03 am",
+      "count": 13,
+      "status": "WL 84"
+    },
+    {
+      "when": "29 oct, 1:15 pm",
+      "count": 89,
+      "status": "WL 61"
+    },
+    {
+      "when": "29 oct, 1:16 pm",
+      "count": 90,
+      "status": "WL 61"
+    },
+    {
+      "gap": 3.4,
+      "when": "30 oct, 6:00 am",
+      "count": 211,
+      "status": "WL 23"
+    },
+    {
+      "gap": 3.8,
+      "when": "30 oct, 12:10 pm",
+      "count": 212,
+      "status": "CNF B2 / 34",
+      "chart": true
+    }
+  ],
+  "message": {
+    "gap": 4.6,
+    "from": "Mummy",
+    "body": "beta chachu's family is also coming. you are on the floor mattress ok 🙏"
+  }
+}

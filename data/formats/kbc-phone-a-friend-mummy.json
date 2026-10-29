@@ -1,0 +1,53 @@
+{
+  "format": "quiz_show",
+  "title": "you used phone a friend on mummy",
+  "output": "kbc-phone-a-friend-mummy.mp4",
+  "pov": "POV: you used phone a friend on mummy",
+  "amount": "₹12,50,000",
+  "question": "which city is the capital of australia?",
+  "options": ["sydney", "melbourne", "canberra", "perth"],
+  "answer": 2,
+  "people": {
+    "host":  { "name": "host", "color": [240, 190, 70] },
+    "you":   { "name": "you", "color": [120, 200, 255] },
+    "mummy": { "name": "mummy", "color": [255, 120, 160] }
+  },
+  "clips_used": ["077", "075", "182", "082", "086"],
+  "youtube": {
+    "pov": "POV: you used phone a friend on mummy",
+    "title": "i used phone a friend on mummy 🐱📞 #shorts",
+    "description": "30 seconds. she used 22 of them on the blue shirt.\n\nsharma aunty also says hi 🙏\n#shorts #kbc #indianmom #desifamily #catmemes",
+    "tags": ["cat memes", "kbc", "phone a friend", "indian mom", "desi family", "relatable", "funny cats", "shorts"]
+  },
+  "events": [
+    { "t": 0.0,  "cam": { "who": "host", "clip": "077", "start": 0.5, "bg": "stage.jpg" } },
+    { "t": 0.6,  "show": "question" },
+    { "t": 0.9,  "say": { "who": "host", "text": "₹12,50,000 ke liye, aapka sawaal", "until": 3.4 } },
+    { "t": 2.2,  "show": "option", "i": 0 },
+    { "t": 2.8,  "show": "option", "i": 1 },
+    { "t": 3.4,  "show": "option", "i": 2 },
+    { "t": 4.0,  "show": "option", "i": 3 },
+    { "t": 5.2,  "cam": { "who": "you", "clip": "075", "start": 0.5, "bg": "stage.jpg" } },
+    { "t": 5.6,  "say": { "who": "you", "text": "50:50 please", "until": 7.4 } },
+    { "t": 7.4,  "lifeline": "5050", "remove": [1, 3] },
+    { "t": 9.0,  "say": { "who": "you", "text": "still not sure. audience poll", "until": 10.6 } },
+    { "t": 10.6, "lifeline": "audience", "poll": [61, 0, 39, 0], "until": 14.4 },
+    { "t": 14.6, "say": { "who": "you", "text": "phone a friend. mummy", "until": 16.2 } },
+    { "t": 16.4, "cam": { "who": "mummy", "clip": "182", "start": 0.0, "bg": "livingroom.jpg", "vol": 0.55 } },
+    { "t": 16.4, "lifeline": "phone", "until": 27.4, "seconds": 30 },
+    { "t": 16.8, "say": { "who": "mummy", "text": "hello? beta? i am at sharma aunty's, they are all watching", "until": 19.6 } },
+    { "t": 19.8, "say": { "who": "mummy", "text": "why are you not wearing the blue shirt i ironed", "until": 22.4 } },
+    { "t": 22.6, "say": { "who": "mummy", "text": "ok ok. sydney. opera house is there only", "until": 25.0 } },
+    { "t": 25.2, "say": { "who": "mummy", "text": "aunty says hi", "until": 27.4 } },
+    { "t": 28.6, "cam": { "who": "host", "clip": "077", "start": 5.0, "bg": "stage.jpg" } },
+    { "t": 28.9, "say": { "who": "host", "text": "sydney? ya canberra?", "until": 30.6 } },
+    { "t": 30.8, "cam": { "who": "you", "clip": "075", "start": 3.0, "bg": "stage.jpg" } },
+    { "t": 31.1, "say": { "who": "you", "text": "c. canberra. lock kar dijiye", "until": 33.0 } },
+    { "t": 33.0, "lock": 2 },
+    { "t": 35.6, "reveal": 2, "cam": { "who": "you", "clip": "082", "start": 0.5, "bg": "stage.jpg" } },
+    { "t": 39.0, "incoming": { "name": "Mummy" }, "until": 40.6 },
+    { "t": 40.6, "cam": { "who": "mummy", "clip": "086", "start": 1.0, "bg": "livingroom.jpg" } },
+    { "t": 41.0, "say": { "who": "mummy", "text": "see. i told you canberra", "until": 45.2 } },
+    { "t": 45.4, "end": true }
+  ]
+}

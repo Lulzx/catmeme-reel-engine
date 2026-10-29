@@ -1,0 +1,100 @@
+{
+  "format": "tierlist",
+  "title": "the house cat ranks your diwali guests",
+  "output": "diwali-guest-tier-list.mp4",
+  "pov": "POV: the house cat ranks your diwali guests",
+  "judge": "the house cat",
+  "youtube": {
+    "pov": "POV: the house cat ranks your diwali guests",
+    "title": "the house cat ranked every diwali guest 🐱🪔 #shorts",
+    "description": "seven guests. one cat. the mithai uncle was doing so well.\n\nwhich tier is your chachu in 👇\n#shorts #diwali #desifamily #tierlist #catmemes",
+    "tags": [
+      "cat memes",
+      "diwali",
+      "tier list",
+      "desi family",
+      "diwali guests",
+      "relatable",
+      "funny cats",
+      "shorts"
+    ]
+  },
+  "items": [
+    {
+      "id": "mithai",
+      "emoji": "🍬",
+      "label": "mithai uncle",
+      "text": "uncle with the kaju katli box",
+      "reason": "drops one piece every time. every time.",
+      "tier": "S",
+      "clip": "104",
+      "start": 0.5,
+      "bg": "livingroom.jpg"
+    },
+    {
+      "id": "aunty",
+      "emoji": "🙄",
+      "label": "ghee aunty",
+      "text": "aunty who says \"he's so fat, what do you feed him\"",
+      "reason": "then she feeds me ghee",
+      "tier": "A",
+      "clip": "124",
+      "start": 0.0,
+      "bg": "kitchen.jpg"
+    },
+    {
+      "id": "kid",
+      "emoji": "👦",
+      "label": "tail kid",
+      "text": "the 7 year old cousin",
+      "reason": "pulled my tail 4 times. his mother saw 3 of them.",
+      "tier": "F",
+      "clip": "170",
+      "start": 0.0,
+      "bg": "livingroom.jpg"
+    },
+    {
+      "id": "chair",
+      "emoji": "🪑",
+      "label": "chair uncle",
+      "text": "uncle who sat on my chair",
+      "reason": "it was warm. i was coming back to it.",
+      "tier": "D",
+      "clip": "080",
+      "start": 0.5,
+      "bg": "livingroom.jpg"
+    },
+    {
+      "id": "bua",
+      "emoji": "🤧",
+      "label": "allergic bua",
+      "text": "bua who is \"very allergic to cats\"",
+      "reason": "sneezed 30 times. petted me for an hour.",
+      "tier": "B",
+      "clip": "128",
+      "start": 1.0,
+      "bg": "livingroom.jpg"
+    },
+    {
+      "id": "you",
+      "emoji": "🚪",
+      "label": "you",
+      "text": "you, who locked me in the bedroom during the puja",
+      "reason": "for 3 hours. i heard the kaju katli.",
+      "tier": "blocked",
+      "clip": "129",
+      "start": 2.0,
+      "bg": "home.jpg"
+    },
+    {
+      "move": "mithai",
+      "to": "blocked",
+      "text": "update: mithai uncle brought the patakhas",
+      "reason": "11:40 pm. right under my window.",
+      "clip": "043",
+      "start": 0.3,
+      "bg": "rooftop.jpg",
+      "bang": true
+    }
+  ]
+}

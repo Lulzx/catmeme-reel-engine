@@ -1,0 +1,33 @@
+{
+  "format": "lockscreen",
+  "title": "your lock screen after a 10 minute shower",
+  "output": "ten-minute-shower.mp4",
+  "pov": "POV: you went for a 10 minute shower",
+  "date": "Wednesday 28 October",
+  "wallpaper": { "clip": "174", "start": 0.5, "dur": 9.0, "bg": "home.jpg" },
+  "youtube": {
+    "pov": "POV: you went for a 10 minute shower",
+    "title": "POV: you went for a 10 minute shower 🐱 #shorts",
+    "description": "9:02 to 9:12. the whole building got involved.\n\nsend this to the mummy who calls 7 times for one question 📞\n#shorts #indianmom #desifamily #relatable #catmemes",
+    "tags": ["cat memes", "indian mom", "desi family", "missed calls", "lock screen", "relatable", "funny cats", "shorts"]
+  },
+  "events": [
+    { "t": 0.0,  "clock": "9:02" },
+    { "t": 1.8,  "clock": "9:03", "app": "phone",    "title": "Mummy", "body": "Missed Call" },
+    { "t": 3.8,  "clock": "9:03", "app": "phone",    "title": "Mummy", "body": "Missed Call" },
+    { "t": 5.8,  "clock": "9:04", "app": "whatsapp", "title": "Mummy", "body": "call me" },
+    { "t": 7.8,  "clock": "9:04", "call": { "name": "Mummy", "sub": "mobile", "clip": "027", "start": 0.4, "bg": "kitchen.jpg", "until": 11.4 } },
+    { "t": 11.6, "clock": "9:05", "app": "phone",    "title": "Mummy", "body": "Missed Call" },
+    { "t": 13.4, "clock": "9:05", "app": "whatsapp", "title": "Papa", "body": "mummy is calling you" },
+    { "t": 15.6, "clock": "9:06", "app": "whatsapp", "title": "Chachu", "body": "is everything ok? bhabhi called me" },
+    { "t": 18.0, "clock": "9:07", "app": "whatsapp", "title": "Family 🙏❤️", "sub": "Bua", "body": "anyone has heard from beta?? 🙏" },
+    { "t": 20.6, "clock": "9:08", "app": "whatsapp", "title": "Mummy", "body": "i am calling sharma aunty she is in your building" },
+    { "t": 23.4, "clock": "9:09", "app": "whatsapp", "title": "Green Valley Residents 🏢", "sub": "Secretary A-101", "body": "Kindly check on A-302. Family is worried." },
+    { "t": 26.2, "clock": "9:10", "app": "whatsapp", "title": "Guard bhaiya", "body": "madam i am outside your door" },
+    { "t": 26.6, "doorbell": true },
+    { "t": 29.0, "clock": "9:11", "app": "whatsapp", "title": "Mummy", "body": "ok leave it" },
+    { "t": 32.4, "clock": "9:12", "app": "whatsapp", "title": "Mummy", "body": "what is the wifi password" },
+    { "t": 33.6, "shower_off": true, "wallpaper": { "clip": "089", "start": 0.2, "dur": 4.6, "bg": "home.jpg" }, "sound": { "clip": "002", "start": 0.93, "dur": 0.7 } },
+    { "t": 38.0, "end": true }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "format": "reviews",
+  "title": "the family left google reviews for mummy's kitchen",
+  "output": "mummys-kitchen-reviews.mp4",
+  "pov": "POV: the family reviews mummy's kitchen",
+  "clock": "9:20",
+  "place": "Mummy's Kitchen",
+  "rating": 4.6,
+  "count": 1208,
+  "subtitle": "Home-style food · Open 24 hours · ₹0",
+  "youtube": {
+    "pov": "POV: the family reviews mummy's kitchen",
+    "title": "the family left google reviews for mummy's kitchen 🐱 #shorts",
+    "description": "4.6 stars. 1,213 reviews. the owner replies to everyone.\n\nwhich review is your chhota bhai 👀\n#shorts #indianmom #desifamily #googlereviews #catmemes",
+    "tags": [
+      "cat memes",
+      "indian mom",
+      "google reviews",
+      "desi family",
+      "mummy ka khana",
+      "relatable",
+      "funny cats",
+      "shorts"
+    ]
+  },
+  "people": {
+    "papa": {
+      "name": "Papa",
+      "avatar": "161",
+      "meta": "Local Guide · 31 years"
+    },
+    "chachu": {
+      "name": "Chachu",
+      "avatar": "181",
+      "meta": "staying since 2019"
+    },
+    "bhai": {
+      "name": "Chhota bhai",
+      "avatar": "187",
+      "meta": "2 reviews · both 1 star"
+    },
+    "you": {
+      "name": "You",
+      "avatar": "178",
+      "meta": "Local Guide · 6 reviews"
+    },
+    "sharma": {
+      "name": "Sharma ji's son",
+      "avatar": "184",
+      "meta": "Top Contributor · 40 LPA"
+    }
+  },
+  "header": [
+    {
+      "t": 0.0,
+      "label": "mummy",
+      "clip": "177",
+      "start": 0.0,
+      "bg": "kitchen.jpg",
+      "sound": false
+    },
+    {
+      "t": 2.0,
+      "label": "Papa",
+      "clip": "161",
+      "start": 0.0,
+      "bg": "livingroom.jpg",
+      "sound_dur": 3.0
+    },
+    {
+      "t": 7.0,
+      "label": "Chachu",
+      "clip": "181",
+      "start": 0.5,
+      "bg": "livingroom.jpg",
+      "sound": false
+    },
+    {
+      "t": 11.4,
+      "label": "Chhota bhai",
+      "clip": "187",
+      "start": 0.5,
+      "bg": "home.jpg",
+      "sound_dur": 3.0
+    },
+    {
+      "t": 15.8,
+      "label": "You",
+      "clip": "178",
+      "start": 0.5,
+      "bg": "home.jpg",
+      "sound": false
+    },
+    {
+      "t": 20.4,
+      "label": "mummy",
+      "clip": "177",
+      "start": 3.0,
+      "bg": "kitchen.jpg",
+      "sound": false
+    },
+    {
+      "t": 25.0,
+      "label": "Sharma ji's son",
+      "clip": "184",
+      "start": 0.3,
+      "bg": "library.jpg",
+      "fit": 0.8,
+      "sound_dur": 2.4
+    },
+    {
+      "t": 29.6,
+      "label": "mummy",
+      "clip": "190",
+      "start": 0.5,
+      "bg": "kitchen.jpg",
+      "sound_dur": 7.0
+    }
+  ],
+  "events": [
+    {
+      "t": 2.2,
+      "type": "review",
+      "who": "papa",
+      "stars": 5,
+      "when": "2 hours ago",
+      "rating": 4.6,
+      "text": "dal was good. salt was less. giving 5 stars because i also want dinner tomorrow"
+    },
+    {
+      "t": 7.2,
+      "type": "review",
+      "who": "chachu",
+      "stars": 5,
+      "when": "yesterday",
+      "rating": 4.6,
+      "text": "came for one day in 2019. still here."
+    },
+    {
+      "t": 11.6,
+      "type": "review",
+      "who": "bhai",
+      "stars": 1,
+      "when": "today",
+      "rating": 4.5,
+      "text": "asked for maggi. got lauki. second time this week."
+    },
+    {
+      "t": 16.0,
+      "type": "review",
+      "who": "you",
+      "stars": 2,
+      "when": "just now",
+      "rating": 4.4,
+      "text": "they ask \"what will you eat\" and then make bhindi anyway"
+    },
+    {
+      "t": 20.6,
+      "type": "reply",
+      "target_who": "you",
+      "rating": 4.4,
+      "text": "then make it yourself. also your room is still dirty."
+    },
+    {
+      "t": 25.2,
+      "type": "review",
+      "who": "sharma",
+      "stars": 4,
+      "when": "just now",
+      "rating": 4.4,
+      "text": "my mother makes better rajma. but i had 3 plates."
+    },
+    {
+      "t": 29.8,
+      "type": "reply",
+      "target_who": "sharma",
+      "rating": 4.4,
+      "text": "your mother called me yesterday for this rajma recipe 🙂"
+    }
+  ],
+  "end": 36.4,
+  "clips_used": [
+    "177",
+    "161",
+    "181",
+    "187",
+    "178",
+    "184",
+    "190"
+  ]
+}

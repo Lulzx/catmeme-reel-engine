@@ -1,0 +1,22 @@
+{
+  "format": "biodata",
+  "title": "mummy is filling your matrimonial biodata",
+  "output": "mummy-fills-my-biodata.mp4",
+  "pov": "POV: mummy is filling your biodata",
+  "clips_used": ["054", "083", "060", "091", "059", "184"],
+  "youtube": {
+    "pov": "POV: mummy is filling your biodata",
+    "title": "mummy filled my biodata 🐱📄 #shorts",
+    "description": "height: 5'9\" (with chappal). salary: 28 LPA (it was 28,000). photo: updated.\n\nsend this to the one whose mummy has already printed 40 copies 🙏\n#shorts #biodata #rishta #indianmom #catmemes",
+    "tags": ["cat memes", "biodata", "rishta", "indian mom", "arranged marriage", "desi family", "funny cats", "shorts"]
+  },
+  "fields": [
+    { "label": "height",    "value": "5'7\"", "fix": "5'9\"", "clip": "054", "start": 0.5, "bg": "home.jpg" },
+    { "label": "education", "value": "b.com, ca dropped in 2021", "fix": "b.com, ca final year", "clip": "083", "start": 0.5, "bg": "home.jpg" },
+    { "label": "job",       "value": "makes cat videos on youtube", "fix": "software engineer, bangalore", "clip": "060", "start": 1.0, "bg": "home.jpg" },
+    { "label": "salary",    "value": "₹28,000 per month", "fix": "₹28 LPA", "clip": "091", "start": 1.0, "bg": "home.jpg" },
+    { "label": "hobbies",   "value": "sleeping till 1 pm", "fix": "yoga, reading, temple on tuesdays", "clip": "059", "start": 0.5, "bg": "home.jpg" },
+    { "label": "nature",    "value": "very homely, very simple", "clip": "059", "start": 4.0, "bg": "home.jpg", "hold": 1.8 },
+    { "label": "photo",     "value": "sharma ji's son. looks same only", "swap": true, "clip": "184", "start": 0.37, "bg": "home.jpg", "hold": 1.0, "hold2": 4.4 }
+  ]
+}

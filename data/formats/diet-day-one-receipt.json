@@ -1,0 +1,157 @@
+{
+  "format": "receipt",
+  "title": "the receipt from day 1 of the diet",
+  "output": "diet-day-one-receipt.mp4",
+  "pov": "POV: day 1 of your diet, 3:07 am",
+  "bg": "restaurant.jpg",
+  "printer": "kitchen printer · counter 2",
+  "hold": 4.0,
+  "youtube": {
+    "pov": "POV: day 1 of your diet, 3:07 am",
+    "title": "the receipt from day 1 of my diet 🐱🧾 #shorts",
+    "description": "started at 9 am with a salad. ended at 3:07 am with 4 naan.\n\nthe delivery guy knows. he has always known.\n#shorts #diet #3amcravings #swiggy #catmemes",
+    "tags": [
+      "cat memes",
+      "diet",
+      "3am cravings",
+      "food delivery",
+      "receipt",
+      "relatable",
+      "funny cats",
+      "shorts"
+    ]
+  },
+  "clips_used": [
+    "006",
+    "045"
+  ],
+  "cats": [
+    {
+      "at_line": 0,
+      "clip": "006",
+      "start": 3.6,
+      "bg": "kitchen.jpg",
+      "who": "you",
+      "dur": 2.3,
+      "loop": true
+    },
+    {
+      "at_line": 20,
+      "clip": "045",
+      "start": 0.7,
+      "bg": "home.jpg",
+      "who": "you"
+    }
+  ],
+  "lines": [
+    {
+      "text": "FOODEXPRESS",
+      "style": "big",
+      "gap": 0.2
+    },
+    {
+      "text": "order #4417-882",
+      "style": "center",
+      "gap": 0.5
+    },
+    {
+      "text": "placed 3:07 am · flat 302",
+      "style": "center",
+      "gap": 0.5
+    },
+    {
+      "rule": true,
+      "gap": 0.5
+    },
+    {
+      "item": "1x grilled chicken salad",
+      "price": "289",
+      "gap": 1.25
+    },
+    {
+      "text": "   no dressing please",
+      "style": "note",
+      "gap": 0.9
+    },
+    {
+      "item": "1x diet coke",
+      "price": "60",
+      "gap": 1.62
+    },
+    {
+      "item": "1x butter chicken",
+      "price": "340",
+      "gap": 2.25
+    },
+    {
+      "item": "4x butter naan",
+      "price": "180",
+      "gap": 1.75
+    },
+    {
+      "item": "1x gulab jamun (8 pc)",
+      "price": "160",
+      "gap": 1.75
+    },
+    {
+      "item": "1x large fries",
+      "price": "129",
+      "gap": 1.62
+    },
+    {
+      "text": "   extra cheese",
+      "style": "note",
+      "gap": 0.9
+    },
+    {
+      "rule": true,
+      "gap": 0.8
+    },
+    {
+      "item": "item total",
+      "price": "1,158",
+      "gap": 0.6
+    },
+    {
+      "item": "gold discount",
+      "price": "-40",
+      "gap": 0.6
+    },
+    {
+      "item": "TO PAY",
+      "price": "1,118",
+      "style": "bold",
+      "gap": 0.7
+    },
+    {
+      "rule": true,
+      "gap": 0.8
+    },
+    {
+      "text": "delivery instructions:",
+      "style": "bold",
+      "gap": 1.25
+    },
+    {
+      "text": "please dont ring the bell",
+      "gap": 1.75
+    },
+    {
+      "text": "if anyone asks, say it is",
+      "gap": 2.0
+    },
+    {
+      "text": "for my roommate",
+      "gap": 0.8
+    },
+    {
+      "blank": true,
+      "gap": 0.6
+    },
+    {
+      "text": "i live alone",
+      "style": "punch",
+      "gap": 2.2
+    }
+  ]
+}

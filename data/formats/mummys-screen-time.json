@@ -1,0 +1,226 @@
+{
+  "format": "screen_time",
+  "title": "mummy said you are always on the phone",
+  "output": "mummys-screen-time.mp4",
+  "pov": "POV: mummy says you are always on the phone",
+  "clock": "10:48",
+  "youtube": {
+    "pov": "POV: mummy says you are always on the phone",
+    "title": "mummy said i'm always on the phone so i checked her screen time 🐱 #shorts",
+    "description": "3h 05m vs 11h 48m. i have not said anything. i just set my phone face down.\n\n#shorts #indianmom #screentime #desifamily #catmemes",
+    "tags": [
+      "cat memes",
+      "indian mom",
+      "screen time",
+      "desi family",
+      "whatsapp",
+      "relatable",
+      "funny cats",
+      "shorts"
+    ]
+  },
+  "phases": [
+    {
+      "t": 0.6,
+      "device": "Your iPhone",
+      "avg": "3h 05m",
+      "delta": "4% less than last week",
+      "days": [
+        2.6,
+        3.1,
+        2.8,
+        3.4,
+        3.0,
+        3.6,
+        3.2
+      ],
+      "apps": [
+        [
+          "📸",
+          "Instagram",
+          "1h 10m",
+          [
+            225,
+            48,
+            108
+          ]
+        ],
+        [
+          "▶️",
+          "YouTube",
+          "48m",
+          [
+            230,
+            33,
+            23
+          ]
+        ],
+        [
+          "💬",
+          "WhatsApp",
+          "31m",
+          [
+            37,
+            211,
+            102
+          ]
+        ],
+        [
+          "🛵",
+          "Swiggy",
+          "9m",
+          [
+            252,
+            128,
+            25
+          ]
+        ]
+      ],
+      "pickups": "64",
+      "first": "9:40 am"
+    },
+    {
+      "t": 13.6,
+      "device": "Mummy's iPhone",
+      "avg": "11h 48m",
+      "delta": "31% more than last week",
+      "row_gap": 1.0,
+      "days": [
+        11.2,
+        12.4,
+        11.0,
+        12.9,
+        11.6,
+        12.1,
+        11.3
+      ],
+      "bar": [
+        255,
+        149,
+        0
+      ],
+      "apps": [
+        [
+          "💬",
+          "WhatsApp",
+          "7h 02m",
+          [
+            37,
+            211,
+            102
+          ],
+          "family 🙏❤️"
+        ],
+        [
+          "▶️",
+          "YouTube",
+          "2h 10m",
+          [
+            230,
+            33,
+            23
+          ],
+          "recipe shorts"
+        ],
+        [
+          "📘",
+          "Facebook",
+          "1h 31m",
+          [
+            24,
+            119,
+            242
+          ]
+        ],
+        [
+          "🍬",
+          "Candy Crush",
+          "1h 05m",
+          [
+            233,
+            30,
+            140
+          ]
+        ]
+      ],
+      "pickups": "341",
+      "first": "4:58 am"
+    }
+  ],
+  "dropdown": {
+    "t": 11.2,
+    "tap": 12.6,
+    "until": 13.5,
+    "options": [
+      "Your iPhone",
+      "Mummy's iPhone"
+    ],
+    "pick": 1
+  },
+  "cats": [
+    {
+      "t": 0.6,
+      "until": 11.0,
+      "who": "mummy",
+      "clip": "149",
+      "start": 0.0,
+      "bg": "kitchen.jpg",
+      "sound_dur": 2.5,
+      "line": "3 hours a day?? your eyes will go",
+      "line_t": 7.0
+    },
+    {
+      "t": 13.6,
+      "until": 17.6,
+      "who": "mummy",
+      "clip": "149",
+      "start": 3.0,
+      "bg": "kitchen.jpg",
+      "sound_dur": 1.5
+    },
+    {
+      "t": 17.6,
+      "until": 23.0,
+      "who": "you",
+      "clip": "191",
+      "start": 0.5,
+      "bg": "livingroom.jpg",
+      "sound_dur": 5.3,
+      "vol": 0.7,
+      "fit": 0.72
+    },
+    {
+      "t": 23.0,
+      "until": 27.4,
+      "who": "mummy",
+      "clip": "168",
+      "start": 0.5,
+      "bg": "kitchen.jpg",
+      "line": "that is all work only",
+      "line_t": 23.5
+    },
+    {
+      "t": 27.4,
+      "until": 33.6,
+      "who": "you",
+      "clip": "172",
+      "start": 0.6,
+      "bg": "livingroom.jpg",
+      "sound_dur": 2.5,
+      "fit": 0.85
+    }
+  ],
+  "banner": {
+    "t": 27.6,
+    "app": "Screen Time",
+    "when": "2:14 am",
+    "body": "Mummy's iPhone set a 1 hour daily limit on Your iPhone 🔒"
+  },
+  "end": 33.6,
+  "clips_used": [
+    "149",
+    "191",
+    "168",
+    "172"
+  ]
+}

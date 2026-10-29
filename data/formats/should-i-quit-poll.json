@@ -1,0 +1,201 @@
+{
+  "format": "story_poll",
+  "title": "you posted a poll asking if you should quit your job",
+  "output": "should-i-quit-poll.mp4",
+  "pov": "POV: you posted a poll asking if you should quit your job",
+  "question": "should i quit my job? 🙃",
+  "options": [
+    "QUIT 🔥",
+    "STAY 💼"
+  ],
+  "ago": "2h",
+  "seen_base": 9,
+  "youtube": {
+    "pov": "POV: you posted a poll asking if you should quit your job",
+    "title": "posted a poll asking if i should quit my job. forgot who follows me 🐱 #shorts",
+    "description": "71% said quit. one of them signs my salary.\n\nnever post polls on a sunday night 🫠\n#shorts #officelife #corporate #instagramstory #catmemes",
+    "tags": [
+      "cat memes",
+      "office life",
+      "corporate humour",
+      "instagram story",
+      "quit my job",
+      "relatable",
+      "funny cats",
+      "shorts"
+    ]
+  },
+  "people": {
+    "you": {
+      "name": "You",
+      "avatar": "186"
+    },
+    "papa": {
+      "name": "Papa",
+      "avatar": "158"
+    },
+    "mummy": {
+      "name": "Mummy",
+      "avatar": "167"
+    },
+    "sharma": {
+      "name": "Sharma ji's son",
+      "avatar": "179"
+    },
+    "desk": {
+      "name": "desk 14 bhaiya",
+      "avatar": "156"
+    },
+    "hr": {
+      "name": "HR",
+      "avatar": "153"
+    },
+    "boss": {
+      "name": "Boss",
+      "avatar": "169"
+    }
+  },
+  "story": [
+    {
+      "t": 0.0,
+      "clip": "186",
+      "start": 0.0,
+      "bg": "library.jpg",
+      "loop_audio": true,
+      "vol": 0.45,
+      "height": 700,
+      "bottom": 1330,
+      "cx": 480
+    },
+    {
+      "t": 32.0,
+      "clip": "165",
+      "start": 0.0,
+      "bg": "library.jpg",
+      "loop": false,
+      "vol": 1.0,
+      "height": 1000,
+      "dur": 2.8,
+      "bottom": 1560,
+      "cx": 480
+    }
+  ],
+  "votes": [
+    [
+      0.0,
+      0,
+      0
+    ],
+    [
+      1.5,
+      3,
+      1
+    ],
+    [
+      6.0,
+      5,
+      3
+    ],
+    [
+      10.5,
+      8,
+      4
+    ],
+    [
+      15.0,
+      11,
+      5
+    ],
+    [
+      19.5,
+      14,
+      6
+    ],
+    [
+      23.0,
+      17,
+      7
+    ]
+  ],
+  "dms": [
+    {
+      "t": 2.4,
+      "who": "papa",
+      "text": "call me. now."
+    },
+    {
+      "t": 6.6,
+      "who": "mummy",
+      "text": "first get married then quit"
+    },
+    {
+      "t": 10.8,
+      "who": "sharma",
+      "text": "in my company we get 40 LPA and free lunch"
+    },
+    {
+      "t": 15.2,
+      "who": "desk",
+      "text": "pls take me with you"
+    },
+    {
+      "t": 19.6,
+      "who": "hr",
+      "text": "👀"
+    }
+  ],
+  "sheet": {
+    "t": 23.6,
+    "rows": [
+      {
+        "t": 24.4,
+        "who": "mummy",
+        "vote": "STAY 💼",
+        "note": "viewed 6 times"
+      },
+      {
+        "t": 25.4,
+        "who": "papa",
+        "vote": "STAY 💼",
+        "note": "screenshot 📸"
+      },
+      {
+        "t": 26.4,
+        "who": "sharma",
+        "vote": "QUIT 🔥",
+        "note": "viewed at 11:58 pm"
+      },
+      {
+        "t": 27.4,
+        "who": "desk",
+        "vote": "QUIT 🔥",
+        "note": "viewed from office wifi"
+      },
+      {
+        "t": 28.4,
+        "who": "hr",
+        "vote": "STAY 💼",
+        "note": "viewed 2 times"
+      },
+      {
+        "t": 30.4,
+        "who": "boss",
+        "vote": "QUIT 🔥",
+        "note": "viewed at 9:14 pm",
+        "hl": true
+      }
+    ],
+    "close": 32.0
+  },
+  "end": 35.0,
+  "clips_used": [
+    "186",
+    "165",
+    "158",
+    "167",
+    "179",
+    "156",
+    "153",
+    "169"
+  ]
+}

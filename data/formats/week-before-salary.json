@@ -1,0 +1,140 @@
+{
+  "format": "upi_history",
+  "title": "upi history from the week before salary",
+  "output": "week-before-salary.mp4",
+  "pov": "POV: the week before salary",
+  "clock": "6:14",
+  "payday": "salary on 1st",
+  "start_balance": 712,
+  "hold": 4.0,
+  "youtube": {
+    "pov": "POV: the week before salary",
+    "title": "my upi history the week before salary 🐱💸 #shorts",
+    "description": "₹712 on the 24th. half chai by the 27th. hot water by the 30th.\n\nboth of them think the other one doesn't know\n#shorts #salary #upi #middleclass #catmemes",
+    "tags": [
+      "cat memes",
+      "salary",
+      "upi",
+      "end of month",
+      "indian parents",
+      "relatable",
+      "funny cats",
+      "shorts"
+    ]
+  },
+  "clips_used": [
+    "009",
+    "183",
+    "041",
+    "017"
+  ],
+  "cats": [
+    {
+      "at_row": -1,
+      "clip": "009",
+      "start": 0.0,
+      "dur": 4.8,
+      "loop": true,
+      "bg": "home.jpg",
+      "who": "you"
+    },
+    {
+      "at_row": 6,
+      "clip": "183",
+      "start": 0.0,
+      "dur": 4.5,
+      "bg": "home.jpg",
+      "who": "you"
+    },
+    {
+      "at_row": 8,
+      "clip": "041",
+      "start": 0.0,
+      "dur": 3.6,
+      "bg": "home.jpg",
+      "who": "you"
+    },
+    {
+      "at_row": 9,
+      "clip": "017",
+      "start": 0.5,
+      "bg": "livingroom.jpg",
+      "who": "you"
+    }
+  ],
+  "rows": [
+    {
+      "gap": 0.6,
+      "emoji": "☕",
+      "name": "chai tapri",
+      "when": "24 oct, 9:12 am",
+      "amount": -20
+    },
+    {
+      "emoji": "🍔",
+      "name": "foodexpress",
+      "when": "24 oct, 1:40 pm",
+      "amount": -349
+    },
+    {
+      "emoji": "🛵",
+      "name": "bike taxi",
+      "when": "25 oct, 7:55 pm",
+      "amount": -67
+    },
+    {
+      "emoji": "📺",
+      "name": "netflix",
+      "when": "26 oct, 12:00 am",
+      "note": "autopay",
+      "amount": -199
+    },
+    {
+      "emoji": "☕",
+      "name": "chai tapri",
+      "when": "27 oct, 9:10 am",
+      "note": "half chai",
+      "amount": -10
+    },
+    {
+      "emoji": "🏪",
+      "name": "sharma kirana store",
+      "when": "28 oct, 8:30 pm",
+      "note": "2 maggi",
+      "amount": -38
+    },
+    {
+      "gap": 2.6,
+      "emoji": "👨",
+      "name": "request to papa",
+      "when": "29 oct, 10:02 am",
+      "note": "for books",
+      "amount": -500,
+      "declined": true
+    },
+    {
+      "gap": 3.6,
+      "emoji": "☕",
+      "name": "chai tapri",
+      "when": "30 oct, 9:05 am",
+      "note": "only hot water",
+      "amount": -5
+    },
+    {
+      "gap": 3.2,
+      "emoji": "👩",
+      "name": "received from mummy",
+      "when": "31 oct, 6:12 pm",
+      "note": "dont tell papa",
+      "amount": 2000
+    },
+    {
+      "gap": 3.4,
+      "emoji": "👨",
+      "name": "received from papa",
+      "when": "31 oct, 6:13 pm",
+      "note": "dont tell mummy",
+      "amount": 2000
+    }
+  ]
+}

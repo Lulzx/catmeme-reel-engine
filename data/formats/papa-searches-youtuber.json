@@ -1,0 +1,114 @@
+{
+  "format": "search",
+  "title": "papa's search history after you said you want to be a youtuber",
+  "output": "papa-searches-youtuber.mp4",
+  "pov": "POV: you told papa you want to be a youtuber",
+  "clock": "11:52",
+  "youtube": {
+    "pov": "POV: you told papa you want to be a youtuber",
+    "title": "papa's search history after i said i want to be a youtuber 🐱 #shorts",
+    "description": "he said nothing at dinner. then he went to his room at 11:40.\n\ntag the papa who reads every comment 🙏\n#shorts #indianparents #youtuber #searchhistory #catmemes",
+    "tags": [
+      "cat memes",
+      "indian parents",
+      "search history",
+      "papa",
+      "youtuber",
+      "relatable",
+      "funny cats",
+      "shorts"
+    ]
+  },
+  "steps": [
+    {
+      "q": "youtuber salary in",
+      "s": [
+        "youtuber salary in india per month",
+        "youtuber salary in india for 1000 views",
+        "youtuber salary in india is it real"
+      ],
+      "who": "papa",
+      "clip": "146",
+      "start": 1.0,
+      "bg": "livingroom.jpg",
+      "hold": 2.8
+    },
+    {
+      "q": "is youtube a gov",
+      "s": [
+        "is youtube a government job",
+        "is youtube a government job or private",
+        "is youtube a government job with pension"
+      ],
+      "who": "papa",
+      "clip": "004",
+      "start": 1.2,
+      "bg": "livingroom.jpg",
+      "hold": 2.8
+    },
+    {
+      "q": "upsc age limit",
+      "s": [
+        "upsc age limit for 24 year old",
+        "upsc age limit general category",
+        "upsc age limit can it be increased"
+      ],
+      "who": "papa",
+      "clip": "064",
+      "start": 0.5,
+      "bg": "livingroom.jpg",
+      "hold": 2.8
+    },
+    {
+      "q": "my son makes cat vid",
+      "s": [
+        "my son makes cat videos",
+        "my son makes cat videos what to do",
+        "my son makes cat videos is it a phase"
+      ],
+      "who": "papa",
+      "clip": "002",
+      "start": 0.0,
+      "bg": "livingroom.jpg",
+      "hold": 2.8
+    },
+    {
+      "q": "how many views is goo",
+      "s": [
+        "how many views is good for a short",
+        "how many views is good for 2 days",
+        "212 views is it good"
+      ],
+      "who": "papa",
+      "clip": "147",
+      "start": 0.0,
+      "bg": "livingroom.jpg",
+      "hold": 3.0
+    },
+    {
+      "q": "comment without showing",
+      "s": [
+        "comment without showing my name",
+        "comment without showing my name youtube",
+        "comment without showing name on son's video"
+      ],
+      "who": "papa",
+      "clip": "183",
+      "start": 0.0,
+      "bg": "livingroom.jpg",
+      "hold": 2.4
+    },
+    {
+      "banner": {
+        "app": "YouTube",
+        "title": "new comment on your short",
+        "body": "@user84127: very nice beta 🙏 now do upsc"
+      },
+      "who": "you",
+      "clip": "097",
+      "start": 0.3,
+      "bg": "home.jpg",
+      "hold": 4.6
+    }
+  ]
+}

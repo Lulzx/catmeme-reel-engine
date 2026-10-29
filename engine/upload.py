@@ -316,6 +316,22 @@ def schedule_queue(con, every_h, start_in_h):
 
 
 # ── cli ─────────────────────────────────────────────────────────────────────
+def replace(con, slug):
+    """Swap a scheduled (still private) video for a re-rendered file: upload the new
+    one with the same publishAt, then delete the old copy. Nothing is deleted unless
+    the new upload succeeded, and a video that already went public is never touched."""
+    v = db.get_video(con, slug)
+    if not v or v["status"] != "scheduled" or not v.get("publish_at"):
+        sys.exit(f"'{slug}' is not scheduled; nothing to replace.")
+    at = datetime.datetime.fromisoformat(v["publish_at"].replace("Z", "+00:00"))
+    if at <= datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(minutes=10):
+        sys.exit(f"'{slug}' publishes at {v['publish_at']} (too soon or already public); left as is.")
+    old = v["video_id"]
+    upload(con, slug, publish_at=v["publish_at"])
+    get_service().videos().delete(id=old).execute()
+    print(f"Deleted the old upload https://youtu.be/{old}")
+
+
 def print_status(con):
     nxt = db.next_to_post(con)
     for i, v in enumerate(db.list_videos(con), 1):
@@ -344,6 +360,9 @@ def main():
                    help="hours between scheduled publishes")
     p.add_argument("--start-in", type=float, default=6.0, metavar="HOURS",
                    help="hours from now for the first scheduled publish")
+    p.add_argument("--replace", action="store_true",
+                   help="re-upload a scheduled slug's file at the same publish time and "
+                        "delete the old upload")
     p.add_argument("--status", action="store_true", help="print posting table only")
     p.add_argument("--sync", action="store_true", help="regenerate youtube.md from the DB")
     p.add_argument("--auth", action="store_true", help="run OAuth flow only")
@@ -370,6 +389,11 @@ def main():
     if a.fill_schedule:
         fill_schedule(con, every_h=a.every, max_n=a.max)
         git_sync("chore: update videos.json (fill schedule)")
+        return
+
+    if a.replace:
+        replace(con, a.slug)
+        git_sync(f"chore: update videos.json ({a.slug} replaced)")
         return
 
     slug = a.slug or db.next_to_post(con)

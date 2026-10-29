@@ -1,0 +1,101 @@
+{
+  "format": "report_card",
+  "title": "papa opened the report card before you got home",
+  "output": "papa-opened-the-report-card.mp4",
+  "pov": "POV: papa opened your report card before you got home",
+  "school": "Green Valley Public School",
+  "exam": "half yearly examination 2026 · class 8 B",
+  "clips_used": [
+    "113",
+    "141",
+    "098",
+    "139",
+    "114",
+    "138",
+    "184"
+  ],
+  "youtube": {
+    "pov": "POV: papa opened your report card before you got home",
+    "title": "papa opened my report card before i got home 🐱📄 #shorts",
+    "description": "38 in maths. 96 in computer. 3rd rank. and then the last row.\n\ntag someone who was also 3rd in class 👀\n#shorts #reportcard #indianparents #school #catmemes",
+    "tags": [
+      "cat memes",
+      "report card",
+      "indian parents",
+      "exam results",
+      "papa",
+      "school",
+      "funny cats",
+      "shorts"
+    ]
+  },
+  "rows": [
+    {
+      "subject": "english",
+      "max": 100,
+      "marks": 64,
+      "grade": "B",
+      "clip": "113",
+      "start": 0.0,
+      "say": "english is not needed in engineering"
+    },
+    {
+      "subject": "hindi",
+      "max": 100,
+      "marks": 71,
+      "grade": "B",
+      "clip": "141",
+      "start": 0.5,
+      "say": "71 in your own language?"
+    },
+    {
+      "subject": "maths",
+      "max": 100,
+      "marks": 38,
+      "grade": "D",
+      "clip": "098",
+      "start": 0.0
+    },
+    {
+      "subject": "science",
+      "max": 100,
+      "marks": 52,
+      "grade": "C",
+      "clip": "139",
+      "start": 0.5,
+      "say": "sharma ji's son got 94"
+    },
+    {
+      "subject": "computer",
+      "max": 100,
+      "marks": 96,
+      "grade": "A+",
+      "clip": "114",
+      "start": 2.0,
+      "say": "see. this is from my side"
+    },
+    {
+      "subject": "rank in class",
+      "marks": "🏅 3rd",
+      "result": true,
+      "clip": "138",
+      "start": 0.0,
+      "say": "i am calling chachu",
+      "dur": 4.8,
+      "fit": 0.72
+    },
+    {
+      "subject": "students in class",
+      "marks": "3",
+      "red": true,
+      "result": true,
+      "clip": "184",
+      "start": 0.3,
+      "who": "you",
+      "dur": 4.6,
+      "bg": "home.jpg",
+      "fit": 0.8,
+      "circle": true
+    }
+  ]
+}

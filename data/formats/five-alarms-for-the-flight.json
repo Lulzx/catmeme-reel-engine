@@ -1,0 +1,41 @@
+{
+  "format": "alarm",
+  "title": "you set 5 alarms for your 7:40 flight",
+  "output": "five-alarms-for-the-flight.mp4",
+  "pov": "POV: you set 5 alarms for your 7:40 flight",
+  "date": "Thursday 29 October",
+  "clips_used": ["120", "117"],
+  "youtube": {
+    "pov": "POV: you set 5 alarms for your 7:40 flight",
+    "title": "POV: you set 5 alarms for your 7:40 flight 🐱 #shorts",
+    "description": "the alarms worked. the battery didn't.\n\nsend this to the friend who snoozes 4 times and calls it a plan ✈️\n#shorts #snooze #flight #relatable #catmemes",
+    "tags": ["cat memes", "alarm", "snooze", "missed flight", "indian family", "relatable", "funny cats", "shorts"]
+  },
+  "alarms": [
+    { "time": "5:00", "label": "flight 6E 2134 at 7:40. get up" },
+    { "time": "5:10", "label": "get up" },
+    { "time": "5:20", "label": "you snoozed. get up" },
+    { "time": "5:30", "label": "cab is booked for 5:35" },
+    { "time": "5:40", "label": "last one. i'm serious" }
+  ],
+  "sleep": { "clip": "120", "start": 0.2, "dur": 6.8, "bg": "home.jpg" },
+  "wake":  { "clip": "117", "start": 0.6, "dur": 7.0, "bg": "home.jpg" },
+  "events": [
+    { "t": 0.0,  "state": "list", "clock": "11:58", "battery": 14 },
+    { "t": 4.6,  "state": "ring", "alarm": 0, "battery": 14, "until": 7.6, "action": "snooze" },
+    { "t": 7.8,  "state": "ring", "alarm": 1, "battery": 11, "until": 10.4, "action": "snooze", "snoozed": 1 },
+    { "t": 10.6, "state": "ring", "alarm": 2, "battery": 8, "until": 13.4, "action": "snooze", "snoozed": 2 },
+    { "t": 13.6, "state": "idle", "clock": "5:24", "battery": 5, "banner": { "app": "battery", "title": "Low Battery", "body": "5% battery remaining" } },
+    { "t": 16.4, "state": "ring", "alarm": 3, "battery": 4, "until": 19.0, "action": "snooze", "snoozed": 3 },
+    { "t": 19.2, "state": "idle", "clock": "5:35", "battery": 3, "banner": { "app": "uber", "title": "Uber", "body": "your driver has arrived. white wagonr, DL 3C 4471" } },
+    { "t": 22.2, "state": "idle", "clock": "5:38", "battery": 2, "banner": { "app": "whatsapp", "title": "Mummy", "body": "flight is at 7:40 na? we are leaving 🙏" } },
+    { "t": 25.2, "state": "ring", "alarm": 4, "battery": 1, "until": 26.8, "action": "dead" },
+    { "t": 26.8, "state": "dead" },
+    { "t": 30.0, "state": "charging", "clock": "9:47", "battery": 3, "wake_at": 30.0, "notif_gap": 2.0, "notifs": [
+      { "app": "uber", "title": "Uber", "body": "driver cancelled the trip. ₹75 cancellation fee", "when": "4h ago" },
+      { "app": "indigo", "title": "IndiGo", "body": "6E 2134 to Patna has departed. gate closed at 7:15", "when": "2h ago" },
+      { "app": "whatsapp", "title": "Mummy", "body": "we have boarded. you take the train 🙏", "when": "2h ago" }
+    ] },
+    { "t": 39.0, "end": true }
+  ]
+}
