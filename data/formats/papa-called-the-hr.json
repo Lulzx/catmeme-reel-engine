@@ -1,0 +1,37 @@
+{
+  "format": "job_inbox",
+  "title": "your inbox the week you're job hunting",
+  "output": "papa-called-the-hr.mp4",
+  "pov": "POV: your inbox the week you start job hunting",
+  "clips_used": ["106", "140", "107", "127", "142", "110", "119"],
+  "youtube": {
+    "pov": "POV: your inbox the week you start job hunting",
+    "title": "POV: your inbox the week you start job hunting 🐱📧 #shorts",
+    "description": "one interview. 14 calls to reception. none of them from me.\n\ntag the papa who has HR's landline number 📞\n#shorts #jobhunt #indianparents #inbox #catmemes",
+    "tags": ["cat memes", "job hunt", "job rejection", "indian parents", "papa", "relatable", "funny cats", "shorts"]
+  },
+  "events": [
+    { "t": -1, "from": "Bank Alerts", "color": [0, 121, 107], "subject": "EMI of ₹4,200 is due on 5 November", "preview": "please keep sufficient balance in your account", "time": "8:01 am" },
+    { "t": -1, "from": "Jobs Portal", "color": [94, 53, 177], "subject": "you appeared in 3 searches this week", "preview": "see who is looking at your profile", "time": "8:12 am",
+      "cam": { "clip": "106", "start": 0.5, "dur": 4.0, "bg": "home.jpg", "label": "you" } },
+    { "t": 1.0,  "from": "Papa", "color": [230, 81, 0], "subject": "FWD: FWD: FWD: 20 govt jobs, 12th pass also eligible", "preview": "beta apply all. last date is today", "time": "9:02 am",
+      "cam": { "clip": "140", "start": 0.0, "dur": 3.8, "bg": "livingroom.jpg", "label": "papa" } },
+    { "t": 4.8,  "from": "Zentro Technologies", "color": [21, 101, 192], "subject": "your application for associate engineer", "preview": "unfortunately, we have decided to move forward with other candidates", "time": "9:40 am",
+      "cam": { "clip": "107", "start": 0.0, "dur": 3.8, "bg": "library.jpg", "label": "you vs the job market" } },
+    { "t": 8.6,  "from": "Mama ji", "color": [173, 20, 87], "subject": "FWD: 7 interview tips. no. 4 is very important", "preview": "send to 10 people or bad luck for 7 years", "time": "10:15 am",
+      "cam": { "clip": "127", "start": 0.0, "dur": 3.8, "bg": "village.jpg", "label": "mama ji" } },
+    { "t": 12.4, "from": "Brightline Labs", "color": [0, 137, 123], "subject": "thank you for applying", "preview": "we will keep your resume on file for 6 months", "time": "11:30 am",
+      "cam": { "clip": "142", "start": 0.0, "dur": 3.8, "bg": "library.jpg", "label": "your resume, on file" } },
+    { "t": 16.2, "from": "Jobs Portal", "color": [94, 53, 177], "subject": "47 recruiters viewed your profile", "preview": "upgrade for ₹1,499 to see who", "time": "1:05 pm",
+      "cam": { "clip": "110", "start": 1.0, "dur": 3.8, "bg": "home.jpg", "label": "you" } },
+    { "t": 20.0, "from": "Papa", "color": [230, 81, 0], "subject": "sent your CV to 40 companies", "preview": "also called them. very nice people", "time": "2:20 pm",
+      "cam": { "clip": "140", "start": 1.5, "dur": 3.8, "bg": "livingroom.jpg", "label": "papa" } },
+    { "t": 23.8, "from": "Kestrel Systems HR", "color": [46, 125, 50], "subject": "interview: thursday, 11 am", "preview": "we are happy to invite you for the first round", "time": "4:45 pm",
+      "cam": { "clip": "119", "start": 0.5, "dur": 3.8, "bg": "home.jpg", "label": "you" } },
+    { "t": 27.6, "from": "Kestrel Systems HR", "color": [46, 125, 50], "subject": "re: interview: thursday, 11 am", "preview": "dear candidate, kindly ask your father to stop calling", "time": "5:10 pm" },
+    { "t": 29.4, "open": { "from": "Kestrel Systems HR", "time": "5:10 pm", "subject": "re: interview: thursday, 11 am",
+      "body": ["dear candidate,", "kindly ask your father to stop calling our reception. he has called 14 times since 4:50 pm.", "this round is cancelled."] },
+      "cam": { "clip": "140", "start": 0.0, "dur": 6.0, "bg": "livingroom.jpg", "label": "papa · calling them again" } },
+    { "t": 35.4, "end": true }
+  ]
+}

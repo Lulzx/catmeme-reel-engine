@@ -1,0 +1,38 @@
+{
+  "format": "wedding_calendar",
+  "title": "your november calendar in wedding season",
+  "output": "november-wedding-calendar.mp4",
+  "pov": "POV: it's november and the family has your calendar",
+  "month": "november 2026",
+  "first_weekday": 0,
+  "days": 30,
+  "leaves": 10,
+  "clips_used": ["049", "050", "078", "085", "092", "062"],
+  "youtube": {
+    "pov": "POV: it's november and the family has your calendar",
+    "title": "my november calendar in shaadi season 🐱📅 #shorts",
+    "description": "10 leaves on 1 november. 0 by the 21st. and one sunday left.\n\nhow many shaadis are you attending this month 👇\n#shorts #shaadiseason #weddingseason #desifamily #catmemes",
+    "tags": ["cat memes", "wedding season", "shaadi season", "november", "leave balance", "desi family", "funny cats", "shorts"]
+  },
+  "prefilled": [ { "day": 8, "emoji": "🪔", "label": "diwali", "color": [255, 226, 160] } ],
+  "events": [
+    { "t": 1.6,  "days": [6],  "emoji": "💛", "label": "haldi",     "color": [255, 232, 120], "cost": 1, "who": "Mummy",         "text": "mausi's son's haldi. friday, 11 am" },
+    { "t": 4.8,  "days": [7],  "emoji": "💍", "label": "shaadi",    "color": [255, 200, 210], "cost": 0, "who": "Mummy",         "text": "mausi's son's shaadi. saturday, so no leave 👍" },
+    { "t": 8.0,  "days": [12], "emoji": "💃", "label": "sangeet",   "color": [210, 200, 255], "cost": 1, "who": "college group", "text": "sangeet on thursday. you are dancing. practice daily 7 pm" },
+    { "t": 11.4, "days": [13], "emoji": "💍", "label": "shaadi",    "color": [255, 200, 210], "cost": 1, "who": "college group", "text": "shaadi on friday. baraat at 6 sharp" },
+    { "t": 14.6, "days": [18, 19, 20], "emoji": "🐪", "label": "jaipur", "color": [255, 214, 170], "cost": 3, "who": "Papa", "text": "chachu's daughter. destination wedding in jaipur. 3 days" },
+    { "t": 18.2, "days": [23], "emoji": "🍽️", "label": "reception", "color": [200, 236, 210], "cost": 1, "who": "Papa",          "text": "my colleague's son's reception. i can't go alone" },
+    { "t": 21.6, "days": [25, 26, 27], "emoji": "💍", "label": "bua's son", "color": [255, 200, 210], "cost": 3, "who": "Mummy", "text": "bua's son. mehendi, sangeet, shaadi. all 3 compulsory" },
+    { "t": 25.4, "days": [24], "emoji": "💼", "label": "offsite",   "color": [210, 225, 240], "cost": 0, "who": "Boss",          "text": "team offsite on 24th. attendance mandatory 🙂" },
+    { "t": 29.2, "days": [29], "emoji": "🙈", "label": "your roka", "color": [255, 170, 190], "cost": 0, "who": "Mummy",         "text": "your roka. it's a sunday, so no leave needed 😊", "finale": true }
+  ],
+  "cams": [
+    { "t": 0.0,  "clip": "049", "start": 2.0, "bg": "livingroom.jpg" },
+    { "t": 8.0,  "clip": "050", "start": 0.3, "bg": "stage.jpg" },
+    { "t": 14.6, "clip": "078", "start": 0.5, "bg": "livingroom.jpg" },
+    { "t": 21.6, "clip": "085", "start": 0.3, "bg": "livingroom.jpg" },
+    { "t": 25.4, "clip": "092", "start": 0.5, "bg": "library.jpg" },
+    { "t": 29.2, "clip": "062", "start": 0.5, "bg": "livingroom.jpg" }
+  ],
+  "end": 35.0
+}

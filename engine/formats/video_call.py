@@ -162,12 +162,12 @@ def draw(frame, t, s, st):
     draw_rich(frame, (W - line_w(ln[0])) / 2, SY0, ln, pf, (255, 255, 255), 52)
     mf = font(32, "Semibold")
     secs = int(t) + s.get("elapsed", 754)
-    draw_rich(frame, SX0, 220, wrap(s["meeting"], mf, 500)[:1], mf, (232, 234, 237), 40)
+    draw_rich(frame, SX0 + 12, 220, wrap(s["meeting"], mf, 500)[:1], mf, (232, 234, 237), 40)
     clock = f"{secs // 60:02d}:{secs % 60:02d}"
     tf = font(30)
     n = sum(1 for pid in st["order"] if st["joins"].get(pid, -1) <= t and not (pid in st["leaves"] and t >= st["leaves"][pid]))
     meta = f"{clock}  ·  👤 {n}"
-    draw_rich(frame, SX1 - line_w(wrap(meta, tf, 600)[0]), 222, wrap(meta, tf, 600), tf, (189, 193, 198), 38)
+    draw_rich(frame, SX1 - 12 - line_w(wrap(meta, tf, 600)[0]), 222, wrap(meta, tf, 600), tf, (189, 193, 198), 38)
     sp = st["spot"]
     for i, pid in enumerate(st["order"]):
         if sp and t >= sp[0] and pid == sp[1]:

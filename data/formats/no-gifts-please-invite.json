@@ -1,0 +1,40 @@
+{
+  "format": "wedding_invite",
+  "title": "the shaadi e-invite that says no gifts please",
+  "output": "no-gifts-please-invite.mp4",
+  "pov": "POV: the shaadi e-invite says no gifts please",
+  "clips_used": ["048", "068", "057", "184"],
+  "youtube": {
+    "pov": "POV: the shaadi e-invite says no gifts please",
+    "title": "the shaadi invite said no gifts please 🐱💌 #shorts",
+    "description": "your presence is our present. page 3 has a QR code.\n\ntag the friend who will send this to the family group 💌\n#shorts #shaadi #weddinginvite #desiwedding #catmemes",
+    "tags": ["cat memes", "wedding invite", "shaadi", "no gifts please", "desi wedding", "sharma ji ka beta", "funny cats", "shorts"]
+  },
+  "pages": [
+    { "t": 0.0, "photo": { "clip": "048", "start": 2.0, "bg": "park.jpg", "label": "the couple" },
+      "lines": [
+        { "t": 1.2, "text": "with the blessings of our elders", "style": "small" },
+        { "t": 3.0, "text": "Sharma ji's son", "style": "name" },
+        { "t": 4.6, "text": "weds", "style": "small" },
+        { "t": 5.6, "text": "Gupta ji's daughter", "style": "name" },
+        { "t": 7.6, "text": "and request the pleasure of your company", "style": "body" }
+      ] },
+    { "t": 11.0, "photo": { "clip": "068", "start": 1.0, "bg": "stage.jpg", "label": "sangeet rehearsal" },
+      "lines": [
+        { "t": 11.6, "text": "the functions", "style": "big" },
+        { "t": 13.0, "text": "haldi | sat 21 nov, 11 am · yellow only 💛", "style": "event" },
+        { "t": 15.6, "text": "sangeet | sun 22 nov, 7 pm · every guest performs. send your dance video by 15 nov", "style": "event" },
+        { "t": 19.2, "text": "shaadi | mon 23 nov · baraat at 6 pm sharp (8:30)", "style": "event" },
+        { "t": 22.0, "text": "shubh banquet hall, sector 14, near the petrol pump", "style": "body" }
+      ] },
+    { "t": 25.4, "photo": { "clip": "057", "start": 1.0, "bg": "park.jpg", "label": "with love" },
+      "swap": { "t": 33.4, "clip": "184", "start": 0.37, "bg": "park.jpg", "label": "the groom" },
+      "lines": [
+        { "t": 26.0, "text": "kindly rsvp by 10 nov", "style": "body" },
+        { "t": 27.8, "text": "your presence is our present", "style": "small" },
+        { "t": 30.0, "text": "no gifts please 🙏", "style": "big" }
+      ],
+      "qr": { "t": 33.0, "text": "blessings via upi only: sharmajisonweds@okhdfc" } }
+  ],
+  "end": 39.5
+}

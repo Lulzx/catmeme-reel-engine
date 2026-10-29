@@ -1,0 +1,319 @@
+{
+  "format": "departures_board",
+  "title": "papa reached the airport early for his first flight",
+  "output": "papa-flight-day-early.mp4",
+  "pov": "POV: papa is flying alone for the first time",
+  "clock": "5:10",
+  "start_clock": "05:10",
+  "alert_word": "TOMORROW",
+  "hold": 4.4,
+  "youtube": {
+    "pov": "POV: papa is flying alone for the first time",
+    "title": "papa reached the airport early for his first flight 🐱✈️ #shorts",
+    "description": "he left home at 4 am to be safe. security was empty. now we know why.\n\nsend this to the papa who reaches the station 3 hours early 🙏\n#shorts #indianparents #firstflight #airport #catmemes",
+    "tags": [
+      "cat memes",
+      "indian parents",
+      "first flight",
+      "airport",
+      "papa",
+      "relatable",
+      "funny cats",
+      "shorts"
+    ]
+  },
+  "clips_used": [
+    "022",
+    "182",
+    "037"
+  ],
+  "columns": [
+    [
+      "TIME",
+      5
+    ],
+    [
+      "TO",
+      9
+    ],
+    [
+      "FLIGHT",
+      7
+    ],
+    [
+      "GATE",
+      4
+    ],
+    [
+      "REMARKS",
+      9
+    ]
+  ],
+  "cats": [
+    {
+      "at": -1,
+      "clip": "022",
+      "start": 0.5,
+      "dur": 5.0,
+      "loop": true,
+      "fit": 0.9,
+      "bg": "airport.jpg",
+      "who": "papa"
+    },
+    {
+      "at": 2,
+      "clip": "182",
+      "start": 0.0,
+      "dur": 4.0,
+      "fit": 0.88,
+      "bg": "airport.jpg",
+      "who": "guard bhaiya"
+    },
+    {
+      "at": 3,
+      "clip": "022",
+      "start": 2.5,
+      "dur": 4.0,
+      "loop": true,
+      "fit": 0.9,
+      "bg": "airport.jpg",
+      "who": "papa"
+    },
+    {
+      "at": 6,
+      "clip": "037",
+      "start": 1.0,
+      "bg": "airport.jpg",
+      "who": "papa"
+    }
+  ],
+  "events": [
+    {
+      "gap": 0.4,
+      "clock": "05:10",
+      "board": [
+        [
+          "06:05",
+          "DELHI",
+          "6E 211",
+          "12",
+          "ON TIME"
+        ],
+        [
+          "06:30",
+          "MUMBAI",
+          "UK 945",
+          "4",
+          "ON TIME"
+        ],
+        [
+          "07:15",
+          "KOLKATA",
+          "AI 763",
+          "9",
+          "ON TIME"
+        ],
+        [
+          "08:20",
+          "BENGALURU",
+          "6E 552",
+          "15",
+          "ON TIME"
+        ],
+        [
+          "09:05",
+          "CHENNAI",
+          "SG 118",
+          "2",
+          "ON TIME"
+        ],
+        [
+          "09:55",
+          "GOA",
+          "QP 1342",
+          "6",
+          "ON TIME"
+        ]
+      ],
+      "msg": {
+        "from": "papa",
+        "text": "reached airport. 5:10 am. security was empty 👍"
+      }
+    },
+    {
+      "gap": 4.5,
+      "clock": "06:10",
+      "board": [
+        [
+          "06:30",
+          "MUMBAI",
+          "UK 945",
+          "4",
+          "BOARDING"
+        ],
+        [
+          "07:15",
+          "KOLKATA",
+          "AI 763",
+          "9",
+          "ON TIME"
+        ],
+        [
+          "08:20",
+          "BENGALURU",
+          "6E 552",
+          "15",
+          "ON TIME"
+        ],
+        [
+          "09:05",
+          "CHENNAI",
+          "SG 118",
+          "2",
+          "ON TIME"
+        ],
+        [
+          "09:55",
+          "GOA",
+          "QP 1342",
+          "6",
+          "ON TIME"
+        ],
+        [
+          "10:30",
+          "PUNE",
+          "6E 704",
+          "11",
+          "ON TIME"
+        ]
+      ],
+      "msg": {
+        "from": "papa",
+        "text": "my flight is not showing on this board"
+      }
+    },
+    {
+      "gap": 4.5,
+      "clock": "07:20",
+      "chime": true,
+      "board": [
+        [
+          "08:20",
+          "BENGALURU",
+          "6E 552",
+          "15",
+          "BOARDING"
+        ],
+        [
+          "09:05",
+          "CHENNAI",
+          "SG 118",
+          "2",
+          "ON TIME"
+        ],
+        [
+          "09:55",
+          "GOA",
+          "QP 1342",
+          "6",
+          "ON TIME"
+        ],
+        [
+          "10:30",
+          "PUNE",
+          "6E 704",
+          "11",
+          "ON TIME"
+        ],
+        [
+          "11:10",
+          "JAIPUR",
+          "AI 491",
+          "3",
+          "ON TIME"
+        ],
+        [
+          "11:45",
+          "LUCKNOW",
+          "6E 618",
+          "8",
+          "ON TIME"
+        ]
+      ],
+      "msg": {
+        "from": "papa",
+        "text": "asked guard bhaiya. he is also confused"
+      }
+    },
+    {
+      "gap": 4.9,
+      "clock": "08:45",
+      "msg": {
+        "from": "papa",
+        "text": "i will wait. better early than late"
+      }
+    },
+    {
+      "gap": 4.3,
+      "clock": "09:40",
+      "board": [
+        [
+          "09:40",
+          "PATNA",
+          "AI 805",
+          "--",
+          "TOMORROW"
+        ],
+        [
+          "09:55",
+          "GOA",
+          "QP 1342",
+          "6",
+          "BOARDING"
+        ],
+        [
+          "10:30",
+          "PUNE",
+          "6E 704",
+          "11",
+          "ON TIME"
+        ],
+        [
+          "11:10",
+          "JAIPUR",
+          "AI 491",
+          "3",
+          "ON TIME"
+        ],
+        [
+          "11:45",
+          "LUCKNOW",
+          "6E 618",
+          "8",
+          "ON TIME"
+        ],
+        [
+          "12:20",
+          "HYDERABAD",
+          "SG 302",
+          "5",
+          "ON TIME"
+        ]
+      ]
+    },
+    {
+      "gap": 3.5,
+      "msg": {
+        "from": "papa",
+        "text": "counter madam says ticket is for 30 oct"
+      }
+    },
+    {
+      "gap": 4.1,
+      "msg": {
+        "from": "papa",
+        "text": "i will sleep here only 👍"
+      }
+    }
+  ]
+}

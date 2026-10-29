@@ -15,8 +15,11 @@ from chat_render import W, H, FPS, SR, font, emoji, wrap, draw_rich, line_w, com
 
 BG = (8, 6, 38)
 GOLD, NAVY, ORANGE, GREEN = (240, 190, 70), (22, 26, 92), (236, 128, 20), (30, 160, 70)
-WIN = (60, 200, 960, 830)                     # camera window x, y, w, h
-LIFE_Y, AMT_Y, Q_Y, OPT_Y = 1080, 1200, 1280, 1510
+# Laid out inside the Shorts safe zone (engine/safe_zone.py): y 150..1420, x 60..1020,
+# and x <= 900 below y 1000 where the like/share rail sits.
+WIN = (60, 222, 960, 560)                     # camera window x, y, w, h
+QX, QW = 60, 840                              # question + options column
+LIFE_Y, AMT_Y, Q_Y, OPT_Y = 798, 912, 970, 1112
 
 
 def hexbox(w, h, fill, edge=GOLD):
@@ -115,9 +118,9 @@ def draw(frame, t, s, st):
     for y in range(0, H, 8):                           # stage glow
         k = max(0.0, 1 - abs(y - 1300) / 1300)
         d.rectangle((0, y, W, y + 8), fill=(int(8 + 30 * k), int(6 + 10 * k), int(38 + 60 * k)))
-    pf = fit_font(s["pov"], W - 80, 46, "Bold")
-    y = 70
-    for ln in wrap(s["pov"], pf, W - 80):
+    pf = fit_font(s["pov"], W - 140, 44, "Bold")
+    y = 160
+    for ln in wrap(s["pov"], pf, W - 140)[:1]:
         draw_rich(frame, (W - line_w(ln)) / 2, y, [ln], pf, (255, 255, 255), 56); y += 56
     x0, y0, ww, wh = WIN
     # camera
@@ -144,21 +147,21 @@ def draw(frame, t, s, st):
     pl = st["poll"]
     if pl and pl["t"] <= t < pl["until"]:
         a = min(1, (t - pl["t"]) / 0.3, (pl["until"] - t) / 0.3)
-        panel = Image.new("RGBA", (640, 560), (0, 0, 0, 0))
+        panel = Image.new("RGBA", (600, 470), (0, 0, 0, 0))
         pd = ImageDraw.Draw(panel)
-        pd.rounded_rectangle((0, 0, 639, 559), 30, fill=(12, 14, 60, 235), outline=GOLD, width=4)
+        pd.rounded_rectangle((0, 0, 599, 469), 30, fill=(12, 14, 60, 235), outline=GOLD, width=4)
         pd.text((40, 26), "audience poll", font=font(40, "Bold"), fill=GOLD)
         grow = ease((t - pl["t"] - 0.3) / 1.4)
         for i, v in enumerate(pl["vals"]):
             bx = 60 + i * 140
-            bh = 330 * v / 100 * grow
-            pd.rectangle((bx, 470 - bh, bx + 90, 470), fill=(90, 150, 255))
+            bh = 260 * v / 100 * grow
+            pd.rectangle((bx, 390 - bh, bx + 90, 390), fill=(90, 150, 255))
             lab = f"{int(round(v * grow))}%"
             lf = font(32, "Semibold")
-            pd.text((bx + 45 - lf.getlength(lab) / 2, 430 - bh), lab, font=lf, fill=(255, 255, 255))
-            pd.text((bx + 30, 486), "ABCD"[i], font=font(40, "Bold"), fill=GOLD)
+            pd.text((bx + 45 - lf.getlength(lab) / 2, 350 - bh), lab, font=lf, fill=(255, 255, 255))
+            pd.text((bx + 30, 402), "ABCD"[i], font=font(40, "Bold"), fill=GOLD)
         panel.putalpha(panel.getchannel("A").point(lambda v, a=a: int(v * a)))
-        comp(frame, panel, x0 + (ww - 640) / 2, y0 + 90)
+        comp(frame, panel, x0 + (ww - 600) / 2, y0 + 30)
     for sy in st["says"]:
         draw_caption(frame, t, sy, s["people"])
     inc = st["incoming"]
@@ -174,7 +177,7 @@ def draw(frame, t, s, st):
         comp(frame, card, x0 + 30, y0 - 170 + 210 * k)
     # lifelines
     for i, (key, label) in enumerate((("5050", "50:50"), ("audience", "👥"), ("phone", "📞"))):
-        cx, cy, r = 300 + i * 240, LIFE_Y + 50, 56
+        cx, cy, r = 300 + i * 240, LIFE_Y + 48, 48
         used = key in st["used"] and t >= st["used"][key]
         d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=(40, 20, 110) if not used else (30, 24, 60),
                   outline=GOLD, width=4)
@@ -194,35 +197,35 @@ def draw(frame, t, s, st):
         amt = s["amount"] + " ke liye"
         af = font(44, "Bold")
         d.text(((W - af.getlength(amt)) / 2, AMT_Y), amt, font=af, fill=GOLD)
-        d.line((0, Q_Y + 80, W, Q_Y + 80), fill=GOLD, width=3)
-        qb = hexbox(W - 60, 160, NAVY)
-        qf = fit_font(s["question"], W - 260, 46, "Semibold")
-        ql = wrap(s["question"], qf, W - 260)[:2]
-        qy = 80 - len(ql) * 29
+        d.line((0, Q_Y + 65, W, Q_Y + 65), fill=GOLD, width=3)
+        qb = hexbox(QW, 130, NAVY)
+        qf = fit_font(s["question"], QW - 180, 42, "Semibold")
+        ql = wrap(s["question"], qf, QW - 180)[:2]
+        qy = 65 - len(ql) * 26
         for ln in ql:
-            draw_rich(qb, (qb.width - line_w(ln)) / 2, qy, [ln], qf, (255, 255, 255), 58); qy += 58
+            draw_rich(qb, (qb.width - line_w(ln)) / 2, qy, [ln], qf, (255, 255, 255), 52); qy += 52
         a = ease((t - st["shows"]["q"]) / 0.3)
         qb.putalpha(qb.getchannel("A").point(lambda v, a=a: int(v * a)))
-        comp(frame, qb, 30, Q_Y)
+        comp(frame, qb, QX, Q_Y)
     for i, opt in enumerate(s["options"]):
         if i not in st["shows"] or t < st["shows"][i]:
             continue
-        ox, oy = 30 + (i % 2) * 520, OPT_Y + (i // 2) * 150
+        ox, oy = QX + (i % 2) * (QW // 2 + 6), OPT_Y + (i // 2) * 124
         if i % 2 == 0:
-            d.line((0, oy + 60, W, oy + 60), fill=GOLD, width=3)
+            d.line((0, oy + 50, W, oy + 50), fill=GOLD, width=3)
         fill = NAVY
         gone = i in st["remove_t"] and t >= st["remove_t"][i]
         if st["lock"] and t >= st["lock"][0] and st["lock"][1] == i:
             fill = ORANGE
         if st["reveal"] and t >= st["reveal"][0] and st["reveal"][1] == i:
             fill = GREEN if int((t - st["reveal"][0]) * 6) % 2 == 0 or t - st["reveal"][0] > 1.2 else ORANGE
-        ob = hexbox(500, 120, fill)
+        ob = hexbox(QW // 2 - 6, 100, fill)
         od = ImageDraw.Draw(ob)
         if not gone:
-            lf = font(42, "Bold")
-            od.text((70, 32), "ABCD"[i] + ":", font=lf, fill=GOLD if fill == NAVY else (255, 255, 255))
-            of = fit_font(opt, 330, 42, "Semibold")
-            od.text((130, 32), opt, font=of, fill=(255, 255, 255))
+            lf = font(38, "Bold")
+            od.text((58, 27), "ABCD"[i] + ":", font=lf, fill=GOLD if fill == NAVY else (255, 255, 255))
+            of = fit_font(opt, 260, 38, "Semibold")
+            od.text((112, 27), opt, font=of, fill=(255, 255, 255))
         a = ease((t - st["shows"][i]) / 0.25)
         ob.putalpha(ob.getchannel("A").point(lambda v, a=a: int(v * a)))
         comp(frame, ob, ox, oy)

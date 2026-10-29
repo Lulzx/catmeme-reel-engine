@@ -1,0 +1,141 @@
+{
+  "format": "recipe_card",
+  "title": "you asked mummy for her rajma recipe",
+  "output": "mummys-rajma-recipe.mp4",
+  "pov": "POV: you asked mummy for the exact rajma recipe",
+  "clock": "7:05",
+  "dish": "mummy's rajma",
+  "meta": "🕐 prep: depends   🍛 serves: whoever comes",
+  "youtube": {
+    "pov": "POV: you asked mummy for the exact rajma recipe",
+    "title": "asked mummy for the exact rajma recipe 🐱🍛 #shorts",
+    "description": "6 ingredients. 0 units. 4 whistles or until papa asks.\n\nsend this to the one who still calls home to ask how much salt 🧂\n#shorts #indianmom #mummykahaath #rajmachawal #catmemes",
+    "tags": [
+      "cat memes",
+      "indian mom",
+      "rajma",
+      "andaaz se",
+      "desi kitchen",
+      "relatable",
+      "funny cats",
+      "shorts"
+    ]
+  },
+  "hero": [
+    {
+      "t": 0.0,
+      "label": "mummy's kitchen",
+      "clip": "160",
+      "start": 0.0,
+      "bg": "kitchen.jpg",
+      "sound_dur": 3.0
+    },
+    {
+      "t": 13.6,
+      "label": "you",
+      "clip": "166",
+      "start": 0.5,
+      "bg": "home.jpg",
+      "sound": false,
+      "sound_dur": 0.1,
+      "vol": 0.0,
+      "line": "ok but how much is thoda",
+      "line_t": 14.2
+    },
+    {
+      "t": 16.2,
+      "label": "mummy's kitchen",
+      "clip": "160",
+      "start": 2.5,
+      "bg": "kitchen.jpg",
+      "sound_dur": 2.5
+    },
+    {
+      "t": 29.4,
+      "label": "mummy",
+      "clip": "182",
+      "start": 0.2,
+      "bg": "kitchen.jpg",
+      "fit": 0.8,
+      "sound_dur": 4.2,
+      "line": "grams?? you have eyes na",
+      "line_t": 29.9
+    }
+  ],
+  "ingredients": [
+    {
+      "t": 1.4,
+      "emoji": "🫘",
+      "name": "rajma",
+      "qty": "1 katori, the steel one"
+    },
+    {
+      "t": 3.4,
+      "emoji": "🧅",
+      "name": "onion",
+      "qty": "2, or 3 if small"
+    },
+    {
+      "t": 5.4,
+      "emoji": "🍅",
+      "name": "tomato",
+      "qty": "jitna chahiye"
+    },
+    {
+      "t": 7.4,
+      "emoji": "🧂",
+      "name": "salt",
+      "qty": "andaaz se"
+    },
+    {
+      "t": 9.4,
+      "emoji": "🌶️",
+      "name": "garam masala",
+      "qty": "thoda (not your thoda)"
+    },
+    {
+      "t": 11.4,
+      "emoji": "🧈",
+      "name": "ghee",
+      "qty": "dil se"
+    }
+  ],
+  "tabs": [
+    {
+      "t": 16.4,
+      "tab": "Method"
+    },
+    {
+      "t": 25.6,
+      "tab": "Ingredients"
+    }
+  ],
+  "steps": [
+    {
+      "t": 17.0,
+      "text": "soak rajma at night. if you forgot, soak it in the morning and don't tell anyone"
+    },
+    {
+      "t": 19.8,
+      "text": "pressure cooker: 4 whistles, or until papa asks \"khana bana?\""
+    },
+    {
+      "t": 22.6,
+      "text": "bhuno the masala till the colour is right. you will know"
+    }
+  ],
+  "convert": {
+    "show": 25.8,
+    "tap": 26.8,
+    "fail": 27.8,
+    "toast": 28.2,
+    "label": "convert to grams",
+    "toast_text": "conversion failed: \"andaaz se\" is not a unit"
+  },
+  "end": 35.0,
+  "clips_used": [
+    "160",
+    "166",
+    "182"
+  ]
+}

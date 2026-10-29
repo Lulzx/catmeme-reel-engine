@@ -1,0 +1,366 @@
+{
+  "format": "streaming_profiles",
+  "title": "the family's continue watching rows",
+  "output": "whos-watching.mp4",
+  "pov": "POV: you open everyone's continue watching",
+  "brand": "FAMFLIX",
+  "clock": "11:40",
+  "youtube": {
+    "pov": "POV: you open everyone's continue watching",
+    "title": "opened everyone's continue watching in the family account 🐱📺 #shorts",
+    "description": "papa says he doesn't watch it. papa is 6 episodes ahead.\n\n#shorts #desifamily #familyaccount #dadi #catmemes",
+    "tags": [
+      "cat memes",
+      "desi family",
+      "family account",
+      "continue watching",
+      "dadi",
+      "relatable",
+      "funny cats",
+      "shorts"
+    ]
+  },
+  "profiles": [
+    {
+      "t": 2.6,
+      "name": "Papa",
+      "avatar": "151",
+      "clip": "151",
+      "start": 0.5,
+      "bg": "livingroom.jpg",
+      "sound_dur": 2.5,
+      "posters": [
+        {
+          "emoji": "📺",
+          "title": "prime time debate live",
+          "colors": [
+            [
+              120,
+              20,
+              20
+            ],
+            [
+              30,
+              10,
+              10
+            ]
+          ],
+          "prog": 0.9,
+          "sub": "7 hours today"
+        },
+        {
+          "emoji": "💸",
+          "title": "save tax legally",
+          "colors": [
+            [
+              20,
+              90,
+              60
+            ],
+            [
+              10,
+              30,
+              20
+            ]
+          ],
+          "prog": 0.05,
+          "sub": "part 1 of 47"
+        },
+        {
+          "emoji": "💔",
+          "title": "saas bahu serial",
+          "colors": [
+            [
+              150,
+              40,
+              110
+            ],
+            [
+              40,
+              10,
+              40
+            ]
+          ],
+          "prog": 0.7,
+          "sub": "ep 1,204"
+        }
+      ],
+      "note": "every night at 9: \"who watches this nonsense\""
+    },
+    {
+      "t": 8.8,
+      "name": "Mummy",
+      "avatar": "148",
+      "clip": "148",
+      "start": 0.0,
+      "bg": "home.jpg",
+      "sound": false,
+      "posters": [
+        {
+          "emoji": "🪂",
+          "title": "korean drama",
+          "colors": [
+            [
+              40,
+              80,
+              160
+            ],
+            [
+              10,
+              20,
+              50
+            ]
+          ],
+          "prog": 0.95,
+          "sub": "3rd rewatch"
+        },
+        {
+          "emoji": "🧴",
+          "title": "10 step skincare",
+          "colors": [
+            [
+              230,
+              140,
+              160
+            ],
+            [
+              80,
+              30,
+              50
+            ]
+          ],
+          "prog": 0.4,
+          "sub": "step 4"
+        },
+        {
+          "emoji": "💔",
+          "title": "saas bahu serial",
+          "colors": [
+            [
+              150,
+              40,
+              110
+            ],
+            [
+              40,
+              10,
+              40
+            ]
+          ],
+          "prog": 0.6,
+          "sub": "ep 1,198"
+        }
+      ],
+      "note": "6 episodes behind papa. papa has not told her."
+    },
+    {
+      "t": 15.0,
+      "name": "Chhota bhai",
+      "avatar": "159",
+      "clip": "159",
+      "start": 0.0,
+      "bg": "home.jpg",
+      "sound_dur": 3.0,
+      "vol": 0.7,
+      "posters": [
+        {
+          "emoji": "📚",
+          "title": "study with me 10 hours",
+          "colors": [
+            [
+              70,
+              70,
+              90
+            ],
+            [
+              20,
+              20,
+              30
+            ]
+          ],
+          "prog": 0.01,
+          "sub": "watched 4 min"
+        },
+        {
+          "emoji": "🎮",
+          "title": "minecraft 100 days",
+          "colors": [
+            [
+              60,
+              140,
+              60
+            ],
+            [
+              15,
+              40,
+              15
+            ]
+          ],
+          "prog": 1.0,
+          "sub": "finished twice"
+        },
+        {
+          "emoji": "🧸",
+          "title": "baby nursery rhymes",
+          "colors": [
+            [
+              240,
+              180,
+              60
+            ],
+            [
+              90,
+              50,
+              10
+            ]
+          ],
+          "prog": 0.3,
+          "sub": "he is 19"
+        }
+      ],
+      "note": "boards in 11 days"
+    },
+    {
+      "t": 21.2,
+      "name": "You",
+      "avatar": "183",
+      "clip": "183",
+      "start": 0.0,
+      "bg": "home.jpg",
+      "sound": true,
+      "posters": [
+        {
+          "emoji": "🕵️",
+          "title": "your show S3 E8",
+          "colors": [
+            [
+              30,
+              60,
+              70
+            ],
+            [
+              5,
+              15,
+              20
+            ]
+          ],
+          "prog": 1.0,
+          "sub": "✅ watched"
+        },
+        {
+          "emoji": "🕵️",
+          "title": "your show S3 E9",
+          "colors": [
+            [
+              30,
+              60,
+              70
+            ],
+            [
+              5,
+              15,
+              20
+            ]
+          ],
+          "prog": 1.0,
+          "sub": "✅ watched"
+        },
+        {
+          "emoji": "🕵️",
+          "title": "your show S3 E10",
+          "colors": [
+            [
+              30,
+              60,
+              70
+            ],
+            [
+              5,
+              15,
+              20
+            ]
+          ],
+          "prog": 1.0,
+          "sub": "✅ season finale"
+        }
+      ],
+      "note": "you were on episode 7. papa was on your profile at 1 am.",
+      "sound_dur": 2.0
+    },
+    {
+      "t": 27.4,
+      "name": "Dadi",
+      "avatar": "189",
+      "clip": "189",
+      "start": 0.0,
+      "bg": "village.jpg",
+      "sound_dur": 5.0,
+      "posters": [
+        {
+          "emoji": "🔫",
+          "title": "john wick 4",
+          "colors": [
+            [
+              20,
+              20,
+              20
+            ],
+            [
+              90,
+              10,
+              10
+            ]
+          ],
+          "prog": 1.0,
+          "sub": "3rd time"
+        },
+        {
+          "emoji": "🦑",
+          "title": "squid game S2",
+          "colors": [
+            [
+              200,
+              30,
+              90
+            ],
+            [
+              40,
+              10,
+              30
+            ]
+          ],
+          "prog": 0.85,
+          "sub": "2 episodes left"
+        },
+        {
+          "emoji": "💰",
+          "title": "money heist",
+          "colors": [
+            [
+              160,
+              20,
+              20
+            ],
+            [
+              30,
+              5,
+              5
+            ]
+          ],
+          "prog": 0.6,
+          "sub": "spanish audio"
+        }
+      ],
+      "note": "told everyone she only watches the bhajan channel",
+      "note_t": 3.0
+    }
+  ],
+  "end": 35.2,
+  "clips_used": [
+    "151",
+    "148",
+    "159",
+    "183",
+    "189"
+  ]
+}

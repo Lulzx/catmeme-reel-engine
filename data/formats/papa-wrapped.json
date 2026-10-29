@@ -1,0 +1,31 @@
+{
+  "format": "wrapped",
+  "title": "papa's 2026 wrapped",
+  "output": "papa-wrapped.mp4",
+  "pov": "POV: papa got his 2026 wrapped",
+  "youtube": {
+    "pov": "POV: papa got his 2026 wrapped",
+    "title": "papa's 2026 wrapped 🐱🎧 #shorts",
+    "description": "1,095 times \"khana bana?\". 3,212 lights switched off. one top artist.\n\ntag the papa who turned off your light while you were in the room 💡\n#shorts #indiandad #papa #wrapped #catmemes",
+    "tags": ["cat memes", "indian dad", "papa", "wrapped", "desi family", "relatable", "funny cats", "shorts"]
+  },
+  "slides": [
+    { "t": 0.0, "colors": [[30, 215, 96], [10, 80, 40]], "ink": [10, 10, 10], "label": "your 2026 wrapped is here", "big": "Papa", "big_size": 170,
+      "sub": "let's see what you were up to", "sub_t": 1.4, "clip": "162", "start": 0.5, "bg": "livingroom.jpg", "sound": false },
+    { "t": 4.0, "colors": [[255, 120, 40], [120, 20, 60]], "label": "you asked \"khana bana?\"", "big": "1,095 times",
+      "sub": "3 times a day. the first one at 6:50 pm.", "clip": "175", "start": 0.5, "bg": "kitchen.jpg", "sound_dur": 3.0 },
+    { "t": 9.0, "colors": [[250, 220, 60], [200, 90, 20]], "ink": [20, 10, 0], "label": "lights you switched off in empty rooms", "big": "3,212",
+      "sub": "4 of those rooms had someone in them", "clip": "188", "start": 0.0, "bg": "home.jpg", "sound_dur": 3.0 },
+    { "t": 14.0, "colors": [[80, 60, 230], [20, 10, 80]], "label": "your top phrase", "big": "\"paisa ped pe nahi ugta\"", "big_size": 96,
+      "sub": "said 1,460 times. once at a wedding.", "clip": "145", "start": 1.0, "bg": "livingroom.jpg", "sound": false },
+    { "t": 19.0, "colors": [[230, 40, 120], [70, 10, 50]], "label": "hours spent looking for the remote", "big": "73 hours",
+      "sub": "it was in your hand 41 of those times", "clip": "154", "start": 0.5, "bg": "livingroom.jpg", "fit": 0.85, "sound": false },
+    { "t": 24.0, "colors": [[20, 160, 200], [10, 40, 80]], "label": "your top 5",
+      "list": ["light band karo", "AC 24 pe chalao", "hum tumhari umar mein", "kitne marks aaye", "apni mummy se poocho"],
+      "clip": "150", "start": 0.3, "bg": "home.jpg", "sound_dur": 2.5 },
+    { "t": 30.0, "colors": [[255, 90, 90], [90, 20, 40]], "label": "your top artist", "big": "Mummy", "big_size": 170,
+      "sub": "2,190 hours listened. 2,188 hours skipped.", "sub_t": 2.2, "clip": "163", "start": 0.5, "bg": "home.jpg", "sound": false }
+  ],
+  "end": 36.4,
+  "clips_used": ["162", "175", "188", "145", "154", "150", "163"]
+}

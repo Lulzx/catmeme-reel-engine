@@ -1,0 +1,40 @@
+{
+  "format": "cricket_scorecard",
+  "title": "society cricket final, last over, you're on strike",
+  "output": "six-into-sharma-uncles-balcony.mp4",
+  "pov": "POV: society cricket final. last over. you're on strike",
+  "match": "society final · A-wing vs B-wing",
+  "batting": "A-wing",
+  "target": 97,
+  "start_score": "86/4",
+  "start_need": "need 11 off 4",
+  "over_so_far": ["1", "0"],
+  "clips_used": ["108", "104", "130", "133", "126", "137", "143"],
+  "youtube": {
+    "pov": "POV: society cricket final. last over. you're on strike",
+    "title": "society cricket final. last ball. need 6 🐱🏏 #shorts",
+    "description": "the shot was perfect. the rules were not.\n\nwhat's the rule in your society if the ball goes in a balcony 👇\n#shorts #gullycricket #societylife #cricket #catmemes",
+    "tags": ["cat memes", "gully cricket", "society cricket", "cricket", "apartment life", "relatable", "funny cats", "shorts"]
+  },
+  "rules": { "title": "society rules (final)", "list": ["ball in any balcony = out", "one tip one hand", "no match after 9 pm. mrs. iyer will come down"] },
+  "events": [
+    { "t": 0.0, "rules": true, "until": 4.4, "cam": { "clip": "108", "start": 0.5, "dur": 8.5, "bg": "playground.jpg", "label": "you · on strike" } },
+    { "t": 4.6, "ball": "4", "over": "11.3", "text": "four. off the bonnet of the parked swift", "score": "90/4", "need": "need 7 off 3", "flash": "FOUR",
+      "cam": { "clip": "104", "start": 0.5, "dur": 4.0, "bg": "playground.jpg", "label": "you" } },
+    { "t": 8.8, "ball": "wd", "over": "11.4", "text": "wide. the bowler is 9 years old", "score": "91/4", "need": "need 6 off 3",
+      "cam": { "clip": "130", "start": 0.0, "dur": 4.0, "bg": "playground.jpg", "label": "bowler · age 9" } },
+    { "t": 13.0, "ball": "0", "over": "11.4", "text": "dot ball. mummy is calling from the 4th floor", "need": "need 6 off 2",
+      "cam": { "clip": "133", "start": 0.5, "dur": 4.0, "bg": "rooftop.jpg", "label": "mummy · 4th floor" } },
+    { "t": 17.2, "ball": "db", "over": "11.5", "text": "dead ball. guard uncle walked across the pitch with a ladder",
+      "cam": { "clip": "108", "start": 4.0, "dur": 4.0, "bg": "playground.jpg", "label": "you · waiting" } },
+    { "t": 21.4, "ball": "0", "over": "11.5", "text": "swing and a miss. all 3 fielders are sitting down", "need": "need 6 off 1", "final": true,
+      "cam": { "clip": "126", "start": 0.5, "dur": 4.0, "bg": "playground.jpg", "label": "fielders" } },
+    { "t": 25.6, "ball": "6", "over": "11.6", "text": "six. straight into sharma uncle's balcony", "score": "97/4", "need": "A-wing win? 🏆", "flash": "SIX",
+      "cam": { "clip": "137", "start": 0.0, "dur": 4.0, "bg": "rooftop.jpg", "label": "the ball" } },
+    { "t": 29.4, "retcon": true, "ball": "W", "over": "11.6", "text": "out. rule no. 1. B-wing win by 5 runs", "score": "91/5", "need": "B-wing win by 5 runs", "flash": "OUT",
+      "rules": true, "highlight": 0, "until": 32.4 },
+    { "t": 32.6, "over": "", "text": "sharma uncle has kept the ball",
+      "cam": { "clip": "143", "start": 0.5, "dur": 5.0, "bg": "rooftop.jpg", "label": "sharma uncle · B-302" } },
+    { "t": 37.4, "end": true }
+  ]
+}

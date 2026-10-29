@@ -1,0 +1,41 @@
+{
+  "format": "step_counter",
+  "title": "you and mummy are in a step challenge",
+  "output": "mummy-23418-steps.mp4",
+  "pov": "POV: mummy joined your step challenge",
+  "challenge": "🏆 family challenge · loser washes tonight's utensils",
+  "goal": 10000,
+  "clips_used": ["115", "109", "100", "131"],
+  "youtube": {
+    "pov": "POV: mummy joined your step challenge",
+    "title": "POV: mummy joined your step challenge 🐱👟 #shorts",
+    "description": "23,418 vs 312. she did the sabzi mandi twice.\n\nwhose mummy has never once sat down before 10 pm 🙋\n#shorts #indianmom #steps #fitness #catmemes",
+    "tags": ["cat memes", "indian mom", "step count", "fitness app", "desi family", "relatable", "funny cats", "shorts"]
+  },
+  "people": {
+    "mummy": { "name": "mummy", "color": [250, 45, 95] },
+    "you":   { "name": "you",   "color": [140, 228, 50] }
+  },
+  "cams": {
+    "mummy": [ { "t": 0, "clip": "115", "start": 0.5, "dur": 14.0, "bg": "kitchen.jpg", "label": "mummy", "loop": true },
+               { "t": 29.4, "clip": "100", "start": 0.0, "dur": 6.2, "bg": "livingroom.jpg", "label": "mummy · 10:40 pm" } ],
+    "you":   [ { "t": 0, "clip": "109", "start": 0.5, "dur": 14.0, "bg": "home.jpg", "label": "you", "loop": true, "vol": 0.3 },
+               { "t": 29.4, "clip": "131", "start": 0.5, "dur": 8.0, "bg": "kitchen2.jpg", "label": "you · 10:40 pm" } ]
+  },
+  "events": [
+    { "t": 1.8,  "who": "mummy", "time": "5:40 am",  "text": "milk from the dairy", "steps": 2400 },
+    { "t": 4.2,  "who": "mummy", "time": "7:05 am",  "text": "tiffin to the bus stop, twice", "steps": 1860 },
+    { "t": 6.6,  "who": "you",   "time": "11:50 am", "text": "bed to bathroom", "steps": 41 },
+    { "t": 9.0,  "who": "mummy", "time": "12:10 pm", "text": "sabzi mandi, both gates", "steps": 6900 },
+    { "t": 11.4, "who": "mummy", "time": "1:30 pm",  "text": "terrace, clothes up", "steps": 1300 },
+    { "t": 13.8, "who": "you",   "time": "2:15 pm",  "text": "bed to fridge", "steps": 122 },
+    { "t": 16.2, "who": "mummy", "time": "3:40 pm",  "text": "followed the kabadiwala to the next lane", "steps": 3300 },
+    { "t": 18.6, "who": "mummy", "time": "6:00 pm",  "text": "temple and back with sharma aunty", "steps": 5600 },
+    { "t": 21.0, "who": "you",   "time": "7:20 pm",  "text": "fridge to bed", "steps": 149 },
+    { "t": 23.4, "who": "mummy", "time": "8:30 pm",  "text": "terrace, clothes down", "steps": 2058 },
+    { "t": 25.8, "result": { "title": "challenge over · 10:30 pm", "headline": "you lost by 23,106 steps", "body": "loser washes tonight's utensils. all of them." } },
+    { "t": 29.4, "who": "mummy", "time": "10:40 pm", "text": "on the sofa", "steps": 0 },
+    { "t": 30.8, "who": "you",   "time": "10:40 pm", "text": "kitchen sink · 47 utensils", "steps": 0 },
+    { "t": 35.6, "end": true }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "format": "stock_portfolio",
+  "title": "papa's portfolio after the whatsapp uncle's stock tip",
+  "output": "papa-whatsapp-stock-tip.mp4",
+  "pov": "POV: papa got a stock tip on whatsapp",
+  "owner": "papa's portfolio",
+  "clock": "9:14",
+  "hold": 4.4,
+  "stock": { "ticker": "BHARATROCKET", "open": 84, "low_axis": 50, "high_axis": 92 },
+  "youtube": {
+    "pov": "POV: papa got a stock tip on whatsapp",
+    "title": "papa took a stock tip from the whatsapp uncle 🐱📉 #shorts",
+    "description": "target ₹400. papa averaged down 3 times. the fd is involved now.\n\ntag someone whose papa is in a stock tips group 📉\n#shorts #stockmarket #indianparents #whatsappuncle #catmemes",
+    "tags": ["cat memes", "stock market", "indian parents", "whatsapp uncle", "trading", "relatable", "funny cats", "shorts"]
+  },
+  "clips_used": ["047", "022", "184"],
+  "cats": [
+    { "at": -1, "clip": "047", "start": 0.5, "dur": 4.0, "loop": true, "bg": "livingroom.jpg", "who": "papa" },
+    { "at": 6, "clip": "022", "start": 0.5, "bg": "livingroom.jpg", "who": "papa" },
+    { "at": 8, "clip": "184", "start": 0.37, "dur": 3.4, "bg": "library.jpg", "who": "gupta uncle" }
+  ],
+  "events": [
+    { "gap": 0.4, "clock": "9:14", "feed": { "from": "gupta uncle · stock tips 🙏", "text": "buy bharat rocket infra. 100% sure. target ₹400 🚀🚀" } },
+    { "gap": 3.4, "clock": "9:15", "price": 84, "buy": 200, "feed": { "from": "order executed", "text": "papa bought 200 @ ₹84", "kind": "order" } },
+    { "gap": 3.0, "clock": "9:31", "price": 79, "feed": { "from": "gupta uncle · stock tips 🙏", "text": "dont panic. this is a good entry" } },
+    { "gap": 3.0, "clock": "9:40", "price": 79, "buy": 200, "feed": { "from": "order executed", "text": "papa bought 200 more @ ₹79", "kind": "order" } },
+    { "gap": 3.0, "clock": "10:05", "price": 71, "feed": { "from": "papa · family group", "text": "average is coming down 👍" } },
+    { "gap": 3.0, "clock": "10:06", "price": 71, "buy": 400, "feed": { "from": "order executed", "text": "papa bought 400 more @ ₹71 · paid from the fd", "kind": "order" } },
+    { "gap": 3.2, "clock": "11:20", "price": 63, "feed": { "from": "mummy · family group", "text": "why papa is so quiet today" } },
+    { "gap": 3.2, "clock": "12:40", "price": 58, "feed": { "from": "nse alert", "text": "BHARATROCKET hit the lower circuit", "kind": "warn" } },
+    { "gap": 3.4, "clock": "12:41", "feed": { "from": "gupta uncle · stock tips 🙏", "text": "booked my profit at ₹86 yesterday. thank you all for buying 🙏" } }
+  ]
+}
