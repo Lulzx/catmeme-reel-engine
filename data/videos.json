@@ -9101,10 +9101,10 @@
         "shorts"
       ],
       "file": "output/should-i-quit-poll.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-11-01T02:56:00Z",
+      "video_id": "CBfcl58alGU",
       "kind": "short",
       "duration_sec": null,
       "chapters": []

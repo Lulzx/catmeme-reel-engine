@@ -394,7 +394,7 @@ Status: ✅ posted · 🕒 scheduled (auto-publishes later) · ⏳ queued (rende
 | 380 | nani-birthday-video-call | POV: the family video call to sing for nani's 75th | 🕒 scheduled | 2026-10-31T08:56:00Z | output/nani-birthday-video-call.mp4 |
 | 381 | diet-day-one-receipt | POV: day 1 of your diet, 3:07 am | 🕒 scheduled | 2026-10-31T14:56:00Z | output/diet-day-one-receipt.mp4 |
 | 382 | papa-opened-the-report-card | POV: papa opened your report card before you got home | 🕒 scheduled | 2026-10-31T20:56:00Z | output/papa-opened-the-report-card.mp4 |
-| 383 | should-i-quit-poll | POV: you posted a poll asking if you should quit your job | ⏳ queued | — | output/should-i-quit-poll.mp4 |
+| 383 | should-i-quit-poll | POV: you posted a poll asking if you should quit your job | 🕒 scheduled | 2026-11-01T02:56:00Z | output/should-i-quit-poll.mp4 |
 | 384 | papa-whatsapp-stock-tip | POV: papa got a stock tip on whatsapp | ⏳ queued | — | output/papa-whatsapp-stock-tip.mp4 |
 | 385 | coupon-that-never-works | POV: you just want the coupon to work | ⏳ queued | — | output/coupon-that-never-works.mp4 |
 | 386 | papa-flight-day-early | POV: papa is flying alone for the first time | ⏳ queued | — | output/papa-flight-day-early.mp4 |
@@ -4711,7 +4711,7 @@ Upload it with `python -m engine.upload --next`.
   ```
 - **Tags:** cat memes, report card, indian parents, exam results, papa, school, funny cats, shorts
 
-### should-i-quit-poll ⏳
+### should-i-quit-poll 🕒
 - **Title:** posted a poll asking if i should quit my job. forgot who follows me 🐱 #shorts
 - **Description:**
   ```
