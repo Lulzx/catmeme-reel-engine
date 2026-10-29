@@ -392,7 +392,7 @@ Status: ✅ posted · 🕒 scheduled (auto-publishes later) · ⏳ queued (rende
 | 378 | mummys-kitchen-reviews | POV: the family reviews mummy's kitchen | 🕒 scheduled | 2026-10-30T20:56:00Z | output/mummys-kitchen-reviews.mp4 |
 | 379 | rider-is-2-mins-away | POV: the rider has been 2 mins away for 35 minutes | 🕒 scheduled | 2026-10-31T02:56:00Z | output/rider-is-2-mins-away.mp4 |
 | 380 | nani-birthday-video-call | POV: the family video call to sing for nani's 75th | 🕒 scheduled | 2026-10-31T08:56:00Z | output/nani-birthday-video-call.mp4 |
-| 381 | diet-day-one-receipt | POV: day 1 of your diet, 3:07 am | ⏳ queued | — | output/diet-day-one-receipt.mp4 |
+| 381 | diet-day-one-receipt | POV: day 1 of your diet, 3:07 am | 🕒 scheduled | 2026-10-31T14:56:00Z | output/diet-day-one-receipt.mp4 |
 | 382 | papa-opened-the-report-card | POV: papa opened your report card before you got home | ⏳ queued | — | output/papa-opened-the-report-card.mp4 |
 | 383 | should-i-quit-poll | POV: you posted a poll asking if you should quit your job | ⏳ queued | — | output/should-i-quit-poll.mp4 |
 | 384 | papa-whatsapp-stock-tip | POV: papa got a stock tip on whatsapp | ⏳ queued | — | output/papa-whatsapp-stock-tip.mp4 |
@@ -4689,7 +4689,7 @@ Upload it with `python -m engine.upload --next`.
   ```
 - **Tags:** cat memes, family video call, desi family, nani, zoom call, you're on mute, funny cats, shorts
 
-### diet-day-one-receipt ⏳
+### diet-day-one-receipt 🕒
 - **Title:** the receipt from day 1 of my diet 🐱🧾 #shorts
 - **Description:**
   ```

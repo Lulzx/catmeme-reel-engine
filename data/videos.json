@@ -9051,10 +9051,10 @@
         "shorts"
       ],
       "file": "output/diet-day-one-receipt.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-10-31T14:56:00Z",
+      "video_id": "_TVButj16jQ",
       "kind": "short",
       "duration_sec": null,
       "chapters": []
