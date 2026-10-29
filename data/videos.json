@@ -9026,10 +9026,10 @@
         "shorts"
       ],
       "file": "output/nani-birthday-video-call.mp4",
-      "status": "queued",
+      "status": "scheduled",
       "posted": null,
-      "publish_at": null,
-      "video_id": null,
+      "publish_at": "2026-10-31T08:56:00Z",
+      "video_id": "w04AaxdQaaE",
       "kind": "short",
       "duration_sec": null,
       "chapters": []

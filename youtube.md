@@ -391,7 +391,7 @@ Status: ✅ posted · 🕒 scheduled (auto-publishes later) · ⏳ queued (rende
 | 377 | pnr-refresh-diwali | POV: your diwali ticket home is on waitlist | 🕒 scheduled | 2026-10-30T14:56:00Z | output/pnr-refresh-diwali.mp4 |
 | 378 | mummys-kitchen-reviews | POV: the family reviews mummy's kitchen | 🕒 scheduled | 2026-10-30T20:56:00Z | output/mummys-kitchen-reviews.mp4 |
 | 379 | rider-is-2-mins-away | POV: the rider has been 2 mins away for 35 minutes | 🕒 scheduled | 2026-10-31T02:56:00Z | output/rider-is-2-mins-away.mp4 |
-| 380 | nani-birthday-video-call | POV: the family video call to sing for nani's 75th | ⏳ queued | — | output/nani-birthday-video-call.mp4 |
+| 380 | nani-birthday-video-call | POV: the family video call to sing for nani's 75th | 🕒 scheduled | 2026-10-31T08:56:00Z | output/nani-birthday-video-call.mp4 |
 | 381 | diet-day-one-receipt | POV: day 1 of your diet, 3:07 am | ⏳ queued | — | output/diet-day-one-receipt.mp4 |
 | 382 | papa-opened-the-report-card | POV: papa opened your report card before you got home | ⏳ queued | — | output/papa-opened-the-report-card.mp4 |
 | 383 | should-i-quit-poll | POV: you posted a poll asking if you should quit your job | ⏳ queued | — | output/should-i-quit-poll.mp4 |
@@ -4678,7 +4678,7 @@ Upload it with `python -m engine.upload --next`.
   ```
 - **Tags:** cat memes, food delivery, delivery rider, spam call, indian, relatable, funny cats, shorts
 
-### nani-birthday-video-call ⏳
+### nani-birthday-video-call 🕒
 - **Title:** the family video call for nani's birthday 🐱🎂 #shorts
 - **Description:**
   ```
